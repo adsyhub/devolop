@@ -68,6 +68,17 @@ def plain_text(nodes: Any) -> str:
                     for node in _walk(nodes) if node.get("type") in _PROSE)
 
 
+def comparable_text(nodes: Any) -> str:
+    """Everything that distinguishes one choice from another, formulas included.
+
+    Two options that read the same in prose but differ in their formulas are
+    different options; comparing only the prose would report them as duplicates.
+    """
+    return "".join("".join(str(node.get(field) or "")
+                           for field in ("value", "latex", "base"))
+                   for node in _walk(nodes)).strip()
+
+
 def unanswerable_reasons(
     *,
     stem: list[dict[str, Any]],
@@ -92,7 +103,7 @@ def unanswerable_reasons(
 
     seen: dict[str, str] = {}
     for key, nodes in (options or {}).items():
-        text = "".join(plain_text(nodes).split())
+        text = "".join(comparable_text(nodes).split())
         if not text:
             reasons.append(f"选项 {key} 没有可读内容")
             continue

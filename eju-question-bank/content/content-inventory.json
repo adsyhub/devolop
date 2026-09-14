@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T08:53:17.790362Z",
+  "updatedAt": "2026-09-14T08:53:25.433551Z",
   "items": [
     {
       "inventoryId": "eju-2023-2-science-ja",
@@ -3773,7 +3773,7 @@
       "publishedPaperId": "p_119ed18ab04518f4ca466139",
       "publishedVersion": 2,
       "completeness": "PARTIAL",
-      "publishedVersionId": "pv_05e11ae5b3e141629149dcb9acbbe926",
+      "publishedVersionId": "pv_c93d9e1ca90f43c0af7ca787933cf2fb",
       "reviewState": "REVIEWED"
     },
     {
