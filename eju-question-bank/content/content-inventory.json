@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T08:52:20.855179Z",
+  "updatedAt": "2026-09-14T08:53:04.259432Z",
   "items": [
     {
       "inventoryId": "eju-2023-2-science-ja",
@@ -3666,7 +3666,7 @@
       "publishedPaperId": "p_39d9072346dfb6e2af29f107",
       "publishedVersion": 2,
       "completeness": "PARTIAL",
-      "publishedVersionId": "pv_8bd20a0b60424b7d9f342ad1925878f1",
+      "publishedVersionId": "pv_686a442698d142eead3973c5e4cb66bd",
       "reviewState": "REVIEWED"
     },
     {
@@ -3721,7 +3721,7 @@
       "publishedPaperId": "p_2bf1c231884aa3632077947d",
       "publishedVersion": 1,
       "completeness": "PARTIAL",
-      "publishedVersionId": "pv_8cd4cbd9f4b94bad82ef8ae6cd06a82e",
+      "publishedVersionId": "pv_4080af043925495893399bc17bed6ba4",
       "reviewState": "REVIEWED"
     },
     {
