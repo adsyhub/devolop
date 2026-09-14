@@ -54,10 +54,18 @@ def node_types(nodes: Any) -> set[str]:
     return {str(node.get("type")) for node in _walk(nodes)}
 
 
+_PROSE = {"text", "paragraph", "callout", "underline"}
+
+
 def plain_text(nodes: Any) -> str:
-    """Everything a reader would see, so hints and leftovers can be looked for."""
-    return " ".join(str(node.get("value") or node.get("latex") or "")
-                    for node in _walk(nodes))
+    """The prose a reader would see.
+
+    Formula nodes are left out on purpose: their LaTeX is the node's content,
+    not leftover source, and counting it as prose would make every correctly
+    built formula look like the thing this module is trying to catch.
+    """
+    return " ".join(str(node.get("value") or "")
+                    for node in _walk(nodes) if node.get("type") in _PROSE)
 
 
 def unanswerable_reasons(
