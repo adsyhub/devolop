@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "description": "nhk-news-0004-qLDgaZS8uJY：LLM 逐句校对发现的 ASR 误识别修正 1 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "4764ec703516c89d141e95d6401fac1952dab8a3fa368a6dc9f3294c35277f40",
+  "evidence": {
+    "file": "proofread-work/nhk-news-0004-qLDgaZS8uJY/proofread.json",
+    "proposedFixes": "proofread-work/nhk-news-0004-qLDgaZS8uJY/proposed-fixes.json",
+    "notes": "proofread-work/nhk-news-0004-qLDgaZS8uJY/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 1,
+      "endIndex": 1,
+      "expectedStartTime": 5.96,
+      "expectedEndTime": 12.99,
+      "items": [
+        {
+          "startTime": 5.96,
+          "endTime": 12.99,
+          "sourceText": "文化勲章を受賞した前衛芸術家の草間彌生さんが今月14日、東京都内の病院で亡くなり",
+          "jaText": "文化勲章を受賞した前衛芸術家の草間彌生さんが今月14日、東京都内の病院で亡くなり"
+        }
+      ]
+    }
+  ]
+}

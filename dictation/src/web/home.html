@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-Hans-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d332c">
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'"
+  >
+  <title>日语学习中心</title>
+  <link rel="stylesheet" href="./app.css">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icon-192.png">
+</head>
+<body class="home-body">
+  <a class="skip-link" href="#boards">跳到板块</a>
+
+  <header class="topbar home-topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">听</span>
+      <span>
+        <strong>日语学习中心</strong>
+        <small>选择一条独立的学习路径</small>
+      </span>
+    </div>
+    <div class="topbar-actions">
+      <span class="home-backend-chip" id="home-backend" hidden>
+        <span class="status-dot"></span>
+        <span id="home-backend-text">本地服务已连接</span>
+      </span>
+    </div>
+  </header>
+
+  <main class="home-main">
+    <div class="home-hero">
+      <span class="home-kicker">学习入口</span>
+      <h1>今天走哪条学习路径？</h1>
+      <p>精听、JLPT 真题与词汇语法是三个独立工作区：界面、流程和进度口径互不混用，需要切换时回到这里。</p>
+    </div>
+
+    <!-- 三种学习模式是同级但相互独立的工作区。“我的”是跨模式资产，不伪装成第四种练法。 -->
+    <nav class="board-grid mode-board-grid" id="boards" aria-label="学习模式">
+      <a class="board-card listening" href="./listening#/listening">
+        <span class="board-kind">独立模式 A</span>
+        <span class="board-icon" aria-hidden="true">🎧</span>
+        <h2>精听模式</h2>
+        <p class="board-copy">围绕一段真实音频反复听辨：逐句听写、理解原文、跟读复盘，适合建立听觉识别能力。</p>
+        <span class="board-features" aria-label="模式功能">
+          <span>逐句听写</span><span>全文精听</span><span>视频 / 音频课程</span>
+        </span>
+        <p class="board-stat" id="stat-listening">读取课程中…</p>
+        <span class="board-go" aria-hidden="true">进入精听工作区 →</span>
+      </a>
+
+      <a class="board-card exam" href="./exams">
+        <span class="board-kind">独立模式 B</span>
+        <span class="board-icon" aria-hidden="true">📝</span>
+        <h2>JLPT 真题模式</h2>
+        <p class="board-copy">围绕正式题型训练应试能力：按卷练习、跨卷专题和计时模考，交卷后统一判题。</p>
+        <span class="board-features" aria-label="模式功能">
+          <span>按卷练习</span><span>专题训练</span><span>计时模考</span>
+        </span>
+        <p class="board-stat" id="stat-exam">读取真题中…</p>
+        <span class="board-go" aria-hidden="true">进入真题工作区 →</span>
+      </a>
+
+      <a class="board-card lexicon" href="./lexicon">
+        <span class="board-kind">独立模式 C</span>
+        <span class="board-icon" aria-hidden="true">📚</span>
+        <h2>词汇语法模式</h2>
+        <p class="board-copy">按 JLPT 级别浏览词条与语法：同一套内容里查词、按教材单元过一遍，为背诵做准备。</p>
+        <span class="board-features" aria-label="模式功能">
+          <span>按级别浏览</span><span>教材单元</span><span>包内查词</span>
+        </span>
+        <p class="board-stat" id="stat-lexicon">读取词库中…</p>
+        <span class="board-go" aria-hidden="true">进入词汇语法工作区 →</span>
+      </a>
+    </nav>
+
+    <section class="personal-hub" aria-labelledby="personal-hub-title">
+      <div class="personal-hub-intro">
+        <span class="personal-hub-icon" aria-hidden="true">🗂</span>
+        <div>
+          <p class="personal-hub-kicker">跨模式学习资产</p>
+          <h2 id="personal-hub-title">我的学习中心</h2>
+          <p>这里只汇总记录，不属于任何一种练习模式。精听错句与真题错题仍按来源分开显示。</p>
+        </div>
+      </div>
+      <div class="personal-hub-actions">
+        <p class="board-stat" id="stat-personal">读取学习记录中…</p>
+        <nav class="personal-quick-links" aria-label="我的学习中心快捷入口">
+          <a href="./me#/mistakes">错题集</a>
+          <a href="./me#/vocab">生词本</a>
+          <a href="./me#/notes">收藏笔记</a>
+          <a href="./me#/analytics">学习分析</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <script src="./home.js" defer></script>
+</body>
+</html>

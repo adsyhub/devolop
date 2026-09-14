@@ -1,0 +1,46 @@
+{
+  "page": 13,
+  "pageLabel": "13",
+  "sectionHeader": "聴解",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 5,
+      "text": "問題5　では長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "1番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "2番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "3番 質問1",
+      "choices": [
+        "1番のロボット",
+        "2番のロボット",
+        "3番のロボット",
+        "4番のロボット"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "3番 質問2",
+      "choices": [
+        "1番のロボット",
+        "2番のロボット",
+        "3番のロボット",
+        "4番のロボット"
+      ]
+    }
+  ]
+}

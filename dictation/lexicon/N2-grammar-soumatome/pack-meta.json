@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "packId": "N2-grammar-soumatome",
+  "kind": "grammar",
+  "level": "N2",
+  "title": "新日语能力考试考前对策 N2 文法",
+  "attribution": {
+    "sourceType": "textbook-ocr",
+    "authors": "佐々木仁子 / 松本紀子",
+    "publisher": "世界图书出版公司北京公司",
+    "originalPublisher": "株式会社アスク出版",
+    "isbn": "978-7-5100-2795-6",
+    "sourcePath": "dist/N2语法  新日语能力考试考前对策_12684449.pdf",
+    "sourceSha256": "e048fd4b50c3a57456ab386c96fb7239a2b28ba07ce6d53bd13d7d297391cb15",
+    "redistributable": false,
+    "rightsNote": "版权页标注版权所有。OCR 只改变载体，不改变权利状态：本包不进入版本库，也不进入任何发布制品。"
+  },
+  "dictionary": {
+    "required": false
+  },
+  "source": {
+    "ocrRun": "out/N2-grammar",
+    "pdfPages": 157,
+    "structure": "8 週 × 7 日目；1〜6 日目为语法条目，7 日目为实战问题（属题库，不导入本包）"
+  }
+}

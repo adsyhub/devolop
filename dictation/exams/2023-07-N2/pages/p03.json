@@ -1,0 +1,117 @@
+{
+  "page": 3,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "本当に( )部下だと思う。\n1 頼もしい\n2 たくましい\n3 輝かしい\n4 親しい"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "食費を( )するために、なるべく外食をしないようにしている。",
+      "questionNumber": 17,
+      "choices": [
+        "減量",
+        "省略",
+        "短縮",
+        "節約"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "簡単にお金がもうかるというような話に、すぐ( )のはやめたほうがいい。",
+      "questionNumber": 18,
+      "choices": [
+        "駆け込む",
+        "触れ合う",
+        "寄りかかる",
+        "飛びつく"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "やりたい仕事内容の( )があったので、早速応募することにした。",
+      "questionNumber": 19,
+      "choices": [
+        "催促",
+        "入社",
+        "求人",
+        "収集"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "友達だと思っていたのに、私のいないところで( )と私の悪口を言っていたなんてひどい。",
+      "questionNumber": 20,
+      "choices": [
+        "うとうと",
+        "こそこそ",
+        "ぶるぶる",
+        "じろじろ"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 5,
+      "text": "問題5　____の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "text": "この建物を壊すのは惜しい。",
+      "questionNumber": 2,
+      "choices": [
+        "危ない",
+        "もったいない",
+        "めんどうくさい",
+        "難しい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "text": "きちんとテンポを合わせてください。",
+      "questionNumber": 22,
+      "choices": [
+        "長さ",
+        "高さ",
+        "大きさ",
+        "速さ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "text": "そのニュースはたちまち広まった。",
+      "questionNumber": 23,
+      "choices": [
+        "すぐに",
+        "次第に",
+        "確かに",
+        "意外に"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "text": "研究の概要を述べる。",
+      "questionNumber": 24,
+      "choices": [
+        "詳しい内容",
+        "大体の内容",
+        "主な目的",
+        "最終的な目的"
+      ]
+    }
+  ],
+  "issues": [
+    "Choice-looking line with no question open: '1 頼もしい'",
+    "Choice-looking line with no question open: '2 たくましい'",
+    "Choice-looking line with no question open: '3 輝かしい'",
+    "Choice-looking line with no question open: '4 親しい'"
+  ]
+}

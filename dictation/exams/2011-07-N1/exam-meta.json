@@ -1,0 +1,30 @@
+{
+  "level": "N1",
+  "session": "2011-07",
+  "title": "2011年第1回 日本語能力試験 N1",
+  "sourceUrl": "dist/n1 2011.07真题.pdf",
+  "sourceSha256": null,
+  "scoring": {
+    "sections": {
+      "knowledge-reading": {
+        "passScore": 19,
+        "maxScore": 120,
+        "description": "言語知識（文字・語彙・文法）・読解"
+      },
+      "listening": {
+        "passScore": 19,
+        "maxScore": 60,
+        "description": "聴解"
+      }
+    },
+    "totalPassScore": 100,
+    "totalMaxScore": 180,
+    "caveat": "本採点および配点は練習用の概算であり、公式の合否判定規準（尺度得点）とは異なります。"
+  },
+  "listeningMedia": {
+    "kind": "course-audio",
+    "courseSlug": "2011-07-N1",
+    "expectedSha256": "aad0c6c30d70bcc3660af4ad3ff770aab714917304b317ee463aafc2236db20a",
+    "expectedBytes": 46600301
+  }
+}

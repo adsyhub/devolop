@@ -1,0 +1,226 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "従来の<u>枠</u>を超えて新しい分野に進出する企業が増えている。",
+      "choices": [
+        "かべ",
+        "わく",
+        "みぞ",
+        "ふち"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "この情報誌は国内の主な観光名所をほぼ<u>網羅</u>している。",
+      "choices": [
+        "ぼうろう",
+        "もうろう",
+        "もうら",
+        "ぼうら"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "このような賞を受けることは、私にとって大変<u>名誉</u>なことです。",
+      "choices": [
+        "めいゆう",
+        "めいゆ",
+        "めいよう",
+        "めいよ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "新商品の開発には多額の資金を<u>費やした</u>。",
+      "choices": [
+        "ひやした",
+        "つやした",
+        "ついやした",
+        "ひいやした"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "あそこに見えるのは、千年前に建てられた<u>由緒</u>あるお寺です。",
+      "choices": [
+        "ゆうしょ",
+        "ゆいしょ",
+        "ゆうしょう",
+        "ゆいしょう"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "若いスタッフたちが<u>手際</u>よく作業を進めていた。",
+      "choices": [
+        "しゅざい",
+        "てきわ",
+        "しゅさい",
+        "てぎわ"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "会議の直前に部長の都合が悪くなり、（　　）私が代理で出席することになった。",
+      "choices": [
+        "瞬時に",
+        "迅速に",
+        "即刻",
+        "急遽"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "あの人は「申請書は締め切りまでに絶対に提出した」と、まだ（　　）いる。",
+      "choices": [
+        "言い残して",
+        "言い張って",
+        "言い渡して",
+        "言い放って"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "このままでは交渉がまとまらないので、互いに（　　）せざるをえない。",
+      "choices": [
+        "同調",
+        "妥協",
+        "和解",
+        "融合"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "この論文が今後の医学の発展に（　　）するところは大きいだろう。",
+      "choices": [
+        "寄与",
+        "普及",
+        "供与",
+        "波及"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "今年の花火大会は、30万人を超える（　　）が予想されている。",
+      "choices": [
+        "人込み",
+        "人波",
+        "人通り",
+        "人出"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "仕事の分担を決める前に、必要な作業をすべて（　　）した。",
+      "choices": [
+        "リストアップ",
+        "エントリー",
+        "ストック",
+        "コーディネート"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "朝から頭痛がひどかったが、薬を飲んだら、だいぶ痛みが（　　）きた。",
+      "choices": [
+        "弱って",
+        "和らいで",
+        "薄まって",
+        "安らいで"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "商品の原価が上がったが、販売価格への影響は<u>当面</u>ないだろう。",
+      "choices": [
+        "しばらくは",
+        "直接は",
+        "まさか",
+        "決して"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "今回の開発計画は、これまでのものとは<u>スケール</u>が違う。",
+      "choices": [
+        "方針",
+        "規模",
+        "目的",
+        "意義"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "友人は<u>しきりに</u>うなずきながら話を聞いていた。",
+      "choices": [
+        "小さく",
+        "時々",
+        "大きく",
+        "何度も"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "<u>先方</u>に確認した上で、企画書の内容を決定した。",
+      "choices": [
+        "専門家",
+        "全員",
+        "相手",
+        "上司"
+      ]
+    }
+  ]
+}

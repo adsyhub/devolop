@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "level": "N2",
+  "slug": "2019-12-N2",
+  "title": "2019年12月 日本語能力試験 N2",
+  "sessionLabel": "2019年12月",
+  "durationSec": 10800,
+  "source": {
+    "fileName": "N2 2019年12月真题+答案+详解+听力原文.pdf",
+    "sha256": "375d1bfb0bd4e6cb24dbff0793cc3db6ddf33e80fa319ad60276d509743ad9be",
+    "bytes": 4344442,
+    "pageCount": 32
+  },
+  "listeningMedia": {
+    "kind": "course-audio",
+    "courseSlug": "2019-12-N2",
+    "expectedSha256": "e4b312d459d46bcb213b6f8f9c692ddab0f84b60bc6d404ac0a3d5c7ed983c09",
+    "expectedBytes": 38069053
+  }
+}

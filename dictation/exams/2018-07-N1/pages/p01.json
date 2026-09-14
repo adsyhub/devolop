@@ -1,0 +1,250 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "鈴木氏は当時を<u>回顧</u>して、次のように語った",
+      "choices": [
+        "かいこう",
+        "かいこ",
+        "かいそう",
+        "かいそ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "彼の話には多少の<u>偽り</u>があると思われた",
+      "choices": [
+        "へだたり",
+        "あせり",
+        "かたより",
+        "いつわり"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "私は特に<u>嫌悪感</u>は持たなかった",
+      "choices": [
+        "けんおかん",
+        "けんあくかん",
+        "げんおかん",
+        "げんあくかん"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "問題が解決するまで<u>自粛</u>することにいした",
+      "choices": [
+        "じしゅう",
+        "じしゅく",
+        "じせい",
+        "じせき"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "自分を<u>戒めたい</u>と思う",
+      "choices": [
+        "あらためたい",
+        "なぐさめたい",
+        "きわめたい",
+        "いましめたい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "この国の南側には、なだらかな<u>丘陵</u>地帯が広がっている",
+      "choices": [
+        "しゅうりょう",
+        "きゅうろう",
+        "きゅうりょう",
+        "しゅうろう"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "この商品は非常によく売れていて、どの店にも（　　）がほとんどない状態だ。",
+      "choices": [
+        "設置",
+        "残留",
+        "所持",
+        "在庫"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "企業の海外進出は（　　）を伴うが、成功すれば利益は大きい。",
+      "choices": [
+        "アウト",
+        "エラー",
+        "リスク",
+        "ダウン"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "不景気が続いても父の会社が倒産しなかったのは、設立以来（　　）経営を続けてきたおかげだ。",
+      "choices": [
+        "切実な",
+        "堅実な",
+        "安泰な",
+        "安易な"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "品質の劣化を防ぐには、光を通さない黒い箱に入れて、光を（　　）する必要がある。",
+      "choices": [
+        "拒絶",
+        "駆除",
+        "遮断",
+        "隔離"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "久しぶりに帰省すると、町の様子が（　　）変わっていて、驚いた",
+      "choices": [
+        "がらりと",
+        "ずらりと",
+        "けろりと",
+        "ちらりと"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "中村さんの勝手な行動には強い怒りを覚えたが、友人に（　　）、少し気持ちが落ち着いた。",
+      "choices": [
+        "親しまれて",
+        "なだめられて",
+        "勧められて",
+        "ゆだねられて"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "部長は昨日の会議で、新企画について大枠は説明したが、具体的な開始時期には（　　）しなかった。",
+      "choices": [
+        "供述",
+        "言及",
+        "告白",
+        "通話"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "<u>すみやかに</u>片づけてください",
+      "choices": [
+        "元の通りに",
+        "できるだけきれいに",
+        "できるだけ早く",
+        "決めた通りに"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "高橋さんの主張は<u>漠然としていた</u>。",
+      "choices": [
+        "ぼんやりしていた",
+        "ごちゃごちゃしていた",
+        "あっさりしていた",
+        "はっきりしていた"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "<u>妨害する</u>つもりはなかったんです",
+      "choices": [
+        "だます",
+        "いたずらする",
+        "からかう",
+        "じゃまする"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "池田さんは、いつも<u>エレガントな</u>服を着ている",
+      "choices": [
+        "活動的な",
+        "地味な",
+        "上品な",
+        "個性的な"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 18,
+      "text": "<u>つかの間の</u>休息だった",
+      "choices": [
+        "短い",
+        "久しぶりの",
+        "充実した",
+        "十分な"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 19,
+      "text": "また<u>しくじって</u>しまった",
+      "choices": [
+        "緊張して",
+        "失敗して",
+        "遅刻して",
+        "誤解して"
+      ]
+    }
+  ]
+}

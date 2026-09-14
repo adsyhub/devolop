@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>课件复核编辑器</title>
+  <link rel="stylesheet" href="studio.css">
+  <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+  <header class="topbar editor-topbar">
+    <div>
+      <h1 id="page-heading">课件复核编辑器</h1>
+      <p class="sub" id="editor-meta">正在加载…</p>
+      <div id="multi-course-nav" class="multi-nav" hidden>
+        <button type="button" id="multi-prev" class="action-small">← 上一门</button>
+        <span id="multi-counter" class="multi-counter">第 1 / 1 门</span>
+        <button type="button" id="multi-next" class="action-small">下一门 →</button>
+        <button type="button" id="multi-exit" class="action-small subtle">退出多课复核</button>
+      </div>
+    </div>
+    <div class="topbar-status-group">
+      <span class="badge subtle-badge" id="status-pill" title="服务器显卡与本地模型状态（点击刷新）">检测中…</span>
+      <span class="badge" id="editor-mode">编辑</span>
+    </div>
+  </header>
+
+<nav class="nav" aria-label="工作台入口">
+  <a href="/">制课</a>
+  <a href="/import.html">教材入库</a>
+  <a href="/library.html">课程库</a>
+  <a href="/editor.html" class="current" aria-current="page">复核编辑器</a>
+  <a href="/ops.html">运维</a>
+</nav>
+
+  <main class="editor-page">
+    <section class="panel" id="fatal" hidden>
+      <h2>无法打开编辑器</h2>
+      <p class="error" id="fatal-message"></p>
+    </section>
+
+    <section class="panel model-select-panel" id="top-model-panel">
+      <div class="section-head">
+        <div>
+          <h2>模型选择</h2>
+          <p class="sub">选择用于整课分析与智能复核的 AI 模型及重点要求。在下方勾选待复核内容即可发起批量分析或开始复核。</p>
+        </div>
+        <div class="review-batch-buttons">
+          <button type="button" id="start-analysis" class="action">开始分析所选课程</button>
+          <button type="button" id="start-queue-analysis" class="primary" hidden>批量分析连续复核队列</button>
+        </div>
+      </div>
+      <div class="editor-toolbar" style="margin: 0;">
+        <label class="field" style="min-width: 260px; max-width: 380px;">
+          <span class="label">分析模型</span>
+          <select id="analysis-model"></select>
+        </label>
+        <label class="field grow">
+          <span class="label">分析重点</span>
+          <textarea id="analysis-instruction" rows="2" placeholder="留空则仍按服务端的默认重点分析。"></textarea>
+        </label>
+      </div>
+    </section>
+
+    <section class="panel review-picker" id="review-picker" hidden>
+      <div class="section-head">
+        <div>
+          <h2>待复核课程</h2>
+          <p class="sub" id="review-target-summary">正在读取待复核列表…</p>
+        </div>
+        <div class="review-picker-actions">
+          <button type="button" id="select-all-targets" class="action-small">全选</button>
+          <button type="button" id="select-none-targets" class="action-small">取消全选</button>
+        </div>
+      </div>
+      <details class="target-group" id="draft-group">
+        <summary class="target-group-head">
+          <span class="badge-kind draft">待复核草稿</span>
+          <span class="target-group-blurb">PDF 出稿，逐页核对后才能入库</span>
+          <span class="hint target-group-count" id="draft-group-count">读取中…</span>
+        </summary>
+        <div class="target-table-wrap">
+          <table class="target-table">
+            <thead>
+              <tr>
+                <th style="width: 2.5rem"><input type="checkbox" id="toggle-all-drafts" aria-label="全选本组"></th>
+                <th>草稿名称</th>
+                <th style="width: 8rem">复核进度</th>
+                <th style="width: 6rem">剩余</th>
+                <th style="width: 7rem">操作</th>
+              </tr>
+            </thead>
+            <tbody id="draft-table-body"></tbody>
+          </table>
+        </div>
+      </details>
+
+      <details class="target-group" id="course-group">
+        <summary class="target-group-head">
+          <span class="badge-kind course">已装课程</span>
+          <span class="target-group-blurb">课程库里尚未复核完的课，逐句核对</span>
+          <span class="hint target-group-count" id="course-group-count">读取中…</span>
+        </summary>
+        <div class="target-table-wrap">
+          <table class="target-table">
+            <thead>
+              <tr>
+                <th style="width: 2.5rem"><input type="checkbox" id="toggle-all-courses" aria-label="全选本组"></th>
+                <th>课程名称</th>
+                <th style="width: 8rem">复核进度</th>
+                <th style="width: 6rem">剩余</th>
+                <th style="width: 7rem">操作</th>
+              </tr>
+            </thead>
+            <tbody id="course-table-body"></tbody>
+          </table>
+        </div>
+      </details>
+
+      <details class="target-group" id="reviewed-draft-group">
+        <summary class="target-group-head">
+          <span class="badge-kind reviewed">已复核草稿</span>
+          <span class="target-group-blurb">已完成 100% 人工复核，随时可查看、重新编辑或进行入库</span>
+          <span class="hint target-group-count" id="reviewed-draft-group-count">读取中…</span>
+        </summary>
+        <div class="target-table-wrap">
+          <table class="target-table">
+            <thead>
+              <tr>
+                <th style="width: 2.5rem"><input type="checkbox" id="toggle-all-reviewed-drafts" aria-label="全选本组"></th>
+                <th>草稿名称</th>
+                <th style="width: 8rem">复核进度</th>
+                <th style="width: 6rem">状态</th>
+                <th style="width: 7rem">操作</th>
+              </tr>
+            </thead>
+            <tbody id="reviewed-draft-table-body"></tbody>
+          </table>
+        </div>
+      </details>
+
+      <div class="review-batch-bar">
+        <span id="selected-summary" class="hint">已选择 0 门课程</span>
+        <div class="review-batch-buttons">
+          <button type="button" id="start-multi-review" class="primary" disabled>开始连续复核所选</button>
+          <button type="button" id="start-batch-analysis-btn" class="action" disabled>批量整课模型分析</button>
+          <button type="button" id="batch-approve-btn" class="action" disabled>批量标记已通过</button>
+        </div>
+      </div>
+      <p class="hint" id="batch-action-state"></p>
+    </section>
+
+    <section id="course-editor-page" hidden>
+      <div class="editor-toolbar panel">
+        <label class="field grow">
+          <span class="label">课程标题</span>
+          <input type="text" id="course-title" maxlength="200">
+        </label>
+        <label class="field grow">
+          <span class="label">搜索句子</span>
+          <input type="search" id="course-search" placeholder="搜索原文、翻译或讲解">
+        </label>
+      </div>
+      <div class="editor-workspace">
+        <aside class="panel editor-nav">
+          <label class="label" for="sentence-list">课程句子</label>
+          <select id="sentence-list" class="sentence-list" size="22"></select>
+        </aside>
+        <section class="panel editor-main">
+          <div class="time-grid">
+            <label><span class="label">开始秒</span><input type="number" id="sentence-start" min="0" step="0.001"></label>
+            <label><span class="label">结束秒</span><input type="number" id="sentence-end" min="0" step="0.001"></label>
+            <label><span class="label">置信度</span><input type="number" id="sentence-confidence" min="0" max="1" step="0.001"></label>
+            <label><span class="label">内容类型</span><select id="sentence-content-type">
+              <option value="dialogue">对话</option><option value="prompt">提问</option>
+              <option value="option">选项</option><option value="marker">题号</option>
+              <option value="instruction">指令</option>
+            </select></label>
+          </div>
+          <label class="checkbox"><input type="checkbox" id="sentence-practice"><span>可用于听写练习</span></label>
+          <label class="field"><span class="label">原文</span><textarea id="sentence-source" rows="5"></textarea></label>
+          <label class="field"><span class="label">中文翻译</span><textarea id="sentence-translation" rows="4"></textarea></label>
+          <label class="field"><span class="label">语法与词汇讲解</span><textarea id="sentence-explanation" rows="7"></textarea></label>
+          <button type="button" id="save-sentence" class="success">保存本句与课程标题</button>
+          <p class="hint" id="course-save-state"></p>
+        </section>
+      </div>
+    </section>
+
+    <section id="draft-editor-page" hidden>
+      <div class="editor-workspace draft-workspace">
+        <aside class="panel editor-nav">
+          <label class="label" for="draft-page-list">草稿页面</label>
+          <input type="search" id="draft-search" placeholder="筛选页码或文件名">
+          <select id="draft-page-list" class="sentence-list" size="24"></select>
+        </aside>
+        <section class="panel editor-main">
+          <div class="draft-columns">
+            <div>
+              <h2>扫描原页</h2>
+              <img id="draft-image" class="draft-image" alt="当前 PDF 扫描页">
+              <details class="advanced">
+                <summary>查看 OCR 原始文本</summary>
+                <pre id="draft-source" class="source-text"></pre>
+              </details>
+            </div>
+            <div>
+              <h2>结构化页面 JSON</h2>
+              <p class="hint">可手动修改题干、选项、语法、单词和疑点。页码与顶层结构不可改变。</p>
+              <textarea id="draft-json" class="json-editor" spellcheck="false"></textarea>
+              <button type="button" id="save-draft" class="success">保存当前页</button>
+              <p class="hint" id="draft-save-state"></p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="panel model-revision" id="model-panel" hidden>
+      <h2>模型复核与复合编辑</h2>
+      <p class="sub">模型会基于当前编辑框内容继续修改，并只生成候选稿；检查后仍需手动保存。</p>
+      <div class="editor-toolbar">
+        <label class="field">
+          <span class="label">修改模型</span>
+          <select id="review-model"></select>
+        </label>
+        <label class="field grow">
+          <span class="label">复核要求</span>
+          <textarea id="review-instruction" rows="3" placeholder="清空后无法生成候选稿——模型需要一条明确的复核要求。"></textarea>
+        </label>
+      </div>
+      <button type="button" id="run-model-review">生成候选修改稿</button>
+      <p class="hint" id="model-state">候选稿不会自动保存。</p>
+    </section>
+
+    <section class="panel whole-analysis" id="analysis-panel" hidden>
+      <div class="section-head">
+        <div>
+          <h2>整课模型分析进度与报告</h2>
+          <p class="sub">后台分批分析全部句子或页面，再汇总共性问题和修改优先级；不会修改课程内容。</p>
+        </div>
+        <span class="status-chip" id="analysis-status" data-status="idle">未开始</span>
+      </div>
+      <p class="hint" id="analysis-progress"></p>
+      <pre class="analysis-log" id="analysis-log" hidden></pre>
+      <div id="analysis-result" hidden>
+        <div class="section-head analysis-result-head">
+          <h3 id="analysis-report-title">分析报告</h3>
+          <div>
+            <button type="button" id="copy-analysis" class="course-action">复制报告</button>
+            <button type="button" id="download-analysis" class="course-action">下载 MD 文档</button>
+          </div>
+        </div>
+        <p class="hint" id="analysis-md-filepath" hidden></p>
+        <div class="report-selector-bar" id="report-selector-bar" hidden style="margin-bottom: .6rem;">
+          <label class="field grow">
+            <span class="label">查看分项报告</span>
+            <select id="analysis-report-view-select"></select>
+          </label>
+        </div>
+        <pre class="analysis-report" id="analysis-report"></pre>
+      </div>
+    </section>
+  </main>
+  <script src="core.js"></script>
+  <script src="gpu.js"></script>
+  <script src="status_pill.js"></script>
+  <script src="editor_state.js"></script>
+  <script src="editor_targets.js"></script>
+  <script src="editor_course.js"></script>
+  <script src="editor_draft.js"></script>
+  <script src="editor_review.js"></script>
+  <script src="editor_analysis.js"></script>
+  <script src="editor.js"></script>
+</body>
+</html>

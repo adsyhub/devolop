@@ -1,0 +1,52 @@
+{
+  "page": 4,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 3,
+      "text": ")に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "text": "中村選手は日本を代表する( )選手だ。",
+      "questionNumber": 11,
+      "choices": [
+        "高",
+        "優",
+        "名",
+        "真"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "text": "今日は月が地球に( )接近する日なので、常の満月より大きく見えます。",
+      "questionNumber": 12,
+      "choices": [
+        "特",
+        "最",
+        "極",
+        "激"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "text": "家のポストに私( )の手紙が入っていた。",
+      "questionNumber": 13,
+      "choices": [
+        "宛て",
+        "着き",
+        "届け",
+        "便り"
+      ]
+    }
+  ],
+  "issues": []
+}

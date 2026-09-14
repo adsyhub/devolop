@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "status": "needs_review",
+  "summary": {
+    "sentences": 145,
+    "errors": 0,
+    "warnings": 1,
+    "issueCounts": {
+      "sentence.rate_implausible": 1
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "8 characters in 0.38s (21/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 86
+    }
+  ]
+}

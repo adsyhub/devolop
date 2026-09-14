@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "description": "2011-12-N2：LLM 逐句校对发现的 ASR 误识别修正 2 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "3e17e5ed1b72accd852a56b49bc548029b5c2d71ca4de288e48ffff7cae833eb",
+  "evidence": {
+    "file": "proofread-work/2011-12-N2/proofread.json",
+    "proposedFixes": "proofread-work/2011-12-N2/proposed-fixes.json",
+    "notes": "proofread-work/2011-12-N2/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 145,
+      "endIndex": 145,
+      "expectedStartTime": 1093.48,
+      "expectedEndTime": 1097.8,
+      "items": [
+        {
+          "startTime": 1093.48,
+          "endTime": 1097.8,
+          "sourceText": "出身大学が同じということがきっかけで話が合って",
+          "jaText": "出身大学が同じということがきっかけで話が合って"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 213,
+      "endIndex": 213,
+      "expectedStartTime": 1743.45,
+      "expectedEndTime": 1758.18,
+      "items": [
+        {
+          "startTime": 1743.45,
+          "endTime": 1758.18,
+          "sourceText": "とって読んでみるといったように本との新しい出会いがあるんですよ 普段読まない作家の本なんかもふと目に触れたりしてそういう本を探すプロセスが好き",
+          "jaText": "とって読んでみるといったように本との新しい出会いがあるんですよ 普段読まない作家の本なんかもふと目に触れたりしてそういう本を探すプロセスが好き"
+        }
+      ]
+    }
+  ]
+}

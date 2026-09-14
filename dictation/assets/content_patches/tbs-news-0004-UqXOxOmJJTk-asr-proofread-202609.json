@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 1,
+  "description": "tbs-news-0004-UqXOxOmJJTk：LLM 逐句校对发现的 ASR 误识别修正 26 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "446da2706a4089ff3183ed357f407fc281e37f3fa0f061bb0d84382658097343",
+  "evidence": {
+    "file": "proofread-work/tbs-news-0004-UqXOxOmJJTk/proofread.json",
+    "proposedFixes": "proofread-work/tbs-news-0004-UqXOxOmJJTk/proposed-fixes.json",
+    "notes": "proofread-work/tbs-news-0004-UqXOxOmJJTk/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 1,
+      "endIndex": 1,
+      "expectedStartTime": 15.4,
+      "expectedEndTime": 22.4,
+      "items": [
+        {
+          "startTime": 15.4,
+          "endTime": 22.4,
+          "sourceText": "記録的な大雨に見舞われたのが福井県坂井市。",
+          "jaText": "記録的な大雨に見舞われたのが福井県坂井市。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 2,
+      "endIndex": 2,
+      "expectedStartTime": 22.4,
+      "expectedEndTime": 27.269,
+      "items": [
+        {
+          "startTime": 22.4,
+          "endTime": 27.269,
+          "sourceText": "観測史上最大24時間で314mmの大雨に",
+          "jaText": "観測史上最大24時間で314mmの大雨に"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 12,
+      "endIndex": 12,
+      "expectedStartTime": 83.079,
+      "expectedEndTime": 87.309,
+      "items": [
+        {
+          "startTime": 83.079,
+          "endTime": 87.309,
+          "sourceText": "昨日、福井市など3つの自治体でレベル5",
+          "jaText": "昨日、福井市など3つの自治体でレベル5"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 18,
+      "endIndex": 18,
+      "expectedStartTime": 116.119,
+      "expectedEndTime": 122.736,
+      "items": [
+        {
+          "startTime": 116.119,
+          "endTime": 122.736,
+          "sourceText": "雨の降り方について住民はすごい降り方のゲリラ豪雨みたいなのがあの夜も何時間も続いててで私",
+          "jaText": "雨の降り方について住民はすごい降り方のゲリラ豪雨みたいなのがあの夜も何時間も続いててで私"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 31,
+      "endIndex": 31,
+      "expectedStartTime": 206.44,
+      "expectedEndTime": 208.439,
+      "items": [
+        {
+          "startTime": 206.44,
+          "endTime": 208.439,
+          "sourceText": "いずれも観測史上最大なんですが、",
+          "jaText": "いずれも観測史上最大なんですが、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 37,
+      "endIndex": 37,
+      "expectedStartTime": 236.519,
+      "expectedEndTime": 236.801,
+      "items": [
+        {
+          "startTime": 236.519,
+          "endTime": 236.801,
+          "sourceText": "一般的にどういうメカニズムなのかっていうのを簡略化した図をご用意しました。",
+          "jaText": "一般的にどういうメカニズムなのかっていうのを簡略化した図をご用意しました。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 41,
+      "endIndex": 41,
+      "expectedStartTime": 239.326,
+      "expectedEndTime": 240.109,
+      "items": [
+        {
+          "startTime": 239.326,
+          "endTime": 240.109,
+          "sourceText": "え、まず日中このように日の光が当たっていますが、",
+          "jaText": "え、まず日中このように日の光が当たっていますが、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 42,
+      "endIndex": 42,
+      "expectedStartTime": 240.109,
+      "expectedEndTime": 240.598,
+      "items": [
+        {
+          "startTime": 240.109,
+          "endTime": 240.598,
+          "sourceText": "ま、これが夜になって日が当たら",
+          "jaText": "ま、これが夜になって日が当たら"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 50,
+      "endIndex": 50,
+      "expectedStartTime": 276.8,
+      "expectedEndTime": 283.27,
+      "items": [
+        {
+          "startTime": 276.8,
+          "endTime": 283.27,
+          "sourceText": "この地上付近とあと雲の上この気温が大きくなって大気の状態が不安定になる。",
+          "jaText": "この地上付近とあと雲の上この気温が大きくなって大気の状態が不安定になる。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 56,
+      "endIndex": 56,
+      "expectedStartTime": 298.84,
+      "expectedEndTime": 301.215,
+      "items": [
+        {
+          "startTime": 298.84,
+          "endTime": 301.215,
+          "sourceText": "で、今回どういった状況だったのか高柳アナウンサーが中継です取材をしています。",
+          "jaText": "で、今回どういった状況だったのか高柳アナウンサーが中継です取材をしています。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 60,
+      "endIndex": 60,
+      "expectedStartTime": 312.08,
+      "expectedEndTime": 317.47,
+      "items": [
+        {
+          "startTime": 312.08,
+          "endTime": 317.47,
+          "sourceText": "この辺り住宅街ですから、え、様々な川、大小の川が流れているわけですが、こちらには",
+          "jaText": "この辺り住宅街ですから、え、様々な川、大小の川が流れているわけですが、こちらには"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 62,
+      "endIndex": 62,
+      "expectedStartTime": 320.56,
+      "expectedEndTime": 323.15,
+      "items": [
+        {
+          "startTime": 320.56,
+          "endTime": 323.15,
+          "sourceText": "一時は大きく水位を上げました。",
+          "jaText": "一時は大きく水位を上げました。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 64,
+      "endIndex": 64,
+      "expectedStartTime": 326.479,
+      "expectedEndTime": 331.71,
+      "items": [
+        {
+          "startTime": 326.479,
+          "endTime": 331.71,
+          "sourceText": "流れてきたタイヤですとか、長靴、木や、葉っぱなどがここに滞留をしてしまっています。",
+          "jaText": "流れてきたタイヤですとか、長靴、木や、葉っぱなどがここに滞留をしてしまっています。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 75,
+      "endIndex": 75,
+      "expectedStartTime": 367.88,
+      "expectedEndTime": 371.189,
+      "items": [
+        {
+          "startTime": 367.88,
+          "endTime": 371.189,
+          "sourceText": "え、そして水位に関しても上がってきたラインが",
+          "jaText": "え、そして水位に関しても上がってきたラインが"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 77,
+      "endIndex": 77,
+      "expectedStartTime": 374.0,
+      "expectedEndTime": 378.55,
+      "items": [
+        {
+          "startTime": 374.0,
+          "endTime": 378.55,
+          "sourceText": "大体私の桃くらいの高さまで、え、水位が上がってきたということですね。",
+          "jaText": "大体私の桃くらいの高さまで、え、水位が上がってきたということですね。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 78,
+      "endIndex": 78,
+      "expectedStartTime": 378.96,
+      "expectedEndTime": 384.639,
+      "items": [
+        {
+          "startTime": 378.96,
+          "endTime": 384.639,
+          "sourceText": "え、そして井上さん、千葉県のような都市型の内水氾濫と今回の洪水による氾濫、",
+          "jaText": "え、そして井上さん、千葉県のような都市型の内水氾濫と今回の洪水による氾濫、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 80,
+      "endIndex": 80,
+      "expectedStartTime": 386.56,
+      "expectedEndTime": 387.749,
+      "items": [
+        {
+          "startTime": 386.56,
+          "endTime": 387.749,
+          "sourceText": "内水氾濫ですと、",
+          "jaText": "内水氾濫ですと、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 82,
+      "endIndex": 82,
+      "expectedStartTime": 390.039,
+      "expectedEndTime": 393.39,
+      "items": [
+        {
+          "startTime": 390.039,
+          "endTime": 393.39,
+          "sourceText": "水位が上がるスピードというのは少しゆっくりなのかなということを感じましたが、",
+          "jaText": "水位が上がるスピードというのは少しゆっくりなのかなということを感じましたが、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 84,
+      "endIndex": 84,
+      "expectedStartTime": 395.24,
+      "expectedEndTime": 399.16,
+      "items": [
+        {
+          "startTime": 395.24,
+          "endTime": 399.16,
+          "sourceText": "こういった氾濫浸水になりますと一気にさが増してくる、",
+          "jaText": "こういった氾濫浸水になりますと一気にさが増してくる、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 92,
+      "endIndex": 92,
+      "expectedStartTime": 421.599,
+      "expectedEndTime": 425.72,
+      "items": [
+        {
+          "startTime": 421.599,
+          "endTime": 425.72,
+          "sourceText": "夜通し見ていてどこまで水が上がってくるのかというのがもはや、",
+          "jaText": "夜通し見ていてどこまで水が上がってくるのかというのがもはや、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 97,
+      "endIndex": 97,
+      "expectedStartTime": 447.946,
+      "expectedEndTime": 449.621,
+      "items": [
+        {
+          "startTime": 447.946,
+          "endTime": 449.621,
+          "sourceText": "どの時点で判断すればいいのか、今回のケース時系列で追ってみます。",
+          "jaText": "どの時点で判断すればいいのか、今回のケース時系列で追ってみます。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 99,
+      "endIndex": 99,
+      "expectedStartTime": 459.52,
+      "expectedEndTime": 460.11,
+      "items": [
+        {
+          "startTime": 459.52,
+          "endTime": 460.11,
+          "sourceText": "未明です。",
+          "jaText": "未明です。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 121,
+      "endIndex": 121,
+      "expectedStartTime": 527.36,
+      "expectedEndTime": 532.07,
+      "items": [
+        {
+          "startTime": 527.36,
+          "endTime": 532.07,
+          "sourceText": "避難所が開設されていれば避難所でもいいですし、友人宅などへの避難を検討する。",
+          "jaText": "避難所が開設されていれば避難所でもいいですし、友人宅などへの避難を検討する。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 131,
+      "endIndex": 131,
+      "expectedStartTime": 584.6,
+      "expectedEndTime": 590.27,
+      "items": [
+        {
+          "startTime": 584.6,
+          "endTime": 590.27,
+          "sourceText": "千葉ですと2、3時間で変わってますのでより判断が早急に求められるというわけです。",
+          "jaText": "千葉ですと2、3時間で変わってますのでより判断が早急に求められるというわけです。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 139,
+      "endIndex": 139,
+      "expectedStartTime": 615.8,
+      "expectedEndTime": 619.19,
+      "items": [
+        {
+          "startTime": 615.8,
+          "endTime": 619.19,
+          "sourceText": "で、台風周辺の湿った空気どんどん流れ込んできて、",
+          "jaText": "で、台風周辺の湿った空気どんどん流れ込んできて、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 142,
+      "endIndex": 142,
+      "expectedStartTime": 632.36,
+      "expectedEndTime": 632.851,
+      "items": [
+        {
+          "startTime": 632.36,
+          "endTime": 632.851,
+          "sourceText": "秋雨前線がどこにあるかによってこの雨の降り方は変わってくるってことですか?",
+          "jaText": "秋雨前線がどこにあるかによってこの雨の降り方は変わってくるってことですか?"
+        }
+      ]
+    }
+  ]
+}

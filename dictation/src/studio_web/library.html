@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>课程库</title>
+<link rel="stylesheet" href="studio.css">
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <h1>课程库</h1>
+    <p class="sub" id="config-line">已装入 courses/ 的课程</p>
+  </div>
+  <div class="topbar-actions">
+    <button type="button" id="refresh-courses">刷新课程列表</button>
+  </div>
+</header>
+
+<nav class="nav" aria-label="工作台入口">
+  <a href="/">制课</a>
+  <a href="/import.html">教材入库</a>
+  <a href="/library.html" class="current" aria-current="page">课程库</a>
+  <a href="/editor.html">复核编辑器</a>
+  <a href="/ops.html">运维</a>
+</nav>
+
+<div id="fatal" class="fatal" hidden>
+  <strong>无法连接到工作台服务。</strong>
+  <span id="fatal-message"></span>
+</div>
+
+<main class="layout layout--single">
+  <section class="panel wide" aria-labelledby="courses-heading">
+    <div class="library-header-row">
+      <div>
+        <h2 id="courses-heading">已装课程</h2>
+        <p class="sub" id="courses-summary">可以打开课程逐句查看、手动修改，或让已配置模型生成候选修改稿。保存时会重新审计并保留备份。</p>
+      </div>
+      <div class="library-toolbar-actions">
+        <button type="button" class="action-small" id="expand-all-groups">全部展开</button>
+        <button type="button" class="action-small" id="collapse-all-groups">全部收起</button>
+      </div>
+    </div>
+
+    <div class="library-filter-bar">
+      <div class="library-category-tabs" id="category-tabs" role="tablist" aria-label="课程分类">
+        <button type="button" class="category-btn active" data-category="all">全部 <span class="badge-count" id="count-all">0</span></button>
+        <button type="button" class="category-btn" data-category="intensive">精听课程 <span class="badge-count" id="count-intensive">0</span></button>
+        <button type="button" class="category-btn" data-category="pdf">PDF课程 <span class="badge-count" id="count-pdf">0</span></button>
+      </div>
+      <div class="library-search-box">
+        <input type="search" id="course-search" placeholder="搜索课程标识或标题…" aria-label="搜索课程">
+      </div>
+    </div>
+
+    <div class="library-sub-filters" id="level-filters">
+      <span class="sub-filter-label">真题/课程等级：</span>
+      <button type="button" class="sub-filter-btn active" data-level="all">全部等级 <span class="badge-count" id="count-level-all">0</span></button>
+      <button type="button" class="sub-filter-btn" data-level="N1">N1 <span class="badge-count" id="count-level-n1">0</span></button>
+      <button type="button" class="sub-filter-btn" data-level="N2">N2 <span class="badge-count" id="count-level-n2">0</span></button>
+      <button type="button" class="sub-filter-btn" data-level="N3">N3 <span class="badge-count" id="count-level-n3">0</span></button>
+    </div>
+
+    <div id="courses">
+      <!-- 1. 精听课程 · 音频精听 -->
+      <details class="course-group" id="group-intensive-audio" data-category="intensive" data-subcategory="audio">
+        <summary class="course-group-head">
+          <span class="badge-cat intensive-audio">音频精听</span>
+          <span class="course-group-blurb">精听课程 · 包含 JLPT 听力真题精听与纯音频泛听</span>
+          <span class="hint course-group-count" id="count-group-audio">0 门课程</span>
+        </summary>
+        <div class="course-table-wrap">
+          <table class="course-table">
+            <thead>
+              <tr>
+                <th style="width: 7rem">分类</th>
+                <th>文件夹</th>
+                <th>标题</th>
+                <th style="width: 5rem">句数</th>
+                <th style="width: 7rem">状态</th>
+                <th style="width: 7rem">操作</th>
+              </tr>
+            </thead>
+            <tbody id="audio-table-body"></tbody>
+          </table>
+        </div>
+      </details>
+
+      <!-- 2. 精听课程 · 视频精听 -->
+      <details class="course-group" id="group-intensive-video" data-category="intensive" data-subcategory="video">
+        <summary class="course-group-head">
+          <span class="badge-cat intensive-video">视频精听</span>
+          <span class="course-group-blurb">精听课程 · NHK、TBS、ANN 新闻视频精听</span>
+          <span class="hint course-group-count" id="count-group-video">0 门课程</span>
+        </summary>
+        <div class="course-table-wrap">
+          <table class="course-table">
+            <thead>
+              <tr>
+                <th style="width: 7rem">分类</th>
+                <th>文件夹</th>
+                <th>标题</th>
+                <th style="width: 5rem">句数</th>
+                <th style="width: 7rem">状态</th>
+                <th style="width: 7rem">操作</th>
+              </tr>
+            </thead>
+            <tbody id="video-table-body"></tbody>
+          </table>
+        </div>
+      </details>
+
+      <!-- 3. PDF课程 · JLPT真题 -->
+      <details class="course-group" id="group-pdf-jlpt" data-category="pdf" data-subcategory="jlpt">
+        <summary class="course-group-head">
+          <span class="badge-cat pdf-jlpt">JLPT真题 (PDF)</span>
+          <span class="course-group-blurb">PDF课程 · 历年 JLPT 真题试卷与题库（非音频精听）</span>
+          <span class="hint course-group-count" id="count-group-jlpt">0 门课程</span>
+        </summary>
+        <div class="course-table-wrap">
+          <table class="course-table">
+            <thead>
+              <tr>
+                <th style="width: 7rem">分类</th>
+                <th>文件夹</th>
+                <th>标题</th>
+                <th style="width: 5rem">句数</th>
+                <th style="width: 7rem">状态</th>
+                <th style="width: 7rem">操作</th>
+              </tr>
+            </thead>
+            <tbody id="jlpt-table-body"></tbody>
+          </table>
+        </div>
+      </details>
+
+      <!-- 4. PDF课程 · 课本和课本PDF -->
+      <details class="course-group" id="group-pdf-textbook" data-category="pdf" data-subcategory="textbook">
+        <summary class="course-group-head">
+          <span class="badge-cat pdf-textbook">课本和课本PDF</span>
+          <span class="course-group-blurb">PDF课程 · 日语教材、语法单词包与课本</span>
+          <span class="hint course-group-count" id="count-group-textbook">0 门课程</span>
+        </summary>
+        <div class="course-table-wrap">
+          <table class="course-table">
+            <thead>
+              <tr>
+                <th style="width: 7rem">分类</th>
+                <th>文件夹</th>
+                <th>标题</th>
+                <th style="width: 5rem">句数</th>
+                <th style="width: 7rem">状态</th>
+                <th style="width: 7rem">操作</th>
+              </tr>
+            </thead>
+            <tbody id="textbook-table-body"></tbody>
+          </table>
+        </div>
+      </details>
+
+      <p class="course-group-empty" id="courses-none-matched" hidden>没有匹配当前分类或筛选条件的课程。</p>
+    </div>
+
+  </section>
+
+</main>
+
+<script src="core.js"></script>
+<script src="studio_state.js"></script>
+<script src="studio_courses.js"></script>
+<script src="library.js"></script>
+</body>
+</html>

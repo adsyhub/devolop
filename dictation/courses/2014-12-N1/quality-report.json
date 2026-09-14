@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "status": "needs_review",
+  "summary": {
+    "sentences": 431,
+    "errors": 0,
+    "warnings": 3,
+    "issueCounts": {
+      "sentence.very_long": 1,
+      "sentence.very_short": 2
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 136
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 145
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 157
+    }
+  ]
+}

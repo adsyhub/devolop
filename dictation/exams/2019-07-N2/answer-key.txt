@@ -1,0 +1,29 @@
+# JLPT N2 2019-07-N2 Answer Key
+
+written 1-5 1 12321
+written 6-10 1 14332
+written 11-15 1 14221
+written 16-22 1 3424113
+written 23-27 1 21141
+written 28-32 1.5 43214
+written 33-44 1 243121313211
+written 45-49 1.5 43141
+written 50-54 1.5 12112
+
+written 55-59 2 42112
+written 60-68 2.5 141413331
+written 69-70 3 31
+written 71-73 3 121
+written 74-75 3 11
+
+order 45 1243
+order 46 1234
+order 47 2314
+order 48 1243
+order 49 2314
+
+listening 1 1.5 12341
+listening 2 1.5 231421
+listening 3 1.5 31423
+listening 4 1.5 123123123123
+listening 5 2.5 1234

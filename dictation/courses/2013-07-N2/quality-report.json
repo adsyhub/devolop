@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "status": "needs_review",
+  "summary": {
+    "sentences": 346,
+    "errors": 0,
+    "warnings": 1,
+    "issueCounts": {
+      "sentence.transcript_review_flag": 1
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 237
+    }
+  ]
+}

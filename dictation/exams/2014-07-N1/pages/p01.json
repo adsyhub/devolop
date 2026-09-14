@@ -1,0 +1,226 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "今回の大会では、若手の<u>躍進</u>が目立った。",
+      "choices": [
+        "やくしん",
+        "ようしん",
+        "たくしん",
+        "とうしん"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "計画をきちんと<u>遂行</u>することが大切だ。",
+      "choices": [
+        "しっこう",
+        "すいこう",
+        "すいぎょう",
+        "しつぎょう"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "作者の思いがこの一言に<u>凝縮</u>されている。",
+      "choices": [
+        "のしゅく",
+        "のうしゅく",
+        "ぎしゅく",
+        "ぎょうしゅく"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "どの親もわが子が<u>健やかに</u>育つことを願っている。",
+      "choices": [
+        "しとやか",
+        "おだやか",
+        "すこやか",
+        "さわやか"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "このセンターは、日本のがん研究の<u>中枢</u>を担っている。",
+      "choices": [
+        "ちゅうかく",
+        "ちゅうすう",
+        "ちゅうしゅう",
+        "ちゅうきゃく"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "介護制度の整備が遅れているという事実は<u>否めない</u>だろう。",
+      "choices": [
+        "いなめない",
+        "ひめない",
+        "こばめない",
+        "ゆがめない"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "雨の降らない日がこれ以上続けば、農業に影響するだけでなく、日常生活にも（　　）を来すおそれがある。",
+      "choices": [
+        "苦境",
+        "不況",
+        "支障",
+        "停滞"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "その空き地には、（　　）量のごみが捨てられて、山のようになっていた。",
+      "choices": [
+        "目まぐるしい",
+        "限りない",
+        "極まりない",
+        "おびただしい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "この歌手は若者の間で（　　）な人気を誇っている。",
+      "choices": [
+        "絶大",
+        "膨大",
+        "偉大",
+        "強大"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "話し合いは平行線を（　　）、結局一致点を見いだせなかった。",
+      "choices": [
+        "あゆみ",
+        "たどり",
+        "なぞり",
+        "つたい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "弊社の採用試験では、筆記試験よりも面接に（　　）を置いています。",
+      "choices": [
+        "ウエイト",
+        "トップ",
+        "パワー",
+        "メイン"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "当選した林氏は取材に対して、今回の選挙は終盤まで（　　）を許さない厳しい戦いだったと語った。",
+      "choices": [
+        "予期",
+        "見通し",
+        "見込み",
+        "予断"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "田中さんはいつも手際よく（　　）仕事を進めている。",
+      "choices": [
+        "めきめきと",
+        "さらさらと",
+        "てきぱきと",
+        "すくすくと"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "ユーザー登録済みのお客様は、このサービスが<u>無償で</u>受けられます。",
+      "choices": [
+        "ただで",
+        "優先的に",
+        "いつでも",
+        "予約しなくても"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "最近、山本さんは新しい仕事に<u>打ち込んでいる</u>らしい。",
+      "choices": [
+        "興味を持っている",
+        "しつこく誘われている",
+        "時間をとられている",
+        "熱心に取り組んでいる"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "できればもう少し<u>ストレートに</u>言ってほしかったです。",
+      "choices": [
+        "冷静に",
+        "率直に",
+        "真剣に",
+        "慎重に"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "駅前に巨大スーパーができたら<u>お手上げだ</u>。",
+      "choices": [
+        "大歓迎だ",
+        "どうしようもない",
+        "ぜひ働きたい",
+        "驚きだ"
+      ]
+    }
+  ]
+}

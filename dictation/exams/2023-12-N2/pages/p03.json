@@ -1,0 +1,38 @@
+{
+  "page": 3,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　____の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 1,
+      "text": "<u>1</u> 昨日から腕が痛くて困っている。\n1 こし\n2 うで\n3 かた\n4 ひざ\n<u>2</u> 青木さんは善良な人です。\n1 せんりょう\n2 ぜんりゅう\n3 ぜんりょう\n4 せんりゅう\n<u>3</u> 丸山さんは意外に幼いところがある。\n1 おさない\n2 するどい\n3 かしこい\n4 しつこい\n<u>4</u> 古いデータを削除した。\n1 そくよ\n2 さくよ\n3 そくじょ\n4 さくじょ\n<u>5</u> 私たちは働く機会の平等を求めています。\n1 へいど\n2 びょうどう\n3 びょうど\n4 へいどう"
+    }
+  ],
+  "pageLabel": "1",
+  "issues": [
+    "Choice-looking line with no question open: '1 こし'",
+    "Choice-looking line with no question open: '2 うで'",
+    "Choice-looking line with no question open: '3 かた'",
+    "Choice-looking line with no question open: '4 ひざ'",
+    "Choice-looking line with no question open: '1 せんりょう'",
+    "Choice-looking line with no question open: '2 ぜんりゅう'",
+    "Choice-looking line with no question open: '3 ぜんりょう'",
+    "Choice-looking line with no question open: '4 せんりゅう'",
+    "Choice-looking line with no question open: '1 おさない'",
+    "Choice-looking line with no question open: '2 するどい'",
+    "Choice-looking line with no question open: '3 かしこい'",
+    "Choice-looking line with no question open: '4 しつこい'",
+    "Choice-looking line with no question open: '1 そくよ'",
+    "Choice-looking line with no question open: '2 さくよ'",
+    "Choice-looking line with no question open: '3 そくじょ'",
+    "Choice-looking line with no question open: '4 さくじょ'",
+    "Choice-looking line with no question open: '1 へいど'",
+    "Choice-looking line with no question open: '2 びょうどう'",
+    "Choice-looking line with no question open: '3 びょうど'",
+    "Choice-looking line with no question open: '4 へいどう'"
+  ]
+}

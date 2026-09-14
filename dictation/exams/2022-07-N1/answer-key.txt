@@ -1,0 +1,47 @@
+# 2022年7月 日本語能力試験 N1 — 答案
+#
+# Transcribed from page 33 (PDF page 34) of the source paper. Every line mirrors one
+# cell of the printed table so it can be re-checked against the scan directly.
+#
+#   written   <first>-<last>  <分/題>  <one digit per question>
+#   order     <question>      <printed order of fragments 1-4>   (並べ替え only)
+#   listening <問題>          <分/題>  <one digit per scored question, in order>
+
+note 此处给出的计分准则仅限参考，为了每个部分刚好凑满 60 分左右而设定，实际考试是尺度得点的计分方式，和这个完全不一样，所以此处计分方式仅供参考。与官方的得分上下浮动在 15 分左右。答案非标准答案，仅供参考。
+
+# ---- 第一部分　言語知識（文字・語彙・文法） ----
+written   1-6     1   133424
+written   7-13    1   4221133
+written   14-19   1   424331
+written   20-25   1   231214
+written   26-35   2   2314123422
+written   36-40   2   41324
+written   41-44   1   3211
+
+# 排序題順序 — the printed order of the four fragments. The third blank carries ★,
+# so order[3] must equal the answer digit above; exam_schema checks that.
+order     36      3241
+order     37      2413
+order     38      4231
+order     39      3124
+order     40      1342
+
+# ---- 第二部分　読解 ----
+written   45-48   2   3143
+written   49-57   2   331322144
+written   58-60   3   143
+written   61-62   3   23
+written   63-66   3   4124
+written   67-68   2   12
+
+# ---- 第三部分　聴解 ----
+# 問題5 lists three answers for two spoken items: 1番, then 2番's 質問1 and 質問2.
+listening 1       1   321232
+listening 2       1   2322313
+listening 3       2   441413
+listening 4       2   3312233111312
+listening 5       3   421
+
+# ---- 存疑 ----
+# A dispute does not change the answer; it is shown beside it so the learner can judge.
+dispute 58 卷末答案给的是 1（難解な物の見方や考え方を理解するため），但原文把先生话的意思写成「自分の知らない考え方や感じ方にふれることによって、自分の偏狭な物の見方を問い直さなければならない」，这几乎是选项 2（自身の物の見方や考え方を再考するため）的逐字改写；而且紧接着的下一段作者自己就在质疑「難解な本を理解するだけの読書でいいのだろうか」，所以选项 1 恰恰是他后来否定的做法。这份答案自称「非标准答案，仅供参考」，此处按 2 理解可能更贴合原文。

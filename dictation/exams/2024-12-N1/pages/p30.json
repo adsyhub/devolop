@@ -1,0 +1,21 @@
+{
+  "page": 30,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "60 部下や後輩が指示待ちになっている理由として、AとBが共通して述べていることは何か。\n1 知識や経験が足りず、やるべきことが分からないこと。\n2 自信がなく、自主的に仕事を進めることができないこと。\n3 上司がいつも丁寧にやり方を教えてくれること。\n4 上司にいわれたことを行うのが仕事だと思っていること。\n61 指示待ちになっている部下や後輩の対応のしかたについて、AとBはどのように述べているか。\n1 AもBも、自分なりのやり方を考えて提案させるといいと述べている。\n2 AもBも、仕事の目的を伝え、やるべきことを一緒に考えるといいと述べている。\n3 Aは仕事の目的と全体像を理解させるといいと述べ、Bは自分でできそうなことはまず一人で考えさせるといいと述べている。\n4 Aはほかの仕事とのかかわりを教えるといいと述べ、Bはやり方がすでに分かっている仕事を与え自分自身でやらせるといいと述べている。"
+    }
+  ],
+  "pageLabel": "29",
+  "issues": [
+    "Choice-looking line with no question open: '1 知識や経験が足りず、やるべきことが分からないこと。'",
+    "Choice-looking line with no question open: '2 自信がなく、自主的に仕事を進めることができないこと。'",
+    "Choice-looking line with no question open: '3 上司がいつも丁寧にやり方を教えてくれること。'",
+    "Choice-looking line with no question open: '4 上司にいわれたことを行うのが仕事だと思っていること。'",
+    "Choice-looking line with no question open: '1 AもBも、自分なりのやり方を考えて提案させるといいと述べている。'",
+    "Choice-looking line with no question open: '2 AもBも、仕事の目的を伝え、やるべきことを一緒に考えるといいと述べている。'",
+    "Choice-looking line with no question open: '3 Aは仕事の目的と全体像を理解させるといいと述べ、Bは自分でできそうなことはまず一人で考えさせるといいと述べている。'",
+    "Choice-looking line with no question open: '4 Aはほかの仕事とのかかわりを教えるといいと述べ、Bはやり方がすでに分かっている仕事を与え自分自身でやらせるといいと述べている。'"
+  ]
+}

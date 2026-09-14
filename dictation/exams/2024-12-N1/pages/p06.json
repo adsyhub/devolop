@@ -1,0 +1,16 @@
+{
+  "page": 6,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "25 間柄\n1 木村さんとは中学からずっと同じクラスだが、それほど親しい間柄ではない。\n2 友好条約で両国の間柄は今後進展する。\n3 生態の変化、近年の環境の破壊との間柄が指摘される。\n4 父と漁民、小さい頃から、海と間柄の深い暮らしをしてきた。"
+    }
+  ],
+  "issues": [
+    "Choice-looking line with no question open: '1 木村さんとは中学からずっと同じクラスだが、それほど親しい間柄ではない。'",
+    "Choice-looking line with no question open: '2 友好条約で両国の間柄は今後進展する。'",
+    "Choice-looking line with no question open: '3 生態の変化、近年の環境の破壊との間柄が指摘される。'",
+    "Choice-looking line with no question open: '4 父と漁民、小さい頃から、海と間柄の深い暮らしをしてきた。'"
+  ]
+}

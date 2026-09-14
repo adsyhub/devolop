@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eju.local/schemas/content-inventory.schema.json",
+  "title": "EJUContentInventory",
+  "type": "object",
+  "required": ["schemaVersion", "updatedAt", "items"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "inventoryId",
+          "session",
+          "subject",
+          "language",
+          "syllabusId",
+          "requiredFiles",
+          "rightsStatus",
+          "pipelineStatus",
+          "expectedForms"
+        ],
+        "properties": {
+          "inventoryId": { "type": "string" },
+          "session": { "type": "string" },
+          "subject": { "type": "string", "enum": ["JAPANESE", "SCIENCE", "JAPAN_AND_WORLD", "MATHEMATICS"] },
+          "language": { "type": "string", "enum": ["ja", "en"] },
+          "syllabusId": { "type": "string" },
+          "requiredFiles": {
+            "type": "array",
+            "items": { "type": "string", "enum": ["QUESTION_BOOKLET", "ANSWER_KEY", "AUDIO", "TRANSCRIPT", "OTHER"] }
+          },
+          "optionalFiles": {
+            "type": "array",
+            "items": { "type": "string", "enum": ["QUESTION_BOOKLET", "ANSWER_KEY", "AUDIO", "TRANSCRIPT", "OTHER"] }
+          },
+          "rightsStatus": {
+            "type": "string",
+            "enum": ["PRIVATE_STUDY", "INTERNAL_REVIEW", "PUBLIC_LICENSED", "COMMERCIAL_LICENSED", "SUSPENDED", "UNKNOWN", "REVIEW_REQUIRED"]
+          },
+          "pipelineStatus": {
+            "type": "string",
+            "enum": [
+              "DISCOVERED",
+              "RIGHTS_CHECKED",
+              "RECEIVED",
+              "PROBED",
+              "RENDERED",
+              "EXTRACTED",
+              "REVIEWING",
+              "REVIEWED",
+              "ASSEMBLED",
+              "AUDITED",
+              "PUBLISHED",
+              "BLOCKED_RIGHTS",
+              "MISSING_SOURCE",
+              "MISSING_ANSWER",
+              "MISSING_AUDIO",
+              "REVIEW_FAILED"
+            ]
+          },
+          "expectedForms": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "blockingIssues": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "notes": { "type": "string" },
+          "publishedVersionId": { "type": "string" },
+          "completeness": { "type": "string" },
+          "reviewState": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "page": 4,
+  "pageLabel": "第3页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "label": null,
+      "text": "問題3　　　の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": null,
+      "text": "友人に<u>触発されて</u>、事業を始めた。",
+      "questionNumber": 14,
+      "choices": [
+        "誘われて",
+        "提案されて",
+        "助けられて",
+        "刺激されて"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": null,
+      "text": "彼の言動にほとんどの人が<u>閉口して</u>いる。",
+      "questionNumber": 15,
+      "choices": [
+        "慣れて",
+        "困って",
+        "がっかりして",
+        "ほっとして"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": null,
+      "text": "彼は仕事を辞めてから、<u>気ままな</u>生活をしているようだ。",
+      "questionNumber": 16,
+      "choices": [
+        "質素な",
+        "退屈な",
+        "ぜいたくな",
+        "自由な"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": null,
+      "text": "6時発の飛行機には、<u>若干</u>空席があります。",
+      "questionNumber": 17,
+      "choices": [
+        "まだ",
+        "かなり",
+        "いくつか",
+        "おそらく"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": null,
+      "text": "これは<u>手分け</u>したほうがいい。",
+      "questionNumber": 18,
+      "choices": [
+        "分割",
+        "分別",
+        "分担",
+        "分類"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": null,
+      "text": "｜林《はやし》さんが、残った仕事を<u>てきぱきと</u>処理してくれた。",
+      "questionNumber": 19,
+      "choices": [
+        "早く正確に",
+        "時間をかけて丁寧に",
+        "張り切って",
+        "嫌がらずに"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "part-instruction (問題3): the printed heading has a blank gap between 「問題3」 and 「の言葉に…」 where the underline mark normally appears; no underline stroke is visible in the scan, so the gap is transcribed as full-width spaces rather than ＿＿＿.",
+    "Question 19: no underline stroke is printed anywhere in the stem in this scan (checked at 2x zoom). By the choice set the tested phrase is てきぱきと, but since nothing is printed the stem is transcribed without <u>...</u>.",
+    "Question 14: the printed stem has an extra space after 「、」 before 「事業」 (typesetting artifact); it has been joined without the extra space. Same for question 19 after 「19、」 and after 「さんが、」.",
+    "Q19: the underline under てきぱきと is not visible in this scan — the watermark removal appears to have taken the rule with it (Q18's 手分け still has one). Every 問題3 item underlines the word being paraphrased, and the choices (早く正確に …) can only be about てきぱきと, so the underline was restored."
+  ]
+}

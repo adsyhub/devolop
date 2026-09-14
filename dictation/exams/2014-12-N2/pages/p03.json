@@ -1,0 +1,136 @@
+{
+  "page": 3,
+  "pageLabel": "3",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 5,
+      "text": "問題5　<u>　　　</u>の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "questionNumber": 23,
+      "text": "下線部の言葉<u>近義語23</u>に最も近い意味のものを選びなさい。",
+      "choices": [
+        "類義語1",
+        "類義語2",
+        "類義語3",
+        "類義語4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "questionNumber": 24,
+      "text": "下線部の言葉<u>近義語24</u>に最も近い意味のものを選びなさい。",
+      "choices": [
+        "類義語1",
+        "類義語2",
+        "類義語3",
+        "類義語4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "questionNumber": 25,
+      "text": "下線部の言葉<u>近義語25</u>に最も近い意味のものを選びなさい。",
+      "choices": [
+        "類義語1",
+        "類義語2",
+        "類義語3",
+        "類義語4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "questionNumber": 26,
+      "text": "下線部の言葉<u>近義語26</u>に最も近い意味のものを選びなさい。",
+      "choices": [
+        "類義語1",
+        "類義語2",
+        "類義語3",
+        "類義語4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "questionNumber": 27,
+      "text": "下線部の言葉<u>近義語27</u>に最も近い意味のものを選びなさい。",
+      "choices": [
+        "類義語1",
+        "類義語2",
+        "類義語3",
+        "類義語4"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 6,
+      "text": "問題6　次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 6,
+      "questionNumber": 28,
+      "text": "言葉の用法28",
+      "choices": [
+        "この言葉を使った例文1です。",
+        "この言葉を使った例文2です。",
+        "この言葉を使った例文3です。",
+        "この言葉を使った例文4です。"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 6,
+      "questionNumber": 29,
+      "text": "言葉の用法29",
+      "choices": [
+        "この言葉を使った例文1です。",
+        "この言葉を使った例文2です。",
+        "この言葉を使った例文3です。",
+        "この言葉を使った例文4です。"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 6,
+      "questionNumber": 30,
+      "text": "言葉の用法30",
+      "choices": [
+        "この言葉を使った例文1です。",
+        "この言葉を使った例文2です。",
+        "この言葉を使った例文3です。",
+        "この言葉を使った例文4です。"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 6,
+      "questionNumber": 31,
+      "text": "言葉の用法31",
+      "choices": [
+        "この言葉を使った例文1です。",
+        "この言葉を使った例文2です。",
+        "この言葉を使った例文3です。",
+        "この言葉を使った例文4です。"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 6,
+      "questionNumber": 32,
+      "text": "言葉の用法32",
+      "choices": [
+        "この言葉を使った例文1です。",
+        "この言葉を使った例文2です。",
+        "この言葉を使った例文3です。",
+        "この言葉を使った例文4です。"
+      ]
+    }
+  ]
+}

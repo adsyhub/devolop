@@ -1,0 +1,19 @@
+{
+  "page": 41,
+  "blocks": [
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "お",
+      "label": "5番",
+      "choices": [
+        "客へのプレゼントの案を出す",
+        "ロビーでのイベントの案を作る",
+        "ロビーの飾り方を計画",
+        "ミニツアーを企画する"
+      ]
+    }
+  ],
+  "pageLabel": "4",
+  "issues": []
+}

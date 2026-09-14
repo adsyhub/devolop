@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "page": 1,
+  "sourceFileRole": "QUESTION_BOOKLET",
+  "blocks": [
+    {
+      "kind": "question",
+      "localKey": "physics-i-q1",
+      "formCode": "PHYSICS_JA",
+      "sectionCode": "MAIN",
+      "groupCode": "I",
+      "printedLabel": "問1",
+      "answerRef": "PHYSICS:1",
+      "stemAst": [
+        {"type": "text", "value": "これは構造例であり、実際の試験問題ではありません。"},
+        {"type": "inlineMath", "latex": "F=ma"},
+        {"type": "figure", "sourceBbox": [0.2, 0.3, 0.8, 0.6]}
+      ],
+      "options": [
+        {"key": "1", "contentAst": [{"type": "inlineMath", "latex": "ma"}]},
+        {"key": "2", "contentAst": [{"type": "inlineMath", "latex": "2ma"}]}
+      ],
+      "answerSpec": {"type": "SINGLE_CHOICE"},
+      "materialRefs": [],
+      "bbox": [0.08, 0.15, 0.92, 0.88]
+    }
+  ],
+  "coverage": {"inkRegions": 1, "accountedRegions": 1},
+  "issues": []
+}
+

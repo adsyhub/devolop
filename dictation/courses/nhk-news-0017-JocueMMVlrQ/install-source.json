@@ -1,0 +1,13 @@
+{
+  "kind": "online-video",
+  "provider": "youtube",
+  "control": "full",
+  "videoId": "JocueMMVlrQ",
+  "pageUrl": "https://www.youtube.com/watch?v=JocueMMVlrQ",
+  "transcriptSource": "site-subtitles",
+  "retrievedAt": "2026-09-01",
+  "enrichment": null,
+  "asr": null,
+  "redistributable": false,
+  "note": "媒体从未下载或存储；本课程不可再分发。 / The media was never downloaded or stored; this course is not redistributable."
+}

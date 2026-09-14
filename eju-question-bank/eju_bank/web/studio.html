@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4f5a66">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <title>制课 · EJU 题库制作台</title>
+  <link rel="stylesheet" href="/tokens.css">
+  <link rel="stylesheet" href="/studio.css">
+</head>
+<body class="studio-body" data-module="build">
+  <a class="skip-link" href="#studio-main">跳到内容</a>
+
+  <header class="topbar studio-topbar">
+    <div class="topbar-lead">
+      <a class="brand" href="./" aria-label="返回学习入口">
+        <span class="brand-mark studio-brand-mark" aria-hidden="true">製</span>
+        <span><strong>题库制作台</strong><small>制课 · 课程库 · 复核 · 运维</small></span>
+      </a>
+    </div>
+    <div class="topbar-status-group">
+      <span class="badge subtle-badge" id="model-pill" title="本地模型状态（点击刷新）">检测中…</span>
+      <a class="mode-switch-link" href="./">切换工作区</a>
+    </div>
+  </header>
+
+  <nav class="studio-modules" id="studio-modules" aria-label="制作台模块"></nav>
+
+  <main id="studio-main" class="studio-build">
+    <div class="board-hero">
+      <p class="eyebrow">ONE-CLICK PRODUCTION</p>
+      <h1>制课</h1>
+      <p class="board-hero-copy">
+        拖一份题册 PDF（有答案册就一起拖）进来，选好模型，剩下的一条流水线做完：
+        探测 → 渲染 → OCR → 校对 → 页面合同与机器校验 → 组装预检 → 发布 → 真题详解草稿。
+      </p>
+    </div>
+
+    <p class="status-line" id="module-status" role="status"></p>
+
+    <div class="build-layout">
+      <!-- ============================================================ -->
+      <!-- 1 · 准备：原卷 + 这是哪套卷 + 用哪些模型                     -->
+      <!-- ============================================================ -->
+      <section class="panel" aria-labelledby="setup-heading">
+        <h2 id="setup-heading">1 · 准备</h2>
+
+        <div class="field">
+          <span class="label">原卷 PDF</span>
+          <label class="dropzone" id="dropzone" for="pdf-input">
+            <input type="file" id="pdf-input" accept="application/pdf,.pdf" multiple hidden>
+            <span id="dropzone-text">把题册与答案册拖到这里，或点击选择</span>
+            <span class="hint">
+              文件名里写着年份、回次和科目就能自动认出来；答案册常常只写「答案」，
+              那一栏下面会让你确认。单个文件最大 150 MB。
+            </span>
+          </label>
+          <div id="upload-list" class="upload-list"></div>
+        </div>
+
+        <div class="field-grid">
+          <label class="field"><span class="label" for="paper-session">年度与回次</span>
+            <input type="text" id="paper-session" placeholder="2023-2" spellcheck="false"></label>
+          <label class="field"><span class="label" for="paper-subject">科目</span>
+            <select id="paper-subject">
+              <option value="">（待确认）</option>
+              <option value="JAPANESE">日本语</option>
+              <option value="SCIENCE">理科（物理/化学/生物）</option>
+              <option value="JAPAN_AND_WORLD">综合科目</option>
+              <option value="MATHEMATICS">数学</option>
+            </select></label>
+          <label class="field" id="course-field" hidden><span class="label" for="paper-course">数学类别</span>
+            <select id="paper-course">
+              <option value="COURSE_1">数学 1 类（文科）</option>
+              <option value="COURSE_2">数学 2 类（理科）</option>
+            </select></label>
+          <label class="field"><span class="label" for="paper-language">出题语言</span>
+            <select id="paper-language">
+              <option value="ja">日语</option>
+              <option value="en">英语</option>
+            </select></label>
+        </div>
+        <p class="hint" id="detect-hint"></p>
+
+        <h3 class="build-subhead">模型</h3>
+        <div class="field-grid">
+          <label class="field"><span class="label" for="ocr-profile">OCR（首轮读原页）</span>
+            <select id="ocr-profile"></select>
+            <span class="hint" id="ocr-hint"></span></label>
+          <label class="field"><span class="label" for="proofread-profile">校对 · 复读异常页</span>
+            <select id="proofread-profile"></select>
+            <span class="hint" id="proofread-hint"></span></label>
+          <label class="field"><span class="label" for="text-profile">校对 · 复核整卷</span>
+            <select id="text-profile"></select>
+            <span class="hint" id="text-hint"></span></label>
+          <label class="field"><span class="label" for="explain-profile">真题详解</span>
+            <select id="explain-profile"></select>
+            <span class="hint" id="explain-hint"></span></label>
+        </div>
+
+        <p class="note">
+          模型只能从 <code>config/providers.json</code> 里已有的档位中选。本页不能自己填模型
+          地址——那等于让浏览器决定把原卷图发到哪台机器上。视觉档位一律只走回环地址。
+        </p>
+
+        <details class="advanced" id="build-advanced">
+          <summary>更多选项</summary>
+          <label class="check-row"><input type="checkbox" id="opt-stop-draft">
+            停在待复核：组装通过预检后就停，不发布，等人到复核编辑器逐页签署</label>
+          <label class="check-row"><input type="checkbox" id="opt-force">
+            重跑已完成的步骤（默认跳过已有产物）</label>
+          <label class="field"><span class="label" for="opt-explain-limit">详解题数上限（0 = 不限）</span>
+            <input type="number" id="opt-explain-limit" min="0" max="500" step="1" value="0"></label>
+          <p class="hint">
+            详解一题要跑几十秒到两分钟，一整套卷可能要一小时以上。先设个上限看看质量，
+            再决定放开。
+          </p>
+        </details>
+
+        <button type="button" id="start-build" class="primary-button" disabled>开始制课</button>
+        <p class="status-line" id="setup-error" role="status"></p>
+        <!-- 能开始、但要知道代价的提醒；与挡住开始的错误分开显示。 -->
+        <p class="status-line status-warning" id="setup-warning" role="status" hidden></p>
+      </section>
+
+      <!-- ============================================================ -->
+      <!-- 2 · 流水线：步骤进度 + 实时日志                              -->
+      <!-- ============================================================ -->
+      <section class="panel" aria-labelledby="run-heading">
+        <div class="section-head">
+          <div>
+            <h2 id="run-heading">2 · 流水线</h2>
+            <p class="sub" id="run-meta">选好原卷与模型后点「开始制课」。任务在后台跑，可以离开这个页面。</p>
+          </div>
+          <span class="status-chip" id="run-status" data-status="idle">未开始</span>
+        </div>
+
+        <ol class="pipeline-steps" id="pipeline-steps"></ol>
+
+        <div class="run-actions">
+          <button type="button" id="cancel-build" class="btn btn-outline danger-text" hidden>停止</button>
+          <button type="button" id="refresh-build" class="btn btn-outline" hidden>刷新状态</button>
+        </div>
+
+        <pre class="build-log" id="build-log" tabindex="0" aria-live="polite" aria-label="制课日志"></pre>
+
+        <div class="result-summary" id="result-summary" hidden></div>
+
+        <details class="advanced" id="recent-runs-wrap">
+          <summary>最近的制课任务</summary>
+          <div id="recent-runs"></div>
+        </details>
+      </section>
+    </div>
+  </main>
+
+  <script src="/core.js" defer></script>
+  <script src="/studio_shell.js" defer></script>
+  <script src="/studio_build.js" defer></script>
+</body>
+</html>

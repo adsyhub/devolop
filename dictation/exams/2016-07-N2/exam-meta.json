@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "level": "N2",
+  "slug": "2016-07-N2",
+  "title": "2016年7月 日本語能力試験 N2",
+  "sessionLabel": "2016年7月",
+  "durationSec": 10800,
+  "source": {
+    "fileName": "N2 2016年7月真题+答案+详解+听力原文.pdf",
+    "sha256": "63a9638efe4b1942f5c0b185140dfbc6669729273bbf54d5b4478a976e56390a",
+    "bytes": 4448742,
+    "pageCount": 31
+  },
+  "listeningMedia": {
+    "kind": "course-audio",
+    "courseSlug": "2016-07-N2",
+    "expectedSha256": "42dde5069370f19895eae8efb0b139107fe57919d467a77e18de4e1e604f676d",
+    "expectedBytes": 23456713
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "description": "2011-12-N1：LLM 逐句校对发现的 ASR 误识别修正 12 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "2514203a95cbfe226fec3c1b3f2e86d1f687703e154ad8cbbf01ae3d07120553",
+  "evidence": {
+    "file": "proofread-work/2011-12-N1/proofread.json",
+    "proposedFixes": "proofread-work/2011-12-N1/proposed-fixes.json",
+    "notes": "proofread-work/2011-12-N1/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 107,
+      "endIndex": 107,
+      "expectedStartTime": 718.48,
+      "expectedEndTime": 723.98,
+      "items": [
+        {
+          "startTime": 718.48,
+          "endTime": 723.98,
+          "sourceText": "解答用紙の問題2の例のところを見てください",
+          "jaText": "解答用紙の問題2の例のところを見てください"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 186,
+      "endIndex": 186,
+      "expectedStartTime": 1346.62,
+      "expectedEndTime": 1350.81,
+      "items": [
+        {
+          "startTime": 1346.62,
+          "endTime": 1350.81,
+          "sourceText": "ことが多くありますのでそうした ディスカッションでは物怖じせず",
+          "jaText": "ことが多くありますのでそうした ディスカッションでは物怖じせず"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 207,
+      "endIndex": 207,
+      "expectedStartTime": 1485.26,
+      "expectedEndTime": 1495.21,
+      "items": [
+        {
+          "startTime": 1485.26,
+          "endTime": 1495.21,
+          "sourceText": "冬至と夏至の日の夜8時から10時までの2時間 家で電気を使わずにねロウソクの明かりだけで過ごそうっていう活動なの",
+          "jaText": "冬至と夏至の日の夜8時から10時までの2時間 家で電気を使わずにねロウソクの明かりだけで過ごそうっていう活動なの"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 236,
+      "endIndex": 236,
+      "expectedStartTime": 1736.31,
+      "expectedEndTime": 1748.41,
+      "items": [
+        {
+          "startTime": 1736.31,
+          "endTime": 1748.41,
+          "sourceText": "です解答用紙の問題3の例のところを見てください 最も良いものは2番ですから答えはこのように書きます",
+          "jaText": "です解答用紙の問題3の例のところを見てください 最も良いものは2番ですから答えはこのように書きます"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 252,
+      "endIndex": 252,
+      "expectedStartTime": 1883.6,
+      "expectedEndTime": 1889.2,
+      "items": [
+        {
+          "startTime": 1883.6,
+          "endTime": 1889.2,
+          "sourceText": "原料は主に、コウゾという2メートルから5メートルぐらいの高さの木です。",
+          "jaText": "原料は主に、コウゾという2メートルから5メートルぐらいの高さの木です。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 254,
+      "endIndex": 254,
+      "expectedStartTime": 1897.02,
+      "expectedEndTime": 1905.22,
+      "items": [
+        {
+          "startTime": 1897.02,
+          "endTime": 1905.22,
+          "sourceText": "です それに和紙は化学的な薬品も大掛かりな機械も使わずに作ることができて非常に環境に",
+          "jaText": "です それに和紙は化学的な薬品も大掛かりな機械も使わずに作ることができて非常に環境に"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 319,
+      "endIndex": 319,
+      "expectedStartTime": 2496.19,
+      "expectedEndTime": 2502.35,
+      "items": [
+        {
+          "startTime": 2496.19,
+          "endTime": 2502.35,
+          "sourceText": "解答用紙の問題4の例のところを見てください",
+          "jaText": "解答用紙の問題4の例のところを見てください"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 334,
+      "endIndex": 334,
+      "expectedStartTime": 2596.63,
+      "expectedEndTime": 2603.99,
+      "items": [
+        {
+          "startTime": 2596.63,
+          "endTime": 2603.99,
+          "sourceText": "そのように先方に伝えておきます申し訳ありません至急送ります",
+          "jaText": "そのように先方に伝えておきます申し訳ありません至急送ります"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 349,
+      "endIndex": 349,
+      "expectedStartTime": 2733.01,
+      "expectedEndTime": 2743.13,
+      "items": [
+        {
+          "startTime": 2733.01,
+          "endTime": 2743.13,
+          "sourceText": "痛感しております確かに承りました認めていただいて",
+          "jaText": "痛感しております確かに承りました認めていただいて"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 421,
+      "endIndex": 421,
+      "expectedStartTime": 3373.87,
+      "expectedEndTime": 3382.83,
+      "items": [
+        {
+          "startTime": 3373.87,
+          "endTime": 3382.83,
+          "sourceText": "ショーがございますのでそろそろ混雑が始まることが予想されます また歴史館の待ち時間は30分程度となっております",
+          "jaText": "ショーがございますのでそろそろ混雑が始まることが予想されます また歴史館の待ち時間は30分程度となっております"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 423,
+      "endIndex": 423,
+      "expectedStartTime": 3394.49,
+      "expectedEndTime": 3403.43,
+      "items": [
+        {
+          "startTime": 3394.49,
+          "endTime": 3403.43,
+          "sourceText": "効率的に見ないと全部回れないよどこから見る 映画は絶対に見逃せないから時間に遅れないようにしよね",
+          "jaText": "効率的に見ないと全部回れないよどこから見る 映画は絶対に見逃せないから時間に遅れないようにしよね"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 431,
+      "endIndex": 431,
+      "expectedStartTime": 3462.38,
+      "expectedEndTime": 3466.45,
+      "items": [
+        {
+          "startTime": 3462.38,
+          "endTime": 3466.45,
+          "sourceText": "問2女の人が行きたいところはどこですか",
+          "jaText": "問2女の人が行きたいところはどこですか"
+        }
+      ]
+    }
+  ]
+}

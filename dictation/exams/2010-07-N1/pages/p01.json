@@ -1,0 +1,226 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "駅前の店はどこも<u>繁盛</u>している。",
+      "choices": [
+        "びんしょう",
+        "びんじょう",
+        "はんしょう",
+        "はんじょう"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "<u>契約</u>の内容については、こちらの書類をご覧ください。",
+      "choices": [
+        "せいやく",
+        "けいやく",
+        "こうやく",
+        "ようやく"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "この国は、昔から貿易によって<u>潤って</u>きた。",
+      "choices": [
+        "もうかって",
+        "まかなって",
+        "あきなって",
+        "うるおって"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "警備が<u>手薄</u>なところがないか調べた。",
+      "choices": [
+        "しゅうす",
+        "しゅはく",
+        "てうす",
+        "てはく"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "開発のために、古いビルが次々と<u>壊されて</u>いる。",
+      "choices": [
+        "こわされて",
+        "くずされて",
+        "たおされて",
+        "つぶされて"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "オリンピックが<u>華々しく</u>開幕した。",
+      "choices": [
+        "はなばなしく",
+        "おもおもしく",
+        "ものものしく",
+        "そうぞうしく"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "この連載小説は全12話で（　　）する。",
+      "choices": [
+        "静止",
+        "成就",
+        "完結",
+        "終息"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "会議で質問に答えられなくて困っていたら、課長が（　　）してくれた。",
+      "choices": [
+        "キープ",
+        "フォロー",
+        "マッチ",
+        "アップ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "この春、とうとう（　　）のマイホームを手に入れた。",
+      "choices": [
+        "切望",
+        "欲望",
+        "念願",
+        "志願"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "会議ではA案に賛成したが、（　　）を言えば、B案のほうがいいと思う。",
+      "choices": [
+        "本音",
+        "本気",
+        "弱音",
+        "弱気"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "先方に協力を依頼したが、（　　）断られてしまった。",
+      "choices": [
+        "しんなり",
+        "やんわり",
+        "うんざり",
+        "ひんやり"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "（　　）ホテルでは、全室禁煙です。",
+      "choices": [
+        "自",
+        "主",
+        "実",
+        "当"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "新しいビジネスを始めるに当たっては、（　　）計画を立てる必要がある。",
+      "choices": [
+        "零細な",
+        "綿密な",
+        "繊細な",
+        "濃密な"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "彼はお金に関して、<u>ルーズな</u>ところがある。",
+      "choices": [
+        "ずうずうしい",
+        "だらしない",
+        "うるさい",
+        "よわい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "この職場にもかなり<u>なじんできた</u>。",
+      "choices": [
+        "恵まれて",
+        "逆らって",
+        "飽きて",
+        "慣れて"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "あの兄弟はいつもお互いに<u>張り合っている</u>。",
+      "choices": [
+        "競争して",
+        "応援して",
+        "無視して",
+        "尊重して"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "ある日、わが家に<u>朗報</u>が届いた。",
+      "choices": [
+        "意外なお知らせ",
+        "うれしい知らせ",
+        "大切なお知らせ",
+        "めずらしい知らせ"
+      ]
+    }
+  ]
+}

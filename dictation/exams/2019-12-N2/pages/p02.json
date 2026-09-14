@@ -1,0 +1,160 @@
+{
+  "page": 2,
+  "pageLabel": "2",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 11,
+      "text": "適切な語形成として（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "接頭語・接尾語1",
+        "接頭語・接尾語2",
+        "接頭語・接尾語3",
+        "接頭語・接尾語4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 12,
+      "text": "適切な語形成として（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "接頭語・接尾語1",
+        "接頭語・接尾語2",
+        "接頭語・接尾語3",
+        "接頭語・接尾語4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 13,
+      "text": "適切な語形成として（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "接頭語・接尾語1",
+        "接頭語・接尾語2",
+        "接頭語・接尾語3",
+        "接頭語・接尾語4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "適切な語形成として（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "接頭語・接尾語1",
+        "接頭語・接尾語2",
+        "接頭語・接尾語3",
+        "接頭語・接尾語4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "適切な語形成として（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "接頭語・接尾語1",
+        "接頭語・接尾語2",
+        "接頭語・接尾語3",
+        "接頭語・接尾語4"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 4,
+      "text": "問題4　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 16,
+      "text": "文脈に合う言葉として（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "語彙1",
+        "語彙2",
+        "語彙3",
+        "語彙4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 17,
+      "text": "文脈に合う言葉として（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "語彙1",
+        "語彙2",
+        "語彙3",
+        "語彙4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 18,
+      "text": "文脈に合う言葉として（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "語彙1",
+        "語彙2",
+        "語彙3",
+        "語彙4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 19,
+      "text": "文脈に合う言葉として（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "語彙1",
+        "語彙2",
+        "語彙3",
+        "語彙4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 20,
+      "text": "文脈に合う言葉として（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "語彙1",
+        "語彙2",
+        "語彙3",
+        "語彙4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 21,
+      "text": "文脈に合う言葉として（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "語彙1",
+        "語彙2",
+        "語彙3",
+        "語彙4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 22,
+      "text": "文脈に合う言葉として（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "語彙1",
+        "語彙2",
+        "語彙3",
+        "語彙4"
+      ]
+    }
+  ]
+}

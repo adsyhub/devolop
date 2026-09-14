@@ -1,0 +1,10 @@
+{
+  "contentRevision": "56a3c6acd946e35789d9a9a6888b0f03e773f7afdbb739fe3889a9574183a132",
+  "files": {
+    "pack.json": "3104fd577a1d7a3e51ab3d9d3a0eeb08f03b164f7e31c5e34625de64919637c7",
+    "quality-report.json": "dd587695ebc3686c279ea43fa86ef8e4ed1ddcffc2122374eee08bbf1c3fff26",
+    "match-report.json": "7d8483eff2a6369cc125bfa9b90dfb7be88ddb8c343c65f55d5eceedbd8a38e6",
+    "entry-keys.json": "0ac2665bb1b72b1be0016a3aafe52b79042ad2264ea646c66f4089c4ea08ea29"
+  },
+  "publishedAt": "2026-09-08T00:02:48.456678+00:00"
+}

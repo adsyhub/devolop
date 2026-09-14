@@ -1,0 +1,29 @@
+# JLPT N2 2012-12-N2 Answer Key
+
+written 1-5 1 13214
+written 6-10 1 43231
+written 11-15 1 42142
+written 16-22 1 3312341
+written 23-27 1 14424
+written 28-32 1.5 32132
+written 33-44 1 142424113211
+written 45-49 1.5 13213
+written 50-54 1.5 23134
+
+written 55-59 2 13214
+written 60-68 2.5 113214132
+written 69-70 3 23
+written 71-73 3 213
+written 74-75 3 43
+
+order 45 4213
+order 46 1234
+order 47 1324
+order 48 2314
+order 49 1234
+
+listening 1 1.5 12341
+listening 2 1.5 231421
+listening 3 1.5 31423
+listening 4 1.5 123123123123
+listening 5 2.5 1234

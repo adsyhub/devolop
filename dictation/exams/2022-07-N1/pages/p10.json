@@ -1,0 +1,79 @@
+{
+  "page": 10,
+  "pageLabel": "第9页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "question",
+      "partNumber": 7,
+      "label": null,
+      "text": "",
+      "questionNumber": 41,
+      "choices": [
+        "保育園",
+        "ある保育園",
+        "そうした保育園",
+        "それ以外の保育園"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": true,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 7,
+      "label": null,
+      "text": "",
+      "questionNumber": 42,
+      "choices": [
+        "なお",
+        "ただ",
+        "ゆえに",
+        "それなのに"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": true,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 7,
+      "label": null,
+      "text": "",
+      "questionNumber": 43,
+      "choices": [
+        "入学したとたん",
+        "入学しておきながら",
+        "入学したとしても",
+        "入学してはじめて"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": true,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 7,
+      "label": null,
+      "text": "",
+      "questionNumber": 44,
+      "choices": [
+        "たくましく思えます",
+        "たくましいとされています",
+        "たくましかったはずです",
+        "たくましくなったものです"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": true,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "This page prints ONLY the four answer choices for questions 41-44 (問題7 文章の文法). No 問題 heading, no passage and no question stems are printed here — the cloze passage carrying the boxed 【41】-【44】 is on the previous page. Each question block therefore has an empty text field and continuesFromPreviousPage=true.",
+    "The 問題 number is not printed on this page; partNumber=7 is inferred from the question numbers 41-44 (問題7 covers Q41-44), not read from the page.",
+    "Question 44, choice 4: a visible one-character gap is printed between 「たくましくなった」 and 「ものです」. Transcribed with a full-width space (U+3000) as 「たくましくなった　ものです」. This may be a typesetting/scan artifact rather than an intentional space.",
+    "Question 42: an unusually large vertical gap is printed between the choice row 1/2 and the choice row 3/4. This is layout only; no text appears in the gap.",
+    "Question numbers 41-44 are printed in bold at the left margin without a visible box in this scan; they are recorded in questionNumber only.",
+    "No publisher watermark was visible anywhere on this page. The rest of the page below question 44 is blank apart from the page label 第9页."
+  ]
+}

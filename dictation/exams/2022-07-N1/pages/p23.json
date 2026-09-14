@@ -1,0 +1,56 @@
+{
+  "page": 23,
+  "pageLabel": "第22页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 13,
+      "label": null,
+      "text": "問題13　右のページは、ある会社で人事課から社員に届いた案内である。下の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 13,
+      "label": null,
+      "text": "ジェシカさんは、9月に受講料9,000円のビジネスマナー講座を、10月に受講料27,000円のプレゼン講座を受講する。ジェシカさんが会社から受けられる補助は、いくらになるか。",
+      "questionNumber": 67,
+      "choices": [
+        "9,000円と10,000円",
+        "9,000円と27,000円",
+        "10,000円と10,000円",
+        "10,000円"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 13,
+      "label": null,
+      "text": "森田さんは、2月20日にビジネス文書講座を受講する。受講料補助の申請はどうしなければならないか。",
+      "questionNumber": 68,
+      "choices": [
+        "2月15日までに①〜④を人事課に提出する。",
+        "2月15日までに①を、3月10日までに②〜④を人事課に提出する。",
+        "2月15日までに①を、3月31日までに②〜④を人事課に提出する。",
+        "3月10日までに①〜④を人事課に提出する。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "Q67 stem: the amount for the プレゼン講座 is printed with an anomalous space inside the numeral group, as \"27, 000 円\" (comma followed by a space). Transcribed as \"27,000円\"; the digits 2-7-0-0-0 are unambiguous in crop p23_a.",
+    "Question numbers 67 and 68 are each followed by a printed \"、\" (i.e. \"67 、ジェシカさんは…\" and \"68、森田さんは…\") — an artifact of this reprint where the original boxed number sits. The leading \"、\" is not included in the question text.",
+    "Typeface renders the digit 1 as a bare vertical stroke, so choice numerals and some dates (e.g. \"I5日\", \"3I日\" in Q68 choices 2 and 3) look like capital I. Read as 15 and 31 respectively; confirmed against crop p23_b.",
+    "The referenced leaflet/案内 document itself is NOT printed on this page (the instruction says 右のページ); only the 問題13 instruction and questions 67-68 appear here. The rest of the page is blank."
+  ]
+}

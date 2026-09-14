@@ -1,0 +1,64 @@
+{
+  "sourceBundle": "course.zip",
+  "courseId": "c_142149ce7d30b6c9b00f25cf",
+  "contentRevision": "bd4214ba65f41c5bbcb41590bebeb3eb25fb35da38822c2e6479a7920a3819fc",
+  "quality": {
+    "sentences": 368,
+    "errors": 0,
+    "warnings": 2,
+    "issueCounts": {
+      "sentence.very_long": 2
+    }
+  },
+  "asr": {
+    "kind": "faster-whisper",
+    "profile": "japanese-accurate",
+    "model": "large-v3",
+    "device": "cuda",
+    "computeType": "float16",
+    "language": "ja",
+    "beamSize": 10,
+    "vadFilter": true,
+    "wordTimestamps": true,
+    "minDuration": 0.2,
+    "conditionOnPreviousText": false,
+    "noSpeechThreshold": 0.6,
+    "logProbThreshold": -1.0,
+    "compressionRatioThreshold": 2.4,
+    "hallucinationSilenceThreshold": 2.0,
+    "repetitionPenalty": 1.0,
+    "noRepeatNgramSize": 0,
+    "maxSegmentSeconds": 15.0,
+    "vadOptions": {
+      "min_speech_duration_ms": 350,
+      "max_speech_duration_s": 20.0,
+      "min_silence_duration_ms": 500,
+      "speech_pad_ms": 200
+    }
+  },
+  "enrichment": {
+    "enabled": true,
+    "provider": {
+      "kind": "manual",
+      "profile": "inline",
+      "batchSize": 25,
+      "temperature": 0.2,
+      "maxTokens": 16000,
+      "handoffDir": "n2-jingting-work/2012-12-N2/handoff"
+    },
+    "models": [
+      "manual"
+    ],
+    "translations": 368,
+    "explanations": 368,
+    "generatedBatches": 15,
+    "reusedBatches": 0,
+    "usage": {
+      "promptTokens": 0,
+      "completionTokens": 0,
+      "totalTokens": 0
+    },
+    "stub": false,
+    "normalized": false
+  }
+}

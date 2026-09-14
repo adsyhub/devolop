@@ -1,0 +1,48 @@
+{
+  "page": 23,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>57</u> そのようなときとはどのようなときか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "努力や練習が不足して、結果が出ていないとき",
+      "questionNumber": 1,
+      "choices": [
+        "どのような結果を出せばいいか分からないとき",
+        "実力があっても、結果につながらないとき",
+        "やるべきことをやっても、結果につながらないとき"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>58</u> 筆者によると、不調のときはどうすればいいか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "原因を考えて新しいやり方を取り入れる。",
+      "questionNumber": 1,
+      "choices": [
+        "結果がすぐに出ることから始める。",
+        "気分が変わるようなことをする。",
+        "生活を大きく変化させる。"
+      ]
+    }
+  ],
+  "pageLabel": "21",
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

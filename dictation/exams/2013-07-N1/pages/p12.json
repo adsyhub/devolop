@@ -1,0 +1,261 @@
+{
+  "page": 12,
+  "pageLabel": "12",
+  "sectionHeader": "聴解",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　ではまず質問を聞いてください。その後、問題用紙の選択肢を読んでください。読む時間があります。それから、話を聞いて、問題用紙の（1）から（4）の中から、もっともよいものを一つ選んでください。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "1番",
+      "choices": [
+        "コメントをもらうと元気になるから",
+        "大勢の人が読んでくれるから",
+        "両親にきんきょうを伝えるため",
+        "素敵な出会いを求めるため"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "2番",
+      "choices": [
+        "兄弟で共有できる机",
+        "長期にわたって使える机",
+        "手ごろな価格の机",
+        "子供の好みに合った机"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "3番",
+      "choices": [
+        "異文化が理解できるようになること",
+        "自分自身のことがより分かるようになること",
+        "外国語が習得できること",
+        "国際的なネットワークが作れること"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "4番",
+      "choices": [
+        "国内の若者に絞って販売を強化する",
+        "国内の高齢者に絞って販売を強化する",
+        "海外の若者を販売対象に加える",
+        "海外の高齢者を販売対象に加える"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "5番",
+      "choices": [
+        "長編小説として自身の半生を書いたところ",
+        "登場人物の心理を詳細に書いたところ",
+        "社会と人々の在り方をするどい視点で書いたところ",
+        "独特の世界観で人間関係を書いたところ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "6番",
+      "choices": [
+        "国内のじゅようが伸びたから",
+        "国内の製造業での設備投資が増えたから",
+        "政府が減税策を発表したから",
+        "政府の新しい経済政策への期待が高いから"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　では問題用紙に何も印刷されていません。この問題は全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問と選択肢を聞いて、（1）から（4）の中から、もっともよいものを一つ選んでください。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "1番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "2番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "3番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "4番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "5番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "6番",
+      "choices": []
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 4,
+      "text": "問題4　では問題用紙に何も印刷されていません。まず、文を聞いてください。それから、それに対する返事を聞いて、（1）から（3）の中から、もっともよいものを一つ選んでください。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "1番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "2番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "3番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "4番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "5番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "6番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "7番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "8番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "9番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "10番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "11番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "12番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "13番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "14番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 5,
+      "text": "問題5　では長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。1番、2番問題用紙に何も印刷されていません。まず話を聞いてください。それから、質問と選択肢を聞いて、（1）から（4）の中から、もっともよいものを一つ選んでください。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "1番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "2番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "3番 質問1",
+      "choices": [
+        "1番",
+        "2番",
+        "3番",
+        "4番"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "3番 質問2",
+      "choices": [
+        "1番",
+        "2番",
+        "3番",
+        "4番"
+      ]
+    }
+  ]
+}

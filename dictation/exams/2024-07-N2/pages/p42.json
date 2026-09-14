@@ -1,0 +1,19 @@
+{
+  "page": 42,
+  "blocks": [
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "",
+      "label": "5番",
+      "choices": [
+        "駅前で自転車を探す",
+        "市役所に自転車を探す",
+        "自転車の預かり場所を調べる",
+        "警察にお金を払う"
+      ]
+    }
+  ],
+  "pageLabel": "4",
+  "issues": []
+}

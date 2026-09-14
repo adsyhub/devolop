@@ -1,0 +1,77 @@
+{
+  "page": 12,
+  "pageLabel": "第11页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": 8,
+      "label": "(2)",
+      "text": "　人材育成という場面では、相手に「失敗する権利」をもっと与えてもいいような気がします。それはなによりも「失敗する権利」を与えることが、相手の自発性を生み出すことに結びつくからです。\n　逆にいえば「失敗する権利」がないところでは、行動がどうしても「しなければならない」の連続になり、自発性よりも義務感を助長してしまいます。\n　自分はどのくらい相手に「失敗する権利」を与えているのか、一度立ち止まって考える価値はあるでしょう。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 8,
+      "label": "(2)",
+      "text": "筆者の考えに合うのはどれか。",
+      "questionNumber": 46,
+      "choices": [
+        "失敗してもいいと思わせることで、相手は自ら行動できるようになる。",
+        "失敗を経験させれば、相手は失敗について自ら考えるようになる。",
+        "失敗の経験を積ませることで、相手は失敗をしないようになる。",
+        "失敗を許容しなければ、相手は行動することを恐れてしまう。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "passage",
+      "partNumber": 8,
+      "label": "(3)",
+      "text": "　直感力は即座に作用する場合もあれば、逆に時間を置いて、ある日突然作用することもあります。言い方を変えれば、気まぐれな存在とも言えます。\n　しかし、その気まぐれとも思える直感力による「発見や気づき」は、考え続けたり、悩み続ける、といった努力と強い指向性（注）の結果として生まれてくる「｜閃《ひらめ》き」であって、探求への意識関心がないところに発生することはありません。つまり、強い探求心と問題意識を持ち続けた結果として、あとから直感が働いてくるわけです。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "note",
+      "partNumber": 8,
+      "label": "(注)",
+      "text": "（注）指向性：ここでは、特定の方向に向かう意識",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 8,
+      "label": "(3)",
+      "text": "筆者の考えに合うのはどれか。",
+      "questionNumber": 47,
+      "choices": [
+        "直感力による「発見や気づき」は、問題の解決に欠かせない。",
+        "「発見や気づき」は、いつも直感力によって生まれるわけではない。",
+        "強い探求心と問題意識を持っていれば、問題は解決できる。",
+        "問題への探求心を持ち続けていなければ、直感力は作用しない。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "Q47 choice 4: the scan prints 間題 (with 間); transcribed as the intended 問題.",
+    "Choices on this page are printed with stray inter-character spacing (失敗を経験さ せれば, 失敗を許容し なければ); the spaces are typesetting artifacts and were removed.",
+    "(3) passage carries printed furigana ひらめ over 閃; recorded as ｜閃《ひらめ》き."
+  ]
+}

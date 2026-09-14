@@ -1,0 +1,33 @@
+{
+  "page": 12,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>5</u>筆者の考えに合うのはどれか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "自分が変われば、相手も期待どおりに変わってくれる。",
+      "questionNumber": 1,
+      "choices": [
+        "自分をコントロールできれば、相手も変えられる。",
+        "穏やかな気持ちで接すれば、相手といい関係が築ける。",
+        "相手に期待しなければ、穏やかな気持ちでいられる。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "(2)\n以下は、ある会社の社員が総務課に送ったメールである。\n総務課 ご担当者様\n休憩室について、お願いがあってメールいたしました。\nきゅうけいより多くの人が休憩室を利用できるように、先日テーブルといすを増やしていただきましたが、まだ昼食時に多くの人が利用できず不便を感じています。\nそのため、昼休みの間きゅうけいは会議室を開放していただけないでしょうか。そうすれば、より多くの人がそこで休憩できるようになると思います。\nご検討をお願いいたします。\n営業第Iグループ 大月友代"
+    }
+  ],
+  "pageLabel": "12",
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

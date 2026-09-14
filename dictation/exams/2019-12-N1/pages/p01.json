@@ -1,0 +1,113 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "彼はその話を<u>披露</u>するチャンスをうかがっていたようだ。",
+      "choices": [
+        "ひろ",
+        "ひろう",
+        "ばくろう",
+        "ばくろ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "力を入れたら<u>砕けて</u>しまった。",
+      "choices": [
+        "くだけて",
+        "かけて",
+        "はじけて",
+        "さけて"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "年を取って、物に<u>執着</u>する気持ちが少なくなった。",
+      "choices": [
+        "しゅちゃく",
+        "しちゃく",
+        "しっちゃく",
+        "しゅうちゃく"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "<u>債務</u>の状況を確かめる。",
+      "choices": [
+        "さいむ",
+        "ざいむ",
+        "せきむ",
+        "ぜきむ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "鈴木氏の研究は物理学の発展に大いに<u>貢献</u>した。",
+      "choices": [
+        "こうかん",
+        "こうけん",
+        "こかん",
+        "こけん"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "昨日の彼の態度は、実に<u>潔い</u>ものだった。",
+      "choices": [
+        "きよい",
+        "とうとい",
+        "いさぎよい",
+        "こころよい"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "森選手は記者会見で今シーズン限りで引退することを（　　）した。",
+      "choices": [
+        "証言",
+        "開示",
+        "供述",
+        "表明"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "政治家の高木氏は、全国各地を飛び回って（　　）講演を行い、政策の支持を呼び掛けた。",
+      "choices": [
+        "圧倒的に",
+        "精力的に",
+        "急進的に",
+        "普遍的に"
+      ]
+    }
+  ]
+}

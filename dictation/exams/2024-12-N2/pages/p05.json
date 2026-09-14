@@ -1,0 +1,100 @@
+{
+  "page": 5,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 4,
+      "text": "問題4"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 4,
+      "text": ")に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "text": "会員の登録が( )したので、今からサービスを利用できます。",
+      "questionNumber": 14,
+      "choices": [
+        "決着",
+        "完了",
+        "終業",
+        "到達"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "text": "年を取って運動をしなくなると、筋肉がだんだん( )いきます。",
+      "questionNumber": 15,
+      "choices": [
+        "溃れて",
+        "欠けて",
+        "尽きて",
+        "衰えて"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "text": "会議時間が残り少なくなったので、資料の詳細な説明は( )して、要点のみを説明した。",
+      "questionNumber": 16,
+      "choices": [
+        "減量",
+        "休止",
+        "節約",
+        "省略"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "text": "この小説はフィクションだと( )いたが、実際にあった話らしい。",
+      "questionNumber": 17,
+      "choices": [
+        "思い込んで",
+        "思い起こして",
+        "考え抜いて",
+        "考えついて"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "text": "山口さんは、子どもが怖がらないように優しい( )で話しかけた。",
+      "questionNumber": 18,
+      "choices": [
+        "音声",
+        "口調",
+        "顔色",
+        "内心"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "text": "部下に仕事を教えるのは、上司の( )の一つだ。",
+      "questionNumber": 19,
+      "choices": [
+        "労働",
+        "勤務",
+        "役目",
+        "当番"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "text": "森さんは外食のとき、いつも誰かに払ってもらうとするので、( )人だと思う。",
+      "questionNumber": 20,
+      "choices": [
+        "みずみずしい",
+        "たどたどしい",
+        "ずうずうしい",
+        "よわよわしい"
+      ]
+    }
+  ],
+  "issues": []
+}

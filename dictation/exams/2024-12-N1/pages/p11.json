@@ -1,0 +1,21 @@
+{
+  "page": 11,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "39 渋滞の中で ★ 遊園地に入る前から疲れてしまった。\n1 今度は\n2 3時間運転して\n3 駐車場が混雑していて\n4 ようやくついたと思ったら\n40 商品やサービスが ★ ない。\n1 売れるも売れないも\n2 その存在が\n3 知られないことには\n4 どんなに良い物でも"
+    }
+  ],
+  "pageLabel": "10",
+  "issues": [
+    "Choice-looking line with no question open: '1 今度は'",
+    "Choice-looking line with no question open: '2 3時間運転して'",
+    "Choice-looking line with no question open: '3 駐車場が混雑していて'",
+    "Choice-looking line with no question open: '4 ようやくついたと思ったら'",
+    "Choice-looking line with no question open: '1 売れるも売れないも'",
+    "Choice-looking line with no question open: '2 その存在が'",
+    "Choice-looking line with no question open: '3 知られないことには'",
+    "Choice-looking line with no question open: '4 どんなに良い物でも'"
+  ]
+}

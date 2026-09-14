@@ -1,0 +1,98 @@
+# Python & Virtual Environments
+.venv/
+.venv*/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.dist-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets & Environment variables
+.env
+.env.*
+!.env.example
+config/providers.json
+
+# Process IDs, logs & runtime data
+*.log
+*.pid
+current_gpu.json
+
+# Media files (audio, video)
+*.mp3
+*.wav
+*.m4a
+*.mp4
+*.avi
+*.mov
+*.flac
+
+# Compressed archives & databases & large backups
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+*.db
+*.sqlite3*
+eju-inventory-before-retire-*.json
+
+# Temporary and editor files
+.DS_Store
+*.bak*
+*.tmp
+~$*
+.idea/
+.vscode/
+
+# Git subrepo backups
+.git_backup/
+*.git_backup/
+*.git_subrepo_backup/
+.git_subrepo_backup/
+
+# dictation ignores
+dictation/dist/
+dictation/scratch/
+dictation/out/
+dictation/studio-work/
+dictation/exam-work/
+dictation/n1-jingting-work/
+dictation/n2-jingting-work/
+dictation/*-work/
+dictation/deepseek_batches/
+dictation/local-data/
+dictation/handoff/
+dictation/assets/snapshots/
+dictation/assets/dictionary/*.sqlite3*
+dictation/.codex_qa/rendered/
+dictation/exams/*/pages/*.png
+dictation/lexicon/*/pages/
+dictation/lexicon/*/pack.json
+dictation/lexicon/*/units.txt
+dictation/lexicon/*/match-report.json
+dictation/lexicon/*/match-resolutions.json
+
+# eju-question-bank ignores
+eju-question-bank/work/
+eju-question-bank/library/
+eju-question-bank/PAPER/
+eju-question-bank/sources/
+eju-question-bank/media/
+eju-question-bank/build/
+eju-question-bank/:memory:
+
+# H3 / ComfyUI ignores
+*.safetensors
+H3/ComfyUI/output/
+H3/ComfyUI/input/
+H3/ComfyUI/temp/
+H3/ComfyUI/models/
+H3/ComfyUI/custom_nodes/
+!H3/ComfyUI/custom_nodes/example_node.py.example
+H3/ComfyUI/user/
+H3/ComfyUI/web_custom_versions/
+H3/ComfyUI/extra_model_paths.yaml

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "status": "needs_review",
+  "summary": {
+    "sentences": 401,
+    "errors": 0,
+    "warnings": 3,
+    "issueCounts": {
+      "sentence.rate_implausible": 1,
+      "sentence.very_long": 2
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 117
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 145
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "10 characters in 0.40s (25/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 148
+    }
+  ]
+}

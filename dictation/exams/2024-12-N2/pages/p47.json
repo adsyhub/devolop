@@ -1,0 +1,21 @@
+{
+  "page": 47,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "もんだい"
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 3,
+      "text": "もんだい\n問題3では、問題用紙に何もいんさつされていません。この問題は、全体としてどんな内容かを\n聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問と\nせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。\n> メモ"
+    }
+  ],
+  "issues": []
+}

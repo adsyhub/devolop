@@ -1,0 +1,29 @@
+# JLPT N2 2015-07-N2 Answer Key
+
+written 1-5 1 11431
+written 6-10 1 13341
+written 11-15 1 12131
+written 16-22 1 1121112
+written 23-27 1 31432
+written 28-32 1.5 12111
+written 33-44 1 111111111111
+written 45-49 1.5 12341
+written 50-54 1.5 11112
+
+written 55-59 2 14411
+written 60-68 2.5 121121341
+written 69-70 3 31
+written 71-73 3 431
+written 74-75 3 13
+
+order 45 2314
+order 46 1324
+order 47 1234
+order 48 1243
+order 49 2314
+
+listening 1 1.5 12341
+listening 2 1.5 231421
+listening 3 1.5 31423
+listening 4 1.5 123123123123
+listening 5 2.5 1234

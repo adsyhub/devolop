@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "level": "N2",
+  "slug": "2023-12-N2",
+  "title": "2023年12月 日本語能力試験 N2",
+  "sessionLabel": "2023年12月",
+  "uiLanguage": "zh-Hans",
+  "durationSec": 9300,
+  "source": {
+    "kind": "pdf-scan",
+    "fileName": "2023年12月N2真题.pdf",
+    "sha256": "955c55f7f0a2cc3e606be693951fbb54229f83348183b906d4506aca8c807cde",
+    "bytes": 12817595,
+    "pageCount": 36,
+    "answerKeyFile": "23年12月N2解析（含听力原文）.pdf",
+    "answerKeySha256": "83e0bfc9ce3751bc0128a0b1de100b674a9170e0334f8d36d13ec5e611d4b58d",
+    "answerKeyPageCount": 22,
+    "importedOn": "2026-09-02",
+    "importer": "src/exam_import.py",
+    "rights": "Personal study copy supplied by the user. The JLPT paper is copyright JEES/Japan Foundation; this exam.json is not cleared for redistribution or sale."
+  }
+}

@@ -1,0 +1,33 @@
+# 2011年7月 日本語能力試験 N1 — 答案
+note 2011年7月N1参考答案与计分规则
+
+# ---- 第一部分　言語知識（文字・語彙・文法） ----
+written   1-6     1   312234
+written   7-13    1   3214322
+written   14-19   1   412442
+written   20-25   1   134123
+written   26-35   1   4124432441
+written   36-40   2   11423
+written   41-45   1   32411
+
+# 排序題順序
+order     36      2413
+order     37      4213
+order     38      3241
+order     39      3421
+order     40      4132
+
+# ---- 第二部分　読解 ----
+written   46-49   2   2433
+written   50-58   2   413212334
+written   59-62   3   1124
+written   63-64   3   32
+written   65-68   3   4141
+written   69-70   2   23
+
+# ---- 第三部分　聴解 ----
+listening 1       1   344133
+listening 2       1   4233132
+listening 3       2   213223
+listening 4       2   3223231312213
+listening 5       3   2214

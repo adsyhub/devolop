@@ -1,0 +1,2113 @@
+{
+  "schemaVersion": 1,
+  "description": "修复 opencc 繁简规范化误改的日文汉字：讲解中「」内引用的日语被简体化（開ける→开ける、聞こえない→闻こえない 等）。只改引号内的日语，括号内的中文释义与引号外的正文不动。",
+  "sourceSentencesDigest": "d6bdd4b09fed7f439ba11032f6e7aec1e384be2b3fd9894a64f4ca07c3653ef3",
+  "evidence": {
+    "detector": "scripts/check_enrichment.py",
+    "rule": "讲解中「」内含假名的引用必须使用日文汉字",
+    "affectedSentences": 150,
+    "fragments": 171
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 0,
+      "endIndex": 0,
+      "expectedStartTime": 4.04,
+      "expectedEndTime": 8.18,
+      "items": [
+        {
+          "startTime": 4.04,
+          "endTime": 8.18,
+          "explanationText": "「～前に」表示「在……之前」；「音を聞いてください」是考试广播用来确认音量的指示。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 2,
+      "endIndex": 2,
+      "expectedStartTime": 15.02,
+      "expectedEndTime": 18.96,
+      "items": [
+        {
+          "startTime": 15.02,
+          "endTime": 18.96,
+          "explanationText": "「聞こえない」是客观上听不见；「～ときは」后面接发生该情况时的处理方式。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 8,
+      "endIndex": 8,
+      "expectedStartTime": 57.9,
+      "expectedEndTime": 60.02,
+      "items": [
+        {
+          "startTime": 57.9,
+          "endTime": 60.02,
+          "explanationText": "「開けてください」是请求或指示“请打开”。考试中要区分前面的「開けないでください」和这里的肯定指示。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 11,
+      "endIndex": 11,
+      "expectedStartTime": 66.95,
+      "expectedEndTime": 71.35,
+      "items": [
+        {
+          "startTime": 66.95,
+          "endTime": 71.35,
+          "explanationText": "「よく見えない」是“看不清楚”。句末的「も」表示“也”，和前面的缺页情况并列。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 16,
+      "endIndex": 16,
+      "expectedStartTime": 89.52,
+      "expectedEndTime": 93.62,
+      "items": [
+        {
+          "startTime": 89.52,
+          "endTime": 93.62,
+          "explanationText": "「それから」表示“然后、接着”。「話を聞いて」是て形连接，说明下一步动作还未说完。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 18,
+      "endIndex": 18,
+      "expectedStartTime": 98.16,
+      "expectedEndTime": 102.76,
+      "items": [
+        {
+          "startTime": 98.16,
+          "endTime": 102.76,
+          "explanationText": "「最も良いもの」是“最好的、最合适的选项”。「一つ選んでください」说明只能选一个。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 22,
+      "endIndex": 22,
+      "expectedStartTime": 117.15,
+      "expectedEndTime": 122.15,
+      "items": [
+        {
+          "startTime": 117.15,
+          "endTime": 122.15,
+          "explanationText": "「大学で」说明场景地点。「女の学生と男の学生が話しています」是听力题常见的场景介绍。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 23,
+      "endIndex": 23,
+      "expectedStartTime": 122.15,
+      "expectedEndTime": 127.49,
+      "items": [
+        {
+          "startTime": 122.15,
+          "endTime": 127.49,
+          "explanationText": "「この後」表示“这之后、接下来”。问题焦点是女学生后续行动，听对话时要留意最后决定。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 24,
+      "endIndex": 24,
+      "expectedStartTime": 127.49,
+      "expectedEndTime": 130.87,
+      "items": [
+        {
+          "startTime": 127.49,
+          "endTime": 130.87,
+          "explanationText": "「もう書いた?」是口语问“已经写了吗”。「レポート」在日语里常指课程报告或论文作业。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 26,
+      "endIndex": 26,
+      "expectedStartTime": 133.13,
+      "expectedEndTime": 136.15,
+      "items": [
+        {
+          "startTime": 133.13,
+          "endTime": 136.15,
+          "explanationText": "「締め切り」是“截止日期”。句末「だよね」用于确认双方都知道的信息，语气口语。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 28,
+      "endIndex": 28,
+      "expectedStartTime": 140.66,
+      "expectedEndTime": 143.38,
+      "items": [
+        {
+          "startTime": 140.66,
+          "endTime": 143.38,
+          "explanationText": "「インターネットで調べる」是「在网络上查找」；「～てみた」表示试着做某事。句尾「けど」保留后续语意。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 30,
+      "endIndex": 30,
+      "expectedStartTime": 148.05,
+      "expectedEndTime": 152.19,
+      "items": [
+        {
+          "startTime": 148.05,
+          "endTime": 152.19,
+          "explanationText": "「最初は」表示“起初、一开始”。「調べて書こうと思ってた」是“原本打算查数据后写”，其中「～ようと思う」表示打算。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 31,
+      "endIndex": 31,
+      "expectedStartTime": 152.19,
+      "expectedEndTime": 154.55,
+      "items": [
+        {
+          "startTime": 152.19,
+          "endTime": 154.55,
+          "explanationText": "「やっぱり」表示“果然、还是”。「書けそうにない」表示“看起来写不了/写不好”，是可能形加样态的否定。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 35,
+      "endIndex": 35,
+      "expectedStartTime": 164.4,
+      "expectedEndTime": 168.76,
+      "items": [
+        {
+          "startTime": 164.4,
+          "endTime": 168.76,
+          "explanationText": "「見ながら」表示“一边看一边……”。「～つもり」表示计划或打算，因此男生不能马上借出书。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 36,
+      "endIndex": 36,
+      "expectedStartTime": 168.76,
+      "expectedEndTime": 172.3,
+      "items": [
+        {
+          "startTime": 168.76,
+          "endTime": 172.3,
+          "explanationText": "「図書館にあった」表示“图书馆有”。「借りたら?」是省略形式的建议，相当于“去借的话怎么样”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 38,
+      "endIndex": 38,
+      "expectedStartTime": 174.46,
+      "expectedEndTime": 177.96,
+      "items": [
+        {
+          "startTime": 174.46,
+          "endTime": 177.96,
+          "explanationText": "「授業のノート」指上课笔记。「結構参考になった」表示“相当有帮助”，注意「结构」这里是程度副词。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 39,
+      "endIndex": 39,
+      "expectedStartTime": 177.96,
+      "expectedEndTime": 183.42,
+      "items": [
+        {
+          "startTime": 177.96,
+          "endTime": 183.42,
+          "explanationText": "「見てみた」表示“试着看过”。女生接受图书馆借书的建议，但说明笔记已经看过了。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 40,
+      "endIndex": 40,
+      "expectedStartTime": 183.42,
+      "expectedEndTime": 193.04,
+      "items": [
+        {
+          "startTime": 183.42,
+          "endTime": 193.04,
+          "explanationText": "这是对前面对话的提问，重点问「この後」的行动。正确方向应关注她最后决定去图书馆看看。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 41,
+      "endIndex": 41,
+      "expectedStartTime": 210.25,
+      "expectedEndTime": 214.95,
+      "items": [
+        {
+          "startTime": 210.25,
+          "endTime": 214.95,
+          "explanationText": "「会社で」说明场景是公司。「出張について話しています」表示“正在谈关于出差的事”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 48,
+      "endIndex": 48,
+      "expectedStartTime": 236.32,
+      "expectedEndTime": 239.72,
+      "items": [
+        {
+          "startTime": 236.32,
+          "endTime": 239.72,
+          "explanationText": "「もう一度」是“再一次”。「確認入れといて」是口语化的「確認を入れておいて」，表示提前做确认。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 50,
+      "endIndex": 50,
+      "expectedStartTime": 240.26,
+      "expectedEndTime": 243.12,
+      "items": [
+        {
+          "startTime": 240.26,
+          "endTime": 243.12,
+          "explanationText": "「それから」表示“还有、另外”。「製品紹介の数据」是商务场景中的产品介绍材料。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 56,
+      "endIndex": 56,
+      "expectedStartTime": 257.92,
+      "expectedEndTime": 259.3,
+      "items": [
+        {
+          "startTime": 257.92,
+          "endTime": 259.3,
+          "explanationText": "「後で」表示“稍后”。「見ておく」中的「～ておく」表示预先处理，意为“先看一下”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 58,
+      "endIndex": 58,
+      "expectedStartTime": 261.74,
+      "expectedEndTime": 263.1,
+      "items": [
+        {
+          "startTime": 261.74,
+          "endTime": 263.1,
+          "explanationText": "「予約してあります」表示预约已完成，并强调结果状态。这里说明机票事项不需要她接下来再处理。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 61,
+      "endIndex": 61,
+      "expectedStartTime": 289.31,
+      "expectedEndTime": 293.83,
+      "items": [
+        {
+          "startTime": 289.31,
+          "endTime": 293.83,
+          "explanationText": "「電話で」说明对话媒介是电话。题目开头常先交代人物和场景。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 65,
+      "endIndex": 65,
+      "expectedStartTime": 309.11,
+      "expectedEndTime": 313.23,
+      "items": [
+        {
+          "startTime": 309.11,
+          "endTime": 313.23,
+          "explanationText": "「映画館の前」是地点。「休みみたい」表示“好像休息”，「みたい」用于根据情况作判断。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 68,
+      "endIndex": 68,
+      "expectedStartTime": 315.11,
+      "expectedEndTime": 317.71,
+      "items": [
+        {
+          "startTime": 315.11,
+          "endTime": 317.71,
+          "explanationText": "「調べときゃよかった」是口语缩约，完整是「調べておけばよかった」，表示“要是事先查了就好了”。这是对没查营业情况的后悔。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 73,
+      "endIndex": 73,
+      "expectedStartTime": 330.95,
+      "expectedEndTime": 334.25,
+      "items": [
+        {
+          "startTime": 330.95,
+          "endTime": 334.25,
+          "explanationText": "「先行ってて」是「先に行っていて」的口语，请对方先去那里等或查看。「場所分かるよね」是在确认对方知道地点。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 77,
+      "endIndex": 77,
+      "expectedStartTime": 345.11,
+      "expectedEndTime": 347.11,
+      "items": [
+        {
+          "startTime": 345.11,
+          "endTime": 347.11,
+          "explanationText": "「じゃあ後で」是口语告别，表示稍后再见或稍后联系。它标志安排已经确定。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 80,
+      "endIndex": 80,
+      "expectedStartTime": 373.55,
+      "expectedEndTime": 380.43,
+      "items": [
+        {
+          "startTime": 373.55,
+          "endTime": 380.43,
+          "explanationText": "「お年寄り」指老年人，「介护施设」是护理设施或养老照护机构。「仕事の説明をしています」说明接下来会有任务指示。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 84,
+      "endIndex": 84,
+      "expectedStartTime": 392.95,
+      "expectedEndTime": 397.21,
+      "items": [
+        {
+          "startTime": 392.95,
+          "endTime": 397.21,
+          "explanationText": "「最初に」表示“首先”。「お願いすること」在这里指需要对方做的工作或任务。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 86,
+      "endIndex": 86,
+      "expectedStartTime": 399.21,
+      "expectedEndTime": 403.15,
+      "items": [
+        {
+          "startTime": 399.21,
+          "endTime": 403.15,
+          "explanationText": "「木村さん」性别不明，中文可译为木村先生/女士或木村さん。「お世話を手伝う」是帮忙照料、照护。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 87,
+      "endIndex": 87,
+      "expectedStartTime": 403.15,
+      "expectedEndTime": 409.55,
+      "items": [
+        {
+          "startTime": 403.15,
+          "endTime": 409.55,
+          "explanationText": "「車椅子をお使い」是敬语表达，表示“使用轮椅”。「部屋の移動の時」指在房间之间移动时，任务是「車椅子を押す」。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 89,
+      "endIndex": 89,
+      "expectedStartTime": 410.55,
+      "expectedEndTime": 416.35,
+      "items": [
+        {
+          "startTime": 410.55,
+          "endTime": 416.35,
+          "explanationText": "「散歩がお好き」是敬语说法，表示对方喜欢散步。「午後にでも」表示“下午之类的时候”，说明这不是马上首先要做的事。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 91,
+      "endIndex": 91,
+      "expectedStartTime": 418.75,
+      "expectedEndTime": 423.35,
+      "items": [
+        {
+          "startTime": 418.75,
+          "endTime": 423.35,
+          "explanationText": "「車椅子を押す」是“推轮椅”，“のは”把前面的动作名词化作为话题。「あまり慣れていない」与否定搭配，表示“不太习惯”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 92,
+      "endIndex": 92,
+      "expectedStartTime": 423.35,
+      "expectedEndTime": 427.15,
+      "items": [
+        {
+          "startTime": 423.35,
+          "endTime": 427.15,
+          "explanationText": "「行く前に」表示“去之前”，后面接先要做的动作。「練習しましょう」是提议一起做某事，语气比命令更柔和。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 96,
+      "endIndex": 96,
+      "expectedStartTime": 435.05,
+      "expectedEndTime": 441.05,
+      "items": [
+        {
+          "startTime": 435.05,
+          "endTime": 441.05,
+          "explanationText": "「帰る前に」表示“回去之前”。「書き込んでください」是请求对方写入、填写，重点动作是记录到文件中。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 97,
+      "endIndex": 97,
+      "expectedStartTime": 441.05,
+      "expectedEndTime": 443.23,
+      "items": [
+        {
+          "startTime": 441.05,
+          "endTime": 443.23,
+          "explanationText": "「よろしくお願いします」可用于请求对方配合或正式交代任务之后。这里不是字面“请多关照”，而是对前面多项工作的总括性拜托。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 100,
+      "endIndex": 100,
+      "expectedStartTime": 469.48,
+      "expectedEndTime": 475.76,
+      "items": [
+        {
+          "startTime": 469.48,
+          "endTime": 475.76,
+          "explanationText": "「研修会」指公司或机构内的培训会、研修会。「について話しています」表示谈论某个主题，用来交代场景。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 109,
+      "endIndex": 109,
+      "expectedStartTime": 502.7,
+      "expectedEndTime": 507.48,
+      "items": [
+        {
+          "startTime": 502.7,
+          "endTime": 507.48,
+          "explanationText": "「載せない方がいい」表示“不要刊登、写上比较好”。「んじゃない？」是提出建议或确认，语气比直接命令更委婉。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 110,
+      "endIndex": 110,
+      "expectedStartTime": 507.54,
+      "expectedEndTime": 511.68,
+      "items": [
+        {
+          "startTime": 507.54,
+          "endTime": 511.68,
+          "explanationText": "「全員から許可をいただいてます」使用「いただく」表示谦逊地得到许可。这里说明邮箱地址可以保留，因为已经获准。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 113,
+      "endIndex": 113,
+      "expectedStartTime": 513.22,
+      "expectedEndTime": 519.44,
+      "items": [
+        {
+          "startTime": 513.22,
+          "endTime": 519.44,
+          "explanationText": "「名前のあいうえを順に」指按日语五十音顺排序。「した方がいいでしょうか」是在征求建议，语气礼貌。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 118,
+      "endIndex": 118,
+      "expectedStartTime": 553.11,
+      "expectedEndTime": 554.23,
+      "items": [
+        {
+          "startTime": 553.11,
+          "endTime": 554.23,
+          "explanationText": "「問題2」是题目部分标签，直接翻译为“问题2”。它用于提示考试进入新的题型或大题。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 119,
+      "endIndex": 119,
+      "expectedStartTime": 554.23,
+      "expectedEndTime": 559.19,
+      "items": [
+        {
+          "startTime": 554.23,
+          "endTime": 559.19,
+          "explanationText": "「ではまず質問を聞いてください」是考试说明，表示先听题目问题。这里的「まず」强调顺序，先听问题再听正文或选项。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 120,
+      "endIndex": 120,
+      "expectedStartTime": 559.21,
+      "expectedEndTime": 565.53,
+      "items": [
+        {
+          "startTime": 559.21,
+          "endTime": 565.53,
+          "explanationText": "「その後」表示“在那之后”，常用于考试说明流程。「选択肢」是“选项”，「読んでください」是礼貌请求。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 121,
+      "endIndex": 121,
+      "expectedStartTime": 565.53,
+      "expectedEndTime": 568.53,
+      "items": [
+        {
+          "startTime": 565.53,
+          "endTime": 568.53,
+          "explanationText": "「読む時間があります」直译为“有读的时间”，自然中文可译为“有时间阅读”。听力考试中常见这种说明句。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 122,
+      "endIndex": 122,
+      "expectedStartTime": 568.53,
+      "expectedEndTime": 572.38,
+      "items": [
+        {
+          "startTime": 568.53,
+          "endTime": 572.38,
+          "explanationText": "「それから」表示“然后、接着”。「話を聞いて」后面省略了后续动作，考试说明中常和后面的选择答案连在一起理解。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 123,
+      "endIndex": 123,
+      "expectedStartTime": 572.38,
+      "expectedEndTime": 576.68,
+      "items": [
+        {
+          "startTime": 572.38,
+          "endTime": 576.68,
+          "explanationText": "「1から4の中から」表示“从1到4之中”。这是半句，需要和下一句「選んでください」连起来理解。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 124,
+      "endIndex": 124,
+      "expectedStartTime": 576.68,
+      "expectedEndTime": 580.8,
+      "items": [
+        {
+          "startTime": 576.68,
+          "endTime": 580.8,
+          "explanationText": "「最も良いもの」是“最好的、最合适的选项”。「一つ選んでください」是“请选择一个”，为考试指示中的固定表达。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 127,
+      "endIndex": 127,
+      "expectedStartTime": 593.26,
+      "expectedEndTime": 597.14,
+      "items": [
+        {
+          "startTime": 593.26,
+          "endTime": 597.14,
+          "explanationText": "「会議で」表示地点或场合“在会议上”。「説明しています」表示正在进行的状态，即“正在说明”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 129,
+      "endIndex": 129,
+      "expectedStartTime": 628.84,
+      "expectedEndTime": 634.4,
+      "items": [
+        {
+          "startTime": 628.84,
+          "endTime": 634.4,
+          "explanationText": "「について」表示“关于”。「結果が出ましたので」中的「ので」说明原因，语气比「から」更正式。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 130,
+      "endIndex": 130,
+      "expectedStartTime": 634.4,
+      "expectedEndTime": 639.14,
+      "items": [
+        {
+          "startTime": 634.4,
+          "endTime": 639.14,
+          "explanationText": "「販売価格については」把“销售价格”作为话题提出。「適切であるという評価」是“认为合适的评价”，「いただきました」是谦让语。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 132,
+      "endIndex": 132,
+      "expectedStartTime": 644.56,
+      "expectedEndTime": 648.1,
+      "items": [
+        {
+          "startTime": 644.56,
+          "endTime": 648.1,
+          "explanationText": "「少し甘すぎる」中的「すぎる」表示“过于……”。「意見が多く」是中顿形式，表示后面还会接处理方式。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 134,
+      "endIndex": 134,
+      "expectedStartTime": 652.12,
+      "expectedEndTime": 653.78,
+      "items": [
+        {
+          "startTime": 652.12,
+          "endTime": 653.78,
+          "explanationText": "「評判が良くない」表示“口碑不好、评价不佳”。句末「ので」表示原因，后面通常接需要修改或改善的内容。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 138,
+      "endIndex": 138,
+      "expectedStartTime": 683.24,
+      "expectedEndTime": 687.8,
+      "items": [
+        {
+          "startTime": 683.24,
+          "endTime": 687.8,
+          "explanationText": "「会社で」表示谈话发生的地点。「男の人と女の人が話しています」是听力题开头常见的场景说明。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 145,
+      "endIndex": 145,
+      "expectedStartTime": 730.89,
+      "expectedEndTime": 732.77,
+      "items": [
+        {
+          "startTime": 730.89,
+          "endTime": 732.77,
+          "explanationText": "「ケーキか何か」表示“蛋糕或类似的东西”。「買っていこうか」带有提议语气，可译为“要不要买了带去”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 150,
+      "endIndex": 150,
+      "expectedStartTime": 746.85,
+      "expectedEndTime": 751.01,
+      "items": [
+        {
+          "startTime": 746.85,
+          "endTime": 751.01,
+          "explanationText": "「聞いても」表示“即使问了也……”。「持ってこなくていい」是“不带来也可以”，后面的「って言う」是口语中的引用表达。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 151,
+      "endIndex": 151,
+      "expectedStartTime": 751.01,
+      "expectedEndTime": 754.57,
+      "items": [
+        {
+          "startTime": 751.01,
+          "endTime": 754.57,
+          "explanationText": "「買っとく」是「買っておく」的口语缩略，表示“事先买好”。「じゃあ」承接前文，表示“那么、那就”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 155,
+      "endIndex": 155,
+      "expectedStartTime": 781.5,
+      "expectedEndTime": 786.06,
+      "items": [
+        {
+          "startTime": 781.5,
+          "endTime": 786.06,
+          "explanationText": "「会社で」表示地点“在公司”。「男の人と女の人が話しています」是听力场景说明，提示后面对话人物。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 159,
+      "endIndex": 159,
+      "expectedStartTime": 822.05,
+      "expectedEndTime": 826.35,
+      "items": [
+        {
+          "startTime": 822.05,
+          "endTime": 826.35,
+          "explanationText": "「頼まれてた」是「頼まれていた」的口语缩略，表示“被拜托过”。「お客様への連絡」中的「へ」表示动作对象方向，即“给客户的联系”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 163,
+      "endIndex": 163,
+      "expectedStartTime": 833.07,
+      "expectedEndTime": 836.59,
+      "items": [
+        {
+          "startTime": 833.07,
+          "endTime": 836.59,
+          "explanationText": "「責任の重い仕事」表示“责任重的工作”。「増えてきた」强调从过去到现在逐渐增加，「気をつけなきゃ」是「気をつけなければならない」的口语省略。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 168,
+      "endIndex": 168,
+      "expectedStartTime": 847.81,
+      "expectedEndTime": 852.21,
+      "items": [
+        {
+          "startTime": 847.81,
+          "endTime": 852.21,
+          "explanationText": "「多すぎて」表示“太多以至于……”。「見逃す」是“看漏、错过”，在这里指笔记太多反而没看到重要内容。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 171,
+      "endIndex": 171,
+      "expectedStartTime": 856.57,
+      "expectedEndTime": 866.24,
+      "items": [
+        {
+          "startTime": 856.57,
+          "endTime": 866.24,
+          "explanationText": "这是问题重复，要求根据对话判断男子反省的内容。关键线索是他忘记联系客户，并说「すぐに連絡すべきだった」。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 174,
+      "endIndex": 174,
+      "expectedStartTime": 887.15,
+      "expectedEndTime": 892.25,
+      "items": [
+        {
+          "startTime": 887.15,
+          "endTime": 892.25,
+          "explanationText": "「小さい赤い箱」中两个形容词连续修饰「箱」。「詰めたらいいですか」表示“装什么才好、应该装什么”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 177,
+      "endIndex": 177,
+      "expectedStartTime": 921.99,
+      "expectedEndTime": 923.37,
+      "items": [
+        {
+          "startTime": 921.99,
+          "endTime": 923.37,
+          "explanationText": "「お世話になります」是商务和服务场景中的常用寒暄语。中文可译为“承蒙关照”或“麻烦您了”，语气礼貌。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 184,
+      "endIndex": 184,
+      "expectedStartTime": 941.9,
+      "expectedEndTime": 945.06,
+      "items": [
+        {
+          "startTime": 941.9,
+          "endTime": 945.06,
+          "explanationText": "枚举使用「～など」；句尾的「に」会接下一句的「お詰めください」。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 185,
+      "endIndex": 185,
+      "expectedStartTime": 945.58,
+      "expectedEndTime": 949.12,
+      "items": [
+        {
+          "startTime": 945.58,
+          "endTime": 949.12,
+          "explanationText": "「衣类」泛指衣物；「お詰めください」是「詰めてください」的礼貌形式。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 193,
+      "endIndex": 193,
+      "expectedStartTime": 1017.0,
+      "expectedEndTime": 1018.0,
+      "items": [
+        {
+          "startTime": 1017.0,
+          "endTime": 1018.0,
+          "explanationText": "「頑張ってる」是「頑張っている」的口语缩约。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 204,
+      "endIndex": 204,
+      "expectedStartTime": 1075.34,
+      "expectedEndTime": 1080.94,
+      "items": [
+        {
+          "startTime": 1075.34,
+          "endTime": 1080.94,
+          "explanationText": "「電話で」表示通过电话；「～について」表示关于某个主题。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 213,
+      "endIndex": 213,
+      "expectedStartTime": 1141.72,
+      "expectedEndTime": 1148.06,
+      "items": [
+        {
+          "startTime": 1141.72,
+          "endTime": 1148.06,
+          "explanationText": "「～かどうか」表示是否；「につきましては」是「については」的正式说法；「無料とさせていただく」表示由店家决定免收。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 217,
+      "endIndex": 217,
+      "expectedStartTime": 1157.98,
+      "expectedEndTime": 1162.98,
+      "items": [
+        {
+          "startTime": 1157.98,
+          "endTime": 1162.98,
+          "explanationText": "这里的「それはいいです」表示婉拒寄回方案；后面的理由与「お願いします」确认选择维修。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 218,
+      "endIndex": 218,
+      "expectedStartTime": 1168.94,
+      "expectedEndTime": 1171.32,
+      "items": [
+        {
+          "startTime": 1168.94,
+          "endTime": 1171.32,
+          "explanationText": "男子最后说「お願いします」，并表示还想继续使用相机，因此会付费更换零件。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 226,
+      "endIndex": 226,
+      "expectedStartTime": 1254.04,
+      "expectedEndTime": 1264.2,
+      "items": [
+        {
+          "startTime": 1254.04,
+          "endTime": 1264.2,
+          "explanationText": "「最も良いもの」在测验指示中表示最符合谈话内容的答案；原稿的「最も難しい質問」是误辨。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 232,
+      "endIndex": 232,
+      "expectedStartTime": 1293.14,
+      "expectedEndTime": 1294.76,
+      "items": [
+        {
+          "startTime": 1293.14,
+          "endTime": 1294.76,
+          "explanationText": "「自分で」表示亲自完成，与前句的「専門の人」形成对比。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 236,
+      "endIndex": 236,
+      "expectedStartTime": 1305.26,
+      "expectedEndTime": 1307.56,
+      "items": [
+        {
+          "startTime": 1305.26,
+          "endTime": 1307.56,
+          "explanationText": "「訓練を重ねる」表示持续、反复进行训练。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 245,
+      "endIndex": 245,
+      "expectedStartTime": 1363.14,
+      "expectedEndTime": 1366.54,
+      "items": [
+        {
+          "startTime": 1363.14,
+          "endTime": 1366.54,
+          "explanationText": "「～の間で」表示在某个群体之中；「ブームになる」表示成为流行。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 247,
+      "endIndex": 247,
+      "expectedStartTime": 1372.84,
+      "expectedEndTime": 1378.72,
+      "items": [
+        {
+          "startTime": 1372.84,
+          "endTime": 1378.72,
+          "explanationText": "「買ってくる」表示买了带回来；「～というのもいい」表示这种做法也是不错的选择。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 251,
+      "endIndex": 251,
+      "expectedStartTime": 1390.02,
+      "expectedEndTime": 1391.6,
+      "items": [
+        {
+          "startTime": 1390.02,
+          "endTime": 1391.6,
+          "explanationText": "「叶」在红茶语境中指茶叶。「正確に」是副词，表示准确地、精确地，后面省略了“量る”等动作。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 252,
+      "endIndex": 252,
+      "expectedStartTime": 1391.6,
+      "expectedEndTime": 1395.4,
+      "items": [
+        {
+          "startTime": 1391.6,
+          "endTime": 1395.4,
+          "explanationText": "「また」表示追加说明。「必ず」强调必须、一定，「熱いお湯」指温度高的热水，不只是温水。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 253,
+      "endIndex": 253,
+      "expectedStartTime": 1395.4,
+      "expectedEndTime": 1399.42,
+      "items": [
+        {
+          "startTime": 1395.4,
+          "endTime": 1399.42,
+          "explanationText": "「そうすれば」表示如果那样做的话。「ご自宅」是「自宅」的礼貌说法，「専門店で飲むような」修饰后面的红茶，表示像在专门店喝到的那种。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 254,
+      "endIndex": 254,
+      "expectedStartTime": 1399.42,
+      "expectedEndTime": 1401.9,
+      "items": [
+        {
+          "startTime": 1399.42,
+          "endTime": 1401.9,
+          "explanationText": "「飲むことができる」表示能够喝到。「でしょう」表示推测或较委婉的判断，和前一句连起来说明按步骤做就能泡出好红茶。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 255,
+      "endIndex": 255,
+      "expectedStartTime": 1401.9,
+      "expectedEndTime": 1411.53,
+      "items": [
+        {
+          "startTime": 1401.9,
+          "endTime": 1411.53,
+          "explanationText": "「何について」表示关于什么。「話していますか」是正在谈论吗，听力题中要概括整段内容，而不是只抓某个细节词。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 259,
+      "endIndex": 259,
+      "expectedStartTime": 1419.64,
+      "expectedEndTime": 1421.84,
+      "items": [
+        {
+          "startTime": 1419.64,
+          "endTime": 1421.84,
+          "explanationText": "「選び方」表示选择的方法。原文提到要先温热杯子，但并没有讲如何挑选杯子，这是容易混淆的干扰项。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 266,
+      "endIndex": 266,
+      "expectedStartTime": 1454.04,
+      "expectedEndTime": 1460.68,
+      "items": [
+        {
+          "startTime": 1454.04,
+          "endTime": 1460.68,
+          "explanationText": "「伺います」是「聞きます」的自谦语，在访谈中表示向受访者请教。「子供が読む本を大人が選ぶこと」整体是被讨论的主题。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 269,
+      "endIndex": 269,
+      "expectedStartTime": 1477.56,
+      "expectedEndTime": 1481.68,
+      "items": [
+        {
+          "startTime": 1477.56,
+          "endTime": 1481.68,
+          "explanationText": "「選ばせる」是使役形，表示让孩子选；「～べきだ」表示应该；「考えていた」说明这是说话者过去持有的看法。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 286,
+      "endIndex": 286,
+      "expectedStartTime": 1571.56,
+      "expectedEndTime": 1575.38,
+      "items": [
+        {
+          "startTime": 1571.56,
+          "endTime": 1575.38,
+          "explanationText": "「喉に詰まらせる」表示“卡在喉咙里、噎住”。「たり...たりする」枚举多个动作或状态，后面的「増えています」说明这种情况越来越多。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 289,
+      "endIndex": 289,
+      "expectedStartTime": 1583.32,
+      "expectedEndTime": 1587.56,
+      "items": [
+        {
+          "startTime": 1583.32,
+          "endTime": 1587.56,
+          "explanationText": "「このような」指前文所说的游客带入垃圾等行为。「ちょっとした行為」是“看似微小的行为”，暗示后果可能比想象中严重。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 290,
+      "endIndex": 290,
+      "expectedStartTime": 1587.56,
+      "expectedEndTime": 1592.56,
+      "items": [
+        {
+          "startTime": 1587.56,
+          "endTime": 1592.56,
+          "explanationText": "「動物をはじめとする自然」表示“以动物为代表的自然界”。「思わぬ結果を招く」是固定搭配，意思是“招致意想不到的结果”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 292,
+      "endIndex": 292,
+      "expectedStartTime": 1596.02,
+      "expectedEndTime": 1604.22,
+      "items": [
+        {
+          "startTime": 1596.02,
+          "endTime": 1604.22,
+          "explanationText": "「講義のテーマ」就是“讲座、课堂的主题”。听到这类问题时，要回顾开头最后总结性的句子，而不是只抓局部例子。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 296,
+      "endIndex": 296,
+      "expectedStartTime": 1622.02,
+      "expectedEndTime": 1628.74,
+      "items": [
+        {
+          "startTime": 1622.02,
+          "endTime": 1628.74,
+          "explanationText": "这是选项标签，应按编号翻译。「自然に与える影響」表示“对自然造成的影响”，与前文总结句「自然に対して思わぬ結果を招く」相呼应。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 298,
+      "endIndex": 298,
+      "expectedStartTime": 1641.37,
+      "expectedEndTime": 1646.33,
+      "items": [
+        {
+          "startTime": 1641.37,
+          "endTime": 1646.33,
+          "explanationText": "「テレビで」表示信息发生或播出的场景。「調査の結果について」中的「について」表示“关于”，提示后文会围绕调查结果展开。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 299,
+      "endIndex": 299,
+      "expectedStartTime": 1646.33,
+      "expectedEndTime": 1653.94,
+      "items": [
+        {
+          "startTime": 1646.33,
+          "endTime": 1653.94,
+          "explanationText": "「授業が終わった後」表示“课程结束后”。句子到这里还没结束，后面会说明孩子们之后做什么。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 301,
+      "endIndex": 301,
+      "expectedStartTime": 1656.22,
+      "expectedEndTime": 1660.9,
+      "items": [
+        {
+          "startTime": 1656.22,
+          "endTime": 1660.9,
+          "explanationText": "「これに関連して」表示“与此相关”，用于引出调查背景。「ある出版社」中的「ある」表示“某一家”，不强调具体名称。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 302,
+      "endIndex": 302,
+      "expectedStartTime": 1660.9,
+      "expectedEndTime": 1664.22,
+      "items": [
+        {
+          "startTime": 1660.9,
+          "endTime": 1664.22,
+          "explanationText": "「調査を行いました」是正式表达，意思是“进行了调查”。注意「生活についての調査」说明调查对象是孩子们的生活状况。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 303,
+      "endIndex": 303,
+      "expectedStartTime": 1664.22,
+      "expectedEndTime": 1668.8,
+      "items": [
+        {
+          "startTime": 1664.22,
+          "endTime": 1668.8,
+          "explanationText": "「これまでは」表示“到目前为止、此前”，用于和后面的「今回の調査では」形成对比。「ので」说明后面意见产生的原因。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 304,
+      "endIndex": 304,
+      "expectedStartTime": 1668.8,
+      "expectedEndTime": 1670.98,
+      "items": [
+        {
+          "startTime": 1668.8,
+          "endTime": 1670.98,
+          "explanationText": "「家族と過ごす時間」表示“和家人一起度过的时间”。这里是在枚举过去常被指出的补习班缺点。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 308,
+      "endIndex": 308,
+      "expectedStartTime": 1681.34,
+      "expectedEndTime": 1683.9,
+      "items": [
+        {
+          "startTime": 1681.34,
+          "endTime": 1683.9,
+          "explanationText": "「友達ができる」不是制作朋友，而是交到朋友。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 309,
+      "endIndex": 309,
+      "expectedStartTime": 1683.9,
+      "expectedEndTime": 1686.3,
+      "items": [
+        {
+          "startTime": 1683.9,
+          "endTime": 1686.3,
+          "explanationText": "「楽しく」是形容词「楽しい」的副词形，用来修饰「勉強できる」。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 311,
+      "endIndex": 311,
+      "expectedStartTime": 1689.46,
+      "expectedEndTime": 1692.28,
+      "items": [
+        {
+          "startTime": 1689.46,
+          "endTime": 1692.28,
+          "explanationText": "「変化が見られました」是客观报告调查结果时常用的表达。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 313,
+      "endIndex": 313,
+      "expectedStartTime": 1704.4,
+      "expectedEndTime": 1707.42,
+      "items": [
+        {
+          "startTime": 1704.4,
+          "endTime": 1707.42,
+          "explanationText": "「否定的な意見」表示负面或否定的看法。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 314,
+      "endIndex": 314,
+      "expectedStartTime": 1711.24,
+      "expectedEndTime": 1714.36,
+      "items": [
+        {
+          "startTime": 1711.24,
+          "endTime": 1714.36,
+          "explanationText": "「肯定的な意見」表示正面或肯定的看法。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 317,
+      "endIndex": 317,
+      "expectedStartTime": 1728.14,
+      "expectedEndTime": 1743.37,
+      "items": [
+        {
+          "startTime": 1728.14,
+          "endTime": 1743.37,
+          "explanationText": "「問題4」是考试题号标签，翻译为“问题4”即可。听力考试中这类提示通常不包含实际题目内容。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 319,
+      "endIndex": 319,
+      "expectedStartTime": 1749.75,
+      "expectedEndTime": 1753.75,
+      "items": [
+        {
+          "startTime": 1749.75,
+          "endTime": 1753.75,
+          "explanationText": "「まず」表示“首先、先”。「聞いてください」是请求表达，语气礼貌，考试说明中很常见。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 321,
+      "endIndex": 321,
+      "expectedStartTime": 1757.93,
+      "expectedEndTime": 1758.89,
+      "items": [
+        {
+          "startTime": 1757.93,
+          "endTime": 1758.89,
+          "explanationText": "「返事」和「返答」都表示回答、回应。「聞いて」是て形，在这里连接后续指示，意思是“听完以后”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 322,
+      "endIndex": 322,
+      "expectedStartTime": 1758.89,
+      "expectedEndTime": 1765.65,
+      "items": [
+        {
+          "startTime": 1758.89,
+          "endTime": 1765.65,
+          "explanationText": "「1から3の中から」表示从1到3的范围中选择。「最も良いもの」是“最好的、最合适的一个”，「一つ選んでください」是考试选择题的固定说法。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 325,
+      "endIndex": 325,
+      "expectedStartTime": 1787.68,
+      "expectedEndTime": 1792.28,
+      "items": [
+        {
+          "startTime": 1787.68,
+          "endTime": 1792.28,
+          "explanationText": "「次の会議ですが」先提出话题，后面的「いつがいいですか」询问合适时间。「ですが」在这里不是强烈转折，而是柔和地引出问题。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 331,
+      "endIndex": 331,
+      "expectedStartTime": 1806.76,
+      "expectedEndTime": 1809.04,
+      "items": [
+        {
+          "startTime": 1806.76,
+          "endTime": 1809.04,
+          "explanationText": "「～なら」限定条件；「時間が取れる」表示能安排出时间。原稿中的「今日」是误辨，两次独立转录都确认为「火曜」。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 332,
+      "endIndex": 332,
+      "expectedStartTime": 1809.16,
+      "expectedEndTime": 1825.56,
+      "items": [
+        {
+          "startTime": 1809.16,
+          "endTime": 1825.56,
+          "explanationText": "「この間」表示前些时候、前阵子。「来たらよかったのに」表示对过去未发生事情的遗憾或惋惜，相当于“要是来了就好了”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 351,
+      "endIndex": 351,
+      "expectedStartTime": 1889.42,
+      "expectedEndTime": 1891.56,
+      "items": [
+        {
+          "startTime": 1889.42,
+          "endTime": 1891.56,
+          "explanationText": "「伺います」是「行く」或「訪ねる」的自谦语，这里表示自己去见对方。和社长相关的场景中使用敬语很自然。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 363,
+      "endIndex": 363,
+      "expectedStartTime": 1929.16,
+      "expectedEndTime": 1930.48,
+      "items": [
+        {
+          "startTime": 1929.16,
+          "endTime": 1930.48,
+          "explanationText": "「舎ててきた」表示去丢掉某物后回来；「もう」强调已经完成。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 368,
+      "endIndex": 368,
+      "expectedStartTime": 1949.7,
+      "expectedEndTime": 1952.02,
+      "items": [
+        {
+          "startTime": 1949.7,
+          "endTime": 1952.02,
+          "explanationText": "「お願いします」常译为“拜托了、麻烦您了”。和「はい」连用时表示接受或回应请求，但具体语气要结合上下文判断。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 374,
+      "endIndex": 374,
+      "expectedStartTime": 1974.72,
+      "expectedEndTime": 1979.12,
+      "items": [
+        {
+          "startTime": 1974.72,
+          "endTime": 1979.12,
+          "explanationText": "「こちらに」表示“在这里”，「お名前」「ご住所」是加了敬语前缀的礼貌说法。「ご記入いただけますか」是请求对方填写的尊敬、委婉表达。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 381,
+      "endIndex": 381,
+      "expectedStartTime": 1987.06,
+      "expectedEndTime": 1989.06,
+      "items": [
+        {
+          "startTime": 1987.06,
+          "endTime": 1989.06,
+          "explanationText": "「結構です」既可表示“可以、行”，也可表示“不用了”，要靠上下文判断。后面的「お願いします」说明这里是在接受并请求对方帮忙。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 387,
+      "endIndex": 387,
+      "expectedStartTime": 2014.79,
+      "expectedEndTime": 2019.04,
+      "items": [
+        {
+          "startTime": 2014.79,
+          "endTime": 2019.04,
+          "explanationText": "「鍵を閉める」是“锁门”。「なくちゃダメ」是「なければだめ」的口语形式，表示“必须……才行”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 389,
+      "endIndex": 389,
+      "expectedStartTime": 2020.04,
+      "expectedEndTime": 2024.41,
+      "items": [
+        {
+          "startTime": 2020.04,
+          "endTime": 2024.41,
+          "explanationText": "「大丈夫」在口语中可表示“没事、没关系”。「貸そうか」是主动提议“要不要我借给你”，语气较随意亲近。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 394,
+      "endIndex": 394,
+      "expectedStartTime": 2040.45,
+      "expectedEndTime": 2045.45,
+      "items": [
+        {
+          "startTime": 2040.45,
+          "endTime": 2045.45,
+          "explanationText": "「締め切り」表示“截止日期、期限”。「でしたっけ」用于回忆并向对方确认，语气相当于“是……来着吧”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 398,
+      "endIndex": 398,
+      "expectedStartTime": 2052.98,
+      "expectedEndTime": 2056.36,
+      "items": [
+        {
+          "startTime": 2052.98,
+          "endTime": 2056.36,
+          "explanationText": "「締め切ります」可表示“截止、停止受理”。句尾「よ」用于提醒对方注意这个信息。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 410,
+      "endIndex": 410,
+      "expectedStartTime": 2106.35,
+      "expectedEndTime": 2110.35,
+      "items": [
+        {
+          "startTime": 2106.35,
+          "endTime": 2110.35,
+          "explanationText": "「いらして」是「来て」的尊敬语，「もう長いんですか」询问在某地待的时间是否已经很久。注意不是问路程长短。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 414,
+      "endIndex": 414,
+      "expectedStartTime": 2117.69,
+      "expectedEndTime": 2122.1,
+      "items": [
+        {
+          "startTime": 2117.69,
+          "endTime": 2122.1,
+          "explanationText": "「来たばかり」表示“刚来不久”，前面的「3ヶ月前に」说明时间点。与问题中的「もう長い」形成否定回答。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 425,
+      "endIndex": 425,
+      "expectedStartTime": 2168.56,
+      "expectedEndTime": 2170.38,
+      "items": [
+        {
+          "startTime": 2168.56,
+          "endTime": 2170.38,
+          "explanationText": "「問題5」是大题标记。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 426,
+      "endIndex": 426,
+      "expectedStartTime": 2171.52,
+      "expectedEndTime": 2175.14,
+      "items": [
+        {
+          "startTime": 2171.52,
+          "endTime": 2175.14,
+          "explanationText": "「長め」表示偏长、比较长；「では」标示本大题的范围。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 435,
+      "endIndex": 435,
+      "expectedStartTime": 2217.76,
+      "expectedEndTime": 2223.4,
+      "items": [
+        {
+          "startTime": 2217.76,
+          "endTime": 2223.4,
+          "explanationText": "这是场景介绍；「校外学习」指校外教学，「～について相談する」表示针对某事商量。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 440,
+      "endIndex": 440,
+      "expectedStartTime": 2239.48,
+      "expectedEndTime": 2242.38,
+      "items": [
+        {
+          "startTime": 2239.48,
+          "endTime": 2242.38,
+          "explanationText": "「ぐらい」表示概数；「連れて行く」表示带人前往某地。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 442,
+      "endIndex": 442,
+      "expectedStartTime": 2247.06,
+      "expectedEndTime": 2252.78,
+      "items": [
+        {
+          "startTime": 2247.06,
+          "endTime": 2252.78,
+          "explanationText": "「評判が良い」表示口碑或评价好；句尾保留转折，表示接着会提出别的方案。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 446,
+      "endIndex": 446,
+      "expectedStartTime": 2265.78,
+      "expectedEndTime": 2268.6,
+      "items": [
+        {
+          "startTime": 2265.78,
+          "endTime": 2268.6,
+          "explanationText": "「そのあたり」指前文提到的交通时间等相关情况。「検討いただかないといけない」是礼貌表达，意思是“需要请您考虑”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 451,
+      "endIndex": 451,
+      "expectedStartTime": 2281.46,
+      "expectedEndTime": 2284.34,
+      "items": [
+        {
+          "startTime": 2281.46,
+          "endTime": 2284.34,
+          "explanationText": "「車を組み立てる様子」指“组装汽车的样子/过程”。「見学できて」连接后项，表示因为能参观这一过程而受欢迎。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 452,
+      "endIndex": 452,
+      "expectedStartTime": 2284.34,
+      "expectedEndTime": 2290.04,
+      "items": [
+        {
+          "startTime": 2284.34,
+          "endTime": 2290.04,
+          "explanationText": "「工場内に」表示“在工厂内”。两个「もありますし／もありません」并列补充优点，语气上是在增加推荐理由。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 454,
+      "endIndex": 454,
+      "expectedStartTime": 2293.14,
+      "expectedEndTime": 2296.14,
+      "items": [
+        {
+          "startTime": 2293.14,
+          "endTime": 2296.14,
+          "explanationText": "「あと」在会话中用于追加信息，意思是“另外”。「難しいかもしれません」表示不确定推测，“可能比较困难”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 456,
+      "endIndex": 456,
+      "expectedStartTime": 2302.08,
+      "expectedEndTime": 2305.42,
+      "items": [
+        {
+          "startTime": 2302.08,
+          "endTime": 2305.42,
+          "explanationText": "「500円で」表示花费或手段，这里是“以500日元的价格”。「パン作りを体験して試食もできます」连续说明可体验制作，也可以试吃。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 468,
+      "endIndex": 468,
+      "expectedStartTime": 2345.8,
+      "expectedEndTime": 2347.6,
+      "items": [
+        {
+          "startTime": 2345.8,
+          "endTime": 2347.6,
+          "explanationText": "「パン」来自外来语，意思是“面包”。「パン工場」就是制作面包的工厂，作为选项可译为“面包工厂”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 469,
+      "endIndex": 469,
+      "expectedStartTime": 2347.6,
+      "expectedEndTime": 2366.9,
+      "items": [
+        {
+          "startTime": 2347.6,
+          "endTime": 2366.9,
+          "explanationText": "「ながら」表示“一边……一边……”。「携帯電話の広告」是“手机广告”，这句是听力场景说明，要抓住人物和正在看的东西。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 470,
+      "endIndex": 470,
+      "expectedStartTime": 2369.01,
+      "expectedEndTime": 2371.37,
+      "items": [
+        {
+          "startTime": 2369.01,
+          "endTime": 2371.37,
+          "explanationText": "「何それ」是口语表达，表示“那是什么”。后面的「携帯電話の広告?」用升调重复确认内容。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 472,
+      "endIndex": 472,
+      "expectedStartTime": 2375.03,
+      "expectedEndTime": 2383.41,
+      "items": [
+        {
+          "startTime": 2375.03,
+          "endTime": 2383.41,
+          "explanationText": "「キャンペーン中」是“活动期间”。「選べば」是条件形，“如果选择的话”；「交換してもらえる」表示能让对方为自己更换，带有受益语感。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 474,
+      "endIndex": 474,
+      "expectedStartTime": 2387.41,
+      "expectedEndTime": 2395.41,
+      "items": [
+        {
+          "startTime": 2387.41,
+          "endTime": 2395.41,
+          "explanationText": "「机能を限定した」表示“限制了功能的”。「電話しかできない」中「しか」常与否定搭配，意思是“只能……”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 475,
+      "endIndex": 475,
+      "expectedStartTime": 2395.41,
+      "expectedEndTime": 2401.41,
+      "items": [
+        {
+          "startTime": 2395.41,
+          "endTime": 2401.41,
+          "explanationText": "「電話とメールと」用「と」并列枚举功能。最后的「カメラ机能付き」表示“带相机功能的”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 476,
+      "endIndex": 476,
+      "expectedStartTime": 2402.03,
+      "expectedEndTime": 2406.03,
+      "items": [
+        {
+          "startTime": 2402.03,
+          "endTime": 2406.03,
+          "explanationText": "「大体同じ」表示“大致相同”。「ちょっとデザインが違うけど」补充差异点，句尾「けど」带有轻微转折。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 477,
+      "endIndex": 477,
+      "expectedStartTime": 2406.03,
+      "expectedEndTime": 2415.03,
+      "items": [
+        {
+          "startTime": 2406.03,
+          "endTime": 2415.03,
+          "explanationText": "「最新型」是“最新型号”。「テレビも見られる」中的「見られる」是可能形，表示“能看”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 478,
+      "endIndex": 478,
+      "expectedStartTime": 2415.03,
+      "expectedEndTime": 2420.03,
+      "items": [
+        {
+          "startTime": 2415.03,
+          "endTime": 2420.03,
+          "explanationText": "「携帯でテレビは見ない」中的「は」突出对比，表示电视这个功能不需要。「メールはよくする」也是对比，说明常用的是邮件。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 484,
+      "endIndex": 484,
+      "expectedStartTime": 2453.96,
+      "expectedEndTime": 2457.36,
+      "items": [
+        {
+          "startTime": 2453.96,
+          "endTime": 2457.36,
+          "explanationText": "「どの携帯電話」询问四个选项中的哪一款；重点是对话最后作出的决定。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 486,
+      "endIndex": 486,
+      "expectedStartTime": 2460.2,
+      "expectedEndTime": 2462.2,
+      "items": [
+        {
+          "startTime": 2460.2,
+          "endTime": 2462.2,
+          "explanationText": "「1番の携帯電話」表示“1号的手机”或“1号手机”。「番」用于给选项、号码或顺序编号。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 492,
+      "endIndex": 492,
+      "expectedStartTime": 2477.9,
+      "expectedEndTime": 2479.9,
+      "items": [
+        {
+          "startTime": 2477.9,
+          "endTime": 2479.9,
+          "explanationText": "「4番の携帯電話」就是“4号的手机”。「の」连接编号和名词，表示所属或限定。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 494,
+      "endIndex": 494,
+      "expectedStartTime": 2492.64,
+      "expectedEndTime": 2512.15,
+      "items": [
+        {
+          "startTime": 2492.64,
+          "endTime": 2512.15,
+          "explanationText": "「まず」表示“首先”，「それから」表示“然后”。「最も良いものを1つ選んでください」是听力考试常用指示，意思是选出一个最合适的选项。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 496,
+      "endIndex": 496,
+      "expectedStartTime": 2519.26,
+      "expectedEndTime": 2522.26,
+      "items": [
+        {
+          "startTime": 2519.26,
+          "endTime": 2522.26,
+          "explanationText": "「公園で」表示地点，“在公园”。「アナウンスをしています」表示正在进行广播或通知。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 497,
+      "endIndex": 497,
+      "expectedStartTime": 2522.26,
+      "expectedEndTime": 2532.84,
+      "items": [
+        {
+          "startTime": 2522.26,
+          "endTime": 2532.84,
+          "explanationText": "「本日は」是较正式的“今天”。「ご来場ありがとうございます」常用于活动、会场或园区广播，意思是感谢来场。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 499,
+      "endIndex": 499,
+      "expectedStartTime": 2539.84,
+      "expectedEndTime": 2552.84,
+      "items": [
+        {
+          "startTime": 2539.84,
+          "endTime": 2552.84,
+          "explanationText": "「今ちょうど」表示“现在正好”。「一面ピンク色に染まっています」描写整个视野都变成粉红色，「最適です」表示“最合适、非常适合”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 501,
+      "endIndex": 501,
+      "expectedStartTime": 2559.84,
+      "expectedEndTime": 2567.84,
+      "items": [
+        {
+          "startTime": 2559.84,
+          "endTime": 2567.84,
+          "explanationText": "「また」用于追加说明。句中的「池に映る木々の緑」是“倒映在池中的树木的绿色”，听力中要抓住关键词「池」。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 502,
+      "endIndex": 502,
+      "expectedStartTime": 2567.84,
+      "expectedEndTime": 2575.84,
+      "items": [
+        {
+          "startTime": 2567.84,
+          "endTime": 2575.84,
+          "explanationText": "「鳥に餌をやる」表示给鸟喂食。 「触れ合える」表示能够接触、交互，常用于人与动物的近距离体验。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 503,
+      "endIndex": 503,
+      "expectedStartTime": 2575.84,
+      "expectedEndTime": 2589.44,
+      "items": [
+        {
+          "startTime": 2575.84,
+          "endTime": 2589.44,
+          "explanationText": "「バーベキューが楽しめる設備」是“可以烧烤的设施”。「してみてはいかがでしょうか」是委婉建议，中文可译为“不妨……怎么样”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 513,
+      "endIndex": 513,
+      "expectedStartTime": 2630.85,
+      "expectedEndTime": 2633.85,
+      "items": [
+        {
+          "startTime": 2630.85,
+          "endTime": 2633.85,
+          "explanationText": "「2人はどこで」询问“两个人在哪里”。「昼ご飯を食べますか」是“吃午饭吗/会吃午饭吗”。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 515,
+      "endIndex": 515,
+      "expectedStartTime": 2649.0,
+      "expectedEndTime": 2652.7,
+      "items": [
+        {
+          "startTime": 2649.0,
+          "endTime": 2652.7,
+          "explanationText": "「～た後」表示完成前项动作之后；题目问的是午餐后的行程。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 516,
+      "endIndex": 516,
+      "expectedStartTime": 2668.86,
+      "expectedEndTime": 2671.46,
+      "items": [
+        {
+          "startTime": 2668.86,
+          "endTime": 2671.46,
+          "explanationText": "「これで」表示到此为止；「～を終わります」是正式宣布结束的说法。"
+        }
+      ]
+    }
+  ]
+}

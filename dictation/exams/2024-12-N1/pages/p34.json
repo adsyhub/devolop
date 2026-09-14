@@ -1,0 +1,66 @@
+{
+  "page": 34,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "ボランティア活動助成金 申請要項\n緑川大学では、国内各地でボランティア活動に参加する学生に対して、費用の一部を助成する制度を設けています。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "助成対象者緑川大学の学部生と大学院生",
+      "questionNumber": 1,
+      "choices": [
+        "助成対象となる活動"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "公的団体が主催するボランティア活動"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "助成対象となる費目、助成が受けられる金額と回数(1) 費目 ボランティア活動のために支出される交通費と宿泊費(2) 金額 交通費:1回の活動につき、10,000円を上限として実費を支給します。宿泊費:1回の活動につき 1泊あたり6,000円を上限として実費を支給します。2泊分までを支給対象とします。(3) 回数 年度中2回まで",
+      "questionNumber": 3,
+      "choices": [
+        "申請方法 (A~Cの書類の様式はホームページからダウンロード可)"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "活動終了後2か月以内に以下の書類をボランティアセンターに提出してください。\nただし、年度内最終提出期限は3月24日(厳守)とします。\nA:ボランティア活動助成金申請書\nB:ボランティア活動助成金振込口座届\nC:ボランティア活動証明書(受け入れ先の様式も可)\nD:領収書※\n※宿泊費の領収書は必ず提出してください。交通費の領収書は入手が可能な場合は提出してください。交通費の領収書が入手できない場合は、実際にかかった金額をAに記入してください。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "助成金振込審査を行い、申請が認められた場合は、書類提出があった翌月の月末に振り込みます(書類に不備があった場合は、振り込みが遅れる場合があります)。",
+      "questionNumber": 5,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "その他「A:ボランティア活動助成金申請書」の「活動に参加した感想」をボランティアセンターのホームページで紹介することがあります。",
+      "questionNumber": 6,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "問い合わせ先緑川大学ボランティアセンター(3号館1階) 月~金曜日 9:00~17:00電話:019-991-8728 Eメール:midorikawa_vc@midorikawa.ac.jp",
+      "questionNumber": 7,
+      "choices": []
+    }
+  ],
+  "pageLabel": "33",
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 1 choices transcribed, expected 4. Check the page image.",
+    "Q3: choice numbered 4 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q3: 1 choices transcribed, expected 4. Check the page image."
+  ]
+}

@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="zh-Hans-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d332c">
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'"
+  >
+  <title>JLPT 题库</title>
+  <link rel="stylesheet" href="./app.css">
+  <link rel="stylesheet" href="./exam.css">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icon-192.png">
+</head>
+<body class="exam-body">
+  <a class="skip-link" href="#exam-main">跳到题目</a>
+
+  <header class="topbar exam-topbar">
+    <div class="topbar-lead">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">解</span>
+        <div class="brand-text">
+          <strong id="exam-brand-title">JLPT 题库</strong>
+          <span id="exam-brand-sub">选择一套真题开始</span>
+        </div>
+      </div>
+      <button class="icon-button panel-toggle" id="exam-home-button" type="button" hidden>
+        <span aria-hidden="true">☰</span><span class="button-label">题库首页</span>
+      </button>
+    </div>
+
+    <!-- 精听和真题是独立工作区，不再作为同一顶栏里的相邻 Tab。
+         跨模式切换先返回入口页，避免练习状态和统计口径被误认为共享。 -->
+    <nav class="mode-context" aria-label="当前学习模式">
+      <span class="mode-context-current exam" aria-current="page">
+        <span aria-hidden="true">📝</span><span>真题工作区</span>
+      </span>
+      <a class="mode-switch-link" href="./">切换学习模式</a>
+    </nav>
+
+    <div class="topbar-actions">
+      <a class="personal-entry-button" id="exam-personal-link" href="./me#/mistakes/exam">
+        <span aria-hidden="true">🗂</span><span class="button-label">我的</span>
+      </a>
+      <span class="exam-timer" id="exam-timer" hidden>
+        <span aria-hidden="true">⏱</span>
+        <strong id="exam-timer-value">00:00</strong>
+      </span>
+      <span class="exam-progress-chip" id="exam-progress-chip" hidden>
+        已答 <strong id="exam-answered-count">0</strong> / <span id="exam-total-count">0</span>
+      </span>
+      <button class="icon-button" id="exam-sheet-button" type="button" hidden aria-expanded="false" aria-controls="answer-sheet">
+        <span aria-hidden="true">▦</span><span class="button-label">答题卡</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="exam-main" class="exam-main">
+
+    <!-- ---------------------------------------------------------------- -->
+    <!-- View: exam list                                                   -->
+    <!-- ---------------------------------------------------------------- -->
+    <section class="exam-view" id="view-home" aria-labelledby="home-heading">
+      <div class="exam-hero">
+        <h1 id="home-heading">JLPT 真题练习</h1>
+        <p class="exam-hero-copy">
+          先选等级，再选练法：整套计时练习，或者把同一题型跨卷合起来连续刷。
+        </p>
+      </div>
+
+      <!-- 等级分类。与精听板块的视频/音频分类同一套样式：两个板块的
+           第二层分类长得一样，学习者不用学两遍。标签由数据生成，
+           导入 N2 / N3 真题后自动出现。 -->
+      <nav class="category-switch" id="level-switch" role="tablist" aria-label="等级分类" hidden></nav>
+
+      <div class="exam-status" id="exam-status" role="status"></div>
+
+      <!-- 第三层：练法。整套卷 vs 跨卷题型，是两种完全不同的学习动作。 -->
+      <div class="study-mode-grid" id="study-mode-grid" hidden>
+        <button class="study-mode-card" id="mode-card-mock" type="button">
+          <span class="study-mode-icon" aria-hidden="true">⏱</span>
+          <h2>整套计时练习</h2>
+          <p class="study-mode-copy">按整套真题计时作答，中途不显示对错，交卷后看得分与逐题解析。<br><small style="color:var(--text-dim, #888)">（注：单机计时练习，不等同服务端严格模考）</small></p>
+          <p class="study-mode-stat" id="mock-stat"></p>
+          <span class="study-mode-go" aria-hidden="true">选一套卷 →</span>
+        </button>
+        <button class="study-mode-card" id="mode-card-topic" type="button">
+          <span class="study-mode-icon" aria-hidden="true">▤</span>
+          <h2>专题练习</h2>
+          <p class="study-mode-copy">把该等级所有卷子的同一题型合并成一个题库，连续刷。完成整组并交卷后，统一判题和查看解析。</p>
+          <p class="study-mode-stat" id="topic-stat"></p>
+          <span class="study-mode-go" aria-hidden="true">选题型 →</span>
+        </button>
+      </div>
+
+      <div class="exam-empty" id="exam-empty" hidden>
+        <h2>还没有导入任何真题</h2>
+        <p>
+          把真题 PDF 放好后，运行
+          <code>python src/exam_import.py render --pdf &lt;文件&gt; --out &lt;工作目录&gt;</code>
+          逐页转写，再运行 <code>assemble</code> 生成 <code>exams/&lt;名称&gt;/exam.json</code>。
+          详见 <code>docs/JLPT_EXAM.md</code>。
+        </p>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------- -->
+    <!-- View: 计时练习 —— 该等级的整套卷                                  -->
+    <!-- ---------------------------------------------------------------- -->
+    <section class="exam-view" id="view-papers" hidden aria-labelledby="papers-heading">
+      <button class="quiet-button back-link" id="papers-back" type="button">← 返回等级</button>
+      <h1 id="papers-heading">整套计时练习</h1>
+      <p class="exam-meta-line" id="papers-meta"></p>
+      <div class="exam-list" id="exam-list"></div>
+    </section>
+
+    <!-- ---------------------------------------------------------------- -->
+    <!-- View: 专题练习 —— 跨卷合并的题型题库                              -->
+    <!-- ---------------------------------------------------------------- -->
+    <section class="exam-view" id="view-topics" hidden aria-labelledby="topics-heading">
+      <button class="quiet-button back-link" id="topics-back" type="button">← 返回等级</button>
+      <h1 id="topics-heading">专题练习</h1>
+      <p class="exam-meta-line" id="topics-meta"></p>
+      <div class="exam-status" id="topic-status" role="status"></div>
+      <div class="topic-list" id="topic-list"></div>
+    </section>
+
+    <!-- ---------------------------------------------------------------- -->
+    <!-- View: 题型细分 —— 一个大类下按题型再分                            -->
+    <!-- ---------------------------------------------------------------- -->
+    <section class="exam-view" id="view-parts" hidden aria-labelledby="parts-heading">
+      <button class="quiet-button back-link" id="parts-back" type="button">← 返回题型</button>
+      <h1 id="parts-heading">选题型</h1>
+      <p class="exam-meta-line" id="parts-meta"></p>
+      <div class="exam-status" id="parts-status" role="status"></div>
+      <div class="topic-list" id="parts-list"></div>
+    </section>
+
+    <!-- ---------------------------------------------------------------- -->
+    <!-- View: start a session                                             -->
+    <!-- ---------------------------------------------------------------- -->
+    <section class="exam-view" id="view-setup" hidden aria-labelledby="setup-heading">
+      <button class="quiet-button back-link" id="setup-back" type="button">← 返回题库</button>
+      <h1 id="setup-heading">开始练习</h1>
+      <label id="topic-paper-count-label" hidden>练习组数 <select id="topic-paper-count"></select><span>以一套真题在当前题型下的全部题目为一组</span></label>
+      <p class="exam-meta-line" id="setup-meta"></p>
+
+      <div class="setup-block">
+        <h2>练习方式</h2>
+        <div class="mode-grid" id="mode-grid" role="radiogroup" aria-label="练习方式"></div>
+      </div>
+
+      <div class="setup-block">
+        <h2>范围</h2>
+        <div class="scope-grid" id="scope-grid" role="radiogroup" aria-label="练习范围"></div>
+      </div>
+
+      <div class="setup-actions">
+        <button class="primary-button" id="start-button" type="button">开始</button>
+        <span class="setup-hint" id="setup-hint"></span>
+      </div>
+
+      <div class="setup-block" id="history-block" hidden>
+        <h2>历史记录</h2>
+        <ul class="history-list" id="history-list"></ul>
+        <button class="quiet-button danger-text" id="reset-progress-button" type="button">清空这套题的作答记录</button>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------- -->
+    <!-- View: answering                                                   -->
+    <!-- ---------------------------------------------------------------- -->
+    <section class="exam-view exam-session" id="view-session" hidden aria-labelledby="question-heading">
+      <button class="quiet-button" id="session-back" type="button">保存并返回练习设置</button>
+      <div class="session-layout" id="session-layout">
+
+        <aside class="passage-pane" id="passage-pane" hidden aria-label="阅读材料">
+          <div class="passage-pane-head">
+            <span class="eyebrow" id="passage-label">阅读材料</span>
+            <button class="quiet-button" id="passage-collapse" type="button" aria-expanded="true">收起</button>
+          </div>
+          <div class="passage-scroll" id="passage-scroll" tabindex="0"></div>
+        </aside>
+
+        <div class="question-pane">
+          <div class="question-card" id="question-card">
+            <div class="question-head">
+              <div class="question-head-left">
+                <span class="question-badge" id="question-badge">第 1 题</span>
+                <span class="question-part" id="question-part"></span>
+              </div>
+              <div class="question-head-right">
+                <button class="mark-button" id="mark-button" type="button" aria-pressed="false" title="标记这道题（快捷键 M）">☆ 标记</button>
+              </div>
+            </div>
+
+            <p class="part-instruction" id="part-instruction"></p>
+
+            <div class="audio-warning" id="audio-warning" hidden>
+              <strong>听力题</strong>
+              <span>这套题没有配套音频，题干与选项由录音朗读。你可以对照答案与解析复习，但作答结果不代表真实听力水平。</span>
+            </div>
+
+            <h2 class="question-prompt" id="question-prompt"></h2>
+            <p class="question-figure" id="question-figure" hidden></p>
+
+            <div class="choices" id="choices" role="radiogroup" aria-labelledby="question-prompt"></div>
+
+            <div class="confidence-row" id="confidence-row" hidden>
+              <span class="confidence-label">有把握吗？</span>
+              <div class="confidence-buttons" id="confidence-buttons"></div>
+            </div>
+
+            <div class="verdict" id="verdict" hidden aria-live="polite">
+              <div class="verdict-head">
+                <span class="verdict-badge" id="verdict-badge"></span>
+                <span class="verdict-detail" id="verdict-detail"></span>
+              </div>
+              <p class="key-note" id="key-note" hidden></p>
+              <div class="order-answer" id="order-answer" hidden>
+                <span class="eyebrow">正确排序</span>
+                <ol class="order-list" id="order-list"></ol>
+              </div>
+              <label class="verdict-note">
+                <span class="eyebrow">笔记</span>
+                <textarea id="question-note" rows="2" placeholder="记下语法点、易错点…"></textarea>
+              </label>
+            </div>
+          </div>
+
+          <nav class="session-nav" aria-label="题目导航">
+            <button class="secondary-button" id="prev-button" type="button">← 上一题</button>
+            <button class="quiet-button" id="reveal-button" type="button">看答案</button>
+            <button class="primary-button" id="next-button" type="button">下一题 →</button>
+            <button class="primary-button submit-button" id="submit-button" type="button" hidden>交卷</button>
+          </nav>
+        </div>
+      </div>
+
+      <div class="answer-sheet" id="answer-sheet" hidden aria-label="答题卡">
+        <div class="answer-sheet-head">
+          <strong>答题卡</strong>
+          <div class="sheet-legend">
+            <span><i class="dot dot-answered"></i>已答</span>
+            <span><i class="dot dot-correct"></i>正确</span>
+            <span><i class="dot dot-wrong"></i>错误</span>
+            <span><i class="dot dot-marked"></i>标记</span>
+          </div>
+          <button class="quiet-button" id="answer-sheet-close" type="button">收起</button>
+        </div>
+        <div class="answer-sheet-body" id="answer-sheet-body"></div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------- -->
+    <!-- View: report                                                      -->
+    <!-- ---------------------------------------------------------------- -->
+    <section class="exam-view" id="view-report" hidden aria-labelledby="report-heading">
+      <h1 id="report-heading">成绩报告</h1>
+      <p class="exam-meta-line" id="report-meta"></p>
+
+      <div class="score-summary" id="score-summary"></div>
+      <p class="scoring-note" id="scoring-note"></p>
+
+      <div class="setup-block">
+        <h2>各大题表现</h2>
+        <div class="part-table" id="part-table"></div>
+      </div>
+
+      <div class="setup-block" id="wrong-block">
+        <h2>错题与未答</h2>
+        <div class="wrong-list" id="wrong-list"></div>
+      </div>
+
+      <div class="setup-actions">
+        <button class="primary-button" id="report-review-button" type="button">立即复习错题</button>
+        <button class="secondary-button" id="report-restart-button" type="button">再做一次</button>
+        <button class="quiet-button" id="report-home-button" type="button">返回题库</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" hidden></div>
+
+  <script src="./exam_markup.js"></script>
+  <script src="./exam.js"></script>
+  <script src="./lookup_panel.js" defer></script>
+</body>
+</html>

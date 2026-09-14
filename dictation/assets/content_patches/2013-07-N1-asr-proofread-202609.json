@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "description": "2013-07-N1：LLM 逐句校对发现的 ASR 误识别修正 12 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "5893fc54c6a36545a7d609435104fa1631051278dc234819221c6a2fc85dcd03",
+  "evidence": {
+    "file": "proofread-work/2013-07-N1/proofread.json",
+    "proposedFixes": "proofread-work/2013-07-N1/proposed-fixes.json",
+    "notes": "proofread-work/2013-07-N1/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 2,
+      "endIndex": 2,
+      "expectedStartTime": 22.18,
+      "expectedEndTime": 32.35,
+      "items": [
+        {
+          "startTime": 22.18,
+          "endTime": 32.35,
+          "sourceText": "はい了解いただいております会場はもう押さえてある それはあの出席者数によって大きさが変わるかと思いまして",
+          "jaText": "はい了解いただいております会場はもう押さえてある それはあの出席者数によって大きさが変わるかと思いまして"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 55,
+      "endIndex": 55,
+      "expectedStartTime": 268.99,
+      "expectedEndTime": 283.09,
+      "items": [
+        {
+          "startTime": 268.99,
+          "endTime": 283.09,
+          "sourceText": "ます男の留学生はこの後まず何をしなければなりませんか 先生今日先生の中級聴解の授業を受けてみたんですけど僕にはちょっと易しいよう",
+          "jaText": "ます男の留学生はこの後まず何をしなければなりませんか 先生今日先生の中級聴解の授業を受けてみたんですけど僕にはちょっと易しいよう"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 56,
+      "endIndex": 56,
+      "expectedStartTime": 283.09,
+      "expectedEndTime": 290.29,
+      "items": [
+        {
+          "startTime": 283.09,
+          "endTime": 290.29,
+          "sourceText": "なので聴解だけでも上級クラスに行っていいですか でもポムさんレベル分けのテストでは中級でしたね",
+          "jaText": "なので聴解だけでも上級クラスに行っていいですか でもポムさんレベル分けのテストでは中級でしたね"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 59,
+      "endIndex": 59,
+      "expectedStartTime": 307.87,
+      "expectedEndTime": 312.73,
+      "items": [
+        {
+          "startTime": 307.87,
+          "endTime": 312.73,
+          "sourceText": "聴解も中級と上級の差は大きいわよ頑張ります ん",
+          "jaText": "聴解も中級と上級の差は大きいわよ頑張ります ん"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 91,
+      "endIndex": 91,
+      "expectedStartTime": 491.22,
+      "expectedEndTime": 499.76,
+      "items": [
+        {
+          "startTime": 491.22,
+          "endTime": 499.76,
+          "sourceText": "a 婦人服はこのところ好調で高級なスーツなども予想以上に伸びています しかし紳士服の方は依然苦戦しています",
+          "jaText": "a 婦人服はこのところ好調で高級なスーツなども予想以上に伸びています しかし紳士服の方は依然苦戦しています"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 94,
+      "endIndex": 94,
+      "expectedStartTime": 518.47,
+      "expectedEndTime": 524.03,
+      "items": [
+        {
+          "startTime": 518.47,
+          "endTime": 524.03,
+          "sourceText": "したいと思います その組み合わせに魅力を感じてスーツも買っていただけたら万々歳です",
+          "jaText": "したいと思います その組み合わせに魅力を感じてスーツも買っていただけたら万々歳です"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 131,
+      "endIndex": 131,
+      "expectedStartTime": 834.42,
+      "expectedEndTime": 848.4,
+      "items": [
+        {
+          "startTime": 834.42,
+          "endTime": 848.4,
+          "sourceText": "留学すると語学を習得できますそして国際的なネットワークも作ることができます こういうことを通して世界という大局的な観点から自分を見直すことができるということです",
+          "jaText": "留学すると語学を習得できますそして国際的なネットワークも作ることができます こういうことを通して世界という大局的な観点から自分を見直すことができるということです"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 243,
+      "endIndex": 243,
+      "expectedStartTime": 1823.88,
+      "expectedEndTime": 1827.34,
+      "items": [
+        {
+          "startTime": 1823.88,
+          "endTime": 1827.34,
+          "sourceText": "新しい部署に異動させるため",
+          "jaText": "新しい部署に異動させるため"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 297,
+      "endIndex": 297,
+      "expectedStartTime": 2315.97,
+      "expectedEndTime": 2319.07,
+      "items": [
+        {
+          "startTime": 2315.97,
+          "endTime": 2319.07,
+          "sourceText": "よろしければお召しになりませんか",
+          "jaText": "よろしければお召しになりませんか"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 311,
+      "endIndex": 311,
+      "expectedStartTime": 2402.37,
+      "expectedEndTime": 2411.35,
+      "items": [
+        {
+          "startTime": 2402.37,
+          "endTime": 2411.35,
+          "sourceText": "また別の日に2回目の説明会を開いた方がいいかと思うんですが いや別の日になると都合がつかなくなる人も多くなるだろうから",
+          "jaText": "また別の日に2回目の説明会を開いた方がいいかと思うんですが いや別の日になると都合がつかなくなる人も多くなるだろうから"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 313,
+      "endIndex": 313,
+      "expectedStartTime": 2420.88,
+      "expectedEndTime": 2429.76,
+      "items": [
+        {
+          "startTime": 2420.88,
+          "endTime": 2429.76,
+          "sourceText": "ところ午後も同じ会場を使えるそうです じゃあ午前と午後の2回にしましょうかそれならスタッフを増やす必要もないですし",
+          "jaText": "ところ午後も同じ会場を使えるそうです じゃあ午前と午後の2回にしましょうかそれならスタッフを増やす必要もないですし"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 316,
+      "endIndex": 316,
+      "expectedStartTime": 2450.43,
+      "expectedEndTime": 2458.71,
+      "items": [
+        {
+          "startTime": 2450.43,
+          "endTime": 2458.71,
+          "sourceText": "あと大宴会場も使えるって言ってましたよ ここなら全員入れますそれでもやっぱり人を増やさなくちゃいけませんよね",
+          "jaText": "あと大宴会場も使えるって言ってましたよ ここなら全員入れますそれでもやっぱり人を増やさなくちゃいけませんよね"
+        }
+      ]
+    }
+  ]
+}

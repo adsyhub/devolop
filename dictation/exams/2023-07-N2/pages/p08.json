@@ -1,0 +1,45 @@
+{
+  "page": 8,
+  "blocks": [
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "駅前に新しくできたカフェに友達を誘って行ってみたら、確認しておく()1しかなかった 2ほどではなかった 3べきだった 4せいだった",
+      "questionNumber": 1,
+      "choices": [
+        "(インタビューで)"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "選手「今回優勝できたのは、多くの方に()。本当にありがとうございました。」\n1応援してくださったおかげです 2心援していただいたおかげです 3応援してくださったことだと思います 4応援していただいたことだと思います"
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 8,
+      "text": "問題8　次の文のに入る最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 8,
+      "text": "隣のクラスの友達とけんかをしてしまい、学校の廊下で____★____なくなってしまった。1こと 2すら 3目を合わせる 4すれ違っても",
+      "questionNumber": 3,
+      "choices": [
+        "このソフアーは、それなりの大きさはあるが、見た目____★____楽に動かせる。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 8,
+      "text": "1ほどの 2でも 3重さはないため 4一人"
+    }
+  ],
+  "pageLabel": "8",
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 1 choices transcribed, expected 4. Check the page image.",
+    "Q3: choice numbered 4 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q3: 1 choices transcribed, expected 4. Check the page image."
+  ]
+}

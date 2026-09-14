@@ -1,0 +1,67 @@
+{
+  "page": 15,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>5</u>. このメールで店員が問い合わせていることは何か。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "電源の状態が悪くなる可能性があるが、画面の修理をするかどうか。",
+      "questionNumber": 1,
+      "choices": [
+        "追加で料金と時間がかかるが、電源の修理もするかどうか。",
+        "追加で料金がかかるが、電源の修理を6月5日までに終えるかどうか。",
+        "6月5日に画面と電源の修理は完了するが、いつ受け取りに来るか。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "(5)\n弱い立場にあるという点で、未来の世代ほど弱いものはない。何しろ、どんなにひどいことをされても、まだ生まれていない生命は、抗議(注1)の声をあげることもできないのだから。それをいいことに(注2)、今生きている世代は、未来の世代が生きていくための絶対条件(注3)となる環境を壊し、彼らが利用する分の資源まで使い果たそうとしている。いったいこれ以上、フェアの精神に反することがあるだろうか。"
+    },
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注1)抗議:ここでは、反対や怒り"
+    },
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注2)それをいいことに:ここでは、それを自分に都合よく考えて"
+    },
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注3)絶対条件:必要な条件"
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>6</u>. 今生きている世代に対して、筆者が言いたいことは何か。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "今生きている世代があげている反対や怒りの声を聞くべきだ。",
+      "questionNumber": 1,
+      "choices": [
+        "今生きている世代にも声があげられない人がいることを認めるべきだ。",
+        "未来の世代が生きていくために、必要な資源を見つけるべきだ。",
+        "声をあげられない未来の世代のことを考え、行動を改めるべきだ。"
+      ]
+    }
+  ],
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

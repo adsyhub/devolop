@@ -1,0 +1,7 @@
+# Single choice: directive, formCode, answerRef, option key
+objective PHYSICS_JA PHYSICS:1 6
+
+# Digit grid: label groups and values have identical lengths.
+# Leading zero and minus sign are intentionally preserved as tokens.
+digits MATHEMATICS_COURSE_1_JA COURSE1:I:Q1 A=6 BC=24 DE=-3 FG=04
+

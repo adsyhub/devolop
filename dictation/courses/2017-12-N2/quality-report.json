@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "status": "needs_review",
+  "summary": {
+    "sentences": 367,
+    "errors": 0,
+    "warnings": 3,
+    "issueCounts": {
+      "sentence.low_confidence": 1,
+      "sentence.rate_implausible": 1,
+      "sentence.very_long": 1
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 146
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.low_confidence",
+      "message": "Low ASR confidence; human review is recommended.",
+      "sentenceIndex": 152
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "11 characters in 0.36s (31/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 62
+    }
+  ]
+}

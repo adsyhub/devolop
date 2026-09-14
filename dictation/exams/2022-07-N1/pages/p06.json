@@ -1,0 +1,137 @@
+{
+  "page": 6,
+  "pageLabel": "第5页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 5,
+      "label": null,
+      "text": "問題5　次の文の（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": null,
+      "text": "このお寺は、｜釘《くぎ》などの金属類は（　　）使わず、木材だけで建てられているそうだ。",
+      "questionNumber": 26,
+      "choices": [
+        "あまりに",
+        "いっさい",
+        "できれば",
+        "どうしても"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": null,
+      "text": "旅館の窓から見えた山々は紅葉で鮮やかに色づいており、澄んだ青空（　　）、なんとも美しかった。",
+      "questionNumber": 27,
+      "choices": [
+        "を経て",
+        "を基に",
+        "と相まって",
+        "と引きかえに"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": null,
+      "text": "ふるさとの美しい海を見る（　　）、この美しい海がいつまでもこのままであってほしいと思う。",
+      "questionNumber": 28,
+      "choices": [
+        "につけ",
+        "にせよ",
+        "とはいえ",
+        "というのは"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": null,
+      "text": "マラソン大会から帰るとき、電車はすいていたが、一度座ったら（　　）疲れていたので、ずっと立っていた。",
+      "questionNumber": 29,
+      "choices": [
+        "立ち上がってはいけないなんて",
+        "立ち上がれそうにないなんて",
+        "立ち上がってはいけないぐらい",
+        "立ち上がれそうにないぐらい"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": null,
+      "text": "健康的な生活を送るためには睡眠時間を十分にとる必要があるが、ただ長く（　　）そうではない。時間だけでなく睡眠の質も重要だ。",
+      "questionNumber": 30,
+      "choices": [
+        "眠ればいいかというと",
+        "眠ればいいというより",
+        "眠ってもいいかというと",
+        "眠ってもいいというより"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": null,
+      "text": "さくら小学校では、児童数が増加して、それまでの教室数では対応（　　）、今年新しい校舎が建設された。",
+      "questionNumber": 31,
+      "choices": [
+        "しきれなくなったからには",
+        "しきれなくなったことから",
+        "するほかなくなったからには",
+        "するほかなくなったことから"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": null,
+      "text": "TKC遊園地はオープンからまもなく1年を迎える。総来場者数は、先月末の時点で850万人に上り、1周年となる来月には1000万人を超える（　　）という。",
+      "questionNumber": 32,
+      "choices": [
+        "限りだ",
+        "最中だ",
+        "見込みだ",
+        "一方だ"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "問題29の文頭は印刷上「マラソン大会」となっており（カタカナ「ン」が2つ）、通常の「マラソン大会」ではない。10倍拡大で確認済み、印刷どおりに転記した。",
+    "問題26の「釘」には「くぎ」のルビが印刷されている（｜釘《くぎ》として記録）。ページ上のルビはこれのみ。",
+    "問題5の見出し行の空所は本文の空所より幅が狭く印刷されているが、規約に従い（　　）で統一して記録した。",
+    "問題5はこのページで問題32まで（問題33〜35は次ページに続く）。ページ下部の中国語ページ番号「第5页」はpageLabelに入れ、ブロックには含めていない。",
+    "扫描件把 マランン大会 印成了非词；已按唯一说得通的写法更正，不影响答案。"
+  ]
+}

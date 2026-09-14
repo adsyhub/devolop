@@ -1,0 +1,49 @@
+{
+  "createdAt": "2026-09-08T00:22:43.614526+00:00",
+  "databaseBackup": "library/backups/before-source-correction-20260908T002243Z.db",
+  "bindingCount": 6,
+  "bindings": [
+    {
+      "sourceId": "src_780a8e8ef7d937848a582a91",
+      "inventoryId": "eju-2023-2-science-ja"
+    },
+    {
+      "sourceId": "src_54f5554092efcc19179a16d9",
+      "inventoryId": "eju-2024-1-science-ja"
+    },
+    {
+      "sourceId": "src_d9d9ede81668ae6755a000b7",
+      "inventoryId": "eju-2024-1-math-c1-ja"
+    },
+    {
+      "sourceId": "src_3149ec59b03bbc0f9a45fa1a",
+      "inventoryId": "eju-2024-1-math-c2-ja"
+    },
+    {
+      "sourceId": "src_2bc2c96282df0ac93de96ff4",
+      "inventoryId": "eju-2024-1-japan-world-ja"
+    },
+    {
+      "sourceId": "src_8911a2182ccd2d156e89721b",
+      "inventoryId": "eju-2024-1-japanese-ja"
+    }
+  ],
+  "correction": {
+    "sourceId": "src_780a8e8ef7d937848a582a91",
+    "physicalPage": 41,
+    "sourceHash": "fddda625865030cdea57d7860fa75d9c583a41dde4ec471d79db2474630e0c3b",
+    "previousFileHash": "961834d707d277404595d36657b5da7e53d723ac6e90c07ca0795144db354a53",
+    "previousFile": "work/2023-2-science/revisions/20260908T002243Z/p0041-question_booklet.json",
+    "previousQuestionKeys": [
+      "bio-q-01",
+      "bio-q-02"
+    ],
+    "draftRevisionId": "pr_75f7ec8e22de48b0966089a68258b17f",
+    "reviewState": "DRAFT_REQUIRES_HUMAN_REVIEW",
+    "published": false
+  },
+  "databaseSchema": 7,
+  "integrity": "ok",
+  "publishedVersions": 1,
+  "sessions": 6
+}

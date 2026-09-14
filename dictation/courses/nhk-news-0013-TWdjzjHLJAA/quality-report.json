@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "status": "needs_review",
+  "summary": {
+    "sentences": 3,
+    "errors": 0,
+    "warnings": 9,
+    "issueCounts": {
+      "course.unterminated_ratio": 1,
+      "sentence.explanation_missing": 3,
+      "sentence.rate_implausible": 1,
+      "sentence.translation_missing": 3,
+      "sentence.very_short": 1
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 0
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 0
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 1
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 1
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 2
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 2
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 2
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "13 characters in 0.51s (25/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 0
+    },
+    {
+      "severity": "warning",
+      "code": "course.unterminated_ratio",
+      "message": "2 of 3 segments have no sentence-final punctuation (over 30%); the transcript may be cut at display-line boundaries."
+    }
+  ]
+}

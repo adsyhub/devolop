@@ -1,0 +1,84 @@
+{
+  "page": 28,
+  "pageLabel": "第27页",
+  "sectionHeader": "問題2",
+  "blocks": [
+    {
+      "kind": "section-header",
+      "partNumber": 2,
+      "label": null,
+      "text": "問題2",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "label": null,
+      "text": "問題2　では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "例",
+      "text": "",
+      "questionNumber": null,
+      "choices": [
+        "昨日までに資料を渡さなかったから",
+        "飲み会で飲みすぎて寝てしまったから",
+        "飲み会に資料を持っていったから",
+        "資料をなくしてしまったから"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "1番",
+      "text": "",
+      "questionNumber": 1,
+      "choices": [
+        "仕事のオンとオフが切り替えやすくなった",
+        "業務の効率化が進んだ",
+        "社員の健康がそくしんされた",
+        "よりよい人材の確保につながった"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "2番",
+      "text": "",
+      "questionNumber": 2,
+      "choices": [
+        "安いと評判の業者に頼んだ",
+        "平日に引っ越しをした",
+        "荷造りをすべて自分でした",
+        "いらない家電を自分で処分した"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "This is a 聴解 (listening) page for 問題2: the 例 / 1番 / 2番 items print only the four choices, so each question block's text is empty by design (the question itself is spoken).",
+    "The printed numerals '1' in this booklet's font render as a bare vertical stroke (both in the instruction '問題用紙の1から4' and in the choice numbering and '1番'); they are transcribed as the digit 1.",
+    "In the instruction line the print shows a small gap after 'の1' before 'から4' ('の1　から4の中から'); this is treated as a typesetting artifact and transcribed without the extra space.",
+    "The choice numerals 1-4 preceding each option were stripped as instructed; choices are recorded in printed order.",
+    "A faint publisher watermark line is present just below the page label at the bottom of the page; it is illegible at this resolution and excluded from all blocks."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "page": 18,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "(3)\n鳥は日常的に目であたりを観察し、自身の生活にとって重要なものかどうかを見分け、必要なものを優先的に記憶しながら暮らしています。野生と飼育下では、そこに存在するものがちがっているため、重要と判断されるものも大きく変わってきますが、判断のしかた自体は変化しません。重要なものは詳細に、そうでないものはさっと流すくらいの注意で見る、というやりかたです。そして、重要と判断されなかったものは、どんどん記憶のなかから消えていきます。"
+    },
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注1)野生:自然の中で生きている状態"
+    },
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注2)飼育下:飼われている状態"
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "54 鳥の記憶について、筆者の説明に合うのはどれか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "何度も見たものを重要だと判断して記憶していく。",
+      "questionNumber": 1,
+      "choices": [
+        "生活する場がちがっても、同じものを記憶していく。",
+        "生活に重要なものを選んで記憶していく。",
+        "生活に重要なものでも、次第に記憶から消えていく。"
+      ]
+    }
+  ],
+  "pageLabel": "16",
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

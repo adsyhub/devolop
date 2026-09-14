@@ -1,0 +1,30 @@
+# Optional build dependencies. The player and the launcher need none of these:
+# they run on the Python standard library alone.
+#
+# Which of these you need depends on the providers you choose:
+#
+#   faster-whisper  --asr-kind faster-whisper (transcribe locally)
+#                   Not needed for --asr-kind openai-audio / command / import.
+#   opencc          the Traditional-to-Simplified normalization pass.
+#                   Skip it with --no-normalize.
+#   yt-dlp          在线视频课程：抓站点字幕，或临时取音频给本地转写用。
+#                   用本地字幕文件建课（--transcript file）不需要它。
+#                   见 docs/VIDEO_COURSES.md。
+#   pymupdf,pillow  `python src/exam_import.py render` only — turning a JLPT past
+#                   paper PDF into page images. Studying an already-imported exam
+#                   needs neither; exam_import.py reports them by name if missing.
+#
+# Text models need nothing installed at all: every provider kind talks over
+# urllib or a subprocess. There is deliberately no vendor SDK here, so adding a
+# provider never adds a dependency.
+faster-whisper==1.2.1
+opencc-python-reimplemented==0.1.7
+
+# 在线视频课程用（src/build_video_course.py）。刻意注释掉：只有要从视频站点
+# 取字幕或取音频时才装，用本地字幕文件建课不需要。
+# yt-dlp==2026.8.20
+
+# Exam import only (src/exam_import.py render). Commented out on purpose: install
+# them when you actually import a new past paper, not to study one.
+# pymupdf==1.28.2
+# pillow==12.2.0

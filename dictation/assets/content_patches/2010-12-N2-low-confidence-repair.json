@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "description": "Replace the 1430.81-1481.88 low-confidence hallucination cluster with an independent-context large-v3 retranscription.",
+  "sourceSentencesDigest": "4af93c26c0e2bb42e1e5723fb44917aa5b56dfcbf1b8d977d13153a9b59d0329",
+  "evidence": {
+    "file": "low-confidence-retranscription.json",
+    "model": "faster-whisper large-v3",
+    "run": "baseline-independent",
+    "conditionOnPreviousText": false,
+    "temperature": 0.0,
+    "crossCheck": "conservative"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 286,
+      "endIndex": 315,
+      "expectedStartTime": 1430.81,
+      "expectedEndTime": 1481.88,
+      "items": [
+        {
+          "startTime": 1430.81,
+          "endTime": 1433.14,
+          "jaText": "紅茶の専門店",
+          "zhTranslation": "红茶专卖店",
+          "explanationText": "「専门店」是专门贩售某一类商品的店，这里是第4个选项。注意「専门」读作「せんもん」。",
+          "confidence": 0.827,
+          "asrQuality": {
+            "avgLogprob": -0.19,
+            "noSpeechProbability": 0.142,
+            "compressionRatio": 1.13
+          }
+        },
+        {
+          "startTime": 1441.74,
+          "endTime": 1442.54,
+          "jaText": "3番",
+          "zhTranslation": "第3题",
+          "explanationText": "这是题号提示，表示接下来开始第3题。",
+          "confidence": 0.827,
+          "asrQuality": {
+            "avgLogprob": -0.19,
+            "noSpeechProbability": 0.142,
+            "compressionRatio": 1.13
+          }
+        },
+        {
+          "startTime": 1446.28,
+          "endTime": 1451.98,
+          "jaText": "アナウンサーが男の人に子供が読む本についてインタビューをしています。",
+          "zhTranslation": "播音员正在就儿童阅读的书籍采访一名男子。",
+          "explanationText": "「～について」表示「关于～」；「インタビューをしています」表示正在进行采访。这句用来交代对话场景与主题。",
+          "confidence": 0.827,
+          "asrQuality": {
+            "avgLogprob": -0.19,
+            "noSpeechProbability": 0.142,
+            "compressionRatio": 1.13
+          }
+        },
+        {
+          "startTime": 1454.04,
+          "endTime": 1460.68,
+          "jaText": "今日は作家の山田先生に、子供が読む本を大人が選ぶことについて伺います。",
+          "zhTranslation": "今天我们请教作家山田老师，关于由大人替孩子选书这件事。",
+          "explanationText": "「伺います」是「闻きます」的自谦语，在访谈中表示向受访者请教。「子供が読む本を大人が选ぶこと」整体是被讨论的主题。",
+          "confidence": 0.923,
+          "asrQuality": {
+            "avgLogprob": -0.08,
+            "noSpeechProbability": 0.862,
+            "compressionRatio": 1.58
+          }
+        },
+        {
+          "startTime": 1461.7,
+          "endTime": 1466.88,
+          "jaText": "この点について反対する人もいますが、先生はどう思われますか。",
+          "zhTranslation": "有些人反对这种做法，老师您怎么看？",
+          "explanationText": "「どう思われますか」使用尊敬语询问对方的看法；句中的「が」先提出不同意见，再把话题交给受访者。",
+          "confidence": 0.923,
+          "asrQuality": {
+            "avgLogprob": -0.08,
+            "noSpeechProbability": 0.862,
+            "compressionRatio": 1.58
+          }
+        },
+        {
+          "startTime": 1468.82,
+          "endTime": 1476.08,
+          "jaText": "そうですね。僕は子供の頃、親が買ってくれる本が面白くなくて、読書があんまり好きになれませんでした。",
+          "zhTranslation": "是啊。我小时候父母买给我的书都不有趣，所以一直不太喜欢阅读。",
+          "explanationText": "「～てくれる」表示别人为自己做某事；「面白くなくて」以て形连接原因。「あんまり」在否定句中表示「不太～」。",
+          "confidence": 0.923,
+          "asrQuality": {
+            "avgLogprob": -0.08,
+            "noSpeechProbability": 0.862,
+            "compressionRatio": 1.58
+          }
+        },
+        {
+          "startTime": 1477.56,
+          "endTime": 1481.68,
+          "jaText": "だから子供には自由に本を選ばせるべきだと考えていたんです。",
+          "zhTranslation": "因此我曾认为，应该让孩子自由选择自己想读的书。",
+          "explanationText": "「选ばせる」是使役形，表示让孩子选；「～べきだ」表示应该；「考えていた」说明这是说话者过去持有的看法。",
+          "confidence": 0.923,
+          "asrQuality": {
+            "avgLogprob": -0.08,
+            "noSpeechProbability": 0.862,
+            "compressionRatio": 1.58
+          }
+        }
+      ]
+    }
+  ]
+}

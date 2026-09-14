@@ -1,0 +1,22 @@
+{
+  "page": 38,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "もんだい"
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 1,
+      "text": "問題1では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。\n> 1. 先生にメールで聞く\n> 2. 友達にメールで聞く\n> 3. 研究室の前のけいじを見る\n> 4. りょうの前のけいじを見る"
+    }
+  ],
+  "pageLabel": "1",
+  "issues": []
+}

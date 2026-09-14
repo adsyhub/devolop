@@ -1,0 +1,71 @@
+{
+  "page": 9,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>45</u>友達にスキー旅行に誘われている。返事を____★____まだ返事ができていない。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "決まっていなくて",
+      "questionNumber": 1,
+      "choices": [
+        "仕事の予定が",
+        "しなければ",
+        "と思いながらも"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>46</u>私は、美術館では音声ガイドの機械を借りて、説明を開きながら作品を鑑賞する。作品のどこに____★____その作品をより深く味わえるからだ。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "わかると",
+      "questionNumber": 1,
+      "choices": [
+        "注目して",
+        "いいのかが",
+        "鑑賞したら"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>47</u>雪が降っている____★____風がほとんどないからだろう。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "わりに",
+      "questionNumber": 1,
+      "choices": [
+        "のは",
+        "寒く感じない",
+        "そんなに"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>問題9</u>次の文章を読んで、文章全体の内容を考えて、48から51の中に入る最もよいものを、1・2・3・4から一つ選びなさい。\n以下は、留学生がスピーチのために書いた文章である。\n> 香道\n>\n> 「香道」とは、香りを楽しむ日本の伝統文化です。私は、友人が香道の体験ができる教室に誘ってくれたのをきっかけに、初めて香道のことを知りました。私は普"
+    }
+  ],
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "page": 17,
+  "pageLabel": "第16页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "question",
+      "partNumber": 9,
+      "label": null,
+      "text": "筆者によると、デジタルを使うことで｜前頭葉《ぜんとうよう》の老化が進むのはなぜか。",
+      "questionNumber": 55,
+      "choices": [
+        "記憶にかかわる脳の機能を使うことが少なくなるから",
+        "デジタルがもたらす膨大な情報が、脳を疲労させるから",
+        "脳が情報や知識を扱うことがなくなるから",
+        "脳が感情のコントロールや思考をしないようになるから"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 9,
+      "label": null,
+      "text": "<u>この考え</u>とはどのような考えか。",
+      "questionNumber": 56,
+      "choices": [
+        "脳よりデジタルのほうが、情報や知識を多く蓄積できる。",
+        "デジタルに頼り過ぎると、次第に脳の機能が低下する。",
+        "デジタルは、脳と同じように思考に使えるものではない。",
+        "デジタルと脳を使い分けることで、脳は思考に特化できる。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 9,
+      "label": null,
+      "text": "筆者が言いたいことは何か。",
+      "questionNumber": 57,
+      "choices": [
+        "情報や知識の記憶装置である脳を、さらに鍛えるべきだ。",
+        "連想や判断の機能を持てば、デジタルも脳の役目を果たせる。",
+        "デジタルをうまく活用しなければ、脳の潜在力が引き出せない。",
+        "脳の機能を衰えさせないよう、デジタルの利用は慎重であるべきだ。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "The page prints no 問題 heading; partNumber 9 for Q55-57 is inferred from the document structure (問題9 中文 covers Q49-57), not printed on this page.",
+    "Question numbers are printed with a full-width ideographic comma after the numeral (e.g. 「55、」) rather than the usual boxed number; recorded as questionNumber only.",
+    "The lower half of the page is blank apart from the page label 第16页; no watermark text was legible in any band crop."
+  ]
+}

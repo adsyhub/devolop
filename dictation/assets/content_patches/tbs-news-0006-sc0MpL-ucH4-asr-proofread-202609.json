@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "description": "tbs-news-0006-sc0MpL-ucH4：LLM 逐句校对发现的 ASR 误识别修正 8 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "24c0d4ffbfe5625342057d5b3e27de37fa151be7954d39e89e4008734c8ea0ae",
+  "evidence": {
+    "file": "proofread-work/tbs-news-0006-sc0MpL-ucH4/proofread.json",
+    "proposedFixes": "proofread-work/tbs-news-0006-sc0MpL-ucH4/proposed-fixes.json",
+    "notes": "proofread-work/tbs-news-0006-sc0MpL-ucH4/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 10,
+      "endIndex": 10,
+      "expectedStartTime": 55.76,
+      "expectedEndTime": 61.029,
+      "items": [
+        {
+          "startTime": 55.76,
+          "endTime": 61.029,
+          "sourceText": "まずは生活の再建に向けた避難生活環境の改善であったりとか",
+          "jaText": "まずは生活の再建に向けた避難生活環境の改善であったりとか"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 11,
+      "endIndex": 11,
+      "expectedStartTime": 61.12,
+      "expectedEndTime": 67.23,
+      "items": [
+        {
+          "startTime": 61.12,
+          "endTime": 67.23,
+          "sourceText": "住まの確保など先ほどデミザアナウンサーの中継にもありましたがこの仮設住宅を作っていく、",
+          "jaText": "住まの確保など先ほどデミザアナウンサーの中継にもありましたがこの仮設住宅を作っていく、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 13,
+      "endIndex": 13,
+      "expectedStartTime": 71.92,
+      "expectedEndTime": 73.47,
+      "items": [
+        {
+          "startTime": 71.92,
+          "endTime": 73.47,
+          "sourceText": "それから生業の再建、",
+          "jaText": "それから生業の再建、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 16,
+      "endIndex": 16,
+      "expectedStartTime": 83.439,
+      "expectedEndTime": 88.589,
+      "items": [
+        {
+          "startTime": 83.439,
+          "endTime": 88.589,
+          "sourceText": "稼ぎ時きであった時の避難生活を続けていらっしゃる皆様へのサポートというのが急務です。",
+          "jaText": "稼ぎ時きであった時の避難生活を続けていらっしゃる皆様へのサポートというのが急務です。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 25,
+      "endIndex": 25,
+      "expectedStartTime": 128.08,
+      "expectedEndTime": 132.768,
+      "items": [
+        {
+          "startTime": 128.08,
+          "endTime": 132.768,
+          "sourceText": "6割、え、その他の5県が5割というような内容になっております。",
+          "jaText": "6割、え、その他の5県が5割というような内容になっております。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 32,
+      "endIndex": 32,
+      "expectedStartTime": 163.8,
+      "expectedEndTime": 164.993,
+      "items": [
+        {
+          "startTime": 163.8,
+          "endTime": 164.993,
+          "sourceText": "ただ新幹線全線再開は9月の18",
+          "jaText": "ただ新幹線全線再開は9月の18"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 58,
+      "endIndex": 58,
+      "expectedStartTime": 271.08,
+      "expectedEndTime": 277.55,
+      "items": [
+        {
+          "startTime": 271.08,
+          "endTime": 277.55,
+          "sourceText": "こちらJNN・JRNでは令和8年熊本地震義援金を実施しております。",
+          "jaText": "こちらJNN・JRNでは令和8年熊本地震義援金を実施しております。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 59,
+      "endIndex": 59,
+      "expectedStartTime": 277.8,
+      "expectedEndTime": 283.11,
+      "items": [
+        {
+          "startTime": 277.8,
+          "endTime": 283.11,
+          "sourceText": "お寄せいただいた義援金は全額日本赤十字社を通じて被災地に送られます。",
+          "jaText": "お寄せいただいた義援金は全額日本赤十字社を通じて被災地に送られます。"
+        }
+      ]
+    }
+  ]
+}

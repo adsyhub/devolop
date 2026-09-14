@@ -1,0 +1,68 @@
+{
+  "page": 28,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "57 筆者によると、教育の仕事は通常の仕事とどのような点で異なるか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "知識や技術の高さよりも人格の良さの方が重視される。",
+      "questionNumber": 1,
+      "choices": [
+        "知識や技術が十分でなくても良い結果を生むことがある。",
+        "経験知の豊富なベテランより、若く未熟な方が好かれやすい。",
+        "経験を積み技術が上がっても、仕事の質が良くなるとは限らない。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "58 筆者によると、初年度の教師の緊張感は学生たちにどのように影響するか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "積極的に授業に参加し、教師の緊張感を和らげようとする。",
+      "questionNumber": 1,
+      "choices": [
+        "教師の立場を理解し、生徒らしい態度で授業を受けようとする。",
+        "教師と一緒に授業を作っているのだという気持ちになる。",
+        "教師と緊張感が共有でき、心を開いていいのだと思うようになる。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "59 筆者によると、教育を仕事にしている人間にとって大切なことは何か。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "経験に満足するとなく、自ら変化し続けようとする。",
+      "questionNumber": 1,
+      "choices": [
+        "新鮮さを失わないために、自ら新しい知識や技術を身につけること。",
+        "自らの足りなさ補いつつ、情熱を持って接すること。",
+        "自らの未熟さを隠さずに、学ぶ側が一体感を得やすくすること。"
+      ]
+    }
+  ],
+  "pageLabel": "27",
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

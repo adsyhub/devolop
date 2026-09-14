@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#5a5a8a">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <title>我的学习中心 · EJU 题库</title>
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="vendor/katex/katex.min.css">
+  <link rel="stylesheet" href="me.css">
+  <script defer src="vendor/katex/katex.min.js"></script>
+</head>
+<body class="me-body">
+  <a class="skip-link" href="#personal-main">跳到内容</a>
+
+  <header class="topbar me-topbar">
+    <div class="topbar-lead">
+      <a class="brand" href="./" aria-label="返回学习入口">
+        <span class="brand-mark me-brand-mark" aria-hidden="true">我</span>
+        <span><strong>我的学习中心</strong><small>跨科目学习资产</small></span>
+      </a>
+    </div>
+    <nav class="mode-context" aria-label="当前工作区">
+      <span class="mode-context-current me" aria-current="page">
+        <span aria-hidden="true">🗂</span><span>我的</span>
+      </span>
+      <a class="mode-switch-link" href="./">切换工作区</a>
+    </nav>
+    <div class="topbar-actions">
+      <a class="secondary-button" href="./practice">開始練習</a>
+      <span class="me-connection" id="connection-status" role="status">正在连接本地题库…</span>
+    </div>
+  </header>
+
+  <main class="me-main" id="personal-main">
+    <header class="me-hero">
+      <div>
+        <p class="eyebrow">PERSONAL LEARNING HUB</p>
+        <h1>把需要复习的收拢，但不混淆来源</h1>
+        <p>错题按科目独立取数、独立复习；收藏、笔记与学习分析是跨科目资产。</p>
+      </div>
+      <div class="me-summary" aria-label="学习资产概览">
+        <div><strong id="summary-mistakes">0</strong><span>待复习错题</span></div>
+        <div><strong id="summary-bookmarks">0</strong><span>收藏</span></div>
+        <div><strong id="summary-sessions">0</strong><span>练习次数</span></div>
+        <div><strong id="summary-accuracy">—</strong><span>近期正确率</span></div>
+      </div>
+    </header>
+
+    <div class="me-shell">
+      <nav class="me-tabs" role="tablist" aria-label="个人中心模块">
+        <button type="button" role="tab" data-tab="mistakes" aria-controls="panel-mistakes">
+          <span aria-hidden="true">◎</span><span>错题集</span><b id="badge-mistakes" hidden>0</b>
+        </button>
+        <button type="button" role="tab" data-tab="notes" aria-controls="panel-notes">
+          <span aria-hidden="true">☆</span><span>收藏笔记</span><b id="badge-notes" hidden>0</b>
+        </button>
+        <button type="button" role="tab" data-tab="history" aria-controls="panel-history">
+          <span aria-hidden="true">▤</span><span>练习记录</span>
+        </button>
+        <button type="button" role="tab" data-tab="analytics" aria-controls="panel-analytics">
+          <span aria-hidden="true">↗</span><span>学习分析</span>
+        </button>
+      </nav>
+
+      <div class="me-content">
+        <p class="status-line" id="page-status" role="status"></p>
+
+        <!-- 错题集 ------------------------------------------------------ -->
+        <section class="me-panel" id="panel-mistakes" role="tabpanel" data-panel="mistakes">
+          <header class="me-panel-head">
+            <div>
+              <p class="eyebrow">REVIEW QUEUE</p>
+              <h2>错题集</h2>
+              <span>不同科目的掌握度不混成一个数字，各自取数、各自复习。</span>
+            </div>
+            <label class="field"><span>掌握状态</span>
+              <select id="filter-wrong-status">
+                <option value="">全部状态</option>
+                <option value="NEW_WRONG">新错题</option>
+                <option value="REVIEWING">复习中</option>
+                <option value="RETRY_DUE">待重做</option>
+                <option value="MASTERED">已掌握</option>
+              </select></label>
+          </header>
+          <div class="me-segmented" id="mistake-scopes" role="group" aria-label="错题科目"></div>
+          <p class="me-panel-summary" id="mistakes-summary"></p>
+          <div class="me-list" id="wrong-question-list"></div>
+        </section>
+
+        <!-- 收藏笔记 ---------------------------------------------------- -->
+        <section class="me-panel" id="panel-notes" role="tabpanel" data-panel="notes" hidden>
+          <header class="me-panel-head">
+            <div>
+              <p class="eyebrow">NOTES</p>
+              <h2>收藏笔记</h2>
+              <span>收藏的题目与写过的个人注释，按来源卷归档。</span>
+            </div>
+            <a class="secondary-button" href="./practice#/collect">去检索组题</a>
+          </header>
+          <div class="me-toolbar">
+            <input id="notes-search" type="search" placeholder="搜索题干、来源或笔记" aria-label="搜索收藏">
+            <button class="btn btn-outline" id="notes-practice-all" type="button">练习全部收藏</button>
+          </div>
+          <p class="me-panel-summary" id="notes-summary"></p>
+          <div class="me-list" id="bookmark-list"></div>
+        </section>
+
+        <!-- 练习记录 ---------------------------------------------------- -->
+        <section class="me-panel" id="panel-history" role="tabpanel" data-panel="history" hidden>
+          <header class="me-panel-head">
+            <div>
+              <p class="eyebrow">SESSIONS</p>
+              <h2>练习记录</h2>
+              <span>历次作答的科目组合、状态与客观题成绩。</span>
+            </div>
+            <label class="field"><span>状态</span>
+              <select id="history-status">
+                <option value="">全部状态</option>
+                <option value="IN_PROGRESS">作答中</option>
+                <option value="PAUSED">已暂停</option>
+                <option value="SUBMITTED">已提交</option>
+                <option value="ABANDONED">已放弃</option>
+              </select></label>
+          </header>
+          <div class="table-container">
+            <table class="data-table" id="history-table">
+              <thead>
+                <tr>
+                  <th>提交时间</th><th>试卷</th><th>模式</th><th>科目</th>
+                  <th>状态</th><th>客观题成绩</th><th>操作</th>
+                </tr>
+              </thead>
+              <tbody id="history-tbody">
+                <tr><td colspan="7" class="text-center">暂无练习记录</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="pager">
+            <button id="history-prev" class="btn btn-outline" type="button">上一页</button>
+            <button id="history-next" class="btn btn-outline" type="button">下一页</button>
+          </div>
+        </section>
+
+        <!-- 学习分析 ---------------------------------------------------- -->
+        <section class="me-panel" id="panel-analytics" role="tabpanel" data-panel="analytics" hidden>
+          <header class="me-panel-head">
+            <div>
+              <p class="eyebrow">INSIGHTS</p>
+              <h2>学习分析</h2>
+              <span>首答、重练与看过提示的作答分开统计，分母各自独立。</span>
+            </div>
+          </header>
+          <div id="learning-summary" class="analytics-cards"></div>
+          <section class="me-subsection">
+            <h3>每日学习目标</h3>
+            <form id="goals-form" class="goals-form">
+              <label class="field"><span>每日新题</span>
+                <input id="goal-new" type="number" min="0" max="1000"></label>
+              <label class="field"><span>每日复习次数</span>
+                <input id="goal-review" type="number" min="0" max="1000"></label>
+              <label class="field"><span>学习时区</span>
+                <input id="goal-timezone" value="Asia/Tokyo"></label>
+              <button class="primary-button" type="submit">保存目标</button>
+            </form>
+          </section>
+          <section class="me-subsection">
+            <h3>复习安排</h3>
+            <div id="learning-calendar" class="table-container"></div>
+          </section>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <div class="modal hidden" role="dialog" aria-modal="true" aria-label="试题原图" id="modal-image-zoom">
+    <div class="modal-card zoom-card">
+      <div class="modal-header">
+        <span>试题图表原图查看</span>
+        <button class="close-btn" id="modal-zoom-close" type="button" aria-label="关闭">&times;</button>
+      </div>
+      <div class="zoom-content"><img id="zoom-img" src="" alt="试题原图"></div>
+    </div>
+  </div>
+  <div id="floating-figure-dock" class="floating-figure-dock hidden" hidden role="region" aria-label="悬浮图表窗"></div>
+
+  <script src="core.js" defer></script>
+  <script src="me.js" defer></script>
+</body>
+</html>

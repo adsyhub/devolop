@@ -1,0 +1,30 @@
+{
+  "level": "N1",
+  "session": "2013-12",
+  "title": "2013年第2回 日本語能力試験 N1",
+  "sourceUrl": "dist/n1 2013.12真题.pdf",
+  "sourceSha256": null,
+  "scoring": {
+    "sections": {
+      "knowledge-reading": {
+        "passScore": 19,
+        "maxScore": 120,
+        "description": "言語知識（文字・語彙・文法）・読解"
+      },
+      "listening": {
+        "passScore": 19,
+        "maxScore": 60,
+        "description": "聴解"
+      }
+    },
+    "totalPassScore": 100,
+    "totalMaxScore": 180,
+    "caveat": "本採点および配点は練習用の概算であり、公式の合否判定規準（尺度得点）とは異なります。"
+  },
+  "listeningMedia": {
+    "kind": "course-audio",
+    "courseSlug": "2013-12-N1",
+    "expectedSha256": "cc42ed8b7289494e50cb19b9a9059ecfe654f2d1fe2ed90dc855764556c048c6",
+    "expectedBytes": 45675543
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "description": "2015-12-N2：LLM 逐句校对发现的 ASR 误识别修正 4 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "5a572459c879eb92245c777d64a87d598964e83d537634420cf15493002cd643",
+  "evidence": {
+    "file": "proofread-work/2015-12-N2/proofread.json",
+    "proposedFixes": "proofread-work/2015-12-N2/proposed-fixes.json",
+    "notes": "proofread-work/2015-12-N2/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 201,
+      "endIndex": 201,
+      "expectedStartTime": 1612.34,
+      "expectedEndTime": 1622.58,
+      "items": [
+        {
+          "startTime": 1612.34,
+          "endTime": 1622.58,
+          "sourceText": "はいこの仕組みと同じように蓋の表面にたくさんの細かい突起を作ったというわけなんです なるほど工夫されてますね男",
+          "jaText": "はいこの仕組みと同じように蓋の表面にたくさんの細かい突起を作ったというわけなんです なるほど工夫されてますね男"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 289,
+      "endIndex": 289,
+      "expectedStartTime": 2261.74,
+      "expectedEndTime": 2275.7,
+      "items": [
+        {
+          "startTime": 2261.74,
+          "endTime": 2275.7,
+          "sourceText": "遠慮なさらずお持ちください。この会に伺えて嬉しく思います。お忙しい中来ていただいて。",
+          "jaText": "遠慮なさらずお持ちください。この会に伺えて嬉しく思います。お忙しい中来ていただいて。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 311,
+      "endIndex": 311,
+      "expectedStartTime": 2459.09,
+      "expectedEndTime": 2472.03,
+      "items": [
+        {
+          "startTime": 2459.09,
+          "endTime": 2472.03,
+          "sourceText": "どの練習場を予約することになりましたか 1緑サッカー場黒岩サッカー場",
+          "jaText": "どの練習場を予約することになりましたか 1緑サッカー場黒岩サッカー場"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 353,
+      "endIndex": 353,
+      "expectedStartTime": 2767.69,
+      "expectedEndTime": 2783.43,
+      "items": [
+        {
+          "startTime": 2767.69,
+          "endTime": 2783.43,
+          "sourceText": "質問2男",
+          "jaText": "質問2男"
+        }
+      ]
+    }
+  ]
+}

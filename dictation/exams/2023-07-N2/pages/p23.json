@@ -1,0 +1,52 @@
+{
+  "page": 23,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>63</u>. 筆者によると、いつポートフォリオを作ってみるのがいいか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "自分の写真を他人に見てもらって、自信を持ちたいと思ったとき",
+      "questionNumber": 1,
+      "choices": [
+        "自分の撮りたい写真が明確になって、自信がついてきたとき",
+        "対象を、きまぎまな捉え方で撮れるようになったとき",
+        "いい写真が撮れて、人に見せたいと思ったとき"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>64</u>. 筆者によると、ポートフォリオを他人に見せるといいのはなぜか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "自分が写真家になれるレベルかどうかがわかるから",
+      "questionNumber": 1,
+      "choices": [
+        "作品を他人が正しく理解したかどうかがわかるから",
+        "作品の欠点がわかり、新しい撮り方ができるから",
+        "作品に対する他人の評価を知ることができると"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>問題12</u> 次のAとBの文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。\nA\n会社で働いていれば、部下に仕事を教える立場になることがあるだろう。そんなとき、私はできるだけ社内用語や専門用語を使わずに、誰が聞いても分かる言葉で説明するようにしている。教える側と教えられる側の知識や経験には大きな差があるからだ。\nいずれ覚えなければならないからと思って最初から難しい言葉を使って説明する"
+    }
+  ],
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

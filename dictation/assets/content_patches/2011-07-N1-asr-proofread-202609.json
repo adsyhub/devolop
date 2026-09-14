@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "description": "2011-07-N1：LLM 逐句校对发现的 ASR 误识别修正 7 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "bb0da99d17d3d53eb4772b278557849d50b87ebf916c2c2603df024977602fec",
+  "evidence": {
+    "file": "proofread-work/2011-07-N1/proofread.json",
+    "proposedFixes": "proofread-work/2011-07-N1/proposed-fixes.json",
+    "notes": "proofread-work/2011-07-N1/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 28,
+      "endIndex": 28,
+      "expectedStartTime": 152.08,
+      "expectedEndTime": 166.37,
+      "items": [
+        {
+          "startTime": 152.08,
+          "endTime": 166.37,
+          "sourceText": "ってそうすると牛のストレスが減ってミルクの出方も良くなったってわけ だから君もやってみたら牛を飼うの名前だよすぐ忘れちゃうんでしょ",
+          "jaText": "ってそうすると牛のストレスが減ってミルクの出方も良くなったってわけ だから君もやってみたら牛を飼うの名前だよすぐ忘れちゃうんでしょ"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 53,
+      "endIndex": 53,
+      "expectedStartTime": 311.9,
+      "expectedEndTime": 324.44,
+      "items": [
+        {
+          "startTime": 311.9,
+          "endTime": 324.44,
+          "sourceText": "度の展示会の件なんだけど、会計課から明日の朝までにもっと詳しい資料を出せって言われてるんだ。それでね、悪いんだけど、とりあえず資料を至急作ってくれないかな。",
+          "jaText": "度の展示会の件なんだけど、会計課から明日の朝までにもっと詳しい資料を出せって言われてるんだ。それでね、悪いんだけど、とりあえず資料を至急作ってくれないかな。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 98,
+      "endIndex": 98,
+      "expectedStartTime": 638.7,
+      "expectedEndTime": 646.13,
+      "items": [
+        {
+          "startTime": 638.7,
+          "endTime": 646.13,
+          "sourceText": "また体が柔らかくバネもあり怪我も少ないですしボールを扱う技術も他の選手よりずっと抜きん出ています",
+          "jaText": "また体が柔らかくバネもあり怪我も少ないですしボールを扱う技術も他の選手よりずっと抜きん出ています"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 112,
+      "endIndex": 112,
+      "expectedStartTime": 750.93,
+      "expectedEndTime": 756.6,
+      "items": [
+        {
+          "startTime": 750.93,
+          "endTime": 756.6,
+          "sourceText": "ねえ まあ引っ越しの方は業者に任せてあるからなんとかなるよ",
+          "jaText": "ねえ まあ引っ越しの方は業者に任せてあるからなんとかなるよ"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 207,
+      "endIndex": 207,
+      "expectedStartTime": 1624.05,
+      "expectedEndTime": 1635.55,
+      "items": [
+        {
+          "startTime": 1624.05,
+          "endTime": 1635.55,
+          "sourceText": "ほとんどの人は特に気にしていないと思います ある調査によるとゆっくりした音楽を流した場合とテンポの速い音楽を流した場合とでは",
+          "jaText": "ほとんどの人は特に気にしていないと思います ある調査によるとゆっくりした音楽を流した場合とテンポの速い音楽を流した場合とでは"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 209,
+      "endIndex": 209,
+      "expectedStartTime": 1645.73,
+      "expectedEndTime": 1655.82,
+      "items": [
+        {
+          "startTime": 1645.73,
+          "endTime": 1655.82,
+          "sourceText": "なり売上が伸びるんだそうです 反対に行列ができるような混んでいる飲食店ではテンポの速い音楽を流すことで客の",
+          "jaText": "なり売上が伸びるんだそうです 反対に行列ができるような混んでいる飲食店ではテンポの速い音楽を流すことで客の"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 354,
+      "endIndex": 354,
+      "expectedStartTime": 2824.26,
+      "expectedEndTime": 2827.72,
+      "items": [
+        {
+          "startTime": 2824.26,
+          "endTime": 2827.72,
+          "sourceText": "最後の4番のアイデアはハンカチ型の携帯です。",
+          "jaText": "最後の4番のアイデアはハンカチ型の携帯です。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "kind": "online-video",
+  "provider": "youtube",
+  "control": "full",
+  "videoId": "MWYCY8tVe88",
+  "pageUrl": "https://www.youtube.com/watch?v=MWYCY8tVe88",
+  "transcriptSource": "asr",
+  "retrievedAt": "2026-09-03",
+  "enrichment": {
+    "kind": "openai-compat",
+    "profile": "local-flash-next",
+    "model": "Qwen/Qwen3.8-Flash-Next",
+    "baseUrl": "http://127.0.0.1:8103/v1",
+    "batchSize": 12,
+    "temperature": 0.2,
+    "maxTokens": 16000,
+    "extraBody": {
+      "top_p": 0.8,
+      "top_k": 20,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    }
+  },
+  "asr": {
+    "kind": "faster-whisper",
+    "config": {
+      "kind": "faster-whisper",
+      "model": "large-v3",
+      "device": "cuda",
+      "computeType": "float16",
+      "language": "ja",
+      "beamSize": 10,
+      "vadFilter": true,
+      "wordTimestamps": true,
+      "minDuration": 0.2,
+      "conditionOnPreviousText": false,
+      "noSpeechThreshold": 0.6,
+      "logProbThreshold": -1.0,
+      "compressionRatioThreshold": 2.4,
+      "hallucinationSilenceThreshold": 2.0,
+      "repetitionPenalty": 1.0,
+      "noRepeatNgramSize": 0,
+      "maxSegmentSeconds": 15.0,
+      "vadOptions": {
+        "min_speech_duration_ms": 350,
+        "max_speech_duration_s": 20.0,
+        "min_silence_duration_ms": 500,
+        "speech_pad_ms": 200
+      }
+    }
+  },
+  "verification": {
+    "schemaVersion": 1,
+    "type": "transcript-source-verification",
+    "mode": "dual-source",
+    "selected": "asr",
+    "selectionRule": "fewest quality errors, then warnings plus a one-point automatic-caption penalty; ties prefer manual captions, local ASR, then automatic captions",
+    "candidates": [
+      {
+        "key": "site-subtitles:auto",
+        "rawSegmentCount": 141,
+        "sentenceCount": 141,
+        "sourcePenalty": 1,
+        "adjustedWarnings": 52,
+        "quality": {
+          "status": "needs_review",
+          "errors": 0,
+          "warnings": 51,
+          "issueCounts": {
+            "course.unterminated_ratio": 1,
+            "sentence.fragment": 1,
+            "sentence.rate_implausible": 37,
+            "sentence.very_short": 12
+          }
+        }
+      },
+      {
+        "key": "asr",
+        "rawSegmentCount": 146,
+        "sentenceCount": 145,
+        "sourcePenalty": 0,
+        "adjustedWarnings": 1,
+        "quality": {
+          "status": "needs_review",
+          "errors": 0,
+          "warnings": 1,
+          "issueCounts": {
+            "sentence.rate_implausible": 1
+          }
+        }
+      }
+    ],
+    "comparison": {
+      "left": "site-subtitles:auto",
+      "right": "asr",
+      "textSimilarity": 0.8276,
+      "normalizedCharacterCounts": [
+        3063,
+        3658
+      ]
+    }
+  },
+  "contentPatches": [
+    {
+      "name": "tbs-3-percent-yield-homophone-repair.json",
+      "sourceSentencesDigest": "91405f824febdfc4a41d0bfa679d25901baa37c4cf05a797a904e23ffb18a311",
+      "resultSentencesDigest": "517a7298cb75bb4cf37952cb9f968c09768f816aa45b052e217f9a5e26941293",
+      "description": "Correct four reviewed Japanese homophone/kanji ASR errors after the verified pipeline selected faster-whisper large-v3 over the YouTube automatic captions.",
+      "evidence": {
+        "videoId": "MWYCY8tVe88",
+        "primaryTranscript": "faster-whisper large-v3, beamSize=10, conditionOnPreviousText=false",
+        "crossCheck": "verified dual-source report (YouTube ja-orig versus faster-whisper), surrounding financial-news context, and Qwen3.8-Flash-Next review",
+        "entityCrossCheck": "Published program summaries identify the speaker as 岡三証券の長谷川直也チーフ債券ストラテジスト: https://news.mixi.jp/view_news.pl?id=8932858&media_id=266 and https://datazoo.jp/n/25350195",
+        "policy": "Only corrections whose intended word is unambiguous from grammar and domain context are applied."
+      }
+    }
+  ],
+  "redistributable": false,
+  "note": "媒体从未下载或存储；本课程不可再分发。 / The media was never downloaded or stored; this course is not redistributable."
+}

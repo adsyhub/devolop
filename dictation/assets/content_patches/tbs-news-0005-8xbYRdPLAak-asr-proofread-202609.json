@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "description": "tbs-news-0005-8xbYRdPLAak：LLM 逐句校对发现的 ASR 误识别修正 21 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "7fac5836ca30eb1c98f17034ccf11455a4fa418ee3d55099edffcec82985f720",
+  "evidence": {
+    "file": "proofread-work/tbs-news-0005-8xbYRdPLAak/proofread.json",
+    "proposedFixes": "proofread-work/tbs-news-0005-8xbYRdPLAak/proposed-fixes.json",
+    "notes": "proofread-work/tbs-news-0005-8xbYRdPLAak/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 2,
+      "endIndex": 2,
+      "expectedStartTime": 19.56,
+      "expectedEndTime": 22.637,
+      "items": [
+        {
+          "startTime": 19.56,
+          "endTime": 22.637,
+          "sourceText": "者の中から泥まみれになって救出される人や救助隊と共にぬかるみから出ようとする人など",
+          "jaText": "者の中から泥まみれになって救出される人や救助隊と共にぬかるみから出ようとする人など"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 4,
+      "endIndex": 4,
+      "expectedStartTime": 32.16,
+      "expectedEndTime": 36.753,
+      "items": [
+        {
+          "startTime": 32.16,
+          "endTime": 36.753,
+          "sourceText": "国境から100kmほど離れた首都カトマンズでは、",
+          "jaText": "国境から100kmほど離れた首都カトマンズでは、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 5,
+      "endIndex": 5,
+      "expectedStartTime": 37.8,
+      "expectedEndTime": 38.689,
+      "items": [
+        {
+          "startTime": 37.8,
+          "endTime": 38.689,
+          "sourceText": "え、首都カトマンズの病院には、え、被災地で救助された、",
+          "jaText": "え、首都カトマンズの病院には、え、被災地で救助された、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 12,
+      "endIndex": 12,
+      "expectedStartTime": 77.68,
+      "expectedEndTime": 85.39,
+      "items": [
+        {
+          "startTime": 77.68,
+          "endTime": 85.39,
+          "sourceText": "ネパール観光局が公開した連絡が取れない人のリストには日本人と見られる山本俊孝さん、",
+          "jaText": "ネパール観光局が公開した連絡が取れない人のリストには日本人と見られる山本俊孝さん、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 18,
+      "endIndex": 18,
+      "expectedStartTime": 135.594,
+      "expectedEndTime": 136.412,
+      "items": [
+        {
+          "startTime": 135.594,
+          "endTime": 136.412,
+          "sourceText": "現場周辺の衛星画像を解析した東京大学の渡辺秀教授は氷河が",
+          "jaText": "現場周辺の衛星画像を解析した東京大学の渡辺秀教授は氷河が"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 19,
+      "endIndex": 19,
+      "expectedStartTime": 136.412,
+      "expectedEndTime": 137.079,
+      "items": [
+        {
+          "startTime": 136.412,
+          "endTime": 137.079,
+          "sourceText": "広範囲で崩壊し土がむき出しになっていると指摘。",
+          "jaText": "広範囲で崩壊し土がむき出しになっていると指摘。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 20,
+      "endIndex": 20,
+      "expectedStartTime": 137.079,
+      "expectedEndTime": 138.32,
+      "items": [
+        {
+          "startTime": 137.079,
+          "endTime": 138.32,
+          "sourceText": "これが土石流の発生との見方を示していて気候変動が影響した可能性もあります。",
+          "jaText": "これが土石流の発生との見方を示していて気候変動が影響した可能性もあります。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 21,
+      "endIndex": 21,
+      "expectedStartTime": 160.239,
+      "expectedEndTime": 164.749,
+      "items": [
+        {
+          "startTime": 160.239,
+          "endTime": 164.749,
+          "sourceText": "JNNのクルーが被害が大きかった国境から50kmほど離れた村に入ると、",
+          "jaText": "JNNのクルーが被害が大きかった国境から50kmほど離れた村に入ると、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 27,
+      "endIndex": 27,
+      "expectedStartTime": 192.72,
+      "expectedEndTime": 198.309,
+      "items": [
+        {
+          "startTime": 192.72,
+          "endTime": 198.309,
+          "sourceText": "多くの住民の方がですね、え、土石流に巻き込まれて、え、命を落としたということなんですね。",
+          "jaText": "多くの住民の方がですね、え、土石流に巻き込まれて、え、命を落としたということなんですね。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 30,
+      "endIndex": 30,
+      "expectedStartTime": 254.879,
+      "expectedEndTime": 259.0,
+      "items": [
+        {
+          "startTime": 254.879,
+          "endTime": 259.0,
+          "sourceText": "このネパールの土石流中国チベット自治区に隣接して",
+          "jaText": "このネパールの土石流中国チベット自治区に隣接して"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 31,
+      "endIndex": 31,
+      "expectedStartTime": 259.0,
+      "expectedEndTime": 263.19,
+      "items": [
+        {
+          "startTime": 259.0,
+          "endTime": 263.19,
+          "sourceText": "いるこちらのラスワ郡というところが特に被害が",
+          "jaText": "いるこちらのラスワ郡というところが特に被害が"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 33,
+      "endIndex": 33,
+      "expectedStartTime": 268.96,
+      "expectedEndTime": 272.909,
+      "items": [
+        {
+          "startTime": 268.96,
+          "endTime": 272.909,
+          "sourceText": "そしてこれから中継でお伝えするのはそのラスワ郡よりも",
+          "jaText": "そしてこれから中継でお伝えするのはそのラスワ郡よりも"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 34,
+      "endIndex": 34,
+      "expectedStartTime": 273.639,
+      "expectedEndTime": 276.39,
+      "items": [
+        {
+          "startTime": 273.639,
+          "endTime": 276.39,
+          "sourceText": "下流にあたるヌアコットという町です。",
+          "jaText": "下流にあたるヌアコットという町です。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 46,
+      "endIndex": 46,
+      "expectedStartTime": 315.52,
+      "expectedEndTime": 319.68,
+      "items": [
+        {
+          "startTime": 315.52,
+          "endTime": 319.68,
+          "sourceText": "え、当時は3m、4mの高さまで水位が上昇し、え、",
+          "jaText": "え、当時は3m、4mの高さまで水位が上昇し、え、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 47,
+      "endIndex": 47,
+      "expectedStartTime": 319.68,
+      "expectedEndTime": 324.95,
+      "items": [
+        {
+          "startTime": 319.68,
+          "endTime": 324.95,
+          "sourceText": "建物の1階部分が土砂に埋もれ、え、泥水が2階部分にまで達しているところもありました。",
+          "jaText": "建物の1階部分が土砂に埋もれ、え、泥水が2階部分にまで達しているところもありました。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 54,
+      "endIndex": 54,
+      "expectedStartTime": 355.348,
+      "expectedEndTime": 357.734,
+      "items": [
+        {
+          "startTime": 355.348,
+          "endTime": 357.734,
+          "sourceText": "土石流の影響で水がせき止められてできた自然のダムが決壊するリスクが高いと発表しました。",
+          "jaText": "土石流の影響で水がせき止められてできた自然のダムが決壊するリスクが高いと発表しました。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 55,
+      "endIndex": 55,
+      "expectedStartTime": 363.199,
+      "expectedEndTime": 370.31,
+      "items": [
+        {
+          "startTime": 363.199,
+          "endTime": 370.31,
+          "sourceText": "え、そしてネパール警察は先ほどすでに決壊が起きたと発表し、被災地での救助活動を一部で中断。",
+          "jaText": "え、そしてネパール警察は先ほどすでに決壊が起きたと発表し、被災地での救助活動を一部で中断。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 57,
+      "endIndex": 57,
+      "expectedStartTime": 373.28,
+      "expectedEndTime": 379.469,
+      "items": [
+        {
+          "startTime": 373.28,
+          "endTime": 379.469,
+          "sourceText": "私が取材した鳥川でも水位が再び上昇しているとして警察官が周辺の道路を規制し返す",
+          "jaText": "私が取材した鳥川でも水位が再び上昇しているとして警察官が周辺の道路を規制し返す"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 59,
+      "endIndex": 59,
+      "expectedStartTime": 382.68,
+      "expectedEndTime": 389.189,
+      "items": [
+        {
+          "startTime": 382.68,
+          "endTime": 389.189,
+          "sourceText": "被害の全容が見えない中で再び災害が起きる恐れがあり、現地では緊張と不安が高まっています。",
+          "jaText": "被害の全容が見えない中で再び災害が起きる恐れがあり、現地では緊張と不安が高まっています。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 63,
+      "endIndex": 63,
+      "expectedStartTime": 430.69,
+      "expectedEndTime": 430.741,
+      "items": [
+        {
+          "startTime": 430.69,
+          "endTime": 430.741,
+          "sourceText": "そのヒンドゥー教ですとか",
+          "jaText": "そのヒンドゥー教ですとか"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 69,
+      "endIndex": 69,
+      "expectedStartTime": 451.094,
+      "expectedEndTime": 452.079,
+      "items": [
+        {
+          "startTime": 451.094,
+          "endTime": 452.079,
+          "sourceText": "二次被害に注意しながらの救出活動になっているようですね。",
+          "jaText": "二次被害に注意しながらの救出活動になっているようですね。"
+        }
+      ]
+    }
+  ]
+}

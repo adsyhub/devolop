@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "status": "needs_review",
+  "summary": {
+    "sentences": 324,
+    "errors": 0,
+    "warnings": 15,
+    "issueCounts": {
+      "sentence.very_long": 15
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 1
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 22
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 33
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 44
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 50
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 52
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 66
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 111
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 128
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 129
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 139
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 184
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 253
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 257
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 263
+    }
+  ]
+}

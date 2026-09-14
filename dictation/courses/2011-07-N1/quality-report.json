@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "status": "needs_review",
+  "summary": {
+    "sentences": 369,
+    "errors": 0,
+    "warnings": 6,
+    "issueCounts": {
+      "sentence.transcript_review_flag": 4,
+      "sentence.very_long": 1,
+      "sentence.very_short": 1
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 53
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 96
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 105
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 112
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 140
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 207
+    }
+  ]
+}

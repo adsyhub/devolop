@@ -1,0 +1,34 @@
+{
+  "capturedAt": "2026-09-12T00:43:47.923466+00:00",
+  "document": "docs/STUDIO_AUTOMATION_OPTIMIZATION_SPEC_2026-09-12.md",
+  "localLinksChecked": 16,
+  "invalidLocalLinks": [],
+  "jsonExamplesParsed": 3,
+  "codeFences": 12,
+  "tests": {
+    "command": "python -m pytest -o addopts= -q tests/test_make_paper.py tests/test_machine_attestation.py tests/test_jobs.py",
+    "result": "23 passed in 2.95s",
+    "scope": "isolated fixtures; no real model inference or formal library publication",
+    "executor": "pipeline_audit subagent"
+  },
+  "auditedSourceSha256": {
+    "eju_bank/make_paper.py": "9d508d5ca83e388f1ad08741bdb88131ec62c1fdd007d00e67eb6ade892b7fe4",
+    "eju_bank/attest.py": "c15e7d69955c317b0b8b5fb029808aef6fe34edb15ccf514d735ada1a17ff77c",
+    "eju_bank/review.py": "9b94cd38e16f729967db4b0b210c25661d96a7253e1c338bc6263d49795d99c4",
+    "eju_bank/ocr/slot_join.py": "bbf3e98a00bea323f9f169c1e8ac7a428f10f0c0c353412c26518295aad52e37",
+    "eju_bank/ocr/attested_contracts.py": "d3eebc0ed34c09072307e7a12c36be1368eae2812c0c5f65e94112162bc7bbf7",
+    "eju_bank/proofread.py": "ba6431e898ef47c9e653dea4aacc1e329964639149cd739bf2ba11b8adf65ddb",
+    "eju_bank/explain.py": "44db8356f1e3b8d207ac49ffdb3fc37091d42390b3127ae3b764e95628cd138d",
+    "eju_bank/workflows.py": "71e56702d1b13d9966570b08392587ea280b3125900933e717eba57c07bec6cf",
+    "eju_bank/jobs.py": "a0d40c82999151acb807538e5a5f3932df0da5ab2921d9512352cc49b4e6b512",
+    "eju_bank/job_worker.py": "d4565234a151b0af2ee5bf2826a1cb8324a495c4a5f11df7ae57901d4b7bc634",
+    "eju_bank/server.py": "199c4a8fcd8bf8de5bd1d60b3c7286f0f356afde761a55924761d47fe0899ca9",
+    "eju_bank/http_workflows.py": "2e92a410964c32324f4f303bb273101d29c03fc714854b5a5e40193d0ae27bea",
+    "eju_bank/web/studio_build.js": "6cdca9083370c10a0454e186ec6b7ac8150e8a8ec32fbe9cca8ff386f65c45f9",
+    "eju_bank/web/studio_library.js": "dd6a8c80399032e33494c5b110950210efff95136eceef6a8b71b95aa88f5959",
+    "eju_bank/web/studio_editor.js": "d29e60002e8b6a999580707e41caa26e6d0650e5eebe43c2a967ac6199dc6380",
+    "eju_bank/web/studio_shell.js": "f4473798a59df71ae93ddb23584becc08f0b7c22ae4ad41ea660897c73d0bdb5"
+  },
+  "documentLines": 930,
+  "documentBytes": 79966
+}

@@ -1,0 +1,50 @@
+{
+  "page": 5,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "3角に病院がありますから、それを印に私の家まで来てください。\n4運転する人は、交通の印の意味を全部知っていなければならない。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "続出",
+      "questionNumber": 29,
+      "choices": [
+        "昨日からの雪で、転んでけがをする人が続出している。",
+        "ゆうべはせきが続出して、あまりよく眠れなかった。",
+        "鈴木アナウンサーは、このテレビ番組に5年間続出している。",
+        "この映画に関する本や商品が、来週から続出するらしい。"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "さまたげる",
+      "questionNumber": 30,
+      "choices": [
+        "掲示板のポスターが取れそうになっていたので、テープでさまたげた。",
+        "原材料が高くなったが、製造方法を変えて、製品の値上げをさまたげた。",
+        "関係のない発言で、会議の進行をさまたげないでください。",
+        "工場内の事故をさまたげるために、作業の前に安全確認を行う。"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 7,
+      "text": "問題7　次の文の( )に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 7,
+      "text": "31この小説は、物語が進む( )主人公の少年の心理が変化していくのが面白い。\n1 としても\n2 とはいえ\n3 につれて\n4 にあたって"
+    }
+  ],
+  "issues": [
+    "Choice-looking line with no question open: '1 としても'",
+    "Choice-looking line with no question open: '2 とはいえ'",
+    "Choice-looking line with no question open: '3 につれて'",
+    "Choice-looking line with no question open: '4 にあたって'"
+  ]
+}

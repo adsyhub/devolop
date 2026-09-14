@@ -1,0 +1,13 @@
+{
+  "kind": "online-video",
+  "provider": "youtube",
+  "control": "full",
+  "videoId": "M8IR-1CnA5s",
+  "pageUrl": "https://www.youtube.com/watch?v=M8IR-1CnA5s",
+  "transcriptSource": "site-subtitles",
+  "retrievedAt": "2026-09-01",
+  "enrichment": null,
+  "asr": null,
+  "redistributable": false,
+  "note": "媒体从未下载或存储；本课程不可再分发。 / The media was never downloaded or stored; this course is not redistributable."
+}

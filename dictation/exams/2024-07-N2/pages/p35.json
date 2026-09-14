@@ -1,0 +1,67 @@
+{
+  "page": 35,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "春口市「動画コンテスト」\n動画作品募集のご案内\n春口市の魅力をアピールする動画を募集します。受賞した作品は、春口市の\nホームページで公開し、市の魅力を伝える活動に使用させていただきます\nす。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "募集する作品以下の1か2のどちらかの部門に応募してください。応募できるのは、一人1作品で、未発表の作品に限ります。",
+      "questionNumber": 1,
+      "choices": [
+        "緑茶部門"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "春口市の緑茶をアピールする、20秒から30秒の作品"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "観光部門春口市の歴史、文化、自然に関する、2分から5分の作品",
+      "questionNumber": 2,
+      "choices": [
+        "応募資格"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "高校生以上の方であれば、どなたでも応募可能です。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "選考方法と賞品選考は、春口市出身の映像作家である花山洋子氏を委員長とする選考委員会が行います。賞品として、最優秀賞受賞者(12各1名)に商品券3万円分を、優秀賞受賞者(12各2名)に商品券1万円分を、応募者全員に記念品を差し上げます。",
+      "questionNumber": 3,
+      "choices": [
+        "応募方法"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "4月15日(月)から5月10日(金)までの間に、春口市広報課ホームページ\nの応募用ページから必要な情報を送信してください。その後、動画を以下\nの(1)か(2)のどちらかの方法で送ってください。\n(1)DVDに記録して郵送する場合\n作品をDVDに記録して、5月17日(金)必着で郵送してください。なお、\n提出されたDDは返却いたしません。\n(2)インターネットで送信する場合\n応募の受付後1週間以内に動画送信用ページの情報をお知らせするので、\n5月24日(金)までに送信してください。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "応募および問い合わせ先春口市役所広報課(市役所3階) 129-9988 春口市町1丁目1番電話:FAX032-451-6879",
+      "questionNumber": 5,
+      "choices": []
+    }
+  ],
+  "pageLabel": "33",
+  "issues": [
+    "Q1: 1 choices transcribed, expected 4. Check the page image.",
+    "Q2: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q2: 1 choices transcribed, expected 4. Check the page image.",
+    "Q3: choice numbered 4 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q3: 1 choices transcribed, expected 4. Check the page image."
+  ]
+}

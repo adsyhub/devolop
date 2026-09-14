@@ -1,0 +1,56 @@
+{
+  "page": 9,
+  "pageLabel": "第8页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 7,
+      "label": null,
+      "text": "問題7　次の文章を読んで、文章全体の趣旨を踏まえて、【41】から【44】の中に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "passage",
+      "partNumber": 7,
+      "label": null,
+      "text": "以下は、作家が書いた文章である。\n　立場が人をつくる。とはよく言ったものだと思います。これは主にビジネスの世界で使われていることばだと思うのですが、子どもの社会でも同じようなことを感じることが多々あります。\n　ここ十数年、私は毎月、保育園の取材を行っていました。いま多くの保育園では〇歳から五歳（就学前まで）の子どもを受け入れていますが、なかには〇歳から二歳児までの低年齢児を対象にした保育園もあります。【41】に行って驚くのは、二歳児の姿です。五歳児までいる保育園の二歳児や、園に通っていない二歳児と比べると、とにかくしっかりして見えるのです。\n　どちらがいいとか、わるい、という話ではありません。【42】、「自分は小さい子」、という環境で生活をするのと「自分は一番大きい子」という環境で過ごすのでは、やはり行動や意識に違いが出てくると思うのです。\n　それが顕著にあらわれていると思うのは、小学校一年生へと進学したときの子どもたちです。\n　入学前、保育園や幼稚園の年長児（注1）だったときは、小さなお友だちの着替えを手伝ったり、給食や掃除などのお当番活動を行ったり、あそびを通してさまざまな活動のなかで、いろいろな体験をつみかさねていきます。\n　年長児は、なんでもできるかっこいいお兄ちゃん、お姉ちゃんだったのです。ところが、小学校に【43】、一年生は面倒を見てもらう、小さくてかわいい存在になります。立場が一転するのです。\n　六年生に手を握られ、トイレに連れて行ってもらっている一年生のなかには、案外まんざらでもない（注2）顔で、その状況に順応している子もいます。それはそれでかわいいのですが……\n　けれど、いるのです。いえ、実はたくさんの一年生が、お世話されることに対して、なんで？どうして？　と感じていると思うのです。\n　「ぼくは・わたしは大きくなったのに！」と。\n　そんな不満顔の一年生が、なんとも【44】。\n　子どもは、自分の明日に大きな期待をしている。その期待が、子どものたくましさなのではないかと思うのです。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "note",
+      "partNumber": 7,
+      "label": "(注1)",
+      "text": "（注1）年長児：年齢がいちばん上のクラスの幼児",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "note",
+      "partNumber": 7,
+      "label": "(注2)",
+      "text": "（注2）まんざらでもない：嫌ではなさそうな",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "The passage's four blanks are printed as boxed numerals 41-44 inline; transcribed as 【41】…【44】. The questions themselves (41-44) are on PDF page 10.",
+    "「ぼくは」: the dakuten on ほ is faint in the scan; transcribed as ぼく (僕), which is the only reading that makes sense.",
+    "「なんで？どうして？」: the scan prints half-width question marks; normalised to full-width ？ to match the rest of the paper's punctuation."
+  ]
+}

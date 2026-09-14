@@ -1,0 +1,205 @@
+{
+  "page": 15,
+  "pageLabel": "15",
+  "sectionHeader": "聴解",
+  "blocks": [
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "5番",
+      "choices": [
+        "漁業や農業の技術を身につけること",
+        "体験を通して人と食との関係を理解すること",
+        "島の人々の毎日の食事を調査すること",
+        "島で売れる新商品を開発すること"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "6番",
+      "choices": [
+        "新商品が発売されるから",
+        "売り上げが好調だから",
+        "社長が交代したから",
+        "新しい工場ができたから"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "1番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "2番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "3番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "4番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "5番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "6番",
+      "choices": []
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 4,
+      "text": "問題4では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "1番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "2番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "3番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "4番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "5番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "6番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "7番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "8番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "9番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "10番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "11番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "12番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "13番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 5,
+      "text": "問題5では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。\n1番、2番\n問題用紙に何も印刷されていません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "1番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "2番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "3番 質問1",
+      "choices": [
+        "赤山",
+        "青山",
+        "緑山",
+        "白山"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "3番 質問2",
+      "choices": [
+        "赤山",
+        "青山",
+        "緑山",
+        "白山"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "scope": "GET navigation only; no form submission; no model inference; desktop only",
+  "pages": [
+    {
+      "module": "build",
+      "url": "/studio",
+      "httpStatus": 200,
+      "title": "制课 · EJU 题库制作台",
+      "headings": [
+        "制课",
+        "1 · 准备",
+        "2 · 流水线"
+      ],
+      "pageErrors": [],
+      "horizontalOverflow": false
+    },
+    {
+      "module": "library",
+      "url": "/studio/library",
+      "httpStatus": 200,
+      "title": "课程库 · EJU 题库制作台",
+      "headings": [
+        "来源清单",
+        "日本語",
+        "来源",
+        "① 登记与授权",
+        "② 导入文件",
+        "③ 探测与渲染",
+        "④ 提取与逐页复核",
+        "⑤ 签署来源结构",
+        "⑥ 组装与预检",
+        "⑦ 签署整卷",
+        "⑧ 发布到私人题库",
+        "导入来源文件"
+      ],
+      "pageErrors": [],
+      "horizontalOverflow": false
+    },
+    {
+      "module": "editor",
+      "url": "/studio/editor",
+      "httpStatus": 200,
+      "title": "复核编辑器 · EJU 题库制作台",
+      "headings": [
+        "复核编辑器",
+        "页面内容编辑"
+      ],
+      "pageErrors": [],
+      "horizontalOverflow": false
+    },
+    {
+      "module": "ops",
+      "url": "/studio/ops",
+      "httpStatus": 200,
+      "title": "运维 · EJU 题库制作台",
+      "headings": [
+        "运维",
+        "后台任务",
+        "内容问题",
+        "解析与辅助翻译",
+        "记述评阅标准",
+        "备份、校验与恢复",
+        "诊断、缓存与个人数据"
+      ],
+      "pageErrors": [],
+      "horizontalOverflow": false
+    }
+  ]
+}

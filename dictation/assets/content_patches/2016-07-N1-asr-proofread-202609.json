@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "description": "2016-07-N1：LLM 逐句校对发现的 ASR 误识别修正 19 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "d0cf55f62de9b12c2096025d3bfcd3ef25483028ff1dd5399b036f79a812b023",
+  "evidence": {
+    "file": "proofread-work/2016-07-N1/proofread.json",
+    "proposedFixes": "proofread-work/2016-07-N1/proposed-fixes.json",
+    "notes": "proofread-work/2016-07-N1/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 25,
+      "endIndex": 25,
+      "expectedStartTime": 144.83,
+      "expectedEndTime": 155.55,
+      "items": [
+        {
+          "startTime": 144.83,
+          "endTime": 155.55,
+          "sourceText": "けど結局受け入れまで行った家庭は少なかったよね はぁ今までは条件の説明が中心だったけど今回は受け入れ経験者に体験談を話して",
+          "jaText": "けど結局受け入れまで行った家庭は少なかったよね はぁ今までは条件の説明が中心だったけど今回は受け入れ経験者に体験談を話して"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 26,
+      "endIndex": 26,
+      "expectedStartTime": 155.55,
+      "expectedEndTime": 161.42,
+      "items": [
+        {
+          "startTime": 155.55,
+          "endTime": 161.42,
+          "sourceText": "もらったりしたらどうかな 案ずるより産むが易しやってみようと思ってもらえるように",
+          "jaText": "もらったりしたらどうかな 案ずるより産むが易しやってみようと思ってもらえるように"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 57,
+      "endIndex": 57,
+      "expectedStartTime": 336.29,
+      "expectedEndTime": 344.26,
+      "items": [
+        {
+          "startTime": 336.29,
+          "endTime": 344.26,
+          "sourceText": "うちが経営している塾全部で5校あるけど東町校の収支目立って悪いですね",
+          "jaText": "うちが経営している塾全部で5校あるけど東町校の収支目立って悪いですね"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 65,
+      "endIndex": 65,
+      "expectedStartTime": 380.37,
+      "expectedEndTime": 387.68,
+      "items": [
+        {
+          "startTime": 380.37,
+          "endTime": 387.68,
+          "sourceText": "そうですか他には就学前の幼児 をターゲットにクラスを新設する",
+          "jaText": "そうですか他には就学前の幼児 をターゲットにクラスを新設する"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 69,
+      "endIndex": 69,
+      "expectedStartTime": 411.64,
+      "expectedEndTime": 419.91,
+      "items": [
+        {
+          "startTime": 411.64,
+          "endTime": 419.91,
+          "sourceText": "幼児を対象にしたクラスの方は内容を詰めるのに時間がかかるだろうから お酔い考えていきましょう女",
+          "jaText": "幼児を対象にしたクラスの方は内容を詰めるのに時間がかかるだろうから お酔い考えていきましょう女"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 211,
+      "endIndex": 211,
+      "expectedStartTime": 1376.73,
+      "expectedEndTime": 1388.18,
+      "items": [
+        {
+          "startTime": 1376.73,
+          "endTime": 1388.18,
+          "sourceText": "山田さんは杉や檜など地元の木材の良さを巧みに生かしつつ 独創的なデザインにこだわった作品が海外でも人気を博している職人",
+          "jaText": "山田さんは杉や檜など地元の木材の良さを巧みに生かしつつ 独創的なデザインにこだわった作品が海外でも人気を博している職人"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 231,
+      "endIndex": 231,
+      "expectedStartTime": 1563.78,
+      "expectedEndTime": 1570.24,
+      "items": [
+        {
+          "startTime": 1563.78,
+          "endTime": 1570.24,
+          "sourceText": "異世代ホームシェアって言って一人暮らしのお年寄りが学生向けに部屋を安く提供して くれてるんだ",
+          "jaText": "異世代ホームシェアって言って一人暮らしのお年寄りが学生向けに部屋を安く提供して くれてるんだ"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 251,
+      "endIndex": 251,
+      "expectedStartTime": 1685.11,
+      "expectedEndTime": 1687.71,
+      "items": [
+        {
+          "startTime": 1685.11,
+          "endTime": 1687.71,
+          "sourceText": "観客が固唾を飲んで見守るような場面でも",
+          "jaText": "観客が固唾を飲んで見守るような場面でも"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 265,
+      "endIndex": 265,
+      "expectedStartTime": 1772.48,
+      "expectedEndTime": 1778.68,
+      "items": [
+        {
+          "startTime": 1772.48,
+          "endTime": 1778.68,
+          "sourceText": "一時期業績が振るわず実現が危ぶ まれたこともありましたがようやく",
+          "jaText": "一時期業績が振るわず実現が危ぶ まれたこともありましたがようやく"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 267,
+      "endIndex": 267,
+      "expectedStartTime": 1782.62,
+      "expectedEndTime": 1790.05,
+      "items": [
+        {
+          "startTime": 1782.62,
+          "endTime": 1790.05,
+          "sourceText": "現地での人員の確保や教育販路 の新規開拓など課題は山積しています",
+          "jaText": "現地での人員の確保や教育販路 の新規開拓など課題は山積しています"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 287,
+      "endIndex": 287,
+      "expectedStartTime": 1990.0,
+      "expectedEndTime": 2001.5,
+      "items": [
+        {
+          "startTime": 1990.0,
+          "endTime": 2001.5,
+          "sourceText": "保護か公開か、二者択一ではなく何のための公開か、その目的を再確認し、管理・運営の在り方を見直すことが急務ではないでしょうか。",
+          "jaText": "保護か公開か、二者択一ではなく何のための公開か、その目的を再確認し、管理・運営の在り方を見直すことが急務ではないでしょうか。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 298,
+      "endIndex": 298,
+      "expectedStartTime": 2076.96,
+      "expectedEndTime": 2086.4,
+      "items": [
+        {
+          "startTime": 2076.96,
+          "endTime": 2086.4,
+          "sourceText": "有給の取得率は恒常的に低く推移していて、ここを何とかすることが現状の改善に向けた大きな一歩だと考えているからです。",
+          "jaText": "有給の取得率は恒常的に低く推移していて、ここを何とかすることが現状の改善に向けた大きな一歩だと考えているからです。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 372,
+      "endIndex": 372,
+      "expectedStartTime": 2671.38,
+      "expectedEndTime": 2675.13,
+      "items": [
+        {
+          "startTime": 2671.38,
+          "endTime": 2675.13,
+          "sourceText": "うん林くん専攻は世界史だったよね",
+          "jaText": "うん林くん専攻は世界史だったよね"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 417,
+      "endIndex": 417,
+      "expectedStartTime": 2871.93,
+      "expectedEndTime": 2875.55,
+      "items": [
+        {
+          "startTime": 2871.93,
+          "endTime": 2875.55,
+          "sourceText": "少量の総菜の品揃えを充実させるのはどうですか",
+          "jaText": "少量の総菜の品揃えを充実させるのはどうですか"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 435,
+      "endIndex": 435,
+      "expectedStartTime": 3002.83,
+      "expectedEndTime": 3013.74,
+      "items": [
+        {
+          "startTime": 3002.83,
+          "endTime": 3013.74,
+          "sourceText": "写真家が半生をかけ地球を飛び回って撮った写真 約500枚が掲載されていますそして最後の4冊目はクマと私",
+          "jaText": "写真家が半生をかけ地球を飛び回って撮った写真 約500枚が掲載されていますそして最後の4冊目はクマと私"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 438,
+      "endIndex": 438,
+      "expectedStartTime": 3031.86,
+      "expectedEndTime": 3034.94,
+      "items": [
+        {
+          "startTime": 3031.86,
+          "endTime": 3034.94,
+          "sourceText": "そういえば、甥っ子のたかしくんもうすぐ誕生日だよね",
+          "jaText": "そういえば、甥っ子のたかしくんもうすぐ誕生日だよね"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 459,
+      "endIndex": 459,
+      "expectedStartTime": 3177.37,
+      "expectedEndTime": 3183.55,
+      "items": [
+        {
+          "startTime": 3177.37,
+          "endTime": 3183.55,
+          "sourceText": "に生きる野生動物の写真集です 写真家が半生をかけ地球を飛び",
+          "jaText": "に生きる野生動物の写真集です 写真家が半生をかけ地球を飛び"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 461,
+      "endIndex": 461,
+      "expectedStartTime": 3189.35,
+      "expectedEndTime": 3198.34,
+      "items": [
+        {
+          "startTime": 3189.35,
+          "endTime": 3198.34,
+          "sourceText": "4つ目はクマと私森に住む獣医と傷ついて保護された野生のクマとの触れ合いを描いた感動の物語です",
+          "jaText": "4つ目はクマと私森に住む獣医と傷ついて保護された野生のクマとの触れ合いを描いた感動の物語です"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 463,
+      "endIndex": 463,
+      "expectedStartTime": 3208.85,
+      "expectedEndTime": 3211.93,
+      "items": [
+        {
+          "startTime": 3208.85,
+          "endTime": 3211.93,
+          "sourceText": "そういえば甥っ子のたかしくんもうすぐ誕生日だよね",
+          "jaText": "そういえば甥っ子のたかしくんもうすぐ誕生日だよね"
+        }
+      ]
+    }
+  ]
+}

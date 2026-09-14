@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "description": "2017-12-N1：LLM 逐句校对发现的 ASR 误识别修正 9 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "79e4ba89f0aeb7f82b2e2d7c0bb14670d24bb1b8fb693897196b0a7d534fa3f0",
+  "evidence": {
+    "file": "proofread-work/2017-12-N1/proofread.json",
+    "proposedFixes": "proofread-work/2017-12-N1/proposed-fixes.json",
+    "notes": "proofread-work/2017-12-N1/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 52,
+      "endIndex": 52,
+      "expectedStartTime": 308.82,
+      "expectedEndTime": 319.87,
+      "items": [
+        {
+          "startTime": 308.82,
+          "endTime": 319.87,
+          "sourceText": "ただ、今ちょっと混み合っていまして、2、30分はかかるかと。その間に保険課で健康保険のお手続きをどうぞ。10分もかからないと思いますから。",
+          "jaText": "ただ、今ちょっと混み合っていまして、2、30分はかかるかと。その間に保険課で健康保険のお手続きをどうぞ。10分もかからないと思いますから。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 61,
+      "endIndex": 61,
+      "expectedStartTime": 386.8,
+      "expectedEndTime": 393.43,
+      "items": [
+        {
+          "startTime": 386.8,
+          "endTime": 393.43,
+          "sourceText": "皆さんは今各係で行っている業務を洗い出しその内容を箇条書きしたものを提出してください",
+          "jaText": "皆さんは今各係で行っている業務を洗い出しその内容を箇条書きしたものを提出してください"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 82,
+      "endIndex": 82,
+      "expectedStartTime": 495.94,
+      "expectedEndTime": 505.76,
+      "items": [
+        {
+          "startTime": 495.94,
+          "endTime": 505.76,
+          "sourceText": "庫数がわかったら大谷君にも携帯で知らせるから 列の先頭からお客様の数を数えて商品が行き届かないかもしれない方にはその旨",
+          "jaText": "庫数がわかったら大谷君にも携帯で知らせるから 列の先頭からお客様の数を数えて商品が行き届かないかもしれない方にはその旨"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 242,
+      "endIndex": 242,
+      "expectedStartTime": 1506.65,
+      "expectedEndTime": 1512.07,
+      "items": [
+        {
+          "startTime": 1506.65,
+          "endTime": 1512.07,
+          "sourceText": "番教員を養成するための教育心理学の講義で",
+          "jaText": "番教員を養成するための教育心理学の講義で"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 245,
+      "endIndex": 245,
+      "expectedStartTime": 1545.23,
+      "expectedEndTime": 1557.2,
+      "items": [
+        {
+          "startTime": 1545.23,
+          "endTime": 1557.2,
+          "sourceText": "今日は認知心理学の研究について概観しましたが次回は最新の認知心理学の研究成果を 基に人がどのように文章を理解しているのかを見ていきます",
+          "jaText": "今日は認知心理学の研究について概観しましたが次回は最新の認知心理学の研究成果を 基に人がどのように文章を理解しているのかを見ていきます"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 281,
+      "endIndex": 281,
+      "expectedStartTime": 1845.7,
+      "expectedEndTime": 1854.13,
+      "items": [
+        {
+          "startTime": 1845.7,
+          "endTime": 1854.13,
+          "sourceText": "です それから取引価格の値引きのご要望ですがはいこちらも原材料費が値上がりしているため大変厳しい",
+          "jaText": "です それから取引価格の値引きのご要望ですがはいこちらも原材料費が値上がりしているため大変厳しい"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 373,
+      "endIndex": 373,
+      "expectedStartTime": 2711.83,
+      "expectedEndTime": 2719.24,
+      "items": [
+        {
+          "startTime": 2711.83,
+          "endTime": 2719.24,
+          "sourceText": "お客様、お食事中すみません。こちらのテーブル、相席をお願いしてもよろしいでしょうか。",
+          "jaText": "お客様、お食事中すみません。こちらのテーブル、相席をお願いしてもよろしいでしょうか。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 376,
+      "endIndex": 376,
+      "expectedStartTime": 2748.08,
+      "expectedEndTime": 2753.66,
+      "items": [
+        {
+          "startTime": 2748.08,
+          "endTime": 2753.66,
+          "sourceText": "新年会の幹事森君が申し出てくれなけりゃ僕がやらされてたよ",
+          "jaText": "新年会の幹事森君が申し出てくれなけりゃ僕がやらされてたよ"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 378,
+      "endIndex": 378,
+      "expectedStartTime": 2757.16,
+      "expectedEndTime": 2763.75,
+      "items": [
+        {
+          "startTime": 2757.16,
+          "endTime": 2763.75,
+          "sourceText": "じゃあ感謝しないとね大変だけど幹事頑張ってね",
+          "jaText": "じゃあ感謝しないとね大変だけど幹事頑張ってね"
+        }
+      ]
+    }
+  ]
+}

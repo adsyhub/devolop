@@ -1,0 +1,32 @@
+{
+  "page": 6,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>32</u>昨日行ったレストランは、味もサービスも最低だった。( )行きたくない。\n1 二度と\n2 必ずしも\n3 まさか\n4 あまりに\n<u>33</u>今回のオリンピックで、体操の青木選手は、メダルは獲得できなかった( )、素晴らしい演技を見せてくれた。\n1 からといって\n2 どころか\n3 あげくに\n4 ものの\n<u>34</u>60代の父が趣味( )何歳から始めても遅くないだろうと言って、最近ビアノ教室に通い始めた。\n1 としてだけ\n2 としてなら\n3 にとっては\n4 にとっても\n<u>35</u>約束の時間に友人の家に着いてインターホンを押すと、慌てた様子で友人が玄関に出てきた。( )、パジャマ姿のままだった。\n1 起きるところだったら\n2 起きるところらしく\n3 起きたばかりだったら\n4 起きたばかりらしく\n<u>36</u>「リマインド」とは、「再確認」の意味を持ち、「会議の日程が近づいてきたので、出席者にリマインドした。」( )使用されるビジネス用語である。\n1 というように\n2 というような\n3 ということのように\n4 ということのような"
+    }
+  ],
+  "issues": [
+    "Choice-looking line with no question open: '1 二度と'",
+    "Choice-looking line with no question open: '2 必ずしも'",
+    "Choice-looking line with no question open: '3 まさか'",
+    "Choice-looking line with no question open: '4 あまりに'",
+    "Choice-looking line with no question open: '1 からといって'",
+    "Choice-looking line with no question open: '2 どころか'",
+    "Choice-looking line with no question open: '3 あげくに'",
+    "Choice-looking line with no question open: '4 ものの'",
+    "Choice-looking line with no question open: '1 としてだけ'",
+    "Choice-looking line with no question open: '2 としてなら'",
+    "Choice-looking line with no question open: '3 にとっては'",
+    "Choice-looking line with no question open: '4 にとっても'",
+    "Choice-looking line with no question open: '1 起きるところだったら'",
+    "Choice-looking line with no question open: '2 起きるところらしく'",
+    "Choice-looking line with no question open: '3 起きたばかりだったら'",
+    "Choice-looking line with no question open: '4 起きたばかりらしく'",
+    "Choice-looking line with no question open: '1 というように'",
+    "Choice-looking line with no question open: '2 というような'",
+    "Choice-looking line with no question open: '3 ということのように'",
+    "Choice-looking line with no question open: '4 ということのような'"
+  ]
+}

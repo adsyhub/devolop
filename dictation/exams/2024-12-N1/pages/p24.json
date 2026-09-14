@@ -1,0 +1,21 @@
+{
+  "page": 24,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "53 「こういった時」とは、どのような時か。\n1 パッケージの変更に伴って、ファンが商品への愛着を失った時。\n2 パッケージの変更を望まないファンが多いのに、変更せざるを得ない時。\n3 新しいファンを獲得するには、パッケージの変更が不可欠だと分かった時。\n4 ファンの賛否が分からず、パッケージを変更しなければならない時。\n54 マーケティング調査の結果について、筆者はどのように考えているか。\n1 一部の消費者の意見として、うまく生かすべきだ。\n2 肯定的な意見を積極的に取り入れて商品開発に生かすべきだ。\n3 消費者の反応が変わっていくことを考慮して分析するべきだ。\n4 過去の結果と合わせて、消費者の好みの変化を読み取るべきだ。"
+    }
+  ],
+  "pageLabel": "23",
+  "issues": [
+    "Choice-looking line with no question open: '1 パッケージの変更に伴って、ファンが商品への愛着を失った時。'",
+    "Choice-looking line with no question open: '2 パッケージの変更を望まないファンが多いのに、変更せざるを得ない時。'",
+    "Choice-looking line with no question open: '3 新しいファンを獲得するには、パッケージの変更が不可欠だと分かった時。'",
+    "Choice-looking line with no question open: '4 ファンの賛否が分からず、パッケージを変更しなければならない時。'",
+    "Choice-looking line with no question open: '1 一部の消費者の意見として、うまく生かすべきだ。'",
+    "Choice-looking line with no question open: '2 肯定的な意見を積極的に取り入れて商品開発に生かすべきだ。'",
+    "Choice-looking line with no question open: '3 消費者の反応が変わっていくことを考慮して分析するべきだ。'",
+    "Choice-looking line with no question open: '4 過去の結果と合わせて、消費者の好みの変化を読み取るべきだ。'"
+  ]
+}

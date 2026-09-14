@@ -1,0 +1,38 @@
+{
+  "page": 8,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 6,
+      "text": "問題6　次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 6,
+      "text": "26 共有\n1 市民ボランティアの共有で、留学生のスピーチコンテストが行われた\n2 大学と企業が共有で新しい技術の研究を行っている\n3 これらの事件には、発生場所に共有の特徴があることが分かった\n4 結婚してから購入した物は、夫婦の共有財産になる\n27 鋭い\n1 動物たちが自然界で生きていきためには、鋭い感覚が必要だ\n2 弟は記憶が鋭くて、本に載っているたくさんの国名や国旗をすぐに覚えた\n3 赤ちゃんの肌は鋭いから、少しの刺激で赤くなってしまう\n4 運動の能力が鋭い人は、どんなスポーツでもすぐに上達する\n28 はきはき\n1 よく眠ったので、今日は頭がはきはきとしている\n2 ビルの屋上から、遠くの山がはきはきと見える\n3 その学生は聞かれたことにはきはきと答えた\n4 ミスの原因をはきはきとさせるために、調査が行われた\n29 鑑賞\n1 学校の授業で、工場へ行って自動車を組み立てる様子を鑑賞した\n2 中学生の時、市のコンサートホールでクラシック音楽を鑑賞した\n3 資料を読んで、自然を守るための国の活動について鑑賞した\n4 レストランで、素材の良さを生かした料理を舌でじっくり鑑賞した\n30 着々\n1 ベランダが着々と古くなって危険なので、修理することにした\n2 ゲームに夢中になっていたら、時間が着々とたっていた\n3 来週のパーティーの準備は着々と進んでいるようだ\n4 夕方になって、外は着々と涼しくなってきてている"
+    }
+  ],
+  "pageLabel": "6",
+  "issues": [
+    "Choice-looking line with no question open: '1 市民ボランティアの共有で、留学生のスピーチコンテストが行われた'",
+    "Choice-looking line with no question open: '2 大学と企業が共有で新しい技術の研究を行っている'",
+    "Choice-looking line with no question open: '3 これらの事件には、発生場所に共有の特徴があることが分かった'",
+    "Choice-looking line with no question open: '4 結婚してから購入した物は、夫婦の共有財産になる'",
+    "Choice-looking line with no question open: '1 動物たちが自然界で生きていきためには、鋭い感覚が必要だ'",
+    "Choice-looking line with no question open: '2 弟は記憶が鋭くて、本に載っているたくさんの国名や国旗をすぐに覚えた'",
+    "Choice-looking line with no question open: '3 赤ちゃんの肌は鋭いから、少しの刺激で赤くなってしまう'",
+    "Choice-looking line with no question open: '4 運動の能力が鋭い人は、どんなスポーツでもすぐに上達する'",
+    "Choice-looking line with no question open: '1 よく眠ったので、今日は頭がはきはきとしている'",
+    "Choice-looking line with no question open: '2 ビルの屋上から、遠くの山がはきはきと見える'",
+    "Choice-looking line with no question open: '3 その学生は聞かれたことにはきはきと答えた'",
+    "Choice-looking line with no question open: '4 ミスの原因をはきはきとさせるために、調査が行われた'",
+    "Choice-looking line with no question open: '1 学校の授業で、工場へ行って自動車を組み立てる様子を鑑賞した'",
+    "Choice-looking line with no question open: '2 中学生の時、市のコンサートホールでクラシック音楽を鑑賞した'",
+    "Choice-looking line with no question open: '3 資料を読んで、自然を守るための国の活動について鑑賞した'",
+    "Choice-looking line with no question open: '4 レストランで、素材の良さを生かした料理を舌でじっくり鑑賞した'",
+    "Choice-looking line with no question open: '1 ベランダが着々と古くなって危険なので、修理することにした'",
+    "Choice-looking line with no question open: '2 ゲームに夢中になっていたら、時間が着々とたっていた'",
+    "Choice-looking line with no question open: '3 来週のパーティーの準備は着々と進んでいるようだ'",
+    "Choice-looking line with no question open: '4 夕方になって、外は着々と涼しくなってきてている'"
+  ]
+}

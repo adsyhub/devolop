@@ -1,0 +1,50 @@
+{
+  "page": 12,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 8,
+      "text": "問題8　次の文の ★に入る最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 8,
+      "text": "(問題例)\nあそこで ____ ★ ____ は山田さんです。\n1 テレビ\n2 見ている\n3 を\n4 人\n(解答のしかた)"
+    },
+    {
+      "kind": "question",
+      "partNumber": 8,
+      "text": "正しい文はこうです。> あそこで ____ ★ ____ は山田さんです。> 1 テレビ> 3 を> 2 見ている> 4 人",
+      "questionNumber": 1,
+      "choices": [
+        "★に入る番号を解答用紙にマークします。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 8,
+      "text": "> (解答用紙)\n> (例) 1 ● 3 4\n43 「さわら」という魚、漢字で「鯖」と書く ____ ★ ____ 魚の一つだ。\n1 ように\n2 わかる\n3 ことから\n4 春を代表する\n44 会議での西山さんのプレゼンは、普段はなかなか ____ ★ ____ 素晴らしかった。\n1 ぐらい\n2 課長が\n3 褒める\n4 褒めることができない\n45 同じ気温 ____ ★ ____ は大きく変わる。\n1 感じ方\n2 でも\n3 温度や風の強さなど\n4 によって"
+    }
+  ],
+  "pageLabel": "10",
+  "issues": [
+    "Choice-looking line with no question open: '1 テレビ'",
+    "Choice-looking line with no question open: '2 見ている'",
+    "Choice-looking line with no question open: '3 を'",
+    "Choice-looking line with no question open: '4 人'",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 1 choices transcribed, expected 4. Check the page image.",
+    "Choice-looking line with no question open: '1 ように'",
+    "Choice-looking line with no question open: '2 わかる'",
+    "Choice-looking line with no question open: '3 ことから'",
+    "Choice-looking line with no question open: '4 春を代表する'",
+    "Choice-looking line with no question open: '1 ぐらい'",
+    "Choice-looking line with no question open: '2 課長が'",
+    "Choice-looking line with no question open: '3 褒める'",
+    "Choice-looking line with no question open: '4 褒めることができない'",
+    "Choice-looking line with no question open: '1 感じ方'",
+    "Choice-looking line with no question open: '2 でも'",
+    "Choice-looking line with no question open: '3 温度や風の強さなど'",
+    "Choice-looking line with no question open: '4 によって'"
+  ]
+}

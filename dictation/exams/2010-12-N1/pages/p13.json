@@ -1,0 +1,228 @@
+{
+  "page": 13,
+  "pageLabel": "13",
+  "sectionHeader": "聴解",
+  "blocks": [
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "4番",
+      "choices": [
+        "支店が販売目標を達成したこと",
+        "支店の販売実績を毎月更新できたこと",
+        "支店の年間総売上が伸びたこと",
+        "支店の社員全員が目標を達成したこと"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "5番",
+      "choices": [
+        "選手のスキー技術を向上させること",
+        "選手の精神面を支えること",
+        "コーチ自身のスキー技術をみがくこと",
+        "コーチ自身の精神面をきたえること"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "6番",
+      "choices": [
+        "無農薬で野菜がさいばいできるため",
+        "施設を維持するのにお金がかからないため",
+        "短期間で野菜が収穫できるため",
+        "野菜の安定供給ができるため"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "7番",
+      "choices": [
+        "データに不備があったから",
+        "課長が出席できなくなったから",
+        "会議の資料作成をやり直すから",
+        "会議の場所が確保できなかったから"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　では、問題用紙に何にも印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、（1）から（4）の中から、最っともよいものを一つ選んでください。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "1番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "2番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "3番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "4番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "5番",
+      "choices": []
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 4,
+      "text": "問題4　では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、（1）から（3）の中から、最っともよいものを一つ選えらんでください。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "1番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "2番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "3番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "4番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "5番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "6番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "7番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "8番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "9番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "10番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "11番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "12番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "13番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "14番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 5,
+      "text": "問題5　では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "1番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "2番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "3番 質問1",
+      "choices": [
+        "研修一",
+        "研修二",
+        "研修三",
+        "研修四"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "3番 質問2",
+      "choices": [
+        "研修一",
+        "研修二",
+        "研修三",
+        "研修四"
+      ]
+    }
+  ]
+}

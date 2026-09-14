@@ -1,0 +1,54 @@
+{
+  "page": 10,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "23-2-I-言・読-8"
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 6,
+      "text": "問題6　次の文の ★に入る最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 6,
+      "text": "(問題例)\nあそこで ____ ★ ____ は山田さんです。\n1 テレビ\n2 見ている\n3 を\n4 人\n(解答のしかた)"
+    },
+    {
+      "kind": "question",
+      "partNumber": 6,
+      "text": "正しい文はこうです。> あそこで ____ ★ ____ は山田さんです。> 1 テレビ> 3 を> 2 見ている> 4 人",
+      "questionNumber": 1,
+      "choices": [
+        "★に入る番号を解答用紙にマークします。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 6,
+      "text": "(解答用紙) 1 3 4\n36 当社が先月発売したパソコンについて、印刷の ★ ____ ★ ____ ことが判明しました。\n1 マニュアルに誤りがある\n2 設定ができないとの\n3 問い合わせが複数寄せられ\n4 調査したところ\n37 このフライパンは、さすが ★ ____ ★ ____ とても使いやすい。\n1 森さんが\n2 だけあって\n3 勧める\n4 料理が上手な\n38 最後に見た映画が ★ ____ ★ ____ 映画を見ていない。\n1 ほど\n2 何だったのかも\n3 思い出せない\n4 久しく"
+    }
+  ],
+  "issues": [
+    "Choice-looking line with no question open: '1 テレビ'",
+    "Choice-looking line with no question open: '2 見ている'",
+    "Choice-looking line with no question open: '3 を'",
+    "Choice-looking line with no question open: '4 人'",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 1 choices transcribed, expected 4. Check the page image.",
+    "Choice-looking line with no question open: '1 マニュアルに誤りがある'",
+    "Choice-looking line with no question open: '2 設定ができないとの'",
+    "Choice-looking line with no question open: '3 問い合わせが複数寄せられ'",
+    "Choice-looking line with no question open: '4 調査したところ'",
+    "Choice-looking line with no question open: '1 森さんが'",
+    "Choice-looking line with no question open: '2 だけあって'",
+    "Choice-looking line with no question open: '3 勧める'",
+    "Choice-looking line with no question open: '4 料理が上手な'",
+    "Choice-looking line with no question open: '1 ほど'",
+    "Choice-looking line with no question open: '2 何だったのかも'",
+    "Choice-looking line with no question open: '3 思い出せない'",
+    "Choice-looking line with no question open: '4 久しく'"
+  ]
+}

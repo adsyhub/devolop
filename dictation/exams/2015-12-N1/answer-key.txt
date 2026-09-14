@@ -1,0 +1,33 @@
+# 2015年12月 日本語能力試験 N1 — 答案
+note 2015年12月N1参考答案与计分规则
+
+# ---- 第一部分　言語知識（文字・語彙・文法） ----
+written   1-6     1   123421
+written   7-13    1   2312243
+written   14-19   1   412343
+written   20-25   1   231214
+written   26-35   1   1321332143
+written   36-40   2   14243
+written   41-45   1   21314
+
+# 排序題順序
+order     36      4312
+order     37      2143
+order     38      3124
+order     39      3241
+order     40      4132
+
+# ---- 第二部分　読解 ----
+written   46-49   2   4234
+written   50-58   2   212231242
+written   59-62   3   3243
+written   63-64   3   43
+written   65-68   3   4143
+written   69-70   2   21
+
+# ---- 第三部分　聴解 ----
+listening 1       1   233212
+listening 2       1   2234314
+listening 3       2   414321
+listening 4       2   31322113312311
+listening 5       3   1214

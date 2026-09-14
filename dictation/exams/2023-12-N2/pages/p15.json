@@ -1,0 +1,29 @@
+{
+  "page": 15,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>48</u>\n1 実は\n2 一方で\n3 しかも\n4 ちなみに\n<u>49</u>\n1 するからです\n2 するのでしょう\n3 するつもりです\n4 するようにしてください\n<u>50</u>\n1 かけたとします\n2 かけることもあります\n3 かけたと思います\n4 かけることにあります\n<u>51</u>\n1 疲れてしまい\n2 疲れてしまったのが\n3 疲れてしまっては\n4 疲れてしまうばかりで"
+    }
+  ],
+  "pageLabel": "13",
+  "issues": [
+    "Choice-looking line with no question open: '1 実は'",
+    "Choice-looking line with no question open: '2 一方で'",
+    "Choice-looking line with no question open: '3 しかも'",
+    "Choice-looking line with no question open: '4 ちなみに'",
+    "Choice-looking line with no question open: '1 するからです'",
+    "Choice-looking line with no question open: '2 するのでしょう'",
+    "Choice-looking line with no question open: '3 するつもりです'",
+    "Choice-looking line with no question open: '4 するようにしてください'",
+    "Choice-looking line with no question open: '1 かけたとします'",
+    "Choice-looking line with no question open: '2 かけることもあります'",
+    "Choice-looking line with no question open: '3 かけたと思います'",
+    "Choice-looking line with no question open: '4 かけることにあります'",
+    "Choice-looking line with no question open: '1 疲れてしまい'",
+    "Choice-looking line with no question open: '2 疲れてしまったのが'",
+    "Choice-looking line with no question open: '3 疲れてしまっては'",
+    "Choice-looking line with no question open: '4 疲れてしまうばかりで'"
+  ]
+}

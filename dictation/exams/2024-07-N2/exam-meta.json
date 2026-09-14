@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "level": "N2",
+  "slug": "2024-07-N2",
+  "title": "2024年7月 日本語能力試験 N2",
+  "sessionLabel": "2024年7月",
+  "uiLanguage": "zh-Hans",
+  "durationSec": 9300,
+  "source": {
+    "kind": "pdf-scan",
+    "fileName": "2024年07月日语N2真题试卷.pdf",
+    "sha256": "73975029d4fa9d8cd70853f311ee418ab8eb9f93b288117bf2aad8fa042bee12",
+    "bytes": 50866028,
+    "pageCount": 52,
+    "answerKeyFile": "2024年07月日语N2答案解析.pdf",
+    "answerKeySha256": "7efd517274214e33f2b4da3c6cb6b9553f9ea8fd247e57efdeb9970b04643f55",
+    "answerKeyPageCount": 5,
+    "importedOn": "2026-09-02",
+    "importer": "src/exam_import.py",
+    "rights": "Personal study copy supplied by the user. The JLPT paper is copyright JEES/Japan Foundation; this exam.json is not cleared for redistribution or sale."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "description": "2013-07-N2：LLM 逐句校对发现的 ASR 误识别修正 3 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "cea53891a32612b0a7f4a5ff01449e6c558a0570bf42dca503dc6bc4bd37acbb",
+  "evidence": {
+    "file": "proofread-work/2013-07-N2/proofread.json",
+    "proposedFixes": "proofread-work/2013-07-N2/proposed-fixes.json",
+    "notes": "proofread-work/2013-07-N2/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 84,
+      "endIndex": 84,
+      "expectedStartTime": 533.32,
+      "expectedEndTime": 539.93,
+      "items": [
+        {
+          "startTime": 533.32,
+          "endTime": 539.93,
+          "sourceText": "問題2 問題2ではまず質問を聞いてください",
+          "jaText": "問題2 問題2ではまず質問を聞いてください"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 227,
+      "endIndex": 227,
+      "expectedStartTime": 1792.68,
+      "expectedEndTime": 1797.49,
+      "items": [
+        {
+          "startTime": 1792.68,
+          "endTime": 1797.49,
+          "sourceText": "今回のミス、部長に報告した?先に延ばしたっていいことないよ。",
+          "jaText": "今回のミス、部長に報告した?先に延ばしたっていいことないよ。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 231,
+      "endIndex": 231,
+      "expectedStartTime": 1808.2,
+      "expectedEndTime": 1813.81,
+      "items": [
+        {
+          "startTime": 1808.2,
+          "endTime": 1813.81,
+          "sourceText": "先に延ばした方がいいでしょうか",
+          "jaText": "先に延ばした方がいいでしょうか"
+        }
+      ]
+    }
+  ]
+}

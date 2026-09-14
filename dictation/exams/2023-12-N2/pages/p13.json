@@ -1,0 +1,21 @@
+{
+  "page": 13,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "(インタビューで)\n「店長になって最初の1年間は大変でした。店長になった____★____と悩むこともありました。」\n1 といっても\n2 ばかりで\n3 わからないこと\n4 自分でいいのか\n家を買うことについて____★____簡単に引っ越しれないのが嫌だと言っている。\n1 夫は\n2 買ってしまうと\n3 否定的な\n4 一度"
+    }
+  ],
+  "pageLabel": "11",
+  "issues": [
+    "Choice-looking line with no question open: '1 といっても'",
+    "Choice-looking line with no question open: '2 ばかりで'",
+    "Choice-looking line with no question open: '3 わからないこと'",
+    "Choice-looking line with no question open: '4 自分でいいのか'",
+    "Choice-looking line with no question open: '1 夫は'",
+    "Choice-looking line with no question open: '2 買ってしまうと'",
+    "Choice-looking line with no question open: '3 否定的な'",
+    "Choice-looking line with no question open: '4 一度'"
+  ]
+}

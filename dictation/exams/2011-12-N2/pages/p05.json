@@ -1,0 +1,71 @@
+{
+  "page": 5,
+  "pageLabel": "5",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 8,
+      "text": "問題8　次の文の＿＿★＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 8,
+      "questionNumber": 45,
+      "text": "前文の文脈において、＿＿ ＿＿ ★ ＿＿に入る言葉を並べ替えなさい。",
+      "choices": [
+        "文の要素1",
+        "文の要素2",
+        "文の要素3",
+        "文の要素4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 8,
+      "questionNumber": 46,
+      "text": "前文の文脈において、＿＿ ＿＿ ★ ＿＿に入る言葉を並べ替えなさい。",
+      "choices": [
+        "文の要素1",
+        "文の要素2",
+        "文の要素3",
+        "文の要素4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 8,
+      "questionNumber": 47,
+      "text": "前文の文脈において、＿＿ ＿＿ ★ ＿＿に入る言葉を並べ替えなさい。",
+      "choices": [
+        "文の要素1",
+        "文の要素2",
+        "文の要素3",
+        "文の要素4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 8,
+      "questionNumber": 48,
+      "text": "前文の文脈において、＿＿ ＿＿ ★ ＿＿に入る言葉を並べ替えなさい。",
+      "choices": [
+        "文の要素1",
+        "文の要素2",
+        "文の要素3",
+        "文の要素4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 8,
+      "questionNumber": 49,
+      "text": "前文の文脈において、＿＿ ＿＿ ★ ＿＿に入る言葉を並べ替えなさい。",
+      "choices": [
+        "文の要素1",
+        "文の要素2",
+        "文の要素3",
+        "文の要素4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="zh-Hans-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d332c">
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'"
+  >
+  <title>词汇语法 · 日语学习中心</title>
+  <link rel="stylesheet" href="./app.css">
+  <link rel="stylesheet" href="./lexicon.css">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icon-192.png">
+</head>
+<body class="lex-body">
+  <a class="skip-link" href="#lex-main">跳到内容</a>
+
+  <header class="topbar lex-topbar">
+    <div class="topbar-lead">
+      <a class="brand" href="./" aria-label="返回学习模式选择">
+        <span class="brand-mark" aria-hidden="true">語</span>
+        <div class="brand-text">
+          <strong id="lex-brand-title">词汇语法</strong>
+          <span id="lex-brand-sub">按级别浏览词条与语法</span>
+        </div>
+      </a>
+      <button class="icon-button panel-toggle" id="lex-home-button" type="button" hidden>
+        <span aria-hidden="true">☰</span><span class="button-label">词库首页</span>
+      </button>
+    </div>
+
+    <nav class="mode-context" aria-label="当前学习模式">
+      <span class="mode-context-current lex" aria-current="page">
+        <span aria-hidden="true">📚</span><span>词汇语法工作区</span>
+      </span>
+      <a class="mode-switch-link" href="./">切换学习模式</a>
+    </nav>
+
+    <div class="topbar-actions">
+      <a class="personal-entry-button" id="lex-personal-link" href="./me#/vocab">
+        <span aria-hidden="true">🗂</span><span class="button-label">我的</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="lex-main" class="lex-main">
+
+    <nav class="lex-workspace-tabs" aria-label="词汇语法功能">
+      <button class="category-tab is-active" id="lex-tab-browse" type="button">浏览内容</button>
+      <button class="category-tab" id="lex-tab-study" type="button">今日背诵 <span id="lex-due-badge"></span></button>
+      <button class="category-tab" id="lex-tab-plans" type="button">学习计划</button>
+      <button class="category-tab" id="lex-tab-practice" type="button">专项练习</button>
+      <button class="category-tab" id="lex-tab-records" type="button">学习记录</button>
+    </nav>
+
+    <!-- ---------------------------------------------------------------- -->
+    <!-- View: pack list                                                   -->
+    <!-- ---------------------------------------------------------------- -->
+    <section class="lex-view" id="view-packs" aria-labelledby="packs-heading">
+      <div class="lex-hero">
+        <h1 id="packs-heading">词汇与语法</h1>
+        <p class="lex-hero-copy">
+          词条和语法条目在同一套内容里：先选级别，再选内容包，按教材单元逐条浏览。
+        </p>
+      </div>
+
+      <!-- 等级分类。与精听、真题两个板块用同一套样式：三个板块的第二层分类
+           长得一样，学习者不用学三遍。标签由数据生成。 -->
+      <nav class="category-switch" id="level-switch" role="tablist" aria-label="等级分类" hidden></nav>
+
+      <!-- 查词。Phase A 只查已安装的包，没有词典层，所以搜索框自己说清楚
+           覆盖范围——一个查不出结果又不说为什么的搜索框，比没有更糟。 -->
+      <form class="lex-search" id="lex-search-form" role="search">
+        <label class="lex-search-label" for="lex-search-input">在已安装的内容包里查词</label>
+        <div class="lex-search-row">
+          <input
+            class="lex-search-input" id="lex-search-input" type="search"
+            autocomplete="off" placeholder="见出し語、文型或中文释义"
+            aria-describedby="lex-search-scope">
+          <button class="primary-button" id="lex-search-button" type="submit">查询</button>
+        </div>
+        <p class="lex-search-scope" id="lex-search-scope">
+          查询已安装的词典、教材和个人条目。可用来源会显示在结果中。
+        </p>
+        <div class="lex-filters">
+          <label>类型<select id="search-kind"><option value="">全部</option><option value="word">词汇</option><option value="grammar">语法</option></select></label>
+          <label>等级<select id="search-level"><option value="">全部等级</option><option>N5</option><option>N4</option><option>N3</option><option>N2</option><option>N1</option><option value="ungraded">未分级</option></select></label>
+          <label>来源<select id="search-scope"><option value="all">全部来源</option><option value="packs">教材</option><option value="dictionary">词典</option><option value="personal">个人条目</option></select></label>
+          <label><input id="search-starred" type="checkbox">仅收藏</label>
+          <button class="quiet-button" id="dictionary-install" type="button">安装 / 更新词典</button>
+          <button class="quiet-button" id="dictionary-cancel" type="button" hidden>取消安装</button>
+        </div>
+        <div id="search-history" class="lex-pack-actions"></div>
+      </form>
+
+      <div class="lex-status" id="lex-status" role="status"></div>
+
+      <ul class="lex-pack-list" id="lex-pack-list"></ul>
+
+      <section class="lex-empty" id="lex-empty" hidden>
+        <h2>还没有可用的内容包</h2>
+        <p>
+          内容包由 <code>src/lexicon_import.py</code> 从 OCR 产物生成，放在
+          <code>lexicon/&lt;包名&gt;/pack.json</code>。制作步骤见
+          <code>docs/LEXICON_PIPELINE.md</code>。
+        </p>
+        <p class="lex-empty-note" id="lex-empty-note"></p>
+      </section>
+    </section>
+
+    <!-- ---------------------------------------------------------------- -->
+    <!-- View: one pack, unit by unit                                      -->
+    <!-- ---------------------------------------------------------------- -->
+    <section class="lex-view" id="view-pack" aria-labelledby="pack-heading" hidden>
+      <button class="quiet-button back-link" id="pack-back" type="button">← 返回内容包</button>
+      <div class="lex-hero">
+        <h1 id="pack-heading"></h1>
+        <p class="lex-hero-copy" id="pack-meta"></p>
+        <p class="lex-notice" id="pack-quality" hidden></p>
+        <p class="lex-notice is-rights" id="pack-rights" hidden></p>
+      </div>
+
+      <div class="lex-pack-layout">
+        <nav class="lex-unit-rail" id="unit-rail" aria-label="单元"></nav>
+        <div class="lex-entry-pane">
+          <h2 class="lex-unit-title" id="unit-title"></h2>
+          <ol class="lex-entry-list" id="entry-list"></ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------- -->
+    <!-- View: first-exposure walkthrough                                  -->
+    <!-- ---------------------------------------------------------------- -->
+    <section class="lex-view" id="view-learn" aria-labelledby="learn-heading" hidden>
+      <button class="quiet-button back-link" id="learn-back" type="button">← 返回</button>
+      <div class="lex-hero lex-study-head">
+        <div>
+          <h1 id="learn-heading">学习</h1>
+          <p class="lex-hero-copy" id="learn-summary"></p>
+        </div>
+        <div class="lex-study-picker">
+          <label class="lex-inline-check"><input id="learn-cover" type="checkbox"> 先遮住释义自测</label>
+          <label>方向<select id="learn-directions" multiple size="3"></select></label>
+        </div>
+      </div>
+      <div class="lex-progress-grid" id="learn-progress"></div>
+      <section class="lex-review-card" id="learn-card" aria-live="polite">
+        <div class="lex-review-meta" id="learn-meta"></div>
+        <div class="lex-review-prompt" id="learn-front"></div>
+        <button class="primary-button lex-reveal" id="learn-reveal" type="button" hidden>显示释义与例句</button>
+        <div class="lex-review-answer" id="learn-body"></div>
+        <div class="lex-pack-actions" id="learn-actions"></div>
+      </section>
+      <section class="lex-empty" id="learn-empty" hidden>
+        <h2 id="learn-empty-title">本组学完了</h2>
+        <p id="learn-empty-copy"></p>
+        <div class="lex-pack-actions" id="learn-empty-actions"></div>
+      </section>
+    </section>
+
+    <!-- View: SRS review queue -->
+    <section class="lex-view" id="view-study" aria-labelledby="study-heading" hidden>
+      <div class="lex-hero lex-study-head">
+        <div>
+          <h1 id="study-heading">今日背诵</h1>
+          <p class="lex-hero-copy" id="study-summary">到期卡与今日新卡会合并到同一队列。</p>
+        </div>
+        <div class="lex-study-picker">
+          <label for="study-deck">学习计划</label>
+          <select id="study-deck"></select>
+          <button class="primary-button" id="study-load" type="button">载入今日队列</button>
+        </div>
+      </div>
+      <div class="lex-progress-grid" id="study-progress"></div>
+      <section class="lex-review-card" id="review-card" hidden aria-live="polite">
+        <div class="lex-review-meta" id="review-meta"></div>
+        <div class="lex-review-prompt" id="review-prompt"></div>
+        <button class="primary-button lex-reveal" id="review-reveal" type="button">显示答案</button>
+        <div class="lex-review-answer" id="review-answer" aria-live="polite" hidden></div>
+        <div class="lex-grade-row" id="review-grades" hidden>
+          <button type="button" data-grade="again">重来 <small>1 天</small></button>
+          <button type="button" data-grade="hard">困难</button>
+          <button type="button" data-grade="good">记得</button>
+          <button type="button" data-grade="easy">简单</button>
+        </div>
+      </section>
+      <section class="lex-empty" id="study-empty" hidden>
+        <h2 id="study-empty-title">今天完成了</h2>
+        <p id="study-empty-copy">没有到期卡片。</p>
+        <div class="lex-pack-actions" id="study-empty-actions"></div>
+      </section>
+    </section>
+
+    <!-- View: plans and progress -->
+    <section class="lex-view" id="view-plans" aria-labelledby="plans-heading" hidden>
+      <div class="lex-hero">
+        <h1 id="plans-heading">学习计划</h1>
+        <p class="lex-hero-copy">选择内容包和每日新卡量。删除计划不会删除已学卡片或复习历史。</p>
+      </div>
+      <form class="lex-plan-form" id="plan-form">
+        <label>内容包（支持多选）<select id="plan-pack" required multiple size="3"></select></label>
+        <label>计划名称<input id="plan-name" maxlength="160" placeholder="例如：N2 语法冲刺"></label>
+        <label>每日新条目<input id="plan-daily" type="number" min="0" max="500" value="10" required></label>
+        <label>顺序<select id="plan-order"><option value="source">教材顺序</option><option value="random">随机顺序</option></select></label>
+        <label>卡片方向<select id="plan-prompts"><option value="">推荐方向</option><option value="recall">识义</option><option value="production">看释义回忆词语</option><option value="reading">看词写读音</option><option value="cloze">例句填空</option><option value="recall,cloze">识义与填空</option><option value="recall,production">识义与产出</option></select></label>
+        <label>学习时区<input id="plan-timezone" maxlength="64" placeholder="留空使用本机时区"></label>
+        <label class="lex-inline-check"><input id="plan-auto-include" type="checkbox" checked> 源包新增条目自动加入本计划</label>
+        <button class="primary-button" type="submit">创建计划</button>
+      </form>
+      <dialog class="lex-editor" id="plan-editor">
+        <form class="lex-plan-form" id="plan-editor-form" method="dialog">
+          <h2 id="plan-editor-heading">编辑计划</h2>
+          <label>计划名称<input id="plan-edit-name" maxlength="160" required></label>
+          <label>内容包（支持多选）<select id="plan-edit-pack" multiple size="3"></select></label>
+          <label>每日新量<input id="plan-edit-daily" type="number" min="0" max="500" required></label>
+          <label>额度单位<select id="plan-edit-quota"><option value="entry">按条目</option><option value="card">按卡片（旧计划口径）</option></select></label>
+          <label>顺序<select id="plan-edit-order"><option value="source">教材顺序</option><option value="random">随机顺序</option></select></label>
+          <label>卡片方向<select id="plan-edit-prompts" multiple size="4"></select></label>
+          <label>学习时区<input id="plan-edit-timezone" maxlength="64"></label>
+          <label class="lex-inline-check"><input id="plan-edit-auto-include" type="checkbox"> 源包新增条目自动加入</label>
+          <label class="lex-inline-check"><input id="plan-edit-paused" type="checkbox"> 暂停本计划</label>
+          <p class="lex-notice" id="plan-edit-note">改动默认从下一个学习日生效；当日已生成的批次保持不变。</p>
+          <div class="lex-pack-actions">
+            <button class="primary-button" type="submit">保存</button>
+            <button class="quiet-button" type="button" id="plan-edit-cancel">取消</button>
+          </div>
+        </form>
+      </dialog>
+      <div class="lex-status" id="plan-status" role="status"></div>
+      <div class="lex-plan-list" id="plan-list"></div>
+    </section>
+
+    <section class="lex-view" id="view-detail" hidden aria-labelledby="detail-heading">
+      <button class="quiet-button" id="detail-back" type="button">← 返回</button>
+      <h1 id="detail-heading"></h1><div id="detail-body"></div>
+    </section>
+
+    <section class="lex-view" id="view-practice" hidden aria-labelledby="practice-heading">
+      <div class="lex-hero"><h1 id="practice-heading">专项练习</h1><p>选好范围与题型，练后查看解析和薄弱项。不会用不完整内容凑题。</p></div>
+      <form class="lex-plan-form" id="practice-form">
+        <label>类型<select id="practice-kind"><option value="">词汇与语法</option><option value="word">词汇</option><option value="grammar">语法</option></select></label>
+        <label>内容包<select id="practice-pack"><option value="">全部内容包</option></select></label>
+        <label>范围<select id="practice-scope"><option value="all">全部</option><option value="favorites">我的收藏</option><option value="wrong">待巩固错题</option></select></label>
+        <label>题量<input id="practice-count" type="number" min="1" max="100" value="10" required></label>
+        <label>反馈<select id="practice-feedback"><option value="instant">逐题反馈与重练</option><option value="end">整组交卷后反馈</option></select></label>
+        <label><input id="practice-review" type="checkbox" checked>将结果加入长期复习</label>
+        <label class="lex-inline-check"><input id="practice-drafts" type="checkbox">包含未审核题目（不计入正式正确率，也不推进复习）</label>
+        <fieldset id="practice-types" class="lex-type-picker"><legend>题型（可多选）</legend></fieldset>
+        <button class="primary-button" type="submit">开始练习</button>
+      </form>
+      <p id="practice-status" role="status"></p>
+    </section>
+
+    <section class="lex-view" id="view-session" hidden aria-labelledby="session-heading">
+      <div class="lex-study-head"><h1 id="session-heading">练习中</h1><div class="lex-pack-actions">
+        <button id="session-offline" class="quiet-button" type="button">准备离线练习</button>
+        <button id="session-exit" class="quiet-button" type="button">保存并退出</button>
+      </div></div>
+      <p id="session-status" role="status"></p><div id="session-body" class="lex-review-card" aria-live="polite"></div>
+    </section>
+
+    <section class="lex-view" id="view-records" hidden aria-labelledby="records-heading">
+      <div class="lex-study-head"><h1 id="records-heading">学习记录</h1><button id="records-sync" class="quiet-button" type="button">同步与刷新</button></div>
+      <div id="records-stats" class="lex-progress-grid"></div>
+      <div class="lex-pack-actions"><button id="user-add" class="quiet-button" type="button">新增个人条目</button><button id="user-export" class="quiet-button" type="button">导出备份</button><label class="lex-inline-check"><input id="user-export-learning" type="checkbox"> 含学习记录（更大）</label><label class="quiet-button">导入 JSON / CSV<input id="user-import" type="file" accept=".json,.csv" hidden></label></div>
+      <h2>待处理同步</h2><div id="records-sync-list"></div>
+      <h2>练习记录</h2><div id="records-sessions"></div>
+      <h2>错题与薄弱项</h2><div id="records-mistakes"></div>
+      <h2>收藏与个人条目</h2><div id="records-entries"></div>
+    </section>
+
+    <dialog id="lex-editor" class="lex-editor">
+      <form id="lex-editor-form">
+        <h2 id="editor-heading">个人条目</h2>
+        <label>类型<select id="editor-kind"><option value="word">词汇</option><option value="grammar">语法</option></select></label>
+        <label>词语 / 文型<input id="editor-headword" required maxlength="500"></label>
+        <label>读音<input id="editor-reading" maxlength="500"></label>
+        <label>中文释义<textarea id="editor-meaning" rows="3" maxlength="4000"></textarea></label>
+        <label>个人笔记<textarea id="editor-note" rows="4" maxlength="6000"></textarea></label>
+        <label>标签（逗号分隔）<input id="editor-tags" maxlength="500"></label>
+        <label><input id="editor-starred" type="checkbox" checked>收藏</label>
+        <p id="editor-status" role="status"></p>
+        <div class="lex-pack-actions"><button class="primary-button" type="submit">保存</button><button class="quiet-button" type="button" id="editor-cancel">取消</button></div>
+      </form>
+    </dialog>
+
+    <!-- ---------------------------------------------------------------- -->
+    <!-- View: search results                                              -->
+    <!-- ---------------------------------------------------------------- -->
+    <section class="lex-view" id="view-search" aria-labelledby="search-heading" hidden>
+      <button class="quiet-button back-link" id="search-back" type="button">← 返回内容包</button>
+      <div class="lex-hero">
+        <h1 id="search-heading">查询结果</h1>
+        <p class="lex-hero-copy" id="search-meta"></p>
+      </div>
+      <ol class="lex-entry-list" id="search-list"></ol>
+    </section>
+
+  </main>
+  <div id="lex-toast" class="lex-toast" role="status" hidden></div>
+
+  <script src="./learning_data.js" defer></script>
+  <script src="./learning_store.js" defer></script>
+  <script src="./learning_cards.js" defer></script>
+  <script src="./srs_scheduler.js" defer></script>
+  <script src="./lexicon_markup.js" defer></script>
+  <script src="./lexicon_scoring.js" defer></script>
+  <script src="./lexicon.js" defer></script>
+  <script src="./lookup_panel.js" defer></script>
+</body>
+</html>

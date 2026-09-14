@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "note": "Human listening and commercial rights must use their source-bound evidence files; free-form claims are intentionally unsupported.",
+  "browserAcceptance": {
+    "status": "pending",
+    "approvedBy": "",
+    "completedAt": "",
+    "evidence": "",
+    "matrix": [
+      {"target": "iphone-safari", "status": "pending", "testedAt": "", "evidence": ""},
+      {"target": "android-chrome", "status": "pending", "testedAt": "", "evidence": ""},
+      {"target": "desktop-safari", "status": "pending", "testedAt": "", "evidence": ""},
+      {"target": "desktop-chrome", "status": "pending", "testedAt": "", "evidence": ""},
+      {"target": "desktop-edge", "status": "pending", "testedAt": "", "evidence": ""}
+    ]
+  },
+  "credentialRotation": {
+    "status": "pending",
+    "verifiedBy": "",
+    "completedAt": "",
+    "evidence": ""
+  }
+}

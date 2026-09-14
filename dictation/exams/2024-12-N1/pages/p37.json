@@ -1,0 +1,107 @@
+{
+  "page": 37,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>問題2</u>\n<u>1番</u>"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "花火の迫力に、みりょくを感じたから",
+      "questionNumber": 1,
+      "choices": [
+        "友人が花火の仕事についたから",
+        "花火を作る過程に興味を持っているから",
+        "達成感が持っていそうな仕事だと思ったから"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>2番</u>"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "魚のえいようが保てる加工をすること",
+      "questionNumber": 1,
+      "choices": [
+        "味の濃さを調節すること",
+        "たれが飛び散らないようにすること",
+        "魚の身のかたさを調整すること"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>3番</u>"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "部下に感謝する気持ちを持つこと",
+      "questionNumber": 1,
+      "choices": [
+        "笑顔で部下と接すること",
+        "部下の話をよく聞くこと",
+        "肯定的なことばで話を終えること"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>4番</u>"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "花の色合いが選べること",
+      "questionNumber": 1,
+      "choices": [
+        "花が長く楽しめるように処理していること",
+        "花が届く頻度が選べること",
+        "ボリュームがある花束であること"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>5番</u>"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "前半から練習通りのプレーができたから",
+      "questionNumber": 1,
+      "choices": [
+        "諦めずにせめ続けたから",
+        "個々の選手の技術が向上したから",
+        "いいタイミングで選手の交代ができたから"
+      ]
+    }
+  ],
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

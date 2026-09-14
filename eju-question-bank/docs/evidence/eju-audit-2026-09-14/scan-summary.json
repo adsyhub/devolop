@@ -1,0 +1,40 @@
+{
+  "papers": 149,
+  "questions": 2917,
+  "unique_ast_nodes": {
+    "text": 15931
+  },
+  "question_flags": {
+    "no_material_reference": 2480,
+    "no_tags": 2917,
+    "latex_in_text": 959,
+    "underline_reference": 229,
+    "explicit_figure_reference": 436,
+    "raw_html": 11,
+    "duplicate_options": 40,
+    "markdown_table": 21,
+    "guidance_as_question": 59
+  },
+  "flagged_questions": 1497,
+  "forms": {
+    "JAPANESE_JA": 194,
+    "PHYSICS_JA": 535,
+    "CHEMISTRY_JA": 510,
+    "BIOLOGY_JA": 417,
+    "JAPAN_AND_WORLD_JA": 957,
+    "MATHEMATICS_COURSE_2_JA": 142,
+    "MATHEMATICS_COURSE_1_JA": 162
+  },
+  "sections": {
+    "READING": 194,
+    "MAIN": 2723
+  },
+  "audit_status": {
+    "passed": 149
+  },
+  "math_overlapping_groups": 15,
+  "math_overlap_papers": 12,
+  "inventory_discrepancies": 169,
+  "integrity_check": "ok",
+  "foreign_key_violations": 0
+}

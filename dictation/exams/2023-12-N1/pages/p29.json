@@ -1,0 +1,41 @@
+{
+  "page": 29,
+  "blocks": [
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注1) 訊く: ここでは、質問する"
+    },
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注2) 律儀さ: 礼儀正しさ"
+    },
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注3) 何重にも畳み込まれた: ここでは、複雑に絡み合った"
+    },
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注4) キリがない: 際限がない"
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "60 小説を書くときの問題点として、AとBが共通して挙げていることは何か。\n1 うまく書けないのは技術が足りないからだと考えること\n2 他者にアドバイスを求めて、自分で考えようとしないこと\n3 本当の小説とはどのようなものかが理解できていないこと\n4 書くのに必要な技術や手法を身につけていると過信すること\n61 小説を書くために必要なことについて、AとBはどのように述べているか。\n1 AもBも、本当に書きたいことかどうかを考えながら書くことだと述べている。\n2 AもBも、うまく書けないと思っても、怠けずに書き続けることだと述べている。\n3 Aは自分が書きたいことを明確にすることだと述べ、Bは最後まで書き上げることだと述べている。\n4 Aは内容と表現の関係を考えて書くことだと述べ、Bは手順に沿って書き進めていくことだと述べている。"
+    }
+  ],
+  "pageLabel": "27",
+  "issues": [
+    "Choice-looking line with no question open: '1 うまく書けないのは技術が足りないからだと考えること'",
+    "Choice-looking line with no question open: '2 他者にアドバイスを求めて、自分で考えようとしないこと'",
+    "Choice-looking line with no question open: '3 本当の小説とはどのようなものかが理解できていないこと'",
+    "Choice-looking line with no question open: '4 書くのに必要な技術や手法を身につけていると過信すること'",
+    "Choice-looking line with no question open: '1 AもBも、本当に書きたいことかどうかを考えながら書くことだと述べている。'",
+    "Choice-looking line with no question open: '2 AもBも、うまく書けないと思っても、怠けずに書き続けることだと述べている。'",
+    "Choice-looking line with no question open: '3 Aは自分が書きたいことを明確にすることだと述べ、Bは最後まで書き上げることだと述べている。'",
+    "Choice-looking line with no question open: '4 Aは内容と表現の関係を考えて書くことだと述べ、Bは手順に沿って書き進めていくことだと述べている。'"
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "new-good",
+    "input": {"srsRepetitions": 0, "srsInterval": 0, "srsEase": 2.5, "srsLapses": 0},
+    "grade": "good",
+    "reviewedAtUtc": "2026-01-01T00:00:00+00:00",
+    "expected": {"srsRepetitions": 1, "srsInterval": 1, "srsEase": 2.5, "srsStage": 2, "srsLapses": 0, "nextReviewAt": "2026-01-02T00:00:00+00:00"}
+  },
+  {
+    "name": "learning-hard-rounds-half-up",
+    "input": {"srsRepetitions": 2, "srsInterval": 5, "srsEase": 2.5, "srsLapses": 0},
+    "grade": "hard",
+    "reviewedAtUtc": "2026-01-01T00:00:00+00:00",
+    "expected": {"srsRepetitions": 3, "srsInterval": 6, "srsEase": 2.35, "srsStage": 3, "srsLapses": 0, "nextReviewAt": "2026-01-07T00:00:00+00:00"}
+  },
+  {
+    "name": "mature-again",
+    "input": {"srsRepetitions": 4, "srsInterval": 20, "srsEase": 2.5, "srsLapses": 2},
+    "grade": "again",
+    "reviewedAtUtc": "2026-01-01T00:00:00+00:00",
+    "expected": {"srsRepetitions": 0, "srsInterval": 1, "srsEase": 2.3, "srsStage": 1, "srsLapses": 3, "nextReviewAt": "2026-01-02T00:00:00+00:00"}
+  },
+  {
+    "name": "new-easy",
+    "input": {"srsRepetitions": 0, "srsInterval": 0, "srsEase": 2.5, "srsLapses": 0},
+    "grade": "easy",
+    "reviewedAtUtc": "2026-01-01T00:00:00+00:00",
+    "expected": {"srsRepetitions": 1, "srsInterval": 3, "srsEase": 2.65, "srsStage": 3, "srsLapses": 0, "nextReviewAt": "2026-01-04T00:00:00+00:00"}
+  }
+]

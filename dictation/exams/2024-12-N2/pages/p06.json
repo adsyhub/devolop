@@ -1,0 +1,71 @@
+{
+  "page": 6,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 5,
+      "text": "問題5　の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "text": "佐藤さんがガイドしてくれました。",
+      "questionNumber": 21,
+      "choices": [
+        "案内",
+        "解決",
+        "応援",
+        "準備"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "text": "この表現は修正したほうがいいですよ。",
+      "questionNumber": 22,
+      "choices": [
+        "調べた",
+        "覚えた",
+        "直した",
+        "使った"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "text": "徐々に会社に慣れてきた。",
+      "questionNumber": 23,
+      "choices": [
+        "ずいぶん",
+        "いつのまにか",
+        "やっと",
+        "次第に"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "text": "青いペンキがはげている。",
+      "questionNumber": 24,
+      "choices": [
+        "取れて",
+        "ついて",
+        "乾いて",
+        "こぼれて"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "text": "彼女のあのしぐさは印象的だった。",
+      "questionNumber": 25,
+      "choices": [
+        "考え",
+        "動作",
+        "着装",
+        "言葉"
+      ]
+    }
+  ],
+  "issues": []
+}

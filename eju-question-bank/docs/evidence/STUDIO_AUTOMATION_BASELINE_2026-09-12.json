@@ -1,0 +1,166 @@
+{
+  "capturedAt": "2026-09-12T00:34:36.017939+00:00",
+  "database": "library/eju.db",
+  "access": "sqlite uri mode=ro; PRAGMA query_only=ON; single read transaction",
+  "queries": {
+    "counts": "SELECT (SELECT count(*) FROM sources) sources,(SELECT count(*) FROM papers) papers,(SELECT count(*) FROM paper_versions) paperVersions,(SELECT count(*) FROM page_revisions) pageRevisions,(SELECT count(*) FROM paper_reviews) paperReviews,(SELECT count(*) FROM question_versions) questionVersions,(SELECT count(*) FROM content_issues) contentIssues",
+    "jobSummary": "SELECT job_type,status,count(*) count FROM jobs GROUP BY job_type,status",
+    "pageSignatures": "SELECT CASE WHEN signed_by IS NULL THEN \"UNSIGNED\" WHEN signed_by LIKE \"machine:%\" THEN \"MACHINE\" ELSE \"HUMAN\" END signatureType,count(*) count FROM page_revisions GROUP BY signatureType",
+    "latestPageSignatures": "WITH latest AS (SELECT *,ROW_NUMBER() OVER (PARTITION BY source_id,role,page_number ORDER BY created_at DESC,rowid DESC) rn FROM page_revisions) SELECT CASE WHEN signed_by IS NULL THEN \"UNSIGNED\" WHEN signed_by LIKE \"machine:%\" THEN \"MACHINE\" ELSE \"HUMAN\" END signatureType,count(*) count FROM latest WHERE rn=1 GROUP BY signatureType",
+    "explanationStatuses": "SELECT status,count(*) count FROM explanation_revisions GROUP BY status",
+    "deliveryStates": "SELECT state,count(*) count FROM paper_delivery_state GROUP BY state",
+    "publicationOutbox": "SELECT status,count(*) count FROM publication_outbox GROUP BY status",
+    "migrations": "SELECT version,name FROM schema_migrations ORDER BY version"
+  },
+  "counts": [
+    {
+      "sources": 216,
+      "papers": 217,
+      "paperVersions": 819,
+      "pageRevisions": 19364,
+      "paperReviews": 286,
+      "questionVersions": 25410,
+      "contentIssues": 0
+    }
+  ],
+  "jobSummary": [
+    {
+      "job_type": "OCR_SLOTS",
+      "status": "SUCCEEDED",
+      "count": 1
+    },
+    {
+      "job_type": "OCR_TEXT",
+      "status": "SUCCEEDED",
+      "count": 1
+    },
+    {
+      "job_type": "PROBE",
+      "status": "SUCCEEDED",
+      "count": 2
+    }
+  ],
+  "pageSignatures": [
+    {
+      "signatureType": "MACHINE",
+      "count": 3926
+    },
+    {
+      "signatureType": "UNSIGNED",
+      "count": 15438
+    }
+  ],
+  "latestPageSignatures": [
+    {
+      "signatureType": "MACHINE",
+      "count": 2769
+    },
+    {
+      "signatureType": "UNSIGNED",
+      "count": 5400
+    }
+  ],
+  "explanationStatuses": [
+    {
+      "status": "REVIEWED",
+      "count": 1754
+    }
+  ],
+  "deliveryStates": [
+    {
+      "state": "SUSPENDED",
+      "count": 349
+    }
+  ],
+  "publicationOutbox": [
+    {
+      "status": "SYNCED",
+      "count": 818
+    }
+  ],
+  "migrations": [
+    {
+      "version": 1,
+      "name": "initial_v1_baseline"
+    },
+    {
+      "version": 2,
+      "name": "v2_media_events_learning_tables"
+    },
+    {
+      "version": 3,
+      "name": "session_state_and_delivery"
+    },
+    {
+      "version": 4,
+      "name": "content_review_certificates"
+    },
+    {
+      "version": 5,
+      "name": "source_structure_baselines"
+    },
+    {
+      "version": 6,
+      "name": "production_and_learning_workflows"
+    },
+    {
+      "version": 7,
+      "name": "versioned_learning_annotations"
+    },
+    {
+      "version": 8,
+      "name": "parallel_review_annotations"
+    }
+  ],
+  "latestVersionSummary": {
+    "count": 217,
+    "completeness": {
+      "PARTIAL": 191,
+      "COMPLETE": 26
+    },
+    "deliveryState": {
+      "SUSPENDED": 68,
+      "ACTIVE": 149
+    },
+    "reviewGrade": {
+      "MISSING": 68,
+      "MACHINE_ATTESTED": 149
+    },
+    "note": "ACTIVE means no explicit delivery-state row; this is a statistical default, not a full certificate revalidation. Latest selection uses MAX(version_number) per paper_id."
+  },
+  "inventory": {
+    "updatedAt": "2026-09-11T04:03:06.163916Z",
+    "count": 215,
+    "pipelineStatus": {
+      "PUBLISHED": 215
+    },
+    "completeness": {
+      "PARTIAL": 189,
+      "COMPLETE": 26
+    },
+    "reviewState": {
+      "REVIEWED": 215
+    }
+  },
+  "audioTrackCount": 0,
+  "latestVersionCrossTab": [
+    {
+      "completeness": "COMPLETE",
+      "deliveryState": "SUSPENDED",
+      "reviewGrade": "MISSING",
+      "count": 26
+    },
+    {
+      "completeness": "PARTIAL",
+      "deliveryState": "ACTIVE",
+      "reviewGrade": "MACHINE_ATTESTED",
+      "count": 149
+    },
+    {
+      "completeness": "PARTIAL",
+      "deliveryState": "SUSPENDED",
+      "reviewGrade": "MISSING",
+      "count": 42
+    }
+  ]
+}

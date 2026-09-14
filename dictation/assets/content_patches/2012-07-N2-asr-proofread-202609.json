@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "description": "2012-07-N2：LLM 逐句校对发现的 ASR 误识别修正 2 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "84f626b9c64468f218b57822207291729bda07e1f72955215af3cd76286122c8",
+  "evidence": {
+    "file": "proofread-work/2012-07-N2/proofread.json",
+    "proposedFixes": "proofread-work/2012-07-N2/proposed-fixes.json",
+    "notes": "proofread-work/2012-07-N2/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 147,
+      "endIndex": 147,
+      "expectedStartTime": 1047.42,
+      "expectedEndTime": 1056.83,
+      "items": [
+        {
+          "startTime": 1047.42,
+          "endTime": 1056.83,
+          "sourceText": "経済的にも決して楽な仕事とは言えませんから。ただ、自分の手で物を作り出す喜びは何物にも代えられませんね。",
+          "jaText": "経済的にも決して楽な仕事とは言えませんから。ただ、自分の手で物を作り出す喜びは何物にも代えられませんね。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 209,
+      "endIndex": 209,
+      "expectedStartTime": 1617.4,
+      "expectedEndTime": 1628.75,
+      "items": [
+        {
+          "startTime": 1617.4,
+          "endTime": 1628.75,
+          "sourceText": "女の人は、課長についてどう思っていますか?",
+          "jaText": "女の人は、課長についてどう思っていますか?"
+        }
+      ]
+    }
+  ]
+}

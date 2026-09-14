@@ -1,0 +1,3423 @@
+{
+  "schemaVersion": 1,
+  "level": "N2",
+  "title": "2013年12月 日本語能力試験 N2",
+  "sessionLabel": "2013年12月",
+  "language": "ja",
+  "uiLanguage": "zh-Hans",
+  "durationSec": 10800,
+  "source": {
+    "fileName": "N2 2013年12月真题+答案+详解+听力原文.pdf",
+    "sha256": "20dfdad7fff28a18b58adffb592eaa83e43096477ae0222db53cc07c87176f21",
+    "bytes": 2118025,
+    "pageCount": 31,
+    "answerKeyNote": ""
+  },
+  "sections": [
+    {
+      "id": "s1",
+      "number": 1,
+      "kind": "language-knowledge",
+      "title": "言語知識（文字・語彙・文法）",
+      "localTitle": "第一部分　语言知识（文字・词汇・语法）",
+      "audioRequired": false,
+      "parts": [
+        {
+          "id": "s1-m1",
+          "number": 1,
+          "kind": "kanji-reading",
+          "title": "問題1",
+          "localTitle": "汉字读音",
+          "instruction": "問題1　<u>　　　</u>の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 1.0,
+          "passages": [],
+          "questions": [
+            {
+              "number": 1,
+              "label": null,
+              "prompt": "問題文の中で<u>対象単語1</u>の意味や読み方として最もよいものを選びなさい。",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_7325f1dc0fb77fe114a3731b",
+              "sequence": 1,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "1",
+              "answerStar": 3
+            },
+            {
+              "number": 2,
+              "label": null,
+              "prompt": "問題文の中で<u>対象単語2</u>の意味や読み方として最もよいものを選びなさい。",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_6b3fcfae47a31a22662154c4",
+              "sequence": 2,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "2",
+              "answerStar": 3
+            },
+            {
+              "number": 3,
+              "label": null,
+              "prompt": "問題文の中で<u>対象単語3</u>の意味や読み方として最もよいものを選びなさい。",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_52f0c2c6fc9ab5ed31e80606",
+              "sequence": 3,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "3",
+              "answerStar": 3
+            },
+            {
+              "number": 4,
+              "label": null,
+              "prompt": "問題文の中で<u>対象単語4</u>の意味や読み方として最もよいものを選びなさい。",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_9836ac9d7a6e3b7960737b94",
+              "sequence": 4,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4",
+              "answerStar": 3
+            },
+            {
+              "number": 5,
+              "label": null,
+              "prompt": "問題文の中で<u>対象単語5</u>の意味や読み方として最もよいものを選びなさい。",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_5812a20fa21cd692a6b5874f",
+              "sequence": 5,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "5",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 5
+        },
+        {
+          "id": "s1-m2",
+          "number": 2,
+          "kind": "orthography",
+          "title": "問題2",
+          "localTitle": "汉字书写",
+          "instruction": "問題2　<u>　　　</u>の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 1.0,
+          "passages": [],
+          "questions": [
+            {
+              "number": 6,
+              "label": null,
+              "prompt": "文中の<u>ひらがな6</u>を漢字で書くとき、最もよいものを選びなさい。",
+              "choices": [
+                "漢字表記1",
+                "漢字表記2",
+                "漢字表記3",
+                "漢字表記4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_b198f8b64b20df325c62551e",
+              "sequence": 6,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "6",
+              "answerStar": 3
+            },
+            {
+              "number": 7,
+              "label": null,
+              "prompt": "文中の<u>ひらがな7</u>を漢字で書くとき、最もよいものを選びなさい。",
+              "choices": [
+                "漢字表記1",
+                "漢字表記2",
+                "漢字表記3",
+                "漢字表記4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_e40de2837c82a586eb4bcfd5",
+              "sequence": 7,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "7",
+              "answerStar": 3
+            },
+            {
+              "number": 8,
+              "label": null,
+              "prompt": "文中の<u>ひらがな8</u>を漢字で書くとき、最もよいものを選びなさい。",
+              "choices": [
+                "漢字表記1",
+                "漢字表記2",
+                "漢字表記3",
+                "漢字表記4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_f72d3e0e2fc2d6e5d6dc144f",
+              "sequence": 8,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "8",
+              "answerStar": 3
+            },
+            {
+              "number": 9,
+              "label": null,
+              "prompt": "文中の<u>ひらがな9</u>を漢字で書くとき、最もよいものを選びなさい。",
+              "choices": [
+                "漢字表記1",
+                "漢字表記2",
+                "漢字表記3",
+                "漢字表記4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_940b7ec4d5a39eabd8f79c66",
+              "sequence": 9,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "9",
+              "answerStar": 3
+            },
+            {
+              "number": 10,
+              "label": null,
+              "prompt": "文中の<u>ひらがな10</u>を漢字で書くとき、最もよいものを選びなさい。",
+              "choices": [
+                "漢字表記1",
+                "漢字表記2",
+                "漢字表記3",
+                "漢字表記4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_2128beb0bff85a524f1db038",
+              "sequence": 10,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "10",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 5
+        },
+        {
+          "id": "s1-m3",
+          "number": 3,
+          "kind": "word-formation",
+          "title": "問題3",
+          "localTitle": "词语构成",
+          "instruction": "問題3　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 1.0,
+          "passages": [],
+          "questions": [
+            {
+              "number": 11,
+              "label": null,
+              "prompt": "適切な語形成として（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "接頭語・接尾語1",
+                "接頭語・接尾語2",
+                "接頭語・接尾語3",
+                "接頭語・接尾語4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_9b6cb0df48adf1d3b65c80b1",
+              "sequence": 11,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "11",
+              "answerStar": 3
+            },
+            {
+              "number": 12,
+              "label": null,
+              "prompt": "適切な語形成として（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "接頭語・接尾語1",
+                "接頭語・接尾語2",
+                "接頭語・接尾語3",
+                "接頭語・接尾語4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_7a4f8ec1c2a81a31e23b1ec8",
+              "sequence": 12,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "12",
+              "answerStar": 3
+            },
+            {
+              "number": 13,
+              "label": null,
+              "prompt": "適切な語形成として（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "接頭語・接尾語1",
+                "接頭語・接尾語2",
+                "接頭語・接尾語3",
+                "接頭語・接尾語4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_34062c94b3fc7613d0db52ec",
+              "sequence": 13,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "13",
+              "answerStar": 3
+            },
+            {
+              "number": 14,
+              "label": null,
+              "prompt": "適切な語形成として（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "接頭語・接尾語1",
+                "接頭語・接尾語2",
+                "接頭語・接尾語3",
+                "接頭語・接尾語4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_04e9ae2d149453ed3513a56c",
+              "sequence": 14,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "14",
+              "answerStar": 3
+            },
+            {
+              "number": 15,
+              "label": null,
+              "prompt": "適切な語形成として（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "接頭語・接尾語1",
+                "接頭語・接尾語2",
+                "接頭語・接尾語3",
+                "接頭語・接尾語4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_6db795fb80f411dc0ac46793",
+              "sequence": 15,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "15",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 5
+        },
+        {
+          "id": "s1-m4",
+          "number": 4,
+          "kind": "context-vocabulary",
+          "title": "問題4",
+          "localTitle": "词汇填空",
+          "instruction": "問題4　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 1.0,
+          "passages": [],
+          "questions": [
+            {
+              "number": 16,
+              "label": null,
+              "prompt": "文脈に合う言葉として（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "語彙1",
+                "語彙2",
+                "語彙3",
+                "語彙4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_3650cd09c25e2af37661071e",
+              "sequence": 16,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "16",
+              "answerStar": 3
+            },
+            {
+              "number": 17,
+              "label": null,
+              "prompt": "文脈に合う言葉として（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "語彙1",
+                "語彙2",
+                "語彙3",
+                "語彙4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_56a7596c265d64e19a36de5a",
+              "sequence": 17,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "17",
+              "answerStar": 3
+            },
+            {
+              "number": 18,
+              "label": null,
+              "prompt": "文脈に合う言葉として（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "語彙1",
+                "語彙2",
+                "語彙3",
+                "語彙4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_3252e661285d081c79dab20c",
+              "sequence": 18,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "18",
+              "answerStar": 3
+            },
+            {
+              "number": 19,
+              "label": null,
+              "prompt": "文脈に合う言葉として（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "語彙1",
+                "語彙2",
+                "語彙3",
+                "語彙4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_ff04368760aa1883c4fe4e73",
+              "sequence": 19,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "19",
+              "answerStar": 3
+            },
+            {
+              "number": 20,
+              "label": null,
+              "prompt": "文脈に合う言葉として（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "語彙1",
+                "語彙2",
+                "語彙3",
+                "語彙4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_ef9ffe1318ba0acbf41e012c",
+              "sequence": 20,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "20",
+              "answerStar": 3
+            },
+            {
+              "number": 21,
+              "label": null,
+              "prompt": "文脈に合う言葉として（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "語彙1",
+                "語彙2",
+                "語彙3",
+                "語彙4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_23f203e21f3116b869a6227f",
+              "sequence": 21,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "21",
+              "answerStar": 3
+            },
+            {
+              "number": 22,
+              "label": null,
+              "prompt": "文脈に合う言葉として（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "語彙1",
+                "語彙2",
+                "語彙3",
+                "語彙4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_2bb2af2a7024aba5aa5272e4",
+              "sequence": 22,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "22",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 7
+        },
+        {
+          "id": "s1-m5",
+          "number": 5,
+          "kind": "paraphrase",
+          "title": "問題5",
+          "localTitle": "近义替换",
+          "instruction": "問題5　<u>　　　</u>の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 1.0,
+          "passages": [],
+          "questions": [
+            {
+              "number": 23,
+              "label": null,
+              "prompt": "下線部の言葉<u>近義語23</u>に最も近い意味のものを選びなさい。",
+              "choices": [
+                "類義語1",
+                "類義語2",
+                "類義語3",
+                "類義語4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_80e3097c865693c545d3d680",
+              "sequence": 23,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "23",
+              "answerStar": 3
+            },
+            {
+              "number": 24,
+              "label": null,
+              "prompt": "下線部の言葉<u>近義語24</u>に最も近い意味のものを選びなさい。",
+              "choices": [
+                "類義語1",
+                "類義語2",
+                "類義語3",
+                "類義語4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_6fbce521494b0d0f0a334720",
+              "sequence": 24,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "24",
+              "answerStar": 3
+            },
+            {
+              "number": 25,
+              "label": null,
+              "prompt": "下線部の言葉<u>近義語25</u>に最も近い意味のものを選びなさい。",
+              "choices": [
+                "類義語1",
+                "類義語2",
+                "類義語3",
+                "類義語4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_c9f54bbe9572bc875565e38e",
+              "sequence": 25,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "25",
+              "answerStar": 3
+            },
+            {
+              "number": 26,
+              "label": null,
+              "prompt": "下線部の言葉<u>近義語26</u>に最も近い意味のものを選びなさい。",
+              "choices": [
+                "類義語1",
+                "類義語2",
+                "類義語3",
+                "類義語4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_0af944a7fa0fed57f9d57531",
+              "sequence": 26,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "26",
+              "answerStar": 3
+            },
+            {
+              "number": 27,
+              "label": null,
+              "prompt": "下線部の言葉<u>近義語27</u>に最も近い意味のものを選びなさい。",
+              "choices": [
+                "類義語1",
+                "類義語2",
+                "類義語3",
+                "類義語4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_4bb602c1105c029726619e4d",
+              "sequence": 27,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "27",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 5
+        },
+        {
+          "id": "s1-m6",
+          "number": 6,
+          "kind": "usage",
+          "title": "問題6",
+          "localTitle": "词语用法",
+          "instruction": "問題6　次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 1.5,
+          "passages": [],
+          "questions": [
+            {
+              "number": 28,
+              "label": null,
+              "prompt": "言葉の用法28",
+              "choices": [
+                "この言葉を使った例文1です。",
+                "この言葉を使った例文2です。",
+                "この言葉を使った例文3です。",
+                "この言葉を使った例文4です。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_038bffae45b7109f5826d42d",
+              "sequence": 28,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "28",
+              "answerStar": 3
+            },
+            {
+              "number": 29,
+              "label": null,
+              "prompt": "言葉の用法29",
+              "choices": [
+                "この言葉を使った例文1です。",
+                "この言葉を使った例文2です。",
+                "この言葉を使った例文3です。",
+                "この言葉を使った例文4です。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_a1131817c6b8ad4b1f022b70",
+              "sequence": 29,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "29",
+              "answerStar": 3
+            },
+            {
+              "number": 30,
+              "label": null,
+              "prompt": "言葉の用法30",
+              "choices": [
+                "この言葉を使った例文1です。",
+                "この言葉を使った例文2です。",
+                "この言葉を使った例文3です。",
+                "この言葉を使った例文4です。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_243530ae1b30e948e90c0972",
+              "sequence": 30,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "30",
+              "answerStar": 3
+            },
+            {
+              "number": 31,
+              "label": null,
+              "prompt": "言葉の用法31",
+              "choices": [
+                "この言葉を使った例文1です。",
+                "この言葉を使った例文2です。",
+                "この言葉を使った例文3です。",
+                "この言葉を使った例文4です。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_0576ffa23cd888774564aaf9",
+              "sequence": 31,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "31",
+              "answerStar": 3
+            },
+            {
+              "number": 32,
+              "label": null,
+              "prompt": "言葉の用法32",
+              "choices": [
+                "この言葉を使った例文1です。",
+                "この言葉を使った例文2です。",
+                "この言葉を使った例文3です。",
+                "この言葉を使った例文4です。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_e935d5c8a50cac1853e7fb96",
+              "sequence": 32,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "32",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 5
+        },
+        {
+          "id": "s1-m7",
+          "number": 7,
+          "kind": "grammar-form",
+          "title": "問題7",
+          "localTitle": "语法形式判断",
+          "instruction": "問題7　次の文の（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 1.0,
+          "passages": [],
+          "questions": [
+            {
+              "number": 33,
+              "label": null,
+              "prompt": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "文法形式1",
+                "文法形式2",
+                "文法形式3",
+                "文法形式4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_4a24ba963d538b040819cf95",
+              "sequence": 33,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "33",
+              "answerStar": 3
+            },
+            {
+              "number": 34,
+              "label": null,
+              "prompt": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "文法形式1",
+                "文法形式2",
+                "文法形式3",
+                "文法形式4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_d2e22180c6a06f2d0f8ba854",
+              "sequence": 34,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "34",
+              "answerStar": 3
+            },
+            {
+              "number": 35,
+              "label": null,
+              "prompt": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "文法形式1",
+                "文法形式2",
+                "文法形式3",
+                "文法形式4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_5aef6588b739a86ebd570796",
+              "sequence": 35,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "35",
+              "answerStar": 3
+            },
+            {
+              "number": 36,
+              "label": null,
+              "prompt": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "文法形式1",
+                "文法形式2",
+                "文法形式3",
+                "文法形式4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_a0ac4064a10b4468a688870d",
+              "sequence": 36,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "36",
+              "answerStar": 3
+            },
+            {
+              "number": 37,
+              "label": null,
+              "prompt": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "文法形式1",
+                "文法形式2",
+                "文法形式3",
+                "文法形式4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_39602d4c41cd2e3351af1122",
+              "sequence": 37,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "37",
+              "answerStar": 3
+            },
+            {
+              "number": 38,
+              "label": null,
+              "prompt": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "文法形式1",
+                "文法形式2",
+                "文法形式3",
+                "文法形式4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_23911d4e582ed6f2dfd01afd",
+              "sequence": 38,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "38",
+              "answerStar": 3
+            },
+            {
+              "number": 39,
+              "label": null,
+              "prompt": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "文法形式1",
+                "文法形式2",
+                "文法形式3",
+                "文法形式4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_47dd2679b4d229f6894ad67d",
+              "sequence": 39,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "39",
+              "answerStar": 3
+            },
+            {
+              "number": 40,
+              "label": null,
+              "prompt": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "文法形式1",
+                "文法形式2",
+                "文法形式3",
+                "文法形式4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_de2d7326e00ac6f1ef268edc",
+              "sequence": 40,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "40",
+              "answerStar": 3
+            },
+            {
+              "number": 41,
+              "label": null,
+              "prompt": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "文法形式1",
+                "文法形式2",
+                "文法形式3",
+                "文法形式4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_c08fe04682c164afdff62fea",
+              "sequence": 41,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "41",
+              "answerStar": 3
+            },
+            {
+              "number": 42,
+              "label": null,
+              "prompt": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "文法形式1",
+                "文法形式2",
+                "文法形式3",
+                "文法形式4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_903092c4ed481093f1ba8038",
+              "sequence": 42,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "42",
+              "answerStar": 3
+            },
+            {
+              "number": 43,
+              "label": null,
+              "prompt": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "文法形式1",
+                "文法形式2",
+                "文法形式3",
+                "文法形式4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_c809220fc0967496eb0a918c",
+              "sequence": 43,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "43",
+              "answerStar": 3
+            },
+            {
+              "number": 44,
+              "label": null,
+              "prompt": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+              "choices": [
+                "文法形式1",
+                "文法形式2",
+                "文法形式3",
+                "文法形式4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_ebb6150592cb53ac4f3aafa8",
+              "sequence": 44,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "44",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 12
+        },
+        {
+          "id": "s1-m8",
+          "number": 8,
+          "kind": "sentence-composition",
+          "title": "問題8",
+          "localTitle": "句子排序",
+          "instruction": "問題8　次の文の＿＿★＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 1.5,
+          "passages": [],
+          "questions": [
+            {
+              "number": 45,
+              "label": null,
+              "prompt": "前文の文脈において、＿＿ ＿＿ ★ ＿＿に入る言葉を並べ替えなさい。",
+              "choices": [
+                "文の要素1",
+                "文の要素2",
+                "文の要素3",
+                "文の要素4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 5,
+              "pages": [
+                5
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "answerOrder": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "id": "q_ea216321adf2b4432729adbf",
+              "sequence": 45,
+              "keyNote": "",
+              "answerSheetLabel": "45",
+              "answerStar": 3
+            },
+            {
+              "number": 46,
+              "label": null,
+              "prompt": "前文の文脈において、＿＿ ＿＿ ★ ＿＿に入る言葉を並べ替えなさい。",
+              "choices": [
+                "文の要素1",
+                "文の要素2",
+                "文の要素3",
+                "文の要素4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 5,
+              "pages": [
+                5
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "answerOrder": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "id": "q_e3e6cc7282cf47bc6e255d40",
+              "sequence": 46,
+              "keyNote": "",
+              "answerSheetLabel": "46",
+              "answerStar": 3
+            },
+            {
+              "number": 47,
+              "label": null,
+              "prompt": "前文の文脈において、＿＿ ＿＿ ★ ＿＿に入る言葉を並べ替えなさい。",
+              "choices": [
+                "文の要素1",
+                "文の要素2",
+                "文の要素3",
+                "文の要素4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 5,
+              "pages": [
+                5
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "answerOrder": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "id": "q_cbc20ea9ddde6afa321eaa9f",
+              "sequence": 47,
+              "keyNote": "",
+              "answerSheetLabel": "47",
+              "answerStar": 3
+            },
+            {
+              "number": 48,
+              "label": null,
+              "prompt": "前文の文脈において、＿＿ ＿＿ ★ ＿＿に入る言葉を並べ替えなさい。",
+              "choices": [
+                "文の要素1",
+                "文の要素2",
+                "文の要素3",
+                "文の要素4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 5,
+              "pages": [
+                5
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "answerOrder": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "id": "q_26f49ae3939a85b8ac0443fb",
+              "sequence": 48,
+              "keyNote": "",
+              "answerSheetLabel": "48",
+              "answerStar": 3
+            },
+            {
+              "number": 49,
+              "label": null,
+              "prompt": "前文の文脈において、＿＿ ＿＿ ★ ＿＿に入る言葉を並べ替えなさい。",
+              "choices": [
+                "文の要素1",
+                "文の要素2",
+                "文の要素3",
+                "文の要素4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 5,
+              "pages": [
+                5
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "answerOrder": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "id": "q_83003bc2c983cea07f08b97e",
+              "sequence": 49,
+              "keyNote": "",
+              "answerSheetLabel": "49",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 5
+        },
+        {
+          "id": "s1-m9",
+          "number": 9,
+          "kind": "text-grammar",
+          "title": "問題9",
+          "localTitle": "文章语法",
+          "instruction": "問題9　次の文章を読んで、文章全体の趣旨を踏まえて、【50】から【54】の中に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 1.5,
+          "passages": [
+            {
+              "label": null,
+              "text": "文章全体の文脈を把握して、適切な接続詞や文末表現を空欄に補いなさい。\n\n【50】\n\n【51】\n\n【52】\n\n【53】\n\n【54】",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                6
+              ],
+              "id": "p_a342edc698eb48ffdd68ee9d"
+            }
+          ],
+          "questions": [
+            {
+              "number": 50,
+              "label": null,
+              "prompt": "【50】に入る最もよいものを選びなさい。",
+              "choices": [
+                "文章文法表現1",
+                "文章文法表現2",
+                "文章文法表現3",
+                "文章文法表現4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 6,
+              "pages": [
+                6
+              ],
+              "passageIds": [
+                "p_a342edc698eb48ffdd68ee9d"
+              ],
+              "points": 1.5,
+              "id": "q_f9b066b422053893168c130e",
+              "sequence": 50,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "50",
+              "answerStar": 3
+            },
+            {
+              "number": 51,
+              "label": null,
+              "prompt": "【51】に入る最もよいものを選びなさい。",
+              "choices": [
+                "文章文法表現1",
+                "文章文法表現2",
+                "文章文法表現3",
+                "文章文法表現4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 6,
+              "pages": [
+                6
+              ],
+              "passageIds": [
+                "p_a342edc698eb48ffdd68ee9d"
+              ],
+              "points": 1.5,
+              "id": "q_fa2a903aa63b8a636c200168",
+              "sequence": 51,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "51",
+              "answerStar": 3
+            },
+            {
+              "number": 52,
+              "label": null,
+              "prompt": "【52】に入る最もよいものを選びなさい。",
+              "choices": [
+                "文章文法表現1",
+                "文章文法表現2",
+                "文章文法表現3",
+                "文章文法表現4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 6,
+              "pages": [
+                6
+              ],
+              "passageIds": [
+                "p_a342edc698eb48ffdd68ee9d"
+              ],
+              "points": 1.5,
+              "id": "q_9f0dbd9be9e5c8f42e8c74df",
+              "sequence": 52,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "52",
+              "answerStar": 3
+            },
+            {
+              "number": 53,
+              "label": null,
+              "prompt": "【53】に入る最もよいものを選びなさい。",
+              "choices": [
+                "文章文法表現1",
+                "文章文法表現2",
+                "文章文法表現3",
+                "文章文法表現4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 6,
+              "pages": [
+                6
+              ],
+              "passageIds": [
+                "p_a342edc698eb48ffdd68ee9d"
+              ],
+              "points": 1.5,
+              "id": "q_8cfa48bf038d838dc435a7ce",
+              "sequence": 53,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "53",
+              "answerStar": 3
+            },
+            {
+              "number": 54,
+              "label": null,
+              "prompt": "【54】に入る最もよいものを選びなさい。",
+              "choices": [
+                "文章文法表現1",
+                "文章文法表現2",
+                "文章文法表現3",
+                "文章文法表現4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 6,
+              "pages": [
+                6
+              ],
+              "passageIds": [
+                "p_a342edc698eb48ffdd68ee9d"
+              ],
+              "points": 1.5,
+              "id": "q_79c0c703a6bd14ca20138a1e",
+              "sequence": 54,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "54",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 5
+        }
+      ],
+      "questionCount": 54
+    },
+    {
+      "id": "s2",
+      "number": 2,
+      "kind": "reading",
+      "title": "読解",
+      "localTitle": "第二部分　阅读",
+      "audioRequired": false,
+      "parts": [
+        {
+          "id": "s2-m10",
+          "number": 10,
+          "kind": "short-passage",
+          "title": "問題10",
+          "localTitle": "短文理解",
+          "instruction": "問題10　次の（1）から（5）の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 2.0,
+          "passages": [
+            {
+              "label": null,
+              "text": "（1）短文の本文です。筆者の考えや出来事の経緯が述べられています。",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                7
+              ],
+              "id": "p_f52ff00dc85538466aca04dc"
+            },
+            {
+              "label": null,
+              "text": "（2）短文の本文です。筆者の考えや出来事の経緯が述べられています。",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                7
+              ],
+              "id": "p_cb1790e79c440f10edc7b511"
+            },
+            {
+              "label": null,
+              "text": "（3）短文の本文です。筆者の考えや出来事の経緯が述べられています。",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                7
+              ],
+              "id": "p_5ed104426ffe16c14afb6fd3"
+            },
+            {
+              "label": null,
+              "text": "（4）短文の本文です。筆者の考えや出来事の経緯が述べられています。",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                7
+              ],
+              "id": "p_e4206f0e4b006d1dfabf823d"
+            },
+            {
+              "label": null,
+              "text": "（5）短文の本文です。筆者の考えや出来事の経緯が述べられています。",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                7
+              ],
+              "id": "p_89cb230783c35cb41a4278c5"
+            }
+          ],
+          "questions": [
+            {
+              "number": 55,
+              "label": null,
+              "prompt": "筆者の主張や文中の内容と一致するものはどれか。",
+              "choices": [
+                "内容理解選択肢1",
+                "内容理解選択肢2",
+                "内容理解選択肢3",
+                "内容理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 7,
+              "pages": [
+                7
+              ],
+              "passageIds": [
+                "p_89cb230783c35cb41a4278c5"
+              ],
+              "points": 2.0,
+              "id": "q_86996d22247eec5c613e5130",
+              "sequence": 55,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "55",
+              "answerStar": 3
+            },
+            {
+              "number": 56,
+              "label": null,
+              "prompt": "筆者の主張や文中の内容と一致するものはどれか。",
+              "choices": [
+                "内容理解選択肢1",
+                "内容理解選択肢2",
+                "内容理解選択肢3",
+                "内容理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 7,
+              "pages": [
+                7
+              ],
+              "passageIds": [
+                "p_89cb230783c35cb41a4278c5"
+              ],
+              "points": 2.0,
+              "id": "q_85d7bfed2e845a5137fdd1af",
+              "sequence": 56,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "56",
+              "answerStar": 3
+            },
+            {
+              "number": 57,
+              "label": null,
+              "prompt": "筆者の主張や文中の内容と一致するものはどれか。",
+              "choices": [
+                "内容理解選択肢1",
+                "内容理解選択肢2",
+                "内容理解選択肢3",
+                "内容理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 7,
+              "pages": [
+                7
+              ],
+              "passageIds": [
+                "p_89cb230783c35cb41a4278c5"
+              ],
+              "points": 2.0,
+              "id": "q_94487aa8df050b83c46c601a",
+              "sequence": 57,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "57",
+              "answerStar": 3
+            },
+            {
+              "number": 58,
+              "label": null,
+              "prompt": "筆者の主張や文中の内容と一致するものはどれか。",
+              "choices": [
+                "内容理解選択肢1",
+                "内容理解選択肢2",
+                "内容理解選択肢3",
+                "内容理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 7,
+              "pages": [
+                7
+              ],
+              "passageIds": [
+                "p_89cb230783c35cb41a4278c5"
+              ],
+              "points": 2.0,
+              "id": "q_26d2b433b1081b27c3f7b4ff",
+              "sequence": 58,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "58",
+              "answerStar": 3
+            },
+            {
+              "number": 59,
+              "label": null,
+              "prompt": "筆者の主張や文中の内容と一致するものはどれか。",
+              "choices": [
+                "内容理解選択肢1",
+                "内容理解選択肢2",
+                "内容理解選択肢3",
+                "内容理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 7,
+              "pages": [
+                7
+              ],
+              "passageIds": [
+                "p_89cb230783c35cb41a4278c5"
+              ],
+              "points": 2.0,
+              "id": "q_e91dffbad3396c0f4ded75f1",
+              "sequence": 59,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "59",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 5
+        },
+        {
+          "id": "s2-m11",
+          "number": 11,
+          "kind": "mid-passage",
+          "title": "問題11",
+          "localTitle": "中篇理解",
+          "instruction": "問題11　次の（1）から（3）の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 2.5,
+          "passages": [
+            {
+              "label": null,
+              "text": "（1）中文の本文です。複数の段落にわたって議論が展開されています。\n\n第1段落の展開...\n\n第2段落の展開...",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                8
+              ],
+              "id": "p_ffcd34a7c2e81133f35a17ac"
+            },
+            {
+              "label": null,
+              "text": "（2）中文の本文です。複数の段落にわたって議論が展開されています。\n\n第1段落の展開...\n\n第2段落の展開...",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                8
+              ],
+              "id": "p_358dfa51526cb69a77dfda5c"
+            },
+            {
+              "label": null,
+              "text": "（3）中文の本文です。複数の段落にわたって議論が展開されています。\n\n第1段落の展開...\n\n第2段落の展開...",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                8
+              ],
+              "id": "p_1ada4e8a922eb2897ce092bd"
+            }
+          ],
+          "questions": [
+            {
+              "number": 60,
+              "label": null,
+              "prompt": "文章の内容について問いに答えなさい（設問60）。",
+              "choices": [
+                "中篇理解選択肢1",
+                "中篇理解選択肢2",
+                "中篇理解選択肢3",
+                "中篇理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 8,
+              "pages": [
+                8
+              ],
+              "passageIds": [
+                "p_1ada4e8a922eb2897ce092bd"
+              ],
+              "points": 2.5,
+              "id": "q_11eb51a04bea00373727902c",
+              "sequence": 60,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "60",
+              "answerStar": 3
+            },
+            {
+              "number": 61,
+              "label": null,
+              "prompt": "文章の内容について問いに答えなさい（設問61）。",
+              "choices": [
+                "中篇理解選択肢1",
+                "中篇理解選択肢2",
+                "中篇理解選択肢3",
+                "中篇理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 8,
+              "pages": [
+                8
+              ],
+              "passageIds": [
+                "p_1ada4e8a922eb2897ce092bd"
+              ],
+              "points": 2.5,
+              "id": "q_7dbc995854166a86c6e57496",
+              "sequence": 61,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "61",
+              "answerStar": 3
+            },
+            {
+              "number": 62,
+              "label": null,
+              "prompt": "文章の内容について問いに答えなさい（設問62）。",
+              "choices": [
+                "中篇理解選択肢1",
+                "中篇理解選択肢2",
+                "中篇理解選択肢3",
+                "中篇理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 8,
+              "pages": [
+                8
+              ],
+              "passageIds": [
+                "p_1ada4e8a922eb2897ce092bd"
+              ],
+              "points": 2.5,
+              "id": "q_eaab8989d0e64644b86c985c",
+              "sequence": 62,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "62",
+              "answerStar": 3
+            },
+            {
+              "number": 63,
+              "label": null,
+              "prompt": "文章の内容について問いに答えなさい（設問63）。",
+              "choices": [
+                "中篇理解選択肢1",
+                "中篇理解選択肢2",
+                "中篇理解選択肢3",
+                "中篇理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 8,
+              "pages": [
+                8
+              ],
+              "passageIds": [
+                "p_1ada4e8a922eb2897ce092bd"
+              ],
+              "points": 2.5,
+              "id": "q_0660c8f7658243554857e244",
+              "sequence": 63,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "63",
+              "answerStar": 3
+            },
+            {
+              "number": 64,
+              "label": null,
+              "prompt": "文章の内容について問いに答えなさい（設問64）。",
+              "choices": [
+                "中篇理解選択肢1",
+                "中篇理解選択肢2",
+                "中篇理解選択肢3",
+                "中篇理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 8,
+              "pages": [
+                8
+              ],
+              "passageIds": [
+                "p_1ada4e8a922eb2897ce092bd"
+              ],
+              "points": 2.5,
+              "id": "q_f4d6ae8205b2536e45257ea3",
+              "sequence": 64,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "64",
+              "answerStar": 3
+            },
+            {
+              "number": 65,
+              "label": null,
+              "prompt": "文章の内容について問いに答えなさい（設問65）。",
+              "choices": [
+                "中篇理解選択肢1",
+                "中篇理解選択肢2",
+                "中篇理解選択肢3",
+                "中篇理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 8,
+              "pages": [
+                8
+              ],
+              "passageIds": [
+                "p_1ada4e8a922eb2897ce092bd"
+              ],
+              "points": 2.5,
+              "id": "q_55cb982af5a97f00186779f5",
+              "sequence": 65,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "65",
+              "answerStar": 3
+            },
+            {
+              "number": 66,
+              "label": null,
+              "prompt": "文章の内容について問いに答えなさい（設問66）。",
+              "choices": [
+                "中篇理解選択肢1",
+                "中篇理解選択肢2",
+                "中篇理解選択肢3",
+                "中篇理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 8,
+              "pages": [
+                8
+              ],
+              "passageIds": [
+                "p_1ada4e8a922eb2897ce092bd"
+              ],
+              "points": 2.5,
+              "id": "q_6cb7444508047bd58d48667d",
+              "sequence": 66,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "66",
+              "answerStar": 3
+            },
+            {
+              "number": 67,
+              "label": null,
+              "prompt": "文章の内容について問いに答えなさい（設問67）。",
+              "choices": [
+                "中篇理解選択肢1",
+                "中篇理解選択肢2",
+                "中篇理解選択肢3",
+                "中篇理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 8,
+              "pages": [
+                8
+              ],
+              "passageIds": [
+                "p_1ada4e8a922eb2897ce092bd"
+              ],
+              "points": 2.5,
+              "id": "q_bb0f7b970cc89245c6837118",
+              "sequence": 67,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "67",
+              "answerStar": 3
+            },
+            {
+              "number": 68,
+              "label": null,
+              "prompt": "文章の内容について問いに答えなさい（設問68）。",
+              "choices": [
+                "中篇理解選択肢1",
+                "中篇理解選択肢2",
+                "中篇理解選択肢3",
+                "中篇理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 8,
+              "pages": [
+                8
+              ],
+              "passageIds": [
+                "p_1ada4e8a922eb2897ce092bd"
+              ],
+              "points": 2.5,
+              "id": "q_a542ea67b13b077dcfe63cdb",
+              "sequence": 68,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "68",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 9
+        },
+        {
+          "id": "s2-m12",
+          "number": 12,
+          "kind": "integrated-reading",
+          "title": "問題12",
+          "localTitle": "综合理解",
+          "instruction": "問題12　次のAとBの文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 3.0,
+          "passages": [
+            {
+              "label": null,
+              "text": "A\n\nAの立場からの意見や見解が述べられています。\n\nB\n\nBの立場からの意見や見解が述べられています。",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                9
+              ],
+              "id": "p_4c8a02664610ed11644b8414"
+            }
+          ],
+          "questions": [
+            {
+              "number": 69,
+              "label": null,
+              "prompt": "AとBの文章に共通して述べられていることは何か。",
+              "choices": [
+                "統合理解選択肢1",
+                "統合理解選択肢2",
+                "統合理解選択肢3",
+                "統合理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 9,
+              "pages": [
+                9
+              ],
+              "passageIds": [
+                "p_4c8a02664610ed11644b8414"
+              ],
+              "points": 3.0,
+              "id": "q_3134a66a1450842710a0c74a",
+              "sequence": 69,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "69",
+              "answerStar": 3
+            },
+            {
+              "number": 70,
+              "label": null,
+              "prompt": "AとBの筆者の立場や意見の相違点について正しいものはどれか。",
+              "choices": [
+                "統合理解比較選択肢1",
+                "統合理解比較選択肢2",
+                "統合理解比較選択肢3",
+                "統合理解比較選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 9,
+              "pages": [
+                9
+              ],
+              "passageIds": [
+                "p_4c8a02664610ed11644b8414"
+              ],
+              "points": 3.0,
+              "id": "q_a6b0d5686beb8924bb9e1721",
+              "sequence": 70,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "70",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 2
+        },
+        {
+          "id": "s2-m13",
+          "number": 13,
+          "kind": "thematic",
+          "title": "問題13",
+          "localTitle": "观点理解",
+          "instruction": "問題13　次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 3.0,
+          "passages": [
+            {
+              "label": null,
+              "text": "長文の本文です。筆者の深い洞察や体験に基づいた主張が詳しく展開されています。\n\n段落1の主張...\n\n段落2の主張...\n\n段落3のまとめ...",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                10
+              ],
+              "id": "p_9d1603216d0835ede5bd08dc"
+            }
+          ],
+          "questions": [
+            {
+              "number": 71,
+              "label": null,
+              "prompt": "長文全体の主張に関して問いに答えなさい（設問71）。",
+              "choices": [
+                "長文理解選択肢1",
+                "長文理解選択肢2",
+                "長文理解選択肢3",
+                "長文理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 10,
+              "pages": [
+                10
+              ],
+              "passageIds": [
+                "p_9d1603216d0835ede5bd08dc"
+              ],
+              "points": 3.0,
+              "id": "q_646f024a26060aeb4bc6013d",
+              "sequence": 71,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "71",
+              "answerStar": 3
+            },
+            {
+              "number": 72,
+              "label": null,
+              "prompt": "長文全体の主張に関して問いに答えなさい（設問72）。",
+              "choices": [
+                "長文理解選択肢1",
+                "長文理解選択肢2",
+                "長文理解選択肢3",
+                "長文理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 10,
+              "pages": [
+                10
+              ],
+              "passageIds": [
+                "p_9d1603216d0835ede5bd08dc"
+              ],
+              "points": 3.0,
+              "id": "q_f662224aada61cc1d3f040ec",
+              "sequence": 72,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "72",
+              "answerStar": 3
+            },
+            {
+              "number": 73,
+              "label": null,
+              "prompt": "長文全体の主張に関して問いに答えなさい（設問73）。",
+              "choices": [
+                "長文理解選択肢1",
+                "長文理解選択肢2",
+                "長文理解選択肢3",
+                "長文理解選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 10,
+              "pages": [
+                10
+              ],
+              "passageIds": [
+                "p_9d1603216d0835ede5bd08dc"
+              ],
+              "points": 3.0,
+              "id": "q_d1b4de19618775797876bf5e",
+              "sequence": 73,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "73",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 3
+        },
+        {
+          "id": "s2-m14",
+          "number": 14,
+          "kind": "information-retrieval",
+          "title": "問題14",
+          "localTitle": "信息检索",
+          "instruction": "問題14　右のページ（または下の案内）を見て、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 3.0,
+          "passages": [
+            {
+              "label": null,
+              "text": "施設利用案内・募集要項・イベントスケジュールの案内文書です。\n\n【利用時間・料金・条件一覧】\n・条件A...\n・条件B...",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                11
+              ],
+              "id": "p_c017e87574c51196d0655a23"
+            }
+          ],
+          "questions": [
+            {
+              "number": 74,
+              "label": null,
+              "prompt": "案内の条件に合致する利用方法として正しいものはどれか。",
+              "choices": [
+                "情報検索選択肢1",
+                "情報検索選択肢2",
+                "情報検索選択肢3",
+                "情報検索選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 11,
+              "pages": [
+                11
+              ],
+              "passageIds": [
+                "p_c017e87574c51196d0655a23"
+              ],
+              "points": 3.0,
+              "id": "q_c7bb228de5981b1a7c9c7454",
+              "sequence": 74,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "74",
+              "answerStar": 3
+            },
+            {
+              "number": 75,
+              "label": null,
+              "prompt": "次の人物の希望に最も適したプランはどれか。",
+              "choices": [
+                "情報検索選択肢1",
+                "情報検索選択肢2",
+                "情報検索選択肢3",
+                "情報検索選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 11,
+              "pages": [
+                11
+              ],
+              "passageIds": [
+                "p_c017e87574c51196d0655a23"
+              ],
+              "points": 3.0,
+              "id": "q_68fb3b54bbcc79d4030a4530",
+              "sequence": 75,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "75",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 2
+        }
+      ],
+      "questionCount": 21
+    },
+    {
+      "id": "s3",
+      "number": 3,
+      "kind": "listening",
+      "title": "聴解",
+      "localTitle": "第三部分　听力",
+      "audioRequired": true,
+      "parts": [
+        {
+          "id": "s3-m1",
+          "number": 1,
+          "kind": "task-based",
+          "title": "問題1",
+          "localTitle": "课题理解",
+          "instruction": "問題1　問題1では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選びなさい。",
+          "pointsPerQuestion": 1.5,
+          "passages": [],
+          "questions": [
+            {
+              "number": 1,
+              "label": null,
+              "prompt": "1番",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_b41aeeb69668839834f41b70",
+              "sequence": 76,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "1-1",
+              "answerStar": 3
+            },
+            {
+              "number": 2,
+              "label": null,
+              "prompt": "2番",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_69e182d7bfe09e9ac3fa06e4",
+              "sequence": 77,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "1-2",
+              "answerStar": 3
+            },
+            {
+              "number": 3,
+              "label": null,
+              "prompt": "3番",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_bf75894fdebd43a70c5c6dd2",
+              "sequence": 78,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "1-3",
+              "answerStar": 3
+            },
+            {
+              "number": 4,
+              "label": null,
+              "prompt": "4番",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_578212faeb3603c8a10febfe",
+              "sequence": 79,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "1-4",
+              "answerStar": 3
+            },
+            {
+              "number": 5,
+              "label": null,
+              "prompt": "5番",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_296d71a34393098034bfd9fd",
+              "sequence": 80,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "1-5",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 5
+        },
+        {
+          "id": "s3-m2",
+          "number": 2,
+          "kind": "comprehension-point",
+          "title": "問題2",
+          "localTitle": "要点理解",
+          "instruction": "問題2　問題2では、まず質問を聞いてください。そのあと、問題用紙の選択肢を読んでください。読む時間があります。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選びなさい。",
+          "pointsPerQuestion": 1.5,
+          "passages": [],
+          "questions": [
+            {
+              "number": 1,
+              "label": null,
+              "prompt": "1番",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_6fd75f26725a6fd3862c8244",
+              "sequence": 81,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "2-1",
+              "answerStar": 3
+            },
+            {
+              "number": 2,
+              "label": null,
+              "prompt": "2番",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_d9e64e69229c592a74adb210",
+              "sequence": 82,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "2-2",
+              "answerStar": 3
+            },
+            {
+              "number": 3,
+              "label": null,
+              "prompt": "3番",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_9f58ca2f572eca9a4f2f12f3",
+              "sequence": 83,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "2-3",
+              "answerStar": 3
+            },
+            {
+              "number": 4,
+              "label": null,
+              "prompt": "4番",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_de920aab8ab85b3b4ff9f49c",
+              "sequence": 84,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "2-4",
+              "answerStar": 3
+            },
+            {
+              "number": 5,
+              "label": null,
+              "prompt": "5番",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_de384265ffdc4ba088d4cbbd",
+              "sequence": 85,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "2-5",
+              "answerStar": 3
+            },
+            {
+              "number": 6,
+              "label": null,
+              "prompt": "6番",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_68a9b51a7d6ff1aa687d22a6",
+              "sequence": 86,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "2-6",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 6
+        },
+        {
+          "id": "s3-m3",
+          "number": 3,
+          "kind": "overall-comprehension",
+          "title": "問題3",
+          "localTitle": "概要理解",
+          "instruction": "問題3　問題3では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問と選択肢を聞いて、1から4の中から、最もよいものを一つ選びなさい。",
+          "pointsPerQuestion": 1.5,
+          "passages": [],
+          "questions": [
+            {
+              "number": 1,
+              "label": null,
+              "prompt": "1番",
+              "choices": [],
+              "choiceCount": 4,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_af8515bdea0a0350723bfddc",
+              "sequence": 87,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "3-1",
+              "answerStar": 3
+            },
+            {
+              "number": 2,
+              "label": null,
+              "prompt": "2番",
+              "choices": [],
+              "choiceCount": 4,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_4a05008206afa651cbc6dac1",
+              "sequence": 88,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "3-2",
+              "answerStar": 3
+            },
+            {
+              "number": 3,
+              "label": null,
+              "prompt": "3番",
+              "choices": [],
+              "choiceCount": 4,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_b1d8a86581322b6b07b289dc",
+              "sequence": 89,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "3-3",
+              "answerStar": 3
+            },
+            {
+              "number": 4,
+              "label": null,
+              "prompt": "4番",
+              "choices": [],
+              "choiceCount": 4,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_875adbd18d595937c075b566",
+              "sequence": 90,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "3-4",
+              "answerStar": 3
+            },
+            {
+              "number": 5,
+              "label": null,
+              "prompt": "5番",
+              "choices": [],
+              "choiceCount": 4,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_a506f8d63b5b16f79457c32c",
+              "sequence": 91,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "3-5",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 5
+        },
+        {
+          "id": "s3-m4",
+          "number": 4,
+          "kind": "quick-response",
+          "title": "問題4",
+          "localTitle": "即时应答",
+          "instruction": "問題4　問題4では、問題用紙に何も印刷されていません。短い文を聞いて、その返しとして最もよいものを、1から3の中から一つ選びなさい。",
+          "pointsPerQuestion": 1.5,
+          "passages": [],
+          "questions": [
+            {
+              "number": 1,
+              "label": null,
+              "prompt": "1番",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_26ee1593ea0cfec228751710",
+              "sequence": 92,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-1",
+              "answerStar": 3
+            },
+            {
+              "number": 2,
+              "label": null,
+              "prompt": "2番",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_4a902c3732d931142b108bdb",
+              "sequence": 93,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-2",
+              "answerStar": 3
+            },
+            {
+              "number": 3,
+              "label": null,
+              "prompt": "3番",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_2b44e2638217eb3fd3ecd618",
+              "sequence": 94,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-3",
+              "answerStar": 3
+            },
+            {
+              "number": 4,
+              "label": null,
+              "prompt": "4番",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_f082d9020d3f9de88fa8875b",
+              "sequence": 95,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-4",
+              "answerStar": 3
+            },
+            {
+              "number": 5,
+              "label": null,
+              "prompt": "5番",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_dd200ec2f140611b2de04f6c",
+              "sequence": 96,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-5",
+              "answerStar": 3
+            },
+            {
+              "number": 6,
+              "label": null,
+              "prompt": "6番",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_405193137b0ac6d3f29f577e",
+              "sequence": 97,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-6",
+              "answerStar": 3
+            },
+            {
+              "number": 7,
+              "label": null,
+              "prompt": "7番",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_5eb3d05333955ec31d9f4c02",
+              "sequence": 98,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-7",
+              "answerStar": 3
+            },
+            {
+              "number": 8,
+              "label": null,
+              "prompt": "8番",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_2af180f08cef9ab947770185",
+              "sequence": 99,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-8",
+              "answerStar": 3
+            },
+            {
+              "number": 9,
+              "label": null,
+              "prompt": "9番",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_56d1cfee4953b235e23d7f91",
+              "sequence": 100,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-9",
+              "answerStar": 3
+            },
+            {
+              "number": 10,
+              "label": null,
+              "prompt": "10番",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_fca9fde9dc57982583881afa",
+              "sequence": 101,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-10",
+              "answerStar": 3
+            },
+            {
+              "number": 11,
+              "label": null,
+              "prompt": "11番",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_d12e3ece208156f6a5fc2595",
+              "sequence": 102,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-11",
+              "answerStar": 3
+            },
+            {
+              "number": 12,
+              "label": null,
+              "prompt": "12番",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 1.5,
+              "id": "q_e1579033ebb61406193a3341",
+              "sequence": 103,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-12",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 12
+        },
+        {
+          "id": "s3-m5",
+          "number": 5,
+          "kind": "integrated-listening",
+          "title": "問題5",
+          "localTitle": "综合理解",
+          "instruction": "問題5　問題5では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。",
+          "pointsPerQuestion": 2.5,
+          "passages": [],
+          "questions": [
+            {
+              "number": 1,
+              "label": null,
+              "prompt": "1番",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.5,
+              "id": "q_c95775d3f357ac008c1a8cd3",
+              "sequence": 104,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "5-1",
+              "answerStar": 3
+            },
+            {
+              "number": 2,
+              "label": null,
+              "prompt": "2番",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.5,
+              "id": "q_1d694e3798543f1c2d7f9212",
+              "sequence": 105,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "5-2",
+              "answerStar": 3
+            },
+            {
+              "number": 3,
+              "label": null,
+              "prompt": "3番",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.5,
+              "id": "q_61e93670ca800bff07846bb1",
+              "sequence": 106,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "5-3",
+              "answerStar": 3
+            },
+            {
+              "number": 4,
+              "label": null,
+              "prompt": "4番",
+              "choices": [
+                "選択肢1",
+                "選択肢2",
+                "選択肢3",
+                "選択肢4"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.5,
+              "id": "q_df5adf7234bddf84c9ee05d2",
+              "sequence": 107,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "5-4",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 4
+        }
+      ],
+      "questionCount": 32
+    }
+  ],
+  "examId": "e_20e1052a17bb74b98b95b059",
+  "questionCount": 107,
+  "totalPoints": 167.0,
+  "answeredKeyCount": 107,
+  "contentRevision": "dc0edecaac0c88717be9266eff39025ce6dba4a5aede146ad762ce34358035be",
+  "listeningMedia": {
+    "kind": "course-audio",
+    "courseSlug": "2013-12-N2",
+    "expectedSha256": "51ec1f519376ceed4599d65bbb37c72b39b30faabdd46127dbda34446aa93326",
+    "expectedBytes": 21891433
+  }
+}

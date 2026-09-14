@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "description": "2012-07-N1：LLM 逐句校对发现的 ASR 误识别修正 9 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "6e6d5fcae628c9685bb9848694426a88583ce6e0989178c3d02f91d686b47ef3",
+  "evidence": {
+    "file": "proofread-work/2012-07-N1/proofread.json",
+    "proposedFixes": "proofread-work/2012-07-N1/proposed-fixes.json",
+    "notes": "proofread-work/2012-07-N1/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 83,
+      "endIndex": 83,
+      "expectedStartTime": 428.91,
+      "expectedEndTime": 431.09,
+      "items": [
+        {
+          "startTime": 428.91,
+          "endTime": 431.09,
+          "sourceText": "はい、では至急取り掛かります",
+          "jaText": "はい、では至急取り掛かります"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 84,
+      "endIndex": 84,
+      "expectedStartTime": 431.09,
+      "expectedEndTime": 443.42,
+      "items": [
+        {
+          "startTime": 431.09,
+          "endTime": 443.42,
+          "sourceText": "女の人はこの後すぐ何をしますか?",
+          "jaText": "女の人はこの後すぐ何をしますか?"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 149,
+      "endIndex": 149,
+      "expectedStartTime": 850.66,
+      "expectedEndTime": 860.74,
+      "items": [
+        {
+          "startTime": 850.66,
+          "endTime": 860.74,
+          "sourceText": "サービスを提供できるようにしたんですがこれが当たりまして 育児や仕事に忙しい30、40代の夫婦の入居者を呼び込むことができました",
+          "jaText": "サービスを提供できるようにしたんですがこれが当たりまして 育児や仕事に忙しい30、40代の夫婦の入居者を呼び込むことができました"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 150,
+      "endIndex": 150,
+      "expectedStartTime": 861.28,
+      "expectedEndTime": 868.92,
+      "items": [
+        {
+          "startTime": 861.28,
+          "endTime": 868.92,
+          "sourceText": "おかげで大幅な販売価格の値下げも回避できましたし 大々的な広告を打つことなく完売に成功しました",
+          "jaText": "おかげで大幅な販売価格の値下げも回避できましたし 大々的な広告を打つことなく完売に成功しました"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 186,
+      "endIndex": 186,
+      "expectedStartTime": 1166.02,
+      "expectedEndTime": 1177.5,
+      "items": [
+        {
+          "startTime": 1166.02,
+          "endTime": 1177.5,
+          "sourceText": "ああ、そうすれば表情が生き生きして見えますね。なるほど。今までは対象全体がフレームに入っている方が躍動感が出ると思ってました。",
+          "jaText": "ああ、そうすれば表情が生き生きして見えますね。なるほど。今までは対象全体がフレームに入っている方が躍動感が出ると思ってました。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 321,
+      "endIndex": 321,
+      "expectedStartTime": 2072.7,
+      "expectedEndTime": 2076.46,
+      "items": [
+        {
+          "startTime": 2072.7,
+          "endTime": 2076.46,
+          "sourceText": "この書類今日中に仕上げてもらえると助かるんだけど",
+          "jaText": "この書類今日中に仕上げてもらえると助かるんだけど"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 327,
+      "endIndex": 327,
+      "expectedStartTime": 2098.73,
+      "expectedEndTime": 2103.24,
+      "items": [
+        {
+          "startTime": 2098.73,
+          "endTime": 2103.24,
+          "sourceText": "どんなに忙しかろうが報告は怠るもんじゃないよ",
+          "jaText": "どんなに忙しかろうが報告は怠るもんじゃないよ"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 347,
+      "endIndex": 347,
+      "expectedStartTime": 2268.4,
+      "expectedEndTime": 2271.78,
+      "items": [
+        {
+          "startTime": 2268.4,
+          "endTime": 2271.78,
+          "sourceText": "これはメスですがおとなしく留守番できます",
+          "jaText": "これはメスですがおとなしく留守番できます"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 384,
+      "endIndex": 384,
+      "expectedStartTime": 2439.36,
+      "expectedEndTime": 2441.96,
+      "items": [
+        {
+          "startTime": 2439.36,
+          "endTime": 2441.96,
+          "sourceText": "スターティアはその対象になっておりますので",
+          "jaText": "スターティアはその対象になっておりますので"
+        }
+      ]
+    }
+  ]
+}

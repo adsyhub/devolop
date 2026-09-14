@@ -1,0 +1,59 @@
+{
+  "page": 10,
+  "pageLabel": "10",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 13,
+      "text": "問題13　次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 13,
+      "passageId": "p_2017_12_N2_thematic",
+      "text": "長文の本文です。筆者の深い洞察や体験に基づいた主張が詳しく展開されています。\n\n段落1の主張...\n\n段落2の主張...\n\n段落3のまとめ...",
+      "notes": [
+        "注1　語句解説"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 13,
+      "questionNumber": 71,
+      "passageId": "p_2017_12_N2_thematic",
+      "text": "長文全体の主張に関して問いに答えなさい（設問71）。",
+      "choices": [
+        "長文理解選択肢1",
+        "長文理解選択肢2",
+        "長文理解選択肢3",
+        "長文理解選択肢4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 13,
+      "questionNumber": 72,
+      "passageId": "p_2017_12_N2_thematic",
+      "text": "長文全体の主張に関して問いに答えなさい（設問72）。",
+      "choices": [
+        "長文理解選択肢1",
+        "長文理解選択肢2",
+        "長文理解選択肢3",
+        "長文理解選択肢4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 13,
+      "questionNumber": 73,
+      "passageId": "p_2017_12_N2_thematic",
+      "text": "長文全体の主張に関して問いに答えなさい（設問73）。",
+      "choices": [
+        "長文理解選択肢1",
+        "長文理解選択肢2",
+        "長文理解選択肢3",
+        "長文理解選択肢4"
+      ]
+    }
+  ]
+}

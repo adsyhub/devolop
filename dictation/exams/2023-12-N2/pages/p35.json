@@ -1,0 +1,45 @@
+{
+  "page": 35,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "着物レンタルのご案内\n着物を着て水森市を観光しませんか。\n「はなかわ」では、山林店、古寺店、森島店の三つの店で、\nレンタルの着物をご用意しております。\n<u>着物レンタルの流れ</u>"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "ご利用になりたい店に電話でご予約ください。",
+      "questionNumber": 1,
+      "choices": [
+        "ご予約の日時にご来店になり、お好きな着物にお着替えください。必要な方には"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "無料でお手伝いいたします。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "お支払いのあと、着物で観光をお楽しみください。",
+      "questionNumber": 3,
+      "choices": [
+        "各店の最終返却時間までに借りた店に戻り、当日中に着物をご返却ください(翌"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "日返却も可能です。ご希望の方は、<翌日返却について>をお読みください)。\n<u>料金(1名様)</u>\n基本料金:3,500円\n<u>割引について</u>\n- 早期予約割引:1週間前までのご予約で基本料金から300円割引します。\n- 学生割引:学生の方は基本料金から200円割引します。\n※早期予約割引を使う場合は、学生割引は使えません。\n<u>お持ちになる物</u>\n特にありません。はき物などもセットでお貸しします。\n<u>翌日返却について</u>\n> ご予約時の申し込み\n1,200円の翌日返却料金で、返却時間を翌日の正午までに延長できます。\n> ご来店時の申し込み、またはお出かけ後の変更\n翌日返却料金は1,500円になります。\nお出かけ後の変更の場合は、借りた日の最終返却時間までに借りた店にお電話く\nださい。翌日返却料金は、返却の際にお支払いください。\n※返却が翌日の正午を過ぎる場合、追加料金1,000円をいただきます。その後は、\n1日遅れるごとに3,000円を請求いたします。\n<u>各店の営業・返却時間</u>\n| 営業開始時間 | 最終返却時間 |\n| --- | --- |\n| 山林店、古寺店 | 9時 |\n| 森島店 | 18時30分 |\n|  | 18時 |\n※電話番号など、詳細はホームページ内の各店のページをご覧ください。"
+    }
+  ],
+  "pageLabel": "33",
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 1 choices transcribed, expected 4. Check the page image.",
+    "Q3: choice numbered 4 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q3: 1 choices transcribed, expected 4. Check the page image."
+  ]
+}

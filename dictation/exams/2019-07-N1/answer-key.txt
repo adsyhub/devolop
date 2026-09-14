@@ -1,0 +1,33 @@
+# 2019年7月 日本語能力試験 N1 — 答案
+note 2019年7月N1参考答案与计分规则
+
+# ---- 第一部分　言語知識（文字・語彙・文法） ----
+written   1-6     1   442132
+written   7-13    1   3411234
+written   14-19   1   214312
+written   20-25   1   332132
+written   26-35   1   2341312314
+written   36-40   2   23412
+written   41-45   1   32241
+
+# 排序題順序
+order     36      1423
+order     37      4231
+order     38      3142
+order     39      2413
+order     40      4123
+
+# ---- 第二部分　読解 ----
+written   46-49   2   3243
+written   50-57   2   32214443
+written   58-61   3   3141
+written   62-63   3   32
+written   64-67   3   4122
+written   68-69   2   41
+
+# ---- 第三部分　聴解 ----
+listening 1       1   221412
+listening 2       1   433142
+listening 3       2   332123
+listening 4       2   2122312223113
+listening 5       3   3124

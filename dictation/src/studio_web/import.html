@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>教材入库</title>
+<link rel="stylesheet" href="studio.css">
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <h1>教材入库</h1>
+    <p class="sub" id="config-line">正在读取配置…</p>
+  </div>
+  <div class="topbar-actions">
+  <div class="topbar-status-group">
+    <span class="badge subtle-badge" id="status-pill" title="服务器显卡与本地模型状态（点击刷新）">检测中…</span>
+  </div>
+    <button type="button" id="refresh-models">刷新模型状态</button>
+  </div>
+</header>
+
+<nav class="nav" aria-label="工作台入口">
+  <a href="/">制课</a>
+  <a href="/import.html" class="current" aria-current="page">教材入库</a>
+  <a href="/library.html">课程库</a>
+  <a href="/editor.html">复核编辑器</a>
+  <a href="/ops.html">运维</a>
+</nav>
+
+<div id="fatal" class="fatal" hidden>
+  <strong>无法连接到工作台服务。</strong>
+  <span id="fatal-message"></span>
+</div>
+
+<main class="layout layout--build">
+  <section class="panel" aria-labelledby="setup-heading">
+    <h2 id="setup-heading">1 · 上传</h2>
+
+<div id="pdf-fields" hidden>
+      <div class="field">
+        <span class="label">PDF 文件</span>
+        <label class="dropzone" id="pdf-dropzone" for="pdf-input">
+          <input type="file" id="pdf-input" accept="application/pdf,.pdf" multiple hidden>
+          <span id="pdf-dropzone-text">把一个或多个 PDF 拖到这里，或点击选择</span>
+          <span class="hint">支持多选，后台按顺序逐个制作；每个文件最大 512 MB</span>
+        </label>
+        <p class="upload-state" id="pdf-upload-state" hidden></p>
+      </div>
+
+      <div class="field">
+        <label class="label" for="pdf-kind">要制作的内容</label>
+        <select id="pdf-kind">
+          <option value="auto" selected>自动识别（推荐）</option>
+          <option value="exam">JLPT 真题题库</option>
+          <option value="grammar">语法内容包</option>
+          <option value="word">单词内容包</option>
+          <option value="document">仅 OCR 成可编辑文档</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label class="label" for="pdf-level">JLPT 等级</label>
+        <select id="pdf-level">
+          <option value="auto" selected>自动识别</option>
+          <option value="N1">N1</option>
+          <option value="N2">N2</option>
+          <option value="N3">N3</option>
+          <option value="N4">N4</option>
+          <option value="N5">N5</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label class="label" for="vision-pipeline">视觉 OCR 管线</label>
+        <select id="vision-pipeline"></select>
+        <p class="hint" id="vision-hint"></p>
+      </div>
+
+      <p class="note review-note">
+        PDF 会自动完成文字层识别/OCR、版式路由与答案对账。质检通过后自动装库；异常情况自动隔离，仅在需要时进行人工按问题复核。
+      </p>
+    </div>
+
+<div class="field" id="title-field">
+      <label class="label" for="title">课程标题</label>
+      <input type="text" id="title" maxlength="200" placeholder="留空则用音频文件名">
+    </div>
+
+    <p class="note">
+      模型只能从 <code>config/providers.json</code> 里已有的 profile 中选。
+      本页不能自己指定模型地址或命令——那会让浏览器有能力在你的机器上执行任意程序。
+    </p>
+
+    <button type="button" id="start" class="primary" disabled>开始后台制作</button>
+    <p class="error" id="setup-error" hidden></p>
+  </section>
+
+  <section class="panel" aria-labelledby="run-heading">
+    <div class="run-head">
+      <h2 id="run-heading">2 · OCR 与入库</h2>
+      <span class="status-chip" id="status-chip" data-status="idle">未开始</span>
+    </div>
+    <p class="sub" id="run-meta">选好 PDF 与 OCR 管线后点「开始后台制作」。质检通过自动装库，异常时可在复核编辑器按问题排查。</p>
+    <div id="batch-queue" class="batch-queue" hidden></div>
+    <pre class="log" id="log" tabindex="0" aria-live="polite" aria-label="构建日志"></pre>
+    <div class="result-summary" id="result-summary" hidden></div>
+    <div class="run-actions">
+      <button type="button" id="cancel" hidden class="danger">停止</button>
+      <button type="button" id="install" hidden class="success">装入课程库</button>
+    </div>
+    <p class="error" id="run-error" hidden></p>
+  </section>
+
+</main>
+
+<script src="core.js"></script>
+<script src="studio_state.js"></script>
+<script src="studio_setup.js"></script>
+<script src="studio_uploads.js"></script>
+<script src="studio_pipeline_pdf.js"></script>
+<script src="studio_pipelines.js"></script>
+<script src="gpu.js"></script>
+<script src="status_pill.js"></script>
+<script src="studio_jobs.js"></script>
+<script src="import.js"></script>
+</body>
+</html>

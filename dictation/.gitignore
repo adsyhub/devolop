@@ -1,0 +1,72 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*-work/
+deepseek_batches/
+local-data/
+# Provider selection is per-machine: it names local ports, local commands and
+# the environment variables holding keys. config/providers.example.json is the
+# committed template.
+config/providers.json
+handoff/
+
+# Studio workspace: uploaded audio and build artifacts, never source.
+studio-work/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ADR-BUILD-001: large media/artifacts stay out of git. They are tracked by
+# SHA-256 in assets/evidence/*.hashes.json (see src/snapshot_evidence.py), which
+# records where to retrieve them and how long they are kept.
+*.mp3
+*.wav
+*.m4a
+dist/*.zip
+assets/snapshots/
+
+# Derived render artifacts of docs/*.docx — regenerable from the source document
+# by .codex_qa/render_xps_pages.ps1 + make_contact_sheets.py.
+.codex_qa/rendered/
+
+# Word lock files
+~$*.docx
+
+# Transient launcher logs from manual verification runs
+out.log
+err.log
+
+# Exam import scratch: rendered page images are large, derived, and regenerable
+# from the source PDF by `python src/exam_import.py render`. The transcription
+# (exams/<slug>/pages/*.json) IS committed — it is the content's source of truth.
+exam-work/
+exams/*/pages/*.png
+
+# Local-VLM OCR (src/pdf_ocr). The venv holds a CUDA torch build; out/ holds
+# page PNGs re-derivable from the source PDF. document.md / document.json are
+# the outputs worth keeping, so out/ is ignored but not the tool itself.
+.venv-ocr/
+out/*/images/
+
+# Lexicon content packs (LEXICON.md §8). A pack is a copyrighted textbook in another
+# format: OCR changes the carrier, not the rights. Textbook text, the transcribed 目次
+# and any mapping that reveals which items the book selected stay out of the repository.
+# What IS committed: pack-meta.json (bibliographic metadata + the rights declaration),
+# source.pdf.sha256, and entry-keys.json — identity only, so another machine with a
+# legitimately obtained copy of the book rebuilds the same entry ids.
+lexicon/*/pages/
+lexicon/*/pack.json
+lexicon/*/units.txt
+lexicon/*/match-report.json
+lexicon/*/match-resolutions.json
+lexicon/*/*.bak
+
+# Local dictionaries and private learning supplements
+assets/dictionary/*.sqlite3*
+assets/dictionary/*.previous
+lexicon/*/learning-supplement.json
+lexicon/*/quality-report.json
+lexicon/*/*.tmp

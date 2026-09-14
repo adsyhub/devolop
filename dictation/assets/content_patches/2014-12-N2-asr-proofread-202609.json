@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "description": "2014-12-N2：LLM 逐句校对发现的 ASR 误识别修正 3 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "c3383285e4c3eb9a04ed1c09d4e7a892ec5072c6dc0eaab4dc61a186eaffc78e",
+  "evidence": {
+    "file": "proofread-work/2014-12-N2/proofread.json",
+    "proposedFixes": "proofread-work/2014-12-N2/proposed-fixes.json",
+    "notes": "proofread-work/2014-12-N2/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 373,
+      "endIndex": 373,
+      "expectedStartTime": 2691.76,
+      "expectedEndTime": 2702.55,
+      "items": [
+        {
+          "startTime": 2691.76,
+          "endTime": 2702.55,
+          "sourceText": "まず一つ目の方法は知り合いが多い方におすすめです まだ使えるけど自分は使わないといったものがあったら新たな持ち主を見つけて",
+          "jaText": "まず一つ目の方法は知り合いが多い方におすすめです まだ使えるけど自分は使わないといったものがあったら新たな持ち主を見つけて"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 375,
+      "endIndex": 375,
+      "expectedStartTime": 2712.24,
+      "expectedEndTime": 2719.96,
+      "items": [
+        {
+          "startTime": 2712.24,
+          "endTime": 2719.96,
+          "sourceText": "そのような方はリサイクルショップを利用しましょう 服だけでなく本やCDも買い取ってくれます",
+          "jaText": "そのような方はリサイクルショップを利用しましょう 服だけでなく本やCDも買い取ってくれます"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 393,
+      "endIndex": 393,
+      "expectedStartTime": 2786.91,
+      "expectedEndTime": 2790.89,
+      "items": [
+        {
+          "startTime": 2786.91,
+          "endTime": 2790.89,
+          "sourceText": "ね新しく買い足さないで小物で アレンジしよう",
+          "jaText": "ね新しく買い足さないで小物で アレンジしよう"
+        }
+      ]
+    }
+  ]
+}

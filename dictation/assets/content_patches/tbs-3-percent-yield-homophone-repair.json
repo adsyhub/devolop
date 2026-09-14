@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "description": "Correct four reviewed Japanese homophone/kanji ASR errors after the verified pipeline selected faster-whisper large-v3 over the YouTube automatic captions.",
+  "sourceSentencesDigest": "91405f824febdfc4a41d0bfa679d25901baa37c4cf05a797a904e23ffb18a311",
+  "evidence": {
+    "videoId": "MWYCY8tVe88",
+    "primaryTranscript": "faster-whisper large-v3, beamSize=10, conditionOnPreviousText=false",
+    "crossCheck": "verified dual-source report (YouTube ja-orig versus faster-whisper), surrounding financial-news context, and Qwen3.8-Flash-Next review",
+    "entityCrossCheck": "Published program summaries identify the speaker as 岡三証券の長谷川直也チーフ債券ストラテジスト: https://news.mixi.jp/view_news.pl?id=8932858&media_id=266 and https://datazoo.jp/n/25350195",
+    "policy": "Only corrections whose intended word is unambiguous from grammar and domain context are applied."
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 17,
+      "endIndex": 17,
+      "expectedStartTime": 105.38,
+      "expectedEndTime": 108.34,
+      "items": [
+        {
+          "startTime": 105.38,
+          "endTime": 108.34,
+          "jaText": "財務省が実施する国債の入札日",
+          "zhTranslation": "由财务省实施的国债招标日",
+          "explanationText": "「財務省（ざいむしょう）」是日本负责国债发行的政府部门；「国債の入札（こくさいのにゅうさつ）」指国债招标。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 33,
+      "endIndex": 33,
+      "expectedStartTime": 204.76,
+      "expectedEndTime": 211.62,
+      "items": [
+        {
+          "startTime": 204.76,
+          "endTime": 211.62,
+          "jaText": "ことでその上乗せ分が長期金利ということ呼ばれています例えば100借りた時に103返します",
+          "zhTranslation": "这部分多出来的金额就被称为长期利率。例如，借了100，还的时候是103。",
+          "explanationText": "「上乗せ分」指在本金基础上增加的部分；「100借りた時に103返します」用100与103的差额说明利息。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 49,
+      "endIndex": 49,
+      "expectedStartTime": 304.79,
+      "expectedEndTime": 309.69,
+      "items": [
+        {
+          "startTime": 304.79,
+          "endTime": 309.69,
+          "jaText": "取材した岡三証券の長谷川ストラテジストによりますと",
+          "zhTranslation": "据采访，冈三证券的长谷川策略师表示，",
+          "explanationText": "「岡三証券（おかさんしょうけん）」是日本证券公司名；「～によりますと」是新闻中引述消息来源的固定表达。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 65,
+      "endIndex": 65,
+      "expectedStartTime": 364.28,
+      "expectedEndTime": 368.72,
+      "items": [
+        {
+          "startTime": 364.28,
+          "endTime": 368.72,
+          "jaText": "岡三証券のストラテジストも3%通過点と言っているのはちょっと怖いですよね",
+          "zhTranslation": "冈三证券的策略师也说3%只是一个节点，这确实有点令人担忧。",
+          "explanationText": "「岡三証券（おかさんしょうけん）」是公司名；「通過点」在这里表示3%并非终点，利率仍可能继续上升。"
+        }
+      ]
+    }
+  ]
+}

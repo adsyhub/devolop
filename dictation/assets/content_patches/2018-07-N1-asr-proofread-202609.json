@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "description": "2018-07-N1：LLM 逐句校对发现的 ASR 误识别修正 9 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "97595fd50f97bc4dad5aaaa1a2e57fae3cf1f23c47052248137b8a2a12d3c3a0",
+  "evidence": {
+    "file": "proofread-work/2018-07-N1/proofread.json",
+    "proposedFixes": "proofread-work/2018-07-N1/proposed-fixes.json",
+    "notes": "proofread-work/2018-07-N1/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 0,
+      "endIndex": 0,
+      "expectedStartTime": 5.72,
+      "expectedEndTime": 14.99,
+      "items": [
+        {
+          "startTime": 5.72,
+          "endTime": 14.99,
+          "sourceText": "聴解試験を始める前に音を聞いてください。",
+          "jaText": "聴解試験を始める前に音を聞いてください。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 88,
+      "endIndex": 88,
+      "expectedStartTime": 634.46,
+      "expectedEndTime": 640.52,
+      "items": [
+        {
+          "startTime": 634.46,
+          "endTime": 640.52,
+          "sourceText": "んです特集コーナーには話題になっている 作品というのが業界の常識だった",
+          "jaText": "んです特集コーナーには話題になっている 作品というのが業界の常識だった"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 121,
+      "endIndex": 121,
+      "expectedStartTime": 931.7,
+      "expectedEndTime": 941.2,
+      "items": [
+        {
+          "startTime": 931.7,
+          "endTime": 941.2,
+          "sourceText": "踊ったり誰かと一緒に競い合いながらやると楽しいですよ そうですか将来は代替エネルギーの一つとしても期待できるんじゃないですか",
+          "jaText": "踊ったり誰かと一緒に競い合いながらやると楽しいですよ そうですか将来は代替エネルギーの一つとしても期待できるんじゃないですか"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 126,
+      "endIndex": 126,
+      "expectedStartTime": 982.56,
+      "expectedEndTime": 1014.99,
+      "items": [
+        {
+          "startTime": 982.56,
+          "endTime": 1014.99,
+          "sourceText": "村田さんお子さんを山村留学させてるって本当ですか 田舎にホームステイして現地の小学校に通うんですよね",
+          "jaText": "村田さんお子さんを山村留学させてるって本当ですか 田舎にホームステイして現地の小学校に通うんですよね"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 129,
+      "endIndex": 129,
+      "expectedStartTime": 1034.86,
+      "expectedEndTime": 1041.12,
+      "items": [
+        {
+          "startTime": 1034.86,
+          "endTime": 1041.12,
+          "sourceText": "遊び場はたくさんあるし現地の子と学年を超えて一緒に遊んですごくいい経験をさせて もらってるよ",
+          "jaText": "遊び場はたくさんあるし現地の子と学年を超えて一緒に遊んですごくいい経験をさせて もらってるよ"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 181,
+      "endIndex": 181,
+      "expectedStartTime": 1525.18,
+      "expectedEndTime": 1539.57,
+      "items": [
+        {
+          "startTime": 1525.18,
+          "endTime": 1539.57,
+          "sourceText": "人にも一目惚れというかあった瞬間に何か感じる人っているでしょ それと同じ女の人が言いたいことは何ですか",
+          "jaText": "人にも一目惚れというかあった瞬間に何か感じる人っているでしょ それと同じ女の人が言いたいことは何ですか"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 237,
+      "endIndex": 237,
+      "expectedStartTime": 2077.81,
+      "expectedEndTime": 2090.39,
+      "items": [
+        {
+          "startTime": 2077.81,
+          "endTime": 2090.39,
+          "sourceText": "まず文を聞いてくださいそれからそれに対する返事を聞いて 1から3の中から最も良いものを一つ選んでください",
+          "jaText": "まず文を聞いてくださいそれからそれに対する返事を聞いて 1から3の中から最も良いものを一つ選んでください"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 351,
+      "endIndex": 351,
+      "expectedStartTime": 2991.88,
+      "expectedEndTime": 2996.32,
+      "items": [
+        {
+          "startTime": 2991.88,
+          "endTime": 2996.32,
+          "sourceText": "こちらは全行程歩くと2日かかる本格的な登山コースですが",
+          "jaText": "こちらは全行程歩くと2日かかる本格的な登山コースですが"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 355,
+      "endIndex": 355,
+      "expectedStartTime": 3015.03,
+      "expectedEndTime": 3020.81,
+      "items": [
+        {
+          "startTime": 3015.03,
+          "endTime": 3020.81,
+          "sourceText": "あれ言ってなかった今度の3連休は仕事休めないのごめん",
+          "jaText": "あれ言ってなかった今度の3連休は仕事休めないのごめん"
+        }
+      ]
+    }
+  ]
+}

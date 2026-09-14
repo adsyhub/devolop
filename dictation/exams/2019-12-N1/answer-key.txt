@@ -1,0 +1,33 @@
+# 2019年12月 日本語能力試験 N1 — 答案
+note 2019年12月N1参考答案与计分规则
+
+# ---- 第一部分　言語知識（文字・語彙・文法） ----
+written   1-6     1   214123
+written   7-13    1   4231431
+written   14-19   1   142343
+written   20-25   1   241342
+written   26-35   1   1124323244
+written   36-40   2   34211
+written   41-45   1   34412
+
+# 排序題順序
+order     36      1432
+order     37      1243
+order     38      1324
+order     39      3412
+order     40      4213
+
+# ---- 第二部分　読解 ----
+written   46-49   2   2313
+written   50-57   2   34144134
+written   58-61   3   4223
+written   62-63   3   31
+written   64-67   3   4123
+written   68-69   2   22
+
+# ---- 第三部分　聴解 ----
+listening 1       1   312431
+listening 2       1   112212
+listening 3       2   411133
+listening 4       2   2312122111313
+listening 5       3   4312

@@ -1,0 +1,21 @@
+{
+  "level": "N1",
+  "title": "2010年7月 日本語能力試験 N1",
+  "sessionLabel": "2010年7月",
+  "uiLanguage": "zh-Hans",
+  "durationSec": 10200,
+  "source": {
+    "kind": "pdf-scan",
+    "fileName": "n1 2010.07真题.pdf",
+    "pageCount": 13,
+    "importedOn": "2026-08-31",
+    "importer": "src/exam_import.py",
+    "rights": "Personal study copy supplied by the user. The JLPT paper is copyright JEES/Japan Foundation; this exam.json is not cleared for redistribution or sale."
+  },
+  "listeningMedia": {
+    "kind": "course-audio",
+    "courseSlug": "2010-07-N1",
+    "expectedSha256": "dcc6369de373c61ae2862bbf1a117675404f1f4b287acf96cf64122c8d6d1b7b",
+    "expectedBytes": 55878763
+  }
+}

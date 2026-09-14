@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4f5a66">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <title>课程库 · EJU 题库制作台</title>
+  <link rel="stylesheet" href="/tokens.css">
+  <link rel="stylesheet" href="/vendor/katex/katex.min.css">
+  <link rel="stylesheet" href="/studio.css">
+  <script defer src="/vendor/katex/katex.min.js"></script>
+</head>
+<body class="studio-body" data-module="library">
+  <a class="skip-link" href="#studio-main">跳到内容</a>
+
+  <header class="topbar studio-topbar">
+    <div class="topbar-lead">
+      <a class="brand" href="./" aria-label="返回学习入口">
+        <span class="brand-mark studio-brand-mark" aria-hidden="true">製</span>
+        <span><strong>题库制作台</strong><small>来源清单 · 交付状态</small></span>
+      </a>
+    </div>
+    <div class="topbar-status-group">
+      <a class="mode-switch-link" href="./">切换工作区</a>
+    </div>
+  </header>
+
+  <nav class="studio-modules" id="studio-modules" aria-label="制作台模块"></nav>
+
+  <main id="studio-main">
+    <section class="view" id="view-sources" aria-labelledby="sources-heading">
+      <div class="board-hero">
+        <p class="eyebrow">PRODUCTION PIPELINE</p>
+        <h1 id="sources-heading">来源清单</h1>
+        <p class="board-hero-copy">
+          每一行说的是这套卷学习者取不取得到，以及它缺什么。制作由自动流水线完成：
+          只发布能自证的内容，证不出来的留在隔离区，不会被当作已核对。
+        </p>
+      </div>
+
+      <div class="inventory-overview" id="inventory-overview"></div>
+
+      <div class="filters">
+        <a class="primary-button" href="/studio/build">去制课（上传 PDF 一键做卷）</a>
+        <a class="btn btn-outline" href="#/import">导入工作区内的文件</a>
+        <button class="btn btn-outline" id="btn-refresh-inventory" type="button">刷新清单状态</button>
+        <select id="source-sort-order" class="sort-select" aria-label="试卷时间排序">
+          <option value="ASC">📅 时间正序 (2002 → 最新)</option>
+          <option value="DESC">📅 时间倒序 (最新 → 2002)</option>
+        </select>
+        <input type="search" id="source-search-input" placeholder="按年份/关键词筛选（如 2023、数学1）..." aria-label="搜索试卷">
+      </div>
+
+      <nav class="category-switch" id="subject-tabs" aria-label="按科目分类" role="tablist"></nav>
+
+      <p class="status-line" id="sources-status" role="status"></p>
+      <div id="source-rows"></div>
+
+      <details class="inventory-table-container">
+        <summary>目标题卷与流水线台账（全部清单条目）</summary>
+        <div class="table-container">
+          <table class="data-table" id="inventory-table">
+            <thead>
+              <tr>
+                <th>题卷编号</th><th>年度与科目</th><th>出题语言</th><th>考试大纲</th>
+                <th>使用授权</th><th>流水线状态</th><th>待补充事项</th><th>备注</th>
+              </tr>
+            </thead>
+            <tbody id="inventory-tbody"></tbody>
+          </table>
+        </div>
+      </details>
+    </section>
+
+    <section class="view view-wide" id="view-source" hidden aria-labelledby="source-heading">
+      <button class="quiet-button back-link" id="source-back" type="button">← 返回来源列表</button>
+      <div class="board-hero">
+        <p class="eyebrow" id="source-eyebrow">SOURCE</p>
+        <h1 id="source-heading">来源</h1>
+        <p class="board-hero-copy" id="source-meta"></p>
+      </div>
+
+      <div class="source-status" id="source-status"></div>
+    </section>
+
+    <section class="view" id="view-import" hidden aria-labelledby="import-heading">
+      <button class="quiet-button back-link" id="import-back" type="button">← 返回来源列表</button>
+      <div class="board-hero">
+        <p class="eyebrow">IMPORT</p>
+        <h1 id="import-heading">导入来源文件</h1>
+        <p class="board-hero-copy">
+          导入会校验文件真实性并登记 SHA-256。第一次导入某个清单条目会建立对应的来源；
+          之后再导入答案册或音频会并入同一套来源。
+        </p>
+      </div>
+      <form id="import-form" class="stage-form">
+        <label class="field"><span>清单条目 ID</span>
+          <input id="import-inventory" list="inventory-options" required></label>
+        <datalist id="inventory-options"></datalist>
+        <label class="field"><span>工作区内文件路径</span>
+          <input id="import-path" placeholder="incoming/booklet.pdf" required></label>
+        <label class="field"><span>资料类型</span>
+          <select id="import-role">
+            <option value="QUESTION_BOOKLET">题册</option>
+            <option value="ANSWER_KEY">答案册</option>
+            <option value="AUDIO">音频</option>
+          </select></label>
+        <button class="primary-button" type="submit">验证并导入</button>
+      </form>
+      <p class="status-line" id="import-status" role="status"></p>
+      <div id="import-jobs"></div>
+    </section>
+  </main>
+
+
+  <script src="/core.js" defer></script>
+  <script src="/studio_shell.js" defer></script>
+  <script src="/studio_library.js" defer></script>
+</body>
+</html>

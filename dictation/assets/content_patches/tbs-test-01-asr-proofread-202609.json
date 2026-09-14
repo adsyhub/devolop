@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "description": "tbs-test-01：LLM 逐句校对发现的 ASR 误识别修正 13 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "8c8ac1684984c19afe8e077bdb88f82ae5086da580ce19db68c4708289e99036",
+  "evidence": {
+    "file": "proofread-work/tbs-test-01/proofread.json",
+    "proposedFixes": "proofread-work/tbs-test-01/proposed-fixes.json",
+    "notes": "proofread-work/tbs-test-01/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 6,
+      "endIndex": 6,
+      "expectedStartTime": 21.72,
+      "expectedEndTime": 27.502,
+      "items": [
+        {
+          "startTime": 21.72,
+          "endTime": 27.502,
+          "sourceText": "通信アプリTelegramロシア発のメッセージアプリです一定",
+          "jaText": "通信アプリTelegramロシア発のメッセージアプリです一定"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 8,
+      "endIndex": 8,
+      "expectedStartTime": 31.439,
+      "expectedEndTime": 34.92,
+      "items": [
+        {
+          "startTime": 31.439,
+          "endTime": 34.92,
+          "sourceText": "秘匿性が高いと言われている連絡手段の一つこれを使って",
+          "jaText": "秘匿性が高いと言われている連絡手段の一つこれを使って"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 9,
+      "endIndex": 9,
+      "expectedStartTime": 34.92,
+      "expectedEndTime": 39.41,
+      "items": [
+        {
+          "startTime": 34.92,
+          "endTime": 39.41,
+          "sourceText": "いたその中でルフィと名乗るアカウントがあったということですどう",
+          "jaText": "いたその中でルフィと名乗るアカウントがあったということですどう"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 13,
+      "endIndex": 13,
+      "expectedStartTime": 52.14,
+      "expectedEndTime": 57.63,
+      "items": [
+        {
+          "startTime": 52.14,
+          "endTime": 57.63,
+          "sourceText": "ルフィと名乗る人物を含む犯行グループが各地で強盗を繰り返していると見て捜査していますこの",
+          "jaText": "ルフィと名乗る人物を含む犯行グループが各地で強盗を繰り返していると見て捜査していますこの"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 26,
+      "endIndex": 26,
+      "expectedStartTime": 110.22,
+      "expectedEndTime": 115.71,
+      "items": [
+        {
+          "startTime": 110.22,
+          "endTime": 115.71,
+          "sourceText": "区にある49歳の男性宅に押し入り顔を殴るなどの暴行を加えた疑い現金",
+          "jaText": "区にある49歳の男性宅に押し入り顔を殴るなどの暴行を加えた疑い現金"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 29,
+      "endIndex": 29,
+      "expectedStartTime": 130.14,
+      "expectedEndTime": 135.59,
+      "items": [
+        {
+          "startTime": 130.14,
+          "endTime": 135.59,
+          "sourceText": "人のうちまた指示役監督役どこまで組織が大きいのかというのもよくわかっていません新た",
+          "jaText": "人のうちまた指示役監督役どこまで組織が大きいのかというのもよくわかっていません新た"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 31,
+      "endIndex": 31,
+      "expectedStartTime": 138.12,
+      "expectedEndTime": 141.389,
+      "items": [
+        {
+          "startTime": 138.12,
+          "endTime": 141.389,
+          "sourceText": "この事件で逮捕された21歳の長田陸容疑者",
+          "jaText": "この事件で逮捕された21歳の長田陸容疑者"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 32,
+      "endIndex": 32,
+      "expectedStartTime": 142.14,
+      "expectedEndTime": 143.249,
+      "items": [
+        {
+          "startTime": 142.14,
+          "endTime": 143.249,
+          "sourceText": "逮捕された時車内からは",
+          "jaText": "逮捕された時車内からは"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 34,
+      "endIndex": 34,
+      "expectedStartTime": 146.94,
+      "expectedEndTime": 150.15,
+      "items": [
+        {
+          "startTime": 146.94,
+          "endTime": 150.15,
+          "sourceText": "座席に結束バンド目出し帽段ボール箱3",
+          "jaText": "座席に結束バンド目出し帽段ボール箱3"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 37,
+      "endIndex": 37,
+      "expectedStartTime": 155.28,
+      "expectedEndTime": 159.69,
+      "items": [
+        {
+          "startTime": 155.28,
+          "endTime": 159.69,
+          "sourceText": "もプロというよりもかなり雑な面が一つ指摘されている犯行形態です",
+          "jaText": "もプロというよりもかなり雑な面が一つ指摘されている犯行形態です"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 46,
+      "endIndex": 46,
+      "expectedStartTime": 192.36,
+      "expectedEndTime": 195.27,
+      "items": [
+        {
+          "startTime": 192.36,
+          "endTime": 195.27,
+          "sourceText": "住民を避難させる警察官を配置するこういったところで",
+          "jaText": "住民を避難させる警察官を配置するこういったところで"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 47,
+      "endIndex": 47,
+      "expectedStartTime": 195.54,
+      "expectedEndTime": 199.56,
+      "items": [
+        {
+          "startTime": 195.54,
+          "endTime": 199.56,
+          "sourceText": "先回りの捜査次の犯行を防ぐということも行われて",
+          "jaText": "先回りの捜査次の犯行を防ぐということも行われて"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 56,
+      "endIndex": 56,
+      "expectedStartTime": 225.599,
+      "expectedEndTime": 228.09,
+      "items": [
+        {
+          "startTime": 225.599,
+          "endTime": 228.09,
+          "sourceText": "大変だなと思ってすごい他人事じゃなく見ちゃいますけど",
+          "jaText": "大変だなと思ってすごい他人事じゃなく見ちゃいますけど"
+        }
+      ]
+    }
+  ]
+}

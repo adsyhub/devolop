@@ -1,0 +1,13 @@
+{
+  "source": "JMdict",
+  "sourceUrl": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://www.edrdg.org/edrdg/licence.html",
+  "attribution": "JMdict © James William Breen and EDRDG",
+  "builtAt": "2026-09-07T06:18:14.380023+00:00",
+  "sourceSha256": "ca4f7d28b45f9de30e0332b6174c582eb6d152c64d06bd44d183551988ea4b97",
+  "entries": "218732",
+  "fts": "trigram",
+  "languages": "Japanese, English",
+  "schemaVersion": "1"
+}

@@ -1,0 +1,44 @@
+{
+  "page": 29,
+  "blocks": [
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "らくらくコース",
+      "questionNumber": 1,
+      "choices": [
+        "花を楽しむコース",
+        "半周コース",
+        "一周コース",
+        ". ダンさんは、10月に会社の同僚15人とガイドツアーを利用したいと思っている。申し込みにあたり気をつけなければならないこととして、合っているのはどれか。"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "申し込みはツアーを希望する日の3日前の午後6時までに電話でする必要があります。",
+      "questionNumber": 1,
+      "choices": [
+        "ガイド料金は、どの「お勧めコース」を選ぶかによって変わる。",
+        "申し込みはまとめてできるが、当日は複数のグループに分かれなければならない。",
+        "出発時間は、午前8時30分から午前11時までの間で指定する必要があります。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "> 青水湖自然公園\n>\n> ハイキングのお勧めコース・ガイドツアーの二案内\n>\n> ◆お勧めコース(合計時間は休憩等を含めた大体の時間です)\n>\n| コース名 | コース内容 | 合計時間 |\n| --- | --- | --- |\n| らくらくコース | 北口から登山鉄道で山頂へ→徒歩で植物園へ→植物園前からボートで北口前へ→徒歩で北口へ | 1時間 |"
+    }
+  ],
+  "pageLabel": "29",
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 1 arrived at position 4; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

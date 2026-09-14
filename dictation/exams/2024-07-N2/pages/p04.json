@@ -1,0 +1,76 @@
+{
+  "page": 4,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　____の言葉を漢字で書くとき、最もよいものを1・2・3・4から一つ"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 2,
+      "text": "選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "text": "この会社をしぼうした理由を教えてください。",
+      "questionNumber": 6,
+      "choices": [
+        "希望",
+        "志望",
+        "指望",
+        "貴望"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "text": "あの作家のたんぺん小説はとても面白い。",
+      "questionNumber": 7,
+      "choices": [
+        "短編",
+        "単編",
+        "短遍",
+        "単遍"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "text": "桜の花がちっていくのを眺める。",
+      "questionNumber": 8,
+      "choices": [
+        "消って",
+        "去って",
+        "散って",
+        "失って"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "text": "このセーターにはとてもやわらかい毛糸が使われている。",
+      "questionNumber": 9,
+      "choices": [
+        "伸らかい",
+        "軽らかい",
+        "暖らかい",
+        "柔らかい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "text": "最近あまり体調がよくないのは、ひろうのせいだろう。",
+      "questionNumber": 10,
+      "choices": [
+        "疲労",
+        "病労",
+        "疲老",
+        "病老"
+      ]
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "description": "ann-news-ja：LLM 逐句校对发现的 ASR 误识别修正 7 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "178ebc0e9039bbcbe44ec913ac64383fae2ce3dba0efd54fd5b21f687e934454",
+  "evidence": {
+    "file": "proofread-work/ann-news-ja/proofread.json",
+    "proposedFixes": "proofread-work/ann-news-ja/proposed-fixes.json",
+    "notes": "proofread-work/ann-news-ja/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 0,
+      "endIndex": 0,
+      "expectedStartTime": 3.679,
+      "expectedEndTime": 6.162,
+      "items": [
+        {
+          "startTime": 3.679,
+          "endTime": 6.162,
+          "sourceText": "事件は山口県美祢市で起きました。",
+          "jaText": "事件は山口県美祢市で起きました。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 6,
+      "endIndex": 6,
+      "expectedStartTime": 31.32,
+      "expectedEndTime": 40.27,
+      "items": [
+        {
+          "startTime": 31.32,
+          "endTime": 40.27,
+          "sourceText": "警察が駆けつけたところ、2階で店主の斎藤和正さん80歳と70代の妻が倒れて",
+          "jaText": "警察が駆けつけたところ、2階で店主の斎藤和正さん80歳と70代の妻が倒れて"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 9,
+      "endIndex": 9,
+      "expectedStartTime": 63.44,
+      "expectedEndTime": 64.996,
+      "items": [
+        {
+          "startTime": 63.44,
+          "endTime": 64.996,
+          "sourceText": "斎藤さんは頭などを鈍器のようなもので殴られた後がありその場で死亡が確認されました。",
+          "jaText": "斎藤さんは頭などを鈍器のようなもので殴られた後がありその場で死亡が確認されました。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 13,
+      "endIndex": 13,
+      "expectedStartTime": 86.479,
+      "expectedEndTime": 92.75,
+      "items": [
+        {
+          "startTime": 86.479,
+          "endTime": 92.75,
+          "sourceText": "これまでに凶器は見つかっておらず、犯人の特定には至っていないということです。",
+          "jaText": "これまでに凶器は見つかっておらず、犯人の特定には至っていないということです。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 14,
+      "endIndex": 14,
+      "expectedStartTime": 96.2,
+      "expectedEndTime": 99.39,
+      "items": [
+        {
+          "startTime": 96.2,
+          "endTime": 99.39,
+          "sourceText": "美祢市は古くからの石灰石の産地。",
+          "jaText": "美祢市は古くからの石灰石の産地。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 15,
+      "endIndex": 15,
+      "expectedStartTime": 100.96,
+      "expectedEndTime": 108.949,
+      "items": [
+        {
+          "startTime": 100.96,
+          "endTime": 108.949,
+          "sourceText": "名物のまま採掘され、土がついた石灰石をイメージしたもので道の駅にも置いてあります。",
+          "jaText": "名物のまま採掘され、土がついた石灰石をイメージしたもので道の駅にも置いてあります。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 23,
+      "endIndex": 23,
+      "expectedStartTime": 162.08,
+      "expectedEndTime": 167.79,
+      "items": [
+        {
+          "startTime": 162.08,
+          "endTime": 167.79,
+          "sourceText": "警察はトクリュウも含む第3者による犯行も視野に捜査を続け",
+          "jaText": "警察はトクリュウも含む第3者による犯行も視野に捜査を続け"
+        }
+      ]
+    }
+  ]
+}

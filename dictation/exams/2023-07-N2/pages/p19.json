@@ -1,0 +1,52 @@
+{
+  "page": 19,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>59</u>. いまの大学について、筆者の考えに合うのはどれか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "授業内容の公開によって、授業料を支払う意味がなくなった。",
+      "questionNumber": 1,
+      "choices": [
+        "どこにいても学べるようになって、大学を選ぶ必要がなくなった。",
+        "インターネットの発達で、世界で同じレベルの教育ができるようになった。",
+        "インターネットの普及で、知識や情報を得る場所としての価値はなくなった。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>60</u>. 大学について、筆者が言いたいことは何か。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "学生が求めている学びの共同体を実現するべきだ。",
+      "questionNumber": 1,
+      "choices": [
+        "ほかでは得られない情報や知識を提供する必要がある。",
+        "学びの共同体として、何ができるかを具体的に示す必要がある。",
+        "どのような学びの共同体を作るかを、学生自身にも考えさせるべきだ。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "(3)\n自分を見失わない(注1)ためのコツとして、ぼくは「何でも正直に話をする」ようにしています。\nその場で波風(注2)を立てずに、聞き心地(注3)がいいことだけを他人に言っていたら、同じようなことを心の中で自分に対しても言うようになってしまいます。長期的に見て、「本心(注4)を口にしない」ことの悪影響は、非常に大きいのです。自分についたウソは、気付かないうちにそれがウソか木当かもわからなくな"
+    }
+  ],
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

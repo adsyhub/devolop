@@ -1,0 +1,31 @@
+{
+  "page": 41,
+  "blocks": [
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "",
+      "label": "3番",
+      "choices": [
+        "店で一番人気料理",
+        "店の中の様子",
+        "店の料理人の様子",
+        "店の入り口の様子"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "",
+      "label": "4番",
+      "choices": [
+        "記念品を袋に入れる",
+        "花瓶をステージの上に運ぶ",
+        "椅子に名前の紙を貼る",
+        "挨拶する練習"
+      ]
+    }
+  ],
+  "pageLabel": "3",
+  "issues": []
+}

@@ -1,0 +1,46 @@
+{
+  "page": 9,
+  "pageLabel": "9",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 12,
+      "text": "問題12　次のAとBの文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 12,
+      "passageId": "p_2016_12_N2_integrated",
+      "text": "A\n\nAの立場からの意見や見解が述べられています。\n\nB\n\nBの立場からの意見や見解が述べられています。",
+      "notes": [
+        "注1　語句解説"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 12,
+      "questionNumber": 69,
+      "passageId": "p_2016_12_N2_integrated",
+      "text": "AとBの文章に共通して述べられていることは何か。",
+      "choices": [
+        "統合理解選択肢1",
+        "統合理解選択肢2",
+        "統合理解選択肢3",
+        "統合理解選択肢4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 12,
+      "questionNumber": 70,
+      "passageId": "p_2016_12_N2_integrated",
+      "text": "AとBの筆者の立場や意見の相違点について正しいものはどれか。",
+      "choices": [
+        "統合理解比較選択肢1",
+        "統合理解比較選択肢2",
+        "統合理解比較選択肢3",
+        "統合理解比較選択肢4"
+      ]
+    }
+  ]
+}

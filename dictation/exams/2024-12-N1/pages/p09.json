@@ -1,0 +1,32 @@
+{
+  "page": 9,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "31 引っ越しを控えているので、なるべく余計な出費を( )、友人に誘われたスキー旅行に行くことにした。\n1 押さえたら抑えたで\n2 抑えられるものなら\n3 抑えるには抑えずに\n4 押さえたいところだが\n32 驚いたことに、その小学生は、高校レベルの数学の問題をすらすらと( )。\n1 解けるとは\n2 解けるものなら\n3 解いたまでだ\n4 解いてみせた\n33 専門家の話では、かつてこの地域一帯は海だった( )。\n1 という\n2 といえる\n3 といった\n4 といわれる\n34 子どもは生まれてくる家庭環境を選べない。だからこそ、親の経済状況によって、子どもの教育機会が奪われること( )。\n1 があるわけではない\n2 があってはならない\n3 であるわけではない\n4 であってはならない\n35 (大学で)\n先生「青木さん、今度の報告誌のモデルを青木さんにお願いできたらと思うんだけど、どうかな」\n青木「やりたいです。でも、私( )」\n先生「もちろん」\n1 だったらいいんですか\n2 だったらいいんでしょうか。\n3 なんかでいいんですか\n4 なんかでいいんでしょうか"
+    }
+  ],
+  "issues": [
+    "Choice-looking line with no question open: '1 押さえたら抑えたで'",
+    "Choice-looking line with no question open: '2 抑えられるものなら'",
+    "Choice-looking line with no question open: '3 抑えるには抑えずに'",
+    "Choice-looking line with no question open: '4 押さえたいところだが'",
+    "Choice-looking line with no question open: '1 解けるとは'",
+    "Choice-looking line with no question open: '2 解けるものなら'",
+    "Choice-looking line with no question open: '3 解いたまでだ'",
+    "Choice-looking line with no question open: '4 解いてみせた'",
+    "Choice-looking line with no question open: '1 という'",
+    "Choice-looking line with no question open: '2 といえる'",
+    "Choice-looking line with no question open: '3 といった'",
+    "Choice-looking line with no question open: '4 といわれる'",
+    "Choice-looking line with no question open: '1 があるわけではない'",
+    "Choice-looking line with no question open: '2 があってはならない'",
+    "Choice-looking line with no question open: '3 であるわけではない'",
+    "Choice-looking line with no question open: '4 であってはならない'",
+    "Choice-looking line with no question open: '1 だったらいいんですか'",
+    "Choice-looking line with no question open: '2 だったらいいんでしょうか。'",
+    "Choice-looking line with no question open: '3 なんかでいいんですか'",
+    "Choice-looking line with no question open: '4 なんかでいいんでしょうか'"
+  ]
+}

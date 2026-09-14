@@ -1,0 +1,113 @@
+{
+  "page": 6,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 4,
+      "text": "問題4　次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 4,
+      "text": "20 解約"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "text": "道路工事が終了したので、車両の通行止めを解約した。",
+      "questionNumber": 1,
+      "choices": [
+        "暗証番号を入力して、ドアのロックを解約してください。",
+        "体調が悪いので、友達と食事に行く予定を解約した。",
+        "家計の見直しをして、保険を解約することにした。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 4,
+      "text": "21 特産"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "text": "これはあの監督の数々の作品の中でも特産の映画だと思う。",
+      "questionNumber": 1,
+      "choices": [
+        "村の特産の黄色いりんごを使った料理をごちそうになった。",
+        "彼はわが国の特産の世界的なサッカー選手で、彼のことを知らない人はいない。",
+        "わが社特産の技術を生かした新商品を開発する。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 4,
+      "text": "22 問い詰める"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "text": "石川さんは数学ができるから、いつもみんなに数学の問題を問い詰められている。",
+      "questionNumber": 1,
+      "choices": [
+        "進路について一人で問い詰めていたが、両親に相談することにした。",
+        "子どものころから星を見るのが大好きで、今も宇宙の謎を問い詰めている。",
+        "友人たちから、どうして約束を破ったのかと問い詰められた。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 4,
+      "text": "23 改修"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "text": "顔の大きさに合わせて、眼鏡を改修してもらった。",
+      "questionNumber": 1,
+      "choices": [
+        "問題の解決には、法律を改修しなければならない。",
+        "台風によって壊れてしまった橋を改修している。",
+        "この資料は古いので、データを改修してください。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 4,
+      "text": "24 手厚い"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "text": "大切なお客様がいらっしゃったので、手厚くもてなした。",
+      "questionNumber": 1,
+      "choices": [
+        "交差点で起きた交通事故の状況を警察に手厚く説明した。",
+        "この商品は壊れやすいので、袋に包んで手厚く運んだ。",
+        "寝ている赤ちゃんを起こさないように、ドアを手厚く閉めた。"
+      ]
+    }
+  ],
+  "pageLabel": "4",
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

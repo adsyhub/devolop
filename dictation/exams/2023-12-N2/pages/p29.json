@@ -1,0 +1,48 @@
+{
+  "page": 29,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "63 それとあるが、どういうことか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "必要な条件が十分に揃ってから、動き始めたほうがいいこと",
+      "questionNumber": 1,
+      "choices": [
+        "必要な条件が何かわかってから、動き始めたほうがいいこと",
+        "必要な条件が何かわからなくても、動き始めなければならないこと",
+        "必要な条件が揃わなくても、動き始めなければならないこと"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "64 筆者は決断するためには、何が必要だと述べているか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "不足している条件は何か、考えること",
+      "questionNumber": 1,
+      "choices": [
+        "状況に応じて、目標を変えていくこと",
+        "自分の目標を明確に定めて、忘れずにいること",
+        "目標が自分に合っているか、常に意識すること"
+      ]
+    }
+  ],
+  "pageLabel": "27",
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

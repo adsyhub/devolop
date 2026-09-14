@@ -1,0 +1,149 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "自分の将来について、他人には<u>干渉</u>されたくない。",
+      "choices": [
+        "がんしょう",
+        "かんしょう",
+        "がんぽ",
+        "かんぽ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "田中選手は、最後まで<u>粘って</u>、ついに勝利を収めた。",
+      "choices": [
+        "ねばって",
+        "あらそって",
+        "きそって",
+        "ふんばって"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "手品師の<u>巧妙</u>なテクニックに観客から拍手が起こった。",
+      "choices": [
+        "こうびょう",
+        "こびょう",
+        "こうみょう",
+        "こみょう"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "書類にミスがあったので、すぐに修正を<u>促した</u>。",
+      "choices": [
+        "すました",
+        "ほどこした",
+        "せかした",
+        "うながした"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "適切な<u>措置</u>によって、問題が拡大するのを防ぐことができた。",
+      "choices": [
+        "そち",
+        "そうち",
+        "しょち",
+        "しょうち"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "スポーツを通じて、地域の<u>振興</u>を図りたい。",
+      "choices": [
+        "しんきょう",
+        "じんきょう",
+        "じんこう",
+        "しんこう"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "商品の値段を間違えて表示していたため、お客さんから（　　）が来た。",
+      "choices": [
+        "エラー",
+        "ノルマ",
+        "ダメージ",
+        "クレーム"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "御社は新技術を導入することになった（　　）についてお聞かせください。",
+      "choices": [
+        "軌道",
+        "経緯",
+        "経路",
+        "軌跡"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "この映画のストーリーは、地球の歴史を描いた（　　）ものだ。",
+      "choices": [
+        "絶大な",
+        "壮大な",
+        "盛大な",
+        "甚大な"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "試験前の一週間は、朝から晩まで（　　）勉強した。",
+      "choices": [
+        "みっちり",
+        "ぐっす",
+        "べったり",
+        "ぐっすり"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "住民からの要望で、空き地に放置されたごみの（　　）が行われた。",
+      "choices": [
+        "消去",
+        "駆除",
+        "削除",
+        "撤去"
+      ]
+    }
+  ]
+}

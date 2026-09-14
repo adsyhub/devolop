@@ -1,0 +1,48 @@
+{
+  "page": 27,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>61.</u> 写真として内容のあるものとはどのようなものか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "祭りの風景から町の人の様子が分かるような写真",
+      "questionNumber": 1,
+      "choices": [
+        "祭りに対する撮る人自身の見方が感じられる写真",
+        "見る人にとって祭り独特の魅力が感じられる写真",
+        "撮る人自身の祭りに対する情熱が伝わってくる写真"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>62.</u> 写真を撮ることについて、筆者が言いたいことは何か。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "上手い写真を撮ろうと思っても撮れるものではない",
+      "questionNumber": 1,
+      "choices": [
+        "上手い写真が撮れるまで、自分の撮り方を続けるべきだ",
+        "自分だけの写真を撮るには、刺激的な対象を探し出すべきだ",
+        "自分にしか表現できないものを撮るという気持ちで撮べきだ"
+      ]
+    }
+  ],
+  "pageLabel": "25",
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

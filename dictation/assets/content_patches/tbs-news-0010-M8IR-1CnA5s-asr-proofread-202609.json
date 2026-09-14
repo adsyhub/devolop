@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "description": "tbs-news-0010-M8IR-1CnA5s：LLM 逐句校对发现的 ASR 误识别修正 18 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "339d02a6378daea1a8c06f350d466ccee8952c77574dcacd27fc6742bb689cce",
+  "evidence": {
+    "file": "proofread-work/tbs-news-0010-M8IR-1CnA5s/proofread.json",
+    "proposedFixes": "proofread-work/tbs-news-0010-M8IR-1CnA5s/proposed-fixes.json",
+    "notes": "proofread-work/tbs-news-0010-M8IR-1CnA5s/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 1,
+      "endIndex": 1,
+      "expectedStartTime": 7.963,
+      "expectedEndTime": 9.117,
+      "items": [
+        {
+          "startTime": 7.963,
+          "endTime": 9.117,
+          "sourceText": "マクドナルドが来週から販売を始める月見バーガーです。",
+          "jaText": "マクドナルドが来週から販売を始める月見バーガーです。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 2,
+      "endIndex": 2,
+      "expectedStartTime": 9.117,
+      "expectedEndTime": 26.989,
+      "items": [
+        {
+          "startTime": 9.117,
+          "endTime": 26.989,
+          "sourceText": "シーナティとぷりの卵の組み合わせはもはや秋の風物詩。",
+          "jaText": "シーナティとぷりの卵の組み合わせはもはや秋の風物詩。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 4,
+      "endIndex": 4,
+      "expectedStartTime": 31.935,
+      "expectedEndTime": 32.293,
+      "items": [
+        {
+          "startTime": 31.935,
+          "endTime": 32.293,
+          "sourceText": "そもそもなんでこの時期に月見バーガーなのか皆さんご存知ですか?",
+          "jaText": "そもそもなんでこの時期に月見バーガーなのか皆さんご存知ですか?"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 5,
+      "endIndex": 5,
+      "expectedStartTime": 40.039,
+      "expectedEndTime": 43.059,
+      "items": [
+        {
+          "startTime": 40.039,
+          "endTime": 43.059,
+          "sourceText": "月見をイメージして作られた商品ってことですか?",
+          "jaText": "月見をイメージして作られた商品ってことですか?"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 12,
+      "endIndex": 12,
+      "expectedStartTime": 57.959,
+      "expectedEndTime": 58.823,
+      "items": [
+        {
+          "startTime": 57.959,
+          "endTime": 58.823,
+          "sourceText": "ケンタッキーフライドチキンやゼッテリアは今日から揃って月見メニューを投入。",
+          "jaText": "ケンタッキーフライドチキンやゼッテリアは今日から揃って月見メニューを投入。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 13,
+      "endIndex": 13,
+      "expectedStartTime": 58.823,
+      "expectedEndTime": 59.525,
+      "items": [
+        {
+          "startTime": 58.823,
+          "endTime": 59.525,
+          "sourceText": "さらに月見の波は他の外食業界にも押し寄せています。",
+          "jaText": "さらに月見の波は他の外食業界にも押し寄せています。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 14,
+      "endIndex": 14,
+      "expectedStartTime": 84.0,
+      "expectedEndTime": 88.75,
+      "items": [
+        {
+          "startTime": 84.0,
+          "endTime": 88.75,
+          "sourceText": "秋はなかなか来ないと言われてますが、月見商戦は始まっております。",
+          "jaText": "秋はなかなか来ないと言われてますが、月見商戦は始まっております。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 18,
+      "endIndex": 18,
+      "expectedStartTime": 105.92,
+      "expectedEndTime": 107.589,
+      "items": [
+        {
+          "startTime": 105.92,
+          "endTime": 107.589,
+          "sourceText": "メニューに月見は入れてないんですよね。",
+          "jaText": "メニューに月見は入れてないんですよね。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 62,
+      "endIndex": 62,
+      "expectedStartTime": 294.693,
+      "expectedEndTime": 310.494,
+      "items": [
+        {
+          "startTime": 294.693,
+          "endTime": 310.494,
+          "sourceText": "さあ、そして他にも中秋の名月は今年9月25京都の平安の中で行われるんですが、",
+          "jaText": "さあ、そして他にも中秋の名月は今年9月25京都の平安の中で行われるんですが、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 63,
+      "endIndex": 63,
+      "expectedStartTime": 313.36,
+      "expectedEndTime": 335.719,
+      "items": [
+        {
+          "startTime": 313.36,
+          "endTime": 335.719,
+          "sourceText": "観月ディナーということで9月25それからま子さんのね、",
+          "jaText": "観月ディナーということで9月25それからま子さんのね、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 64,
+      "endIndex": 64,
+      "expectedStartTime": 335.719,
+      "expectedEndTime": 336.126,
+      "items": [
+        {
+          "startTime": 335.719,
+          "endTime": 336.126,
+          "sourceText": "舞を鑑賞したり、",
+          "jaText": "舞を鑑賞したり、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 90,
+      "endIndex": 90,
+      "expectedStartTime": 447.448,
+      "expectedEndTime": 448.149,
+      "items": [
+        {
+          "startTime": 447.448,
+          "endTime": 448.149,
+          "sourceText": "食欲の秋の定番となった月見メニュー。",
+          "jaText": "食欲の秋の定番となった月見メニュー。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 92,
+      "endIndex": 92,
+      "expectedStartTime": 468.36,
+      "expectedEndTime": 475.189,
+      "items": [
+        {
+          "startTime": 468.36,
+          "endTime": 475.189,
+          "sourceText": "10年前、1パックあたりの全国の小売価格の平均は200円台前半で推移していました。",
+          "jaText": "10年前、1パックあたりの全国の小売価格の平均は200円台前半で推移していました。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 95,
+      "endIndex": 95,
+      "expectedStartTime": 488.199,
+      "expectedEndTime": 492.349,
+      "items": [
+        {
+          "startTime": 488.199,
+          "endTime": 492.349,
+          "sourceText": "トリインフルエンザの再流行や生産コストの上昇などにより",
+          "jaText": "トリインフルエンザの再流行や生産コストの上昇などにより"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 102,
+      "endIndex": 102,
+      "expectedStartTime": 540.221,
+      "expectedEndTime": 558.059,
+      "items": [
+        {
+          "startTime": 540.221,
+          "endTime": 558.059,
+          "sourceText": "1000円上が生産コストの6割を占める飼料代は2値上げも言いづらい部分はありますけども、",
+          "jaText": "1000円上が生産コストの6割を占める飼料代は2値上げも言いづらい部分はありますけども、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 105,
+      "endIndex": 105,
+      "expectedStartTime": 559.698,
+      "expectedEndTime": 560.559,
+      "items": [
+        {
+          "startTime": 559.698,
+          "endTime": 560.559,
+          "sourceText": "やっぱ価格に転嫁せざるを得ない部分はありますね。",
+          "jaText": "やっぱ価格に転嫁せざるを得ない部分はありますね。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 109,
+      "endIndex": 109,
+      "expectedStartTime": 581.141,
+      "expectedEndTime": 582.363,
+      "items": [
+        {
+          "startTime": 581.141,
+          "endTime": 582.363,
+          "sourceText": "最大の要因は円安です。",
+          "jaText": "最大の要因は円安です。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 110,
+      "endIndex": 110,
+      "expectedStartTime": 584.519,
+      "expectedEndTime": 597.68,
+      "items": [
+        {
+          "startTime": 584.519,
+          "endTime": 597.68,
+          "sourceText": "特に餌は99%物価の優等生とも呼ばれた卵は今物価高のうねりに翻弄されています。",
+          "jaText": "特に餌は99%物価の優等生とも呼ばれた卵は今物価高のうねりに翻弄されています。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "page": 25,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "56 実験科学の分野の研究者について、筆者の考えに合うのはどれか。\n1 実験結果に振り回されず、常に仮説と結果を冷静に検証する必要がある。\n2 実験に冷静に臨んでも、思いどおりのよい結果が得られるとは限らない。\n3 「発見」のためには、膨大な時間と試行錯誤を覚悟しなければならない。\n4 思い描いたとおりの結果を得るには、実験による検証を諦めてはならない。"
+    }
+  ],
+  "pageLabel": "23",
+  "issues": [
+    "Choice-looking line with no question open: '1 実験結果に振り回されず、常に仮説と結果を冷静に検証する必要がある。'",
+    "Choice-looking line with no question open: '2 実験に冷静に臨んでも、思いどおりのよい結果が得られるとは限らない。'",
+    "Choice-looking line with no question open: '3 「発見」のためには、膨大な時間と試行錯誤を覚悟しなければならない。'",
+    "Choice-looking line with no question open: '4 思い描いたとおりの結果を得るには、実験による検証を諦めてはならない。'"
+  ]
+}

@@ -1,0 +1,758 @@
+{
+  "activePapers": 149,
+  "papersWithRejectedAttestations": 149,
+  "uniqueReferencedPages": 2269,
+  "rejectedPages": 2269,
+  "reasonCounts": {
+    "证明没有绑定合同正文（缺 contractDigest），无法判断它说的是哪一页": 2269,
+    "证明使用了已废止的检查项 answer.is_a_read_option：它当初的依据不能证明题答配对，须按新策略重新评估": 2117,
+    "证明缺少本角色的必需检查项 answer.mapping_verified、answer.value_in_options": 2117
+  },
+  "papers": [
+    {
+      "paper": "eju-2002-2-japanese-ja",
+      "referencedPages": 14,
+      "rejectedByCurrentVerifier": 14
+    },
+    {
+      "paper": "eju-2002-2-science-ja",
+      "referencedPages": 21,
+      "rejectedByCurrentVerifier": 21
+    },
+    {
+      "paper": "eju-2003-1-japanese-ja",
+      "referencedPages": 12,
+      "rejectedByCurrentVerifier": 12
+    },
+    {
+      "paper": "eju-2003-1-science-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2003-2-japan-world-ja",
+      "referencedPages": 15,
+      "rejectedByCurrentVerifier": 15
+    },
+    {
+      "paper": "eju-2003-2-japanese-ja",
+      "referencedPages": 15,
+      "rejectedByCurrentVerifier": 15
+    },
+    {
+      "paper": "eju-2003-2-science-ja",
+      "referencedPages": 26,
+      "rejectedByCurrentVerifier": 26
+    },
+    {
+      "paper": "eju-2004-1-japan-world-ja",
+      "referencedPages": 10,
+      "rejectedByCurrentVerifier": 10
+    },
+    {
+      "paper": "eju-2004-1-science-ja",
+      "referencedPages": 11,
+      "rejectedByCurrentVerifier": 11
+    },
+    {
+      "paper": "eju-2004-2-japan-world-ja",
+      "referencedPages": 14,
+      "rejectedByCurrentVerifier": 14
+    },
+    {
+      "paper": "eju-2004-2-japanese-ja",
+      "referencedPages": 14,
+      "rejectedByCurrentVerifier": 14
+    },
+    {
+      "paper": "eju-2004-2-science-ja",
+      "referencedPages": 30,
+      "rejectedByCurrentVerifier": 30
+    },
+    {
+      "paper": "eju-2005-1-japan-world-ja",
+      "referencedPages": 14,
+      "rejectedByCurrentVerifier": 14
+    },
+    {
+      "paper": "eju-2005-1-japanese-ja",
+      "referencedPages": 14,
+      "rejectedByCurrentVerifier": 14
+    },
+    {
+      "paper": "eju-2005-1-science-ja",
+      "referencedPages": 24,
+      "rejectedByCurrentVerifier": 24
+    },
+    {
+      "paper": "eju-2005-2-japan-world-ja",
+      "referencedPages": 18,
+      "rejectedByCurrentVerifier": 18
+    },
+    {
+      "paper": "eju-2005-2-japanese-ja",
+      "referencedPages": 14,
+      "rejectedByCurrentVerifier": 14
+    },
+    {
+      "paper": "eju-2005-2-science-ja",
+      "referencedPages": 20,
+      "rejectedByCurrentVerifier": 20
+    },
+    {
+      "paper": "eju-2006-1-japan-world-ja",
+      "referencedPages": 18,
+      "rejectedByCurrentVerifier": 18
+    },
+    {
+      "paper": "eju-2006-1-japanese-ja",
+      "referencedPages": 14,
+      "rejectedByCurrentVerifier": 14
+    },
+    {
+      "paper": "eju-2006-1-science-ja",
+      "referencedPages": 19,
+      "rejectedByCurrentVerifier": 19
+    },
+    {
+      "paper": "eju-2006-2-japan-world-ja",
+      "referencedPages": 19,
+      "rejectedByCurrentVerifier": 19
+    },
+    {
+      "paper": "eju-2006-2-japanese-ja",
+      "referencedPages": 11,
+      "rejectedByCurrentVerifier": 11
+    },
+    {
+      "paper": "eju-2006-2-science-ja",
+      "referencedPages": 28,
+      "rejectedByCurrentVerifier": 28
+    },
+    {
+      "paper": "eju-2007-1-japan-world-ja",
+      "referencedPages": 19,
+      "rejectedByCurrentVerifier": 19
+    },
+    {
+      "paper": "eju-2007-1-japanese-ja",
+      "referencedPages": 11,
+      "rejectedByCurrentVerifier": 11
+    },
+    {
+      "paper": "eju-2007-1-science-ja",
+      "referencedPages": 37,
+      "rejectedByCurrentVerifier": 37
+    },
+    {
+      "paper": "eju-2007-2-japan-world-ja",
+      "referencedPages": 19,
+      "rejectedByCurrentVerifier": 19
+    },
+    {
+      "paper": "eju-2002-1-japanese-ja",
+      "referencedPages": 21,
+      "rejectedByCurrentVerifier": 21
+    },
+    {
+      "paper": "eju-2007-2-japanese-ja",
+      "referencedPages": 15,
+      "rejectedByCurrentVerifier": 15
+    },
+    {
+      "paper": "eju-2002-1-science-ja",
+      "referencedPages": 19,
+      "rejectedByCurrentVerifier": 19
+    },
+    {
+      "paper": "eju-2007-2-science-ja",
+      "referencedPages": 13,
+      "rejectedByCurrentVerifier": 13
+    },
+    {
+      "paper": "eju-2002-2-japan-world-ja",
+      "referencedPages": 14,
+      "rejectedByCurrentVerifier": 14
+    },
+    {
+      "paper": "eju-2008-1-japan-world-ja",
+      "referencedPages": 21,
+      "rejectedByCurrentVerifier": 21
+    },
+    {
+      "paper": "eju-2008-1-japanese-ja",
+      "referencedPages": 14,
+      "rejectedByCurrentVerifier": 14
+    },
+    {
+      "paper": "eju-2008-1-science-ja",
+      "referencedPages": 38,
+      "rejectedByCurrentVerifier": 38
+    },
+    {
+      "paper": "eju-2008-2-japan-world-ja",
+      "referencedPages": 16,
+      "rejectedByCurrentVerifier": 16
+    },
+    {
+      "paper": "eju-2008-2-japanese-ja",
+      "referencedPages": 14,
+      "rejectedByCurrentVerifier": 14
+    },
+    {
+      "paper": "eju-2008-2-science-ja",
+      "referencedPages": 34,
+      "rejectedByCurrentVerifier": 34
+    },
+    {
+      "paper": "eju-2009-1-japan-world-ja",
+      "referencedPages": 22,
+      "rejectedByCurrentVerifier": 22
+    },
+    {
+      "paper": "eju-2009-1-japanese-ja",
+      "referencedPages": 12,
+      "rejectedByCurrentVerifier": 12
+    },
+    {
+      "paper": "eju-2009-1-math-c2-ja",
+      "referencedPages": 6,
+      "rejectedByCurrentVerifier": 6
+    },
+    {
+      "paper": "eju-2009-1-science-ja",
+      "referencedPages": 33,
+      "rejectedByCurrentVerifier": 33
+    },
+    {
+      "paper": "eju-2009-2-japan-world-ja",
+      "referencedPages": 18,
+      "rejectedByCurrentVerifier": 18
+    },
+    {
+      "paper": "eju-2009-2-japanese-ja",
+      "referencedPages": 14,
+      "rejectedByCurrentVerifier": 14
+    },
+    {
+      "paper": "eju-2009-2-science-ja",
+      "referencedPages": 34,
+      "rejectedByCurrentVerifier": 34
+    },
+    {
+      "paper": "eju-2010-1-japan-world-ja",
+      "referencedPages": 18,
+      "rejectedByCurrentVerifier": 18
+    },
+    {
+      "paper": "eju-2010-1-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2010-1-science-ja",
+      "referencedPages": 33,
+      "rejectedByCurrentVerifier": 33
+    },
+    {
+      "paper": "eju-2010-2-japan-world-ja",
+      "referencedPages": 17,
+      "rejectedByCurrentVerifier": 17
+    },
+    {
+      "paper": "eju-2010-2-science-ja",
+      "referencedPages": 26,
+      "rejectedByCurrentVerifier": 26
+    },
+    {
+      "paper": "eju-2011-1-japan-world-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2011-1-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2011-1-science-ja",
+      "referencedPages": 46,
+      "rejectedByCurrentVerifier": 46
+    },
+    {
+      "paper": "eju-2011-2-japan-world-ja",
+      "referencedPages": 9,
+      "rejectedByCurrentVerifier": 9
+    },
+    {
+      "paper": "eju-2011-2-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2011-2-math-c2-ja",
+      "referencedPages": 6,
+      "rejectedByCurrentVerifier": 6
+    },
+    {
+      "paper": "eju-2011-2-science-ja",
+      "referencedPages": 15,
+      "rejectedByCurrentVerifier": 15
+    },
+    {
+      "paper": "eju-2012-1-japan-world-ja",
+      "referencedPages": 21,
+      "rejectedByCurrentVerifier": 21
+    },
+    {
+      "paper": "eju-2012-1-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2012-1-science-ja",
+      "referencedPages": 33,
+      "rejectedByCurrentVerifier": 33
+    },
+    {
+      "paper": "eju-2012-2-japan-world-ja",
+      "referencedPages": 19,
+      "rejectedByCurrentVerifier": 19
+    },
+    {
+      "paper": "eju-2012-2-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2012-2-math-c2-ja",
+      "referencedPages": 5,
+      "rejectedByCurrentVerifier": 5
+    },
+    {
+      "paper": "eju-2012-2-science-ja",
+      "referencedPages": 25,
+      "rejectedByCurrentVerifier": 25
+    },
+    {
+      "paper": "eju-2013-1-japan-world-ja",
+      "referencedPages": 18,
+      "rejectedByCurrentVerifier": 18
+    },
+    {
+      "paper": "eju-2013-1-math-c2-ja",
+      "referencedPages": 3,
+      "rejectedByCurrentVerifier": 3
+    },
+    {
+      "paper": "eju-2013-1-science-ja",
+      "referencedPages": 34,
+      "rejectedByCurrentVerifier": 34
+    },
+    {
+      "paper": "eju-2013-2-japan-world-ja",
+      "referencedPages": 18,
+      "rejectedByCurrentVerifier": 18
+    },
+    {
+      "paper": "eju-2013-2-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2013-2-math-c2-ja",
+      "referencedPages": 6,
+      "rejectedByCurrentVerifier": 6
+    },
+    {
+      "paper": "eju-2013-2-science-ja",
+      "referencedPages": 31,
+      "rejectedByCurrentVerifier": 31
+    },
+    {
+      "paper": "eju-2014-1-japan-world-ja",
+      "referencedPages": 5,
+      "rejectedByCurrentVerifier": 5
+    },
+    {
+      "paper": "eju-2014-1-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2014-1-math-c2-ja",
+      "referencedPages": 6,
+      "rejectedByCurrentVerifier": 6
+    },
+    {
+      "paper": "eju-2014-1-science-ja",
+      "referencedPages": 26,
+      "rejectedByCurrentVerifier": 26
+    },
+    {
+      "paper": "eju-2014-2-japan-world-ja",
+      "referencedPages": 17,
+      "rejectedByCurrentVerifier": 17
+    },
+    {
+      "paper": "eju-2014-2-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2014-2-science-ja",
+      "referencedPages": 34,
+      "rejectedByCurrentVerifier": 34
+    },
+    {
+      "paper": "eju-2015-1-japan-world-ja",
+      "referencedPages": 19,
+      "rejectedByCurrentVerifier": 19
+    },
+    {
+      "paper": "eju-2015-1-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2015-1-science-ja",
+      "referencedPages": 34,
+      "rejectedByCurrentVerifier": 34
+    },
+    {
+      "paper": "eju-2015-2-japan-world-ja",
+      "referencedPages": 20,
+      "rejectedByCurrentVerifier": 20
+    },
+    {
+      "paper": "eju-2015-2-math-c2-ja",
+      "referencedPages": 5,
+      "rejectedByCurrentVerifier": 5
+    },
+    {
+      "paper": "eju-2015-2-science-ja",
+      "referencedPages": 28,
+      "rejectedByCurrentVerifier": 28
+    },
+    {
+      "paper": "eju-2016-1-japan-world-ja",
+      "referencedPages": 18,
+      "rejectedByCurrentVerifier": 18
+    },
+    {
+      "paper": "eju-2016-1-science-ja",
+      "referencedPages": 34,
+      "rejectedByCurrentVerifier": 34
+    },
+    {
+      "paper": "eju-2016-2-japan-world-ja",
+      "referencedPages": 11,
+      "rejectedByCurrentVerifier": 11
+    },
+    {
+      "paper": "eju-2016-2-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2016-2-math-c2-ja",
+      "referencedPages": 6,
+      "rejectedByCurrentVerifier": 6
+    },
+    {
+      "paper": "eju-2016-2-science-ja",
+      "referencedPages": 36,
+      "rejectedByCurrentVerifier": 36
+    },
+    {
+      "paper": "eju-2017-1-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2017-1-science-ja",
+      "referencedPages": 34,
+      "rejectedByCurrentVerifier": 34
+    },
+    {
+      "paper": "eju-2017-2-japan-world-ja",
+      "referencedPages": 10,
+      "rejectedByCurrentVerifier": 10
+    },
+    {
+      "paper": "eju-2017-2-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2017-2-math-c2-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2017-2-science-ja",
+      "referencedPages": 19,
+      "rejectedByCurrentVerifier": 19
+    },
+    {
+      "paper": "eju-2018-1-japan-world-ja",
+      "referencedPages": 18,
+      "rejectedByCurrentVerifier": 18
+    },
+    {
+      "paper": "eju-2018-1-math-c1-ja",
+      "referencedPages": 4,
+      "rejectedByCurrentVerifier": 4
+    },
+    {
+      "paper": "eju-2018-1-math-c2-ja",
+      "referencedPages": 3,
+      "rejectedByCurrentVerifier": 3
+    },
+    {
+      "paper": "eju-2018-1-science-ja",
+      "referencedPages": 13,
+      "rejectedByCurrentVerifier": 13
+    },
+    {
+      "paper": "eju-2018-2-japan-world-ja",
+      "referencedPages": 10,
+      "rejectedByCurrentVerifier": 10
+    },
+    {
+      "paper": "eju-2018-2-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2018-2-math-c2-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2018-2-science-ja",
+      "referencedPages": 33,
+      "rejectedByCurrentVerifier": 33
+    },
+    {
+      "paper": "eju-2019-1-japan-world-ja",
+      "referencedPages": 9,
+      "rejectedByCurrentVerifier": 9
+    },
+    {
+      "paper": "eju-2019-1-science-ja",
+      "referencedPages": 33,
+      "rejectedByCurrentVerifier": 33
+    },
+    {
+      "paper": "eju-2020-2-japan-world-ja",
+      "referencedPages": 8,
+      "rejectedByCurrentVerifier": 8
+    },
+    {
+      "paper": "eju-2020-2-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2020-2-math-c2-ja",
+      "referencedPages": 6,
+      "rejectedByCurrentVerifier": 6
+    },
+    {
+      "paper": "eju-2020-2-science-ja",
+      "referencedPages": 32,
+      "rejectedByCurrentVerifier": 32
+    },
+    {
+      "paper": "eju-2021-1-japan-world-ja",
+      "referencedPages": 14,
+      "rejectedByCurrentVerifier": 14
+    },
+    {
+      "paper": "eju-2021-1-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2021-1-math-c2-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2021-1-science-ja",
+      "referencedPages": 9,
+      "rejectedByCurrentVerifier": 9
+    },
+    {
+      "paper": "eju-2021-2-japan-world-ja",
+      "referencedPages": 11,
+      "rejectedByCurrentVerifier": 11
+    },
+    {
+      "paper": "eju-2021-2-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2021-2-science-ja",
+      "referencedPages": 17,
+      "rejectedByCurrentVerifier": 17
+    },
+    {
+      "paper": "eju-2022-1-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2022-1-math-c2-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2022-1-science-ja",
+      "referencedPages": 25,
+      "rejectedByCurrentVerifier": 25
+    },
+    {
+      "paper": "eju-2022-2-japan-world-ja",
+      "referencedPages": 11,
+      "rejectedByCurrentVerifier": 11
+    },
+    {
+      "paper": "eju-2022-2-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2022-2-math-c2-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2022-2-science-ja",
+      "referencedPages": 24,
+      "rejectedByCurrentVerifier": 24
+    },
+    {
+      "paper": "eju-2023-1-science-ja",
+      "referencedPages": 45,
+      "rejectedByCurrentVerifier": 45
+    },
+    {
+      "paper": "eju-2023-2-japan-world-ja",
+      "referencedPages": 3,
+      "rejectedByCurrentVerifier": 3
+    },
+    {
+      "paper": "eju-2002-1-japan-world-ja",
+      "referencedPages": 15,
+      "rejectedByCurrentVerifier": 15
+    },
+    {
+      "paper": "eju-2010-1-math-c2-ja",
+      "referencedPages": 6,
+      "rejectedByCurrentVerifier": 6
+    },
+    {
+      "paper": "eju-2011-1-math-c2-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2014-2-math-c2-ja",
+      "referencedPages": 6,
+      "rejectedByCurrentVerifier": 6
+    },
+    {
+      "paper": "eju-2015-1-math-c2-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2019-1-math-c2-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2023-1-math-c1-ja",
+      "referencedPages": 6,
+      "rejectedByCurrentVerifier": 6
+    },
+    {
+      "paper": "eju-2023-2-math-c2-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2023-2-science-ja",
+      "referencedPages": 37,
+      "rejectedByCurrentVerifier": 37
+    },
+    {
+      "paper": "eju-2009-1-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2009-2-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2009-2-math-c2-ja",
+      "referencedPages": 5,
+      "rejectedByCurrentVerifier": 5
+    },
+    {
+      "paper": "eju-2010-2-math-c2-ja",
+      "referencedPages": 5,
+      "rejectedByCurrentVerifier": 5
+    },
+    {
+      "paper": "eju-2012-1-math-c2-ja",
+      "referencedPages": 6,
+      "rejectedByCurrentVerifier": 6
+    },
+    {
+      "paper": "eju-2015-2-math-c1-ja",
+      "referencedPages": 6,
+      "rejectedByCurrentVerifier": 6
+    },
+    {
+      "paper": "eju-2016-1-math-c1-ja",
+      "referencedPages": 6,
+      "rejectedByCurrentVerifier": 6
+    },
+    {
+      "paper": "eju-2023-2-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2010-2-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2013-1-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2017-1-math-c2-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2019-1-math-c1-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    },
+    {
+      "paper": "eju-2021-2-math-c2-ja",
+      "referencedPages": 7,
+      "rejectedByCurrentVerifier": 7
+    }
+  ]
+}

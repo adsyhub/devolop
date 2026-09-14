@@ -1,0 +1,20 @@
+{
+  "page": 2,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>8</u>毎日たくさんのごみがすてられている。\n1 拾てられて 2 投てられて 3 採てられて 4 捨てられて\n<u>9</u>小山さんのきげんがよいときに頼んでみよう。\n1 機兼 2 機嫌 3 気嫌 4 気兼\n<u>10</u>これは、会社にとって大きなそんしつだ。\n1 削失 2 隕失 3 消失 4 損失\n<u>問題3</u> ( )に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。\n<u>11</u>アンケートでは、質問に( )回答の人もいた。\n1 無 2 空 3 欠 4 失\n<u>12</u>この本には海外にある日本( )の家がたくさん載っている。\n1 気 2 類 3 風 4 状\n<u>13</u>壁( )のソファーアに座る。\n1 所 2 際 3 辺 4 域\n<u>問題4</u> ( )に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。\n<u>14</u>彼は本当は優しい人なのに、無口なせいで、冷たい人だとよく( )される。\n1 観測 2 誤解 3 決意 4 承認\n<u>15</u>新製品の売れ行きが( )なので、生産量を増やすことにした。\n1 温厚 2 円満 3 好調 4 適切\n<u>16</u>彼は、どんな仕事でもミスひとつなく期日までに仕上げてくれるので、"
+    }
+  ],
+  "issues": [
+    "Choice-looking line with no question open: '1 拾てられて 2 投てられて 3 採てられて 4 捨てられて'",
+    "Choice-looking line with no question open: '1 機兼 2 機嫌 3 気嫌 4 気兼'",
+    "Choice-looking line with no question open: '1 削失 2 隕失 3 消失 4 損失'",
+    "Choice-looking line with no question open: '1 無 2 空 3 欠 4 失'",
+    "Choice-looking line with no question open: '1 気 2 類 3 風 4 状'",
+    "Choice-looking line with no question open: '1 所 2 際 3 辺 4 域'",
+    "Choice-looking line with no question open: '1 観測 2 誤解 3 決意 4 承認'",
+    "Choice-looking line with no question open: '1 温厚 2 円満 3 好調 4 適切'"
+  ]
+}

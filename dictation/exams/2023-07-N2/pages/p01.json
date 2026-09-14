@@ -1,0 +1,83 @@
+{
+  "page": 1,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "2023年7月N2真题"
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　____の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "バスの運賃を払う。",
+      "questionNumber": 1,
+      "choices": [
+        "うんしん 2 うんちん 3 ラにん 4 ラんりん",
+        "風が強くて、髪が乱れてしまった。",
+        "くずれて 2 あれて 3 あばれて 4 みだれて",
+        "前田さんは子どもたちに正しい泳ぎ方の模範を示した"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 1,
+      "text": "1 もうばん 2 もうはん 3 もばん 4 もはん"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "思った以上に険しかった。",
+      "questionNumber": 4,
+      "choices": [
+        "けわしかった 2 まぶしかった 3 おそろしかった 4 はげしかった"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "さっき握手していた人は誰ですか。",
+      "questionNumber": 5,
+      "choices": [
+        "おくしゅ 2 はくしゅ 3 あくしゅ 4 ほくしゅ"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　____の言葉を漢字で書くとき、最もよいものを1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "text": "そのぬのを広げてください。",
+      "questionNumber": 6,
+      "choices": [
+        "布 2 袋 3 衣 4 帯"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "text": "今後は、ふくしの仕事に就く予定です。",
+      "questionNumber": 7,
+      "choices": [
+        "福支 2 副社 3 福祉 4 副支"
+      ]
+    }
+  ],
+  "pageLabel": "1",
+  "issues": [
+    "Q1: choice numbered 1 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 4; the printed numbering may be wrong or a choice was dropped.",
+    "Choice-looking line with no question open: '1 もうばん 2 もうはん 3 もばん 4 もはん'",
+    "Q4: 1 choices transcribed, expected 4. Check the page image.",
+    "Q5: 1 choices transcribed, expected 4. Check the page image.",
+    "Q6: 1 choices transcribed, expected 4. Check the page image.",
+    "Q7: 1 choices transcribed, expected 4. Check the page image."
+  ]
+}

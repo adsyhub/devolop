@@ -1,0 +1,31 @@
+{
+  "page": 39,
+  "blocks": [
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "はな",
+      "label": "1番",
+      "choices": [
+        "発表会当日の係を決める",
+        "アンケートの内容を決める",
+        "関係者に案内のメールを送る",
+        "ポスターの案内を作る"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "",
+      "label": "2番",
+      "choices": [
+        "アイ",
+        "アウ",
+        "イウ",
+        "アイウ"
+      ]
+    }
+  ],
+  "pageLabel": "2",
+  "issues": []
+}

@@ -1,0 +1,443 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eju.local/schemas/common.schema.json",
+  "$defs": {
+    "nonempty": {
+      "type": "string",
+      "minLength": 1
+    },
+    "strings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "regions": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "bbox": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      }
+    },
+    "ast": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node"
+      },
+      "maxItems": 5000
+    },
+    "node": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "text",
+            "paragraph",
+            "inlineMath",
+            "displayMath",
+            "figure",
+            "table",
+            "callout",
+            "underline",
+            "ruby",
+            "answerSlot",
+            "lineBreak"
+          ]
+        },
+        "value": {
+          "type": "string"
+        },
+        "latex": {
+          "type": "string"
+        },
+        "assetId": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "sourceBbox": {
+          "$ref": "#/$defs/bbox"
+        },
+        "children": {
+          "$ref": "#/$defs/ast"
+        },
+        "base": {
+          "type": "string"
+        },
+        "ruby": {
+          "type": "string"
+        },
+        "slot": {
+          "type": "string",
+          "pattern": "^[A-Z]$"
+        },
+        "rows": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "$ref": "#/$defs/ast"
+                },
+                {
+                  "$ref": "#/$defs/node"
+                },
+                {
+                  "$ref": "#/$defs/cell"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "enum": [
+                  "text",
+                  "paragraph",
+                  "callout",
+                  "underline"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "value"
+            ],
+            "properties": {
+              "value": {
+                "minLength": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "enum": [
+                  "inlineMath",
+                  "displayMath"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "latex"
+            ],
+            "properties": {
+              "latex": {
+                "minLength": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "figure"
+              }
+            }
+          },
+          "then": {
+            "anyOf": [
+              {
+                "required": [
+                  "assetId"
+                ]
+              },
+              {
+                "required": [
+                  "sourceBbox"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "table"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "rows"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "ruby"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "base",
+              "ruby"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "answerSlot"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "slot"
+            ]
+          }
+        }
+      ]
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "key",
+          "contentAst"
+        ],
+        "properties": {
+          "key": {
+            "$ref": "#/$defs/nonempty"
+          },
+          "contentAst": {
+            "$ref": "#/$defs/ast"
+          }
+        }
+      },
+      "maxItems": 30
+    },
+    "answerSpec": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "SINGLE_CHOICE",
+            "DIGIT_GRID",
+            "ESSAY"
+          ]
+        },
+        "slots": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]$"
+          }
+        },
+        "allowedTokens": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "-",
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9"
+            ]
+          }
+        },
+        "rubricId": {
+          "$ref": "#/$defs/nonempty"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "DIGIT_GRID"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "slots"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "ESSAY"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "rubricId"
+            ]
+          }
+        }
+      ]
+    },
+    "question": {
+      "type": "object",
+      "required": [
+        "questionId",
+        "stemAst",
+        "answerSpec"
+      ],
+      "properties": {
+        "questionId": {
+          "$ref": "#/$defs/nonempty"
+        },
+        "stemAst": {
+          "$ref": "#/$defs/ast"
+        },
+        "answerSpec": {
+          "$ref": "#/$defs/answerSpec"
+        },
+        "options": {
+          "$ref": "#/$defs/options"
+        },
+        "materialRefs": {
+          "$ref": "#/$defs/strings"
+        },
+        "sequence": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "answerRef": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sectionCode": {
+          "type": "string"
+        }
+      }
+    },
+    "group": {
+      "type": "object",
+      "required": [
+        "groupCode",
+        "questions"
+      ],
+      "properties": {
+        "groupCode": {
+          "$ref": "#/$defs/nonempty"
+        },
+        "questions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/question"
+          }
+        },
+        "materials": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "localKey",
+              "contentAst"
+            ],
+            "properties": {
+              "localKey": {
+                "$ref": "#/$defs/nonempty"
+              },
+              "contentAst": {
+                "$ref": "#/$defs/ast"
+              }
+            }
+          }
+        }
+      }
+    },
+    "form": {
+      "type": "object",
+      "required": [
+        "formCode",
+        "groups"
+      ],
+      "properties": {
+        "formCode": {
+          "$ref": "#/$defs/nonempty"
+        },
+        "groups": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/group"
+          }
+        }
+      }
+    },
+    "cell": {
+      "type": "object",
+      "required": [
+        "contentAst"
+      ],
+      "properties": {
+        "contentAst": {
+          "$ref": "#/$defs/ast"
+        },
+        "header": {
+          "type": "boolean"
+        },
+        "rowspan": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50
+        },
+        "colspan": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

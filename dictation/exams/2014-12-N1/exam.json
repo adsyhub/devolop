@@ -1,0 +1,3417 @@
+{
+  "schemaVersion": 1,
+  "level": "N1",
+  "title": "2014年第2回 日本語能力試験 N1",
+  "sessionLabel": "",
+  "language": "ja",
+  "uiLanguage": "zh-Hans",
+  "durationSec": null,
+  "source": {
+    "answerKeyNote": "2014年12月N1参考答案与计分规则"
+  },
+  "sections": [
+    {
+      "id": "s1",
+      "number": 1,
+      "kind": "language-knowledge",
+      "title": "言語知識（文字・語彙・文法）",
+      "localTitle": "第一部分　语言知识（文字・词汇・语法）",
+      "audioRequired": false,
+      "parts": [
+        {
+          "id": "s1-m1",
+          "number": 1,
+          "kind": "kanji-reading",
+          "title": "問題1",
+          "localTitle": "汉字读音",
+          "instruction": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 1.0,
+          "passages": [],
+          "questions": [
+            {
+              "number": 1,
+              "label": null,
+              "prompt": "これから<u>概略</u>をご説明します。",
+              "choices": [
+                "がいかく",
+                "きかく",
+                "がいりゃく",
+                "きりゃく"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_641f0b6c202c72dbd9b3a9a4",
+              "sequence": 1,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "1",
+              "answerStar": 3
+            },
+            {
+              "number": 2,
+              "label": null,
+              "prompt": "面接には、しっかりと準備をして<u>臨みたい</u>と思う。",
+              "choices": [
+                "あからみたい",
+                "いどみたい",
+                "はげみたい",
+                "のぞみたい"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_60900d06e2ab27bbecc3e5fa",
+              "sequence": 2,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "2",
+              "answerStar": 3
+            },
+            {
+              "number": 3,
+              "label": null,
+              "prompt": "昨日、<u>督促</u>の電話がかかってきた。",
+              "choices": [
+                "さいそく",
+                "とくそく",
+                "さいぞく",
+                "とくぞく"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_834912303148d2b7398531db",
+              "sequence": 3,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "3",
+              "answerStar": 3
+            },
+            {
+              "number": 4,
+              "label": null,
+              "prompt": "春になり、辺りには花の香りが<u>漂い</u>はじめた。",
+              "choices": [
+                "さまよい",
+                "うるおい",
+                "ただよい",
+                "におい"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_9cd934d50e35bab749ea8169",
+              "sequence": 4,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4",
+              "answerStar": 3
+            },
+            {
+              "number": 5,
+              "label": null,
+              "prompt": "応募作品を<u>厳正に</u>審査した。",
+              "choices": [
+                "げんせい",
+                "げんしょう",
+                "がんせい",
+                "がんしょう"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_02b17be2fe7c85c681f4992e",
+              "sequence": 5,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "5",
+              "answerStar": 3
+            },
+            {
+              "number": 6,
+              "label": null,
+              "prompt": "これ以上<u>拒んで</u>もしかたない。",
+              "choices": [
+                "うらんで",
+                "おがんんで",
+                "にくんで",
+                "こばんで"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_5e443853b19a699e77447b97",
+              "sequence": 6,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "6",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 6
+        },
+        {
+          "id": "s1-m2",
+          "number": 2,
+          "kind": "context-vocabulary",
+          "title": "問題2",
+          "localTitle": "词汇填空",
+          "instruction": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 1.0,
+          "passages": [],
+          "questions": [
+            {
+              "number": 7,
+              "label": null,
+              "prompt": "議会に提出された条例は、賛成多数で（　　）された。",
+              "choices": [
+                "判別",
+                "採取",
+                "選出",
+                "可決"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_dd75593558b47dba56ebc467",
+              "sequence": 7,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "7",
+              "answerStar": 3
+            },
+            {
+              "number": 8,
+              "label": null,
+              "prompt": "この国に来たころは、言葉も通じず知人もいなくて、とても（　　）気持ちになったものだ。",
+              "choices": [
+                "かすかな",
+                "心細い",
+                "ひそかな",
+                "心無い"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_cf2e28921f38c8050f2d2a4e",
+              "sequence": 8,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "8",
+              "answerStar": 3
+            },
+            {
+              "number": 9,
+              "label": null,
+              "prompt": "A社は銀行からの支援によって経営の悪化を何とか（　　）ことができた。",
+              "choices": [
+                "投げ出す",
+                "吸い上げる",
+                "打ち切る",
+                "食い止める"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_a8b6e58af8e48e68e61cc11f",
+              "sequence": 9,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "9",
+              "answerStar": 3
+            },
+            {
+              "number": 10,
+              "label": null,
+              "prompt": "この会社の営業部では、社員一人一人に毎週厳しい（　　）が課されている。",
+              "choices": [
+                "キャリア",
+                "ノルマ",
+                "チーフ",
+                "コスト"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_b55d3bfa8ff2f004b3ad3376",
+              "sequence": 10,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "10",
+              "answerStar": 3
+            },
+            {
+              "number": 11,
+              "label": null,
+              "prompt": "今日の対談は、サッカー選手と物理学者という（　　）の組み合わせで行われる。",
+              "choices": [
+                "異色",
+                "大差",
+                "変形",
+                "遠隔"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_91ef5653dccb3dadcac5e92f",
+              "sequence": 11,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "11",
+              "answerStar": 3
+            },
+            {
+              "number": 12,
+              "label": null,
+              "prompt": "この美しい映像は、コンピュータの最新技術を（　　）して作られたものだ。",
+              "choices": [
+                "駆使",
+                "引用",
+                "充当",
+                "摂取"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_46ee5f4d9312d92579dd56ba",
+              "sequence": 12,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "12",
+              "answerStar": 3
+            },
+            {
+              "number": 13,
+              "label": null,
+              "prompt": "この数年で数々の食品問題が発覚し、食の安全に対する信頼が（　　）はじめた。",
+              "choices": [
+                "震え",
+                "浮かれ",
+                "揺らぎ",
+                "乱れ"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_3ac96cee439a2e5a5994be41",
+              "sequence": 13,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "13",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 7
+        },
+        {
+          "id": "s1-m3",
+          "number": 3,
+          "kind": "paraphrase",
+          "title": "問題3",
+          "localTitle": "近义替换",
+          "instruction": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 1.0,
+          "passages": [],
+          "questions": [
+            {
+              "number": 14,
+              "label": null,
+              "prompt": "そのことが一番<u>気掛かり</u>でした。",
+              "choices": [
+                "残念",
+                "意外",
+                "心配",
+                "不満"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_7fb697c301714da9bf53038b",
+              "sequence": 14,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "14",
+              "answerStar": 3
+            },
+            {
+              "number": 15,
+              "label": null,
+              "prompt": "<u>案の定</u>、川西さんは来なかった。",
+              "choices": [
+                "なぜか",
+                "やはり",
+                "あいにく",
+                "たしか"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_309f406df94b7a9177a7497a",
+              "sequence": 15,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "15",
+              "answerStar": 3
+            },
+            {
+              "number": 16,
+              "label": null,
+              "prompt": "公の場で<u>不用意な</u>発言はしないでほしい。",
+              "choices": [
+                "無駄な",
+                "不利な",
+                "無意味な",
+                "不注意な"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_0d42f681b1568836baa11266",
+              "sequence": 16,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "16",
+              "answerStar": 3
+            },
+            {
+              "number": 17,
+              "label": null,
+              "prompt": "これはかなり<u>厄介な</u>問題だ。",
+              "choices": [
+                "面倒な",
+                "深刻な",
+                "重要な",
+                "特殊な"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_35e754a57169c90e365e52fb",
+              "sequence": 17,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "17",
+              "answerStar": 3
+            },
+            {
+              "number": 18,
+              "label": null,
+              "prompt": "山田氏は当時のことを<u>回想して</u>次のように語った。",
+              "choices": [
+                "反省して",
+                "考え直して",
+                "後悔して",
+                "思い返して"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_6cf485e6a2e8a83256bf3aca",
+              "sequence": 18,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "18",
+              "answerStar": 3
+            },
+            {
+              "number": 19,
+              "label": null,
+              "prompt": "これは<u>手分け</u>したほうがいい。",
+              "choices": [
+                "分配",
+                "分担",
+                "分解",
+                "分別"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_43cfc04f6b1260ed8cf892d5",
+              "sequence": 19,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "19",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 6
+        },
+        {
+          "id": "s1-m4",
+          "number": 4,
+          "kind": "usage",
+          "title": "問題4",
+          "localTitle": "词语用法",
+          "instruction": "問題4　次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 1.0,
+          "passages": [],
+          "questions": [
+            {
+              "number": 20,
+              "label": null,
+              "prompt": "抱え込む",
+              "choices": [
+                "何度も繰り返して覚えることで、記憶をしっかり抱え込むことができる。",
+                "問題が生じたら、一人で抱え込まず、上司や同僚に相談するといい。",
+                "この塾は、今年度から生徒を30人まで抱え込むことができるようになった。",
+                "母は私が子どものころに描いた絵を、今まで大事に抱え込んでくれていた。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_e9c694614d8b73e659d40cb0",
+              "sequence": 20,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "20",
+              "answerStar": 3
+            },
+            {
+              "number": 21,
+              "label": null,
+              "prompt": "裏腹",
+              "choices": [
+                "あの双子は外見はそっくりだが、全く裏腹の性格をしている。",
+                "地図を見ると、商店街と住宅街は駅から裏腹の方角にあるようだ。",
+                "前向きな言葉とは裏腹に課長の態度は消極的で、計画は一向に進まない。",
+                "みんなが私を見るので変だと思ったら、セーターを裏腹に着ていた。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_a118d293b3607eedc0211c7e",
+              "sequence": 21,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "21",
+              "answerStar": 3
+            },
+            {
+              "number": 22,
+              "label": null,
+              "prompt": "耐えがたい",
+              "choices": [
+                "今年の夏は例年になく気温が上がり、毎日耐えがたい暑さが続いている。",
+                "このお菓子は湿気に耐えがたいので、開封したら早めに食べたほうがいい。",
+                "そんなぜいたくな暮らしをしていたら、すぐに貯金が耐えがたくなるだろう。",
+                "この自転車は何度も修理して使っていたが、もう耐えがたいようだ。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_ea55d9b88ec7483b322069d7",
+              "sequence": 22,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "22",
+              "answerStar": 3
+            },
+            {
+              "number": 23,
+              "label": null,
+              "prompt": "携わる",
+              "choices": [
+                "来年、高校を受験するので、現在受験勉強に携わっています。",
+                "私は企業で薬品の開発に携わっており、日々研究に追われている。",
+                "仕事を辞めて自由な時間ができたので、新しい趣味に携わりはじめた。",
+                "今日は午前中は来客と面会し、午後は2時間企画会議に携わる予定だ。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_98c55f6996484100d9c68a7c",
+              "sequence": 23,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "23",
+              "answerStar": 3
+            },
+            {
+              "number": 24,
+              "label": null,
+              "prompt": "人一倍",
+              "choices": [
+                "村田さんが自分の会社を持てたのは、これまで人一倍努力してきたからだ。",
+                "あの人は大切なお客様なので、人一倍上等なワインでもてなしたい。",
+                "弟は子どものころから体が大きくて、身長はいつもクラスで人一倍だった。",
+                "タレントの中村さんの司会が好評で、この番組の視聴率は人一倍だ。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_22d2845c941ec25935bac3b3",
+              "sequence": 24,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "24",
+              "answerStar": 3
+            },
+            {
+              "number": 25,
+              "label": null,
+              "prompt": "復旧",
+              "choices": [
+                "長く待たされたが、雨で中断された野球の試合がもうすぐ復旧するらしい。",
+                "あの二人はけんかしても必ず復旧するので、本当は仲がいいのだろう。",
+                "今年の冬はひどい風邪をひいてしまい、仕事になかなか復旧できなかった。",
+                "昨夜から停電が続いていたが、先ほど12時間振りにようやく復旧した。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_8ad4a953db10b0357e665e1a",
+              "sequence": 25,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "25",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 6
+        },
+        {
+          "id": "s1-m5",
+          "number": 5,
+          "kind": "grammar-form",
+          "title": "問題5",
+          "localTitle": "语法形式判断",
+          "instruction": "問題5　次の文の（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 1.0,
+          "passages": [],
+          "questions": [
+            {
+              "number": 26,
+              "label": null,
+              "prompt": "この島では、春になると、花（　　）花が一斉に咲いて、島全体を埋め尽くします。",
+              "choices": [
+                "だの",
+                "との",
+                "なり",
+                "という"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_4bdd4c806bdfc1b805397efe",
+              "sequence": 26,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "26",
+              "answerStar": 3
+            },
+            {
+              "number": 27,
+              "label": null,
+              "prompt": "うちの猫は、カメラを向けると逃げてしまう。（　　）カメラのレンズが怖いようだ。",
+              "choices": [
+                "まさか",
+                "なんて",
+                "どうやら",
+                "かえって"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_5794d7fa05425582e255e9a9",
+              "sequence": 27,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "27",
+              "answerStar": 3
+            },
+            {
+              "number": 28,
+              "label": null,
+              "prompt": "今年は、景気の回復傾向（　　）、大企業を中心に給与の支給額が増えると見込まれている。",
+              "choices": [
+                "に限って",
+                "を受けて",
+                "にわたって",
+                "を含めて"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_f85df1b92280c737bea0faaa",
+              "sequence": 28,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "28",
+              "answerStar": 3
+            },
+            {
+              "number": 29,
+              "label": null,
+              "prompt": "普段はLサイズを着ているのに、間違えてMサイズのTシャツを買ってしまった。でも、着てみたら、少しきついが、Mサイズも（　　）。",
+              "choices": [
+                "着られなくはなかった",
+                "着られもしなかった",
+                "着られてはならなかった",
+                "着るに着られなかった"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_09959e665d3e9a8dd7e12f84",
+              "sequence": 29,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "29",
+              "answerStar": 3
+            },
+            {
+              "number": 30,
+              "label": null,
+              "prompt": "（ホテルのホームページで）\nこのページでは、当ホテルにご宿泊いただいたお客様から（　　）ご意見、ご感想を掲載しております。",
+              "choices": [
+                "なさった",
+                "差し上げた",
+                "頂戴した",
+                "おいでくださった"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_d175ed85f7da79bb1cd7dbf6",
+              "sequence": 30,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "30",
+              "answerStar": 3
+            },
+            {
+              "number": 31,
+              "label": null,
+              "prompt": "悪いと思うなら素直に「ごめん」と（　　）、弟はそれができなくて、すぐ言い訳する。",
+              "choices": [
+                "謝ろうとしないのだから",
+                "謝っているところに",
+                "謝ればいいものを",
+                "謝らないかぎりは"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_ed4cc82feaea5522e2c774bd",
+              "sequence": 31,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "31",
+              "answerStar": 3
+            },
+            {
+              "number": 32,
+              "label": null,
+              "prompt": "私が小学校に（　　）のころ、父とどこか大きな川へ釣りに行った記憶がある。",
+              "choices": [
+                "入ろうが入るまいが",
+                "入るか入らないか",
+                "入っていてもいなくても",
+                "入るにしても入らないにしても"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_9b8351fe818b48752b65a508",
+              "sequence": 32,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "32",
+              "answerStar": 3
+            },
+            {
+              "number": 33,
+              "label": null,
+              "prompt": "バスの窓から大きな虹が見えたので写真を撮った。山道を走るバスに（　　）けっこう良く撮れていた。",
+              "choices": [
+                "揺られながらにしては",
+                "揺られながらとなれば",
+                "揺られっぱなしなのか",
+                "揺られっぱなしだとは"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_210153367d93844431a4f4f7",
+              "sequence": 33,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "33",
+              "answerStar": 3
+            },
+            {
+              "number": 34,
+              "label": null,
+              "prompt": "試合後、木村選手は、「絶対に勝ちたい相手だっただけに、大事な場面でのミスが（　　）」とコメントした。",
+              "choices": [
+                "悔やまないようにする",
+                "悔やんでばかりだ",
+                "悔やむべきではない",
+                "悔やまれてならない"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_18222798c188757955500dbe",
+              "sequence": 34,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "34",
+              "answerStar": 3
+            },
+            {
+              "number": 35,
+              "label": null,
+              "prompt": "夫「見て。実家から米が届いたよ。」\n妻「わあ、すごい。これだけたくさんあれば、私たち、当分お米は（　　）ね。」",
+              "choices": [
+                "買ってきてはないんだ",
+                "買ったきりになってる",
+                "買わなくて済みそうだ",
+                "買うつもりじゃなかった"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_10278680aa561ab848152b06",
+              "sequence": 35,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "35",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 10
+        },
+        {
+          "id": "s1-m6",
+          "number": 6,
+          "kind": "sentence-composition",
+          "title": "問題6",
+          "localTitle": "句子排序",
+          "instruction": "問題6　次の文の＿＿★＿＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 2.0,
+          "passages": [],
+          "questions": [
+            {
+              "number": 36,
+              "label": null,
+              "prompt": "彼はこの映画で、純粋で不器用な ＿＿ ＿＿ ★ ＿＿ までに演じきった。",
+              "choices": [
+                "その確かな",
+                "主人公を",
+                "見事な",
+                "表現力で"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "answerOrder": [
+                2,
+                1,
+                4,
+                3
+              ],
+              "id": "q_5976da6a718062231c559ef8",
+              "sequence": 36,
+              "keyNote": "",
+              "answerSheetLabel": "36",
+              "answerStar": 3
+            },
+            {
+              "number": 37,
+              "label": null,
+              "prompt": "社長は、「常に魅力ある新商品を開発し続けることが重要であり、それ ＿＿ ＿＿ ★ ＿＿ ない」と語った。",
+              "choices": [
+                "など",
+                "会社の成長",
+                "望みようも",
+                "なくして"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "answerOrder": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "id": "q_f3f934787bf394f5a641c2fa",
+              "sequence": 37,
+              "keyNote": "",
+              "answerSheetLabel": "37",
+              "answerStar": 3
+            },
+            {
+              "number": 38,
+              "label": null,
+              "prompt": "たんぱく質は体の組織を作る重要な成分ですが、多くとった ＿＿ ＿＿ ★ ＿＿ ものでもなく、とりすぎは逆に健康に悪影響を及ぼすことがあります。",
+              "choices": [
+                "より丈夫になる",
+                "かというと",
+                "からといって",
+                "そういう"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "answerOrder": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "id": "q_daa87ada8cf9d2f7eac16b31",
+              "sequence": 38,
+              "keyNote": "",
+              "answerSheetLabel": "38",
+              "answerStar": 3
+            },
+            {
+              "number": 39,
+              "label": null,
+              "prompt": "来年2月のコンサート ＿＿ ＿＿ ★ ＿＿ となるCDを発売した。",
+              "choices": [
+                "をもって",
+                "6枚目にして最後",
+                "が",
+                "解散するバンド"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "answerOrder": [
+                1,
+                4,
+                3,
+                2
+              ],
+              "id": "q_8b66d71ffd8deb9295623d3c",
+              "sequence": 39,
+              "keyNote": "",
+              "answerSheetLabel": "39",
+              "answerStar": 3
+            },
+            {
+              "number": 40,
+              "label": null,
+              "prompt": "新型ゲーム機について、来月あたりに何らかの発表を ＿＿ ＿＿ ★ ＿＿ ホームページ上で公表し、話題となっている。",
+              "choices": [
+                "見られていた",
+                "X社が",
+                "来週にも情報を公開すると",
+                "するのではないかと"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "answerOrder": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "id": "q_ee193a5f1060063a1a1e9801",
+              "sequence": 40,
+              "keyNote": "",
+              "answerSheetLabel": "40",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 5
+        },
+        {
+          "id": "s1-m7",
+          "number": 7,
+          "kind": "text-grammar",
+          "title": "問題7",
+          "localTitle": "文章语法",
+          "instruction": "問題7　次の文章を読んで、文章全体の趣旨を踏まえて、（41）から（45）の中に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 1.0,
+          "passages": [
+            {
+              "label": null,
+              "text": "以下は、丑年の2009年1月7日に新聞に掲載された文章である。\n\n牛の気持ち\n\n　子供の頃、十二支の民話（注1・2）を聞いたとき、私が気になったのは、とにかく牛のことだった。牛は、「自分は歩くのが遅いから、早めに出発しよう」とずいぶん早いうちから出発した。そして、一着でゴールする寸前であったにもかかわらず、自分の背中に乗っていた鼠に先を越されてしまう。\n　牛がどんな気分だったか、と考えると切なくて仕方がない。自分の地道な努力が利用されることは、さぞかし悔しかったはずだ、と（41）。が、そのことを話すと、母は、「牛はあまり気にしなかったんだよ。十二支には入れたし。『モーいいか』と思ったくらい」と答えた。少しほっとした。確かに、十二支の一番目が、二番目に比べて特典があるとも思えない。怒るほどのことでも（42）。\n　さて先日、子供が指を怪我した。軽い打撲だとは思ったものの、小心者の私はすぐに整形外科へ向かった。車を走らせ、医院に辿り着くと駐車場がいっぱいで、これは混んでいるな、と焦った。エレベーターに乗ると、向こうから走ってくる男性がいる。閉まりかけの扉を開くが、相手は礼も言わずに乗り込んできて、目的階に到着すると当然のように先に降り、さっさと受付へと向かってしまった。\n　「こちらのほうが先に来ていたではないか！」と言葉が出かかった。（43）頭を過ぎったのが、牛のことだ。「ゴール寸前で追い抜かれた牛は、この程度のことは気にかけなかったはずだ。ここは、『モーいいか』の精神だ」と思えたのだ。なるほど、牛のおかげで（44）、と私は気を良くし（注3）、その後、「十二支の民話」の本を探した。\n　読んでみると、追い抜かれた牛の場面には、「とても悔しがり、『モーモー』と怒りました」と書いてある。何と、牛（45）怒ったのだ。そのことにショックは受けた。が、怒るべき時は怒る、これも大事なことだな、と私は調子よく考える。\n　今年の私の目標は、「モーいいか」と「もう怒りました」をバランス良く使い分けることだ。\n\n（伊坂幸太郎『3652――伊坂幸太郎エッセイ集』による)",
+              "notes": [
+                "（注1）十二支：十二年で一回りする暦。一年ずつを異なる動物で表す",
+                "（注2）十二支の民話：十二支の動物を競争で決めたという話。一番目が鼠で、二番目が牛になった",
+                "（注3）気を良くする：いい気分になる"
+              ],
+              "vertical": false,
+              "pages": [
+                4
+              ],
+              "id": "p_5fe43a0174a713bbcd908dd5"
+            }
+          ],
+          "questions": [
+            {
+              "number": 41,
+              "label": null,
+              "prompt": "【41】",
+              "choices": [
+                "子供から感じられた",
+                "子供のことで感じていた",
+                "子供ながらに感じた",
+                "子供だったら感じただろう"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [
+                "p_5fe43a0174a713bbcd908dd5"
+              ],
+              "points": 1.0,
+              "id": "q_d7c3d6de301ac3fc09718360",
+              "sequence": 41,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "41",
+              "answerStar": 3
+            },
+            {
+              "number": 42,
+              "label": null,
+              "prompt": "【42】",
+              "choices": [
+                "ないのかもしれない",
+                "ないからだという",
+                "ないと思わせたい",
+                "ないとしなかったか"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [
+                "p_5fe43a0174a713bbcd908dd5"
+              ],
+              "points": 1.0,
+              "id": "q_9095692da4d82113c9b4aa9b",
+              "sequence": 42,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "42",
+              "answerStar": 3
+            },
+            {
+              "number": 43,
+              "label": null,
+              "prompt": "【43】",
+              "choices": [
+                "一度",
+                "そこで",
+                "さっき",
+                "必ず"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [
+                "p_5fe43a0174a713bbcd908dd5"
+              ],
+              "points": 1.0,
+              "id": "q_d5d4fc5081a62f2c2df0e6e4",
+              "sequence": 43,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "43",
+              "answerStar": 3
+            },
+            {
+              "number": 44,
+              "label": null,
+              "prompt": "【44】",
+              "choices": [
+                "助かってきた",
+                "助かっていったわけだ",
+                "助かっていたかなんだ",
+                "助かった"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [
+                "p_5fe43a0174a713bbcd908dd5"
+              ],
+              "points": 1.0,
+              "id": "q_85977be692edf52e1932b8ce",
+              "sequence": 44,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "44",
+              "answerStar": 3
+            },
+            {
+              "number": 45,
+              "label": null,
+              "prompt": "【45】",
+              "choices": [
+                "も",
+                "に",
+                "より",
+                "ぐらい"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 4,
+              "pages": [
+                4
+              ],
+              "passageIds": [
+                "p_5fe43a0174a713bbcd908dd5"
+              ],
+              "points": 1.0,
+              "id": "q_377a7378aeef10f2c4ddedd1",
+              "sequence": 45,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "45",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 5
+        }
+      ],
+      "questionCount": 45
+    },
+    {
+      "id": "s2",
+      "number": 2,
+      "kind": "reading",
+      "title": "読解",
+      "localTitle": "第二部分　阅读",
+      "audioRequired": false,
+      "parts": [
+        {
+          "id": "s2-m8",
+          "number": 8,
+          "kind": "short-passage",
+          "title": "問題8",
+          "localTitle": "短文理解",
+          "instruction": "問題8　次の（1）から（4）の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 2.0,
+          "passages": [
+            {
+              "label": "(1)",
+              "text": "失敗はすべて、子どもがその後の人生を大過（注）なく生きるための血となり、肉となる。そう思えば、失敗する前に手を出すことがいかに愚かな教育か、わかろうというものです。\nただし、親は常に子どもをそばでしっかり見守っていなければなりません。手は出さないけれど、いつでも危険から救ってやれるよう、待機するのです。そうして、もし子どもが転んでケガをしたら、「ほら、痛いでしょう。ぶつからないように注意するのよ」と教えてやる。そういう姿勢が親に求められるのです。\n\n（大宅映子『親の常識』による)",
+              "notes": [
+                "（注）大過：大きな過ち"
+              ],
+              "vertical": false,
+              "pages": [
+                5
+              ],
+              "id": "p_2d171e4fc3e7c143861ec183"
+            },
+            {
+              "label": "(2)",
+              "text": "以下は、ある会社がホームページに掲載したお知らせである。\n\n<ミスヌマ健康食品株式会社>ニュース\n2014年10月14日 健康食品[ビタミン生活V]に関するお知らせ\nお客様各位\n平素は弊社商品にご愛顧を賜り、厚く御礼申し上げます。\nさて、2014年9月8日より通販および弊社直営店舗での販売を開始いたしました[ビタミン生活V]は、情報番組での紹介もあって、当初の販売計画を大幅に上回り、生産が追いつかない状況となっております。そのため、すでに通販の受注を停止しておりますが、店舗販売も在庫がなくなり次第、一時中止せざるを得なくなりました。\n今後は生産体制を整え、11月17日に店舗販売のみ再開を予定しております。\nお客様にご迷惑をおかけしますことを、深くお詫び申し上げます。\nミスヌマ健康食品株式会社\nお客様担当係：0120-333-4455\n[受付時間 10:00-18:00 土日祝休み]",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                5
+              ],
+              "id": "p_ea34b41b3adb76d5fe73aad6"
+            },
+            {
+              "label": "(3)",
+              "text": "以下は、諦めについて書かれた文章である。\n人が自分の能力以上のことに憧れ、それがどうしても出来ないというのに、なお執着を持っているとしたら、登れない壁の下で、徒らにじたばたしているようなもので、気の毒でもありますが、滑稽でもあります。この場合は諦めが必要です。ただそれは、その次の、自分の能力に合った憧れなり、道なりを求めるためにのみ必要であって、諦めの中に憩ってしまうことは少し見当が外れていることになるかもしれません。\n\n（串田孫一『考える葦』による)",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                5
+              ],
+              "id": "p_71225bea58fc8e067db59b4c"
+            },
+            {
+              "label": "(4)",
+              "text": "私が35歳になったころ、「このごろは、少年時代に経験したような、ものすごい雷雨がなくなった」と口にしたことがあります。ところが、60歳ぐらいになったとき、35歳ぐらいの人から同じ言葉を聞いたのです。つまり、私が強い雷雨はなくなったと感じたとき、その人はまだ少年時代で、強い雷雨を経験していたことになります。この場合は、なくなったのは、少年時代特有の自然から受ける鮮烈な印象、驚き、恐れでしょう。\n\n（倉嶋厚『日和見の事典――倉嶋 厚の人文気象学ノート』による)",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                6
+              ],
+              "id": "p_53ca1903b3fcc3a8d971aebc"
+            }
+          ],
+          "questions": [
+            {
+              "number": 46,
+              "label": "(1)",
+              "prompt": "筆者が親に対して言いたいことは何か。",
+              "choices": [
+                "子どもが失敗しなくなるまであきらめずに教えることが大切だ。",
+                "子どもが失敗しないようあらかじめ教えることが大切だ。",
+                "子どもが失敗するまでは何も言わずに見守ることが大切だ。",
+                "子どもが失敗したとしてもそのまま見守ることが大切だ。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 5,
+              "pages": [
+                5
+              ],
+              "passageIds": [
+                "p_2d171e4fc3e7c143861ec183"
+              ],
+              "points": 2.0,
+              "id": "q_110a4ddb4f56a7b40d7abea5",
+              "sequence": 46,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "46",
+              "answerStar": 3
+            },
+            {
+              "number": 47,
+              "label": "(2)",
+              "prompt": "「ビタミン生活V」について、この文書は何を知らせているか。",
+              "choices": [
+                "通販を一時中止して、しばらくの間店舗販売のみ行う。",
+                "生産体制が整い次第、通販に加え店舗販売も再開する。",
+                "在庫不足のため、現在は通販および店舗販売を中止している。",
+                "販売は一時すべて中止になるが、後日店舗販売のみ再開する。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 5,
+              "pages": [
+                5
+              ],
+              "passageIds": [
+                "p_ea34b41b3adb76d5fe73aad6"
+              ],
+              "points": 2.0,
+              "id": "q_5e41f0fe5963e6cf527da1ea",
+              "sequence": 47,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "47",
+              "answerStar": 3
+            },
+            {
+              "number": 48,
+              "label": "(3)",
+              "prompt": "筆者の考えに合うのはどれか。",
+              "choices": [
+                "前へ進みたいなら、無理なことに執着せずに諦めることも必要だ。",
+                "前へ進めない理由がわからないなら、諦めることが必要だ。",
+                "能力を超えていると思っても、すぐに諦めてしまっては前へ進めない。",
+                "能力に合った憧れや道を求めるなら、何事も諦めてはいけない。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 5,
+              "pages": [
+                5
+              ],
+              "passageIds": [
+                "p_71225bea58fc8e067db59b4c"
+              ],
+              "points": 2.0,
+              "id": "q_7f2d861d3d0f471f3924018c",
+              "sequence": 48,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "48",
+              "answerStar": 3
+            },
+            {
+              "number": 49,
+              "label": "(4)",
+              "prompt": "筆者の考えに合うのはどれか。",
+              "choices": [
+                "少年時代に経験した雷雨の記憶は、人によって異なる。",
+                "同じ雷雨でも、今の人は昔の人と同じような印象は受けない。",
+                "大人になると、子供時代に経験した雷雨の記憶は薄れてしまう。",
+                "昔も今も雷雨はあるが、大人になると子供のときほど強い印象は受けない。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 6,
+              "pages": [
+                6
+              ],
+              "passageIds": [
+                "p_53ca1903b3fcc3a8d971aebc"
+              ],
+              "points": 2.0,
+              "id": "q_d18a635a518fe0d087a24ed8",
+              "sequence": 49,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "49",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 4
+        },
+        {
+          "id": "s2-m9",
+          "number": 9,
+          "kind": "mid-passage",
+          "title": "問題9",
+          "localTitle": "中篇理解",
+          "instruction": "問題9　次の（1）から（3）の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 2.0,
+          "passages": [
+            {
+              "label": "(1)",
+              "text": "不安は、正体がつかみきれないときほど膨らんでいく。長く引きずる。\n人間だれでも、自分に都合の悪いこと、恐ろしいことは考えたくない。そういう心理が働くから、無意識のうちに問題をあいまいにして解決を保留にする。\nそうして結局、いつまでも不安をダラダラと抱え続けてしまう。\n逆に自分の何がどのように不安なのか、不安に思う必要があるのかどうかを把握すれば、それだけで不安は減る。\n不安の正体が明確になって、これは何かしなくてはまずいと認識されれば、それは「危機感」になる。\n危機感は不安と違う。危機感をもてば、行動を起こそうという意欲が湧く。さらに情報を集めて、行動計画をたてようとする。やるべきことが明確になる。だからスタートが切れるのだ。\n問題は鍵となる不安は何なのかということだ。様々な不安の中から、それを特定して意識する。その不安は、思いきり光を当てて自分で正体を見極められれば、次にどうすればいいかの対策も講じられる。\n（中略）\n不安には、しばらく保留にしておいても大丈夫な不安もある。それがわかった瞬間、不安は、また少し減る。\nこうして、自分が何をやらなければいけないかが見えてくる。やる気が出てくる。動く気になる。不安の解決策を考えながら、夢が膨らんでくることもある。\n\n（佐々木直彦『「仕事も人生もうまくいく人」の考え方』による)",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                6
+              ],
+              "id": "p_da0058dd5a5a18cd7c979621"
+            },
+            {
+              "label": "(2)",
+              "text": "自分の泣いているときの表情や、笑ったときの表情をまともに見たことのある人は、まずない。\n写真やビデオになれば、自然な笑いがおさめられることもあるかもしれないが、そこに映っているのは過去のそれであって、いま内側から生きている感情と重なり合うものではない。その点、鏡ならばそれを同時に捉えられそうにもみえる。しかし、じっさいには自分が笑っているとき、その笑っている自分の顔を見た途端、もはや笑いつづけられなくて、さっと笑いがさめてしまうものである。泣いているときも同じである。（中略）\n自分の表情を視覚的に捉えることには、そもそも無理がある。他方、他者の表情を内的に捉えることも、私たちが他者の身体を内側から生きることができない以上、不可能である。ならば他者の表情の理解はほんらい不可能なことだということになるはずだが、私たちは日頃から、表情の理解が不可能だとか、困難だとか、ほとんど思いもしない。現に私たちは他者のわずかな表情の変化にも敏感であるし、その表情の理解を土台にすることで人間関係の基本部分を成り立たせている。\n表情は、ほぼ人類に共通であって、微妙な表情は別として、人種がちがっても、それを読み間違えることはまずない。含み笑いとか、苦笑い、あるいは愛想笑いといったものだと、同じ笑いでも文化差があって、読み間違えることがあるかもしれないが、典型的な表情に関してはまず間違わない。そうだとすれば類としての人間のなかに、表情を通して人どうしわかり合うメカニズムが、個の単位を越えて存在するものと考えねばならない。\n\n（浜田寿美男『「私」とは何か』による)",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                7
+              ],
+              "id": "p_c83716b64b63e96b0b9457f9"
+            },
+            {
+              "label": "(3)",
+              "text": "多くの大人は、子供よりも先に生きているから、自分の方が人生を知っていると思っている。しかしこれはウソである。彼らが知っているのは「生活」であって、決して「人生」ではない。生活の仕方、いかに生活するかを知っているのを、人生を知っていることだと思っている。そして生活を教えることが、人生を教えることだと間違えているのである。\nしかし、「生活」と「人生」とはどちらも「ライフ」だが、この両者は大違いである。「何のために」生活するのと問われたら、どう答えるだろう。\nこういう基本的なところで大間違いをしているから、小中学校で仕事体験をさせようといった愚にもつかない（注1）教育になる。（中略）生活の必要のない年齢には、生活に必要のないことを学ぶ必要があるのだ。それはこの年齢、このわずかな期間にのみ許された、きわめて貴重な時間なのだ。生活に必要のないことは、人生に必要なことだ。すなわち、人生とは何かを考えるための時間があるのは、この年代の特権なのである。\n「人生とは何か」とは、そこにおいて生活が可能となるところの生存そのもの、これを問う問いである。「生きている」、すなわち「存在する」とは、どういうことなのか。\nこの問いの不思議に気がつけば、どの教科も、それを純粋に知ることの面白さがわかるはずだ。国語においては言葉、算数においては数と図形、理科においては物質と生命、社会においては人倫（注2）、どれもこの存在と宇宙の不思議を知ろうとするものだと知るはずだ。人間精神の普遍的な営みとして、自分と無縁なものはひとつもない。どれも自分の人生の役に立つ学びだと知るはずなのだ。\n\n（池田晶子『人間自身――考えることに終わりなく』による)",
+              "notes": [
+                "（注1）愚にもつかない：ここでは、ばかばかしい",
+                "（注2）人倫：人として守るべき道"
+              ],
+              "vertical": false,
+              "pages": [
+                8
+              ],
+              "id": "p_059a5b2b0407831265970612"
+            }
+          ],
+          "questions": [
+            {
+              "number": 50,
+              "label": "(1)",
+              "prompt": "いつまでも不安をダラダラと抱え続けてしまうとあるが、なぜか。",
+              "choices": [
+                "不安の原因がいくつもあって対処できないから。",
+                "不安について考えることを避けてしまうから。",
+                "不安が一人では解決できないほど大きいから。",
+                "不安に向き合うと不安はさらに膨らんでいくから。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 6,
+              "pages": [
+                6
+              ],
+              "passageIds": [
+                "p_da0058dd5a5a18cd7c979621"
+              ],
+              "points": 2.0,
+              "id": "q_4df35194883fa1af144311f1",
+              "sequence": 50,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "50",
+              "answerStar": 3
+            },
+            {
+              "number": 51,
+              "label": "(1)",
+              "prompt": "筆者によると、危機感をもつとどうなるか。",
+              "choices": [
+                "次の行動に移れる。",
+                "行動に自信がもてる。",
+                "不安の原因が把握できる。",
+                "不安の正体を突き止めたくなる。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 6,
+              "pages": [
+                6
+              ],
+              "passageIds": [
+                "p_da0058dd5a5a18cd7c979621"
+              ],
+              "points": 2.0,
+              "id": "q_ede490fabec6b7c3f92cb675",
+              "sequence": 51,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "51",
+              "answerStar": 3
+            },
+            {
+              "number": 52,
+              "label": "(1)",
+              "prompt": "不安について、筆者はどのように考えているか。",
+              "choices": [
+                "解決しやすい不安から順々に対応するといい。",
+                "保留にするべきではない不安をまず特定するといい。",
+                "不安を感じたときはすぐに解決策を考えて実行するといい。",
+                "不安の原因が何かわかるまでしばらく保留にしておくといい。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 6,
+              "pages": [
+                6
+              ],
+              "passageIds": [
+                "p_da0058dd5a5a18cd7c979621"
+              ],
+              "points": 2.0,
+              "id": "q_c7d7509ffe506fdc862e553f",
+              "sequence": 52,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "52",
+              "answerStar": 3
+            },
+            {
+              "number": 53,
+              "label": "(2)",
+              "prompt": "いま内側から生きている感情と重なり合う表情について、筆者はどのように考えているか。",
+              "choices": [
+                "写真やビデオだけでなく、鏡でも見ることができる。",
+                "写真やビデオはもちろん、鏡ですら見ることはできない。",
+                "写真やビデオでは見られるが、鏡では見ることができない。",
+                "写真やビデオでは見られないが、鏡では見ることができる。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 7,
+              "pages": [
+                7
+              ],
+              "passageIds": [
+                "p_c83716b64b63e96b0b9457f9"
+              ],
+              "points": 2.0,
+              "id": "q_346b86c00970a7679b22fa87",
+              "sequence": 53,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "53",
+              "answerStar": 3
+            },
+            {
+              "number": 54,
+              "label": "(2)",
+              "prompt": "他者の表情を理解することについて、筆者はどのように考えているか。",
+              "choices": [
+                "人間関係が成立すれば容易に理解できるが、それ以前には困難である。",
+                "人間関係を成立させる上で理解が欠かせないが、現実には容易ではない。",
+                "理解できないはずだが、現実には人間関係を構築する基盤になっている。",
+                "理解しようと努力することが、人間関係を構築する上で役立っている。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 7,
+              "pages": [
+                7
+              ],
+              "passageIds": [
+                "p_c83716b64b63e96b0b9457f9"
+              ],
+              "points": 2.0,
+              "id": "q_343ca457baccc419a979a5fa",
+              "sequence": 54,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "54",
+              "answerStar": 3
+            },
+            {
+              "number": 55,
+              "label": "(2)",
+              "prompt": "筆者の考えに合うものはどれか。",
+              "choices": [
+                "表情から理解し合うことは、人間に備わったメカニズムだと考えられる。",
+                "感情を表情で表現することは、人間に共通するメカニズムだと考えられる。",
+                "他者の表情を理解するメカニズムは、経験を通して精巧になると考えられる。",
+                "典型的な表情の違いを理解するメカニズムには、文化差があると考えられる。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 7,
+              "pages": [
+                7
+              ],
+              "passageIds": [
+                "p_c83716b64b63e96b0b9457f9"
+              ],
+              "points": 2.0,
+              "id": "q_7a6e1b7db5c1325e18c348b1",
+              "sequence": 55,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "55",
+              "answerStar": 3
+            },
+            {
+              "number": 56,
+              "label": "(3)",
+              "prompt": "多くの大人について、筆者はどのように考えているか。",
+              "choices": [
+                "生活も人生もわかっていない。",
+                "生活と人生の違いがわかっていない。",
+                "生活と人生の両方を教えている。",
+                "生活と人生の違いを教えている。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 8,
+              "pages": [
+                8
+              ],
+              "passageIds": [
+                "p_059a5b2b0407831265970612"
+              ],
+              "points": 2.0,
+              "id": "q_ff81d0e42c678184efbb51b8",
+              "sequence": 56,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "56",
+              "answerStar": 3
+            },
+            {
+              "number": 57,
+              "label": "(3)",
+              "prompt": "筆者によると、子供にとって必要なのはどのような時間か。",
+              "choices": [
+                "働くことの意義を考える。",
+                "人生と生活の違いを学ぶ。",
+                "生活に必要なことを学ぶ。",
+                "人が生きている意味を考える。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 8,
+              "pages": [
+                8
+              ],
+              "passageIds": [
+                "p_059a5b2b0407831265970612"
+              ],
+              "points": 2.0,
+              "id": "q_733157a04032ae8dcc6a9caa",
+              "sequence": 57,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "57",
+              "answerStar": 3
+            },
+            {
+              "number": 58,
+              "label": "(3)",
+              "prompt": "「人生とは何か」と問うことによって、筆者は何がわかると考えているか。",
+              "choices": [
+                "自分がなぜ存在しているかということ",
+                "すべての学びが自分にとって有益だということ",
+                "教科で扱われている事柄は生活に必要だということ",
+                "人間が存在すること自体が不思議であるということ"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 8,
+              "pages": [
+                8
+              ],
+              "passageIds": [
+                "p_059a5b2b0407831265970612"
+              ],
+              "points": 2.0,
+              "id": "q_bbfd9d3898e71f65ff56f7cf",
+              "sequence": 58,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "58",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 9
+        },
+        {
+          "id": "s2-m10",
+          "number": 10,
+          "kind": "long-passage",
+          "title": "問題10",
+          "localTitle": "长文理解",
+          "instruction": "問題10　次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 3.0,
+          "passages": [
+            {
+              "label": null,
+              "text": "以下は、ある芸術家が書いた文章である。\n　人間は動物とちがって、知的な活動、その情熱をもっている。おさなくたって、魂の衝動は強いのだ。だから子供は描きたがる。形、色にして確かめる。だが問題は自分のなかにあるものを外に突き出す、投げ出すという行為自体であって、決して出来上がりの効果ではない。\n　だから子供は描きおわってしまったものはふり向きもしない。捨てられたって何とも思わないのだ、（中略）それを大事そうに拾いあげて、「これは面白い。」「坊やは才能がある。これをうまく伸ばせば、将来えらい画家になるかもしれない。」などと、観賞したり評価するのは、いつでも大人で、子供自身は、もしほめられても、そんなものなのかなと聞いているだけである。\n　だから「子供の絵」というような言い方の、根本に何か間違いがある、と私は思う。描いたものには違いないが、「作品」ではない。その以前の、もっと根源的な何ものかなのである。\n　「絵」などというから、大人の「絵画作品」と混同して考えてしまう。そこにズレがおこる。大人のは見せる芸であり、商品である。はじめから観賞すること、してもらうことを目的とし、結果を予測しながら作り上げたものなのだ。\n　いわゆる「絵描きさん」となると、描いている瞬間瞬間に、結果がわかっている。こうやれば、こうなる。習練（注1）と経験によって、色やタッチ（注2）の効果が計算できるし、生命の衝動、情熱、無目的な行動よりも、結果の方に神経が働いてしまう。出来ばえに、逆にひきずり回されているのだ。\n　しかも、大向こう（注3）の気配まですでに見すかして、…こんな趣向は喜ばれるだろう、これはちょっとやりすぎかな、などと意識・無意識に、そんな手応えにあわせながら仕事をすすめている。評判をとり、買手がついてくれなければ食ってゆけないし、社会が許さない。生活はきびしいのだ。無償の行為というわけにはいかない。\n　明らかに「作品」つまり「商品」を作っているのである。\n　大人の作品だって、本質的には生命力こそ肝要なのだ。自分の存在を純粋に外に投げ出す、突き出すアクションの質、強さによって、猛烈な魅力になる。\n　私自身は、少なくともそのつもりである。よく、あなたの絵はわけがわからないと言われるが、「絵」でございます、というようなものは作りたくない。それ以前、そして以後のものをひたすらつきつける。――絵ではなく、芸術。そして出来るかぎり他の評価を無視したいと思っている。\n\n（岡本太郎『美しく怒れ』による)",
+              "notes": [
+                "（注1）習練：練習",
+                "（注2）タッチ：ここでは、筆の使い方",
+                "（注3）大向こう：ここでは、観賞する人々"
+              ],
+              "vertical": false,
+              "pages": [
+                8
+              ],
+              "id": "p_adf74548c07cd49601ca2818"
+            }
+          ],
+          "questions": [
+            {
+              "number": 59,
+              "label": null,
+              "prompt": "捨てられたって何とも思わないのはなぜか。",
+              "choices": [
+                "いつでも描きたいものが描けるから。",
+                "描きたいものが描けて納得したから。",
+                "描きたいという欲求が満たされたから。",
+                "最後まで描けたことに満足しているから。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 9,
+              "pages": [
+                9
+              ],
+              "passageIds": [
+                "p_adf74548c07cd49601ca2818"
+              ],
+              "points": 3.0,
+              "id": "q_3095355bcc40261b7d53e7bf",
+              "sequence": 59,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "59",
+              "answerStar": 3
+            },
+            {
+              "number": 60,
+              "label": null,
+              "prompt": "子供の描いたものが「作品」ではないのはなぜか。",
+              "choices": [
+                "大人ほどの表現力や情熱をもって描かれていないから。",
+                "観賞されることを目的として描かれていないから。",
+                "評価に値する出来上がりになっていないから。",
+                "描いた本人が価値を認めていないから。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 9,
+              "pages": [
+                9
+              ],
+              "passageIds": [
+                "p_adf74548c07cd49601ca2818"
+              ],
+              "points": 3.0,
+              "id": "q_9d7a0c347915e21d127d9424",
+              "sequence": 60,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "60",
+              "answerStar": 3
+            },
+            {
+              "number": 61,
+              "label": null,
+              "prompt": "「絵描きさん」について、筆者はどのように述べているか。",
+              "choices": [
+                "かんぺきな出来ばえを求めている。",
+                "いつも同じような描き方をしている。",
+                "買手の要望どおりに描いている。",
+                "買ってもらえるように描いている。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 9,
+              "pages": [
+                9
+              ],
+              "passageIds": [
+                "p_adf74548c07cd49601ca2818"
+              ],
+              "points": 3.0,
+              "id": "q_fc754bdb9d4a9f4181d093fe",
+              "sequence": 61,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "61",
+              "answerStar": 3
+            },
+            {
+              "number": 62,
+              "label": null,
+              "prompt": "筆者は芸術をどのようにとらえているか。",
+              "choices": [
+                "人を引きつける魅力的なもの",
+                "情熱に突き動かされて作るもの",
+                "他人には理解できないようなもの",
+                "人間の生命力を巧みに表現するもの"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 9,
+              "pages": [
+                9
+              ],
+              "passageIds": [
+                "p_adf74548c07cd49601ca2818"
+              ],
+              "points": 3.0,
+              "id": "q_5e6f818a0e7ca37a5ef07088",
+              "sequence": 62,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "62",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 4
+        },
+        {
+          "id": "s2-m11",
+          "number": 11,
+          "kind": "integrated-reading",
+          "title": "問題11",
+          "localTitle": "综合理解",
+          "instruction": "問題11　次のAとBの文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 3.0,
+          "passages": [
+            {
+              "label": "A",
+              "text": "世界遺産への関心が高まるのは喜ばしい。各地で登録をめざす動きも活発化している。新聞をはじめとしたメディアがそれらを報じる機会も増えた。ただ、いつも気になるのは、そこに「地元では観光振興に結びつくのを期待している」といったたぐいの文言が、必ずと言ってよいほど目につくことだ。\n私としては、観光・経済効果の拡大を否定はしないし、文化財保護との両立はできると考えている。しかし、近年の状況を眺めると、遺産の保護という基本理念が、あまりにも置き去りにされてしまってはいないだろうか。\n\n（中村俊介『世界遺産が消えてゆく』による)",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                9
+              ],
+              "id": "p_c88eb7fee680e495d3b358cb"
+            },
+            {
+              "label": "B",
+              "text": "日本では映像や書籍など、さまざまなメディアで世界遺産を商品化し、パッケージ・ツアーが数多く組まれ、観光産業と深く結び付く。だが、それは本当に建築や自然を愛し、歴史への理解を深める人間を増やしているのだろうか。\n（中略）\n世界遺産であろうとなかろうと、建築の価値は個別に判断すればいい。人間も肩書きだけで、すべてを理解できないだろう。世界遺産に認定されたからといって、株のように、建築の価値が上昇するわけではない。むろん、観光資源として巨額の富をもたらすだろうが、モノとしては同じままである。私が気になるのは、世界遺産だけを特別視するあまり、逆にそれ以外のものはがんばって保存しなくてもいいという風潮を助長するのではないかということだ。\n\n（五十嵐太郎『建築はいかに社会と回路をつなぐのか』による)",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                9
+              ],
+              "id": "p_e92d30a54ee32c50689a3787"
+            }
+          ],
+          "questions": [
+            {
+              "number": 63,
+              "label": null,
+              "prompt": "近年の世界遺産について、AとBが共通して認識している点は何か。",
+              "choices": [
+                "世界遺産の報道のしかたが過剰になってきている。",
+                "世界遺産への登録をめざす動きが過熱している。",
+                "世界遺産への登録で登録以前より価値が上がる。",
+                "世界遺産は観光振興と密接に関係している。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 9,
+              "pages": [
+                9
+              ],
+              "passageIds": [
+                "p_c88eb7fee680e495d3b358cb",
+                "p_e92d30a54ee32c50689a3787"
+              ],
+              "points": 3.0,
+              "id": "q_8a40feb612c777e2b68df454",
+              "sequence": 63,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "63",
+              "answerStar": 3
+            },
+            {
+              "number": 64,
+              "label": null,
+              "prompt": "AとBは、世界遺産をめぐってどのような姿勢を持つべきだと述べているか。",
+              "choices": [
+                "AもBも、世界遺産への登録による経済効果は期待すべきではないと述べている。",
+                "AもBも、認定にかかわらず文化財として価値のあるものは保護すべきだと述べている。",
+                "Aは保護という本来の目的に立ち戻るべきだと述べ、Bは認定に惑わされずものの自体の価値を見定めるべきだと述べている。",
+                "Aは世界遺産に値するか冷静に再検討すべきだと述べ、Bは世界遺産だけを特別視せず他にも目を向けるべきだと述べている。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 9,
+              "pages": [
+                9
+              ],
+              "passageIds": [
+                "p_c88eb7fee680e495d3b358cb",
+                "p_e92d30a54ee32c50689a3787"
+              ],
+              "points": 3.0,
+              "id": "q_75b216ff9e37a2134bc06b7f",
+              "sequence": 64,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "64",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 2
+        },
+        {
+          "id": "s2-m12",
+          "number": 12,
+          "kind": "thematic",
+          "title": "問題12",
+          "localTitle": "观点理解",
+          "instruction": "問題12　次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 3.0,
+          "passages": [
+            {
+              "label": null,
+              "text": "本というのは、人間と同じようなものだ。一律の価値によって優劣を決めることはできない。人気者がいるのと同じように、ベストセラーがある。嫌われ者がいるように、誰からも手に取られない本もある。だが、どれもがそれぞれの価値を持っている。それを求めている人の手に求めているときに渡れば、それは良書になる。\nそれゆえ、私はインターネットの書評サイトなどで、まるで自分を神であるかのように本の優劣を断定しているものには激しい抵抗を感じる。もちろん、書評をするのは悪いことではない。本を批判したりほめたりするのも、もちろん大事なことだ。だが、あくまでもそれは、その人の知識と関心と人柄によっての判断でしかない。つい神の立場でものを言いたくなる気持ちはわからないでもないが、それはあまりに傲慢というものだろう。\n私の本も、インターネットの書評サイトでかなり叩かれているものがある。それはそれでやむをえないと思っている。ある程度売れると、それをけなしたがる人間がいるものだ。本をけなすと、自分が著者よりも偉くなったような気がするのだろう。私自身も本を書くようになる前、いや、正直に言うとある程度売れる本を出すようになる前、他人の本をずいぶんけなしたものだ。\nただきわめて心外なのは、ないものねだりをしている評があまりに多いことだ。たとえば、私はある参考書を出している。その趣旨としていることは、「大学の小論文試験に何とか合格できるだけのレベルの小論文が書けるようにするため、最低限これだけの知識は持っていてほしい」という知識を整理した参考書だ。だから、私はその本の中では、敢えて難しいことは書いていない。ところが、その参考書を酷評する（注）書評がある。そして、その評の中には「この本を読んでも、かろうじて合格するくらいの力しかつかない」と書かれている。\n私は、まさしくかろうじて合格するくらいの力をつけるためにその本を書いているのだ。かろうじて合格すれば、その本は最高の良書だろう。私がそのような意味で敢えてカットしたことを取り上げて、それが書かれていないからと批判されても、こちらとしては困ってしまう。\nそのような身勝手な書評がなんと多いことか。知識のある人間が入門書を幼稚すぎるとけなし、知識のない人間が専門書をわかりにくいとけなす。しかし、それは単に自分の背丈にあっていない本を求めただけのことに過ぎない。きちんと自分の背丈にあった本を探して買うのが、読者の務めだと、私は思う。\n本について語るからには、あらゆる本に愛情を持つべきだと私は考えている。そうしてこそ、本を批判する資格を持つと思うのだ。\n\n（樋口裕一『差がつく読書』による)",
+              "notes": [
+                "（注）酷評する：ひどく厳しい評価を下す"
+              ],
+              "vertical": false,
+              "pages": [
+                10
+              ],
+              "id": "p_ddffcb8642d28f9a8b1cc6ab"
+            }
+          ],
+          "questions": [
+            {
+              "number": 65,
+              "label": null,
+              "prompt": "筆者は、どのような書評が傲慢だと感じているか。",
+              "choices": [
+                "大した理由づけもなく優劣を断定したもの",
+                "優れている点を決して認めようとしないもの",
+                "自身に知識があるかのように見せかけたもの",
+                "自身の判断がすべてであるかのように評価したもの"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 10,
+              "pages": [
+                10
+              ],
+              "passageIds": [
+                "p_ddffcb8642d28f9a8b1cc6ab"
+              ],
+              "points": 3.0,
+              "id": "q_dbd2fab882148cf1510468df",
+              "sequence": 65,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "65",
+              "answerStar": 3
+            },
+            {
+              "number": 66,
+              "label": null,
+              "prompt": "ある参考書について、筆者が心外だと感じたのはどのような書評か。",
+              "choices": [
+                "どうにか合格できる程度を目指したのに、それ以上の内容が必要だと評判したもの",
+                "合格に必要な最低限の知識を整理したものなのに、合格は不可能だと批判したもの",
+                "敢えて難しいことは書いていないのに、それでもわかりにくいと批判したもの",
+                "難しい試験でも合格できるように書いたのに、それでも不十分だと批判したもの"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 11,
+              "pages": [
+                11
+              ],
+              "passageIds": [
+                "p_ddffcb8642d28f9a8b1cc6ab"
+              ],
+              "points": 3.0,
+              "id": "q_4fab274985df1970623cc17b",
+              "sequence": 66,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "66",
+              "answerStar": 3
+            },
+            {
+              "number": 67,
+              "label": null,
+              "prompt": "筆者によると、本が良書と言えるのはどのような場合か。",
+              "choices": [
+                "書評で強く批判されない場合",
+                "多くの人が価値を認めている場合",
+                "求める人に本の趣旨が理解しやすい場合",
+                "求める人のレベルや目的にあっている場合"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 11,
+              "pages": [
+                11
+              ],
+              "passageIds": [
+                "p_ddffcb8642d28f9a8b1cc6ab"
+              ],
+              "points": 3.0,
+              "id": "q_8db3560d7589dd73ad231698",
+              "sequence": 67,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "67",
+              "answerStar": 3
+            },
+            {
+              "number": 68,
+              "label": null,
+              "prompt": "本を批評する人に対して、筆者が言いたいことは何か。",
+              "choices": [
+                "著者のあらゆる本を読むべきだ。",
+                "極端に否定的な評価は避けるべきだ。",
+                "それぞれの本の存在価値を認めるべきだ。",
+                "どのような本にも先入観なしで接するべきだ。"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 11,
+              "pages": [
+                11
+              ],
+              "passageIds": [
+                "p_ddffcb8642d28f9a8b1cc6ab"
+              ],
+              "points": 3.0,
+              "id": "q_7ab50c9adb5c91fab3e6b6a3",
+              "sequence": 68,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "68",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 4
+        },
+        {
+          "id": "s2-m13",
+          "number": 13,
+          "kind": "information-retrieval",
+          "title": "問題13",
+          "localTitle": "信息检索",
+          "instruction": "問題13　下のページは、就職支援行事（9月-12月）のスケジュールである。下の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+          "pointsPerQuestion": 2.0,
+          "passages": [
+            {
+              "label": null,
+              "text": "就職支援行事（9月-12月）のスケジュール\n就職活動を行う学生のために、各種行事を実施しています。\n全行事、申し込みは不要です。当日、学生証を持参のうえ、会場へお越し下さい。\n\n【日程一覧】\n① 9月19日(金) イ 就職ガイダンス [就職活動全般の基本的な情報]就職活動の方法やスケジュールなど\n② 9月24日(水) ア 留学生ガイダンス 留学生向けの在留資格や留学生の就職状況などの説明\n③ 10月3日(金) イ 就職活動体験談(1) 広告、マスコミ業界に就職した卒業生による 就職活動の体験談\n④ 10月16日(木) ア 就職ガイダンス [就職活動全般の基本的な情報]内容は9月19日と同じです\n⑤ 10月23日(木) ア 留学生ガイダンス 内容は9月24日と同じです\n⑥ 11月7日(金) イ 留学生マナー講座 留学生が日本で就職活動を行うにあたっての基本的なマナー講座\n⑦ 11月20日(木) イ 就職活動体験談(2) 金融、証券業界に就職した卒業生による就職活動の体験談\n⑧ 12月1日(月) * 合同企業説明会 詳細は下記参照\n⑨ 12月12日(金) イ 就職活動体験談(3) 貿易・流通業界に就職した卒業生による就職活動の体験談\n⑩ 12月17日(水) * 合同企業説明会 詳細は下記参照\n\n開催時間：ア…14:50-16:20　イ…18:30-20:00　*合同企業説明会は下記参照\n開催場所：⑥以外…緑山ホール　⑥…101教室\n\n【注意事項】\n・就職希望者（留学生含む）は、[就職ガイダンス]のどちらかに必ず出席してください。\n・[留学生ガイダンス]は希望者のみ出席してください。\n\n【合同企業説明会について】\n合同企業説明会は業種別に、以下の日時に開催されます。各回、約50社が参加予定です。（途中入退場自由）\n・12月1日：16:00-17:00 金融・証券 / 17:15-18:15 広告・マスコミ / 18:30-19:30 貿易・流通\n・12月17日：16:00-17:00 広告・マスコミ / 17:15-18:15 メーカー・IT / 18:30-19:30 教育・福祉\n緑山大学就職課",
+              "notes": [],
+              "vertical": false,
+              "pages": [
+                11
+              ],
+              "id": "p_6b93ea263c434ef721ca1138"
+            }
+          ],
+          "questions": [
+            {
+              "number": 69,
+              "label": null,
+              "prompt": "留学生のマイクさんは日本で就職したいと思っている。マイクさんが必ず出席しなければいけない行事はいくつか。",
+              "choices": [
+                "一つ",
+                "二つ",
+                "三つ",
+                "四つ"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 11,
+              "pages": [
+                11
+              ],
+              "passageIds": [
+                "p_6b93ea263c434ef721ca1138"
+              ],
+              "points": 2.0,
+              "id": "q_5393db7c5f4d20b09f8eefcc",
+              "sequence": 69,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "69",
+              "answerStar": 3
+            },
+            {
+              "number": 70,
+              "label": null,
+              "prompt": "林さんはマスコミ関連の企業に就職したいので、関連企業に就職した先輩の話や、関連企業の仕事内容について聞きたいと思っている。林さんは授業のため17時以降しか出席できない。林さんに合う行事はどれか。",
+              "choices": [
+                "③と⑧のみ",
+                "③と⑧と⑩",
+                "⑧のみ",
+                "⑧と⑩のみ"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 11,
+              "pages": [
+                11
+              ],
+              "passageIds": [
+                "p_6b93ea263c434ef721ca1138"
+              ],
+              "points": 2.0,
+              "id": "q_d3a32650ddb649bc8f119b29",
+              "sequence": 70,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "70",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 2
+        }
+      ],
+      "questionCount": 25
+    },
+    {
+      "id": "s3",
+      "number": 3,
+      "kind": "listening",
+      "title": "聴解",
+      "localTitle": "第三部分　听力",
+      "audioRequired": true,
+      "parts": [
+        {
+          "id": "s3-m1",
+          "number": 1,
+          "kind": "task-based",
+          "title": "問題1",
+          "localTitle": "课题理解",
+          "instruction": "問題1　ではまず質問を聞いてください。それから話を聞いて、問題用紙の（1）から（4）の中から、最もよいものを一つ選んでください。",
+          "pointsPerQuestion": 1.0,
+          "passages": [],
+          "questions": [
+            {
+              "number": 1,
+              "label": "1番",
+              "prompt": "",
+              "choices": [
+                "せすじを伸ばすこと",
+                "手を大きくふること",
+                "足を高く上げること",
+                "歩く速度を上げること"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_7cad36310623588939a829d5",
+              "sequence": 71,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "1-1",
+              "answerStar": 3
+            },
+            {
+              "number": 2,
+              "label": "2番",
+              "prompt": "",
+              "choices": [
+                "自分で写真を撮る",
+                "写真に手を加える",
+                "写真を削除する",
+                "撮影者に連絡を取る"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_df01e8e4a808315b883bd2e6",
+              "sequence": 72,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "1-2",
+              "answerStar": 3
+            },
+            {
+              "number": 3,
+              "label": "3番",
+              "prompt": "",
+              "choices": [
+                "参加者にメールを送る",
+                "参加者に電話をする",
+                "参加者のグループ分けをする",
+                "参加者の名簿を印刷する"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_1b006418f88b44668b845bf1",
+              "sequence": 73,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "1-3",
+              "answerStar": 3
+            },
+            {
+              "number": 4,
+              "label": "4番",
+              "prompt": "",
+              "choices": [
+                "お皿を包む",
+                "洋服を箱に入れる",
+                "パソコンを箱に入れる",
+                "パソコンのデータのバックアップを取る"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_f2eb8470b891026496f8865c",
+              "sequence": 74,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "1-4",
+              "answerStar": 3
+            },
+            {
+              "number": 5,
+              "label": "5番",
+              "prompt": "",
+              "choices": [
+                "客に商品の使用期間を聞く",
+                "参加者の日程調整をする",
+                "案内状に謝礼の金額を書く",
+                "案内状にコメントらんを作る"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_489a127318c4b875d708eb23",
+              "sequence": 75,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "1-5",
+              "answerStar": 3
+            },
+            {
+              "number": 6,
+              "label": "6番",
+              "prompt": "",
+              "choices": [
+                "休会の手続き",
+                "退会の手続き",
+                "月謝の支払い",
+                "入会金の支払い"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_83d49b7b5373a0bb06ecf2dc",
+              "sequence": 76,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "1-6",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 6
+        },
+        {
+          "id": "s3-m2",
+          "number": 2,
+          "kind": "comprehension-point",
+          "title": "問題2",
+          "localTitle": "要点理解",
+          "instruction": "問題2　ではまず質問を聞いてください。その後、問題用紙の選択肢を読んでください。読む時間があります。それから、話を聞いて、問題用紙の（1）から（4）の中から、最もよいものを一つ選んでください。",
+          "pointsPerQuestion": 1.0,
+          "passages": [],
+          "questions": [
+            {
+              "number": 1,
+              "label": "1番",
+              "prompt": "",
+              "choices": [
+                "洋菓子店と共同で商品を作ったこと",
+                "テレビ番組に取り上げられたこと",
+                "店の全国展開を開始したこと",
+                "昔ながらの製法を再現したこと"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_4a2cccff1c3e07abf5454e8f",
+              "sequence": 77,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "2-1",
+              "answerStar": 3
+            },
+            {
+              "number": 2,
+              "label": "2番",
+              "prompt": "",
+              "choices": [
+                "実験の協力者を大勢集めること",
+                "実験の結果を分析すること",
+                "論文のテーマを決めること",
+                "資料を読んで理解すること"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_4c97a3fb879a0ed7b77c170d",
+              "sequence": 78,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "2-2",
+              "answerStar": 3
+            },
+            {
+              "number": 3,
+              "label": "3番",
+              "prompt": "",
+              "choices": [
+                "指示通りに仕事はするが、積極性に欠ける",
+                "仕事はまだまだだが、よく意見を言う",
+                "協調性が高く、優秀だ",
+                "自主的に仕事を見つけ、専門外の仕事もする"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_f9f858a5d824b3aee19d83bf",
+              "sequence": 79,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "2-3",
+              "answerStar": 3
+            },
+            {
+              "number": 4,
+              "label": "4番",
+              "prompt": "",
+              "choices": [
+                "共同経営者が見つからなかったから",
+                "今の会社をすぐにやめられなかったから",
+                "十分な資金が調達できなかったから",
+                "父親が強く反対したから"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_40c2961d150e8dd814051b43",
+              "sequence": 80,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "2-4",
+              "answerStar": 3
+            },
+            {
+              "number": 5,
+              "label": "5番",
+              "prompt": "",
+              "choices": [
+                "木製にもかかわらず保存状態がよい点",
+                "ごうかなそうしょくが施されている点",
+                "今まで発見された中で最も古い点",
+                "めずらしい材質を使っている点"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_060114a9464bdf026a8e011e",
+              "sequence": 81,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "2-5",
+              "answerStar": 3
+            },
+            {
+              "number": 6,
+              "label": "6番",
+              "prompt": "",
+              "choices": [
+                "人件費を削減するため",
+                "光熱費を削減するため",
+                "事務の効率化を図るため",
+                "社員のやる気を高めるため"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_d045d25884f587798baf00d1",
+              "sequence": 82,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "2-6",
+              "answerStar": 3
+            },
+            {
+              "number": 7,
+              "label": "7番",
+              "prompt": "",
+              "choices": [
+                "運動の前は取らず、運動の後に疲れたら取る",
+                "運動の前に取り、運動中も一定の時間ごとに取る",
+                "運動中に空腹を感じたら取る",
+                "運動中は取らず、運動の前後に取る"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 12,
+              "pages": [
+                12
+              ],
+              "passageIds": [],
+              "points": 1.0,
+              "id": "q_4a2afa14b4029d906a64aca9",
+              "sequence": 83,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "2-7",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 7
+        },
+        {
+          "id": "s3-m3",
+          "number": 3,
+          "kind": "overall-comprehension",
+          "title": "問題3",
+          "localTitle": "概要理解",
+          "instruction": "問題3　では問題用紙に何も印刷されていません。この問題は全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問と選択肢を聞いて、（1）から（4）の中から、最もよいものを一つ選んでください。",
+          "pointsPerQuestion": 2.0,
+          "passages": [],
+          "questions": [
+            {
+              "number": 1,
+              "label": "1番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 4,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_9896d9754e0c48d4a84ec81a",
+              "sequence": 84,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "3-1",
+              "answerStar": 3
+            },
+            {
+              "number": 2,
+              "label": "2番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 4,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_d76b88561e0fed6db139532f",
+              "sequence": 85,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "3-2",
+              "answerStar": 3
+            },
+            {
+              "number": 3,
+              "label": "3番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 4,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_77c5385d9133b669db21c2a4",
+              "sequence": 86,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "3-3",
+              "answerStar": 3
+            },
+            {
+              "number": 4,
+              "label": "4番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 4,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_d4008e552591fe9a84586c88",
+              "sequence": 87,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "3-4",
+              "answerStar": 3
+            },
+            {
+              "number": 5,
+              "label": "5番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 4,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_22986bb802dc0a712121fbce",
+              "sequence": 88,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "3-5",
+              "answerStar": 3
+            },
+            {
+              "number": 6,
+              "label": "6番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 4,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_54969a455f8208e4c13ce991",
+              "sequence": 89,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "3-6",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 6
+        },
+        {
+          "id": "s3-m4",
+          "number": 4,
+          "kind": "quick-response",
+          "title": "問題4",
+          "localTitle": "即时应答",
+          "instruction": "問題4　では問題用紙に何も印刷されていません。まず、文を聞いてください。それから、それに対する返事を聞いて、（1）から（3）の中から、最もよいものを一つ選んでください。",
+          "pointsPerQuestion": 2.0,
+          "passages": [],
+          "questions": [
+            {
+              "number": 1,
+              "label": "1番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_e3f6286490fd7f29be54e50f",
+              "sequence": 90,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-1",
+              "answerStar": 3
+            },
+            {
+              "number": 2,
+              "label": "2番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_b13f81045276d5a01cc2ebd9",
+              "sequence": 91,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-2",
+              "answerStar": 3
+            },
+            {
+              "number": 3,
+              "label": "3番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_ab7ca334d4d19f9a9a2d30b2",
+              "sequence": 92,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-3",
+              "answerStar": 3
+            },
+            {
+              "number": 4,
+              "label": "4番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_a84ed8fd8f4eb009312a75ab",
+              "sequence": 93,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-4",
+              "answerStar": 3
+            },
+            {
+              "number": 5,
+              "label": "5番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_6b99667c89c33afde2d8ef23",
+              "sequence": 94,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-5",
+              "answerStar": 3
+            },
+            {
+              "number": 6,
+              "label": "6番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_6e47932a54647bf8407cc4e1",
+              "sequence": 95,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-6",
+              "answerStar": 3
+            },
+            {
+              "number": 7,
+              "label": "7番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_1414d2459e276067860175b8",
+              "sequence": 96,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-7",
+              "answerStar": 3
+            },
+            {
+              "number": 8,
+              "label": "8番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_95caa93130fb3073deca2b31",
+              "sequence": 97,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-8",
+              "answerStar": 3
+            },
+            {
+              "number": 9,
+              "label": "9番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_6438d3213c8d7cdc4887a049",
+              "sequence": 98,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-9",
+              "answerStar": 3
+            },
+            {
+              "number": 10,
+              "label": "10番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_57caa522ffa7f448bf5ec82f",
+              "sequence": 99,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-10",
+              "answerStar": 3
+            },
+            {
+              "number": 11,
+              "label": "11番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_80b8b72fde6b5dc5d58aa627",
+              "sequence": 100,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-11",
+              "answerStar": 3
+            },
+            {
+              "number": 12,
+              "label": "12番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_b0354d306e5c215fbcd797f4",
+              "sequence": 101,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-12",
+              "answerStar": 3
+            },
+            {
+              "number": 13,
+              "label": "13番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_2ed978e3502f884926070b26",
+              "sequence": 102,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-13",
+              "answerStar": 3
+            },
+            {
+              "number": 14,
+              "label": "14番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 3,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 3,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 2.0,
+              "id": "q_c0202176c1e53cdb65fb0b27",
+              "sequence": 103,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "4-14",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 14
+        },
+        {
+          "id": "s3-m5",
+          "number": 5,
+          "kind": "integrated-listening",
+          "title": "問題5",
+          "localTitle": "综合理解",
+          "instruction": "問題5　では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。1番、2番問題用紙に何も印刷されていません。まず話を聞いてください。それから、質問とせんたくしを聞いて、（1）から（4）の中から、最もよいものを一つ選んでください。",
+          "pointsPerQuestion": 3.0,
+          "passages": [],
+          "questions": [
+            {
+              "number": 1,
+              "label": "1番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 4,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 2,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 3.0,
+              "id": "q_2e8d325c6a2f277ea5d1a52b",
+              "sequence": 104,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "5-1",
+              "answerStar": 3
+            },
+            {
+              "number": 2,
+              "label": "2番",
+              "prompt": "",
+              "choices": [],
+              "choiceCount": 4,
+              "choicesSpoken": true,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 3.0,
+              "id": "q_24381a1733702e7726f13811",
+              "sequence": 105,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "5-2",
+              "answerStar": 3
+            },
+            {
+              "number": 3,
+              "label": "3番 質問1",
+              "prompt": "",
+              "choices": [
+                "「手帳」",
+                "「秋の空」",
+                "「あの雲」",
+                "「緑の家」"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 4,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 3.0,
+              "id": "q_9c5f1129840b35c050baab2a",
+              "sequence": 106,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "5-3",
+              "answerStar": 3
+            },
+            {
+              "number": 4,
+              "label": "3番 質問2",
+              "prompt": "",
+              "choices": [
+                "「手帳」",
+                "「秋の空」",
+                "「あの雲」",
+                "「緑の家」"
+              ],
+              "choiceCount": 4,
+              "choicesSpoken": false,
+              "example": false,
+              "answer": 1,
+              "vertical": false,
+              "page": 13,
+              "pages": [
+                13
+              ],
+              "passageIds": [],
+              "points": 3.0,
+              "id": "q_2e4cfbe7bc9a0d34010c9b09",
+              "sequence": 107,
+              "answerOrder": null,
+              "keyNote": "",
+              "answerSheetLabel": "5-4",
+              "answerStar": 3
+            }
+          ],
+          "questionCount": 4
+        }
+      ],
+      "questionCount": 37
+    }
+  ],
+  "examId": "e_1c5151ea7485099f36f8fd90",
+  "questionCount": 107,
+  "totalPoints": 175.0,
+  "answeredKeyCount": 107,
+  "contentRevision": "29c7979646d675368b61d37f7863d7d7ca6eb9520f283f692fcd0bd323feeb4d",
+  "listeningMedia": {
+    "kind": "course-audio",
+    "courseSlug": "2014-12-N1",
+    "expectedSha256": "4972e91b2b56a80d3d49be8e35e2580e1d4dbbc7e203eaef3479ea8ef0c301fb",
+    "expectedBytes": 46523582
+  }
+}

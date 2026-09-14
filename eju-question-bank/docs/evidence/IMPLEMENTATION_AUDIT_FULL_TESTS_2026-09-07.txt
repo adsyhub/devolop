@@ -1,0 +1,363 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.10, pytest-9.1.1, pluggy-1.5.0
+rootdir: /workspace/Develop/eju-question-bank
+configfile: pyproject.toml
+testpaths: tests
+plugins: hypothesis-6.115.5, asyncio-1.4.0, anyio-4.14.2
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 19 items / 14 errors
+
+==================================== ERRORS ====================================
+_______________ ERROR collecting tests/test_assemble_publish.py ________________
+/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule
+    mod = import_path(
+/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path
+    importlib.import_module(module_name)
+/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module
+    exec(co, module.__dict__)
+tests/test_assemble_publish.py:11: in <module>
+    from eju_bank.db import Database
+E     File "/workspace/Develop/eju-question-bank/eju_bank/db.py", line 30
+E       def __init__(self, path: Path | str, *, media_dir: Path | str | None = None, workspace_root: Path | str | None = None) -> None:
+E       ^^^
+E   IndentationError: expected an indented block after function definition on line 29
+_______________ ERROR collecting tests/test_backup_migrations.py _______________
+/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule
+    mod = import_path(
+/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path
+    importlib.import_module(module_name)
+/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module
+    exec(co, module.__dict__)
+tests/test_backup_migrations.py:8: in <module>
+    from eju_bank.db import Database
+E     File "/workspace/Develop/eju-question-bank/eju_bank/db.py", line 30
+E       def __init__(self, path: Path | str, *, media_dir: Path | str | None = None, workspace_root: Path | str | None = None) -> None:
+E       ^^^
+E   IndentationError: expected an indented block after function definition on line 29
+_______________ ERROR collecting tests/test_browser_learning.py ________________
+/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule
+    mod = import_path(
+/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path
+    importlib.import_module(module_name)
+/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module
+    exec(co, module.__dict__)
+tests/test_browser_learning.py:7: in <module>
+    from eju_bank.db import Database
+E     File "/workspace/Develop/eju-question-bank/eju_bank/db.py", line 30
+E       def __init__(self, path: Path | str, *, media_dir: Path | str | None = None, workspace_root: Path | str | None = None) -> None:
+E       ^^^
+E   IndentationError: expected an indented block after function definition on line 29
+________________ ERROR collecting tests/test_content_issues.py _________________
+/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule
+    mod = import_path(
+/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path
+    importlib.import_module(module_name)
+/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module
+    exec(co, module.__dict__)
+tests/test_content_issues.py:11: in <module>
+    from eju_bank.db import Database
+E     File "/workspace/Develop/eju-question-bank/eju_bank/db.py", line 30
+E       def __init__(self, path: Path | str, *, media_dir: Path | str | None = None, workspace_root: Path | str | None = None) -> None:
+E       ^^^
+E   IndentationError: expected an indented block after function definition on line 29
+________________ ERROR collecting tests/test_content_review.py _________________
+/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule
+    mod = import_path(
+/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path
+    importlib.import_module(module_name)
+/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module
+    exec(co, module.__dict__)
+tests/test_content_review.py:7: in <module>
+    from eju_bank.db import Database
+E     File "/workspace/Develop/eju-question-bank/eju_bank/db.py", line 30
+E       def __init__(self, path: Path | str, *, media_dir: Path | str | None = None, workspace_root: Path | str | None = None) -> None:
+E       ^^^
+E   IndentationError: expected an indented block after function definition on line 29
+_____________________ ERROR collecting tests/test_jobs.py ______________________
+/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule
+    mod = import_path(
+/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path
+    importlib.import_module(module_name)
+/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module
+    exec(co, module.__dict__)
+tests/test_jobs.py:10: in <module>
+    from eju_bank.db import Database
+E     File "/workspace/Develop/eju-question-bank/eju_bank/db.py", line 30
+E       def __init__(self, path: Path | str, *, media_dir: Path | str | None = None, workspace_root: Path | str | None = None) -> None:
+E       ^^^
+E   IndentationError: expected an indented block after function definition on line 29
+_____________ ERROR collecting tests/test_learning_collections.py ______________
+/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule
+    mod = import_path(
+/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path
+    importlib.import_module(module_name)
+/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module
+    exec(co, module.__dict__)
+tests/test_learning_collections.py:7: in <module>
+    from eju_bank.db import Database
+E     File "/workspace/Develop/eju-question-bank/eju_bank/db.py", line 30
+E       def __init__(self, path: Path | str, *, media_dir: Path | str | None = None, workspace_root: Path | str | None = None) -> None:
+E       ^^^
+E   IndentationError: expected an indented block after function definition on line 29
+_________________ ERROR collecting tests/test_ocr_pipeline.py __________________
+/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule
+    mod = import_path(
+/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path
+    importlib.import_module(module_name)
+/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module
+    exec(co, module.__dict__)
+tests/test_ocr_pipeline.py:6: in <module>
+    from eju_bank.db import Database
+E     File "/workspace/Develop/eju-question-bank/eju_bank/db.py", line 30
+E       def __init__(self, path: Path | str, *, media_dir: Path | str | None = None, workspace_root: Path | str | None = None) -> None:
+E       ^^^
+E   IndentationError: expected an indented block after function definition on line 29
+______________________ ERROR collecting tests/test_ops.py ______________________
+/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule
+    mod = import_path(
+/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path
+    importlib.import_module(module_name)
+/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module
+    exec(co, module.__dict__)
+tests/test_ops.py:4: in <module>
+    from eju_bank.db import Database
+E     File "/workspace/Develop/eju-question-bank/eju_bank/db.py", line 30
+E       def __init__(self, path: Path | str, *, media_dir: Path | str | None = None, workspace_root: Path | str | None = None) -> None:
+E       ^^^
+E   IndentationError: expected an indented block after function definition on line 29
+________________ ERROR collecting tests/test_remote_boundary.py ________________
+/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule
+    mod = import_path(
+/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path
+    importlib.import_module(module_name)
+/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module
+    exec(co, module.__dict__)
+tests/test_remote_boundary.py:5: in <module>
+    from eju_bank.server import create_server
+E     File "/workspace/Develop/eju-question-bank/eju_bank/server.py", line 139
+E       except KeyError:
+E       ^^^^^^
+E   IndentationError: expected an indented block after 'except' statement on line 138
+________________ ERROR collecting tests/test_review_browser.py _________________
+/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule
+    mod = import_path(
+/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path
+    importlib.import_module(module_name)
+/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module
+    exec(co, module.__dict__)
+tests/test_review_browser.py:6: in <module>
+    from eju_bank.db import Database
+E     File "/workspace/Develop/eju-question-bank/eju_bank/db.py", line 30
+E       def __init__(self, path: Path | str, *, media_dir: Path | str | None = None, workspace_root: Path | str | None = None) -> None:
+E       ^^^
+E   IndentationError: expected an indented block after function definition on line 29
+___________________ ERROR collecting tests/test_server_v1.py ___________________
+/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule
+    mod = import_path(
+/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path
+    importlib.import_module(module_name)
+/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module
+    exec(co, module.__dict__)
+tests/test_server_v1.py:9: in <module>
+    from eju_bank.server import create_server
+E     File "/workspace/Develop/eju-question-bank/eju_bank/server.py", line 139
+E       except KeyError:
+E       ^^^^^^
+E   IndentationError: expected an indented block after 'except' statement on line 138
+______________ ERROR collecting tests/test_session_reliability.py ______________
+/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule
+    mod = import_path(
+/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path
+    importlib.import_module(module_name)
+/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module
+    exec(co, module.__dict__)
+tests/test_session_reliability.py:8: in <module>
+    from eju_bank.db import Database
+E     File "/workspace/Develop/eju-question-bank/eju_bank/db.py", line 30
+E       def __init__(self, path: Path | str, *, media_dir: Path | str | None = None, workspace_root: Path | str | None = None) -> None:
+E       ^^^
+E   IndentationError: expected an indented block after function definition on line 29
+______________ ERROR collecting tests/test_trial_2023_science.py _______________
+/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule
+    mod = import_path(
+/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path
+    importlib.import_module(module_name)
+/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module
+    exec(co, module.__dict__)
+tests/test_trial_2023_science.py:7: in <module>
+    from eju_bank.db import Database
+E     File "/workspace/Develop/eju-question-bank/eju_bank/db.py", line 30
+E       def __init__(self, path: Path | str, *, media_dir: Path | str | None = None, workspace_root: Path | str | None = None) -> None:
+E       ^^^
+E   IndentationError: expected an indented block after function definition on line 29
+=========================== short test summary info ============================
+ERROR tests/test_assemble_publish.py
+ERROR tests/test_backup_migrations.py
+ERROR tests/test_browser_learning.py
+ERROR tests/test_content_issues.py
+ERROR tests/test_content_review.py
+ERROR tests/test_jobs.py
+ERROR tests/test_learning_collections.py
+ERROR tests/test_ocr_pipeline.py
+ERROR tests/test_ops.py
+ERROR tests/test_remote_boundary.py
+ERROR tests/test_review_browser.py
+ERROR tests/test_server_v1.py
+ERROR tests/test_session_reliability.py
+ERROR tests/test_trial_2023_science.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 14 errors during collection !!!!!!!!!!!!!!!!!!!
+============================== 14 errors in 1.11s ==============================

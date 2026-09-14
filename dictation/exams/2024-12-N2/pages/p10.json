@@ -1,0 +1,77 @@
+{
+  "page": 10,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "1 あるというような\n2 あるのかというよな\n3 あるということの\n4 あるのかということ"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "腕のけがはまだ完全に( )が、日常生活には困らなくなった。",
+      "questionNumber": 38,
+      "choices": [
+        "治りようがない",
+        "治らないでもない",
+        "治ったにすぎない",
+        "治ったわけではない"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "私は20年前に初めて富士出に登った。山頂に立ったときの感動は今でも( )。",
+      "questionNumber": 39,
+      "choices": [
+        "忘れがたい",
+        "忘れかけている",
+        "忘れないといい",
+        "忘れるおそれがある"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "洗濯機に入れるときに気づいたからよかったが、もう少しで大事な領収書をズボンのボゲットに入れたまま( )。",
+      "questionNumber": 40,
+      "choices": [
+        "洗濯したようだ",
+        "洗濯するつもりだった",
+        "洗濯したせいだ",
+        "洗するところだた"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "毎晩私は、5歳の娘が寝る前にベッドで本を読んでやるのだが、読んでいるうちに自分のほうが( )。",
+      "questionNumber": 41,
+      "choices": [
+        "寝てしまうことがある",
+        "寝ておくことがある",
+        "寝てしまうことにする",
+        "寝ておくことにする"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "社長として、社員全員が仕事に満足できる環境を整えたい。それは単なる理想( )。いや、私は理想ではなく必ず実現できると信じている。",
+      "questionNumber": 42,
+      "choices": [
+        "でしかないはずだ",
+        "でなくてはいけないはずだ",
+        "でしかないのだろうか",
+        "ではいけないのだろうか"
+      ]
+    }
+  ],
+  "pageLabel": "9",
+  "issues": [
+    "Choice-looking line with no question open: '1 あるというような'",
+    "Choice-looking line with no question open: '2 あるのかというよな'",
+    "Choice-looking line with no question open: '3 あるということの'",
+    "Choice-looking line with no question open: '4 あるのかということ'"
+  ]
+}

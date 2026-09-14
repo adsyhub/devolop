@@ -1,0 +1,45 @@
+{
+  "page": 3,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　( )に入れるのに最もよいものを1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 2,
+      "text": "7 その生物は、厳しい環境に( )できる能力を持っている。\n1 適応\n2 合致\n3 転換\n4 推移\n8 店の売り上げを五年で二倍にするという目標を( )、みんなで努力している。\n1 企て\n2 興って\n3 築いて\n4 掲げて\n9 新しい市長は前市長の政策を( )し、駅前の開発を進めると述べた。\n1 相続\n2 獲得\n3 踏襲\n4 伝承\n10 台風で電車の到着が大幅に遅れたため、駅でしばらく( )された。\n1 息抜き\n2 棚上げ\n3 待ち伏せ\n4 足止め\n11 今日は試合で一日中走り続けたので、疲れて( )になった。\n1 めちゃめちゃ\n2 へとへと\n3 どろどろ\n4 ぐちゃぐちゃ\n12 工場の誘致について、市長が丁寧に説明し、住民の不安の( )に努めた。\n1 払拭\n2 喪失\n3 破棄\n4 排斥\n13 階段でつまずいて転びそうになったので、( )隣にいた友人の腕をつかんだ。\n1 じきに\n2 いまに\n3 とっさに\n4 とっくに"
+    }
+  ],
+  "issues": [
+    "Choice-looking line with no question open: '1 適応'",
+    "Choice-looking line with no question open: '2 合致'",
+    "Choice-looking line with no question open: '3 転換'",
+    "Choice-looking line with no question open: '4 推移'",
+    "Choice-looking line with no question open: '1 企て'",
+    "Choice-looking line with no question open: '2 興って'",
+    "Choice-looking line with no question open: '3 築いて'",
+    "Choice-looking line with no question open: '4 掲げて'",
+    "Choice-looking line with no question open: '1 相続'",
+    "Choice-looking line with no question open: '2 獲得'",
+    "Choice-looking line with no question open: '3 踏襲'",
+    "Choice-looking line with no question open: '4 伝承'",
+    "Choice-looking line with no question open: '1 息抜き'",
+    "Choice-looking line with no question open: '2 棚上げ'",
+    "Choice-looking line with no question open: '3 待ち伏せ'",
+    "Choice-looking line with no question open: '4 足止め'",
+    "Choice-looking line with no question open: '1 めちゃめちゃ'",
+    "Choice-looking line with no question open: '2 へとへと'",
+    "Choice-looking line with no question open: '3 どろどろ'",
+    "Choice-looking line with no question open: '4 ぐちゃぐちゃ'",
+    "Choice-looking line with no question open: '1 払拭'",
+    "Choice-looking line with no question open: '2 喪失'",
+    "Choice-looking line with no question open: '3 破棄'",
+    "Choice-looking line with no question open: '4 排斥'",
+    "Choice-looking line with no question open: '1 じきに'",
+    "Choice-looking line with no question open: '2 いまに'",
+    "Choice-looking line with no question open: '3 とっさに'",
+    "Choice-looking line with no question open: '4 とっくに'"
+  ]
+}

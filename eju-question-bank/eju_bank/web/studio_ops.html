@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4f5a66">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <title>运维 · EJU 题库制作台</title>
+  <link rel="stylesheet" href="/tokens.css">
+  <link rel="stylesheet" href="/vendor/katex/katex.min.css">
+  <link rel="stylesheet" href="/studio.css">
+  <script defer src="/vendor/katex/katex.min.js"></script>
+</head>
+<body class="studio-body" data-module="ops">
+  <a class="skip-link" href="#studio-main">跳到内容</a>
+
+  <header class="topbar studio-topbar">
+    <div class="topbar-lead">
+      <a class="brand" href="./" aria-label="返回学习入口">
+        <span class="brand-mark studio-brand-mark" aria-hidden="true">製</span>
+        <span><strong>题库制作台</strong><small>跨来源的任务 · 问题 · 备份</small></span>
+      </a>
+    </div>
+    <div class="topbar-status-group">
+      <a class="mode-switch-link" href="./">切换工作区</a>
+    </div>
+  </header>
+
+  <nav class="studio-modules" id="studio-modules" aria-label="制作台模块"></nav>
+
+  <main id="studio-main">
+    <section class="view" id="view-ops" aria-labelledby="ops-heading">
+      <a class="quiet-button back-link" id="ops-back" href="/studio/library">← 返回课程库</a>
+      <div class="board-hero">
+        <p class="eyebrow">OPERATIONS</p>
+        <h1 id="ops-heading">运维</h1>
+        <p class="board-hero-copy">跨来源的任务、问题处理、解析与备份。</p>
+      </div>
+
+      <nav class="category-switch" id="ops-switch" role="tablist" aria-label="运维分类">
+        <button class="category-tab" type="button" role="tab" data-ops="jobs">任务与重试</button>
+        <button class="category-tab" type="button" role="tab" data-ops="issues">内容问题<span class="tab-badge" id="issue-badge"></span></button>
+        <button class="category-tab" type="button" role="tab" data-ops="explanations">解析与翻译</button>
+        <button class="category-tab" type="button" role="tab" data-ops="rubrics">记述评阅标准</button>
+        <button class="category-tab" type="button" role="tab" data-ops="backups">备份与恢复</button>
+        <button class="category-tab" type="button" role="tab" data-ops="data">诊断与数据</button>
+      </nav>
+
+      <p class="status-line" id="management-status" role="status"></p>
+
+      <section class="ops-panel" data-ops="jobs" hidden>
+        <div class="ops-head">
+          <h2>后台任务</h2>
+          <button class="btn btn-outline" id="management-refresh" type="button">刷新任务与备份</button>
+        </div>
+        <form id="production-form" class="stage-form">
+          <label class="field"><span>来源</span><select id="production-source"></select></label>
+          <label class="field"><span>任务</span>
+            <select id="production-kind">
+              <option>PROBE</option><option>RENDER</option><option>EXTRACT</option>
+            </select></label>
+          <label class="field"><span>文件</span>
+            <select id="production-role">
+              <option>QUESTION_BOOKLET</option><option>ANSWER_KEY</option>
+            </select></label>
+          <label class="field"><span>页码范围</span><input id="production-pages" placeholder="1,3-5"></label>
+          <label class="field"><span>OCR 配置名称</span><input id="production-provider"></label>
+          <button class="primary-button" type="submit">创建任务</button>
+        </form>
+        <div id="job-list"></div>
+      </section>
+
+      <section class="ops-panel" data-ops="issues" hidden>
+        <h2>内容问题</h2>
+        <p class="stage-desc">学习者在作答时报告的问题。处理后请写明说明，记录会保留。</p>
+        <div id="issue-list"></div>
+      </section>
+
+      <section class="ops-panel" data-ops="explanations" hidden>
+        <h2>解析与辅助翻译</h2>
+        <form id="explanation-form" class="stage-form">
+          <label class="field"><span>题目版本 ID</span><input id="explanation-qv" required>
+            <small class="field-hint">通常不用手填：从「内容问题」里点「给这道题写解析」进来，
+              这一栏会带上对应的题目版本。</small></label>
+          <label class="field"><span>种类</span>
+            <select id="explanation-kind">
+              <option value="EXPLANATION">解析</option><option value="TRANSLATION">辅助翻译</option>
+            </select></label>
+          <label class="field"><span>语言</span>
+            <select id="explanation-language"><option>zh</option><option>ja</option><option>en</option></select></label>
+          <label class="field full"><span>正文</span><textarea id="explanation-text" required rows="4"></textarea></label>
+          <label class="field"><span>基于修订号</span>
+            <input id="explanation-base" type="number" min="0" value="0"></label>
+          <label class="field"><span>状态</span>
+            <select id="explanation-status">
+              <option>DRAFT</option><option>IN_REVIEW</option><option>REVIEWED</option><option>WITHDRAWN</option>
+              <!-- MACHINE_REVIEWED 不在这里：它由服务端的验证结论驱动，不能手工设。 -->
+            </select></label>
+          <label class="field"><span>复核人</span><input id="explanation-reviewer"></label>
+          <button class="primary-button" type="submit">保存新修订</button>
+        </form>
+        <pre id="explanation-result"></pre>
+      </section>
+
+      <section class="ops-panel" data-ops="rubrics" hidden>
+        <h2>记述评阅标准</h2>
+        <p class="stage-desc">个人练习标准不代表官方 EJU 分数。</p>
+        <form id="rubric-form" class="stage-form">
+          <label class="field"><span>名称</span><input id="rubric-name" required></label>
+          <label class="field full"><span>维度（每行一个）</span>
+            <textarea id="rubric-dimensions" required rows="4">观点
+结构
+表达</textarea></label>
+          <label class="field"><span>复核人</span><input id="rubric-reviewer" required></label>
+          <button class="primary-button" type="submit">保存个人练习标准</button>
+        </form>
+      </section>
+
+      <section class="ops-panel" data-ops="backups" hidden>
+        <h2>备份、校验与恢复</h2>
+        <p class="stage-desc">
+          数据升级前选择 FULL 备份并校验。恢复到新目录，不会替换当前运行库。
+        </p>
+        <div class="ops-head">
+          <label class="field"><span>保留范围</span>
+            <select id="backup-mode">
+              <option value="LEARNING">学习记录与媒体</option>
+              <option value="FULL">完整制作资料与学习记录</option>
+            </select></label>
+          <button id="backup-create" class="primary-button" type="button">创建备份任务</button>
+        </div>
+        <div id="backup-list"></div>
+      </section>
+
+      <section class="ops-panel" data-ops="data" hidden>
+        <h2>诊断、缓存与个人数据</h2>
+        <div id="data-tools" class="ops-actions"></div>
+      </section>
+    </section>
+  </main>
+
+
+  <script src="/core.js" defer></script>
+  <script src="/studio_shell.js" defer></script>
+  <script src="/studio_ops.js" defer></script>
+</body>
+</html>

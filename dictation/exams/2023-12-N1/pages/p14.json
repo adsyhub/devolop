@@ -1,0 +1,58 @@
+{
+  "page": 14,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 8,
+      "text": "問題8　次の(1)から(4)の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 8,
+      "text": "(1)\n機械はどんどん精密化し、巨大に進化している。人間の介入を許さないかのような迫力\nさえ感じさせる。だが、どれほど機械が進化しようとも、本質は変わらない。熟練工が金\nかな"
+    },
+    {
+      "kind": "note",
+      "partNumber": 8,
+      "text": "(注1) かん"
+    },
+    {
+      "kind": "note",
+      "partNumber": 8,
+      "text": "(注2) かな"
+    },
+    {
+      "kind": "note",
+      "partNumber": 8,
+      "text": "(注1) 熟練工: 熟練した職人"
+    },
+    {
+      "kind": "note",
+      "partNumber": 8,
+      "text": "(注2) 番人: 監視する人"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 8,
+      "text": "> 45 筆者の考えに合うのはどれか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 8,
+      "text": "機械の進化に伴い、人間も技術や能力を向上させることが必要だ。",
+      "questionNumber": 1,
+      "choices": [
+        "機械がどんなに進化しても、人間は機械に使われないようにすべきだ。",
+        "人間は機械も道具であるという認識を考え直したほうがいい。",
+        "人間はどこまで機械を進化させるべきかをよく考えたほうがいい。"
+      ]
+    }
+  ],
+  "pageLabel": "12",
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

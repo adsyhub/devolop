@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-09-08T00:31:42.391071Z",
+  "sources": [
+    {
+      "sourceId": "src_780a8e8ef7d937848a582a91",
+      "inventoryId": "eju-2023-2-science-ja",
+      "missingRoles": [],
+      "blockingIssues": [
+        "SOURCE_PAGE_MISMATCH",
+        "REVIEW_REQUIRED"
+      ],
+      "pageCount": 64
+    },
+    {
+      "sourceId": "src_2bc2c96282df0ac93de96ff4",
+      "inventoryId": "eju-2024-1-japan-world-ja",
+      "missingRoles": [
+        "ANSWER_KEY"
+      ],
+      "blockingIssues": [
+        "MISSING_ANSWER"
+      ],
+      "pageCount": 32
+    },
+    {
+      "sourceId": "src_8911a2182ccd2d156e89721b",
+      "inventoryId": "eju-2024-1-japanese-ja",
+      "missingRoles": [
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "blockingIssues": [
+        "MISSING_AUDIO",
+        "MISSING_ANSWER"
+      ],
+      "pageCount": 53
+    },
+    {
+      "sourceId": "src_d9d9ede81668ae6755a000b7",
+      "inventoryId": "eju-2024-1-math-c1-ja",
+      "missingRoles": [
+        "ANSWER_KEY"
+      ],
+      "blockingIssues": [
+        "MISSING_ANSWER"
+      ],
+      "pageCount": 31
+    },
+    {
+      "sourceId": "src_3149ec59b03bbc0f9a45fa1a",
+      "inventoryId": "eju-2024-1-math-c2-ja",
+      "missingRoles": [
+        "ANSWER_KEY"
+      ],
+      "blockingIssues": [
+        "MISSING_ANSWER"
+      ],
+      "pageCount": 15
+    },
+    {
+      "sourceId": "src_54f5554092efcc19179a16d9",
+      "inventoryId": "eju-2024-1-science-ja",
+      "missingRoles": [
+        "ANSWER_KEY"
+      ],
+      "blockingIssues": [
+        "MISSING_ANSWER"
+      ],
+      "pageCount": 59
+    }
+  ],
+  "physicalPages": 254,
+  "signedByThisScript": 0
+}

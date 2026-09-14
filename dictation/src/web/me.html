@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="zh-Hans-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#244f68">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <title>我的学习中心</title>
+  <link rel="stylesheet" href="./app.css">
+  <link rel="stylesheet" href="./me.css">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+</head>
+<body class="me-body">
+  <a class="skip-link" href="#personal-main">跳到个人中心</a>
+
+  <header class="topbar me-topbar">
+    <a class="brand" href="./" aria-label="返回学习模式选择">
+      <span class="brand-mark me-brand-mark" aria-hidden="true">我</span>
+      <span><strong>我的学习中心</strong><small>跨模式学习资产</small></span>
+    </a>
+    <nav class="me-workspace-links" aria-label="学习工作区">
+      <a href="./listening#/listening">🎧 精听</a>
+      <a href="./exams">📝 真题</a>
+      <span aria-current="page">🗂 我的</span>
+    </nav>
+    <div class="topbar-actions">
+      <span class="me-connection" id="connection-status" role="status">正在连接本地资料库…</span>
+      <a class="mode-switch-link" href="./">返回首页</a>
+    </div>
+  </header>
+
+  <main class="me-main" id="personal-main">
+    <header class="me-hero">
+      <div>
+        <p class="me-kicker">PERSONAL LEARNING HUB</p>
+        <h1>把需要复习的内容收拢，但不混淆来源</h1>
+        <p>精听错句与真题错题分别管理；生词、笔记和学习分析是跨模式资产。</p>
+      </div>
+      <div class="me-summary" aria-label="学习资产概览">
+        <div><strong id="summary-mistakes">0</strong><span>待处理错题</span></div>
+        <div><strong id="summary-vocab">0</strong><span>生词</span></div>
+        <div><strong id="summary-notes">0</strong><span>笔记</span></div>
+        <div><strong id="summary-streak">0</strong><span>连续天数</span></div>
+      </div>
+    </header>
+
+    <div class="me-shell">
+      <nav class="me-tabs" role="tablist" aria-label="个人中心模块">
+        <button type="button" role="tab" data-tab="mistakes" aria-controls="panel-mistakes">
+          <span aria-hidden="true">◎</span><span>错题集</span><b id="badge-mistakes" hidden>0</b>
+        </button>
+        <button type="button" role="tab" data-tab="vocab" aria-controls="panel-vocab">
+          <span aria-hidden="true">文</span><span>生词本</span><b id="badge-vocab" hidden>0</b>
+        </button>
+        <button type="button" role="tab" data-tab="notes" aria-controls="panel-notes">
+          <span aria-hidden="true">☆</span><span>收藏笔记</span><b id="badge-notes" hidden>0</b>
+        </button>
+        <button type="button" role="tab" data-tab="analytics" aria-controls="panel-analytics">
+          <span aria-hidden="true">↗</span><span>学习分析</span>
+        </button>
+      </nav>
+
+      <div class="me-content">
+        <div class="me-status" id="page-status" role="status" hidden>
+          <span id="page-status-text"></span>
+          <button type="button" id="retry-button" hidden>重试</button>
+        </div>
+
+        <section class="me-panel" id="panel-mistakes" role="tabpanel" data-panel="mistakes">
+          <header class="me-panel-head">
+            <div><p>REVIEW QUEUE</p><h2>错题集</h2><span>两种来源独立取数、独立复习。</span></div>
+          </header>
+          <div class="me-segmented" role="group" aria-label="错题来源">
+            <button type="button" data-mistake-scope="dictation">精听错句 <b id="dictation-mistake-count">0</b></button>
+            <button type="button" data-mistake-scope="exam">真题错题 <b id="exam-mistake-count">0</b></button>
+          </div>
+          <button type="button" data-mistake-scope="lexicon">词汇与语法错题</button>
+          <p class="me-panel-summary" id="mistakes-summary"></p>
+          <div class="me-list" id="mistakes-list"></div>
+        </section>
+
+        <section class="me-panel" id="panel-vocab" role="tabpanel" data-panel="vocab" hidden>
+          <header class="me-panel-head">
+            <div><p>VOCABULARY</p><h2>生词本</h2><span>搜索、编辑、导入并按 SRS 复习。</span></div>
+            <div class="me-head-actions">
+              <a class="secondary-button" href="./lexicon#/study">进入今日背诵</a>
+              <button class="secondary-button" id="vocab-import-button" type="button">导入 CSV / TSV</button>
+              <button class="primary-button" id="vocab-add-button" type="button">+ 新增生词</button>
+              <input id="vocab-import-file" type="file" accept=".csv,.tsv,.txt,text/csv,text/tab-separated-values" hidden>
+            </div>
+          </header>
+          <div class="me-toolbar">
+            <input id="vocab-search" type="search" placeholder="搜索词语、读音、释义或标签" aria-label="搜索生词">
+            <select id="vocab-status" aria-label="复习状态">
+              <option value="">全部状态</option><option value="due">今天待复习</option><option value="mastered">已成熟</option><option value="suspended">已暂停</option>
+            </select>
+          </div>
+          <div class="me-list" id="vocab-list"></div>
+        </section>
+
+        <section class="me-panel" id="panel-notes" role="tabpanel" data-panel="notes" hidden>
+          <header class="me-panel-head">
+            <div><p>NOTES</p><h2>收藏笔记</h2><span>按课程归档的重点句和个人注释。</span></div>
+            <button class="secondary-button" id="notes-export-button" type="button">导出 Markdown</button>
+          </header>
+          <div class="me-toolbar">
+            <input id="notes-search" type="search" placeholder="搜索原句、笔记、课程或标签" aria-label="搜索笔记">
+            <label class="me-check"><input id="notes-starred" type="checkbox"> 只看收藏</label>
+          </div>
+          <div class="me-list" id="notes-list"></div>
+        </section>
+
+        <section class="me-panel" id="panel-analytics" role="tabpanel" data-panel="analytics" hidden>
+          <header class="me-panel-head">
+            <div><p>INSIGHTS</p><h2>学习分析</h2><span>跨全部精听课程汇总，JLPT 数据单独列示。</span></div>
+            <button class="primary-button" id="punch-button" type="button">🔥 今日打卡</button>
+          </header>
+          <div class="analytics-cards" id="analytics-cards"></div>
+          <section class="me-subsection">
+            <h3>近 30 天学习趋势</h3>
+            <div class="me-trend" id="analytics-trend"></div>
+          </section>
+          <section class="me-subsection">
+            <div class="me-subsection-head"><h3>最近学习记录</h3><button type="button" id="logs-export-button">导出 CSV</button></div>
+            <div class="me-list compact" id="study-logs-list"></div>
+          </section>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <dialog class="me-editor" id="vocab-editor" aria-labelledby="vocab-editor-title">
+    <form method="dialog" id="vocab-form">
+      <header><div><p>VOCABULARY</p><h2 id="vocab-editor-title">新增生词</h2></div><button value="cancel" aria-label="关闭">×</button></header>
+      <input id="vocab-edit-id" type="hidden">
+      <label>词语<input id="vocab-term" required maxlength="200"></label>
+      <label>读音<input id="vocab-reading" maxlength="200"></label>
+      <label>释义<textarea id="vocab-meaning" rows="3" maxlength="2000"></textarea></label>
+      <div class="me-form-row"><label>等级<select id="vocab-level"><option value="">未分类</option><option>N1</option><option>N2</option><option>N3</option><option>N4</option><option>N5</option></select></label><label>标签<input id="vocab-tags" placeholder="逗号分隔"></label></div>
+      <label>备注<textarea id="vocab-note" rows="2" maxlength="2000"></textarea></label>
+      <footer><button class="quiet-button" value="cancel">取消</button><button class="primary-button" id="vocab-save" value="default">保存</button></footer>
+    </form>
+  </dialog>
+
+  <dialog class="me-editor" id="note-editor" aria-labelledby="note-editor-title">
+    <form method="dialog" id="note-form">
+      <header><div><p>NOTE</p><h2 id="note-editor-title">编辑笔记</h2></div><button value="cancel" aria-label="关闭">×</button></header>
+      <input id="note-course-id" type="hidden"><input id="note-sentence-id" type="hidden">
+      <p class="note-source-preview" id="note-source-preview"></p>
+      <label>笔记<textarea id="note-text" rows="5" maxlength="4000"></textarea></label>
+      <label>标签<input id="note-tag" maxlength="100"></label>
+      <label class="me-check"><input id="note-starred" type="checkbox"> 收藏这条笔记</label>
+      <footer><button class="quiet-button" value="cancel">取消</button><button class="primary-button" id="note-save" value="default">保存</button></footer>
+    </form>
+  </dialog>
+
+  <div class="toast" id="me-toast" role="status" hidden></div>
+
+  <script src="./learning_data.js" defer></script>
+  <script src="./learning_store.js" defer></script>
+  <script src="./learning_cards.js" defer></script>
+  <script src="./srs_scheduler.js" defer></script>
+  <script src="./personal_data_tools.js" defer></script>
+  <script src="./personal.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+{
+  "sourceBundle": "course.zip",
+  "courseId": "c_48da69bd59ab8727a2514601",
+  "contentRevision": "7106fbe62a77b5d974869a566db26e0ff17b407235c516c91e741fec2684386a",
+  "quality": {
+    "sentences": 507,
+    "errors": 0,
+    "warnings": 3,
+    "issueCounts": {
+      "sentence.very_long": 1,
+      "sentence.very_short": 2
+    }
+  },
+  "asr": {
+    "kind": "faster-whisper",
+    "profile": "japanese-accurate",
+    "model": "large-v3",
+    "device": "cuda",
+    "computeType": "float16",
+    "language": "ja",
+    "beamSize": 10,
+    "vadFilter": true,
+    "wordTimestamps": true,
+    "minDuration": 0.2,
+    "conditionOnPreviousText": false,
+    "noSpeechThreshold": 0.6,
+    "logProbThreshold": -1.0,
+    "compressionRatioThreshold": 2.4,
+    "hallucinationSilenceThreshold": 2.0,
+    "repetitionPenalty": 1.0,
+    "noRepeatNgramSize": 0,
+    "maxSegmentSeconds": 15.0,
+    "vadOptions": {
+      "min_speech_duration_ms": 350,
+      "max_speech_duration_s": 20.0,
+      "min_silence_duration_ms": 500,
+      "speech_pad_ms": 200
+    }
+  },
+  "enrichment": {
+    "enabled": true,
+    "provider": {
+      "kind": "manual",
+      "profile": "inline",
+      "batchSize": 25,
+      "temperature": 0.2,
+      "maxTokens": 16000,
+      "handoffDir": "C:\\Users\\cribug\\OneDrive\\Desktop\\dictation\\n1-jingting-work\\2015-12-N1\\handoff"
+    },
+    "models": [
+      "manual"
+    ],
+    "translations": 507,
+    "explanations": 507,
+    "generatedBatches": 21,
+    "reusedBatches": 0,
+    "usage": {
+      "promptTokens": 0,
+      "completionTokens": 0,
+      "totalTokens": 0
+    },
+    "stub": false,
+    "normalized": false
+  }
+}

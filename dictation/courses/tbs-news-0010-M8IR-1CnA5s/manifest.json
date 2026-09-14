@@ -1,0 +1,1956 @@
+{
+  "schemaVersion": 1,
+  "title": "“月よりグルメ”？「月見商戦」過熱の裏で卵が高騰　35年前の“安定供給”から一変…頭を悩ます生産者 【Nスタ解説】｜TBS NEWS DIG",
+  "sourceLanguage": "ja",
+  "media": {
+    "kind": "remote",
+    "provider": "youtube",
+    "control": "full",
+    "videoId": "M8IR-1CnA5s",
+    "pageUrl": "https://www.youtube.com/watch?v=M8IR-1CnA5s",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/M8IR-1CnA5s",
+    "durationSec": 602.0,
+    "uploader": "TBS NEWS DIG Powered by JNN",
+    "attribution": {
+      "sourceName": "YouTube",
+      "rightsHolder": "TBS NEWS DIG Powered by JNN",
+      "retrievedAt": "2026-09-01",
+      "redistributable": false,
+      "notes": "Timings, translations and explanations are ours; the transcript text derives from the site's captions or from local transcription. The media itself is never stored and this course is not redistributable."
+    }
+  },
+  "sentences": [
+    {
+      "startTime": 7.04,
+      "endTime": 7.963,
+      "sourceText": "まん丸に焼き上がった目玉焼きをずにオン。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "まん丸に焼き上がった目玉焼きをずにオン。",
+      "id": "s_1d5545d34cd834f8e51067f0"
+    },
+    {
+      "startTime": 7.963,
+      "endTime": 9.117,
+      "sourceText": "マクドナルドが来週から販売を始める月見バーガーです。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "マクドナルドが来週から販売を始める月見バーガーです。",
+      "id": "s_46e856bd216f35bc82933a53"
+    },
+    {
+      "startTime": 9.117,
+      "endTime": 26.989,
+      "sourceText": "シーナティとぷりの卵の組み合わせはもはや秋の風物詩。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "シーナティとぷりの卵の組み合わせはもはや秋の風物詩。",
+      "id": "s_0b121ace8504673ca6793e54"
+    },
+    {
+      "startTime": 27.679,
+      "endTime": 31.935,
+      "sourceText": "今から35年前に初めて登場したメニューなんですが、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "今から35年前に初めて登場したメニューなんですが、",
+      "id": "s_7b04401f726ff1ce871bacf6"
+    },
+    {
+      "startTime": 31.935,
+      "endTime": 32.293,
+      "sourceText": "そもそもなんでこの時期に月見バーガーなのか皆さんご存知ですか?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "そもそもなんでこの時期に月見バーガーなのか皆さんご存知ですか?",
+      "id": "s_78e4ed5d5ea4d1fe86fd26f0"
+    },
+    {
+      "startTime": 40.039,
+      "endTime": 43.059,
+      "sourceText": "月見をイメージして作られた商品ってことですか?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "月見をイメージして作られた商品ってことですか?",
+      "id": "s_2d4cf601ec088529b913e624"
+    },
+    {
+      "startTime": 43.64,
+      "endTime": 44.372,
+      "sourceText": "あ、当初はそうではなかったんですけども、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "あ、当初はそうではなかったんですけども、",
+      "id": "s_38d5b11534939e1250d39c2c"
+    },
+    {
+      "startTime": 44.372,
+      "endTime": 44.738,
+      "sourceText": "開発の当初はですね、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "開発の当初はですね、",
+      "id": "s_9eede3234b38b2d8ee2059ae"
+    },
+    {
+      "startTime": 44.738,
+      "endTime": 45.542,
+      "sourceText": "ハンバーガーに入れたい食材ランキングの上位で",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "ハンバーガーに入れたい食材ランキングの上位で",
+      "id": "s_0a50dc4626816e3c8988a9eb"
+    },
+    {
+      "startTime": 45.542,
+      "endTime": 46.567,
+      "sourceText": "あったあの卵を使ったバーガーを開発しようというところから",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "あったあの卵を使ったバーガーを開発しようというところから",
+      "id": "s_e377fc94797886ab171ef69c"
+    },
+    {
+      "startTime": 46.567,
+      "endTime": 57.095,
+      "sourceText": "スタとして当時あの卵があの安定しやすい時期ということもと関係し",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "スタとして当時あの卵があの安定しやすい時期ということもと関係し",
+      "id": "s_f10c3bd3d040c3d808e5f023"
+    },
+    {
+      "startTime": 57.095,
+      "endTime": 57.959,
+      "sourceText": "ておりましたと誕生はちょっと意外でしたが他のファーストフードチェーンでも",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "ておりましたと誕生はちょっと意外でしたが他のファーストフードチェーンでも",
+      "id": "s_1310bc72d7bf845f8ab566f1"
+    },
+    {
+      "startTime": 57.959,
+      "endTime": 58.823,
+      "sourceText": "ケンタッキーフライドチキンやゼッテリアは今日から揃って月見メニューを投入。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "ケンタッキーフライドチキンやゼッテリアは今日から揃って月見メニューを投入。",
+      "id": "s_8d06f3fe538dc274d7f1813d"
+    },
+    {
+      "startTime": 58.823,
+      "endTime": 59.525,
+      "sourceText": "さらに月見の波は他の外食業界にも押し寄せています。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "さらに月見の波は他の外食業界にも押し寄せています。",
+      "id": "s_5c0575b1ffb1f945bc533e48"
+    },
+    {
+      "startTime": 84.0,
+      "endTime": 88.75,
+      "sourceText": "秋はなかなか来ないと言われてますが、月見商戦は始まっております。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "秋はなかなか来ないと言われてますが、月見商戦は始まっております。",
+      "id": "s_8c8401acffd3ca9c9e7afec1"
+    },
+    {
+      "startTime": 88.84,
+      "endTime": 90.35,
+      "sourceText": "ハンバーガー以外にもありますよ。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "ハンバーガー以外にもありますよ。",
+      "id": "s_010a07ca6a47f3376c55611f"
+    },
+    {
+      "startTime": 90.56,
+      "endTime": 96.549,
+      "sourceText": "大阪王将では昨日から鉄壁のチキン味噌カつチャーハンですね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "大阪王将では昨日から鉄壁のチキン味噌カつチャーハンですね。",
+      "id": "s_7d5eeb7e960ce15be085f33e"
+    },
+    {
+      "startTime": 96.6,
+      "endTime": 105.92,
+      "sourceText": "味噌カつも乗ってチャーハンもあってそして目玉焼き。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "味噌カつも乗ってチャーハンもあってそして目玉焼き。",
+      "id": "s_5802e5bcb4eb857e5fc0e09d"
+    },
+    {
+      "startTime": 105.92,
+      "endTime": 107.589,
+      "sourceText": "メニューに月見は入れてないんですよね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "メニューに月見は入れてないんですよね。",
+      "id": "s_fc60e0a055a6c270ede60d43"
+    },
+    {
+      "startTime": 107.799,
+      "endTime": 108.75,
+      "sourceText": "確かにそうですね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "確かにそうですね。",
+      "id": "s_7a2fa30dd5b0cfce6e31add4"
+    },
+    {
+      "startTime": 108.96,
+      "endTime": 110.15,
+      "sourceText": "名前は入ですね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "名前は入ですね。",
+      "id": "s_0330f639bbe08001795c6622"
+    },
+    {
+      "startTime": 112.52,
+      "endTime": 115.713,
+      "sourceText": "からビアードパでは来月1日から月身州です。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "からビアードパでは来月1日から月身州です。",
+      "id": "s_dd97de0bfe56ce77235e571b"
+    },
+    {
+      "startTime": 115.713,
+      "endTime": 115.813,
+      "sourceText": "この月身に見立ててる部分はカスタードで白い部分はお餅で",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "この月身に見立ててる部分はカスタードで白い部分はお餅で",
+      "id": "s_63790155755f3aba77b16b30"
+    },
+    {
+      "startTime": 115.813,
+      "endTime": 115.927,
+      "sourceText": "サクサク食感ともちもちろっとがねわえるということなんですよね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "サクサク食感ともちもちろっとがねわえるということなんですよね。",
+      "id": "s_326497d6d0d0b9e1ee15d33c"
+    },
+    {
+      "startTime": 115.927,
+      "endTime": 116.277,
+      "sourceText": "去年誕生して完売して非常に人気だったということなんです。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "去年誕生して完売して非常に人気だったということなんです。",
+      "id": "s_8364c2d5a75834ed2bea6360"
+    },
+    {
+      "startTime": 130.84,
+      "endTime": 132.616,
+      "sourceText": "さあこの月見にお馴染みのファミレスも初めて参入しています。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "さあこの月見にお馴染みのファミレスも初めて参入しています。",
+      "id": "s_662b4f43263d0e871e1f27eb"
+    },
+    {
+      "startTime": 132.616,
+      "endTime": 138.23,
+      "sourceText": "そして食べるだけじゃないおつみの楽しみ方3個まで見ていきましょう。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "そして食べるだけじゃないおつみの楽しみ方3個まで見ていきましょう。",
+      "id": "s_d1d01e343670947dcf84194b"
+    },
+    {
+      "startTime": 148.519,
+      "endTime": 154.541,
+      "sourceText": "3こちらのメニューもね、すごくボリュームがあるんですが、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "3こちらのメニューもね、すごくボリュームがあるんですが、",
+      "id": "s_97a48077f9790dfdc57ff739"
+    },
+    {
+      "startTime": 154.541,
+      "endTime": 156.217,
+      "sourceText": "竹が入ってるんで、黒い麺、それから肉味そでガーリックライス。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "竹が入ってるんで、黒い麺、それから肉味そでガーリックライス。",
+      "id": "s_f42e5079222ddae9faf0d995"
+    },
+    {
+      "startTime": 162.44,
+      "endTime": 164.381,
+      "sourceText": "そこに卵ランが乗っているということで、非常にボリュームがあります。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "そこに卵ランが乗っているということで、非常にボリュームがあります。",
+      "id": "s_401fd525a4d9c0fc1ea3b816"
+    },
+    {
+      "startTime": 164.381,
+      "endTime": 165.531,
+      "sourceText": "それからデザート系もあるんですよね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "それからデザート系もあるんですよね。",
+      "id": "s_559f5146f7c0740012b07515"
+    },
+    {
+      "startTime": 169.599,
+      "endTime": 171.099,
+      "sourceText": "オレンジのショートケーキでこの身に見立ててるのが",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "オレンジのショートケーキでこの身に見立ててるのが",
+      "id": "s_7fc9cfc9d2004fcb848902cf"
+    },
+    {
+      "startTime": 171.099,
+      "endTime": 172.686,
+      "sourceText": "マンゴーソースウさギの耳もあって可愛いですよね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "マンゴーソースウさギの耳もあって可愛いですよね。",
+      "id": "s_e96986dca4492b3d875ef3fd"
+    },
+    {
+      "startTime": 178.159,
+      "endTime": 179.786,
+      "sourceText": "うん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "うん。",
+      "id": "s_c88f049f4af9d8d00f409cb1"
+    },
+    {
+      "startTime": 179.786,
+      "endTime": 194.723,
+      "sourceText": "このデニーズ創業50SNSなどでの盛り上がりに注目し初めて開催したとファミレスなら",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "このデニーズ創業50SNSなどでの盛り上がりに注目し初めて開催したとファミレスなら",
+      "id": "s_5d7571842d019390ea29e94f"
+    },
+    {
+      "startTime": 194.723,
+      "endTime": 195.073,
+      "sourceText": "ではのいろんなメニューがありますからね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "ではのいろんなメニューがありますからね。",
+      "id": "s_1d882f1d336c5c21a7cfb19b"
+    },
+    {
+      "startTime": 198.72,
+      "endTime": 200.16,
+      "sourceText": "選べる満足を提案していくということなんですよね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "選べる満足を提案していくということなんですよね。",
+      "id": "s_111501902054c8aa01fdab75"
+    },
+    {
+      "startTime": 200.16,
+      "endTime": 201.6,
+      "sourceText": "なんか旬のものじゃないじゃないですか、月身って。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "なんか旬のものじゃないじゃないですか、月身って。",
+      "id": "s_947f837daa3242c7ed358066"
+    },
+    {
+      "startTime": 201.6,
+      "endTime": 210.344,
+      "sourceText": "そ、でもそれでもなんか秋が来たなって感じしますよね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "そ、でもそれでもなんか秋が来たなって感じしますよね。",
+      "id": "s_b32087f8f3ee410c34d8f78a"
+    },
+    {
+      "startTime": 210.36,
+      "endTime": 221.35,
+      "sourceText": "あと不思議なも、あの、やっぱり写真2うん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "あと不思議なも、あの、やっぱり写真2うん。",
+      "id": "s_72757754ac9a859fb97adc63"
+    },
+    {
+      "startTime": 222.56,
+      "endTime": 223.36,
+      "sourceText": "どうですか?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "どうですか?",
+      "id": "s_4bc25790ee2516ebbc7ee2aa"
+    },
+    {
+      "startTime": 223.36,
+      "endTime": 224.56,
+      "sourceText": "しま根さんはつ身?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "しま根さんはつ身?",
+      "id": "s_655a400132027112025864c9"
+    },
+    {
+      "startTime": 224.56,
+      "endTime": 225.04,
+      "sourceText": "あ、もうつい頼んじゃ。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "あ、もうつい頼んじゃ。",
+      "id": "s_9ec131ae72ccd08ce3e9a763"
+    },
+    {
+      "startTime": 225.04,
+      "endTime": 227.19,
+      "sourceText": "うん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "うん。",
+      "id": "s_910e84ba335463fdb9bbbfa0"
+    },
+    {
+      "startTime": 228.04,
+      "endTime": 229.56,
+      "sourceText": "もうなんか卵が乗ってるだけなんか特別感ありますよね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "もうなんか卵が乗ってるだけなんか特別感ありますよね。",
+      "id": "s_53df3b05270e95fca2f3517c"
+    },
+    {
+      "startTime": 229.56,
+      "endTime": 232.41,
+      "sourceText": "え、でんでしょうね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "え、でんでしょうね。",
+      "id": "s_02bd70dac1763ea07b7e1cb5"
+    },
+    {
+      "startTime": 253.48,
+      "endTime": 254.109,
+      "sourceText": "21日から販売されています。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "21日から販売されています。",
+      "id": "s_5a46244d1bfc592e50cdc10c"
+    },
+    {
+      "startTime": 257.88,
+      "endTime": 258.28,
+      "sourceText": "それだけではありません。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "それだけではありません。",
+      "id": "s_219b321b11ee2e1e9572b25b"
+    },
+    {
+      "startTime": 258.28,
+      "endTime": 261.819,
+      "sourceText": "え、見てください。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "え、見てください。",
+      "id": "s_a61c8f8a21f944cd93a4ae91"
+    },
+    {
+      "startTime": 262.0,
+      "endTime": 265.382,
+      "sourceText": "あ、お子様が着られるロンパース。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "あ、お子様が着られるロンパース。",
+      "id": "s_44fc2fee2d2fca60cd4c1aa0"
+    },
+    {
+      "startTime": 265.639,
+      "endTime": 266.728,
+      "sourceText": "子供用のロンパースなんですよね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "子供用のロンパースなんですよね。",
+      "id": "s_842430c56742a09b65256eb7"
+    },
+    {
+      "startTime": 266.728,
+      "endTime": 270.356,
+      "sourceText": "こちらも3リーコインズから出ております。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "こちらも3リーコインズから出ております。",
+      "id": "s_0ad9fc4bf166f65315439939"
+    },
+    {
+      "startTime": 270.52,
+      "endTime": 273.295,
+      "sourceText": "これ身があ、み。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "これ身があ、み。",
+      "id": "s_0cfef3396d844b65d7a0a268"
+    },
+    {
+      "startTime": 275.8,
+      "endTime": 278.08,
+      "sourceText": "尻尾もついてかいい。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "尻尾もついてかいい。",
+      "id": "s_981b15d795a777995f11fffa"
+    },
+    {
+      "startTime": 278.08,
+      "endTime": 282.937,
+      "sourceText": "だからお子様に着せてこういうオブジェと共に写真。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "だからお子様に着せてこういうオブジェと共に写真。",
+      "id": "s_04eedc1305609b296485b425"
+    },
+    {
+      "startTime": 283.12,
+      "endTime": 286.275,
+      "sourceText": "写真をああ、そっか、そっか。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "写真をああ、そっか、そっか。",
+      "id": "s_3770a84d7d84d76f7a83a8de"
+    },
+    {
+      "startTime": 286.275,
+      "endTime": 288.357,
+      "sourceText": "撮ってSNSにあげるというのもなるほど。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "撮ってSNSにあげるというのもなるほど。",
+      "id": "s_c19a43aad85dc4980f709f53"
+    },
+    {
+      "startTime": 288.479,
+      "endTime": 290.992,
+      "sourceText": "流行っているということなんです。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "流行っているということなんです。",
+      "id": "s_0134908a349817ea7912ca06"
+    },
+    {
+      "startTime": 291.0,
+      "endTime": 291.52,
+      "sourceText": "これ商線でくっていいものの中なんです。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "これ商線でくっていいものの中なんです。",
+      "id": "s_2621bb518edc31b0d79a728d"
+    },
+    {
+      "startTime": 291.52,
+      "endTime": 292.08,
+      "sourceText": "いいでしょ。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "いいでしょ。",
+      "id": "s_4c2c1e7ddd06009751b28233"
+    },
+    {
+      "startTime": 292.08,
+      "endTime": 294.007,
+      "sourceText": "あ、そうそう。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "あ、そうそう。",
+      "id": "s_dd2df0f447705aa4ee1d451b"
+    },
+    {
+      "startTime": 294.36,
+      "endTime": 294.693,
+      "sourceText": "ね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "ね。",
+      "id": "s_e666bfffc202b55d587f3caf"
+    },
+    {
+      "startTime": 294.693,
+      "endTime": 310.494,
+      "sourceText": "さあ、そして他にも中秋の名月は今年9月25京都の平安の中で行われるんですが、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "さあ、そして他にも中秋の名月は今年9月25京都の平安の中で行われるんですが、",
+      "id": "s_8043165628838f092e8e2a15"
+    },
+    {
+      "startTime": 313.36,
+      "endTime": 335.719,
+      "sourceText": "観月ディナーということで9月25それからま子さんのね、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "観月ディナーということで9月25それからま子さんのね、",
+      "id": "s_5237c3edca87001391c1ac62"
+    },
+    {
+      "startTime": 335.719,
+      "endTime": 336.126,
+      "sourceText": "舞を鑑賞したり、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "舞を鑑賞したり、",
+      "id": "s_935b1baf1634b7225d5f2dc7"
+    },
+    {
+      "startTime": 336.126,
+      "endTime": 338.259,
+      "sourceText": "一緒に写真を撮ったりということで色々な特別な体験ができるということなんですよね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "一緒に写真を撮ったりということで色々な特別な体験ができるということなんですよね。",
+      "id": "s_c057f8607c31b519a0d683e6"
+    },
+    {
+      "startTime": 345.88,
+      "endTime": 347.012,
+      "sourceText": "さあ、そしてこういった秋の定番であるね、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "さあ、そしてこういった秋の定番であるね、",
+      "id": "s_7e970fc89e133ce63965a7c0"
+    },
+    {
+      "startTime": 347.012,
+      "endTime": 348.484,
+      "sourceText": "月يم見なんですが、いつから始まったかと言いますと、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "月يم見なんですが、いつから始まったかと言いますと、",
+      "id": "s_feed96fe3a5859a1e45e775f"
+    },
+    {
+      "startTime": 348.484,
+      "endTime": 366.642,
+      "sourceText": "マクドナルドが1991年ですから35うん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "マクドナルドが1991年ですから35うん。",
+      "id": "s_6032b01e2d2f9c03d209dea4"
+    },
+    {
+      "startTime": 368.599,
+      "endTime": 370.002,
+      "sourceText": "うん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "うん。",
+      "id": "s_262429965e74120b4f8c21a2"
+    },
+    {
+      "startTime": 370.479,
+      "endTime": 371.05,
+      "sourceText": "うーん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "うーん。",
+      "id": "s_10c1cbe0d1eb4d25284197bf"
+    },
+    {
+      "startTime": 371.05,
+      "endTime": 380.089,
+      "sourceText": "さっきのVTRそれも流れてました。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "さっきのVTRそれも流れてました。",
+      "id": "s_74aaca7244384f04ff6712f9"
+    },
+    {
+      "startTime": 380.119,
+      "endTime": 381.169,
+      "sourceText": "映像に流れ。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "映像に流れ。",
+      "id": "s_7aa0d6bed5f45c579451abc2"
+    },
+    {
+      "startTime": 381.199,
+      "endTime": 381.639,
+      "sourceText": "VTRで流れてました。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "VTRで流れてました。",
+      "id": "s_105ebc3e218a344d273fedb9"
+    },
+    {
+      "startTime": 381.639,
+      "endTime": 386.44,
+      "sourceText": "流れてごさん連携が取れてないす。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "流れてごさん連携が取れてないす。",
+      "id": "s_1da36cf03b9f474f82d3b08c"
+    },
+    {
+      "startTime": 386.44,
+      "endTime": 388.75,
+      "sourceText": "はい。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "はい。",
+      "id": "s_f302fad4e337f69bc370eed7"
+    },
+    {
+      "startTime": 390.039,
+      "endTime": 392.566,
+      "sourceText": "確かに確か確にそう。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "確かに確か確にそう。",
+      "id": "s_b7b1a4c2bdad54205c22ee59"
+    },
+    {
+      "startTime": 392.68,
+      "endTime": 394.522,
+      "sourceText": "確かにそうですよね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "確かにそうですよね。",
+      "id": "s_bb33109506b71b5c2b9f6419"
+    },
+    {
+      "startTime": 394.56,
+      "endTime": 397.23,
+      "sourceText": "誕生の背景見ていきますとうん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "誕生の背景見ていきますとうん。",
+      "id": "s_0ede392f7242d98decd1f1e8"
+    },
+    {
+      "startTime": 400.319,
+      "endTime": 401.196,
+      "sourceText": "卵が人気だったということなんですよね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "卵が人気だったということなんですよね。",
+      "id": "s_36b735987bc2e83eb6ee500a"
+    },
+    {
+      "startTime": 401.196,
+      "endTime": 402.304,
+      "sourceText": "で、ハンバーあ、マクドナルドの規模になりますと、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "で、ハンバーあ、マクドナルドの規模になりますと、",
+      "id": "s_fb191305327c75788eea46ea"
+    },
+    {
+      "startTime": 402.304,
+      "endTime": 415.353,
+      "sourceText": "やはり安定的にこう卵仕入れが重要になってくるということでうん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "やはり安定的にこう卵仕入れが重要になってくるということでうん。",
+      "id": "s_8259b11a7c8b82a9d2d4c3aa"
+    },
+    {
+      "startTime": 416.8,
+      "endTime": 433.857,
+      "sourceText": "卵の安定供給その時は秋だったということで、じゃ、その35うん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "卵の安定供給その時は秋だったということで、じゃ、その35うん。",
+      "id": "s_0f86fd93391b294e50595feb"
+    },
+    {
+      "startTime": 435.8,
+      "endTime": 436.4,
+      "sourceText": "じゃないんだ。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "じゃないんだ。",
+      "id": "s_d964e3f7dec029b0555b3432"
+    },
+    {
+      "startTime": 436.4,
+      "endTime": 438.864,
+      "sourceText": "例えば安定が夏だったら夏に出てた可能性があることですね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "例えば安定が夏だったら夏に出てた可能性があることですね。",
+      "id": "s_2235e0aac351641658bddb67"
+    },
+    {
+      "startTime": 440.639,
+      "endTime": 441.952,
+      "sourceText": "そしたらどうどうし何にする?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "そしたらどうどうし何にする?",
+      "id": "s_85265fbcb0b59312a2ab361b"
+    },
+    {
+      "startTime": 441.952,
+      "endTime": 442.514,
+      "sourceText": "何バーだろ?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "何バーだろ?",
+      "id": "s_5da678b817101c1ac7e63936"
+    },
+    {
+      "startTime": 442.514,
+      "endTime": 443.17,
+      "sourceText": "太陽バーガー。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "太陽バーガー。",
+      "id": "s_e15ef07a3618f89d0e14c2bd"
+    },
+    {
+      "startTime": 443.17,
+      "endTime": 446.318,
+      "sourceText": "バーガバーさ。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "バーガバーさ。",
+      "id": "s_a37820ce7b7efa659a0ec7d0"
+    },
+    {
+      "startTime": 446.318,
+      "endTime": 447.448,
+      "sourceText": "では今の状況がね、少しずつ変化しているということなんです。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "では今の状況がね、少しずつ変化しているということなんです。",
+      "id": "s_f3ef243cdcc23cbba6479527"
+    },
+    {
+      "startTime": 447.448,
+      "endTime": 448.149,
+      "sourceText": "食欲の秋の定番となった月見メニュー。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "食欲の秋の定番となった月見メニュー。",
+      "id": "s_104b0341f550be131f420aa3"
+    },
+    {
+      "startTime": 448.149,
+      "endTime": 449.351,
+      "sourceText": "しかし主役である卵の価格はかつてない高値となっています。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "しかし主役である卵の価格はかつてない高値となっています。",
+      "id": "s_e868f5cfd12d17d4d8c9f051"
+    },
+    {
+      "startTime": 468.36,
+      "endTime": 475.189,
+      "sourceText": "10年前、1パックあたりの全国の小売価格の平均は200円台前半で推移していました。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "10年前、1パックあたりの全国の小売価格の平均は200円台前半で推移していました。",
+      "id": "s_0a2600f85bf192e4b5e375e0"
+    },
+    {
+      "startTime": 476.24,
+      "endTime": 483.51,
+      "sourceText": "しかし2022年の秋にトリインフルエンザが流行したことで300円台へと高騰。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "しかし2022年の秋にトリインフルエンザが流行したことで300円台へと高騰。",
+      "id": "s_3becc67f248f26feae2abc48"
+    },
+    {
+      "startTime": 484.52,
+      "endTime": 487.629,
+      "sourceText": "その後200円台半ばまで下がったものの",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "その後200円台半ばまで下がったものの",
+      "id": "s_b3137cceac365fbd3c6823ed"
+    },
+    {
+      "startTime": 488.199,
+      "endTime": 492.349,
+      "sourceText": "トリインフルエンザの再流行や生産コストの上昇などにより",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "トリインフルエンザの再流行や生産コストの上昇などにより",
+      "id": "s_1b14443edf8da51991baa4ea"
+    },
+    {
+      "startTime": 492.879,
+      "endTime": 509.469,
+      "sourceText": "再び値を上げ今年3月には過去最高となる茨城県にある要景所れたの卵です。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "再び値を上げ今年3月には過去最高となる茨城県にある要景所れたの卵です。",
+      "id": "s_c44d2ff3d63ed97925da0112"
+    },
+    {
+      "startTime": 509.479,
+      "endTime": 510.069,
+      "sourceText": "そうですね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "そうですね。",
+      "id": "s_0fffafe6fe55a1f1cb2fde4e"
+    },
+    {
+      "startTime": 514.24,
+      "endTime": 529.91,
+      "sourceText": "およそ201t単位で上がってくんですよね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "およそ201t単位で上がってくんですよね。",
+      "id": "s_a63dc561c1aa5e3377c2b13b"
+    },
+    {
+      "startTime": 531.04,
+      "endTime": 531.59,
+      "sourceText": "なんか1000円、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "なんか1000円、",
+      "id": "s_f46dbfda14b5f15adb101c9b"
+    },
+    {
+      "startTime": 531.76,
+      "endTime": 539.772,
+      "sourceText": "1t000円ありますみたいな感じで1ヶ月で600tそれだけでもね、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "1t000円ありますみたいな感じで1ヶ月で600tそれだけでもね、",
+      "id": "s_df17b2069b9e44a3a330374b"
+    },
+    {
+      "startTime": 539.871,
+      "endTime": 540.221,
+      "sourceText": "月60万上がっちゃ、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "月60万上がっちゃ、",
+      "id": "s_6da539ad2f29515f70fb6a4d"
+    },
+    {
+      "startTime": 540.221,
+      "endTime": 558.059,
+      "sourceText": "1000円上が生産コストの6割を占める飼料代は2値上げも言いづらい部分はありますけども、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "1000円上が生産コストの6割を占める飼料代は2値上げも言いづらい部分はありますけども、",
+      "id": "s_a3dc43671d6ef148ad71e314"
+    },
+    {
+      "startTime": 558.059,
+      "endTime": 558.832,
+      "sourceText": "やっぱりでもここまで全てのものが上がってしまうと、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "やっぱりでもここまで全てのものが上がってしまうと、",
+      "id": "s_8c8c74bc311e03d5d12f37ed"
+    },
+    {
+      "startTime": 558.832,
+      "endTime": 559.698,
+      "sourceText": "ま、ずっと卵がやすいものっていうのがなかなか難しいので、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "ま、ずっと卵がやすいものっていうのがなかなか難しいので、",
+      "id": "s_dc2e6a46f2778f597512f796"
+    },
+    {
+      "startTime": 559.698,
+      "endTime": 560.559,
+      "sourceText": "やっぱ価格に転嫁せざるを得ない部分はありますね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "やっぱ価格に転嫁せざるを得ない部分はありますね。",
+      "id": "s_d2b0343c78167083b82e4e28"
+    },
+    {
+      "startTime": 569.92,
+      "endTime": 571.753,
+      "sourceText": "生産者の苦しみが滲み出たとも言える卵の高値。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "生産者の苦しみが滲み出たとも言える卵の高値。",
+      "id": "s_70d302769b6d375ff79e9f00"
+    },
+    {
+      "startTime": 571.753,
+      "endTime": 572.987,
+      "sourceText": "一体つまで続くのでしょうか?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "一体つまで続くのでしょうか?",
+      "id": "s_675420ac2cb11849944c92df"
+    },
+    {
+      "startTime": 579.32,
+      "endTime": 581.141,
+      "sourceText": "大幅に下がる見込みが立ってません。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "大幅に下がる見込みが立ってません。",
+      "id": "s_31987d75ae7bc866e1b04283"
+    },
+    {
+      "startTime": 581.141,
+      "endTime": 582.363,
+      "sourceText": "最大の要因は円安です。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "最大の要因は円安です。",
+      "id": "s_2de66d2023f793a49fd4eea5"
+    },
+    {
+      "startTime": 584.519,
+      "endTime": 597.68,
+      "sourceText": "特に餌は99%物価の優等生とも呼ばれた卵は今物価高のうねりに翻弄されています。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "特に餌は99%物価の優等生とも呼ばれた卵は今物価高のうねりに翻弄されています。",
+      "id": "s_a1753524e299176845570e18"
+    }
+  ],
+  "buildMetadata": {
+    "transcriptSource": "site-subtitles",
+    "retrievedAt": "2026-09-01",
+    "mediaProbe": {
+      "title": "“月よりグルメ”？「月見商戦」過熱の裏で卵が高騰　35年前の“安定供給”から一変…頭を悩ます生産者 【Nスタ解説】｜TBS NEWS DIG",
+      "uploader": "TBS NEWS DIG Powered by JNN",
+      "durationSec": 602.0,
+      "extractor": "Youtube",
+      "subtitles": [
+        {
+          "language": "aa",
+          "kind": "auto"
+        },
+        {
+          "language": "ab",
+          "kind": "auto"
+        },
+        {
+          "language": "af",
+          "kind": "auto"
+        },
+        {
+          "language": "ak",
+          "kind": "auto"
+        },
+        {
+          "language": "am",
+          "kind": "auto"
+        },
+        {
+          "language": "ar",
+          "kind": "auto"
+        },
+        {
+          "language": "as",
+          "kind": "auto"
+        },
+        {
+          "language": "ay",
+          "kind": "auto"
+        },
+        {
+          "language": "az",
+          "kind": "auto"
+        },
+        {
+          "language": "ba",
+          "kind": "auto"
+        },
+        {
+          "language": "be",
+          "kind": "auto"
+        },
+        {
+          "language": "bg",
+          "kind": "auto"
+        },
+        {
+          "language": "bho",
+          "kind": "auto"
+        },
+        {
+          "language": "bn",
+          "kind": "auto"
+        },
+        {
+          "language": "bo",
+          "kind": "auto"
+        },
+        {
+          "language": "br",
+          "kind": "auto"
+        },
+        {
+          "language": "bs",
+          "kind": "auto"
+        },
+        {
+          "language": "ca",
+          "kind": "auto"
+        },
+        {
+          "language": "ceb",
+          "kind": "auto"
+        },
+        {
+          "language": "co",
+          "kind": "auto"
+        },
+        {
+          "language": "crs",
+          "kind": "auto"
+        },
+        {
+          "language": "cs",
+          "kind": "auto"
+        },
+        {
+          "language": "cy",
+          "kind": "auto"
+        },
+        {
+          "language": "da",
+          "kind": "auto"
+        },
+        {
+          "language": "de",
+          "kind": "auto"
+        },
+        {
+          "language": "dv",
+          "kind": "auto"
+        },
+        {
+          "language": "dz",
+          "kind": "auto"
+        },
+        {
+          "language": "ee",
+          "kind": "auto"
+        },
+        {
+          "language": "el",
+          "kind": "auto"
+        },
+        {
+          "language": "en",
+          "kind": "auto"
+        },
+        {
+          "language": "eo",
+          "kind": "auto"
+        },
+        {
+          "language": "es",
+          "kind": "auto"
+        },
+        {
+          "language": "et",
+          "kind": "auto"
+        },
+        {
+          "language": "eu",
+          "kind": "auto"
+        },
+        {
+          "language": "fa",
+          "kind": "auto"
+        },
+        {
+          "language": "fi",
+          "kind": "auto"
+        },
+        {
+          "language": "fil",
+          "kind": "auto"
+        },
+        {
+          "language": "fj",
+          "kind": "auto"
+        },
+        {
+          "language": "fo",
+          "kind": "auto"
+        },
+        {
+          "language": "fr",
+          "kind": "auto"
+        },
+        {
+          "language": "fy",
+          "kind": "auto"
+        },
+        {
+          "language": "ga",
+          "kind": "auto"
+        },
+        {
+          "language": "gaa",
+          "kind": "auto"
+        },
+        {
+          "language": "gd",
+          "kind": "auto"
+        },
+        {
+          "language": "gl",
+          "kind": "auto"
+        },
+        {
+          "language": "gn",
+          "kind": "auto"
+        },
+        {
+          "language": "gu",
+          "kind": "auto"
+        },
+        {
+          "language": "gv",
+          "kind": "auto"
+        },
+        {
+          "language": "ha",
+          "kind": "auto"
+        },
+        {
+          "language": "haw",
+          "kind": "auto"
+        },
+        {
+          "language": "hi",
+          "kind": "auto"
+        },
+        {
+          "language": "hmn",
+          "kind": "auto"
+        },
+        {
+          "language": "hr",
+          "kind": "auto"
+        },
+        {
+          "language": "ht",
+          "kind": "auto"
+        },
+        {
+          "language": "hu",
+          "kind": "auto"
+        },
+        {
+          "language": "hy",
+          "kind": "auto"
+        },
+        {
+          "language": "id",
+          "kind": "auto"
+        },
+        {
+          "language": "ig",
+          "kind": "auto"
+        },
+        {
+          "language": "is",
+          "kind": "auto"
+        },
+        {
+          "language": "it",
+          "kind": "auto"
+        },
+        {
+          "language": "iu",
+          "kind": "auto"
+        },
+        {
+          "language": "iw",
+          "kind": "auto"
+        },
+        {
+          "language": "ja",
+          "kind": "auto"
+        },
+        {
+          "language": "ja-orig",
+          "kind": "auto"
+        },
+        {
+          "language": "jv",
+          "kind": "auto"
+        },
+        {
+          "language": "ka",
+          "kind": "auto"
+        },
+        {
+          "language": "kha",
+          "kind": "auto"
+        },
+        {
+          "language": "kk",
+          "kind": "auto"
+        },
+        {
+          "language": "kl",
+          "kind": "auto"
+        },
+        {
+          "language": "km",
+          "kind": "auto"
+        },
+        {
+          "language": "kn",
+          "kind": "auto"
+        },
+        {
+          "language": "ko",
+          "kind": "auto"
+        },
+        {
+          "language": "kri",
+          "kind": "auto"
+        },
+        {
+          "language": "ku",
+          "kind": "auto"
+        },
+        {
+          "language": "ky",
+          "kind": "auto"
+        },
+        {
+          "language": "la",
+          "kind": "auto"
+        },
+        {
+          "language": "lb",
+          "kind": "auto"
+        },
+        {
+          "language": "lg",
+          "kind": "auto"
+        },
+        {
+          "language": "ln",
+          "kind": "auto"
+        },
+        {
+          "language": "lo",
+          "kind": "auto"
+        },
+        {
+          "language": "lt",
+          "kind": "auto"
+        },
+        {
+          "language": "lua",
+          "kind": "auto"
+        },
+        {
+          "language": "luo",
+          "kind": "auto"
+        },
+        {
+          "language": "lv",
+          "kind": "auto"
+        },
+        {
+          "language": "mfe",
+          "kind": "auto"
+        },
+        {
+          "language": "mg",
+          "kind": "auto"
+        },
+        {
+          "language": "mi",
+          "kind": "auto"
+        },
+        {
+          "language": "mk",
+          "kind": "auto"
+        },
+        {
+          "language": "ml",
+          "kind": "auto"
+        },
+        {
+          "language": "mn",
+          "kind": "auto"
+        },
+        {
+          "language": "mr",
+          "kind": "auto"
+        },
+        {
+          "language": "ms",
+          "kind": "auto"
+        },
+        {
+          "language": "mt",
+          "kind": "auto"
+        },
+        {
+          "language": "my",
+          "kind": "auto"
+        },
+        {
+          "language": "ne",
+          "kind": "auto"
+        },
+        {
+          "language": "new",
+          "kind": "auto"
+        },
+        {
+          "language": "nl",
+          "kind": "auto"
+        },
+        {
+          "language": "no",
+          "kind": "auto"
+        },
+        {
+          "language": "nso",
+          "kind": "auto"
+        },
+        {
+          "language": "ny",
+          "kind": "auto"
+        },
+        {
+          "language": "oc",
+          "kind": "auto"
+        },
+        {
+          "language": "om",
+          "kind": "auto"
+        },
+        {
+          "language": "or",
+          "kind": "auto"
+        },
+        {
+          "language": "os",
+          "kind": "auto"
+        },
+        {
+          "language": "pa",
+          "kind": "auto"
+        },
+        {
+          "language": "pam",
+          "kind": "auto"
+        },
+        {
+          "language": "pl",
+          "kind": "auto"
+        },
+        {
+          "language": "ps",
+          "kind": "auto"
+        },
+        {
+          "language": "pt",
+          "kind": "auto"
+        },
+        {
+          "language": "pt-PT",
+          "kind": "auto"
+        },
+        {
+          "language": "qu",
+          "kind": "auto"
+        },
+        {
+          "language": "rn",
+          "kind": "auto"
+        },
+        {
+          "language": "ro",
+          "kind": "auto"
+        },
+        {
+          "language": "ru",
+          "kind": "auto"
+        },
+        {
+          "language": "rw",
+          "kind": "auto"
+        },
+        {
+          "language": "sa",
+          "kind": "auto"
+        },
+        {
+          "language": "sd",
+          "kind": "auto"
+        },
+        {
+          "language": "sg",
+          "kind": "auto"
+        },
+        {
+          "language": "si",
+          "kind": "auto"
+        },
+        {
+          "language": "sk",
+          "kind": "auto"
+        },
+        {
+          "language": "sl",
+          "kind": "auto"
+        },
+        {
+          "language": "sm",
+          "kind": "auto"
+        },
+        {
+          "language": "sn",
+          "kind": "auto"
+        },
+        {
+          "language": "so",
+          "kind": "auto"
+        },
+        {
+          "language": "sq",
+          "kind": "auto"
+        },
+        {
+          "language": "sr",
+          "kind": "auto"
+        },
+        {
+          "language": "ss",
+          "kind": "auto"
+        },
+        {
+          "language": "st",
+          "kind": "auto"
+        },
+        {
+          "language": "su",
+          "kind": "auto"
+        },
+        {
+          "language": "sv",
+          "kind": "auto"
+        },
+        {
+          "language": "sw",
+          "kind": "auto"
+        },
+        {
+          "language": "ta",
+          "kind": "auto"
+        },
+        {
+          "language": "te",
+          "kind": "auto"
+        },
+        {
+          "language": "tg",
+          "kind": "auto"
+        },
+        {
+          "language": "th",
+          "kind": "auto"
+        },
+        {
+          "language": "ti",
+          "kind": "auto"
+        },
+        {
+          "language": "tk",
+          "kind": "auto"
+        },
+        {
+          "language": "tn",
+          "kind": "auto"
+        },
+        {
+          "language": "to",
+          "kind": "auto"
+        },
+        {
+          "language": "tr",
+          "kind": "auto"
+        },
+        {
+          "language": "ts",
+          "kind": "auto"
+        },
+        {
+          "language": "tt",
+          "kind": "auto"
+        },
+        {
+          "language": "tum",
+          "kind": "auto"
+        },
+        {
+          "language": "ug",
+          "kind": "auto"
+        },
+        {
+          "language": "uk",
+          "kind": "auto"
+        },
+        {
+          "language": "ur",
+          "kind": "auto"
+        },
+        {
+          "language": "uz",
+          "kind": "auto"
+        },
+        {
+          "language": "ve",
+          "kind": "auto"
+        },
+        {
+          "language": "vi",
+          "kind": "auto"
+        },
+        {
+          "language": "war",
+          "kind": "auto"
+        },
+        {
+          "language": "wo",
+          "kind": "auto"
+        },
+        {
+          "language": "xh",
+          "kind": "auto"
+        },
+        {
+          "language": "yi",
+          "kind": "auto"
+        },
+        {
+          "language": "yo",
+          "kind": "auto"
+        },
+        {
+          "language": "zh-Hans",
+          "kind": "auto"
+        },
+        {
+          "language": "zh-Hant",
+          "kind": "auto"
+        },
+        {
+          "language": "zu",
+          "kind": "auto"
+        }
+      ]
+    },
+    "subtitle": {
+      "language": "ja",
+      "kind": "auto",
+      "format": "json3"
+    },
+    "segmentation": {
+      "strategy": "sentence-boundary/v1",
+      "timeResolution": "cue-interpolated",
+      "sourceCues": 113,
+      "sentences": 111,
+      "forcedCuts": 0,
+      "params": {
+        "maxChars": 45,
+        "targetChars": 24,
+        "minChars": 8,
+        "pauseHard": 0.6,
+        "pauseSoft": 0.35,
+        "tailPad": 0.15,
+        "minDuration": 0.35
+      }
+    },
+    "contentPatches": [
+      {
+        "name": "tbs-news-0010-M8IR-1CnA5s-asr-proofread-202609.json",
+        "sourceSentencesDigest": "339d02a6378daea1a8c06f350d466ccee8952c77574dcacd27fc6742bb689cce",
+        "resultSentencesDigest": "aa0d26e9a67fd986b03a92e409941ae311d9bb53fcc6cc84b32f5d1fc302dc5f",
+        "description": "tbs-news-0010-M8IR-1CnA5s：LLM 逐句校对发现的 ASR 误识别修正 18 处。只替换 sourceText，其余字段沿用既有内容。",
+        "evidence": {
+          "file": "proofread-work/tbs-news-0010-M8IR-1CnA5s/proofread.json",
+          "proposedFixes": "proofread-work/tbs-news-0010-M8IR-1CnA5s/proposed-fixes.json",
+          "notes": "proofread-work/tbs-news-0010-M8IR-1CnA5s/notes.md",
+          "reviewer": "llm-agent",
+          "audioListened": false,
+          "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+        }
+      }
+    ]
+  },
+  "language": {
+    "code": "ja",
+    "locale": "ja-JP",
+    "name": "Japanese",
+    "displayName": "日语",
+    "nativeName": "日本語"
+  },
+  "locales": {
+    "source": "ja-JP",
+    "translation": "zh-Hans-CN",
+    "interface": "zh-Hans-CN"
+  },
+  "transcriptText": "まん丸に焼き上がった目玉焼きをずにオン。マクドナルドが来週から販売を始める月見バーガーです。シーナティとぷりの卵の組み合わせはもはや秋の風物詩。今から35年前に初めて登場したメニューなんですが、そもそもなんでこの時期に月見バーガーなのか皆さんご存知ですか?月見をイメージして作られた商品ってことですか?あ、当初はそうではなかったんですけども、開発の当初はですね、ハンバーガーに入れたい食材ランキングの上位であったあの卵を使ったバーガーを開発しようというところからスタとして当時あの卵があの安定しやすい時期ということもと関係しておりましたと誕生はちょっと意外でしたが他のファーストフードチェーンでもケンタッキーフライドチキンやゼッテリアは今日から揃って月見メニューを投入。さらに月見の波は他の外食業界にも押し寄せています。秋はなかなか来ないと言われてますが、月見商戦は始まっております。ハンバーガー以外にもありますよ。大阪王将では昨日から鉄壁のチキン味噌カつチャーハンですね。味噌カつも乗ってチャーハンもあってそして目玉焼き。メニューに月見は入れてないんですよね。確かにそうですね。名前は入ですね。からビアードパでは来月1日から月身州です。この月身に見立ててる部分はカスタードで白い部分はお餅でサクサク食感ともちもちろっとがねわえるということなんですよね。去年誕生して完売して非常に人気だったということなんです。さあこの月見にお馴染みのファミレスも初めて参入しています。そして食べるだけじゃないおつみの楽しみ方3個まで見ていきましょう。3こちらのメニューもね、すごくボリュームがあるんですが、竹が入ってるんで、黒い麺、それから肉味そでガーリックライス。そこに卵ランが乗っているということで、非常にボリュームがあります。それからデザート系もあるんですよね。オレンジのショートケーキでこの身に見立ててるのがマンゴーソースウさギの耳もあって可愛いですよね。うん。このデニーズ創業50SNSなどでの盛り上がりに注目し初めて開催したとファミレスならではのいろんなメニューがありますからね。選べる満足を提案していくということなんですよね。なんか旬のものじゃないじゃないですか、月身って。そ、でもそれでもなんか秋が来たなって感じしますよね。あと不思議なも、あの、やっぱり写真2うん。どうですか?しま根さんはつ身?あ、もうつい頼んじゃ。うん。もうなんか卵が乗ってるだけなんか特別感ありますよね。え、でんでしょうね。21日から販売されています。それだけではありません。え、見てください。あ、お子様が着られるロンパース。子供用のロンパースなんですよね。こちらも3リーコインズから出ております。これ身があ、み。尻尾もついてかいい。だからお子様に着せてこういうオブジェと共に写真。写真をああ、そっか、そっか。撮ってSNSにあげるというのもなるほど。流行っているということなんです。これ商線でくっていいものの中なんです。いいでしょ。あ、そうそう。ね。さあ、そして他にも中秋の名月は今年9月25京都の平安の中で行われるんですが、観月ディナーということで9月25それからま子さんのね、舞を鑑賞したり、一緒に写真を撮ったりということで色々な特別な体験ができるということなんですよね。さあ、そしてこういった秋の定番であるね、月يم見なんですが、いつから始まったかと言いますと、マクドナルドが1991年ですから35うん。うん。うーん。さっきのVTRそれも流れてました。映像に流れ。VTRで流れてました。流れてごさん連携が取れてないす。はい。確かに確か確にそう。確かにそうですよね。誕生の背景見ていきますとうん。卵が人気だったということなんですよね。で、ハンバーあ、マクドナルドの規模になりますと、やはり安定的にこう卵仕入れが重要になってくるということでうん。卵の安定供給その時は秋だったということで、じゃ、その35うん。じゃないんだ。例えば安定が夏だったら夏に出てた可能性があることですね。そしたらどうどうし何にする?何バーだろ?太陽バーガー。バーガバーさ。では今の状況がね、少しずつ変化しているということなんです。食欲の秋の定番となった月見メニュー。しかし主役である卵の価格はかつてない高値となっています。10年前、1パックあたりの全国の小売価格の平均は200円台前半で推移していました。しかし2022年の秋にトリインフルエンザが流行したことで300円台へと高騰。その後200円台半ばまで下がったもののトリインフルエンザの再流行や生産コストの上昇などにより再び値を上げ今年3月には過去最高となる茨城県にある要景所れたの卵です。そうですね。およそ201t単位で上がってくんですよね。なんか1000円、1t000円ありますみたいな感じで1ヶ月で600tそれだけでもね、月60万上がっちゃ、1000円上が生産コストの6割を占める飼料代は2値上げも言いづらい部分はありますけども、やっぱりでもここまで全てのものが上がってしまうと、ま、ずっと卵がやすいものっていうのがなかなか難しいので、やっぱ価格に転嫁せざるを得ない部分はありますね。生産者の苦しみが滲み出たとも言える卵の高値。一体つまで続くのでしょうか?大幅に下がる見込みが立ってません。最大の要因は円安です。特に餌は99%物価の優等生とも呼ばれた卵は今物価高のうねりに翻弄されています。",
+  "courseId": "c_74be0ad81dfe787a252d36aa",
+  "contentModelVersion": 1,
+  "practiceSentenceCount": 96,
+  "contentRevision": "cf7d7b3cad0d019f4385cde840dba3b3482fb148b0f914f05e9ee48b109e7032",
+  "review": {
+    "humanListening": "pending",
+    "commercialRights": "unverified",
+    "browserAcceptance": "pending"
+  },
+  "quality": {
+    "status": "needs_review",
+    "sentences": 111,
+    "errors": 0,
+    "warnings": 255,
+    "issueCounts": {
+      "sentence.explanation_missing": 111,
+      "sentence.rate_implausible": 28,
+      "sentence.translation_missing": 111,
+      "sentence.very_short": 5
+    }
+  }
+}

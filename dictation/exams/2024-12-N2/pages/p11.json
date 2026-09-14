@@ -1,0 +1,74 @@
+{
+  "page": 11,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 8,
+      "text": "問題8　次の文の ★に入る最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 8,
+      "text": "(問題例)\nあそこで ____ ★ ____ は山田さんです。\n1 テレビ\n2 見ている\n3 を\n4 人\n(解答のしかた)"
+    },
+    {
+      "kind": "question",
+      "partNumber": 8,
+      "text": "正しい文はこうです。> あそこで ____ ★ ____ は山田さんです。> 1 テレビ> 3 を> 2 見ている> 4 人",
+      "questionNumber": 1,
+      "choices": [
+        "★に入る番号を解答用紙にマークします。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 8,
+      "text": "> (解答用紙)\n> (例) 1 ● 3 4"
+    },
+    {
+      "kind": "question",
+      "partNumber": 8,
+      "text": "長く使っている電子レンジが壊れてしまった。古いものだし、修理に ____ ★ ____ 買い替えたほうがいいかもしれない。",
+      "questionNumber": 43,
+      "choices": [
+        "もう",
+        "考えると",
+        "かかる",
+        "費用を"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 8,
+      "text": "娘「今度のスピーチコンテスト、参加しようかなあ。でも、自信ないなあ。」母「チャレンジ ____ ★ ____ いい経験になると思うよ。」",
+      "questionNumber": 44,
+      "choices": [
+        "だけ",
+        "みたら",
+        "する",
+        "して"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 8,
+      "text": "このドレスを替ると、 ____ ★ ____ 気分になる。",
+      "questionNumber": 45,
+      "choices": [
+        "映画か何かに",
+        "なったような",
+        "出てくる",
+        "お姫様にも"
+      ]
+    }
+  ],
+  "pageLabel": "10",
+  "issues": [
+    "Choice-looking line with no question open: '1 テレビ'",
+    "Choice-looking line with no question open: '2 見ている'",
+    "Choice-looking line with no question open: '3 を'",
+    "Choice-looking line with no question open: '4 人'",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 1 choices transcribed, expected 4. Check the page image."
+  ]
+}

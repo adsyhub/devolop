@@ -1,0 +1,226 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "それは<u>愚かな</u>行動だった。",
+      "choices": [
+        "したたか",
+        "ひそか",
+        "すみやか",
+        "おろか"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "相手チームの<u>巧妙な</u>作戦に引っかかってしまった。",
+      "choices": [
+        "こうしょう",
+        "こうみょう",
+        "きみょう",
+        "きしょう"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "町の公園は人々の<u>憩い</u>の場として親しまれている。",
+      "choices": [
+        "うるおい",
+        "つどい",
+        "にぎわい",
+        "いこい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "この製品は<u>需要</u>が高く、生産が追いつかない。",
+      "choices": [
+        "しゅよう",
+        "じゅうよう",
+        "じゅよう",
+        "しゅうよう"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "道路の拡張工事によって、渋滞が<u>緩和</u>された。",
+      "choices": [
+        "たんわ",
+        "がんわ",
+        "かんわ",
+        "だんわ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "工場の<u>跡地</u>が公園になった。",
+      "choices": [
+        "あとち",
+        "あとじ",
+        "せきち",
+        "せきじ"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "コピー代は、後で払うので、とりあえず（　　）おいてもらえませんか。",
+      "choices": [
+        "積み立てて",
+        "引き落として",
+        "立て替えて",
+        "差し引いて"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "この問題の最終的な対応は、社長に（　　）することに決まった。",
+      "choices": [
+        "依存",
+        "一任",
+        "従属",
+        "委託"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "疲れると、甘いものがなぜか（　　）食べたくなる。",
+      "choices": [
+        "ひたむきに",
+        "むしょうに",
+        "かたくなに",
+        "いちずに"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "彼が自分の意見を（　　）主張したせいで、話し合いがちっとも進まなかった。",
+      "choices": [
+        "強硬に",
+        "果敢に",
+        "無謀に",
+        "堅実に"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "こんな大事な取り引きは、入社2年目の社員には（　　）が重いだろう。",
+      "choices": [
+        "頭",
+        "肩",
+        "荷",
+        "職"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "お気に（　　）ことを申し上げてしまったようで、申し訳ありません。",
+      "choices": [
+        "障る",
+        "及ぶ",
+        "絡む",
+        "逆らう"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "この数日ずっと雨で、窓も開けられないので、部屋が（　　）して気持ち悪い。",
+      "choices": [
+        "からっと",
+        "しっとり",
+        "じめじめ",
+        "がさがさ"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "山田氏は著書で、<u>従来の</u>経営戦略について意見を述べている。",
+      "choices": [
+        "長期的な",
+        "これまでの",
+        "これからの",
+        "短期的な"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "会議の資料は<u>あらかじめ</u>お送りします。",
+      "choices": [
+        "早急に",
+        "まとめて",
+        "改めて",
+        "事前に"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "彼は高校時代、数学の成績が<u>抜群だった</u>。",
+      "choices": [
+        "ほかと比べて特に下がった",
+        "ほかと比べて特に悪かった",
+        "ほかと比べて特に上がった",
+        "ほかと比べて特に良かった"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "A社の<u>バックアップ</u>を受けて、新しい事業を始めた。",
+      "choices": [
+        "影響",
+        "支援",
+        "依頼",
+        "指示"
+      ]
+    }
+  ]
+}

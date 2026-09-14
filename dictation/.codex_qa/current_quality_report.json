@@ -1,0 +1,896 @@
+{
+  "schemaVersion": 1,
+  "status": "failed",
+  "summary": {
+    "sentences": 629,
+    "errors": 90,
+    "warnings": 56,
+    "issueCounts": {
+      "sentence.enrichment_corrupt": 90,
+      "sentence.marker_run_suspicious": 1,
+      "sentence.overlap": 2,
+      "sentence.transcript_review_flag": 26,
+      "sentence.translation_missing": 21,
+      "sentence.very_long": 1,
+      "sentence.very_short": 5
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 28
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 128
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 174
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 180
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 181
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 182
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 183
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 184
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 185
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 186
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 187
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 188
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 189
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 190
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: explanationText.",
+      "sentenceIndex": 191
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 192
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 193
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 194
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 194
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.overlap",
+      "message": "Segment overlaps the previous segment by 0.140s.",
+      "sentenceIndex": 195
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 195
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 196
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 197
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 198
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 199
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 200
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 201
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 202
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 203
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 204
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 205
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 206
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 207
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 208
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 209
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: explanationText.",
+      "sentenceIndex": 210
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 211
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 212
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 213
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 214
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 215
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 216
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 217
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 218
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 219
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 220
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 221
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 222
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 223
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 224
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 225
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 226
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 227
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 228
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 229
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 230
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 231
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 232
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 233
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 234
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 234
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: explanationText.",
+      "sentenceIndex": 235
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 236
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 237
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 238
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 239
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 240
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 241
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 242
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 243
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 244
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: explanationText.",
+      "sentenceIndex": 245
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 246
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 247
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 248
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 249
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 250
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 251
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 252
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 253
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 254
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 255
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: explanationText.",
+      "sentenceIndex": 256
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 257
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: explanationText.",
+      "sentenceIndex": 258
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 259
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: explanationText.",
+      "sentenceIndex": 260
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 261
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: explanationText.",
+      "sentenceIndex": 262
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 263
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: explanationText.",
+      "sentenceIndex": 264
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: explanationText.",
+      "sentenceIndex": 265
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 266
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 267
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 268
+    },
+    {
+      "severity": "error",
+      "code": "sentence.enrichment_corrupt",
+      "message": "Enrichment appears corrupted: zhTranslation, explanationText.",
+      "sentenceIndex": 269
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 288
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 288
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 289
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 289
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 291
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 291
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 292
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 292
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 293
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 293
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 296
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 296
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 297
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 297
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 298
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 298
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 299
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 299
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 300
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 300
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 301
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 301
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 303
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 303
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 304
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 304
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 306
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 306
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 307
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 307
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 308
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 308
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 309
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 309
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 310
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 310
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 313
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 313
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 351
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 361
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 378
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 378
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 379
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 379
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 379
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.overlap",
+      "message": "Segment overlaps the previous segment by 0.180s.",
+      "sentenceIndex": 380
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 412
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.marker_run_suspicious",
+      "message": "Eight consecutive marker-only segments suggest ASR hallucination or bad segmentation.",
+      "sentenceIndex": 475
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 592
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 597
+    }
+  ]
+}

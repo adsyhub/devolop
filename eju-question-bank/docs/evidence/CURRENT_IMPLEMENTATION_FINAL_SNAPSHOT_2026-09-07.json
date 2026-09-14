@@ -1,0 +1,175 @@
+{
+  "snapshotAt": "2026-09-07T23:58:08.427693+00:00",
+  "snapshotPath": "/tmp/eju-acceptance-snapshot-tfdd9_0s",
+  "fileSha256": {
+    "eju_bank/answers.py": "a1a0a5694582d81894179249961b1b639ee1d69b16ad8deb904b9bb46e4bc3dd",
+    "eju_bank/assemble.py": "cb181831d9aa0346294a3479b1b147d496694d99887c273a58ecf54b7da0822f",
+    "eju_bank/audit.py": "f377d857fbd2eaa516d039bda5f4ba05d0982cf410d863683b0c29f195a4bf76",
+    "eju_bank/cli.py": "869c98257a6d6f8042bf9ea463bb049575ad41b52b39a0ed0b9fa361afc9c160",
+    "eju_bank/constants.py": "11bc60c14e042efa20c8ad85a47593df33ec2ec8b95d931b2acc1c35607ef18e",
+    "eju_bank/db.py": "e9c54f7fcb9db43e4af34cf4a5d7c32044b84852c582a4771be2dde9cb2a889e",
+    "eju_bank/errors.py": "73f89cf281c2ccdd322bd57299484cb544e80a3f2527e258adca9df27acc1d2e",
+    "eju_bank/grading.py": "40051eca71954d951a52c5978e498a4e44ca501705abb8b1804dd66f19be92cf",
+    "eju_bank/page_contract.py": "6d28d7fb576864528eb44428c3fba80c2d84b8ca1d1eb1886dd2ec45bd17d25e",
+    "eju_bank/pdf_pipeline.py": "44acc049ff5a5a88ee76ec2afff75969f0a47a6b9f2c357dd061af5b486b63bb",
+    "eju_bank/prompts.py": "29613d5ed9e301e30f516f042ff7c6e206a349efa3141f9642f6780a7a5bdefe",
+    "eju_bank/publish.py": "d6b17602af6b458b31e3422b19f031e7d1cd41b6c9720ca0d85df19c97678ad8",
+    "eju_bank/selection.py": "027b812b29e497a2d2d99c66d13c452fcfe84c8ccc736d1c00544cc6c6c51f53",
+    "eju_bank/server.py": "b980be3fa56ad604dab3a2370983599c819ad499099a4e8eb4e0cf959e38554d",
+    "eju_bank/source.py": "6abf8b142ee7f5ab209ffe02768bfb2536ed2cbb85f79089ef63b70f71423d68",
+    "eju_bank/util.py": "ecf3f96d3ef864c11494186e93a2cfa3932810ffc010f1f5bc71c146eb643cd1",
+    "eju_bank/__init__.py": "ceb61a90dc93c9b89475575e26f8c4154c534ec4b7836d36cb25f2de82b1dff1",
+    "eju_bank/__main__.py": "19f07de3d1765a6803d4332ab1e67346381236f7769f47640e73849922394790",
+    "eju_bank/inventory.py": "4b719ec8c29c1c94f45d58ac769da827ea92ac4928091a673e305cda8c2fca1d",
+    "eju_bank/migrations.py": "6a2a6c293e984a15e2ceb61fe7f52701d66425f0349ea7f385133b8bcf80b5e7",
+    "eju_bank/assets.py": "85174298ba69c471b5ebb3199607391dcc1244c4c9faf37ac0cd7a5b3e53ba6a",
+    "eju_bank/audio.py": "7fe1c4fd079b50191f4f3e3333efdc521a791d76623a2da0212789afa7562dbe",
+    "eju_bank/security.py": "f248652fd9ec477c2e6f1a5458c6a719e554b64b8e9880970d253f15e7f9ff6a",
+    "eju_bank/ops.py": "55923987edfa0673d2b511ab9c8643c915ba75624fc9b6fa4af9c19509564dab",
+    "eju_bank/sessions.py": "5c53a1819f31ab3265a1baa99467748af6bfd187d7de0960bda26cfa53d36213",
+    "eju_bank/learning.py": "e332e1fa0482712be254f70dfd7100cdb761c22af5476e02ee707d7b8cfe35dd",
+    "eju_bank/review.py": "88b39ebfa6c407e7fa662c8988002766e5a4977ed7dd7931cf66e19c6871d4a1",
+    "eju_bank/schema_validation.py": "bd7343eade626795e1696bb43b39238343aa4ce77cf19b8ab8973a00b155554c",
+    "eju_bank/jobs.py": "24c81f985788b613ffccbb1945c945817086d4fc5005cde59fc0b4db5e7eac4d",
+    "eju_bank/ocr/pipeline.py": "1424761882ac332de00de71c453a5b8a8db54c16c5357d4ad1bd1ab94700f283",
+    "eju_bank/ocr/providers.py": "c96affecdf5a54298308ab3033e584ad1632760efb9b10c32e5df3a326ffa9d5",
+    "eju_bank/ocr/__init__.py": "b5fca4763d869e941f33e046e890df5d22a7774179fbff24749bc00f5adee1f1",
+    "eju_bank/web/app.js": "18bb4da11e735ef2ef75dad21bcfd45c288db8d0a4ca7b8f4b4871e1aba0e60c",
+    "eju_bank/web/index.html": "e897aedb094a4b7a8ae50dbc1886c5af42026ede16755578876b20abd9dea801",
+    "eju_bank/web/styles.css": "1c5ede53372908ddd7a1f83a0ab1af57c55cb8f26cc5dcfba7223b3e7a7de28e",
+    "eju_bank/web/learning.js": "e87d8eef1abad3dc72c2c87dca596ebaf4704e0dd1e55322d9b4ff762bfc92a8",
+    "eju_bank/web/review.js": "234d4f091a429d2a4a97786e8d9b9349856c92eff58377e0467c49d0d313718d",
+    "eju_bank/schemas/common.schema.json": "32816ac494309d809bd4459626843c94c564a19af0a77783d5cdbec7321964ca",
+    "eju_bank/schemas/content-inventory.schema.json": "17a0f07ebf1ab0bcbd1c27894de46ca7764e56c25056e50a70e3ac28d1013f98",
+    "eju_bank/schemas/page-contract.schema.json": "2171efcf3d181b56d76945900fd828f9e6503bf837c24f156e592e344f6a59a6",
+    "eju_bank/schemas/paper.schema.json": "36f1644b93d3dadb8e7b9e16b799556c7e432faa457c13dc8dc56587dcd17525",
+    "eju_bank/schemas/source-manifest.schema.json": "0a1712cf65389bd6bf79b767f473c0793117a120108c2d0acc17dd402dde1d4d",
+    "scripts/build_2023_science.py": "e90d0183af6927301e5a7b8cc6d089b937abbec36387a498348db29571729020",
+    "scripts/probe_2024_sources.py": "e72b288081f29f09c69b229a99c0f32a8503bf097f9b04cdb2886fa82e4329e9",
+    "scripts/trial_run_2023_science.py": "82efa6d17c17aaa4d169229b903755920c75f04e38fa1d1511f8c76d8b05c620",
+    "scripts/clip_all_figures_2023.py": "d684d54bba2b7e77e3cf0dd14fb3608569cf3b452234d5816c44846025377446",
+    "scripts/sync_schemas.py": "bdc1d95ba30fb1b426a5b9b8b3f1f1d3076d8d126d008b16979b5f726f503bdd",
+    "tests/conftest.py": "d52f468f6885523ab83302bdaa7fa22f8b3f8b6fe61cfbb03909dbdf699f2f8a",
+    "tests/test_answers.py": "f3a9d847de4eab75df44ce60573744acc32a72437b6e890b362a840dce0d9195",
+    "tests/test_assemble_publish.py": "dda578b6d1dd3186c71491f9a6795c3665325a6e8576a394e9b4a4ce7d9591c4",
+    "tests/test_ocr_pipeline.py": "ac0355f3713607fdc34358ed6e34516f825e15fdb2ad4de7ff8ea2fa28aef820",
+    "tests/test_page_contract.py": "c3b22d259fd2d7ef0ddb4db097771bf1a27afb8bb20a03a575405cc8bddc8ee4",
+    "tests/test_real_2023_science_pdf.py": "9508f09e82703dd279695cee7ca710454fcfbf06da40f6c82e289e425579f8ac",
+    "tests/test_selection_grading.py": "010b547ef56d820c0c194a2f47a21455511452f4b8bfaaac8ba21ad293df1555",
+    "tests/test_ops.py": "9a35c4634eb24e5439cac08ad96461c46f1ba8bea605cf3338c603337ab8c285",
+    "tests/test_assets_audio.py": "9c493facf9ff6b3557707457531cb7384ae35feb768ef2a893c7746a225bc8fb",
+    "tests/test_security.py": "2213eb56562d44500eab610071b89518525a4a800b0c778496d6d7656a60ed12",
+    "tests/test_server_v1.py": "863594e06cb9263ec9a280a340a2d4e6f4f375d580035e8e3591a495e8c09a59",
+    "tests/test_inventory_cli.py": "1add28b1a949dbf31b14dc794b03ab4785ce99b82072ed8e70fea174fd7023d8",
+    "tests/test_trial_2023_science.py": "550fb4380e4cd45f9187ead9241a675c5a84c6605c084fc3b71599acd754e612",
+    "tests/test_session_reliability.py": "14938c46dfc085c1b6ce59506960141017402eaf172e85e82cb03d1ed4271ca9",
+    "tests/test_browser_learning.py": "3f76471602df37ec66ce9a01d2f7667dfa62466f129c1188c1eee8b7c5d531fc",
+    "tests/test_backup_migrations.py": "d1e145cb7ce649efa5155e036d6a122a246d2f297617c342ee1079f20f1c02c7",
+    "tests/test_learning_collections.py": "86f991a5cb2451ec2f475f24d25a133526ebd5a46f6a21123c280e1d2922b264",
+    "tests/test_remote_boundary.py": "013dd25b7f66a9d9554dbdb255f9b16413145c3cf1b59472beb8ab93dc7ecdb9",
+    "tests/test_content_review.py": "72aeaa2798e1b93a921540b37dd40b02eaa76712571c520cd129d78346399df8",
+    "tests/test_review_browser.py": "2ce6d0dc86d088b1ed8b756dc75432402efd2b465b523c52eae40cebdeaccb52",
+    "tests/test_jobs.py": "242017d7169e3eb6f6bc33d57348ec850ad7cc7e9c902b80f80f239c565b3b5d",
+    "tests/test_content_issues.py": "7c6b0ea0e4100bb4382991514442ca1681adaaac5aaacb09f0dfb64d09228163",
+    "tests/fixtures/synthetic_all_forms.py": "6e5d44900ee94ea64fd42b97e176801b4a97171db9594d9f3617f603c0b56233",
+    "tests/fixtures/synthetic_paper.json": "66ccd55a2b00334dac17514cb4e005fdbc7d5afb6743159b2d91f4cd0693a03d",
+    "schemas/content-inventory.schema.json": "17a0f07ebf1ab0bcbd1c27894de46ca7764e56c25056e50a70e3ac28d1013f98",
+    "schemas/source-manifest.schema.json": "0a1712cf65389bd6bf79b767f473c0793117a120108c2d0acc17dd402dde1d4d",
+    "schemas/page-contract.schema.json": "2171efcf3d181b56d76945900fd828f9e6503bf837c24f156e592e344f6a59a6",
+    "schemas/paper.schema.json": "36f1644b93d3dadb8e7b9e16b799556c7e432faa457c13dc8dc56587dcd17525",
+    "schemas/common.schema.json": "32816ac494309d809bd4459626843c94c564a19af0a77783d5cdbec7321964ca"
+  },
+  "pythonSyntaxErrors": [
+    {
+      "file": "eju_bank/server.py",
+      "line": 139,
+      "message": "expected an indented block after 'except' statement on line 138"
+    },
+    {
+      "file": "eju_bank/sessions.py",
+      "line": 227,
+      "message": "expected an indented block after function definition on line 226"
+    }
+  ],
+  "checks": [
+    {
+      "command": [
+        "node",
+        "--check",
+        "eju_bank/web/app.js"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "eju_bank",
+        "--help"
+      ],
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/tmp/eju-acceptance-snapshot-tfdd9_0s/eju_bank/__main__.py\", line 1, in <module>\n    from .cli import main\n  File \"/tmp/eju-acceptance-snapshot-tfdd9_0s/eju_bank/cli.py\", line 22, in <module>\n    from .publish import publish_file\n  File \"/tmp/eju-acceptance-snapshot-tfdd9_0s/eju_bank/publish.py\", line 8, in <module>\n    from .db import Database\n  File \"/tmp/eju-acceptance-snapshot-tfdd9_0s/eju_bank/db.py\", line 24, in <module>\n    from .sessions import SessionStoreMixin\n  File \"/tmp/eju-acceptance-snapshot-tfdd9_0s/eju_bank/sessions.py\", line 227\n    def submit_session(self, session_id, *, expected_response_version=None, submission_type=None):\n    ^\nIndentationError: expected an indented block after function definition on line 226\n"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/sync_schemas.py",
+        "--check"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-o",
+        "addopts=",
+        "-q",
+        "--tb=short"
+      ],
+      "exitCode": 2,
+      "stdout": "definition on line 226\n___________________ ERROR collecting tests/test_server_v1.py ___________________\n/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule\n    mod = import_path(\n/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path\n    importlib.import_module(module_name)\n/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n<frozen importlib._bootstrap>:1204: in _gcd_import\n    ???\n<frozen importlib._bootstrap>:1176: in _find_and_load\n    ???\n<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked\n    ???\n<frozen importlib._bootstrap>:690: in _load_unlocked\n    ???\n/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module\n    exec(co, module.__dict__)\ntests/test_server_v1.py:9: in <module>\n    from eju_bank.server import create_server\nE     File \"/tmp/eju-acceptance-snapshot-tfdd9_0s/eju_bank/server.py\", line 139\nE       except KeyError:\nE       ^^^^^^\nE   IndentationError: expected an indented block after 'except' statement on line 138\n______________ ERROR collecting tests/test_session_reliability.py ______________\n/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule\n    mod = import_path(\n/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path\n    importlib.import_module(module_name)\n/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n<frozen importlib._bootstrap>:1204: in _gcd_import\n    ???\n<frozen importlib._bootstrap>:1176: in _find_and_load\n    ???\n<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked\n    ???\n<frozen importlib._bootstrap>:690: in _load_unlocked\n    ???\n/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module\n    exec(co, module.__dict__)\ntests/test_session_reliability.py:8: in <module>\n    from eju_bank.db import Database\neju_bank/db.py:24: in <module>\n    from .sessions import SessionStoreMixin\nE     File \"/tmp/eju-acceptance-snapshot-tfdd9_0s/eju_bank/sessions.py\", line 227\nE       def submit_session(self, session_id, *, expected_response_version=None, submission_type=None):\nE       ^^^\nE   IndentationError: expected an indented block after function definition on line 226\n______________ ERROR collecting tests/test_trial_2023_science.py _______________\n/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule\n    mod = import_path(\n/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path\n    importlib.import_module(module_name)\n/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n<frozen importlib._bootstrap>:1204: in _gcd_import\n    ???\n<frozen importlib._bootstrap>:1176: in _find_and_load\n    ???\n<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked\n    ???\n<frozen importlib._bootstrap>:690: in _load_unlocked\n    ???\n/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module\n    exec(co, module.__dict__)\ntests/test_trial_2023_science.py:7: in <module>\n    from eju_bank.db import Database\neju_bank/db.py:24: in <module>\n    from .sessions import SessionStoreMixin\nE     File \"/tmp/eju-acceptance-snapshot-tfdd9_0s/eju_bank/sessions.py\", line 227\nE       def submit_session(self, session_id, *, expected_response_version=None, submission_type=None):\nE       ^^^\nE   IndentationError: expected an indented block after function definition on line 226\n=========================== short test summary info ============================\nERROR tests/test_assemble_publish.py\nERROR tests/test_backup_migrations.py\nERROR tests/test_browser_learning.py\nERROR tests/test_content_issues.py\nERROR tests/test_content_review.py\nERROR tests/test_jobs.py\nERROR tests/test_learning_collections.py\nERROR tests/test_ocr_pipeline.py\nERROR tests/test_ops.py\nERROR tests/test_remote_boundary.py\nERROR tests/test_review_browser.py\nERROR tests/test_server_v1.py\nERROR tests/test_session_reliability.py\nERROR tests/test_trial_2023_science.py\n!!!!!!!!!!!!!!!!!!! Interrupted: 14 errors during collection !!!!!!!!!!!!!!!!!!!\n14 errors in 1.34s\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-o",
+        "addopts=",
+        "-q",
+        "--tb=short",
+        "tests/test_security.py",
+        "tests/test_assets_audio.py",
+        "tests/test_page_contract.py",
+        "tests/test_selection_grading.py",
+        "tests/test_answers.py",
+        "tests/test_real_2023_science_pdf.py",
+        "tests/test_inventory_cli.py",
+        "tests/test_ocr_pipeline.py"
+      ],
+      "exitCode": 2,
+      "stdout": "\n==================================== ERRORS ====================================\n_________________ ERROR collecting tests/test_ocr_pipeline.py __________________\n/opt/conda/lib/python3.11/site-packages/_pytest/python.py:508: in importtestmodule\n    mod = import_path(\n/opt/conda/lib/python3.11/site-packages/_pytest/pathlib.py:596: in import_path\n    importlib.import_module(module_name)\n/opt/conda/lib/python3.11/importlib/__init__.py:126: in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n<frozen importlib._bootstrap>:1204: in _gcd_import\n    ???\n<frozen importlib._bootstrap>:1176: in _find_and_load\n    ???\n<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked\n    ???\n<frozen importlib._bootstrap>:690: in _load_unlocked\n    ???\n/opt/conda/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:188: in exec_module\n    exec(co, module.__dict__)\ntests/test_ocr_pipeline.py:6: in <module>\n    from eju_bank.db import Database\neju_bank/db.py:24: in <module>\n    from .sessions import SessionStoreMixin\nE     File \"/tmp/eju-acceptance-snapshot-tfdd9_0s/eju_bank/sessions.py\", line 227\nE       def submit_session(self, session_id, *, expected_response_version=None, submission_type=None):\nE       ^^^\nE   IndentationError: expected an indented block after function definition on line 226\n=========================== short test summary info ============================\nERROR tests/test_ocr_pipeline.py\n!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n1 error in 0.32s\n",
+      "stderr": ""
+    }
+  ],
+  "ocrCandidateProbe": {
+    "firstStatus": "passed",
+    "secondCached": true,
+    "candidateFiles": [
+      "p0001-question_booklet.cache.json",
+      "p0001-question_booklet.json"
+    ],
+    "loadError": {
+      "type": "ContractError",
+      "message": "Invalid page contracts (10 issues): schema.required: $: violates required; schema.required: $: violates required; schema.required: $: violates required; schema.required: $: violates required; schema.required: $: violates required; page.schema_unsupported: Expected schemaVersion 1 or 2, got None.; page.number_invalid: page must be a positive integer.; page.role_invalid: sourceFileRole must identify a PDF role."
+    }
+  }
+}

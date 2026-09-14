@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "summary": {
+    "sentences": 517,
+    "errors": 0,
+    "warnings": 0,
+    "issueCounts": {}
+  },
+  "issues": []
+}

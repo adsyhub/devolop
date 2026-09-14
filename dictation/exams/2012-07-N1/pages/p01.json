@@ -1,0 +1,226 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "珍しいイベントがあると聞いて、広場に<u>群衆</u>が押し寄せた。",
+      "choices": [
+        "かんしゅ",
+        "かんしゅう",
+        "ぐんしゅ",
+        "ぐんしゅう"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "これまでの学説を<u>覆す</u>ような新事実が発見された。",
+      "choices": [
+        "ひるがえす",
+        "くつがえす",
+        "まどわす",
+        "ゆるがす"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "この文書には、当時の生活の様子が<u>克明に</u>記録されている。",
+      "choices": [
+        "きょくめい",
+        "きょうめい",
+        "こくめい",
+        "こうめい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "窓を開けると、<u>心地よい</u>風が入ってきた。",
+      "choices": [
+        "こころちょい",
+        "こころじょい",
+        "ここちよい",
+        "ここじよい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "新社長は、これまでの経営方針を<u>踏襲する</u>と述べた。",
+      "choices": [
+        "とうしよう",
+        "とうしゅう",
+        "としょう",
+        "としゅう"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "新しい政権には、医療制度の<u>改革</u>が期待されている。",
+      "choices": [
+        "かいかく",
+        "かいこく",
+        "かいがく",
+        "かいごく"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "この本は内容が難しすぎて、初心者には（　　）が高いと思う。",
+      "choices": [
+        "リミット",
+        "ブロック",
+        "ノルマ",
+        "ハードル"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "プランの（　　）はすでに固まっています。",
+      "choices": [
+        "大筋",
+        "大幅",
+        "大口",
+        "大台"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "本書の改訂（　　）は、9月上旬に発売の予定です。",
+      "choices": [
+        "刷",
+        "刊",
+        "誌",
+        "版"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "システムトラブルの原因を徹底的に（　　）し、再発防止に取り組みたい。",
+      "choices": [
+        "究明",
+        "釈明",
+        "察知",
+        "探知"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "カタカナの「ソ」と「リ」は（　　）ので、名前を書くときは気をつけてください。",
+      "choices": [
+        "悩ましい",
+        "疑わしい",
+        "まぎらわしい",
+        "わずらわしい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "この業者は魚を缶詰に（　　）し、それを海外に輸出している。",
+      "choices": [
+        "変換",
+        "転換",
+        "細工",
+        "加工"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "市役所のロビーで、アマチュア写真家による写真展が（　　）います。",
+      "choices": [
+        "施されて",
+        "催されて",
+        "設けられて",
+        "挙げられて"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "山田先生に<u>触発されて</u>、画家の道を志しました。",
+      "choices": [
+        "指導を受けて",
+        "刺激を受けて",
+        "援助を受けて",
+        "評価を受けて"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "試合後のインタビューで、選手たちは<u>すがすがしい</u>表情で質問に答えていた。",
+      "choices": [
+        "ほっとした",
+        "興奮した",
+        "さわやかな",
+        "真剣な"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "その部屋にある家具は、どれも<u>簡素な</u>デザインのものだった。",
+      "choices": [
+        "クールな",
+        "モダンな",
+        "ユニークな",
+        "シンプルな"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "彼の誕生日パーティーの準備を、友人数人と<u>ひそかに</u>進めている。",
+      "choices": [
+        "こっそり",
+        "張り切って",
+        "のんびり",
+        "急いで"
+      ]
+    }
+  ]
+}

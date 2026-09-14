@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 1,
+  "description": "tbs-news-0008-9ZrpJfIGrRI：LLM 逐句校对发现的 ASR 误识别修正 32 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "cb02600d1bb7e84a5273145bf9c736cfc6ea9e707327045d4896d069ad2e73d2",
+  "evidence": {
+    "file": "proofread-work/tbs-news-0008-9ZrpJfIGrRI/proofread.json",
+    "proposedFixes": "proofread-work/tbs-news-0008-9ZrpJfIGrRI/proposed-fixes.json",
+    "notes": "proofread-work/tbs-news-0008-9ZrpJfIGrRI/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 7,
+      "endIndex": 7,
+      "expectedStartTime": 34.399,
+      "expectedEndTime": 34.869,
+      "items": [
+        {
+          "startTime": 34.399,
+          "endTime": 34.869,
+          "sourceText": "冠水するわ、これ。",
+          "jaText": "冠水するわ、これ。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 8,
+      "endIndex": 8,
+      "expectedStartTime": 53.76,
+      "expectedEndTime": 55.499,
+      "items": [
+        {
+          "startTime": 53.76,
+          "endTime": 55.499,
+          "sourceText": "富山県や石川県で昨日から降り出した雨は夜が明けてもその勢いは収まりませんでした。",
+          "jaText": "富山県や石川県で昨日から降り出した雨は夜が明けてもその勢いは収まりませんでした。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 19,
+      "endIndex": 19,
+      "expectedStartTime": 157.48,
+      "expectedEndTime": 164.27,
+      "items": [
+        {
+          "startTime": 157.48,
+          "endTime": 164.27,
+          "sourceText": "再始動できなくなる恐れが水深が床面を超えると電気装置が損傷。",
+          "jaText": "再始動できなくなる恐れが水深が床面を超えると電気装置が損傷。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 25,
+      "endIndex": 25,
+      "expectedStartTime": 209.959,
+      "expectedEndTime": 230.51,
+      "items": [
+        {
+          "startTime": 209.959,
+          "endTime": 230.51,
+          "sourceText": "2.6mJR高山線などが終日運休となるなど交通にも影響が出ています。",
+          "jaText": "2.6mJR高山線などが終日運休となるなど交通にも影響が出ています。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 29,
+      "endIndex": 29,
+      "expectedStartTime": 253.56,
+      "expectedEndTime": 261.704,
+      "items": [
+        {
+          "startTime": 253.56,
+          "endTime": 261.704,
+          "sourceText": "12時間で300mmを超える雨が降った白石では人が人がいるよ。",
+          "jaText": "12時間で300mmを超える雨が降った白石では人が人がいるよ。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 37,
+      "endIndex": 37,
+      "expectedStartTime": 333.12,
+      "expectedEndTime": 342.31,
+      "items": [
+        {
+          "startTime": 333.12,
+          "endTime": 342.31,
+          "sourceText": "え、この先道がなくなってい道路はえぐれるように陥没し、",
+          "jaText": "え、この先道がなくなってい道路はえぐれるように陥没し、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 40,
+      "endIndex": 40,
+      "expectedStartTime": 359.623,
+      "expectedEndTime": 363.496,
+      "items": [
+        {
+          "startTime": 359.623,
+          "endTime": 363.496,
+          "sourceText": "ああ、その時には1階にいらっしゃったんですか?",
+          "jaText": "ああ、その時には1階にいらっしゃったんですか?"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 46,
+      "endIndex": 46,
+      "expectedStartTime": 416.96,
+      "expectedEndTime": 419.95,
+      "items": [
+        {
+          "startTime": 416.96,
+          "endTime": 419.95,
+          "sourceText": "現在雨が小康状態となっている地域でも",
+          "jaText": "現在雨が小康状態となっている地域でも"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 53,
+      "endIndex": 53,
+      "expectedStartTime": 464.28,
+      "expectedEndTime": 469.44,
+      "items": [
+        {
+          "startTime": 464.28,
+          "endTime": 469.44,
+          "sourceText": "え、そして、え、その井山川が氾濫した影響でこの辺り一帯ほとんどの住宅で、",
+          "jaText": "え、そして、え、その井山川が氾濫した影響でこの辺り一帯ほとんどの住宅で、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 54,
+      "endIndex": 54,
+      "expectedStartTime": 469.44,
+      "expectedEndTime": 471.15,
+      "items": [
+        {
+          "startTime": 469.44,
+          "endTime": 471.15,
+          "sourceText": "え、床上浸水の被害を受けました。",
+          "jaText": "え、床上浸水の被害を受けました。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 55,
+      "endIndex": 55,
+      "expectedStartTime": 471.52,
+      "expectedEndTime": 475.71,
+      "items": [
+        {
+          "startTime": 471.52,
+          "endTime": 475.71,
+          "sourceText": "この場所にもどこかのお宅で育てられていたであろう立派なキュウリなんですが、",
+          "jaText": "この場所にもどこかのお宅で育てられていたであろう立派なキュウリなんですが、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 57,
+      "endIndex": 57,
+      "expectedStartTime": 478.72,
+      "expectedEndTime": 482.23,
+      "items": [
+        {
+          "startTime": 478.72,
+          "endTime": 482.23,
+          "sourceText": "え、そして地面一帯泥に覆われていまして、",
+          "jaText": "え、そして地面一帯泥に覆われていまして、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 64,
+      "endIndex": 64,
+      "expectedStartTime": 509.72,
+      "expectedEndTime": 516.869,
+      "items": [
+        {
+          "startTime": 509.72,
+          "endTime": 516.869,
+          "sourceText": "この高さ、大体私の胸あたりまで水が上がってきたというのが、え、この辺り一帯の被害の状況です。",
+          "jaText": "この高さ、大体私の胸あたりまで水が上がってきたというのが、え、この辺り一帯の被害の状況です。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 103,
+      "endIndex": 103,
+      "expectedStartTime": 653.892,
+      "expectedEndTime": 655.648,
+      "items": [
+        {
+          "startTime": 653.892,
+          "endTime": 655.648,
+          "sourceText": "え、私は今石川県の宝達志水町から伝えています。",
+          "jaText": "え、私は今石川県の宝達志水町から伝えています。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 104,
+      "endIndex": 104,
+      "expectedStartTime": 655.648,
+      "expectedEndTime": 664.47,
+      "items": [
+        {
+          "startTime": 655.648,
+          "endTime": 664.47,
+          "sourceText": "宝達志水町では24時間雨量が観測史上最大の264mmを観測しました。",
+          "jaText": "宝達志水町では24時間雨量が観測史上最大の264mmを観測しました。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 107,
+      "endIndex": 107,
+      "expectedStartTime": 672.36,
+      "expectedEndTime": 677.39,
+      "items": [
+        {
+          "startTime": 672.36,
+          "endTime": 677.39,
+          "sourceText": "非常に濁りがひどく未明から降った雨の猛烈な、え、すを感じます。",
+          "jaText": "非常に濁りがひどく未明から降った雨の猛烈な、え、すを感じます。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 115,
+      "endIndex": 115,
+      "expectedStartTime": 711.68,
+      "expectedEndTime": 717.19,
+      "items": [
+        {
+          "startTime": 711.68,
+          "endTime": 717.19,
+          "sourceText": "え、神社があるんですが、え、参道には山から流れてきた水が流れ続けています。",
+          "jaText": "え、神社があるんですが、え、参道には山から流れてきた水が流れ続けています。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 119,
+      "endIndex": 119,
+      "expectedStartTime": 759.6,
+      "expectedEndTime": 761.2,
+      "items": [
+        {
+          "startTime": 759.6,
+          "endTime": 761.2,
+          "sourceText": "あ、福長さん、あの、能登で地震が起きた年にも集中豪雨がありました。",
+          "jaText": "あ、福長さん、あの、能登で地震が起きた年にも集中豪雨がありました。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 127,
+      "endIndex": 127,
+      "expectedStartTime": 810.72,
+      "expectedEndTime": 816.527,
+      "items": [
+        {
+          "startTime": 810.72,
+          "endTime": 816.527,
+          "sourceText": "TUTはい、富山県氷見市からお伝えします。",
+          "jaText": "TUTはい、富山県氷見市からお伝えします。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 129,
+      "endIndex": 129,
+      "expectedStartTime": 826.44,
+      "expectedEndTime": 831.47,
+      "items": [
+        {
+          "startTime": 826.44,
+          "endTime": 831.47,
+          "sourceText": "私は今、え、氷見を流れる上庄川の堤防にいます。",
+          "jaText": "私は今、え、氷見を流れる上庄川の堤防にいます。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 132,
+      "endIndex": 132,
+      "expectedStartTime": 843.079,
+      "expectedEndTime": 848.15,
+      "items": [
+        {
+          "startTime": 843.079,
+          "endTime": 848.15,
+          "sourceText": "近隣住民からは上庄川の氾濫は50年ぶりではないかという声も聞かれました。",
+          "jaText": "近隣住民からは上庄川の氾濫は50年ぶりではないかという声も聞かれました。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 134,
+      "endIndex": 134,
+      "expectedStartTime": 851.04,
+      "expectedEndTime": 857.15,
+      "items": [
+        {
+          "startTime": 851.04,
+          "endTime": 857.15,
+          "sourceText": "こちらには、え、一軒屋のブロック塀が氾濫の影響で田んぼに崩れ落ちてしまっています。",
+          "jaText": "こちらには、え、一軒屋のブロック塀が氾濫の影響で田んぼに崩れ落ちてしまっています。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 136,
+      "endIndex": 136,
+      "expectedStartTime": 862.959,
+      "expectedEndTime": 869.75,
+      "items": [
+        {
+          "startTime": 862.959,
+          "endTime": 869.75,
+          "sourceText": "また住宅の前の道路ですが2年半2年前の半島地震の液状化の影響で",
+          "jaText": "また住宅の前の道路ですが2年半2年前の半島地震の液状化の影響で"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 140,
+      "endIndex": 140,
+      "expectedStartTime": 929.44,
+      "expectedEndTime": 932.269,
+      "items": [
+        {
+          "startTime": 929.44,
+          "endTime": 932.269,
+          "sourceText": "この辺り避難所は開設されるとされているという認識でよろしいですか?",
+          "jaText": "この辺り避難所は開設されるとされているという認識でよろしいですか?"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 142,
+      "endIndex": 142,
+      "expectedStartTime": 938.139,
+      "expectedEndTime": 948.062,
+      "items": [
+        {
+          "startTime": 938.139,
+          "endTime": 948.062,
+          "sourceText": "え、今日の午後1時半の時点では、え、氷見市、え、200そうですか。",
+          "jaText": "え、今日の午後1時半の時点では、え、氷見市、え、200そうですか。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 153,
+      "endIndex": 153,
+      "expectedStartTime": 1006.319,
+      "expectedEndTime": 1009.549,
+      "items": [
+        {
+          "startTime": 1006.319,
+          "endTime": 1009.549,
+          "sourceText": "で、上空に寒気も流れ込んできていましたので、",
+          "jaText": "で、上空に寒気も流れ込んできていましたので、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 155,
+      "endIndex": 155,
+      "expectedStartTime": 1023.16,
+      "expectedEndTime": 1024.073,
+      "items": [
+        {
+          "startTime": 1023.16,
+          "endTime": 1024.073,
+          "sourceText": "ま、ただ千葉の時は秋雨前線ではなかったんですが、ま、閉めた空気が流れ込みやすかった。",
+          "jaText": "ま、ただ千葉の時は秋雨前線ではなかったんですが、ま、閉めた空気が流れ込みやすかった。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 158,
+      "endIndex": 158,
+      "expectedStartTime": 1024.725,
+      "expectedEndTime": 1025.095,
+      "items": [
+        {
+          "startTime": 1024.725,
+          "endTime": 1025.095,
+          "sourceText": "ただ沖縄・奄美に直接的な影響はあって、",
+          "jaText": "ただ沖縄・奄美に直接的な影響はあって、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 165,
+      "endIndex": 165,
+      "expectedStartTime": 1054.748,
+      "expectedEndTime": 1055.256,
+      "items": [
+        {
+          "startTime": 1054.748,
+          "endTime": 1055.256,
+          "sourceText": "寒気が明日午後になりますと抜けていきますので、",
+          "jaText": "寒気が明日午後になりますと抜けていきますので、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 170,
+      "endIndex": 170,
+      "expectedStartTime": 1075.492,
+      "expectedEndTime": 1080.0,
+      "items": [
+        {
+          "startTime": 1075.492,
+          "endTime": 1080.0,
+          "sourceText": "これが秋雨前線による雨雲なんですが、今日の今日午前はい。",
+          "jaText": "これが秋雨前線による雨雲なんですが、今日の今日午前はい。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 172,
+      "endIndex": 172,
+      "expectedStartTime": 1088.12,
+      "expectedEndTime": 1101.44,
+      "items": [
+        {
+          "startTime": 1088.12,
+          "endTime": 1101.44,
+          "sourceText": "1これは前線が動いてくれないために同じところでずっと線状降水帯というか同じようなところ。",
+          "jaText": "1これは前線が動いてくれないために同じところでずっと線状降水帯というか同じようなところ。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 181,
+      "endIndex": 181,
+      "expectedStartTime": 1136.049,
+      "expectedEndTime": 1137.076,
+      "items": [
+        {
+          "startTime": 1136.049,
+          "endTime": 1137.076,
+          "sourceText": "で、先ほど東海地方にですね、線状降水帯の半日前予測というのも発表されました。",
+          "jaText": "で、先ほど東海地方にですね、線状降水帯の半日前予測というのも発表されました。"
+        }
+      ]
+    }
+  ]
+}

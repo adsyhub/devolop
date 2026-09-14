@@ -1,0 +1,46 @@
+{
+  "page": 13,
+  "pageLabel": "13",
+  "sectionHeader": "聴解",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 5,
+      "text": "問題5　では、長めの話を聞きます。この問題には練習はありません。問題用紙にメモをとってもかまいません。1番、2番問題用紙に何も印刷されていません。まず話を聞いてください。それから、質問とせんたくしを聞いて、（1）から（4）の中から、最もよいものを一つ選んでください。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "1番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "2番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "3番 質問1",
+      "choices": [
+        "1 1冊目",
+        "2 2冊目",
+        "3 3冊目",
+        "4 4冊目"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": "3番 質問2",
+      "choices": [
+        "1 1冊目",
+        "2 2冊目",
+        "3 3冊目",
+        "4 4冊目"
+      ]
+    }
+  ]
+}

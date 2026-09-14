@@ -1,0 +1,122 @@
+{
+  "page": 5,
+  "pageLabel": "第4页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 4,
+      "label": null,
+      "text": "問題4次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "20、",
+      "text": "結末",
+      "questionNumber": 20,
+      "choices": [
+        "急な用事ができたため、パーティーの<u>結末</u>までいられなかった。",
+        "物語の<u>結末</u>を知りたくて、分厚い本をひと晩で読んでしまった。",
+        "後から来た人は、この列の<u>結末</u>に並んでください。",
+        "細い枝の<u>結末</u>にかわいらしい白い花が咲いている。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "21、",
+      "text": "そそる",
+      "questionNumber": 21,
+      "choices": [
+        "この先は急なカーブなので、注意を<u>そそる</u>標識が必要だ。",
+        "先日の｜村田《むらた》氏の発言は、国民の対立を<u>そそる</u>ものだと批判を浴びた。",
+        "料理の味も香りも彩りも食欲を<u>そそる</u>要素だ。",
+        "救命センターの医師は常に緊張を<u>そそられて</u>いる。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "22、",
+      "text": "遮断",
+      "questionNumber": 22,
+      "choices": [
+        "この部屋なら、外部の音を<u>遮断</u>してピアノの演奏が録音できる。",
+        "機械の点検のため、工場の稼働を一時的に<u>遮断</u>している。",
+        "ダイエットを始めて以来、大好きな甘い物を<u>遮断</u>している。",
+        "彼女から突然交際を<u>遮断</u>すると言われて驚いた。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "23、",
+      "text": "要請",
+      "questionNumber": 23,
+      "choices": [
+        "この機械は、最新の物で性能はいいが、電力の<u>要請</u>が大きいのが難点だ。",
+        "被災地からの<u>要請</u>で、国から医療チームが派遣されることになった。",
+        "今回の仕事は特別な資格の<u>要請</u>はないので、どなたでも応募できます。",
+        "高級ワインを何本も飲んで、レストランから高額な<u>要請</u>があった。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "24、",
+      "text": "ぎこちない",
+      "questionNumber": 24,
+      "choices": [
+        "憧れの歌手に会ったとき、緊張して動作が<u>ぎこちなく</u>なってしまった。",
+        "この道は路面の状態が悪くて<u>ぎこちない</u>ので、運転しにくい。",
+        "今年は天候が悪く、稲や野菜の生育が<u>ぎこちない</u>そうだ。",
+        "風邪でのどの調子がよくないのか、声が<u>ぎこちなくて</u>聞き取りにくい。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "25、",
+      "text": "断じて",
+      "questionNumber": 25,
+      "choices": [
+        "彼は一生懸命思い出そうとしているが、そのときのことを<u>断じて</u>覚えていないようだ。",
+        "その扉はとても重くて、どんなに押しても<u>断じて</u>開かなかった。",
+        "若いころは体が丈夫で<u>断じて</u>風邪をひくこともなかったが、最近すっかり弱くなった。",
+        "他人を差別したりいじめたりすることは、<u>断じて</u>許されない。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "Q21 choice 4: the glyph printed after 「救命センタ」 is rendered as a long straight horizontal bar (visually closer to ― than to the chōonpu ー used in 「パーティー」/「カーブ」 elsewhere on the page). Transcribed as the standard 「センター」; the source scan may show a dash-like glyph there.",
+    "Q21 choice 2: ruby 「むらた」 is printed above 村田 only (recorded as ｜村田《むらた》); no other ruby appears on this page.",
+    "The printed page inserts an extra wide space after some 読点 (e.g. Q20 choice 3 「後から来た人は、　この列の…」, Q22 choice 2, Q23 choices 1/2/4, Q24 choice 1). These are typesetting gaps and were not reproduced as characters.",
+    "Question numbers are printed with a full-width 、 separator (「20、結末」); recorded in label as \"20、\" etc.",
+    "Q25 choices 1 and 3 wrap onto a second printed line; the wrapped lines were rejoined into one sentence.",
+    "A faint publisher watermark is present on the page and was excluded."
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "page": 1,
+  "pageLabel": "2",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "あの態度には<u>猛烈</u>に腹が立った。",
+      "choices": [
+        "もれつ",
+        "きょうれつ",
+        "きょれつ",
+        "もうれつ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "彼女は病を<u>克服</u>して、職場に戻ってきた。",
+      "choices": [
+        "こうふく",
+        "かくふく",
+        "かいふく",
+        "こくふく"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "<u>崩れやすい</u>ので、運ぶときは気をつけてください。",
+      "choices": [
+        "つぶれやすい",
+        "くずれやすい",
+        "はがれやすい",
+        "こぼれやすい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "この薬にはウイルスの<u>繁殖</u>を抑える効果がある。",
+      "choices": [
+        "はんしょく",
+        "はんちょく",
+        "ばんしょく",
+        "ばんちょく"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "サイトの<u>履歴</u>は残っていなかった。",
+      "choices": [
+        "ふくれき",
+        "られき",
+        "りれき",
+        "ふうれき"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "夕日に赤く<u>映える</u>山を写真に収めた。",
+      "choices": [
+        "そびえる",
+        "はえる",
+        "もえる",
+        "さえる"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "ガスが漏れると、（　　）が感知して警報が鳴る。",
+      "choices": [
+        "レーダー",
+        "モーター",
+        "センサー",
+        "レバー"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "彼はロケットを作って宇宙へ飛ばしたいという（　　）夢を実現した。",
+      "choices": [
+        "絶大な",
+        "盛大な",
+        "雄大な",
+        "壮大な"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "その優しいメロディーは私の耳に（　　）響き、眠りに誘ってくれた。",
+      "choices": [
+        "ここちよく",
+        "いさぎよく",
+        "喜ばしく",
+        "輝かしく"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "兄は科学者として遺伝子の研究に（　　）している。",
+      "choices": [
+        "従事",
+        "勤務",
+        "在籍",
+        "就労"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "葉書が届いたが、雨でインクが少し（　　）、読みにくかった。",
+      "choices": [
+        "暴れて",
+        "にじんで",
+        "震えて",
+        "ゆがんで"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "子どもにとってプレッシャーになるので、将来に過度の期待をするのは（　　）だ。",
+      "choices": [
+        "不当",
+        "無効",
+        "禁物",
+        "偏見"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "社長になり、トップに立つ者の責任の重さを（　　）感じている。",
+      "choices": [
+        "はらはらと",
+        "びくびくと",
+        "どきどきと",
+        "ひしひしと"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "A社の<u>コンパクトな</u>車がよく売れている。",
+      "choices": [
+        "新型の",
+        "小型の",
+        "家族向きの",
+        "若者向きの"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "無駄な経費は<u>極力</u>減らそう。",
+      "choices": [
+        "できるだけ",
+        "大幅に",
+        "一気に",
+        "思い切って"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "彼は「あ、忘れてた」と<u>つぶやく</u>と、その場を去って行った。",
+      "choices": [
+        "ゆっくり言う",
+        "大きな声で言う",
+        "早口で言う",
+        "小さな声で言う"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "目撃者の証言には<u>不審な</u>点があった。",
+      "choices": [
+        "でたらめな",
+        "頼りない",
+        "怪しい",
+        "あいまいな"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 18,
+      "text": "何時間もグラウンドで練習していたので、<u>ばてて</u>しまった。",
+      "choices": [
+        "疲れて",
+        "飽きて",
+        "のどが渇いて",
+        "おなかがすいて"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 19,
+      "text": "どんな厳しい状況でも任務を<u>まっとうする</u>覚悟がある。",
+      "choices": [
+        "継続する",
+        "完了する",
+        "実行する",
+        "担当する"
+      ]
+    }
+  ]
+}

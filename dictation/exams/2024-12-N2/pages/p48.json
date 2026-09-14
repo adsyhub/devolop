@@ -1,0 +1,21 @@
+{
+  "page": 48,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "もんだい"
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 4,
+      "text": "問題4"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 4,
+      "text": "問題4では、問題用紙に何もいんさつされていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。\n> メモ"
+    }
+  ],
+  "issues": []
+}

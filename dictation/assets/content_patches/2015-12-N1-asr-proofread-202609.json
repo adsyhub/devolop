@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "description": "2015-12-N1：LLM 逐句校对发现的 ASR 误识别修正 7 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "e82847ba8fb36b38b2fc648aade2e4d607eb13058b01cb5fb413780182000ea3",
+  "evidence": {
+    "file": "proofread-work/2015-12-N1/proofread.json",
+    "proposedFixes": "proofread-work/2015-12-N1/proposed-fixes.json",
+    "notes": "proofread-work/2015-12-N1/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 27,
+      "endIndex": 27,
+      "expectedStartTime": 201.88,
+      "expectedEndTime": 205.4,
+      "items": [
+        {
+          "startTime": 201.88,
+          "endTime": 205.4,
+          "sourceText": "一ヶ月もアパートを空けることになるからちょっと心配なんだ",
+          "jaText": "一ヶ月もアパートを空けることになるからちょっと心配なんだ"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 209,
+      "endIndex": 209,
+      "expectedStartTime": 1254.01,
+      "expectedEndTime": 1259.26,
+      "items": [
+        {
+          "startTime": 1254.01,
+          "endTime": 1259.26,
+          "sourceText": "ますこの街が転機を迎えたきっかけは何だと言っていますか",
+          "jaText": "ますこの街が転機を迎えたきっかけは何だと言っていますか"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 213,
+      "endIndex": 213,
+      "expectedStartTime": 1319.36,
+      "expectedEndTime": 1329.98,
+      "items": [
+        {
+          "startTime": 1319.36,
+          "endTime": 1329.98,
+          "sourceText": "この街が転機を迎えたきっかけは何だと言っていますか 4",
+          "jaText": "この街が転機を迎えたきっかけは何だと言っていますか 4"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 266,
+      "endIndex": 266,
+      "expectedStartTime": 1774.32,
+      "expectedEndTime": 1778.7,
+      "items": [
+        {
+          "startTime": 1774.32,
+          "endTime": 1778.7,
+          "sourceText": "うん工程に試食販売も入れれば売り上げ伸びそう",
+          "jaText": "うん工程に試食販売も入れれば売り上げ伸びそう"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 305,
+      "endIndex": 305,
+      "expectedStartTime": 2159.95,
+      "expectedEndTime": 2167.89,
+      "items": [
+        {
+          "startTime": 2159.95,
+          "endTime": 2167.89,
+          "sourceText": "夏は海や山といった行楽地にお出かけになる機会も多いと思いますが 雷に注意することが必要な季節です",
+          "jaText": "夏は海や山といった行楽地にお出かけになる機会も多いと思いますが 雷に注意することが必要な季節です"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 307,
+      "endIndex": 307,
+      "expectedStartTime": 2177.9,
+      "expectedEndTime": 2184.68,
+      "items": [
+        {
+          "startTime": 2177.9,
+          "endTime": 2184.68,
+          "sourceText": "雷は高いビルや木などに落ちる性質があるので 木などへは近寄らずすぐに屋内に入るようにします",
+          "jaText": "雷は高いビルや木などに落ちる性質があるので 木などへは近寄らずすぐに屋内に入るようにします"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 490,
+      "endIndex": 490,
+      "expectedStartTime": 3497.96,
+      "expectedEndTime": 3510.32,
+      "items": [
+        {
+          "startTime": 3497.96,
+          "endTime": 3510.32,
+          "sourceText": "番テレビでアナウンサーが町長選挙について話しています 今月末に行われる丸山町の町長選挙には4人が立候補しています",
+          "jaText": "番テレビでアナウンサーが町長選挙について話しています 今月末に行われる丸山町の町長選挙には4人が立候補しています"
+        }
+      ]
+    }
+  ]
+}

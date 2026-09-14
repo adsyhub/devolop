@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "level": "N2",
+  "slug": "2021-07-N2",
+  "title": "2021年7月 日本語能力試験 N2",
+  "sessionLabel": "2021年7月",
+  "durationSec": 10800,
+  "source": {
+    "fileName": "N2 2021年7月真题+答案+详解+听力原文.pdf",
+    "sha256": "62262d51c58dfcc6da221afdf25659348e0a4c229dd747ec3db946055ad99a28",
+    "bytes": 4337645,
+    "pageCount": 32
+  },
+  "listeningMedia": {
+    "kind": "course-audio",
+    "courseSlug": "2021-07-N2",
+    "expectedSha256": "876bcb0464f424145d7b8cf0746089317b44df778a2a570593e5b443b2669ce9",
+    "expectedBytes": 31189788
+  }
+}

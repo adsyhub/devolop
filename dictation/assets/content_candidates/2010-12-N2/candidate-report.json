@@ -1,0 +1,703 @@
+{
+  "schemaVersion": "content-candidate-v1",
+  "audio": {
+    "currentSha256": "5f41e2ac3a4100b4fa2f38d7a93d76b1402d3625201a3953b9dd77b5fe94c614",
+    "candidateSha256": "5f41e2ac3a4100b4fa2f38d7a93d76b1402d3625201a3953b9dd77b5fe94c614",
+    "sameAudio": true,
+    "note": "A candidate for different audio is not a recovery candidate at all."
+  },
+  "course": {
+    "currentCourseId": "c_b60e098f0bd1653156e5af1a",
+    "candidateCourseId": "c_3184b14ea9048121a2f73f96",
+    "currentContentRevision": "84c4e974009334b90a1aff881aa1f52f51d0b6a36afb48bbe29814e7e12e5721",
+    "candidateContentRevision": "7a3ef783de1b52326ed013645332b7a7d96ad361c05c685c595d3ed865e01fe2",
+    "sentenceIdIntersection": 0
+  },
+  "counts": {
+    "currentSegments": 629,
+    "candidateSegments": 517,
+    "currentPracticeEligible": 457,
+    "candidatePracticeEligible": 431
+  },
+  "mapping": {
+    "exact": 381,
+    "suggested": 68,
+    "ambiguous": 0,
+    "unmatched": 180,
+    "candidateOnly": 68,
+    "practiceSegmentsMapped": 380
+  },
+  "coverage": {
+    "current": {
+      "coveredMs": 2342720,
+      "spanMs": 2667970,
+      "firstMs": 4020,
+      "lastMs": 2671990,
+      "holes": [
+        {
+          "fromMs": 56440,
+          "toMs": 57900,
+          "gapMs": 1460
+        },
+        {
+          "fromMs": 193040,
+          "toMs": 210250,
+          "gapMs": 17210
+        },
+        {
+          "fromMs": 219850,
+          "toMs": 221860,
+          "gapMs": 2010
+        },
+        {
+          "fromMs": 273020,
+          "toMs": 288670,
+          "gapMs": 15650
+        },
+        {
+          "fromMs": 298090,
+          "toMs": 305670,
+          "gapMs": 7580
+        },
+        {
+          "fromMs": 357310,
+          "toMs": 372950,
+          "gapMs": 15640
+        },
+        {
+          "fromMs": 385830,
+          "toMs": 387790,
+          "gapMs": 1960
+        },
+        {
+          "fromMs": 453610,
+          "toMs": 468980,
+          "gapMs": 15370
+        },
+        {
+          "fromMs": 482360,
+          "toMs": 484180,
+          "gapMs": 1820
+        },
+        {
+          "fromMs": 536210,
+          "toMs": 553110,
+          "gapMs": 16900
+        },
+        {
+          "fromMs": 603540,
+          "toMs": 628840,
+          "gapMs": 25300
+        },
+        {
+          "fromMs": 667440,
+          "toMs": 682800,
+          "gapMs": 15360
+        },
+        {
+          "fromMs": 765260,
+          "toMs": 780900,
+          "gapMs": 15640
+        },
+        {
+          "fromMs": 791040,
+          "toMs": 816390,
+          "gapMs": 25350
+        },
+        {
+          "fromMs": 866240,
+          "toMs": 881930,
+          "gapMs": 15690
+        },
+        {
+          "fromMs": 963100,
+          "toMs": 978920,
+          "gapMs": 15820
+        },
+        {
+          "fromMs": 988920,
+          "toMs": 1013000,
+          "gapMs": 24080
+        },
+        {
+          "fromMs": 1058500,
+          "toMs": 1074180,
+          "gapMs": 15680
+        },
+        {
+          "fromMs": 1084160,
+          "toMs": 1108240,
+          "gapMs": 24080
+        },
+        {
+          "fromMs": 1171530,
+          "toMs": 1185810,
+          "gapMs": 14280
+        },
+        {
+          "fromMs": 2317480,
+          "toMs": 2323470,
+          "gapMs": 5990
+        },
+        {
+          "fromMs": 2326810,
+          "toMs": 2328840,
+          "gapMs": 2030
+        },
+        {
+          "fromMs": 2366900,
+          "toMs": 2369010,
+          "gapMs": 2110
+        }
+      ]
+    },
+    "candidate": {
+      "coveredMs": 2057290,
+      "spanMs": 2667420,
+      "firstMs": 4040,
+      "lastMs": 2671460,
+      "holes": [
+        {
+          "fromMs": 8180,
+          "toMs": 10280,
+          "gapMs": 2100
+        },
+        {
+          "fromMs": 13080,
+          "toMs": 15020,
+          "gapMs": 1940
+        },
+        {
+          "fromMs": 18960,
+          "toMs": 21980,
+          "gapMs": 3020
+        },
+        {
+          "fromMs": 28020,
+          "toMs": 42940,
+          "gapMs": 14920
+        },
+        {
+          "fromMs": 47240,
+          "toMs": 49020,
+          "gapMs": 1780
+        },
+        {
+          "fromMs": 56440,
+          "toMs": 57900,
+          "gapMs": 1460
+        },
+        {
+          "fromMs": 193040,
+          "toMs": 210250,
+          "gapMs": 17210
+        },
+        {
+          "fromMs": 219850,
+          "toMs": 221860,
+          "gapMs": 2010
+        },
+        {
+          "fromMs": 273020,
+          "toMs": 288670,
+          "gapMs": 15650
+        },
+        {
+          "fromMs": 298090,
+          "toMs": 305670,
+          "gapMs": 7580
+        },
+        {
+          "fromMs": 357310,
+          "toMs": 372950,
+          "gapMs": 15640
+        },
+        {
+          "fromMs": 385830,
+          "toMs": 387790,
+          "gapMs": 1960
+        },
+        {
+          "fromMs": 453610,
+          "toMs": 468980,
+          "gapMs": 15370
+        },
+        {
+          "fromMs": 482360,
+          "toMs": 484180,
+          "gapMs": 1820
+        },
+        {
+          "fromMs": 536210,
+          "toMs": 553110,
+          "gapMs": 16900
+        },
+        {
+          "fromMs": 603340,
+          "toMs": 628840,
+          "gapMs": 25500
+        },
+        {
+          "fromMs": 667440,
+          "toMs": 682800,
+          "gapMs": 15360
+        },
+        {
+          "fromMs": 765260,
+          "toMs": 780900,
+          "gapMs": 15640
+        },
+        {
+          "fromMs": 791040,
+          "toMs": 816390,
+          "gapMs": 25350
+        },
+        {
+          "fromMs": 866240,
+          "toMs": 881930,
+          "gapMs": 15690
+        },
+        {
+          "fromMs": 952860,
+          "toMs": 958740,
+          "gapMs": 5880
+        },
+        {
+          "fromMs": 962900,
+          "toMs": 978460,
+          "gapMs": 15560
+        },
+        {
+          "fromMs": 988820,
+          "toMs": 1012340,
+          "gapMs": 23520
+        },
+        {
+          "fromMs": 1013540,
+          "toMs": 1014760,
+          "gapMs": 1220
+        },
+        {
+          "fromMs": 1047940,
+          "toMs": 1054020,
+          "gapMs": 6080
+        },
+        {
+          "fromMs": 1058300,
+          "toMs": 1073820,
+          "gapMs": 15520
+        },
+        {
+          "fromMs": 1080940,
+          "toMs": 1081960,
+          "gapMs": 1020
+        },
+        {
+          "fromMs": 1083940,
+          "toMs": 1107820,
+          "gapMs": 23880
+        },
+        {
+          "fromMs": 1149140,
+          "toMs": 1150400,
+          "gapMs": 1260
+        },
+        {
+          "fromMs": 1162980,
+          "toMs": 1168940,
+          "gapMs": 5960
+        },
+        {
+          "fromMs": 1171320,
+          "toMs": 1185260,
+          "gapMs": 13940
+        },
+        {
+          "fromMs": 1187640,
+          "toMs": 1220240,
+          "gapMs": 32600
+        },
+        {
+          "fromMs": 1223020,
+          "toMs": 1229080,
+          "gapMs": 6060
+        },
+        {
+          "fromMs": 1236460,
+          "toMs": 1238120,
+          "gapMs": 1660
+        },
+        {
+          "fromMs": 1244020,
+          "toMs": 1245700,
+          "gapMs": 1680
+        },
+        {
+          "fromMs": 1248760,
+          "toMs": 1250260,
+          "gapMs": 1500
+        },
+        {
+          "fromMs": 1252420,
+          "toMs": 1254040,
+          "gapMs": 1620
+        },
+        {
+          "fromMs": 1264200,
+          "toMs": 1269180,
+          "gapMs": 4980
+        },
+        {
+          "fromMs": 1270840,
+          "toMs": 1277800,
+          "gapMs": 6960
+        },
+        {
+          "fromMs": 1278500,
+          "toMs": 1279580,
+          "gapMs": 1080
+        },
+        {
+          "fromMs": 1281840,
+          "toMs": 1283880,
+          "gapMs": 2040
+        },
+        {
+          "fromMs": 1287240,
+          "toMs": 1288320,
+          "gapMs": 1080
+        },
+        {
+          "fromMs": 1294760,
+          "toMs": 1296020,
+          "gapMs": 1260
+        },
+        {
+          "fromMs": 1310440,
+          "toMs": 1316680,
+          "gapMs": 6240
+        },
+        {
+          "fromMs": 1319580,
+          "toMs": 1321900,
+          "gapMs": 2320
+        },
+        {
+          "fromMs": 1325360,
+          "toMs": 1329080,
+          "gapMs": 3720
+        },
+        {
+          "fromMs": 1332040,
+          "toMs": 1334940,
+          "gapMs": 2900
+        },
+        {
+          "fromMs": 1338820,
+          "toMs": 1341580,
+          "gapMs": 2760
+        },
+        {
+          "fromMs": 1345520,
+          "toMs": 1357800,
+          "gapMs": 12280
+        },
+        {
+          "fromMs": 1360880,
+          "toMs": 1363140,
+          "gapMs": 2260
+        },
+        {
+          "fromMs": 1378720,
+          "toMs": 1379920,
+          "gapMs": 1200
+        },
+        {
+          "fromMs": 1433140,
+          "toMs": 1441740,
+          "gapMs": 8600
+        },
+        {
+          "fromMs": 1442540,
+          "toMs": 1446280,
+          "gapMs": 3740
+        },
+        {
+          "fromMs": 1451980,
+          "toMs": 1454040,
+          "gapMs": 2060
+        },
+        {
+          "fromMs": 1460680,
+          "toMs": 1461700,
+          "gapMs": 1020
+        },
+        {
+          "fromMs": 1466880,
+          "toMs": 1468820,
+          "gapMs": 1940
+        },
+        {
+          "fromMs": 1476080,
+          "toMs": 1477560,
+          "gapMs": 1480
+        },
+        {
+          "fromMs": 1701830,
+          "toMs": 1704400,
+          "gapMs": 2570
+        },
+        {
+          "fromMs": 1707420,
+          "toMs": 1711240,
+          "gapMs": 3820
+        },
+        {
+          "fromMs": 1714360,
+          "toMs": 1717200,
+          "gapMs": 2840
+        },
+        {
+          "fromMs": 1721100,
+          "toMs": 1723920,
+          "gapMs": 2820
+        },
+        {
+          "fromMs": 1803720,
+          "toMs": 1805400,
+          "gapMs": 1680
+        },
+        {
+          "fromMs": 1921020,
+          "toMs": 1922540,
+          "gapMs": 1520
+        },
+        {
+          "fromMs": 1925820,
+          "toMs": 1927780,
+          "gapMs": 1960
+        },
+        {
+          "fromMs": 2142180,
+          "toMs": 2143900,
+          "gapMs": 1720
+        },
+        {
+          "fromMs": 2146580,
+          "toMs": 2148500,
+          "gapMs": 1920
+        },
+        {
+          "fromMs": 2151100,
+          "toMs": 2153060,
+          "gapMs": 1960
+        },
+        {
+          "fromMs": 2156260,
+          "toMs": 2168560,
+          "gapMs": 12300
+        },
+        {
+          "fromMs": 2170380,
+          "toMs": 2171520,
+          "gapMs": 1140
+        },
+        {
+          "fromMs": 2177900,
+          "toMs": 2180300,
+          "gapMs": 2400
+        },
+        {
+          "fromMs": 2182760,
+          "toMs": 2184760,
+          "gapMs": 2000
+        },
+        {
+          "fromMs": 2188240,
+          "toMs": 2190760,
+          "gapMs": 2520
+        },
+        {
+          "fromMs": 2192940,
+          "toMs": 2194500,
+          "gapMs": 1560
+        },
+        {
+          "fromMs": 2204840,
+          "toMs": 2208020,
+          "gapMs": 3180
+        },
+        {
+          "fromMs": 2209780,
+          "toMs": 2215780,
+          "gapMs": 6000
+        },
+        {
+          "fromMs": 2216740,
+          "toMs": 2217760,
+          "gapMs": 1020
+        },
+        {
+          "fromMs": 2223400,
+          "toMs": 2225440,
+          "gapMs": 2040
+        },
+        {
+          "fromMs": 2317480,
+          "toMs": 2323470,
+          "gapMs": 5990
+        },
+        {
+          "fromMs": 2326810,
+          "toMs": 2328840,
+          "gapMs": 2030
+        },
+        {
+          "fromMs": 2366900,
+          "toMs": 2369010,
+          "gapMs": 2110
+        },
+        {
+          "fromMs": 2448030,
+          "toMs": 2453960,
+          "gapMs": 5930
+        },
+        {
+          "fromMs": 2633850,
+          "toMs": 2647000,
+          "gapMs": 13150
+        },
+        {
+          "fromMs": 2652700,
+          "toMs": 2668860,
+          "gapMs": 16160
+        }
+      ]
+    },
+    "delta": {
+      "coveredMsChange": -285430,
+      "holesChange": 60,
+      "note": "Negative coveredMsChange means the candidate transcribes less of the audio than the shipped course. Explain the difference before promoting it."
+    }
+  },
+  "fieldCoverage": {
+    "current": {
+      "segments": 629,
+      "confidencePresent": 0,
+      "confidenceMissing": 629,
+      "confidenceLow": 0,
+      "asrQualityPresent": 0,
+      "asrQualityMissing": 629,
+      "note": "Missing is unknown provenance, not verified quality. Do not report unknown as pass."
+    },
+    "candidate": {
+      "segments": 517,
+      "confidencePresent": 505,
+      "confidenceMissing": 12,
+      "confidenceLow": 0,
+      "asrQualityPresent": 383,
+      "asrQualityMissing": 134,
+      "note": "Missing is unknown provenance, not verified quality. Do not report unknown as pass."
+    }
+  },
+  "reviewState": {
+    "current": {
+      "humanListening": "pending",
+      "commercialRights": "unverified",
+      "browserAcceptance": "pending"
+    },
+    "candidate": {
+      "humanListening": "pending",
+      "commercialRights": "unverified",
+      "browserAcceptance": "pending"
+    },
+    "note": "humanListening=pending means technical candidate only. Not canonical, not releasable."
+  },
+  "patchChain": [
+    {
+      "name": "2010-12-N2-low-confidence-repair.json",
+      "sourceSentencesDigest": "4af93c26c0e2bb42e1e5723fb44917aa5b56dfcbf1b8d977d13153a9b59d0329",
+      "resultSentencesDigest": "bb48cd017bf6e6519c56d7255e7a360a5079bd9cfa07e7f9e5d5ca72402b560c",
+      "description": "Replace the 1430.81-1481.88 low-confidence hallucination cluster with an independent-context large-v3 retranscription.",
+      "evidence": {
+        "file": "low-confidence-retranscription.json",
+        "model": "faster-whisper large-v3",
+        "run": "baseline-independent",
+        "conditionOnPreviousText": false,
+        "temperature": 0.0,
+        "crossCheck": "conservative"
+      }
+    },
+    {
+      "name": "2010-12-N2-timing-and-duplicate-repair.json",
+      "sourceSentencesDigest": "bb48cd017bf6e6519c56d7255e7a360a5079bd9cfa07e7f9e5d5ca72402b560c",
+      "resultSentencesDigest": "76570af662d9df6b8a70169361928eeb35bfed1a9e950128b4e1ff0df29bc7bc",
+      "description": "Repair duplicated fragments, inaccurate option text, a break encoded as a 35-second utterance, and other warning clusters using independent-context retranscription.",
+      "evidence": {
+        "file": "warning-retranscription.json",
+        "model": "faster-whisper large-v3",
+        "run": "baseline-independent",
+        "conditionOnPreviousText": false,
+        "temperature": 0.0,
+        "crossCheck": "conservative"
+      }
+    },
+    {
+      "name": "2010-12-N2-final-overlap-repair.json",
+      "sourceSentencesDigest": "76570af662d9df6b8a70169361928eeb35bfed1a9e950128b4e1ff0df29bc7bc",
+      "resultSentencesDigest": "c5553f85d599fd934dc9f6e89e69b5f0fa8525f0b3667032173b6aae7adb2cef",
+      "description": "Align the preceding report-reference sentence with the independent-context word timestamps to remove the final overlap.",
+      "evidence": {
+        "file": "warning-retranscription.json",
+        "model": "faster-whisper large-v3",
+        "run": "baseline-independent",
+        "conditionOnPreviousText": false
+      }
+    },
+    {
+      "name": "2010-12-N2-corrupt-enrichment-recovery.json",
+      "sourceSentencesDigest": "c5553f85d599fd934dc9f6e89e69b5f0fa8525f0b3667032173b6aae7adb2cef",
+      "resultSentencesDigest": "b86742d7bdb86913bfbfced9fe9053d2c97d13fd775d5668b3a5454e8eb41586",
+      "description": "Recover the question 4-6 and problem 3 block after its Chinese enrichment was irreversibly replaced by question marks; also correct Japanese text and boundaries using two independent-context retranscriptions.",
+      "evidence": {
+        "file": "corrupt-block-retranscription.json",
+        "model": "faster-whisper large-v3",
+        "runs": [
+          "baseline-independent",
+          "conservative"
+        ],
+        "conditionOnPreviousText": false,
+        "temperature": 0.0,
+        "clip": [
+          915,
+          1380
+        ]
+      }
+    },
+    {
+      "name": "2010-12-N2-final-commercial-spotcheck.json",
+      "sourceSentencesDigest": "ac60e24a44d4219ab0222add8547574d17194813ad3a34f880c0a279513130b7",
+      "resultSentencesDigest": "a79662622fc96caa66928840c1e96984e7692045f34eeb3dbfe3ffb0591539d4",
+      "description": "Repair final commercial spot-check failures: standardized 聴解 labels, duplicated or hallucinated prompts, the question 12 response block, the complete problem 5 introduction and school-trip dialogue, and known ASR homophone errors.",
+      "evidence": {
+        "files": [
+          "final-spotcheck-retranscription.json",
+          "final-spotcheck-crosscheck.json",
+          "final-spotcheck-school-crosscheck.json",
+          "final-spotcheck-duplicates.json"
+        ],
+        "models": [
+          "faster-whisper large-v3",
+          "faster-whisper small"
+        ],
+        "conditionOnPreviousText": false,
+        "temperature": 0.0,
+        "beamSizes": [
+          5,
+          10
+        ],
+        "note": "聴解 and obvious grammatical homophones were normalized from the standardized JLPT wording after cross-ASR review."
+      }
+    }
+  ]
+}

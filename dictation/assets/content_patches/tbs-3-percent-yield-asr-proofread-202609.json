@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "description": "tbs-3-percent-yield：LLM 逐句校对发现的 ASR 误识别修正 5 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "517a7298cb75bb4cf37952cb9f968c09768f816aa45b052e217f9a5e26941293",
+  "evidence": {
+    "file": "proofread-work/tbs-3-percent-yield/proofread.json",
+    "proposedFixes": "proofread-work/tbs-3-percent-yield/proposed-fixes.json",
+    "notes": "proofread-work/tbs-3-percent-yield/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 3,
+      "endIndex": 3,
+      "expectedStartTime": 23.75,
+      "expectedEndTime": 33.55,
+      "items": [
+        {
+          "startTime": 23.75,
+          "endTime": 33.55,
+          "sourceText": "アメリカで記者会見した日銀の植田総裁は利上げについて、経済物価金融情勢を点検し",
+          "jaText": "アメリカで記者会見した日銀の植田総裁は利上げについて、経済物価金融情勢を点検し"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 24,
+      "endIndex": 24,
+      "expectedStartTime": 147.3,
+      "expectedEndTime": 151.28,
+      "items": [
+        {
+          "startTime": 147.3,
+          "endTime": 151.28,
+          "sourceText": "今のところ3%乗ったからって店頭から誰も買いたいって来ないですよね",
+          "jaText": "今のところ3%乗ったからって店頭から誰も買いたいって来ないですよね"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 55,
+      "endIndex": 55,
+      "expectedStartTime": 332.64,
+      "expectedEndTime": 335.7,
+      "items": [
+        {
+          "startTime": 332.64,
+          "endTime": 335.7,
+          "sourceText": "池澤さん今回の金利の上昇についてはどんなことを考えていますか",
+          "jaText": "池澤さん今回の金利の上昇についてはどんなことを考えていますか"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 107,
+      "endIndex": 107,
+      "expectedStartTime": 485.27,
+      "expectedEndTime": 488.73,
+      "items": [
+        {
+          "startTime": 485.27,
+          "endTime": 488.73,
+          "sourceText": "新ニーサの対象にすることを検討しているわけです",
+          "jaText": "新ニーサの対象にすることを検討しているわけです"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 133,
+      "endIndex": 133,
+      "expectedStartTime": 578.1,
+      "expectedEndTime": 581.04,
+      "items": [
+        {
+          "startTime": 578.1,
+          "endTime": 581.04,
+          "sourceText": "今株がこれだけ上がっていて投資信託もある中で",
+          "jaText": "今株がこれだけ上がっていて投資信託もある中で"
+        }
+      ]
+    }
+  ]
+}

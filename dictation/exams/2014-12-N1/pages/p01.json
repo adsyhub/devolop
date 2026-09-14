@@ -1,0 +1,238 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "これから<u>概略</u>をご説明します。",
+      "choices": [
+        "がいかく",
+        "きかく",
+        "がいりゃく",
+        "きりゃく"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "面接には、しっかりと準備をして<u>臨みたい</u>と思う。",
+      "choices": [
+        "あからみたい",
+        "いどみたい",
+        "はげみたい",
+        "のぞみたい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "昨日、<u>督促</u>の電話がかかってきた。",
+      "choices": [
+        "さいそく",
+        "とくそく",
+        "さいぞく",
+        "とくぞく"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "春になり、辺りには花の香りが<u>漂い</u>はじめた。",
+      "choices": [
+        "さまよい",
+        "うるおい",
+        "ただよい",
+        "におい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "応募作品を<u>厳正に</u>審査した。",
+      "choices": [
+        "げんせい",
+        "げんしょう",
+        "がんせい",
+        "がんしょう"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "これ以上<u>拒んで</u>もしかたない。",
+      "choices": [
+        "うらんで",
+        "おがんんで",
+        "にくんで",
+        "こばんで"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "議会に提出された条例は、賛成多数で（　　）された。",
+      "choices": [
+        "判別",
+        "採取",
+        "選出",
+        "可決"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "この国に来たころは、言葉も通じず知人もいなくて、とても（　　）気持ちになったものだ。",
+      "choices": [
+        "かすかな",
+        "心細い",
+        "ひそかな",
+        "心無い"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "A社は銀行からの支援によって経営の悪化を何とか（　　）ことができた。",
+      "choices": [
+        "投げ出す",
+        "吸い上げる",
+        "打ち切る",
+        "食い止める"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "この会社の営業部では、社員一人一人に毎週厳しい（　　）が課されている。",
+      "choices": [
+        "キャリア",
+        "ノルマ",
+        "チーフ",
+        "コスト"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "今日の対談は、サッカー選手と物理学者という（　　）の組み合わせで行われる。",
+      "choices": [
+        "異色",
+        "大差",
+        "変形",
+        "遠隔"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "この美しい映像は、コンピュータの最新技術を（　　）して作られたものだ。",
+      "choices": [
+        "駆使",
+        "引用",
+        "充当",
+        "摂取"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "この数年で数々の食品問題が発覚し、食の安全に対する信頼が（　　）はじめた。",
+      "choices": [
+        "震え",
+        "浮かれ",
+        "揺らぎ",
+        "乱れ"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "そのことが一番<u>気掛かり</u>でした。",
+      "choices": [
+        "残念",
+        "意外",
+        "心配",
+        "不満"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "<u>案の定</u>、川西さんは来なかった。",
+      "choices": [
+        "なぜか",
+        "やはり",
+        "あいにく",
+        "たしか"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "公の場で<u>不用意な</u>発言はしないでほしい。",
+      "choices": [
+        "無駄な",
+        "不利な",
+        "無意味な",
+        "不注意な"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "これはかなり<u>厄介な</u>問題だ。",
+      "choices": [
+        "面倒な",
+        "深刻な",
+        "重要な",
+        "特殊な"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 18,
+      "text": "山田氏は当時のことを<u>回想して</u>次のように語った。",
+      "choices": [
+        "反省して",
+        "考え直して",
+        "後悔して",
+        "思い返して"
+      ]
+    }
+  ]
+}

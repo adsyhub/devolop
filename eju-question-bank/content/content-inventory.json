@@ -1,0 +1,5799 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-14T08:52:20.855179Z",
+  "items": [
+    {
+      "inventoryId": "eju-2023-2-science-ja",
+      "session": "2023-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2023年第2回理科试卷（物理/化学/生物） 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedVersionId": "pv_9812c2d408e4411dbc7644b9c2f3e137",
+      "completeness": "PARTIAL",
+      "reviewState": "REVIEWED",
+      "publishedPaperId": "p_67e845ef137de1d07b88270d",
+      "publishedVersion": 2
+    },
+    {
+      "inventoryId": "eju-2024-1-science-ja",
+      "session": "2024-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2024年第1回理科题册已接收，待补充独立答案表 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_65cbff51ec88112d430fc2a1",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_d33f8c99a3744527987ce51f424715bb",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2024-1-math-c1-ja",
+      "session": "2024-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2024年第1回数学Course 1题册已接收 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_fcb67c9d00b172a4c36c3f59",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_6072bb48dcd0491f827b12b116479534",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2024-1-math-c2-ja",
+      "session": "2024-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2024年第1回数学Course 2题册已接收 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_067279feb0bf6bb3d9c72267",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_a85dce96d2de4c7b856e46afde7cab21",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2024-1-japan-world-ja",
+      "session": "2024-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2024年第1回综合科目题册已接收 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_5a5694ffeba062b67e39b2e0",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_4f3045735bcc48548076b2d4daadfa8c",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2024-1-japanese-ja",
+      "session": "2024-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [],
+      "notes": "2024年第1回日本语题册及听力原文已接收，待补充官方音频与答案 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_c4c048e7f9421d00833291df",
+      "publishedVersion": 7,
+      "completeness": "COMPLETE",
+      "publishedVersionId": "pv_0181c68dae844548a14cec708098197a",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2002-1-japanese-ja",
+      "session": "2002-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2002年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_68eaa17d1db0abb18e4335b2",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_6a24f995aa22488798fb01b09d07b869",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2002-1-japan-world-ja",
+      "session": "2002-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2002年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_54d42fff7339b3257307c738",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_b7d432b585744c5f9a2607f8a9bd473e",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2002-1-math-c1-ja",
+      "session": "2002-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2002年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_0a670abd9771a11e742ce55e",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_6d4b6334702a448aab789c41d585c30b",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2002-1-math-c2-ja",
+      "session": "2002-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2002年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_0fcaf0b3132847403f327534",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_6abc0ebead2240d9945e264bdfc66351",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2002-1-science-ja",
+      "session": "2002-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2002年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_488f8242354deba150aedf28",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_8248a0e780114c9aa9ff3eb1ea9c0bc5",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2002-2-japanese-ja",
+      "session": "2002-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2002年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_7308ce9de3eb9574457b354e",
+      "publishedVersion": 6,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_a4b2b4dce28743b080a30b1e3f7805ff",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2002-2-japan-world-ja",
+      "session": "2002-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2002年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_5c6912b3d79d1198a64cc923",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_a680ad9d7ac54715ac12b904b837153e",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2002-2-math-c1-ja",
+      "session": "2002-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2002年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_d6b5dcb3a30d75be42f597f7",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_4858eb0fdd6c4fb69fa391c2dc43c191",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2002-2-math-c2-ja",
+      "session": "2002-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2002年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_29c23c10af8fd33b6279f025",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_4f029e75e6e5473f8da73f3c3b03eff9",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2002-2-science-ja",
+      "session": "2002-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2002年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_8b633ef2f436082eda7fcdae",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_7547b31fffbb43af83603f2e2b5d2775",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2003-1-japanese-ja",
+      "session": "2003-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2003年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_686cd75079a190d75b25d20f",
+      "publishedVersion": 6,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_9665232e8f4b42dd96744d87afe345d0",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2003-1-japan-world-ja",
+      "session": "2003-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2003年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_bcc4ea704f2c15f6003b146b",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_ad1c082ad2814fc6ae512834aac76305",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2003-1-math-c1-ja",
+      "session": "2003-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2003年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_c8d01e54f29ba36020e34094",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_1e08728470714a87abd338176fd306b9",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2003-1-math-c2-ja",
+      "session": "2003-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2003年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_ce21169e566033ead93d7f96",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_68554d6c20bc447f980f5060feabe066",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2003-1-science-ja",
+      "session": "2003-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2003年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_0dec28db99dcc3822e561f07",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_9b1601976c2c4ecbaca61164e94b9caf",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2003-2-japanese-ja",
+      "session": "2003-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2003年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_1e89debe18dce18a25c187ff",
+      "publishedVersion": 6,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_a6fe43db0977490bb90a0cceebf9257f",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2003-2-japan-world-ja",
+      "session": "2003-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2003年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_8c46e9a54a5abcc2aa3a0adb",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_fc1927c048964c2381b9ef75990fb832",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2003-2-math-c1-ja",
+      "session": "2003-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2003年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_2b17a8589eb2e5c7b030b2e2",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_280a8ecac7bc4c5a9151975fa3a491f1",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2003-2-math-c2-ja",
+      "session": "2003-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2003年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_fd6ad6bf5542dab29f059516",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_83c3617266aa49cb93818501be0c9be4",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2003-2-science-ja",
+      "session": "2003-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2003年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_215b373fff91c68177e92bcb",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_c1f1f14b81d34e7fa46d5b8269eb4fa2",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2004-1-japanese-ja",
+      "session": "2004-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [],
+      "notes": "2004年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_5b7eca87d76183a9e16f2cde",
+      "publishedVersion": 6,
+      "completeness": "COMPLETE",
+      "publishedVersionId": "pv_710aa841c8ed47b59ad7cfe881d5c0dd",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2004-1-japan-world-ja",
+      "session": "2004-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2004年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_12212534b14549ea847f7ef8",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_d7008b97365f4603bf113f7997225335",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2004-1-math-c1-ja",
+      "session": "2004-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2004年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_d1add1a9792831154dad0b6c",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_9826bd804d044fdd8d99760f90046a2b",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2004-1-math-c2-ja",
+      "session": "2004-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2004年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_0d6ffab78cfc5b217917ac3a",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_be26cd4c67524092a906193245552094",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2004-1-science-ja",
+      "session": "2004-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2004年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_7ffcd704a0995b47666a6c98",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_0775e40cce314f978c191ca7b106be20",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2004-2-japanese-ja",
+      "session": "2004-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2004年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_cab6a3f40dede911291f2c91",
+      "publishedVersion": 6,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_fdc1c747e1b74068a782c5b11401e0ee",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2004-2-japan-world-ja",
+      "session": "2004-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2004年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_90c7728eb5299ad2134e9fd4",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_b5d586b2fb5b41f79c0f079e59d8a7a2",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2004-2-math-c1-ja",
+      "session": "2004-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2004年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_60f85d16689fc4f99136cbf4",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_87d8be66e6d04891b6ae5f74c07412b3",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2004-2-math-c2-ja",
+      "session": "2004-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2004年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_cd638305dec5ac4e859c23d9",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_e866d1aaae3b41c6802a4a94603aa157",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2004-2-science-ja",
+      "session": "2004-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2004年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_61a5df054f9cdaf94898bd23",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_c63a49e4d5c04748a8112d1b994f3db2",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2005-1-japanese-ja",
+      "session": "2005-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2005年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_4de5d71eaafa0255b3640e97",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_0931a8f369174a678a9bca7a7fd6cf82",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2005-1-japan-world-ja",
+      "session": "2005-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2005年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_bfa77369900891d438c7cc51",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_351897e5534a4fe9a11c5e180fce3a39",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2005-1-math-c1-ja",
+      "session": "2005-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2005年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_0a0f19644111e40df0377c91",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_10062d3f488540fe898a3035e46d60a2",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2005-1-math-c2-ja",
+      "session": "2005-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2005年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_2f54b8850c5fb866fad2b142",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_b204c049915b40d89cb4dc90feb07e5e",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2005-1-science-ja",
+      "session": "2005-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2005年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_bd35c8eb16dfb0f9af8f9c88",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_6f7184b50bcd4d94899aa691f09cf84c",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2005-2-japanese-ja",
+      "session": "2005-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2005年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_b0189451901fdd896feb7844",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_be167d83bb734afb95ba7b4f5f5d2bee",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2005-2-japan-world-ja",
+      "session": "2005-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2005年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_292456aed39ea8b862d6def9",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_427228e35a6f4c99905d777bc2b4b25c",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2005-2-math-c1-ja",
+      "session": "2005-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2005年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_58cf7aa1089f95d2564073a5",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_c53d86d5803d4cc1843d261419b8b45e",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2005-2-math-c2-ja",
+      "session": "2005-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2005年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_90c7fb57e947b286952dac38",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_f0c0f1b5fa4c4ec596e77897e74e8fbc",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2005-2-science-ja",
+      "session": "2005-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2005年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_75e17bbe7cf8dc4f6dc3088c",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_c2697cf5873d43629128e834639d8724",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2006-1-japanese-ja",
+      "session": "2006-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2006年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_e56cce9c74bdae6fb925efe4",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_f83f998f26614f3e980e4f195881ba65",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2006-1-japan-world-ja",
+      "session": "2006-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2006年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_3ef82e87d6a9552fdbbd6bcf",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_aedf6297f2fa424d926299a377f87c5e",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2006-1-math-c1-ja",
+      "session": "2006-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2006年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_c5823a8b45794f48c02c727f",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_287cfeffab8e46b2863ae46febfdf63c",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2006-1-math-c2-ja",
+      "session": "2006-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2006年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_169867918b4cd724d6544232",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_6aa1c6caabf4465aa0e02b3796da88b8",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2006-1-science-ja",
+      "session": "2006-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2006年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_1619e159e0b453801421c61a",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_8c63e25084c841bd934d227b2b199d32",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2006-2-japanese-ja",
+      "session": "2006-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2006年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_99756e6e1546605a78ddb5e5",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_a3ab030f0ffe4d33a7a6ae85d8eabd57",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2006-2-japan-world-ja",
+      "session": "2006-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2006年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_a1b0cc393cb85de9c72436fc",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_9c64e4334bc4403c925391aadc80b67d",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2006-2-math-c1-ja",
+      "session": "2006-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2006年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_8d9f4d66db3cd50c8a179c7b",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_2a357d0f253a466a87d4014c6c8c7fc4",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2006-2-math-c2-ja",
+      "session": "2006-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2006年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_058bdd94833219077e2079ac",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_9e33371fe026421c828f4b767833864a",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2006-2-science-ja",
+      "session": "2006-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2006年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_97d1c4abd9d29682fb8e054b",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_828c6c458261435fbf00cb9416d80acb",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2007-1-japanese-ja",
+      "session": "2007-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2007年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_d02e86f9dfa5b6e5460b696e",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_fb99437d8e554580848233616b12a0a9",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2007-1-japan-world-ja",
+      "session": "2007-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2007年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_f6c5ba12ac633aedfa33091a",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_d11af7956e3244a1b07b216e3b08c515",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2007-1-math-c1-ja",
+      "session": "2007-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2007年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_f1ac4b4fe1f180ce6e9ed113",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_a8edc036242a434abcb0d31030c02fa6",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2007-1-math-c2-ja",
+      "session": "2007-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2007年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_ce44a40ac9c7165612ec7b69",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_baac285d186f4505b29e7e9637945ebc",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2007-1-science-ja",
+      "session": "2007-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2007年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_a71c698aa9273be62df58176",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_fc43e089968b43a4a8c5b8aae97f0af7",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2007-2-japanese-ja",
+      "session": "2007-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2007年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_b11feffee3c166924746afd7",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_c195267c563b428d885d443d2a2cf6e9",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2007-2-japan-world-ja",
+      "session": "2007-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2007年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_86135fb89c91fcc2ff78784f",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_fdcc47f5e76141e0b245f49bf23af88c",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2007-2-math-c1-ja",
+      "session": "2007-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2007年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_04c45698cc4068e3b58a744e",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_4b23cfda9c2447479b22b826d35d68fe",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2007-2-math-c2-ja",
+      "session": "2007-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2007年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_7f089e331c136e4eb0486ef7",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_ab1dbcdb30614cf5953efd110213a56d",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2007-2-science-ja",
+      "session": "2007-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2007年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_c8e6531b1d97a6fe6dfbc5c3",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_2592fc13eeb143969fa0b8f101e51633",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2008-1-japanese-ja",
+      "session": "2008-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2008年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_9981f28afb27fb62c38495c2",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_de76b227de3842f987530beef9e09a8b",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2008-1-japan-world-ja",
+      "session": "2008-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2008年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_141efce578bbd4163ee56a61",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_b9178de0563444a8bc4c9bdb6f232d38",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2008-1-math-c1-ja",
+      "session": "2008-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2008年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_25f10d9560304fd52cc76971",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_56e3e57beded4fafbd44b21a4a98c337",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2008-1-math-c2-ja",
+      "session": "2008-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2008年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_0bd1dda2aa64a59910ff2457",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_1dde1eb4edfe495e928612e98d9d987d",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2008-1-science-ja",
+      "session": "2008-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2008年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_02bd0fd1f1ba211820a1f738",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_4b07ee74d8e04c8f8f4b391e51f87b85",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2008-2-japanese-ja",
+      "session": "2008-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2008年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_09534425c7bbb8e3f13f0b21",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_b5df018b15764944ab54486fdc52962a",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2008-2-japan-world-ja",
+      "session": "2008-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2008年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_78c13fa3a9b682ca5b8ac805",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_b2b30b20d5b542bba9237a4385bbe6b6",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2008-2-math-c1-ja",
+      "session": "2008-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2008年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_8d9b3f700467f9ec7d56914d",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_a61f05612fe541a7a5a5aab53a77f036",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2008-2-math-c2-ja",
+      "session": "2008-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2008年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_07325c38dbe151e3e6d74eb8",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_cc7f7f21ffe544889f72007c19d815e0",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2008-2-science-ja",
+      "session": "2008-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2008年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_b009fd6dc7a786ec980468a9",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_e717b08987674cbe8885c3a9fcca3f31",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2009-1-japanese-ja",
+      "session": "2009-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2009年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_a3706458860a6119c1f388c2",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_9b0cfa82ac0746a5af4508255f320093",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2009-1-japan-world-ja",
+      "session": "2009-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2009年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_e4118be7c23b308f93d1441b",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_8e20c70b9e56445cae4963064863bf37",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2009-1-math-c1-ja",
+      "session": "2009-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2009年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_16b832a5700e8a654ba4e34e",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_f8ded14894cf4f99a972721d90f1957e",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2009-1-math-c2-ja",
+      "session": "2009-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2009年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_adc43f7a789e45a7084e4fce",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_2020a83483ff466ea4f0cf626a940fec",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2009-1-science-ja",
+      "session": "2009-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2009年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_a05d69437b52be23752b7e2f",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_8513d90e76ba40bc998bc56dafee21b4",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2009-2-japanese-ja",
+      "session": "2009-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2009年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_278b177c87c4511133e6fc9c",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_81678abecc0c46d38d0a5d980bca7fc8",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2009-2-japan-world-ja",
+      "session": "2009-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2009年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_733f04283a6000979b042be4",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_b037b6ca995b4316ba846d76b17db6e8",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2009-2-math-c1-ja",
+      "session": "2009-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2009年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_c4ed017265b6bd4280ece32b",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_50951b84eb7349fbb06283da275fed7b",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2009-2-math-c2-ja",
+      "session": "2009-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2009年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_3c0a023ebffe48645a52e588",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_2cfca9ce7c4845298fbed5a93b780053",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2009-2-science-ja",
+      "session": "2009-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2009年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_67037de8e860d0398964959c",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_af4faf8acbad45a5a5967e413e6fdce8",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2010-1-japanese-ja",
+      "session": "2010-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2010年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_ccd747dd04ed83eec22904e3",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_83646b4640ef44b49165dbe9c2b8e86e",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2010-1-japan-world-ja",
+      "session": "2010-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2010年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_b76d5cfbb04bac406e1d9144",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_943e412f3c4445c38e3def9aa4ddcec6",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2010-1-math-c1-ja",
+      "session": "2010-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2010年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_b4677e8bed234f2e087abdc5",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_cf1f4da491cf40158fd62e6b9bc677e3",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2010-1-math-c2-ja",
+      "session": "2010-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2010年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_b241c732de1cb72851ec32cc",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_d4578a8a27634bbaa7d30522edee646e",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2010-1-science-ja",
+      "session": "2010-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2010年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_38bd4856b675e037582f3485",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_b406b20d4b094f03a8d5aeae4d83666c",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2010-2-japanese-ja",
+      "session": "2010-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2010年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_d744a11ae5963dea0ab6e5f3",
+      "publishedVersion": 6,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_87973b2fe5aa4476b0db8ce6c26cd88d",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2010-2-japan-world-ja",
+      "session": "2010-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2010年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_8a0dbe8b9ad90bec3fde6b92",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_a080d2c94dbb484fb7b0c32df66d7c56",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2010-2-math-c1-ja",
+      "session": "2010-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2010年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_008494373bb98196703da225",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_dfea554ff6074ba79a8bf5e4d84e62ee",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2010-2-math-c2-ja",
+      "session": "2010-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2010年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_02d495f6dedb74d84df84e73",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_f7aba02b31d9438798ea9e69ae33804d",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2010-2-science-ja",
+      "session": "2010-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2010年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_366a0e7acd1d7e5a816eec21",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_6f4510673fe946c591b11dc9e37c2917",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2011-1-japanese-ja",
+      "session": "2011-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2011年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_52c7f148f8c0c9979721eacd",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_eb7cf676d5704392bd6019892ecb5b49",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2011-1-japan-world-ja",
+      "session": "2011-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2011年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_d20fd6b0006ea007f686c3cd",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_06c8dac090724480995dada42818a297",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2011-1-math-c1-ja",
+      "session": "2011-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2011年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_b71549ea5a00b9c41cb46617",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_08dc908f0a7f467e85a4efcbd9d609af",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2011-1-math-c2-ja",
+      "session": "2011-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2011年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_c0e5ff7729909e4d5ded57fa",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_b42fdce2aad14b318aa1fcd464637100",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2011-1-science-ja",
+      "session": "2011-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2011年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_03b37aaae1138bee1834db26",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_3b717395abc8491282349919e83fdeea",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2011-2-japanese-ja",
+      "session": "2011-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2011年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_c2aa7139e5b438430ca56edd",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_288f842b834e46648cfe8c97e064301c",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2011-2-japan-world-ja",
+      "session": "2011-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2011年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_ab66ed40fadb3d5f7e716072",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_9c7c65044dd14767b630be64507d045b",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2011-2-math-c1-ja",
+      "session": "2011-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2011年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_fc975dc574489af20b6ebc36",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_b5ad059862524229b7331687757e3dd3",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2011-2-math-c2-ja",
+      "session": "2011-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2011年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_05cb67fea036293a96f53327",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_d8e502a92f094351b6a6d203444b7333",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2011-2-science-ja",
+      "session": "2011-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2011年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_b27f1bfa20bae39ebbb2ebb2",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_40eceaa52f92489e8f23166e47864840",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2012-1-japanese-ja",
+      "session": "2012-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2012年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_d13ff74eab80129a0e1f875a",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_bb1f7cb11ffb4ddc9ba537aee740a6a7",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2012-1-japan-world-ja",
+      "session": "2012-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2012年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_7520004c900b45fcae2ee05d",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_2acb649c80d64a47af4c5cf20791923e",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2012-1-math-c1-ja",
+      "session": "2012-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2012年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_472574df2541a74e2b5ce871",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_a7809d1cc7154a27b8189cc4145051fa",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2012-1-math-c2-ja",
+      "session": "2012-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2012年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_242148db98e0fdde4db272c5",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_96940d8516aa4c80b0893500fbd390c6",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2012-1-science-ja",
+      "session": "2012-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2012年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_5fb5d105d3a76c0ffe46f388",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_68e8d5c7673341f9a6f7793df896c49f",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2012-2-japanese-ja",
+      "session": "2012-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2012年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_a1bd72ab978a7805259417ae",
+      "publishedVersion": 6,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_f164f4d5fca54a0296431709440ffb27",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2012-2-japan-world-ja",
+      "session": "2012-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2012年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_4aefe17a7f8685c7e3ea19ae",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_703c10d7bb584d6ca2f307a8e96cc70d",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2012-2-math-c1-ja",
+      "session": "2012-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2012年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_511a5dfa44bd5d00767fc5af",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_78fb717f58d44edb8942836bf16bd1cc",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2012-2-math-c2-ja",
+      "session": "2012-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2012年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_5d209b38b541ee9892ac98d4",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_624cbe91f51540eeb53cdaadffbf756f",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2012-2-science-ja",
+      "session": "2012-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2012年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_46304ecd147a3c5c1259e773",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_fa741462455448a3ab277ec6fc2cc615",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2013-1-japanese-ja",
+      "session": "2013-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2013年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_b78bec0dd44bb061d846bc31",
+      "publishedVersion": 6,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_a2d59828c5b149b6b1553606f2edd643",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2013-1-japan-world-ja",
+      "session": "2013-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2013年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_c3285fd85fcc7fd9d6e7cb3d",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_4046c47ca9104766b54f9a096111bdc6",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2013-1-math-c1-ja",
+      "session": "2013-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2013年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_abd5e263aca814eb98139154",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_acd7638bb67a41ea8d006ff341c92c93",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2013-1-math-c2-ja",
+      "session": "2013-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2013年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_05b6a969134d8c5d363de634",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_d4bed084616a49e1b1c4862f08899389",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2013-1-science-ja",
+      "session": "2013-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2013年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_0c2d183a88f8cc62fccef850",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_a2401f664d6140a6b911cf63f4a51b02",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2013-2-japanese-ja",
+      "session": "2013-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2013年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_fd84d2aca24d0384cef56104",
+      "publishedVersion": 6,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_f82b0f068a034af297e642ccf0427c8f",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2013-2-japan-world-ja",
+      "session": "2013-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2013年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_cd9dad9a7651938a92660be2",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_76d667a8ae81482390bba5dfd2beec40",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2013-2-math-c1-ja",
+      "session": "2013-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2013年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_ab73e510d2e349253cf5f227",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_85c9bb6639f84e46b6e5855a7975fae4",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2013-2-math-c2-ja",
+      "session": "2013-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2013年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_764e8dc5d6d1a28a33a83c3e",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_108cefc55c3b4024bc10161d15b61a47",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2013-2-science-ja",
+      "session": "2013-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2013年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_11154e2682b42133bc0629bf",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_2e1720a65dfd4d17bbff00e63630e3e7",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2014-1-japanese-ja",
+      "session": "2014-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [],
+      "notes": "2014年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_d01cb5749662a099964b9ccd",
+      "publishedVersion": 5,
+      "completeness": "COMPLETE",
+      "publishedVersionId": "pv_364d02d7c4e847fd94d2bee867b5bf98",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2014-1-japan-world-ja",
+      "session": "2014-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2014年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_63c8592317169fe050060121",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_3dbdacb373664ab1ad4c5de51d858854",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2014-1-math-c1-ja",
+      "session": "2014-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2014年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_7e5ce9e88cc4a766b7dde06b",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_b3ee8a8d38894cc285192b40174a918c",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2014-1-math-c2-ja",
+      "session": "2014-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2014年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_a270768b4bdd0a0faec84c5a",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_d7e1e9434beb4e3ba469ec21b0632bd6",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2014-1-science-ja",
+      "session": "2014-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2014年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_9c9c29755c6d617e82bb1f6d",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_1db1d2465e454cd1a1ce84fb93922cc6",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2014-2-japanese-ja",
+      "session": "2014-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2014年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_c7a0d79f56918c2a5b7ad9cd",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_ca83d22ed8af49d8a65ecf48e4a1148c",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2014-2-japan-world-ja",
+      "session": "2014-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2014年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_0eec519312886315eea2a4fe",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_8dc82daa9f0b447bad3b4c555ac2c943",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2014-2-math-c1-ja",
+      "session": "2014-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2014年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_d0ba103fa531eb871e711b73",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_a339c28c27824f28a2901c53f19c6b4a",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2014-2-math-c2-ja",
+      "session": "2014-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2014年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_ee23711f1ea1154a54761e41",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_6ff25a4c4cef4236bb6be3bafdc3f772",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2014-2-science-ja",
+      "session": "2014-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2002",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2014年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_39d9072346dfb6e2af29f107",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_8bd20a0b60424b7d9f342ad1925878f1",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2015-1-japanese-ja",
+      "session": "2015-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2015年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_4a57f276eaab06bf41c0c832",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_c61584f7cd6945408e56fa644a375f01",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2015-1-japan-world-ja",
+      "session": "2015-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2015年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_2bf1c231884aa3632077947d",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_8cd4cbd9f4b94bad82ef8ae6cd06a82e",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2015-1-math-c1-ja",
+      "session": "2015-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2015年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_f059b9b686321ea519592db9",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_c6a260201c5643feb9ffb649adf45731",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2015-1-math-c2-ja",
+      "session": "2015-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2015年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_119ed18ab04518f4ca466139",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_05e11ae5b3e141629149dcb9acbbe926",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2015-1-science-ja",
+      "session": "2015-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2015年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_7d7169394ada7141442c7860",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_16a2569d5e934fa0a4e833c74bd0f3a3",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2015-2-japanese-ja",
+      "session": "2015-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [],
+      "notes": "2015年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_4d07a019ee27a54a81926990",
+      "publishedVersion": 5,
+      "completeness": "COMPLETE",
+      "publishedVersionId": "pv_00f5ffb0ce02453580a9d46e4d3709bf",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2015-2-japan-world-ja",
+      "session": "2015-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2015年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_625ceddf191d794f61e4fbf3",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_6fb7b6c8a9154a88b2b87b50edfc8fdb",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2015-2-math-c1-ja",
+      "session": "2015-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2015年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_fd2f9754d929d580aaf45916",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_e3eabc40d4314d779f911315a0ee2e91",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2015-2-math-c2-ja",
+      "session": "2015-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2015年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_55a84123d5cd4509dede90c6",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_086d50630d4745b5bfd540220ad05854",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2015-2-science-ja",
+      "session": "2015-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2015年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_fd019305d2eb8ab35af702aa",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_b5b72569739e4664931d7d7ea3ab536d",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2016-1-japanese-ja",
+      "session": "2016-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2016年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_2a1b037969a3375c463ecd06",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_22fca050a3874e1cad8e04340a30cf06",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2016-1-japan-world-ja",
+      "session": "2016-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2016年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_e8ff73a197f2fd776b4ed82e",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_17a154c927fc4a568dd5c29be4eba013",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2016-1-math-c1-ja",
+      "session": "2016-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2016年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_75d86ee78283626b1502beda",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_4059b5546a2743a7aa7eeb8370f1c437",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2016-1-math-c2-ja",
+      "session": "2016-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2016年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_9a2b12c99694638a8f6e88b9",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_b9a5aea942374aebaa1788d446b17e2b",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2016-1-science-ja",
+      "session": "2016-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2016年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_6c4c152b436b02113901e831",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_07d95ac352ee49c299d87a440a57581f",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2016-2-japanese-ja",
+      "session": "2016-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2016年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_09d48b076d11888162bdaffa",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_67cb030bcc5546989d4140ed73c0e2ca",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2016-2-japan-world-ja",
+      "session": "2016-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2016年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_48ed62f0bfe3b0b1bcae6c6b",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_16c5805b86604fb0a99bd647650ed813",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2016-2-math-c1-ja",
+      "session": "2016-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2016年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_7a456ec8b1b6e73aebb5be6e",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_c2ddea5e847f40868d7211ae30a4c3fb",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2016-2-math-c2-ja",
+      "session": "2016-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2016年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_b496c8b9e99ed19a7188f9bb",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_4cb7e5c201fd4f459f73d5ed4b4d6420",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2016-2-science-ja",
+      "session": "2016-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2016年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_4087afd38351e74ca4e5e608",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_a3630664cd294b70b1bc1103ca7d4036",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2017-1-japanese-ja",
+      "session": "2017-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2017年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_99ecad16e3f3c090e6092675",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_51d79a3b22374ac4a4806fcd3fb41691",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2017-1-japan-world-ja",
+      "session": "2017-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2017年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_90414ef24ddb51889d5e5609",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_aefff9744b694f0bb2cb68e0f472b3c3",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2017-1-math-c1-ja",
+      "session": "2017-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2017年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_c2c996756e39b75f78f56e6f",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_d54a891dde0c4534b9c5d6b4ebc53cce",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2017-1-math-c2-ja",
+      "session": "2017-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2017年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_bb0c3429e8670b13022d7a0f",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_15f8d61f3dd543cd978ca81a2af1871d",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2017-1-science-ja",
+      "session": "2017-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2017年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_c387e06095251c481efa437e",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_287a568fece34aa797317498e52dbfac",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2017-2-japanese-ja",
+      "session": "2017-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2017年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_be054ecca2a583404264da16",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_03342d24bbfe4a4d8f1703acf7e532aa",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2017-2-japan-world-ja",
+      "session": "2017-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2017年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_1c82acc11cc69708ad219917",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_f6171f2803f64cbd8f2a51ee25650ed1",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2017-2-math-c1-ja",
+      "session": "2017-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2017年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_c56d486cc46f8c7aa5a967c7",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_533572a3da0549a1ab302b2d264a7c06",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2017-2-math-c2-ja",
+      "session": "2017-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2017年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_607086bff419637a931a2932",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_3b5410affc4643b2bccacc36e396f6c3",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2017-2-science-ja",
+      "session": "2017-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2017年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_a139d03850f0f31d95a960e2",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_4db39c3cf47b43adbbab5c43e3ef2024",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2018-1-japanese-ja",
+      "session": "2018-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2018年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_f5bb2ddef9d1b6cf192f4370",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_3c78748266e543759e7f760c0695122a",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2018-1-japan-world-ja",
+      "session": "2018-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2018年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_7cdd7ea29eeba5d3295bcdb1",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_e7cf0f9f1b00466ea25b70f22177a171",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2018-1-math-c1-ja",
+      "session": "2018-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2018年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_fb9d16fd6eac5123ebe22eb7",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_5bbadf57d59a4b83a8a4f4b6935329d5",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2018-1-math-c2-ja",
+      "session": "2018-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2018年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_19b1637da3c9a66dd7eb43cd",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_b0250392a60e42ef9299fb7970441117",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2018-1-science-ja",
+      "session": "2018-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2018年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_8b92b10d1313f7d3768c0b19",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_c3ea6d19f38e434aa94ddcfb56c6af03",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2018-2-japanese-ja",
+      "session": "2018-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2018年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_3ca3ed8cc0ee369ce34ea20e",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_0c2fb56f9d2449e6a6bca57dcadfa287",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2018-2-japan-world-ja",
+      "session": "2018-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2018年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_df8f7070e36e3cdd59036380",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_8e81c1d357a846579b912c5da17c2bff",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2018-2-math-c1-ja",
+      "session": "2018-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2018年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_378a2cdf0eca1f9aeb87e788",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_8f3480a91c844fe5929dd2a1fa3b858c",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2018-2-math-c2-ja",
+      "session": "2018-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2018年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_37e2e24034ca2bac2b31c549",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_1c57687230d54e4da8f9abb81e96539c",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2018-2-science-ja",
+      "session": "2018-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2018年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_065a20f15fe072f68c295dcc",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_e5c4d801ff7d4db0bc844cde03f6b2ad",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2019-1-japanese-ja",
+      "session": "2019-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2019年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_eeeaee996ae4b9cd0076732b",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_33fa362e1ecb4cc28e8854f7cfc233c8",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2019-1-japan-world-ja",
+      "session": "2019-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2019年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_62d4a4c337045874ba6d26cb",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_6ae09bbf249642d2a78ebdb64f1aee21",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2019-1-math-c1-ja",
+      "session": "2019-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2019年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_fc8789958e97e8ea5a23c2b9",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_375b59f3ba3c4722a1e8fe5948f636d3",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2019-1-math-c2-ja",
+      "session": "2019-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2019年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_39bb622e880761e6f4290bc9",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_636be34edec5450e9abfb2ed6103f426",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2019-1-science-ja",
+      "session": "2019-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2019年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_ef71c3c9d2f2bb3c2b81618d",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_46a72d5f00484dc5bc357f514c9479b9",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2020-2-japanese-ja",
+      "session": "2020-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2020年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_9bdfbd57c02876f8e7754d25",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_fbcbf038dd9c4befb576c7092f08cbae",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2020-2-japan-world-ja",
+      "session": "2020-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2020年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_5a27b741839e66ea3a8c2889",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_2e89546688bf4ca6a41b2af7fd7c58fd",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2020-2-math-c1-ja",
+      "session": "2020-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2020年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_02784d7ff736df068b50b56d",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_d49231f83def4de8b3df79bd94389d4f",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2020-2-math-c2-ja",
+      "session": "2020-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2020年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_d65a06c4fdd7541a5e1f1b18",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_0f0156a1296b4072be3626e69c78926e",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2020-2-science-ja",
+      "session": "2020-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2020年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_37319b6418555ef8be72c762",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_ec9b1976adf44d6e8865ee66c8fe2055",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2021-1-japanese-ja",
+      "session": "2021-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2021年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_4d595975cd480ab8233d8c50",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_26ae0cee560949be95a0bacc6b52c70a",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2021-1-japan-world-ja",
+      "session": "2021-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2021年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_e7006c7acecc1462e48949d0",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_2e471244aa7948f58bf28bb208692e93",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2021-1-math-c1-ja",
+      "session": "2021-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2021年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_d64d2c717cae1e79944f85b8",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_ca991a49e5104f0bbbb639e3f579601a",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2021-1-math-c2-ja",
+      "session": "2021-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2021年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_e3f6ab7c4a78a8ae4418a95d",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_f510a4c11aee4d5d8f3af6d0cf819579",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2021-1-science-ja",
+      "session": "2021-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2021年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_3f8220c8ff50fca626e00fcb",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_fb066bd52ab249dcadad21fb7685ca61",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2021-2-japanese-ja",
+      "session": "2021-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2021年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_a4393555f5fd5a00d2c406e7",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_5eb3171f23324547ba7cfef88039e6ae",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2021-2-japan-world-ja",
+      "session": "2021-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2021年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_91516c50cc81b3251918bd63",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_9f3fb66ff28d45fbb4d76850e586d9de",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2021-2-math-c1-ja",
+      "session": "2021-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2021年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_c43d29446f8a29ea67727a0f",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_bd033d290e6c4d9fa4b128e821fb99a3",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2021-2-math-c2-ja",
+      "session": "2021-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2021年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_5e72cfe6a9e1e602f9c4cb7c",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_959b7d09fde341798e702f3ac54be11d",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2021-2-science-ja",
+      "session": "2021-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2021年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_6a27ccee3cfa28735278db31",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_811d75577b1c4f65bd686a69f86f43a1",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2022-1-japanese-ja",
+      "session": "2022-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2022年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_3b134d20b680aa64f546aeb2",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_4e5ea60a16404f379395b257a502319f",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2022-1-japan-world-ja",
+      "session": "2022-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2022年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_0071df3b61ffa407e619cf01",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_ead07070e19e443b922b7da810510178",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2022-1-math-c1-ja",
+      "session": "2022-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2022年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_fabbf3945bbd2749242f26a6",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_d30c6433abae4d4c8f1ee2e3d1c6e17e",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2022-1-math-c2-ja",
+      "session": "2022-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2022年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_c60d495cf50d3d2aed455bc1",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_80017c9c46824ec7a71e773d6bf01c63",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2022-1-science-ja",
+      "session": "2022-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2022年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_253c94c42adc995f3607d490",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_6e45bc5024a149f3bae4e96ba28fbc7c",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2022-2-japanese-ja",
+      "session": "2022-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2022年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_88d228f98cfe3d3d77009e79",
+      "publishedVersion": 5,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_6be00871085a404f9ce299d5a312aa0b",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2022-2-japan-world-ja",
+      "session": "2022-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2022年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_e3312abc1235b9aa8f54f170",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_488f38904f914b869ff86c2056dc0bdc",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2022-2-math-c1-ja",
+      "session": "2022-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2022年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_6ae56b2518c1d82ab9ff6dbb",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_8baa398d403c478ca079742762124d99",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2022-2-math-c2-ja",
+      "session": "2022-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2022年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_b5918eb26f27c1c116d522f1",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_be2354e78e514d51bbb32b229bbc7943",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2022-2-science-ja",
+      "session": "2022-2",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2022年第2回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_b87eaf36758f7fe1f6121057",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_a3a84d2beb8c4eabae50a1f74fdb9455",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2023-1-japanese-ja",
+      "session": "2023-1",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [],
+      "notes": "2023年第1回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_c708894e9c93424b854c3695",
+      "publishedVersion": 7,
+      "completeness": "COMPLETE",
+      "publishedVersionId": "pv_1696e168f5f64b6d9fa67f1f098ed5de",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2023-1-japan-world-ja",
+      "session": "2023-1",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2023年第1回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_cdc442977ff5b2f2a2960179",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_938a00d9ebac432e9bb3e004bfe318a1",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2023-1-math-c1-ja",
+      "session": "2023-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2023年第1回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_eea82dc44f549cc4829d77b0",
+      "publishedVersion": 3,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_284946b021a642c6b0c318150ce5d8ab",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2023-1-math-c2-ja",
+      "session": "2023-1",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2023年第1回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_4ea141924b08369043819b68",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_3607fab754a244f08bb564127975e944",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2023-1-science-ja",
+      "session": "2023-1",
+      "subject": "SCIENCE",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "PHYSICS_JA",
+        "CHEMISTRY_JA",
+        "BIOLOGY_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2023年第1回 SCIENCE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_e7460cd8f67c8e1739d4e8ec",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_b3ae2b44c62b431cbe780989ddc24717",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2023-2-japanese-ja",
+      "session": "2023-2",
+      "subject": "JAPANESE",
+      "language": "ja",
+      "syllabusId": "japanese-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY",
+        "AUDIO"
+      ],
+      "optionalFiles": [
+        "TRANSCRIPT"
+      ],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPANESE_JA"
+      ],
+      "blockingIssues": [],
+      "notes": "2023年第2回 JAPANESE 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_6b8449917bbd4e2e3801d506",
+      "publishedVersion": 7,
+      "completeness": "COMPLETE",
+      "publishedVersionId": "pv_5e0290761b034829b42a85f04674f460",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2023-2-japan-world-ja",
+      "session": "2023-2",
+      "subject": "JAPAN_AND_WORLD",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "JAPAN_AND_WORLD_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2023年第2回 JAPAN_AND_WORLD 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_1d5e07a68b2e03533dd200b3",
+      "publishedVersion": 1,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_017664ff8773401f8413d73c0d4b6c38",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2023-2-math-c1-ja",
+      "session": "2023-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_1_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2023年第2回 MATHEMATICS Course 1 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_40331f4f181c8d1549448bbc",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_98dd1ebd591348c9a92adace901b77d7",
+      "reviewState": "REVIEWED"
+    },
+    {
+      "inventoryId": "eju-2023-2-math-c2-ja",
+      "session": "2023-2",
+      "subject": "MATHEMATICS",
+      "language": "ja",
+      "syllabusId": "basic-2015",
+      "requiredFiles": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "optionalFiles": [],
+      "rightsStatus": "PRIVATE_STUDY",
+      "pipelineStatus": "PUBLISHED",
+      "expectedForms": [
+        "MATHEMATICS_COURSE_2_JA"
+      ],
+      "blockingIssues": [
+        "PARTIAL_CONTENT"
+      ],
+      "notes": "2023年第2回 MATHEMATICS Course 2 流水线状态已从 PUBLISHED 纠正为 RECEIVED：此前的发布未经复核签署。",
+      "publishedPaperId": "p_7b6ce6d42ccca33e3d22f3a0",
+      "publishedVersion": 2,
+      "completeness": "PARTIAL",
+      "publishedVersionId": "pv_68bb4947bef340ec95462998858cf394",
+      "reviewState": "REVIEWED"
+    }
+  ]
+}

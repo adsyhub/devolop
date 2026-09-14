@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "type": "commercial-content-rights-ledger",
+  "status": "in_progress",
+  "courseId": "c_3184b14ea9048121a2f73f96",
+  "contentRevision": "7a3ef783de1b52326ed013645332b7a7d96ad361c05c685c595d3ed865e01fe2",
+  "sourceAudioSha256": "5f41e2ac3a4100b4fa2f38d7a93d76b1402d3625201a3953b9dd77b5fe94c614",
+  "approvedBy": "",
+  "approvedAt": null,
+  "legalAttestation": false,
+  "assets": [
+    {
+      "assetId": "course-audio",
+      "assetTypes": [
+        "audio"
+      ],
+      "source": "",
+      "rightsHolder": "",
+      "licenseBasis": "",
+      "commercialUse": false,
+      "derivativeWorks": false,
+      "territories": [],
+      "validFrom": "",
+      "validUntil": null,
+      "takedownContact": "",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "assetId": "course-explanation",
+      "assetTypes": [
+        "explanation"
+      ],
+      "source": "",
+      "rightsHolder": "",
+      "licenseBasis": "",
+      "commercialUse": false,
+      "derivativeWorks": false,
+      "territories": [],
+      "validFrom": "",
+      "validUntil": null,
+      "takedownContact": "",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "assetId": "course-questions",
+      "assetTypes": [
+        "questions"
+      ],
+      "source": "",
+      "rightsHolder": "",
+      "licenseBasis": "",
+      "commercialUse": false,
+      "derivativeWorks": false,
+      "territories": [],
+      "validFrom": "",
+      "validUntil": null,
+      "takedownContact": "",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "assetId": "course-transcript",
+      "assetTypes": [
+        "transcript"
+      ],
+      "source": "",
+      "rightsHolder": "",
+      "licenseBasis": "",
+      "commercialUse": false,
+      "derivativeWorks": false,
+      "territories": [],
+      "validFrom": "",
+      "validUntil": null,
+      "takedownContact": "",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "assetId": "course-translation",
+      "assetTypes": [
+        "translation"
+      ],
+      "source": "",
+      "rightsHolder": "",
+      "licenseBasis": "",
+      "commercialUse": false,
+      "derivativeWorks": false,
+      "territories": [],
+      "validFrom": "",
+      "validUntil": null,
+      "takedownContact": "",
+      "status": "pending",
+      "evidence": []
+    }
+  ]
+}

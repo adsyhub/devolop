@@ -1,0 +1,17 @@
+{
+  "page": 25,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "60 2心配はいりませんとあるが、なぜか。\n1 根から吸収された水で、果実が甘みや旨みのもとをつくるから\n2 葉が水を吸収し、果実に甘みや旨みのもとを送るから\n3 果実が大きくなれば、甘みや旨みを蓄えることができるから\n4 大きくなった葉が、光を使って甘みや旨みのもとをつくるから"
+    }
+  ],
+  "pageLabel": "23",
+  "issues": [
+    "Choice-looking line with no question open: '1 根から吸収された水で、果実が甘みや旨みのもとをつくるから'",
+    "Choice-looking line with no question open: '2 葉が水を吸収し、果実に甘みや旨みのもとを送るから'",
+    "Choice-looking line with no question open: '3 果実が大きくなれば、甘みや旨みを蓄えることができるから'",
+    "Choice-looking line with no question open: '4 大きくなった葉が、光を使って甘みや旨みのもとをつくるから'"
+  ]
+}

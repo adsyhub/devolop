@@ -1,0 +1,32 @@
+{
+  "name": "多语听写练习",
+  "short_name": "多语听写",
+  "description": "可离线使用的多语逐句精听与听写练习。",
+  "id": "./",
+  "lang": "zh-Hans-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f5ef",
+  "theme_color": "#0d332c",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

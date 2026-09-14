@@ -1,0 +1,83 @@
+{
+  "page": 2,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　の言葉の読み方として、最もよいものを1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "佐藤選手がゴールを決めたとき、観客は絶叫した。",
+      "questionNumber": 1,
+      "choices": [
+        "せっきょう",
+        "せっきょう",
+        "せっきゅう",
+        "せっきゅう"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "背後から物音が聞こえた。",
+      "questionNumber": 2,
+      "choices": [
+        "はいご",
+        "はいこう",
+        "せいご",
+        "せいこう"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "将来の抱負を述べる。",
+      "questionNumber": 3,
+      "choices": [
+        "ほうふ",
+        "ほうぶ",
+        "ほふ",
+        "ほぶ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "人を侮ってはいけない。",
+      "questionNumber": 4,
+      "choices": [
+        "からかって",
+        "ののしって",
+        "あなどって",
+        "うらぎって"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "相手がわかるように、筋道を立てて説明した。",
+      "questionNumber": 5,
+      "choices": [
+        "きんどう",
+        "すじどう",
+        "きんみち",
+        "すじみち"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "その小説の主人公は、奔放な性格をしている。",
+      "questionNumber": 6,
+      "choices": [
+        "はんぽう",
+        "ぼんぽう",
+        "ほんぽう",
+        "ばんぽう"
+      ]
+    }
+  ],
+  "issues": []
+}

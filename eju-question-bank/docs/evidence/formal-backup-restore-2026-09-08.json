@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-09-08T00:29:59.064523Z",
+  "comparisonSnapshot": "library/backups/before-source-correction-20260908T002243Z.db",
+  "historicalRowsUnchanged": true,
+  "tables": {
+    "paper_versions": {
+      "count": 1,
+      "sha256": "4e7b0fa8b4b6c18dcf8f9376174533797f4cf6a7b56dcf4dea0aa34288e4c372"
+    },
+    "question_versions": {
+      "count": 57,
+      "sha256": "753da32edaf63e1437ded108d49eaf2de858ea07fbc3c42565be32d3b3ee4eea"
+    },
+    "practice_sessions": {
+      "count": 6,
+      "sha256": "4d7601a414bb33ca51339d4eb9b087f9d5611f1cdaac00c2ec40aa5bb11b3164"
+    },
+    "responses": {
+      "count": 5,
+      "sha256": "8e28d8deccd75d7441e01b0f7d396f7e2fd365b6a250d32204bc87fd30558969"
+    },
+    "results": {
+      "count": 5,
+      "sha256": "e9f0c6d24c51061620395d794dd2059e22aa20264574387d27a20c32bc7e6a10"
+    }
+  },
+  "fullBackup": "library/backups/eju_backup_2026-09-08T00-29-53-579324Z.zip",
+  "backupSha256": "bc2715de25c0d65f2884d2721e8b65b49cb828d040a62e207a6e1b9f55573127",
+  "backupEntries": 194,
+  "restore": {
+    "integrity": "ok",
+    "foreignKeyViolations": 0,
+    "schemaVersion": 8,
+    "deliveryStates": [
+      "REVIEW_REQUIRED"
+    ],
+    "historyReadable": 6
+  },
+  "note": "Restore exercised in a separate temporary directory. No source review or publication was approved."
+}

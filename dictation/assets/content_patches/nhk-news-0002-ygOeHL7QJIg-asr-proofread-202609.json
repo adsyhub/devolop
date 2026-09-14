@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "description": "nhk-news-0002-ygOeHL7QJIg：LLM 逐句校对发现的 ASR 误识别修正 2 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "26c4500e3b2b4abe4ff0df1df4e055a017f7cf0b7469f3b2724dc9cb1974e89c",
+  "evidence": {
+    "file": "proofread-work/nhk-news-0002-ygOeHL7QJIg/proofread.json",
+    "proposedFixes": "proofread-work/nhk-news-0002-ygOeHL7QJIg/proposed-fixes.json",
+    "notes": "proofread-work/nhk-news-0002-ygOeHL7QJIg/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 0,
+      "endIndex": 0,
+      "expectedStartTime": 0.52,
+      "expectedEndTime": 3.789,
+      "items": [
+        {
+          "startTime": 0.52,
+          "endTime": 3.789,
+          "sourceText": "今日の債券市場では国債を売る動きが広がり、",
+          "jaText": "今日の債券市場では国債を売る動きが広がり、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 1,
+      "endIndex": 1,
+      "expectedStartTime": 4.4,
+      "expectedEndTime": 10.669,
+      "items": [
+        {
+          "startTime": 4.4,
+          "endTime": 10.669,
+          "sourceText": "午後0時半過ぎ長期金利の代表的な指標である10年もの国債の利回りが",
+          "jaText": "午後0時半過ぎ長期金利の代表的な指標である10年もの国債の利回りが"
+        }
+      ]
+    }
+  ]
+}

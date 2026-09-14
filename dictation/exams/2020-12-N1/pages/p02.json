@@ -1,0 +1,136 @@
+{
+  "page": 2,
+  "pageLabel": "2",
+  "blocks": [
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "今年のマラソン大会は、天候不良により数日前から開催が（　　）いたが、当日は無事行われた。",
+      "choices": [
+        "おそれられて",
+        "危ぶまれて",
+        "にらまれて",
+        "しぶられて"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "注文していたテレビゲームが明日届くので、早く遊びたくて（　　）している。",
+      "choices": [
+        "びくびく",
+        "おどおど",
+        "うずうず",
+        "はらはら"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "それについては<u>エキスパート</u>にも意見を聞いてみよう。",
+      "choices": [
+        "発明家",
+        "協力者",
+        "責任者",
+        "専門家"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "兄は手にした新聞の記事を<u>凝視した</u>。",
+      "choices": [
+        "ざっと見た",
+        "じっと見た",
+        "ちらっと見た",
+        "ぼうっと見た"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "<u>架空</u>の人物を主人公にして物語を作った。",
+      "choices": [
+        "素敵な",
+        "思い出の",
+        "想像の",
+        "変な"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "鈴木さんには、<u>かねがね</u>お目にかかりたいと思っておりました。",
+      "choices": [
+        "できれば",
+        "以前から",
+        "ぜひ",
+        "早いうちに"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 18,
+      "text": "商品の原価が上がったが、販売価格への影響は<u>当面</u>ないだろう。",
+      "choices": [
+        "しばらくは",
+        "直接は",
+        "まさか",
+        "大して"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 19,
+      "text": "彼はいつも<u>ぼやいている</u>。",
+      "choices": [
+        "冗談を言っている",
+        "わがままを言っている",
+        "愚痴を言っている",
+        "独り言を言っている"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 4,
+      "text": "問題4　次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 20,
+      "text": "もはや",
+      "choices": [
+        "現代の広告業界において、これまでの手法はもはや通用しないだろう。",
+        "多くの研究者がこの仮説を証明するため、もはや検証を続けている。",
+        "鈴木氏はもはや高校教師だったが、現在は作家として活躍している。",
+        "生産体制が改善されれば、商品の不足状態はもはや解消される見込みだ。"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 21,
+      "text": "円滑",
+      "choices": [
+        "藤田さんはいつもの外国語を円滑に話すそうだ",
+        "会を円滑に運営するためには、会員の協力が不可欠だ",
+        "あの子はまだ4歳なのに、複雑な漢字を本など見ないで円滑に書く",
+        "車はカーブの多い坂道を円滑に登って行った"
+      ]
+    }
+  ]
+}

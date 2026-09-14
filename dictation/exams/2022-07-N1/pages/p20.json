@@ -1,0 +1,92 @@
+{
+  "page": 20,
+  "pageLabel": "第19页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 11,
+      "label": null,
+      "text": "問題11　次のAとBの文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "passage",
+      "partNumber": 11,
+      "label": "A",
+      "text": "ビジネスで相手をうまく説得したいとは誰もが思うことだろう。私が最も意識しているのは、相手の性格や価値観、知的水準などに応じた説明のしかたをすることだ。具体的で明快な例を求める人もいるし、データに基づいた織密な説明を好む人もいる。さまざまなタイプに合わせて対応することで、説得力を高められるように努めている。\nただ、どのような相手でも、まずは話を聞いて　もらえなければ意味がない。そのためには、話し方や服装などの最低限のマナーは身につけておかなければならない。中身のある話ができればいいとこれらを軽視する人もいるが、初対面で悪い印象を持たれてしまうと、そもそも話を聞こうとは思ってもらえず大きなマイナスになってしまうからだ。もちろん相手の印象を気にしすぎるのは問題だが、いい印象を持ってもらうことはプラスに働くことも多いと思う。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "passage",
+      "partNumber": 11,
+      "label": "B",
+      "text": "説得力を高めるための第一歩は、「送り手」としての自分自身の信頼度を高めること。「この人は信用できそう」といった印象を与えることです。多くのビジネスパーソンが服装や言葉づかいを気にするのも、信頼できる印象を与えたいからに他なりません。\n何よりも重要なのは、説得内容に関連した知識や情報を十分に吸収し、専門性を高めておくことです。（中略）\n仕事に関連する情報というのは、日常生活の至る場面に転がっています。街を歩いていても、ショッピングモールや行楽地に出かけても、人々の行動バターンヤライフスタイル（注）を知るヒントが見つかります。専門的知識や情報を生活に密着した形で提示することができれば、より説得力が増すはずです。説得力のある人には日頃から研究熱心な人が多いのもそのためです。\n好印象も説得力につながります。人の話に耳を傾け、言葉と心のキャッチポールができる人は、間違いなく好印象を与えます。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "note",
+      "partNumber": 11,
+      "label": "(注)",
+      "text": "（注）ライフスタイル：生活様式",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 11,
+      "label": null,
+      "text": "AとBの認識で共通していることは何か。",
+      "questionNumber": 61,
+      "choices": [
+        "初対面の印象を変えるのは難しい。",
+        "態度や服装も相手が持つ印象に影響を与える。",
+        "相手が持つ印象を気にしすぎないほうがいい。",
+        "信頼度は、自分自身の努力だけでは高められない。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 11,
+      "label": null,
+      "text": "説得力を高めるために必要なことについて、AとBはどのように述べているか。",
+      "questionNumber": 62,
+      "choices": [
+        "AもBも、専門性の高い説明ではなく、日常生活の身近な例を挙げて説明することだと述べている。",
+        "AもBも、相手の要求を理解するために、話をしっかり聞くことだと述べている。",
+        "Aは相手に合わせた説明をすることだと述べ、Bは専門的知識や情報を多く集めて生活に結びつけながら説明することだと述べている。",
+        "Aは相手の求める内容を的確に説明することだと述べ、Bは相手に合わせて情報量を調整することだと述べている。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "Passage A, paragraph 1: 「データに基づいた織密な説明」— the character is clearly printed as 織 (糸+戠) in the booklet, not 緻. Transcribed as printed (likely a typo in the source booklet for 緻密).",
+    "Passage A, paragraph 2: 「まずは話を聞いて　もらえなければ」— an anomalous extra space (roughly one ideographic space) is printed between 聞いて and もらえなければ, mid-line and not a column wrap. Recorded as U+3000.",
+    "Passage B, paragraph 3: 「人々の行動バターンヤライフスタイル」— printed with バ (dakuten, not パ) and full-size ヤ (not small ゃ / hiragana や). Transcribed exactly as printed; the intended text is almost certainly パターンやライフスタイル.",
+    "Passage B, last paragraph: 「言葉と心のキャッチポール」— printed with ポ (handakuten circle), not ボ. Transcribed as printed; intended text is likely キャッチボール.",
+    "The 問題11 instruction line prints the option numerals as 「1・2・3・4」 with small mid-dots; rendered here as full-width nakaguro.",
+    "No section header (e.g. 第二部分/読解) is printed on this page; sectionHeader is null.",
+    "A faint publisher watermark is present on the page background; it was excluded from all blocks."
+  ]
+}

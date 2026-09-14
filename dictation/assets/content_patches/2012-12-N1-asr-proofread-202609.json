@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "description": "2012-12-N1：LLM 逐句校对发现的 ASR 误识别修正 8 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "47e82911d49eaac479bc154f3d8af1cb168e1e7ded302aaff8461c3d22279175",
+  "evidence": {
+    "file": "proofread-work/2012-12-N1/proofread.json",
+    "proposedFixes": "proofread-work/2012-12-N1/proposed-fixes.json",
+    "notes": "proofread-work/2012-12-N1/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 24,
+      "endIndex": 24,
+      "expectedStartTime": 118.22,
+      "expectedEndTime": 128.71,
+      "items": [
+        {
+          "startTime": 118.22,
+          "endTime": 128.71,
+          "sourceText": "それってインターネットのいろんな企業の就職情報が載ってる 僕もそろそろ動かないとなそれより大学の就職課には相談に行った",
+          "jaText": "それってインターネットのいろんな企業の就職情報が載ってる 僕もそろそろ動かないとなそれより大学の就職課には相談に行った"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 139,
+      "endIndex": 139,
+      "expectedStartTime": 730.66,
+      "expectedEndTime": 739.1,
+      "items": [
+        {
+          "startTime": 730.66,
+          "endTime": 739.1,
+          "sourceText": "最も良いものは3番です解答用紙の問題2の例のところを見てください",
+          "jaText": "最も良いものは3番です解答用紙の問題2の例のところを見てください"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 196,
+      "endIndex": 196,
+      "expectedStartTime": 1236.53,
+      "expectedEndTime": 1240.11,
+      "items": [
+        {
+          "startTime": 1236.53,
+          "endTime": 1240.11,
+          "sourceText": "安物買いの銭失いということわざがあります",
+          "jaText": "安物買いの銭失いということわざがあります"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 211,
+      "endIndex": 211,
+      "expectedStartTime": 1372.98,
+      "expectedEndTime": 1375.34,
+      "items": [
+        {
+          "startTime": 1372.98,
+          "endTime": 1375.34,
+          "sourceText": "生地の肌触り等につきましては",
+          "jaText": "生地の肌触り等につきましては"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 268,
+      "endIndex": 268,
+      "expectedStartTime": 1697.72,
+      "expectedEndTime": 1705.93,
+      "items": [
+        {
+          "startTime": 1697.72,
+          "endTime": 1705.93,
+          "sourceText": "最も良いものは2番です。解答用紙の問題3の例のところを見てください。",
+          "jaText": "最も良いものは2番です。解答用紙の問題3の例のところを見てください。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 296,
+      "endIndex": 296,
+      "expectedStartTime": 1928.74,
+      "expectedEndTime": 1937.34,
+      "items": [
+        {
+          "startTime": 1928.74,
+          "endTime": 1937.34,
+          "sourceText": "ラジオを聞いてあの司会者はいい人だとか このタレントは美しい日本語を話すとか言って何人かの話し手を贔屓にしています",
+          "jaText": "ラジオを聞いてあの司会者はいい人だとか このタレントは美しい日本語を話すとか言って何人かの話し手を贔屓にしています"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 354,
+      "endIndex": 354,
+      "expectedStartTime": 2302.93,
+      "expectedEndTime": 2308.83,
+      "items": [
+        {
+          "startTime": 2302.93,
+          "endTime": 2308.83,
+          "sourceText": "解答用紙の問題4の例のところを見てください。",
+          "jaText": "解答用紙の問題4の例のところを見てください。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 439,
+      "endIndex": 439,
+      "expectedStartTime": 2877.1,
+      "expectedEndTime": 2881.74,
+      "items": [
+        {
+          "startTime": 2877.1,
+          "endTime": 2881.74,
+          "sourceText": "ただ虫がつきやすいんでまめに面倒を見てやらなきゃなんないんですけどね",
+          "jaText": "ただ虫がつきやすいんでまめに面倒を見てやらなきゃなんないんですけどね"
+        }
+      ]
+    }
+  ]
+}

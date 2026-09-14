@@ -1,0 +1,41 @@
+{
+  "page": 10,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 6,
+      "text": "問題6　次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 6,
+      "text": "(問題例)\nここに ★ はります。\n1 紙を 2 書いた 3 会議の 4 予定を\n(解答の仕方)"
+    },
+    {
+      "kind": "question",
+      "partNumber": 6,
+      "text": "正しい分はこうです。ここに ★ はります。",
+      "questionNumber": 1,
+      "choices": [
+        "会議の 4 予定を 2 書いた 1 紙を",
+        "★ に入る番号を解答用紙にマークします。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 6,
+      "text": "(解答用紙)\n> (例)\n> 1 ● 3 4\n36 昨日はとても寒く、積も ★ ずっと雪が降っていた。\n1 が 2 こそ\n3 しなかった 4 午前中\n37 この映画はあまりにも正直で ★ コメディー作品だ。\n1 真面目すぎる 2 周りの人々とのトラブルが絶えない\n3 がゆえに 4 男の日常を描いた\n38 ★ 読みやすいように、最近は、ビジネス理論を漫画でわかりやすく解説したものが多。\n1 堅苦しいものと思われるがちだが 2 抵抗がある人にも\n3 一般的にビジネス書というと 4 ビジネス書に"
+    }
+  ],
+  "issues": [
+    "Choice-looking line with no question open: '1 紙を 2 書いた 3 会議の 4 予定を'",
+    "Q1: choice numbered 3 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 2 choices transcribed, expected 4. Check the page image.",
+    "Choice-looking line with no question open: '1 が 2 こそ'",
+    "Choice-looking line with no question open: '3 しなかった 4 午前中'",
+    "Choice-looking line with no question open: '1 真面目すぎる 2 周りの人々とのトラブルが絶えない'",
+    "Choice-looking line with no question open: '3 がゆえに 4 男の日常を描いた'",
+    "Choice-looking line with no question open: '1 堅苦しいものと思われるがちだが 2 抵抗がある人にも'",
+    "Choice-looking line with no question open: '3 一般的にビジネス書というと 4 ビジネス書に'"
+  ]
+}

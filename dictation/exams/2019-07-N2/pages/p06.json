@@ -1,0 +1,82 @@
+{
+  "page": 6,
+  "pageLabel": "6",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 9,
+      "text": "問題9　次の文章を読んで、文章全体の趣旨を踏まえて、【50】から【54】の中に入る最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 9,
+      "passageId": "p_2019_07_N2_text_grammar",
+      "text": "文章全体の文脈を把握して、適切な接続詞や文末表現を空欄に補いなさい。\n\n【50】\n\n【51】\n\n【52】\n\n【53】\n\n【54】"
+    },
+    {
+      "kind": "question",
+      "partNumber": 9,
+      "questionNumber": 50,
+      "passageId": "p_2019_07_N2_text_grammar",
+      "text": "【50】に入る最もよいものを選びなさい。",
+      "choices": [
+        "文章文法表現1",
+        "文章文法表現2",
+        "文章文法表現3",
+        "文章文法表現4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 9,
+      "questionNumber": 51,
+      "passageId": "p_2019_07_N2_text_grammar",
+      "text": "【51】に入る最もよいものを選びなさい。",
+      "choices": [
+        "文章文法表現1",
+        "文章文法表現2",
+        "文章文法表現3",
+        "文章文法表現4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 9,
+      "questionNumber": 52,
+      "passageId": "p_2019_07_N2_text_grammar",
+      "text": "【52】に入る最もよいものを選びなさい。",
+      "choices": [
+        "文章文法表現1",
+        "文章文法表現2",
+        "文章文法表現3",
+        "文章文法表現4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 9,
+      "questionNumber": 53,
+      "passageId": "p_2019_07_N2_text_grammar",
+      "text": "【53】に入る最もよいものを選びなさい。",
+      "choices": [
+        "文章文法表現1",
+        "文章文法表現2",
+        "文章文法表現3",
+        "文章文法表現4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 9,
+      "questionNumber": 54,
+      "passageId": "p_2019_07_N2_text_grammar",
+      "text": "【54】に入る最もよいものを選びなさい。",
+      "choices": [
+        "文章文法表現1",
+        "文章文法表現2",
+        "文章文法表現3",
+        "文章文法表現4"
+      ]
+    }
+  ]
+}

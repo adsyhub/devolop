@@ -1,0 +1,226 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "新しい販売ルートを<u>開拓</u>した。",
+      "choices": [
+        "かいたく",
+        "かいだく",
+        "かいせき",
+        "かいぜき"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "私たちは、町の<u>復興</u>に全力で取り組んでいます。",
+      "choices": [
+        "ふっこう",
+        "ふっきょう",
+        "ふくこう",
+        "ふくきょう"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "書類の確認を<u>怠った</u>ために、問題が生じた。",
+      "choices": [
+        "いつわった",
+        "ためらった",
+        "あやまった",
+        "おこたった"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "本人の<u>了承</u>を得て、写真を掲載した。",
+      "choices": [
+        "りょうしゅう",
+        "ろうしょう",
+        "りょうしょう",
+        "ろうしゅう"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "あの人はいつもあれこれ<u>指図</u>をする。",
+      "choices": [
+        "さしじ",
+        "さしず",
+        "しず",
+        "しじ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "友人と東京の名所を<u>巡り</u>、旅を満喫した。",
+      "choices": [
+        "さぐり",
+        "たどり",
+        "めぐり",
+        "ねばり"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "小型カメラの国内市場では、弊社が20パーセントの（　　）を占めています。",
+      "choices": [
+        "レート",
+        "レベル",
+        "ランク",
+        "シェア"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "転勤の意向を上司からそれとなく（　　）されたが、返答に迷っている。",
+      "choices": [
+        "自問",
+        "打診",
+        "試行",
+        "探索"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "新しい上司は、元警察官という（　　）の持ち主だ。",
+      "choices": [
+        "由来",
+        "経路",
+        "経歴",
+        "従来"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "布のバッグは水が染み込みやすいが、このバッグは水を（　　）素材で作られているので、雨の日も安心だ。",
+      "choices": [
+        "はじく",
+        "そらす",
+        "さける",
+        "こばむ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "今回の活動の趣旨は、この団体の設立目的から大きく（　　）している。",
+      "choices": [
+        "脱退",
+        "逸脱",
+        "分散",
+        "拡散"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "インターネットを使えば、様々な情報を（　　）簡単に入手できる。",
+      "choices": [
+        "あえて",
+        "いっそ",
+        "せめて",
+        "いとも"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "河原の石は形も大きさも（　　）で、同じものが一つもないように見えた。",
+      "choices": [
+        "ごろごろ",
+        "まちまち",
+        "ぐらぐら",
+        "ぬるぬる"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "松本氏は自身のブログで<u>抱負</u>を述べていた。",
+      "choices": [
+        "見解",
+        "感謝",
+        "反省",
+        "決意"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "あのころは、暮らしに<u>ゆとり</u>があった。",
+      "choices": [
+        "目標",
+        "活気",
+        "余裕",
+        "知恵"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "出荷台数は<u>若干</u>伸びている。",
+      "choices": [
+        "いまだに",
+        "わずかに",
+        "つねに",
+        "さらに"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "その議員は議会での発言を<u>撤回した</u>。",
+      "choices": [
+        "とりけした",
+        "訂正した",
+        "くりかえした",
+        "省略した"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "話しが<u>本筋</u>からそれてしまった。",
+      "choices": [
+        "もとすじ",
+        "もときん",
+        "ほんすじ",
+        "ほんきん"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "友人にピアノの<u>伴奏</u>を頼まれた。",
+      "choices": [
+        "はんそう",
+        "ばんそう",
+        "はんそ",
+        "ばんそ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "名探偵の<u>推理</u>で事件は無事に解決した。",
+      "choices": [
+        "しんり",
+        "すいり",
+        "どうり",
+        "ろんり"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "先日の会議では、<u>極めて</u>重要な問題が話し合われた。",
+      "choices": [
+        "きわめて",
+        "あらためて",
+        "つとめて",
+        "つきつめて"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "もう少しアイディアを<u>練って</u>からお話しします。",
+      "choices": [
+        "けずって",
+        "つのって",
+        "ほって",
+        "ねって"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "靴のひもを<u>締めた</u>。",
+      "choices": [
+        "からめた",
+        "ゆるめた",
+        "はめた",
+        "しめた"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "各国のテレビがそのニュースを（　　）。",
+      "choices": [
+        "投じた",
+        "配送した",
+        "報じた",
+        "配布した"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "森林伐採が環境に（　　）影響は大きい。",
+      "choices": [
+        "及ぼす",
+        "授ける",
+        "費やす",
+        "掲げる"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "吉田さんは弁護士として20年もの（　　）を積んできた。",
+      "choices": [
+        "ベテラン",
+        "ポジション",
+        "ステータス",
+        "キャリア"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "この小説の主人公は、歴史（　　）の人物をモデルにしている。",
+      "choices": [
+        "上",
+        "面",
+        "側",
+        "内"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "交渉が（　　）進み、無事に契約することができた。",
+      "choices": [
+        "しとやかに",
+        "しなやかに",
+        "円滑に",
+        "急性に"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "次の大会に向けて、チームの（　　）を強めよう。",
+      "choices": [
+        "収束",
+        "結束",
+        "親密",
+        "緊密"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "その企業は巨大な資本を（　　）に、海外の市場に進出した。",
+      "choices": [
+        "背景",
+        "根源",
+        "後援",
+        "発端"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "今回の研修会は、出席者が<u>まばらだった</u>。",
+      "choices": [
+        "多かった",
+        "少なかった",
+        "まじめだった",
+        "ふまじめだった"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "昨日は一日中<u>どんよりした</u>天気だった。",
+      "choices": [
+        "曇っていて暗かった",
+        "晴れていて明るかった",
+        "風が吹いて涼しかった",
+        "雨が降って蒸し暑かった"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "父は毎朝、<u>丹念に</u>新聞に目を通す。",
+      "choices": [
+        "ぼうっと",
+        "ちらっと",
+        "じっくりと",
+        "ざっと"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "最近、仕事が<u>はかどっている</u>。",
+      "choices": [
+        "予想外に遅れている",
+        "順調に進んでいる",
+        "徐々に減っている",
+        "急激に増えている"
+      ]
+    }
+  ]
+}

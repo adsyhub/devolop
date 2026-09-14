@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "description": "2021-07-N1：LLM 逐句校对发现的 ASR 误识别修正 20 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "fc3ee6ede2a848897ee7ce2c655011d27901a749c29dc3816ab84eac7d1ff910",
+  "evidence": {
+    "file": "proofread-work/2021-07-N1/proofread.json",
+    "proposedFixes": "proofread-work/2021-07-N1/proposed-fixes.json",
+    "notes": "proofread-work/2021-07-N1/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 37,
+      "endIndex": 37,
+      "expectedStartTime": 283.16,
+      "expectedEndTime": 289.7,
+      "items": [
+        {
+          "startTime": 283.16,
+          "endTime": 289.7,
+          "sourceText": "えーと、紛失届も書いてもらわないといけないんですが、先に必要なものをお持ちいただくのがいいですね。",
+          "jaText": "えーと、紛失届も書いてもらわないといけないんですが、先に必要なものをお持ちいただくのがいいですね。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 43,
+      "endIndex": 43,
+      "expectedStartTime": 327.88,
+      "expectedEndTime": 331.31,
+      "items": [
+        {
+          "startTime": 327.88,
+          "endTime": 331.31,
+          "sourceText": "再発行の申し込み書に記入していただきます",
+          "jaText": "再発行の申し込み書に記入していただきます"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 82,
+      "endIndex": 82,
+      "expectedStartTime": 580.4,
+      "expectedEndTime": 588.74,
+      "items": [
+        {
+          "startTime": 580.4,
+          "endTime": 588.74,
+          "sourceText": "ちょっとお願いがあってね。来週から新しくバイトの人が来ることになっているんだけど、指導お願いできないかな。",
+          "jaText": "ちょっとお願いがあってね。来週から新しくバイトの人が来ることになっているんだけど、指導お願いできないかな。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 84,
+      "endIndex": 84,
+      "expectedStartTime": 595.96,
+      "expectedEndTime": 606.04,
+      "items": [
+        {
+          "startTime": 595.96,
+          "endTime": 606.04,
+          "sourceText": "うーん、まずはレジからかな。注文の取り方とか料理の出し方も教えないといけないね。それから、皿洗いもね。",
+          "jaText": "うーん、まずはレジからかな。注文の取り方とか料理の出し方も教えないといけないね。それから、皿洗いもね。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 108,
+      "endIndex": 108,
+      "expectedStartTime": 814.5,
+      "expectedEndTime": 826.54,
+      "items": [
+        {
+          "startTime": 814.5,
+          "endTime": 826.54,
+          "sourceText": "それで怒られたっていうより、飲み会があってね",
+          "jaText": "それで怒られたっていうより、飲み会があってね"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 162,
+      "endIndex": 162,
+      "expectedStartTime": 1103.38,
+      "expectedEndTime": 1112.02,
+      "items": [
+        {
+          "startTime": 1103.38,
+          "endTime": 1112.02,
+          "sourceText": "男の人は今回の募集で",
+          "jaText": "男の人は今回の募集で"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 178,
+      "endIndex": 178,
+      "expectedStartTime": 1205.75,
+      "expectedEndTime": 1210.23,
+      "items": [
+        {
+          "startTime": 1205.75,
+          "endTime": 1210.23,
+          "sourceText": "構図を工夫することによっても感じは違ってきますよ",
+          "jaText": "構図を工夫することによっても感じは違ってきますよ"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 193,
+      "endIndex": 193,
+      "expectedStartTime": 1312.32,
+      "expectedEndTime": 1314.24,
+      "items": [
+        {
+          "startTime": 1312.32,
+          "endTime": 1314.24,
+          "sourceText": "店頭で映えてないんですね",
+          "jaText": "店頭で映えてないんですね"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 203,
+      "endIndex": 203,
+      "expectedStartTime": 1369.68,
+      "expectedEndTime": 1400.38,
+      "items": [
+        {
+          "startTime": 1369.68,
+          "endTime": 1400.38,
+          "sourceText": "残業をしない、させないという方針にするらしいよ",
+          "jaText": "残業をしない、させないという方針にするらしいよ"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 204,
+      "endIndex": 204,
+      "expectedStartTime": 1400.38,
+      "expectedEndTime": 1404.29,
+      "items": [
+        {
+          "startTime": 1400.38,
+          "endTime": 1404.29,
+          "sourceText": "念願の定時退社",
+          "jaText": "念願の定時退社"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 223,
+      "endIndex": 223,
+      "expectedStartTime": 1546.48,
+      "expectedEndTime": 1555.22,
+      "items": [
+        {
+          "startTime": 1546.48,
+          "endTime": 1555.22,
+          "sourceText": "レース後のインタビューで、暑くなることを予想して最初はペースを抑えていたと言っていましたが、その作戦が当たりましたね。",
+          "jaText": "レース後のインタビューで、暑くなることを予想して最初はペースを抑えていたと言っていましたが、その作戦が当たりましたね。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 231,
+      "endIndex": 231,
+      "expectedStartTime": 1631.24,
+      "expectedEndTime": 1636.82,
+      "items": [
+        {
+          "startTime": 1631.24,
+          "endTime": 1636.82,
+          "sourceText": "えーと時期、数量、価格、場所を考える",
+          "jaText": "えーと時期、数量、価格、場所を考える"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 289,
+      "endIndex": 289,
+      "expectedStartTime": 2048.3,
+      "expectedEndTime": 2056.06,
+      "items": [
+        {
+          "startTime": 2048.3,
+          "endTime": 2056.06,
+          "sourceText": "一年の平均気温が10℃前後、年間降水量が少ないといったリンゴ栽培に適した条件を満たしているんですよ。",
+          "jaText": "一年の平均気温が10℃前後、年間降水量が少ないといったリンゴ栽培に適した条件を満たしているんですよ。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 349,
+      "endIndex": 349,
+      "expectedStartTime": 2412.73,
+      "expectedEndTime": 2424.86,
+      "items": [
+        {
+          "startTime": 2412.73,
+          "endTime": 2424.86,
+          "sourceText": "2.優勝した時の感動、引退を決意した経緯",
+          "jaText": "2.優勝した時の感動、引退を決意した経緯"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 357,
+      "endIndex": 357,
+      "expectedStartTime": 2483.3,
+      "expectedEndTime": 2492.14,
+      "items": [
+        {
+          "startTime": 2483.3,
+          "endTime": 2492.14,
+          "sourceText": "例えば、1階のレストランをファミリーレストランに委託し、宿泊客には朝食クーポンを渡してそこを利用してもらうというのはどうでしょうか。",
+          "jaText": "例えば、1階のレストランをファミリーレストランに委託し、宿泊客には朝食クーポンを渡してそこを利用してもらうというのはどうでしょうか。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 372,
+      "endIndex": 372,
+      "expectedStartTime": 2605.54,
+      "expectedEndTime": 2616.44,
+      "items": [
+        {
+          "startTime": 2605.54,
+          "endTime": 2616.44,
+          "sourceText": "最も良いものは解答用紙の問題4の例のところを見てください",
+          "jaText": "最も良いものは解答用紙の問題4の例のところを見てください"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 378,
+      "endIndex": 378,
+      "expectedStartTime": 2678.35,
+      "expectedEndTime": 2679.03,
+      "items": [
+        {
+          "startTime": 2678.35,
+          "endTime": 2679.03,
+          "sourceText": "ご遠慮なく",
+          "jaText": "ご遠慮なく"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 458,
+      "endIndex": 458,
+      "expectedStartTime": 3314.1,
+      "expectedEndTime": 3318.2,
+      "items": [
+        {
+          "startTime": 3314.1,
+          "endTime": 3318.2,
+          "sourceText": "再選された場合は高齢者の介護事業に",
+          "jaText": "再選された場合は高齢者の介護事業に"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 462,
+      "endIndex": 462,
+      "expectedStartTime": 3331.78,
+      "expectedEndTime": 3341.21,
+      "items": [
+        {
+          "startTime": 3331.78,
+          "endTime": 3341.21,
+          "sourceText": "続いて、鈴木晴美氏、保育園の整備、子どもの医療費無料化を実現し、少子化対策に取り組むとのことです。",
+          "jaText": "続いて、鈴木晴美氏、保育園の整備、子どもの医療費無料化を実現し、少子化対策に取り組むとのことです。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 463,
+      "endIndex": 463,
+      "expectedStartTime": 3342.19,
+      "expectedEndTime": 3353.43,
+      "items": [
+        {
+          "startTime": 3342.19,
+          "endTime": 3353.43,
+          "sourceText": "最後に、石井和夫氏、郊外の住宅地と市街地を結ぶ公共交通支援事業を実施し、生活しやすい街づくりを進めるとの考えです。",
+          "jaText": "最後に、石井和夫氏、郊外の住宅地と市街地を結ぶ公共交通支援事業を実施し、生活しやすい街づくりを進めるとの考えです。"
+        }
+      ]
+    }
+  ]
+}

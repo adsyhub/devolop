@@ -1,0 +1,62 @@
+{
+  "page": 7,
+  "pageLabel": "第6页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": null,
+      "text": "アルバイトを終えて帰ってきたが、のんびり（　　）。明日提出するレポートを完成させなければならない。",
+      "questionNumber": 33,
+      "choices": [
+        "するしかない",
+        "してしかたがない",
+        "するまでもない",
+        "してはいられない"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": null,
+      "text": "A「あれ、『ぜいたく』の『ぜい』って、漢字でどう（　　）?」\nB「え、私も思い出せない。」",
+      "questionNumber": 34,
+      "choices": [
+        "書くんだよね",
+        "書くんだっけ",
+        "書けるんだよね",
+        "書けるんだっけ"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "label": null,
+      "text": "私としては（　　）のだが、妻は私の一言に感動したらしく、泣かれてしまった。",
+      "questionNumber": 35,
+      "choices": [
+        "泣くつもりはなかった",
+        "泣かせるつもりはなかった",
+        "泣きたくてたまらなかった",
+        "泣かせたくてたまらなかった"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "Page contains only questions 33-35 of 問題5; no 問題 heading line is printed on this page, so partNumber 5 is inferred from the question numbering (Q26-35 = 文法形式の判断). The rest of the page below Q35 is blank.",
+    "Question numbers are printed as '33、' '34、' '35、' (number followed by a full-width ideographic comma), not as boxed numerals; the comma is not reproduced in the stem text since the number lives in questionNumber.",
+    "Q34, end of the A line: the question mark is rendered with no em-box padding before 」, so it was transcribed as a half-width '?' rather than full-width '？'. At this scan resolution the distinction is not fully certain.",
+    "Q33 stem, the katakana 'ポ' in レポート: the handakuten prints at 12x zoom as a thin open arc rather than a closed circle, but no dakuten twin-stroke is present, so it was read as ポ (レポート).",
+    "The printed page label is 第6页 (Chinese) while this is PDF page 7."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "page": 50,
+  "blocks": [
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "まず話を聞いてください。それから、二つの質問を聞いて、それぞれ問題用紙の1から4の中から、最もよいものを一つ選んでください。質問1",
+      "label": "2番",
+      "choices": [
+        "第一会場",
+        "第二会場",
+        "第三会場",
+        "第四会場"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "質問2\n1 第一会場\n2 第二会場\n3 第三会場\n4 第四会場"
+    }
+  ],
+  "pageLabel": "13",
+  "issues": [
+    "Choice-looking line with no question open: '1 第一会場'",
+    "Choice-looking line with no question open: '2 第二会場'",
+    "Choice-looking line with no question open: '3 第三会場'",
+    "Choice-looking line with no question open: '4 第四会場'"
+  ]
+}

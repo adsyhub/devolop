@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eju.local/schemas/page-contract.schema.json",
+  "title": "EJUPageContract",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "page",
+    "sourceFileRole",
+    "blocks",
+    "coverage"
+  ],
+  "properties": {
+    "schemaVersion": { "type": "integer", "enum": [1, 2] },
+    "page": { "type": "integer", "minimum": 1 },
+    "pageId": { "type": "string" },
+    "sourceFileRole": { "type": "string", "enum": ["QUESTION_BOOKLET", "ANSWER_KEY"] },
+    "sourceFileHash": { "type": "string" },
+    "blocks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "bbox"],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "form-start",
+              "group-start",
+              "material",
+              "question",
+              "writing-prompt",
+              "answer-entry",
+              "instruction",
+              "ignored"
+            ]
+          },
+          "localKey": { "type": "string" },
+          "formCode": { "type": "string" },
+          "groupCode": { "type": "string" },
+          "sectionCode": { "type": "string" },
+          "readingOrder": { "type": "integer" },
+          "printedLabel": { "type": "string" },
+          "answerRef": { "type": "string" },
+          "regionId": { "type": "string" },
+          "bbox": { "$ref": "https://eju.local/schemas/common.schema.json#/$defs/bbox" },
+          "stemAst": { "$ref": "https://eju.local/schemas/common.schema.json#/$defs/ast" },
+          "contentAst": { "$ref": "https://eju.local/schemas/common.schema.json#/$defs/ast" },
+          "options": { "$ref": "https://eju.local/schemas/common.schema.json#/$defs/options" },
+          "answerSpec": { "$ref": "https://eju.local/schemas/common.schema.json#/$defs/answerSpec" },
+          "correctOption": { "type": "string" },
+          "tokens": { "type": "object" },
+          "answerType": { "type": "string", "enum": ["SINGLE_CHOICE", "DIGIT_GRID"] },
+          "materialRefs": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "required": ["inkRegions", "accountedRegions"],
+      "properties": {
+        "inkRegions": { "type": "integer", "minimum": 0 },
+        "accountedRegions": { "type": "integer", "minimum": 0 },
+        "regionIds": { "type": "array", "items": { "type": "string" } },
+        "accountedRegionIds": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["code", "message"],
+        "properties": {
+          "code": { "type": "string" },
+          "message": { "type": "string" },
+          "ref": { "type": "string" }
+        }
+      }
+    },
+    "reviewedBy": { "type": "string" },
+    "reviewedAt": { "type": "string" }
+  }
+}

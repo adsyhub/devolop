@@ -1,0 +1,52 @@
+{
+  "page": 21,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>6</u>. 筆者によると、自分の本当の気持ちを言わないでいるとどうなるか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "自分が本当だと思っていることがわからなくなる。",
+      "questionNumber": 1,
+      "choices": [
+        "自分の本当の気持ちを常に隠すようになる。",
+        "他人と自分の気持ちの区別がつきにくくなる。",
+        "他人との関係がうまくいかなくなる。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>6</u>. 「記憶のコスト」が低くなるとはどういうことか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "判断の基準を覚えていなくても、その場の空気に合わせて判断ができる。",
+      "questionNumber": 1,
+      "choices": [
+        "判断の基準だけ覚えていれば、正しい決断ができる。",
+        "自分が言ったことを覚えていなくても、同じ決断ができる。",
+        "正直に話したことだけを思い出世ば、同心決断ができる。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "(4)\n以下は、いい写真を撮りたいと思っている人に向けた文章である。\nポートフォリオ(注1)を作ることには大きく二つの意味がある。まず自分のため、そしてもう一つは他者に見せる(プレゼンテーションする)ためだ。写真を撮り続けるうちに、だんだん自分が何をしようとしているのかが見えてくる。被写体(注2)について漠然(注3)とした認識(注4)しか持ってなかったのが、はっきりと焦点が絞られてきて、このやり方でいいのだという自信が芽生えてくる。そうなったらポートフォリオを作ってみるといい。"
+    }
+  ],
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

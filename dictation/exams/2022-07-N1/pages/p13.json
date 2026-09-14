@@ -1,0 +1,64 @@
+{
+  "page": 13,
+  "pageLabel": "第12页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": 8,
+      "label": "(4)",
+      "text": "「思い出」とは、「かつて」の私出来事について、「いま」の私の内で生起する「心の動き」のことだ。　嫌な不愉快な「思い出」は自ずと封印されて（注1）縮小してもゆくが、一方の楽しい愉快な「思い出」は止め処なく（注2）過剰に膨らみ、出来事の事実を超えて一つの「物語」が出来上がってしまうことも多い。「かつて」から経た時間が遠くなればなるほど（老いるほど）、思い違いや思い込みを含んだ「私の記憶」が作られる、そうなりがちだ。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": true,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "note",
+      "partNumber": 8,
+      "label": "(注1)",
+      "text": "（注1）封印されて：ここでは、触れられずに",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "note",
+      "partNumber": 8,
+      "label": "(注2)",
+      "text": "（注2）止め｜処《ど》なく：正まることなく",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 8,
+      "label": null,
+      "text": "「思い出」について、筆者の考えに合うのはどれか。",
+      "questionNumber": 48,
+      "choices": [
+        "不愉快な「思い出」ほど、記憶に残りやすい。",
+        "時間がたてば、多くの「思い出」が消えていく。",
+        "時間がたつほど、　事実とは異なっていくことが多い。",
+        "出来事の記憶が鮮明なほど、自分の「物語」が作られる。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "passage (4), column 1: printed as 「かつて」の私出来事について — there is no の between 私 and 出来事 in the printed text (verified at high zoom); transcribed exactly as printed.",
+    "note (注2): the gloss is printed 「正まることなく」 with 正 (not 止). Verified at high zoom in the p13_b crop; transcribed as printed even though 止まる is the expected word.",
+    "note (注2): furigana 「ど」 is printed above 処 only (止め処 → 止め｜処《ど》なく); no other ruby appears on this page.",
+    "passage (4): a full-width space is printed between 「…のことだ。」 and 「嫌な不愉快な…」 (start of the second sentence); recorded as one ideographic space.",
+    "question 48, choice 3: an extra full-width space is printed after the 読点 (「時間がたつほど、　事実とは…」); recorded as one ideographic space.",
+    "The 問題8 part-instruction line does not appear on this page — only the (4) boxed passage, its two notes and question 48. No 問題 heading, section header or watermark text was included."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "page": 8,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 5,
+      "text": "問題5　次の文の( )に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 5,
+      "text": "26 宝くじ売り場があるよ、買ってみない?\nどうせ当たらないんだから、買う( )無駄だったよ。\n1 より\n2 のみ\n3 には\n4 だけ\n27 近年の健康意識の高まり( )健康食品は急成長している。\n1 に次いで\n2 にわたって\n3 を受けて\n4 をめぐって\n28 息子はサッカーの練習でよほど疲れていたのか、家に( )食事もとらず、寝てしまった。\n1 帰り次第\n2 帰るなり\n3 帰ったなり\n4 蛙となれば\n29 ウェブサイトごとに異なるパスワードを設定するのは面倒だが、第三者が不正にアクセスされる( )、やむを得ない。\n1 しかない以上\n3 しかない反面\n2 恐れがある以上\n4 恐れがある反面\n30 昨日行った美術館は、一日では( )作品が展示されていた。\n1 見きれないほどの\n2 見ずにはいられないほどの\n3 見きれないといった\n4 見ずにはいられないといった"
+    }
+  ],
+  "issues": [
+    "Choice-looking line with no question open: '1 より'",
+    "Choice-looking line with no question open: '2 のみ'",
+    "Choice-looking line with no question open: '3 には'",
+    "Choice-looking line with no question open: '4 だけ'",
+    "Choice-looking line with no question open: '1 に次いで'",
+    "Choice-looking line with no question open: '2 にわたって'",
+    "Choice-looking line with no question open: '3 を受けて'",
+    "Choice-looking line with no question open: '4 をめぐって'",
+    "Choice-looking line with no question open: '1 帰り次第'",
+    "Choice-looking line with no question open: '2 帰るなり'",
+    "Choice-looking line with no question open: '3 帰ったなり'",
+    "Choice-looking line with no question open: '4 蛙となれば'",
+    "Choice-looking line with no question open: '1 しかない以上'",
+    "Choice-looking line with no question open: '3 しかない反面'",
+    "Choice-looking line with no question open: '2 恐れがある以上'",
+    "Choice-looking line with no question open: '4 恐れがある反面'",
+    "Choice-looking line with no question open: '1 見きれないほどの'",
+    "Choice-looking line with no question open: '2 見ずにはいられないほどの'",
+    "Choice-looking line with no question open: '3 見きれないといった'",
+    "Choice-looking line with no question open: '4 見ずにはいられないといった'"
+  ]
+}

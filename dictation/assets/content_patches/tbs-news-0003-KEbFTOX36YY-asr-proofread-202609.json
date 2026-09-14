@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "description": "tbs-news-0003-KEbFTOX36YY：LLM 逐句校对发现的 ASR 误识别修正 13 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "9d41df0f8c1b62c1e314281e377fdf43f04d24e87cad60355d586f9d0aad4249",
+  "evidence": {
+    "file": "proofread-work/tbs-news-0003-KEbFTOX36YY/proofread.json",
+    "proposedFixes": "proofread-work/tbs-news-0003-KEbFTOX36YY/proposed-fixes.json",
+    "notes": "proofread-work/tbs-news-0003-KEbFTOX36YY/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 0,
+      "endIndex": 0,
+      "expectedStartTime": 4.799,
+      "expectedEndTime": 6.299,
+      "items": [
+        {
+          "startTime": 4.799,
+          "endTime": 6.299,
+          "sourceText": "毎年恒例のおもちゃの祭典。",
+          "jaText": "毎年恒例のおもちゃの祭典。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 1,
+      "endIndex": 1,
+      "expectedStartTime": 6.299,
+      "expectedEndTime": 7.222,
+      "items": [
+        {
+          "startTime": 6.299,
+          "endTime": 7.222,
+          "sourceText": "東京おもちゃショー。",
+          "jaText": "東京おもちゃショー。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 5,
+      "endIndex": 5,
+      "expectedStartTime": 60.719,
+      "expectedEndTime": 71.498,
+      "items": [
+        {
+          "startTime": 60.719,
+          "endTime": 71.498,
+          "sourceText": "国内最大級のおもちゃ本一東京おもちゃショー会場にはAIを搭載した最新のものから",
+          "jaText": "国内最大級のおもちゃ本一東京おもちゃショー会場にはAIを搭載した最新のものから"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 7,
+      "endIndex": 7,
+      "expectedStartTime": 71.726,
+      "expectedEndTime": 80.65,
+      "items": [
+        {
+          "startTime": 71.726,
+          "endTime": 80.65,
+          "sourceText": "ずらりたまごっちリングはたまごっちのデバイス史場最初のサイズになって",
+          "jaText": "ずらりたまごっちリングはたまごっちのデバイス史場最初のサイズになって"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 10,
+      "endIndex": 10,
+      "expectedStartTime": 94.04,
+      "expectedEndTime": 97.07,
+      "items": [
+        {
+          "startTime": 94.04,
+          "endTime": 97.07,
+          "sourceText": "そして今回特に多くの人が集まっていたのがスクイーズ。",
+          "jaText": "そして今回特に多くの人が集まっていたのがスクイーズ。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 13,
+      "endIndex": 13,
+      "expectedStartTime": 109.572,
+      "expectedEndTime": 110.991,
+      "items": [
+        {
+          "startTime": 109.572,
+          "endTime": 110.991,
+          "sourceText": "すがそのふわふわもちもちの食感が病みつきになると今大人気なんだそうです。",
+          "jaText": "すがそのふわふわもちもちの食感が病みつきになると今大人気なんだそうです。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 14,
+      "endIndex": 14,
+      "expectedStartTime": 110.991,
+      "expectedEndTime": 111.789,
+      "items": [
+        {
+          "startTime": 110.991,
+          "endTime": 111.789,
+          "sourceText": "今年も大盛況だったおもちゃの祭典。",
+          "jaText": "今年も大盛況だったおもちゃの祭典。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 19,
+      "endIndex": 19,
+      "expectedStartTime": 167.28,
+      "expectedEndTime": 169.455,
+      "items": [
+        {
+          "startTime": 167.28,
+          "endTime": 169.455,
+          "sourceText": "今日のコメンテーターはスポーツ心理学者の田中ウルヴェ京さんです。",
+          "jaText": "今日のコメンテーターはスポーツ心理学者の田中ウルヴェ京さんです。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 26,
+      "endIndex": 26,
+      "expectedStartTime": 211.525,
+      "expectedEndTime": 212.705,
+      "items": [
+        {
+          "startTime": 211.525,
+          "endTime": 212.705,
+          "sourceText": "このキダルトというのはキッドとアダルトを掛け合わせたになっていまして、",
+          "jaText": "このキダルトというのはキッドとアダルトを掛け合わせたになっていまして、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 39,
+      "endIndex": 39,
+      "expectedStartTime": 310.44,
+      "expectedEndTime": 314.629,
+      "items": [
+        {
+          "startTime": 310.44,
+          "endTime": 314.629,
+          "sourceText": "たまごっちの進化バージョン、最新版などが人気だということなんですよね。",
+          "jaText": "たまごっちの進化バージョン、最新版などが人気だということなんですよね。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 40,
+      "endIndex": 40,
+      "expectedStartTime": 314.759,
+      "expectedEndTime": 318.55,
+      "items": [
+        {
+          "startTime": 314.759,
+          "endTime": 318.55,
+          "sourceText": "で、中でもこのお店の1/4の面積を占めていたのが",
+          "jaText": "で、中でもこのお店の1/4の面積を占めていたのが"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 49,
+      "endIndex": 49,
+      "expectedStartTime": 359.28,
+      "expectedEndTime": 371.23,
+      "items": [
+        {
+          "startTime": 359.28,
+          "endTime": 371.23,
+          "sourceText": "1/4客層はですね5時以降に来る方が多いということで20代後半から",
+          "jaText": "1/4客層はですね5時以降に来る方が多いということで20代後半から"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 57,
+      "endIndex": 57,
+      "expectedStartTime": 420.4,
+      "expectedEndTime": 439.925,
+      "items": [
+        {
+          "startTime": 420.4,
+          "endTime": 439.925,
+          "sourceText": "うん、別の玩具メーカーの関係者はSNSSNSになるほど。",
+          "jaText": "うん、別の玩具メーカーの関係者はSNSSNSになるほど。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "level": "N2",
+  "slug": "2010-07-N2",
+  "title": "2010年7月 日本語能力試験 N2",
+  "sessionLabel": "2010年7月",
+  "durationSec": 10800,
+  "source": {
+    "fileName": "N2 2010年7月真题+答案+详解+听力原文.pdf",
+    "sha256": "0930acb3548d2b0abc18064beffda26db8cf258de26d5d2692c9bbd4e7d7b686",
+    "bytes": 3679161,
+    "pageCount": 30
+  },
+  "listeningMedia": {
+    "kind": "course-audio",
+    "courseSlug": "2010-07-N2",
+    "expectedSha256": "1c091d4fdcb55347e937a1c7fb1cf5cae951cb9e5df0646a02097ee97f04954b",
+    "expectedBytes": 21148969
+  }
+}

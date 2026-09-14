@@ -1,0 +1,3063 @@
+
+
+同一套题目应同时支持：
+
+- 固定套卷完整练习；
+- 严格限时模考；
+- 按科目练习；
+- 按官方题型练习；
+- 按内部专题练习；
+- 本套错题重做；
+- 全局错题重做；
+- 收藏题练习；
+- 到期复习；
+- 学习回顾；
+- 精读；
+- 精听。
+
+## 1.2 目标用户
+
+- 需要按整套真题训练的用户；
+- 需要严格模拟考试的用户；
+- 需要按题型查漏补缺的用户；
+- 需要按语法点、阅读能力或听力场景训练的用户；
+
+## 1.3 产品成功标准
+
+上线后至少满足：
+
+1. 同一套试卷可以进入普通练习、严格模考、学习回顾和错题重做。
+2. 同一道题不因不同入口而重复存储。
+3. 用户可以开始、继续、重新练习和查看历史记录。
+4. 页面刷新后答案和当前位置可以恢复。
+5. 严格模考刷新后剩余时间不会增加。
+6. 用户可按科目、题型和专题动态组题。
+7. 阅读、文章语法和听力不会被拆散。
+8. 用户可以查看首次、最近和最好成绩。
+9. 题目发布新版本后，历史作答仍显示旧版本。
+10. 无权利批准记录的内容无法发布。
+11. 提交前，客户端无法取得正确答案和解析。
+12. 系统不展示虚假的“官方预测分”。
+
+---
+
+
+
+---
+
+# 3. JLPT N1/N2 官方事实基线
+
+> 所有规则都必须配置化。上线前重新核对官方公告，不得永久写死。
+
+## 3.1 限时科目
+
+| 等级 | 第一考试科目 | 时间 | 第二考试科目 | 时间 |
+|---|---|---:|---|---:|
+| N1 | 语言知识（文字、词汇、语法）・阅读 | 110 分钟 | 听力 | 55 分钟 |
+| N2 | 语言知识（文字、词汇、语法）・阅读 | 105 分钟 | 听力 | 50 分钟 |
+
+系统必须区分：
+
+```text
+test_section
+score_section
+learning_subject
+```
+
+含义：
+
+- `test_section`：真实考试中的限时科目；
+- `score_section`：成绩报告中的得分类别；
+- `learning_subject`：刷题产品里的学习分类。
+
+示例：
+
+```text
+某道阅读题：
+test_section = LANGUAGE_READING
+score_section = READING
+learning_subject = READING
+```
+
+## 3.2 得分类别
+
+N1、N2 均为：
+
+```text
+LANGUAGE_KNOWLEDGE  0～60
+READING             0～60
+LISTENING           0～60
+TOTAL               0～180
+```
+
+## 3.3 合格基线
+
+| 等级 | 总分最低线 | 语言知识最低线 | 阅读最低线 | 听力最低线 |
+|---|---:|---:|---:|---:|
+| N1 | 100 | 19 | 19 | 19 |
+| N2 | 90 | 19 | 19 | 19 |
+
+产品仅可将这些数值用作：
+
+- 官方合格规则说明；
+- 用户原始正确率的风险参考；
+- 已校准非官方估分模型的风险边界。
+
+不得直接使用：
+
+```text
+原始正确率 × 180 = 官方成绩
+```
+
+## 3.4 N1/N2 官方题型矩阵
+
+### 文字词汇
+
+| 代码 | 名称 | N1 | N2 |
+|---|---|---:|---:|
+| `VOCAB_KANJI_READING` | 汉字读音 | 是 | 是 |
+| `VOCAB_ORTHOGRAPHY` | 表记 | 否 | 是 |
+| `VOCAB_WORD_FORMATION` | 构词 | 否 | 是 |
+| `VOCAB_CONTEXT` | 语境词汇 | 是 | 是 |
+| `VOCAB_PARAPHRASE` | 近义替换 | 是 | 是 |
+| `VOCAB_USAGE` | 词语用法 | 是 | 是 |
+
+### 语法
+
+| 代码 | 名称 | N1 | N2 |
+|---|---|---:|---:|
+| `GRAMMAR_FORM` | 语法形式判断 | 是 | 是 |
+| `GRAMMAR_SENTENCE_COMPOSITION` | 句子组成 | 是 | 是 |
+| `GRAMMAR_TEXT` | 文章语法 | 是 | 是 |
+
+### 阅读
+
+| 代码 | 名称 | N1 | N2 |
+|---|---|---:|---:|
+| `READING_SHORT` | 短篇阅读 | 是 | 是 |
+| `READING_MID` | 中篇阅读 | 是 | 是 |
+| `READING_LONG` | 长篇阅读 | 是 | 否 |
+| `READING_INTEGRATED` | 综合理解 | 是 | 是 |
+| `READING_THEMATIC_LONG` | 主题理解 | 是 | 是 |
+| `READING_INFORMATION_RETRIEVAL` | 信息检索 | 是 | 是 |
+
+### 听力
+
+| 代码 | 名称 | N1 | N2 |
+|---|---|---:|---:|
+| `LISTENING_TASK_BASED` | 课题理解 | 是 | 是 |
+| `LISTENING_KEY_POINTS` | 要点理解 | 是 | 是 |
+| `LISTENING_GENERAL_OUTLINE` | 概要理解 | 是 | 是 |
+| `LISTENING_QUICK_RESPONSE` | 即时应答 | 是 | 是 |
+| `LISTENING_INTEGRATED` | 综合理解 | 是 | 是 |
+
+数据库和领域层必须同时保证：
+
+- N1 不能使用 `VOCAB_ORTHOGRAPHY`；
+- N1 不能使用 `VOCAB_WORD_FORMATION`；
+- N2 不能使用 `READING_LONG`；
+- N1/N2 不能使用 `LISTENING_VERBAL_EXPRESSIONS`。
+
+---
+
+
+---
+# 用户角色
+
+```text
+LEARNER
+CONTENT_EDITOR
+ANSWER_REVIEWER
+RIGHTS_REVIEWER
+PUBLISHER
+ADMIN
+```
+
+权限概要：
+
+| 角色 | 权限 |
+|---|---|
+| `LEARNER` | 刷题、模考、复习、查看自己的报告 |
+| `CONTENT_EDITOR` | 创建和编辑草稿内容 |
+| `ANSWER_REVIEWER` | 独立复核答案和解析 |
+| `RIGHTS_REVIEWER` | 核验来源和版权许可 |
+| `PUBLISHER` | 发布、暂停和归档内容 |
+| `ADMIN` | 系统配置和角色管理 |
+
+同一个人不得在同一题目上同时完成：
+
+```text
+答案录入 + 最终答案复核
+```
+
+---
+
+# 6. 信息架构
+
+
+## 6.1 题库入口
+
+```text
+题库
+├── 真题套卷
+├── 科目练习
+├── 题型练习
+└── 专题练习
+```
+
+## 6.2 模考入口
+
+```text
+模考
+├── N1 严格模考
+├── N2 严格模考
+├── 进行中的模考
+└── 历史模考报告
+```
+
+## 6.3 复习入口
+
+```text
+复习
+├── 错题本
+├── 收藏题
+├── 不确定题
+├── 到期复习
+├── 生词本
+└── 语法本
+```
+
+
+
+# 7. 首页设计
+
+首页按照以下优先级排列：
+
+1. 当前目标等级；
+2. 继续上次练习；
+3. 最近模考结果；
+4. 今日到期复习；
+5. 当前薄弱题型；
+6. 快速入口；
+7. 最近练习记录。
+
+## 7.1 继续练习卡片
+
+展示：
+
+```text
+练习名称
+模式
+完成进度
+上次作答时间
+当前题组
+剩余时间或已用时间
+```
+
+按钮：
+
+```text
+继续
+重新开始
+查看详情
+```
+
+严格模考已经超时或提交后，不显示“继续”。
+
+## 7.2 快速入口
+
+```text
+整套练习
+严格模考
+题型练习
+专题练习
+错题重做
+```
+
+---
+
+# 8. 真题套卷系统
+
+## 8.1 套卷列表筛选
+
+- 等级；
+- 来源类型；
+- 完整性；
+- 是否包含听力；
+- 用户状态；
+- 发布时间；
+- 考试场次；
+- 官方选编卷次。
+
+用户状态：
+
+```text
+NOT_STARTED
+IN_PROGRESS
+COMPLETED
+```
+
+## 8.2 套卷卡片
+
+展示：
+
+```text
+套卷名称
+等级
+真题来源标签
+完整性标签
+考试科目数量
+题组数量
+小题数量
+预计时长
+个人完成进度
+首次结果
+最好结果
+```
+
+按钮状态：
+
+| 状态 | 主按钮 | 次按钮 |
+|---|---|---|
+| 未开始 | 开始练习 | 严格模考 |
+| 普通练习进行中 | 继续练习 | 重新开始 |
+| 严格模考进行中 | 继续模考 | 无 |
+| 已完成 | 查看报告 | 再做一次 |
+| 已完成且有错题 | 错题重做 | 学习回顾 |
+
+## 8.3 套卷详情
+
+展示：
+
+- 来源和真实性；
+- 是否对应完整考试场次；
+- 授权说明；
+- 等级；
+- 科目时间；
+- 题型分布；
+- 题组数量；
+- 小题数量；
+- 听力总时长；
+- 用户历史记录；
+- 首次结果；
+- 最近结果；
+- 最好结果。
+
+入口：
+
+```text
+STRICT_EXAM
+PAPER_PRACTICE
+SECTION_PRACTICE
+REVIEW
+WRONG_REDO
+```
+
+---
+
+# 9. 作答模式
+
+## 9.1 模式枚举
+
+```text
+STRICT_EXAM
+PAPER_PRACTICE
+SECTION_PRACTICE
+ITEM_TYPE_PRACTICE
+TOPIC_PRACTICE
+WRONG_REDO
+BOOKMARK_PRACTICE
+DUE_REVIEW
+REVIEW
+```
+
+## 9.2 模式能力对照
+
+| 能力 | 严格模考 | 普通练习 | 错题重做 | 学习回顾 |
+|---|---:|---:|---:|---:|
+| 固定内容快照 | 是 | 是 | 是 | 是 |
+| 服务端倒计时 | 是 | 可选 | 可选 | 否 |
+| 暂停 | 否 | 是 | 是 | 不适用 |
+| 提交前答案 | 不显示 | 不显示 | 不显示 | 显示 |
+| 提交后解析 | 场次结束后 | 按策略开放 | 按策略开放 | 显示 |
+| 听力重播 | 否 | 是 | 是 | 是 |
+| 听力倍速 | 否 | 是 | 是 | 是 |
+| 听力原文 | 交卷后且有权限 | 提交后且有权限 | 提交后且有权限 | 有权限时 |
+| 记录正式模考 | 是 | 否 | 否 | 否 |
+| 改写历史成绩 | 否 | 否 | 否 | 否 |
+
+---
+
+# 10. 严格限时模考
+
+## 10.1 开始前
+
+必须完成：
+
+- 考试规则确认；
+- 音频播放检测；
+- 浏览器兼容检查；
+- 网络状态提示；
+- 耳机提示；
+- 当前套卷和等级确认；
+- 内容权限检查。
+
+点击“正式开始”时，服务端：
+
+1. 创建 `practice_session`；
+2. 冻结套卷版本；
+3. 冻结考试蓝图版本；
+4. 冻结题组版本；
+5. 写入 `started_at`；
+6. 写入第一科 `deadline_at`；
+7. 返回不含答案的场次 DTO。
+
+## 10.2 第一科
+
+N1：
+
+```text
+LANGUAGE_READING
+110 分钟
+```
+
+N2：
+
+```text
+LANGUAGE_READING
+105 分钟
+```
+
+规则：
+
+- 可在第一科内部跳题；
+- 可标记题目；
+- 可查看答题卡；
+- 未答题高亮；
+- 时间到自动提交；
+- 主动交卷需要二次确认；
+- 提交后锁定第一科；
+- 锁定后不能修改任何答案；
+- 不显示答案和解析。
+
+## 10.3 第二科听力
+
+N1：
+
+```text
+LISTENING
+55 分钟基线
+```
+
+N2：
+
+```text
+LISTENING
+50 分钟基线
+```
+
+规则：
+
+- 使用整科音轨或服务端控制的播放清单；
+- 按套卷既定顺序播放；
+- 禁止拖动；
+- 禁止倍速；
+- 禁止主动暂停；
+- 禁止回退；
+- 禁止主动重播；
+- 页面隐藏或切换标签页时记录事件；
+- 音频异常写入可观测日志；
+- 时间到自动提交。
+
+听力时间必须来自考试蓝图版本，不得散落在前端常量中。
+
+## 10.4 服务端计时
+
+服务端保存：
+
+```text
+started_at
+section_started_at
+deadline_at
+submitted_at
+server_now
+```
+
+客户端剩余时间：
+
+```text
+remaining = deadline_at - server_now
+```
+
+客户端只负责显示，不负责决定是否超时。
+
+## 10.5 断线恢复
+
+MVP 采用保守策略：
+
+- 断网期间倒计时继续；
+- 客户端本地暂存答案；
+- 恢复后立即尝试同步；
+- 服务端只接受截止时间前收到的答案；
+- 超时后的答案返回结构化错误；
+- 页面明确提示严格模考需要保持联网。
+
+后续版本若实现可信离线事件签名，可再支持截止前产生、截止后到达的答案事件。
+
+## 10.6 多设备和多标签页
+
+- 同一用户同一场次只允许一个主作答租约；
+- 新设备接管前必须提示；
+- Redis 保存短期 session lease；
+- 旧页面失去租约后变为只读；
+- 接管不能修改 `deadline_at`；
+- 多次提交必须幂等。
+
+## 10.7 场次状态机
+
+```text
+READY
+→ IN_PROGRESS_SECTION_1
+→ SECTION_1_SUBMITTED
+→ IN_PROGRESS_SECTION_2
+→ SUBMITTED
+```
+
+异常状态：
+
+```text
+EXPIRED
+ABORTED
+SUSPENDED
+```
+
+禁止反向迁移。
+
+---
+
+# 11. 普通练习
+
+普通练习支持：
+
+- 暂停；
+- 继续；
+- 重新开始；
+- 自动保存；
+- 标记不确定；
+- 收藏；
+- 阅读划线；
+- 笔记；
+- 听力重播；
+- 听力循环；
+- 听力倍速；
+- 提交后查看解析；
+- 提交后进入精读或精听。
+
+## 11.1 默认反馈策略
+
+| 内容 | 默认提交方式 |
+|---|---|
+| 文字词汇单题 | 逐题提交 |
+| 语法形式判断 | 逐题提交 |
+| 句子组成 | 逐题提交 |
+| 文章语法 | 整个题组提交 |
+| 阅读 | 整篇提交 |
+| 听力 | 整个音频题组提交 |
+
+用户可以在练习开始前选择：
+
+```text
+IMMEDIATE
+GROUP_SUBMIT
+SESSION_SUBMIT
+```
+
+严格模考固定为：
+
+```text
+SESSION_SUBMIT
+```
+
+---
+
+# 12. 题型和专题练习
+
+## 12.1 科目练习
+
+学习端科目：
+
+```text
+VOCABULARY
+GRAMMAR
+READING
+LISTENING
+```
+
+科目页展示：
+
+- 可练题组；
+- 已练题组；
+- 最近 7 天正确率；
+- 最近 30 天正确率；
+- 平均用时；
+- 错题数量；
+- 薄弱题型；
+- 薄弱专题。
+
+入口：
+
+```text
+顺序练习
+随机练习
+仅未做
+仅错题
+到期复习
+限时训练
+```
+
+## 12.2 题型练习
+
+题型必须来自官方题型矩阵。
+
+题型卡片展示：
+
+```text
+题型名称
+适用等级
+可练题组数
+已练题组数
+正确率
+平均用时
+掌握度
+```
+
+入口：
+
+```text
+练习 5 组
+练习 10 组
+自定义题量
+只做未练
+只做错题
+限时挑战
+题型方法
+```
+
+## 12.3 专题练习
+
+专题是内部教学标签，不得标注为官方题型。
+
+### 词汇专题
+
+```text
+职场与商务
+社会与公共生活
+态度与情感
+抽象概念
+书面语
+固定搭配
+近义词辨析
+自动词与他动词
+```
+
+### 语法专题
+
+```text
+原因与理由
+条件与假设
+逆接与让步
+限定与强调
+推量与判断
+时间与状态
+评价与立场
+敬语
+书面表达
+易混语法
+```
+
+### 阅读专题
+
+```text
+主旨判断
+作者观点
+细节定位
+指示词指代
+逻辑关系
+推断
+言外之意
+双文本对比
+通知与信息检索
+```
+
+### 听力专题
+
+```text
+行动选择
+目的判断
+人物关系
+原因判断
+态度与语气
+关键信息
+概要归纳
+即时应答
+职场场景
+公共服务场景
+```
+
+每个专题必须保存：
+
+```text
+code
+name
+description
+applicable_levels
+positive_examples
+negative_examples
+status
+reviewed_by
+reviewed_at
+```
+
+## 12.4 练习配置
+
+```typescript
+type PracticeConfig = {
+  level: "N1" | "N2";
+  scope:
+    | "PAPER"
+    | "SUBJECT"
+    | "ITEM_TYPE"
+    | "TOPIC"
+    | "WRONG"
+    | "BOOKMARK"
+    | "DUE";
+  paperId?: string;
+  subjectCodes?: string[];
+  itemTypeCodes?: string[];
+  topicCodes?: string[];
+  quantityUnit: "GROUP";
+  quantity: number;
+  answerScope: "ALL" | "UNSEEN" | "WRONG" | "DUE";
+  feedbackPolicy: "IMMEDIATE" | "GROUP_SUBMIT" | "SESSION_SUBMIT";
+  clockPolicy: "NONE" | "ELAPSED" | "COUNTDOWN";
+  countdownSeconds?: number;
+  excludeRecentDays?: number;
+  randomSeed?: string;
+};
+```
+
+---
+
+# 13. 动态组题算法
+
+## 13.1 输入
+
+动态组题服务接收：
+
+- 等级；
+- 科目；
+- 题型；
+- 专题；
+- 用户状态；
+- 题组数量；
+- 排除最近天数；
+- 随机种子。
+
+## 13.2 候选题组条件
+
+候选题组必须同时满足：
+
+```text
+level 匹配
+publish_status = PUBLISHED
+authenticity_status = VERIFIED
+rights_status = APPROVED
+许可未过期
+题型与等级匹配
+素材权限可用
+不存在阻断级内容问题
+```
+
+## 13.3 组题单位
+
+只能按：
+
+```text
+question_group_version
+```
+
+组题，不能按单个小题组题。
+
+原因：
+
+- 阅读需要完整文章；
+- 文章语法需要完整上下文；
+- 听力需要完整音频；
+- 综合理解可能共享材料。
+
+## 13.4 排序优先级
+
+当用户选择 `UNSEEN`：
+
+1. 从未做过的题组；
+2. 很久以前做过的题组；
+3. 最近做过但未掌握的题组。
+
+当用户选择 `WRONG`：
+
+1. 最近做错且未重做；
+2. 重做仍错；
+3. 曾经做错、最近一次做对但未稳定掌握。
+
+当用户选择 `DUE`：
+
+1. 已过期复习；
+2. 当日到期；
+3. 即将到期。
+
+## 13.5 去重
+
+单次场次内：
+
+- 不得重复题组；
+- 不得出现不同版本的同一稳定题组；
+- 可配置是否允许同一素材被多个题组重复引用；
+- 默认不重复同一素材。
+
+## 13.6 确定性
+
+创建场次时生成：
+
+```text
+random_seed
+selection_algorithm_version
+candidate_hash
+selected_group_version_ids
+```
+
+相同快照和随机种子应产生相同排序。
+
+## 13.7 题量不足
+
+不得用原创题自动补齐。
+
+返回：
+
+```json
+{
+  "requestedGroupCount": 10,
+  "selectedGroupCount": 7,
+  "warnings": [
+    {
+      "code": "INSUFFICIENT_AUTHORIZED_GROUPS",
+      "message": "符合当前条件的合法题组只有 7 组"
+    }
+  ]
+}
+```
+
+用户确认后可开始 7 组练习。
+
+---
+
+# 14. 题目渲染器
+
+至少实现以下渲染器：
+
+```text
+TEXT_SINGLE_CHOICE
+SHARED_PASSAGE_CHOICE
+SENTENCE_COMPOSITION
+TEXT_GRAMMAR
+INFORMATION_RETRIEVAL
+AUDIO_SINGLE_CHOICE
+AUDIO_QUICK_RESPONSE
+AUDIO_INTEGRATED
+```
+
+## 14.1 普通单选
+
+支持：
+
+- 日文富文本；
+- ruby 假名；
+- 下划线；
+- 加粗；
+- 图片；
+- 3 个或 4 个选项；
+- 键盘快捷键；
+- 题目标记。
+
+## 14.2 句子组成
+
+数据不能只保存最终显示字符串，应结构化保存：
+
+```json
+{
+  "prefix": "彼の説明は",
+  "segments": [
+    {"id": "a", "text": "聞けば聞くほど"},
+    {"id": "b", "text": "分からなく"},
+    {"id": "c", "text": "なって"},
+    {"id": "d", "text": "しまった"}
+  ],
+  "targetPosition": 3
+}
+```
+
+系统记录用户排序结果，而不是只记录一个选项号。
+
+## 14.3 阅读
+
+桌面端：
+
+```text
+左侧文章
+右侧题目
+```
+
+移动端：
+
+```text
+文章与题目单栏切换
+```
+
+支持：
+
+- 段落编号；
+- 划线；
+- 笔记；
+- 证据句高亮；
+- 字号调整；
+- 题组内小题导航。
+
+## 14.4 信息检索
+
+支持：
+
+- 表格；
+- 广告；
+- 通知；
+- 日程；
+- 图片；
+- 文本混排。
+
+## 14.5 听力
+
+普通练习支持：
+
+- 播放；
+- 暂停；
+- 前后跳转；
+- AB 循环；
+- 0.75～1.5 倍速；
+- 逐句播放；
+- 脚本跟随高亮。
+
+严格模考使用独立受控播放器，不复用普通播放器的控制权限。
+
+---
+
+# 15. 核心领域模型
+
+## 15.1 总体关系
+
+```text
+ContentSource
+└── License
+    └── Material
+        └── MaterialVersion
+
+QuestionGroup
+└── QuestionGroupVersion
+    ├── MaterialVersion
+    └── QuestionVersion
+        └── OptionVersion
+
+Paper
+└── PaperVersion
+    └── PaperSection
+        └── PaperBlock
+            └── QuestionGroupVersion
+
+User
+└── PracticeSession
+    ├── SessionSection
+    ├── SessionGroupSnapshot
+    ├── AnswerRecord
+    └── ResultSnapshot
+```
+
+## 15.2 稳定身份与版本
+
+以下对象具有稳定身份：
+
+```text
+Material
+QuestionGroup
+Question
+Paper
+```
+
+以下对象不可变：
+
+```text
+MaterialVersion
+QuestionGroupVersion
+QuestionVersion
+OptionVersion
+PaperVersion
+ResultSnapshot
+```
+
+任何已发布版本不得直接 `UPDATE`。
+
+---
+
+# 16. 数据库最小表集合
+
+数据库使用 PostgreSQL。
+
+所有主键默认使用 UUID。
+
+## 16.1 用户
+
+### `users`
+
+```text
+id
+email
+password_hash
+role
+status
+created_at
+updated_at
+```
+
+### `user_profiles`
+
+```text
+user_id
+target_level
+timezone
+exam_date
+locale
+created_at
+updated_at
+```
+
+约束：
+
+```text
+target_level IN ('N1', 'N2')
+```
+
+## 16.2 来源和许可
+
+### `content_sources`
+
+```text
+id
+code
+name
+source_type
+authenticity_status
+completeness
+exam_year
+exam_month
+reference_url
+reference_document_key
+notes
+created_by
+created_at
+updated_at
+```
+
+### `licenses`
+
+```text
+id
+content_source_id
+rights_status
+copyright_owner
+license_holder
+license_document_key
+allowed_media_json
+allowed_territories_json
+commercial_use_allowed
+translation_allowed
+adaptation_allowed
+audio_streaming_allowed
+offline_cache_allowed
+valid_from
+valid_until
+reviewed_by
+reviewed_at
+created_at
+updated_at
+```
+
+## 16.3 素材
+
+### `materials`
+
+```text
+id
+stable_code
+material_type
+content_source_id
+created_at
+```
+
+`material_type`：
+
+```text
+TEXT
+AUDIO
+IMAGE
+TABLE
+MIXED
+```
+
+### `material_versions`
+
+```text
+id
+material_id
+version_number
+content_ast_json
+plain_text
+object_storage_key
+mime_type
+duration_ms
+content_hash
+language
+status
+created_by
+created_at
+published_at
+```
+
+唯一约束：
+
+```text
+UNIQUE(material_id, version_number)
+UNIQUE(content_hash, content_source_id)
+```
+
+## 16.4 题组
+
+### `question_groups`
+
+```text
+id
+stable_code
+level
+learning_subject
+item_type_code
+content_source_id
+created_at
+```
+
+### `question_group_versions`
+
+```text
+id
+question_group_id
+version_number
+renderer_type
+instruction_ast_json
+difficulty
+estimated_time_sec
+status
+content_hash
+created_by
+created_at
+published_at
+```
+
+### `question_group_materials`
+
+```text
+question_group_version_id
+material_version_id
+display_order
+usage_type
+```
+
+`usage_type`：
+
+```text
+PRIMARY
+SUPPLEMENT
+IMAGE
+AUDIO
+TRANSCRIPT
+```
+
+## 16.5 题目和选项
+
+### `questions`
+
+```text
+id
+question_group_id
+stable_key
+created_at
+```
+
+### `question_versions`
+
+```text
+id
+question_id
+version_number
+question_group_version_id
+display_order
+stem_ast_json
+answer_type
+correct_answer_json
+explanation_zh_ast_json
+explanation_ja_ast_json
+evidence_refs_json
+status
+content_hash
+created_by
+created_at
+published_at
+```
+
+### `option_versions`
+
+```text
+id
+question_version_id
+option_key
+display_order
+content_ast_json
+distractor_explanation_ast_json
+content_hash
+```
+
+约束：
+
+```text
+UNIQUE(question_version_id, option_key)
+UNIQUE(question_version_id, display_order)
+```
+
+## 16.6 标签
+
+### `tags`
+
+```text
+id
+code
+name
+tag_type
+description
+applicable_levels_json
+positive_examples_json
+negative_examples_json
+status
+created_at
+updated_at
+```
+
+`tag_type`：
+
+```text
+TOPIC
+SCENE
+SKILL
+GRAMMAR
+VOCABULARY
+DIFFICULTY
+```
+
+### `question_group_tags`
+
+```text
+question_group_version_id
+tag_id
+source
+confidence
+review_status
+reviewed_by
+reviewed_at
+```
+
+`source`：
+
+```text
+HUMAN
+LLM_SUGGESTED
+IMPORTED
+```
+
+只有 `review_status = APPROVED` 的标签才能用于正式专题入口。
+
+## 16.7 套卷
+
+### `papers`
+
+```text
+id
+stable_code
+title
+level
+content_source_id
+completeness
+created_at
+```
+
+### `paper_versions`
+
+```text
+id
+paper_id
+version_number
+title
+description
+exam_blueprint_version_id
+status
+content_hash
+created_by
+created_at
+published_at
+```
+
+### `paper_sections`
+
+```text
+id
+paper_version_id
+section_code
+display_order
+time_limit_sec
+```
+
+### `paper_parts`
+
+```text
+id
+paper_section_id
+part_code
+title
+item_type_code
+display_order
+```
+
+### `paper_blocks`
+
+```text
+id
+paper_part_id
+question_group_version_id
+display_order
+```
+
+发布后，`paper_blocks` 不得改变。
+
+## 16.8 考试蓝图
+
+### `exam_blueprints`
+
+```text
+id
+level
+name
+created_at
+```
+
+### `exam_blueprint_versions`
+
+```text
+id
+exam_blueprint_id
+version_number
+effective_from
+status
+created_at
+```
+
+### `exam_blueprint_sections`
+
+```text
+id
+exam_blueprint_version_id
+section_code
+display_order
+time_limit_sec
+navigation_policy
+answer_release_policy
+audio_policy_json
+```
+
+## 16.9 作答场次
+
+### `practice_sessions`
+
+```text
+id
+user_id
+level
+mode
+source_scope
+paper_version_id
+exam_blueprint_version_id
+status
+random_seed
+selection_algorithm_version
+started_at
+submitted_at
+expires_at
+created_at
+updated_at
+```
+
+### `session_sections`
+
+```text
+id
+practice_session_id
+section_code
+display_order
+status
+started_at
+deadline_at
+submitted_at
+```
+
+### `session_group_snapshots`
+
+```text
+id
+practice_session_id
+session_section_id
+question_group_version_id
+display_order
+required_question_ids_json
+created_at
+```
+
+该表是场次内容快照。
+
+### `answer_records`
+
+```text
+id
+practice_session_id
+question_version_id
+answer_json
+is_uncertain
+first_answered_at
+last_answered_at
+submitted_at
+server_received_at
+version
+created_at
+updated_at
+```
+
+唯一约束：
+
+```text
+UNIQUE(practice_session_id, question_version_id)
+```
+
+保存答案必须使用乐观锁或版本号。
+
+### `answer_events`
+
+```text
+id
+practice_session_id
+question_version_id
+event_type
+payload_hash
+idempotency_key
+client_time
+server_time
+created_at
+```
+
+不得在普通日志中记录完整答案正文。
+
+## 16.10 结果
+
+### `result_snapshots`
+
+```text
+id
+practice_session_id
+calculation_version
+raw_correct_count
+raw_total_count
+raw_accuracy
+subject_stats_json
+item_type_stats_json
+topic_stats_json
+time_stats_json
+estimate_model_version
+estimated_score_json
+pass_risk_json
+created_at
+```
+
+结果快照不可变。
+
+## 16.11 用户学习状态
+
+### `user_question_states`
+
+```text
+user_id
+question_id
+first_attempt_at
+last_attempt_at
+attempt_count
+correct_count
+wrong_count
+last_result
+mastery_status
+next_review_at
+updated_at
+```
+
+### `user_group_states`
+
+```text
+user_id
+question_group_id
+attempt_count
+last_attempt_at
+last_accuracy
+mastery_status
+next_review_at
+updated_at
+```
+
+### `bookmarks`
+
+```text
+id
+user_id
+target_type
+target_id
+created_at
+```
+
+### `user_notes`
+
+```text
+id
+user_id
+target_type
+target_id
+content
+created_at
+updated_at
+```
+
+### `content_issues`
+
+```text
+id
+user_id
+question_group_version_id
+question_version_id
+issue_type
+description
+status
+created_at
+resolved_at
+```
+
+## 16.12 审核和审计
+
+### `review_tasks`
+
+```text
+id
+target_type
+target_id
+review_type
+status
+assigned_to
+submitted_by
+decision
+comment
+created_at
+completed_at
+```
+
+`review_type`：
+
+```text
+SOURCE_AUTHENTICITY
+RIGHTS
+CONTENT_FORMAT
+ANSWER
+LANGUAGE
+FINAL_PUBLICATION
+```
+
+### `audit_logs`
+
+```text
+id
+actor_id
+action
+target_type
+target_id
+before_hash
+after_hash
+metadata_json
+created_at
+```
+
+---
+
+# 17. 内容版本规则
+
+## 17.1 草稿修改
+
+草稿版本可以修改。
+
+## 17.2 发布后修改
+
+已发布内容发现问题时：
+
+1. 创建新版本；
+2. 保留旧版本；
+3. 在新版本中修复；
+4. 重新审核；
+5. 发布新版本；
+6. 决定旧版本是否暂停；
+7. 给受影响历史场次添加订正说明。
+
+## 17.3 严重答案错误
+
+若正确答案发生变化：
+
+- 创建阻断级内容问题；
+- 暂停新用户进入；
+- 计算受影响场次；
+- 保存原结果快照；
+- 创建订正结果；
+- 不静默覆盖原成绩；
+- 向用户展示订正记录；
+- 审计日志记录全部操作。
+
+---
+
+# 18. 答案隔离
+
+## 18.1 学习端 DTO
+
+提交前只返回：
+
+```typescript
+type QuestionDeliveryDTO = {
+  id: string;
+  groupId: string;
+  rendererType: string;
+  stem: unknown;
+  options: Array<{
+    key: string;
+    content: unknown;
+  }>;
+  userAnswer?: unknown;
+  isUncertain: boolean;
+};
+```
+
+不得包含：
+
+```text
+correctAnswer
+explanation
+distractorExplanation
+evidenceRefs
+transcript
+translation
+```
+
+## 18.2 回顾 DTO
+
+只有权限服务确认可显示后，才能构建：
+
+```typescript
+type QuestionReviewDTO = QuestionDeliveryDTO & {
+  correctAnswer: unknown;
+  explanation?: unknown;
+  distractorExplanations?: unknown[];
+  evidenceRefs?: unknown[];
+  transcript?: unknown;
+  translation?: unknown;
+};
+```
+
+## 18.3 权限判断
+
+```text
+canViewAnswer
+canViewExplanation
+canViewTranscript
+canViewTranslation
+canStreamAudio
+```
+
+必须由服务端的内容权限服务计算。
+
+---
+
+# 19. 自动保存
+
+## 19.1 保存时机
+
+- 用户选择选项后立即保存；
+- 文本或排序答案防抖保存；
+- 切题前强制保存；
+- 页面隐藏前尝试保存；
+- 网络恢复后重试。
+
+## 19.2 幂等
+
+请求必须携带：
+
+```text
+Idempotency-Key
+answerVersion
+```
+
+服务端返回：
+
+```json
+{
+  "saved": true,
+  "serverVersion": 4,
+  "serverReceivedAt": "2026-09-01T12:00:00Z"
+}
+```
+
+## 19.3 冲突处理
+
+当客户端版本过旧：
+
+```http
+409 ANSWER_VERSION_CONFLICT
+```
+
+响应包含服务端当前版本。
+
+普通练习允许用户选择合并或使用最新答案。
+
+严格模考默认以服务端最新合法答案为准，不弹出阻断式冲突窗口。
+
+---
+
+# 20. 错题与掌握状态
+
+## 20.1 错题状态
+
+```text
+NEW_WRONG
+WRONG_AGAIN
+CORRECT_ON_REDO
+STABILIZING
+MASTERED
+```
+
+## 20.2 掌握规则默认值
+
+初始建议：
+
+- 首次做错：`NEW_WRONG`；
+- 7 天内重做仍错：`WRONG_AGAIN`；
+- 重做答对：`CORRECT_ON_REDO`；
+- 间隔至少 2 天再次答对：`STABILIZING`；
+- 间隔至少 7 天再次答对：`MASTERED`。
+
+查看解析后立即答对，不能直接判定为掌握。
+
+## 20.3 错题重做
+
+错题重做按完整题组生成场次。
+
+默认：
+
+- 只要求用户回答原来错的小题；
+- 同题组其他题显示历史答案；
+- 用户可选择整组全部重做。
+
+原场次结果永久不变。
+
+---
+
+# 21. 精读系统
+
+提交阅读题组后，在许可允许的前提下开放：
+
+- 正确答案；
+- 中文解析；
+- 证据句；
+- 段落定位；
+- 推理路径；
+- 错误选项反证；
+- 单词释义；
+- 假名；
+- 词性；
+- 生词收藏；
+- 长句拆分；
+- 指示词标注；
+- 接续关系；
+- 用户划线；
+- 用户笔记。
+
+解析结构：
+
+```text
+答案
+→ 原文定位
+→ 推理过程
+→ 错误选项分析
+→ 知识补充
+```
+
+不得只提供：
+
+```text
+正确答案是 2。
+```
+
+---
+
+# 22. 精听系统
+
+提交听力题组后，在许可允许的前提下开放：
+
+- 完整音频；
+- 逐句播放；
+- 当前句高亮；
+- AB 循环；
+- 前后数秒回放；
+- 倍速；
+- 日文脚本；
+- 中文翻译；
+- 证据时间点；
+- 关键词；
+- 听写模式；
+- 挖空练习；
+- 影子跟读。
+
+精听是学习工具，不属于严格考试流程。
+
+脚本片段建议结构：
+
+```json
+{
+  "segmentId": "s1",
+  "startMs": 1200,
+  "endMs": 5100,
+  "speaker": "female_1",
+  "textJa": "……",
+  "translationZh": "……"
+}
+```
+
+只有 `translation_allowed = true` 时才可返回翻译。
+
+---
+
+# 23. 成绩和报告
+
+## 23.1 原始指标
+
+所有场次可计算：
+
+- 正确题数；
+- 总题数；
+- 原始正确率；
+- 完成率；
+- 未答题数；
+- 总用时；
+- 各科用时；
+- 各题型正确率；
+- 各专题正确率；
+- 平均单题用时；
+- 超时题组；
+- 修改答案次数。
+
+## 23.2 模考报告结构
+
+```text
+总览
+├── 原始正确率
+├── 完成率
+├── 总用时
+├── 非官方估分区间
+└── 合格风险
+
+得分类别
+├── 语言知识
+├── 阅读
+└── 听力
+
+题型分析
+├── 正确率
+├── 用时
+└── 未完成数量
+
+专题分析
+├── 薄弱知识点
+├── 薄弱阅读能力
+└── 薄弱听力场景
+
+行动建议
+├── 推荐错题
+├── 推荐题型
+└── 推荐专题
+```
+
+## 23.3 历史成绩
+
+分别保存：
+
+```text
+FIRST
+LATEST
+BEST
+ALL_ATTEMPTS
+```
+
+最好成绩默认按以下顺序判断：
+
+1. 原始正确题数；
+2. 完成率；
+3. 用时更合理；
+4. 作答时间更新。
+
+不得覆盖首次成绩。
+
+## 23.4 估分限制
+
+首个版本可以不提供估分。
+
+只有满足以下条件才显示：
+
+- 有足够真实作答样本；
+- 有校准模型；
+- 保存模型版本；
+- 输出区间而不是假装精确；
+- 明确标注“非官方估算”。
+
+示例：
+
+```text
+非官方估分区间：96～108
+合格风险：临界
+听力单项风险：较高
+```
+
+不得显示：
+
+```text
+你的官方成绩是 103 分
+```
+
+---
+
+# 24. 内容后台
+
+## 24.1 内容工作流
+
+```text
+来源录入
+→ 权利审核
+→ 素材导入
+→ 题组编辑
+→ 答案录入
+→ 答案独立复核
+→ 标签审核
+→ 套卷编排
+→ 最终发布审核
+→ 发布
+```
+
+## 24.2 后台模块
+
+```text
+来源管理
+许可管理
+素材管理
+题组管理
+题目管理
+标签管理
+套卷编辑器
+审核中心
+问题反馈
+发布管理
+审计日志
+```
+
+## 24.3 套卷编辑器
+
+支持：
+
+- 创建科目；
+- 配置科目时间；
+- 创建大题；
+- 选择官方题型；
+- 拖动题组排序；
+- 预览题号；
+- 检查重复题组；
+- 检查重复素材；
+- 检查缺失音频；
+- 检查题型等级冲突；
+- 检查权利状态；
+- 发布前生成报告。
+
+## 24.4 答案双人复核
+
+答案录入者与答案审核者不能相同。
+
+发布条件：
+
+```text
+answer_review_count >= 2
+AND reviewers_are_distinct = true
+AND final_answer_agreed = true
+```
+
+如审核意见冲突：
+
+```text
+BLOCKED
+```
+
+必须交由第三人裁定。
+
+---
+
+# 25. 内容导入
+
+## 25.1 原则
+
+- 只导入结构化 JSON；
+- PDF 和扫描件只能作为来源凭证；
+- 音频只作为素材文件；
+- 不允许把 OCR 结果直接发布；
+- 导入前必须关联来源和许可；
+- 开发环境只使用虚构占位内容。
+
+## 25.2 导入 JSON 示例
+
+```json
+{
+  "schemaVersion": "1.0",
+  "sourceCode": "SYNTHETIC-DEMO-ONLY",
+  "paper": {
+    "paperCode": "DEMO-N2-001",
+    "title": "开发测试占位套卷",
+    "level": "N2",
+    "completeness": "AUTHENTIC_COMPILATION"
+  },
+  "sections": [
+    {
+      "sectionCode": "LANGUAGE_READING",
+      "timeLimitSec": 6300,
+      "parts": [
+        {
+          "partCode": "P1",
+          "itemTypeCode": "VOCAB_KANJI_READING",
+          "title": "問題1",
+          "groups": [
+            {
+              "externalKey": "DEMO-G001",
+              "rendererType": "TEXT_SINGLE_CHOICE",
+              "materials": [],
+              "questions": [
+                {
+                  "stableQuestionKey": "Q1",
+                  "stemAst": {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "虚构占位题干，不是真题"
+                      }
+                    ]
+                  },
+                  "options": [
+                    {"key": "1", "content": "选项一"},
+                    {"key": "2", "content": "选项二"},
+                    {"key": "3", "content": "选项三"},
+                    {"key": "4", "content": "选项四"}
+                  ],
+                  "correctAnswer": {
+                    "type": "SINGLE_CHOICE",
+                    "optionKey": "1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+## 25.3 导入校验
+
+必须校验：
+
+- JSON Schema；
+- 来源存在；
+- 许可有效；
+- 等级只为 N1/N2；
+- 题型与等级匹配；
+- 题组代码唯一；
+- 问题稳定键唯一；
+- 选项键唯一；
+- 正确答案存在；
+- 音频文件存在；
+- 音频时长合法；
+- 素材引用存在；
+- 内容 hash 去重；
+- 富文本结构合法；
+- ruby 结构合法；
+- 不包含危险 HTML；
+- 导入错误可追溯。
+
+不得部分静默失败。
+
+---
+
+# 26. 大模型辅助内容合同
+
+## 26.1 允许的任务
+
+```text
+TAG_SUGGESTION
+EXPLANATION_DRAFT
+DISTRACTOR_ANALYSIS_DRAFT
+READING_EVIDENCE_SUGGESTION
+LISTENING_EVIDENCE_SUGGESTION
+TRANSCRIPT_SEGMENT_SUGGESTION
+FORMAT_ANOMALY_CHECK
+```
+
+## 26.2 输入
+
+调用大模型前保存：
+
+```text
+source_content_hash
+question_group_version_id
+model_name
+prompt_version
+requested_task
+```
+
+## 26.3 输出格式
+
+```json
+{
+  "task": "TAG_SUGGESTION",
+  "sourceContentHash": "sha256",
+  "suggestions": [
+    {
+      "tagCode": "READING_MAIN_IDEA",
+      "confidence": 0.83,
+      "reason": "题目要求判断全文主要观点"
+    }
+  ],
+  "warnings": []
+}
+```
+
+## 26.4 防篡改
+
+接受结果前校验：
+
+```text
+input source hash = current source hash
+```
+
+若不同：
+
+```text
+STALE_LLM_RESULT
+```
+
+不得写入当前内容。
+
+## 26.5 人工审核
+
+所有大模型输出默认：
+
+```text
+PENDING_REVIEW
+```
+
+只有人工批准后才进入学习端。
+
+## 26.6 阻断条件
+
+出现以下情况自动阻断：
+
+- 大模型答案与人工答案冲突；
+- 大模型声称题目答案不唯一；
+- 证据句不存在；
+- 输出引用了题干之外的事实；
+- 生成了新的题干或选项；
+- 低于置信度阈值；
+- 内容 hash 不匹配。
+
+---
+
+# 27. API 设计
+
+API 前缀：
+
+```text
+/api/v1
+```
+
+## 27.1 学习端接口
+
+| 方法 | 路径 | 用途 |
+|---|---|---|
+| GET | `/papers` | 获取套卷列表 |
+| GET | `/papers/:id` | 获取套卷详情 |
+| POST | `/sessions` | 创建固定套卷或练习场次 |
+| GET | `/sessions/:id` | 恢复场次 |
+| POST | `/sessions/:id/start` | 正式开始 |
+| PUT | `/sessions/:id/answers/:questionId` | 保存答案 |
+| POST | `/sessions/:id/groups/:groupId/submit` | 提交题组 |
+| POST | `/sessions/:id/sections/:sectionId/submit` | 提交科目 |
+| POST | `/sessions/:id/submit` | 提交场次 |
+| GET | `/sessions/:id/report` | 获取报告 |
+| POST | `/practice/generate` | 动态组题 |
+| GET | `/history` | 历史记录 |
+| GET | `/review/wrong` | 错题列表 |
+| GET | `/review/due` | 到期复习 |
+| POST | `/bookmarks` | 收藏 |
+| DELETE | `/bookmarks/:id` | 取消收藏 |
+| POST | `/content-issues` | 反馈题目问题 |
+| GET | `/exam-time` | 获取服务端时间和剩余时间 |
+
+## 27.2 管理端接口
+
+```text
+POST   /admin/sources
+PATCH  /admin/sources/:id
+POST   /admin/licenses
+PATCH  /admin/licenses/:id
+POST   /admin/import-jobs
+GET    /admin/import-jobs/:id
+POST   /admin/materials
+POST   /admin/materials/:id/versions
+POST   /admin/question-groups
+POST   /admin/question-groups/:id/versions
+POST   /admin/question-groups/:id/submit-review
+POST   /admin/question-groups/:id/approve-answer
+POST   /admin/tags
+POST   /admin/papers
+POST   /admin/papers/:id/versions
+POST   /admin/papers/:id/publish
+POST   /admin/papers/:id/suspend
+GET    /admin/issues
+POST   /admin/issues/:id/resolve
+GET    /admin/audit-logs
+```
+
+## 27.3 创建动态练习示例
+
+请求：
+
+```json
+{
+  "level": "N2",
+  "mode": "ITEM_TYPE_PRACTICE",
+  "config": {
+    "itemTypeCodes": [
+      "READING_INFORMATION_RETRIEVAL"
+    ],
+    "quantity": 5,
+    "quantityUnit": "GROUP",
+    "answerScope": "UNSEEN",
+    "feedbackPolicy": "GROUP_SUBMIT",
+    "clockPolicy": "ELAPSED",
+    "excludeRecentDays": 7
+  }
+}
+```
+
+响应：
+
+```json
+{
+  "sessionId": "uuid",
+  "status": "READY",
+  "selectedGroupCount": 5,
+  "selectedQuestionCount": 9,
+  "warnings": [],
+  "snapshotVersion": 1
+}
+```
+
+## 27.4 错误格式
+
+```json
+{
+  "error": {
+    "code": "SESSION_DEADLINE_PASSED",
+    "message": "当前考试科目已经结束",
+    "details": {
+      "deadlineAt": "2026-09-01T12:00:00Z"
+    },
+    "traceId": "trace-id"
+  }
+}
+```
+
+---
+
+# 28. 前端页面要求
+
+## 28.1 通用状态
+
+每个页面必须处理：
+
+```text
+loading
+empty
+success
+recoverable_error
+fatal_error
+offline
+permission_denied
+content_suspended
+```
+
+## 28.2 作答页布局
+
+桌面：
+
+```text
+顶部：标题、进度、计时、交卷
+左侧或中间：材料
+右侧：题目
+底部：上一题、下一题、标记
+侧栏：答题卡
+```
+
+移动端：
+
+```text
+顶部固定计时和进度
+材料与题目单栏
+底部固定操作栏
+答题卡抽屉
+```
+
+## 28.3 答题卡状态
+
+```text
+UNANSWERED
+ANSWERED
+UNCERTAIN
+CURRENT
+LOCKED
+```
+
+不能仅用颜色区分，需同时使用图标或文字。
+
+## 28.4 防误操作
+
+- 重新开始需要确认；
+- 提交科目需要确认；
+- 提交整卷需要确认；
+- 严格模考不得误触退出；
+- 普通练习退出前自动保存；
+- 内容暂停时显示明确说明。
+
+---
+
+# 29. 默认技术栈
+
+除非执行者收到新的技术栈要求，否则采用：
+
+```text
+Web/API：Next.js + TypeScript
+数据库：PostgreSQL
+ORM：Prisma
+缓存与租约：Redis
+对象存储：S3 兼容服务
+后台任务：BullMQ 或同类 Redis 队列
+校验：Zod + JSON Schema
+单元测试：Vitest
+端到端测试：Playwright
+包管理：pnpm
+本地基础设施：Docker Compose
+```
+
+使用实施时稳定版本，并提交锁文件。
+
+## 29.1 架构方式
+
+首期采用模块化单体，不提前拆微服务。
+
+模块：
+
+```text
+IdentityModule
+CatalogModule
+RightsModule
+ContentModule
+PaperModule
+PracticeModule
+ExamModule
+AnswerModule
+ReportModule
+ReviewModule
+MediaModule
+AdminModule
+AuditModule
+LLMAssistModule
+```
+
+任何模块返回受保护内容前，必须经过 `RightsModule`。
+
+## 29.2 Monorepo 目录
+
+```text
+apps/
+  web/
+    app/
+      (learner)/
+      admin/
+      api/v1/
+    components/
+    features/
+  worker/
+
+packages/
+  domain/
+  db/
+  rights-engine/
+  content-schema/
+  practice-engine/
+  exam-engine/
+  scoring/
+  ui/
+  test-fixtures/
+  config/
+
+infra/
+  docker/
+  migrations/
+
+scripts/
+  import-content/
+  validate-content/
+  seed-synthetic-demo/
+
+docs/
+  architecture/
+  api/
+  content-import/
+```
+
+---
+
+# 30. 安全要求
+
+## 30.1 鉴权
+
+- 所有学习接口需要登录；
+- 所有管理接口进行角色校验；
+- 禁止用户访问其他用户场次；
+- 严格模考接口同时校验用户、场次、科目和截止时间。
+
+## 30.2 媒体保护
+
+- 音频和图片使用短期签名 URL；
+- URL 与用户、场次和权限关联；
+- 禁止公开永久 CDN 地址；
+- 权利撤销后新签名立即停止；
+- 不在前端源码中嵌入真实媒体路径。
+
+## 30.3 日志
+
+日志不得记录：
+
+- 完整题干；
+- 完整文章；
+- 完整选项；
+- 正确答案；
+- 完整解析；
+- 听力脚本；
+- 永久媒体地址。
+
+可以记录：
+
+```text
+stable_code
+version_id
+content_hash
+session_id
+event_type
+error_code
+trace_id
+```
+
+## 30.4 富文本安全
+
+- 使用 AST 或严格白名单 HTML；
+- 禁止脚本；
+- 禁止内联事件；
+- 禁止任意 iframe；
+- 禁止危险 URL；
+- 上传文件检查 MIME 和扩展名；
+- 图片进行安全处理。
+
+---
+
+# 31. 性能与可靠性
+
+## 31.1 性能目标
+
+```text
+页面首屏 P75 < 2.5 秒
+普通 API P95 < 400ms
+答案保存 P95 < 250ms
+音频点击到播放 P75 < 2 秒
+网络恢复后 5 秒内完成状态对账
+```
+
+## 31.2 可靠性
+
+- 答案保存幂等；
+- 场次提交幂等；
+- 自动交卷任务可重试；
+- 科目提交和结果快照使用事务；
+- 发布版本不可物理删除；
+- 关键任务带 trace id；
+- 数据库定期备份；
+- 执行恢复演练；
+- 对象存储做引用完整性检查。
+
+## 31.3 时间处理
+
+- 数据库统一存 UTC；
+- 用户页面按个人时区显示；
+- 严格模考只依赖服务端时间；
+- 不依赖浏览器系统时间；
+- 日期信息优先显示明确年月日。
+
+---
+
+# 32. 实施阶段
+
+## Phase 0：工程骨架
+
+交付：
+
+- monorepo；
+- Next.js；
+- PostgreSQL；
+- Redis；
+- S3 兼容对象存储；
+- Docker Compose；
+- 环境变量模板；
+- CI；
+- lint；
+- typecheck；
+- 测试框架；
+- 基础鉴权；
+- 角色模型；
+- 健康检查。
+
+验收：
+
+```bash
+pnpm install
+pnpm dev
+pnpm lint
+pnpm typecheck
+pnpm test
+```
+
+全部可运行。
+
+仓库不得含真实 JLPT 题目。
+
+## Phase 1：领域模型和数据库
+
+交付：
+
+- 第 16 节核心表；
+- N1/N2 枚举；
+- 官方题型矩阵；
+- 数据库迁移；
+- 领域约束；
+- 合成演示数据；
+- 仓储测试；
+- 版本不可变策略。
+
+验收：
+
+- 无法写入 N3～N5；
+- 无法给 N1 写入 N2 专属题型；
+- 无法给 N2写入 `READING_LONG`；
+- 已发布版本无法直接更新；
+- 套卷可引用题组版本。
+
+## Phase 2：权利闸门和内容后台
+
+交付：
+
+- 来源管理；
+- 许可管理；
+- 权利证明管理；
+- JSON 导入；
+- 素材编辑；
+- 题组编辑；
+- 答案双人审核；
+- 套卷编辑器；
+- 发布检查；
+- 暂停和归档；
+- 审计日志。
+
+验收：
+
+- 未批准内容无法发布；
+- 许可过期内容无法创建新场次；
+- 未完成答案复核无法发布；
+- 翻译权限关闭时学习接口不返回翻译。
+
+## Phase 3：套卷和普通练习
+
+交付：
+
+- 首页；
+- 套卷列表；
+- 套卷详情；
+- 普通练习；
+- 基础渲染器；
+- 自动保存；
+- 暂停与继续；
+- 答题卡；
+- 题组提交；
+- 基础报告；
+- 历史记录。
+
+验收：
+
+- 刷新后恢复；
+- 同一题不重复保存；
+- 阅读和听力不拆散；
+- 提交前拿不到答案；
+- 新场次不覆盖旧场次。
+
+## Phase 4：严格限时模考
+
+交付：
+
+- N1/N2 考试蓝图；
+- 服务端计时；
+- 分科状态机；
+- 到时自动交卷；
+- 严格听力播放器；
+- 断线恢复；
+- 多标签页租约；
+- 严格答案隔离；
+- 模考报告。
+
+验收：
+
+- 修改本地时间无效；
+- 刷新不增加时间；
+- 第一科提交后不能返回；
+- 超时答案被拒绝；
+- 听力不能拖动、倍速、暂停或重播；
+- 重复提交幂等。
+
+## Phase 5：题型、专题和动态练习
+
+交付：
+
+- 科目页；
+- 题型页；
+- 专题页；
+- 练习配置；
+- 动态组题；
+- 未做题；
+- 错题；
+- 到期题；
+- 排除最近练习；
+- 题量不足提示；
+- 场次快照。
+
+验收：
+
+- 题型矩阵正确；
+- 同一场次无重复题组；
+- 动态场次可复现；
+- 真题不足时不生成原创题补齐。
+
+## Phase 6：报告、错题和复习
+
+交付：
+
+- 科目分析；
+- 题型分析；
+- 专题分析；
+- 首次、最近、最好成绩；
+- 错题状态机；
+- 到期复习；
+- 收藏；
+- 不确定题；
+- 本套错题重做；
+- 全局错题重做。
+
+验收：
+
+- 原场次不可改写；
+- 错题重做显示完整上下文；
+- 查看答案后立即答对不能直接判定掌握；
+- 无校准模型时不显示虚构分数。
+
+## Phase 7：精读、精听和大模型辅助
+
+交付：
+
+- 阅读证据句；
+- 选项反证；
+- 听力脚本分段；
+- 听力时间点；
+- 精听工具；
+- 精读工具；
+- 大模型标签草稿；
+- 大模型解析草稿；
+- 人工审核界面；
+- 内容 hash 检查。
+
+验收：
+
+- 大模型不能修改原题；
+- 未审核内容不对用户展示；
+- 权限关闭时不返回翻译和脚本；
+- 答案冲突自动阻断。
+
+## Phase 8：上线加固
+
+交付：
+
+- 完整权限矩阵；
+- 媒体签名；
+- 速率限制；
+- 安全测试；
+- 负载测试；
+- 备份恢复演练；
+- 内容下架演练；
+- 可观测性；
+- 告警；
+- 上线手册。
+
+---
+
+# 33. 核心验收清单
+
+## 33.1 等级和题型
+
+- [ ] 公开接口只接受 N1/N2。
+- [ ] 后台只允许 N1/N2。
+- [ ] N1 不出现表记。
+- [ ] N1 不出现构词。
+- [ ] N2 不出现独立长篇阅读。
+- [ ] N1/N2 听力题型矩阵正确。
+- [ ] 非法组合在服务端被拒绝。
+- [ ] 非法组合在数据库层被拒绝。
+
+## 33.2 套卷和版本
+
+- [ ] 同一题组可被多个入口复用。
+- [ ] 发布套卷引用明确题组版本。
+- [ ] 新题组版本不改变旧场次。
+- [ ] 套卷顺序可完整复现。
+- [ ] 官方真题选编不误标为单次完整原卷。
+- [ ] 发布版本不可直接修改。
+
+## 33.3 版权
+
+- [ ] 权利未批准无法发布。
+- [ ] 许可过期无法创建新场次。
+- [ ] 翻译权限关闭时接口不返回翻译。
+- [ ] 音频权限关闭时接口不返回音频凭证。
+- [ ] 下架有审计日志。
+- [ ] 权利撤销后无法生成新媒体签名。
+
+## 33.4 普通练习
+
+- [ ] 选择答案后自动保存。
+- [ ] 刷新后答案恢复。
+- [ ] 刷新后当前位置恢复。
+- [ ] 逐题和整组提交正确。
+- [ ] 提交前接口不含答案。
+- [ ] 阅读上下文完整。
+- [ ] 听力上下文完整。
+- [ ] 新场次不覆盖旧场次。
+
+## 33.5 严格模考
+
+- [ ] N1 第一科时间来自 110 分钟配置。
+- [ ] N1 听力时间来自 55 分钟配置。
+- [ ] N2 第一科时间来自 105 分钟配置。
+- [ ] N2 听力时间来自 50 分钟配置。
+- [ ] 修改浏览器时间不影响倒计时。
+- [ ] 页面刷新不重置时间。
+- [ ] 换设备不重置时间。
+- [ ] 第一科提交后不能返回。
+- [ ] 到时自动提交。
+- [ ] 截止后答案被拒绝。
+- [ ] 听力不能拖动。
+- [ ] 听力不能倍速。
+- [ ] 听力不能主动暂停。
+- [ ] 听力不能主动重播。
+- [ ] 重复提交幂等。
+- [ ] 多标签页不能延长时间。
+
+## 33.6 动态练习
+
+- [ ] 抽题单位是题组。
+- [ ] 单次场次没有重复题组。
+- [ ] `UNSEEN` 筛选正确。
+- [ ] `WRONG` 筛选正确。
+- [ ] `DUE` 筛选正确。
+- [ ] 排除最近练习正确。
+- [ ] 题量不足返回 warning。
+- [ ] 场次快照不受后续标签修改影响。
+- [ ] 不会自动生成新题补齐。
+
+## 33.7 报告和复习
+
+- [ ] 分别统计语言知识、阅读、听力。
+- [ ] 保存首次结果。
+- [ ] 保存最近结果。
+- [ ] 保存最好结果。
+- [ ] 保存全部历史。
+- [ ] 无估分模型时不显示精确估分。
+- [ ] 有估分时显示模型版本。
+- [ ] 有估分时显示“非官方估算”。
+- [ ] 错题重做不覆盖原场次。
+- [ ] 阅读错题重做显示完整文章。
+- [ ] 听力错题重做显示完整音频题组。
+- [ ] 掌握状态按间隔规则更新。
+
+## 33.8 安全
+
+- [ ] 普通用户不能访问管理接口。
+- [ ] 用户不能访问他人场次。
+- [ ] 媒体 URL 短期有效。
+- [ ] 日志不包含完整题目。
+- [ ] 日志不包含正确答案。
+- [ ] 发布和下架有审计。
+- [ ] 富文本经过白名单清洗。
+- [ ] 答案不是通过 CSS 隐藏。
+- [ ] 严格模考截止时间由服务端判断。
+
+---
+
+# 34. Definition of Done
+
+一个功能只有同时满足以下条件才算完成：
+
+- 产品入口完整；
+- 用户可以走完整流程；
+- 核心规则在服务端实现；
+- 数据库有必要约束；
+- 有可重复执行的迁移；
+- API 有输入输出校验；
+- 前端处理加载状态；
+- 前端处理空状态；
+- 前端处理错误状态；
+- 前端处理恢复状态；
+- 权限已测试；
+- 答案隔离已测试；
+- 核心路径有单元、集成或 E2E 测试；
+- 未使用真实未授权内容作为测试数据；
+- 文档包含运行命令；
+- CI 中 lint、类型检查和测试通过；
+- 不存在未解释的 P0 或 P1 缺陷。
+
+---
+
+# 35. 大模型阶段汇报模板
+
+每阶段执行完成后必须按以下格式汇报：
+
+```markdown
+## 本阶段结果
+
+### 已完成
+
+- ...
+
+### 关键设计决定
+
+- ...
+
+### 变更文件
+
+- `path/to/file`：用途
+
+### 数据库迁移
+
+- 迁移名称：
+- 执行方式：
+- 回滚方式：
+
+### API 变更
+
+- ...
+
+### 运行命令
+
+```bash
+pnpm install
+pnpm dev
+pnpm test
+```
+
+### 测试结果
+
+- 单元测试：
+- 集成测试：
+- E2E：
+- 类型检查：
+- lint：
+
+### 验收标准对应
+
+- [x] ...
+
+### 已知风险
+
+- ...
+
+### 下一阶段入口
+
+- ...
+```
+
+不得只回复：
+
+```text
+已经完成。
+```
+
+---
+
+# 36. 首次交给代码大模型的启动指令
+
+将本文完整放入代码大模型上下文，然后追加：
+
+```text
+请严格依据《JLPT N1/N2 真题题库系统——最终可执行规格》开始实施。
+
+本次只执行 Phase 0 和 Phase 1，不要提前实现 Phase 2 及后续功能。
+
+使用文档默认技术栈，创建一个可运行的 pnpm monorepo，并完成：
+
+1. Next.js Web/API 工程；
+2. PostgreSQL、Redis 和 S3 兼容对象存储的 Docker Compose；
+3. 基础鉴权和角色模型；
+4. 完整的 N1/N2 核心领域类型；
+5. 数据库 Schema 和首批迁移；
+6. N1/N2 官方题型矩阵；
+7. 等级和题型数据库约束；
+8. 版本不可变基础机制；
+9. 纯合成演示数据；
+10. 单元测试和集成测试；
+11. CI、lint、typecheck 和测试命令；
+12. 本地运行文档。
+
+禁止加入任何真实 JLPT 题目、文章、选项、答案、音频、图片、扫描件或未经授权的衍生内容。
+
+所有关键领域规则必须在服务端实现，能够使用数据库约束的规则同时加入数据库约束。
+
+遇到普通技术细节时采用合理默认值继续执行，不要反复询问。
+
+完成后严格使用文档第 35 节的模板汇报。
+```
+
+---
+
+# 37. 后续阶段执行指令
+
+每次继续开发时追加：
+
+```text
+继续执行《JLPT N1/N2 真题题库系统——最终可执行规格》的下一阶段。
+
+开始前先检查上一阶段：
+
+1. 验收清单；
+2. 数据库迁移；
+3. 类型检查；
+4. lint；
+5. 单元测试；
+6. 集成测试；
+7. E2E；
+8. 已知风险。
+
+如上一阶段存在失败，先修复，不得带病进入下一阶段。
+
+继续遵守以下硬规则：
+
+- 只支持 N1/N2；
+- 不加入真实未授权题目；
+- 不复制底层题目；
+- 不拆散阅读和听力题组；
+- 已发布版本不可直接修改；
+- 严格模考由服务端计时；
+- 提交前不返回答案；
+- 不将正确率包装成官方分数；
+- 大模型结果必须人工审核；
+- 未通过权利闸门的内容不得发布。
+```
+
+---
+
+# 38. 官方参考地址
+
+实施前核对以下官方页面：
+
+```text
+https://www.jlpt.jp/e/guideline/testsections.html
+https://www.jlpt.jp/e/guideline/results.html
+https://www.jlpt.jp/e/samples/sampleindex.html
+https://www.jlpt.jp/e/policy.html
+```
+
+事实基线：
+
+- N1/N2 当前均有语言知识・阅读和听力两个限时科目；
+- N1/N2 的成绩均分为语言知识、阅读和听力；
+- 官方问题集包含从 2010 年改制后实际考试中选出的题目；
+- 官方问题集不能自动认定为某一场考试的完整原卷；
+- 部分语法、阅读和听力内容包含第三方作品；
+- 商业产品使用前必须核验复制、传播、翻译和音频播放权限。
+
+---
+
+# 39. 最终验收语句
+
+> 在不复制底层题目、不拆散题组上下文、不泄露答案、不篡改历史版本、不虚构官方成绩、且所有内容通过真实性和版权闸门的前提下，同一套 JLPT N1/N2 真题内容能够稳定支持整套普通练习、严格限时模考、按科目练习、按官方题型练习、按专题练习、学习回顾、错题重做、精读精听和多次成绩分析。

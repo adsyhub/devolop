@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "description": "2018-07-N2：LLM 逐句校对发现的 ASR 误识别修正 4 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "aa8b049bfccb752a18fc4515f0aacdeedba47a502f33eb46d3dcfc460fb71fc5",
+  "evidence": {
+    "file": "proofread-work/2018-07-N2/proofread.json",
+    "proposedFixes": "proofread-work/2018-07-N2/proposed-fixes.json",
+    "notes": "proofread-work/2018-07-N2/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 153,
+      "endIndex": 153,
+      "expectedStartTime": 1114.1,
+      "expectedEndTime": 1123.2,
+      "items": [
+        {
+          "startTime": 1114.1,
+          "endTime": 1123.2,
+          "sourceText": "が良かったんでしょうか そうか講演後にアンケートを取ったんですけど参加者の感想からは調理法など実践的な",
+          "jaText": "が良かったんでしょうか そうか講演後にアンケートを取ったんですけど参加者の感想からは調理法など実践的な"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 154,
+      "endIndex": 154,
+      "expectedStartTime": 1123.2,
+      "expectedEndTime": 1132.9,
+      "items": [
+        {
+          "startTime": 1123.2,
+          "endTime": 1132.9,
+          "sourceText": "内容が喜ばれたことが分かりました 講演中も熱心にメモしている方が何人かいたので材料や作り方を書いたものをお配り",
+          "jaText": "内容が喜ばれたことが分かりました 講演中も熱心にメモしている方が何人かいたので材料や作り方を書いたものをお配り"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 263,
+      "endIndex": 263,
+      "expectedStartTime": 2062.64,
+      "expectedEndTime": 2077.0,
+      "items": [
+        {
+          "startTime": 2062.64,
+          "endTime": 2077.0,
+          "sourceText": "1。やっぱり言ってよかったってことだね。でも必要だと思ったから注意しろって言うならするよ。",
+          "jaText": "1。やっぱり言ってよかったってことだね。でも必要だと思ったから注意しろって言うならするよ。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 306,
+      "endIndex": 306,
+      "expectedStartTime": 2413.14,
+      "expectedEndTime": 2419.99,
+      "items": [
+        {
+          "startTime": 2413.14,
+          "endTime": 2419.99,
+          "sourceText": "ちょっと大きめのホールとかに多少使用料は上がりますが音の響きもいいそうですよ",
+          "jaText": "ちょっと大きめのホールとかに多少使用料は上がりますが音の響きもいいそうですよ"
+        }
+      ]
+    }
+  ]
+}

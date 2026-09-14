@@ -1,0 +1,46 @@
+{
+  "page": 8,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 5,
+      "text": "問題5　次の文の( )に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 5,
+      "text": "26 長く使っていた古い冷蔵庫を、引っ越し____買い替えた。\n1 を機に\n2 を皮切りに\n3 に基づいて\n4 にわたって\n27 経営者は、会社は社員____ものであるということを忘れてはいけない。\n1 たる\n2 における\n3 あっての\n4 ならではの\n28 私はこの漫画が大好きで、つらいときに____元気をもらっている。\n1 読み返すべく\n2 読み返すならば\n3 読み返しては\n4 読み返してこそ\n29 連休中どこにも出かけず、____、今日は朝からどうも体がだるい。\n1 寝たことにしたせいか\n2 寝てばかりいたせいか\n3 寝たことにしたとすると\n4 寝てばかりいたとすると\n30 (会議で)\n委員長「北駅周辺の再開発計画について、皆さんのご意見をお聞かせください。」\n委員「私個人____その必要性を感じておりますが、市民の皆さんは納得しにくいのではないかと思います。」\n1 によりますと\n2 といいますと\n3 におかれましては\n4 といたしましては\n31 せっかく新しく買うのならと高性能のパソコンを____、全く使いこなせていない。\n1 買ったばかりでも\n2 買ったはいいが\n3 買ったかにかかわらず\n4 買ったきりなのに\n32 先日、レストランに行ったとき、店員の失礼な態度に大変____。\n1 不快な思いをした\n2 不快極まりない\n3 不快だったことか\n4 不快にもほどがある"
+    }
+  ],
+  "pageLabel": "6",
+  "issues": [
+    "Choice-looking line with no question open: '1 を機に'",
+    "Choice-looking line with no question open: '2 を皮切りに'",
+    "Choice-looking line with no question open: '3 に基づいて'",
+    "Choice-looking line with no question open: '4 にわたって'",
+    "Choice-looking line with no question open: '1 たる'",
+    "Choice-looking line with no question open: '2 における'",
+    "Choice-looking line with no question open: '3 あっての'",
+    "Choice-looking line with no question open: '4 ならではの'",
+    "Choice-looking line with no question open: '1 読み返すべく'",
+    "Choice-looking line with no question open: '2 読み返すならば'",
+    "Choice-looking line with no question open: '3 読み返しては'",
+    "Choice-looking line with no question open: '4 読み返してこそ'",
+    "Choice-looking line with no question open: '1 寝たことにしたせいか'",
+    "Choice-looking line with no question open: '2 寝てばかりいたせいか'",
+    "Choice-looking line with no question open: '3 寝たことにしたとすると'",
+    "Choice-looking line with no question open: '4 寝てばかりいたとすると'",
+    "Choice-looking line with no question open: '1 によりますと'",
+    "Choice-looking line with no question open: '2 といいますと'",
+    "Choice-looking line with no question open: '3 におかれましては'",
+    "Choice-looking line with no question open: '4 といたしましては'",
+    "Choice-looking line with no question open: '1 買ったばかりでも'",
+    "Choice-looking line with no question open: '2 買ったはいいが'",
+    "Choice-looking line with no question open: '3 買ったかにかかわらず'",
+    "Choice-looking line with no question open: '4 買ったきりなのに'",
+    "Choice-looking line with no question open: '1 不快な思いをした'",
+    "Choice-looking line with no question open: '2 不快極まりない'",
+    "Choice-looking line with no question open: '3 不快だったことか'",
+    "Choice-looking line with no question open: '4 不快にもほどがある'"
+  ]
+}

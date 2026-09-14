@@ -1,0 +1,20 @@
+{
+  "requested": 1,
+  "actual": 2,
+  "groups": [
+    {
+      "questions": 2,
+      "materials": 8,
+      "unusedMaterialsBecomeShared": 7,
+      "extraMaterialKeys": [
+        "p0003-material",
+        "p0005-material",
+        "p0009-material",
+        "p0010-material",
+        "p0014-material",
+        "p0016-material",
+        "p0017-material"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "description": "2021-12-N2：LLM 逐句校对发现的 ASR 误识别修正 8 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "b5c6f644f12d3607d3013efb5d8243726214f338590b8576512e3d8f4e3a6c73",
+  "evidence": {
+    "file": "proofread-work/2021-12-N2/proofread.json",
+    "proposedFixes": "proofread-work/2021-12-N2/proposed-fixes.json",
+    "notes": "proofread-work/2021-12-N2/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 18,
+      "endIndex": 18,
+      "expectedStartTime": 141.58,
+      "expectedEndTime": 146.7,
+      "items": [
+        {
+          "startTime": 141.58,
+          "endTime": 146.7,
+          "sourceText": "ねえ、リンさんはこのこと知りませんから、誰か伝えておいてくれますか。",
+          "jaText": "ねえ、リンさんはこのこと知りませんから、誰か伝えておいてくれますか。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 19,
+      "endIndex": 19,
+      "expectedStartTime": 147.04,
+      "expectedEndTime": 151.12,
+      "items": [
+        {
+          "startTime": 147.04,
+          "endTime": 151.12,
+          "sourceText": "あ、私、リンさんに伝えておきます。同じ寮ですから。",
+          "jaText": "あ、私、リンさんに伝えておきます。同じ寮ですから。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 23,
+      "endIndex": 23,
+      "expectedStartTime": 169.18,
+      "expectedEndTime": 174.86,
+      "items": [
+        {
+          "startTime": 169.18,
+          "endTime": 174.86,
+          "sourceText": "解答用紙の問題1の例のところを見てください。",
+          "jaText": "解答用紙の問題1の例のところを見てください。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 89,
+      "endIndex": 89,
+      "expectedStartTime": 672.91,
+      "expectedEndTime": 678.34,
+      "items": [
+        {
+          "startTime": 672.91,
+          "endTime": 678.34,
+          "sourceText": "問題2問題2ではまず質問を聞いてください",
+          "jaText": "問題2問題2ではまず質問を聞いてください"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 105,
+      "endIndex": 105,
+      "expectedStartTime": 797.74,
+      "expectedEndTime": 803.6,
+      "items": [
+        {
+          "startTime": 797.74,
+          "endTime": 803.6,
+          "sourceText": "解答用紙の問題2の例のところを見てください",
+          "jaText": "解答用紙の問題2の例のところを見てください"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 128,
+      "endIndex": 128,
+      "expectedStartTime": 938.37,
+      "expectedEndTime": 965.83,
+      "items": [
+        {
+          "startTime": 938.37,
+          "endTime": 965.83,
+          "sourceText": "高橋君今晩一緒にご飯食べに行かない",
+          "jaText": "高橋君今晩一緒にご飯食べに行かない"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 198,
+      "endIndex": 198,
+      "expectedStartTime": 1625.13,
+      "expectedEndTime": 1638.97,
+      "items": [
+        {
+          "startTime": 1625.13,
+          "endTime": 1638.97,
+          "sourceText": "解答用紙の問題3の例のところを見てください 最も良いものは4番ですから答えはこのように書きます",
+          "jaText": "解答用紙の問題3の例のところを見てください 最も良いものは4番ですから答えはこのように書きます"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 255,
+      "endIndex": 255,
+      "expectedStartTime": 2104.19,
+      "expectedEndTime": 2117.75,
+      "items": [
+        {
+          "startTime": 2104.19,
+          "endTime": 2117.75,
+          "sourceText": "解答用紙の問題4の例のところを見てください 最も良いものは一番ですから答えはこのように書きます",
+          "jaText": "解答用紙の問題4の例のところを見てください 最も良いものは一番ですから答えはこのように書きます"
+        }
+      ]
+    }
+  ]
+}

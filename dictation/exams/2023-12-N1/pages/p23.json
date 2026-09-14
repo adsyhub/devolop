@@ -1,0 +1,48 @@
+{
+  "page": 23,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>53</u> それとあるが、どのようなことか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "仕事を具体的な内容よりイメージで捉えて答えていること",
+      "questionNumber": 1,
+      "choices": [
+        "よいイメージが持たれやすい仕事を選んで答えていること",
+        "できない仕事をできると思い込んで答えていること",
+        "本当にやりたい仕事を選ばずに答えていること"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>54</u> 部下への接し方について、筆者はどのように考えているか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "希望と違う仕事に挑戦させて、本人の新しいスキルを引き出すことが大切だ。",
+      "questionNumber": 1,
+      "choices": [
+        "適性を見極めて仕事を任せれば、本人は充実感を持って取り組むようになる。",
+        "本人のやりたい仕事に挑戦させれば、望ましい成果が出せるようになる。",
+        "個人の成果を望むより、チームに貢献する経験をさせることが大切だ。"
+      ]
+    }
+  ],
+  "pageLabel": "21",
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

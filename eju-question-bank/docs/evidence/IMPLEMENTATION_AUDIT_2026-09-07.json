@@ -1,0 +1,249 @@
+{
+  "recordedAt": "2026-09-07T23:52:00.073455+00:00",
+  "python": "3.11.10",
+  "fullSuite": {
+    "command": "pytest -ra -o addopts='' --tb=short",
+    "exitCode": 2,
+    "collectionErrors": 14,
+    "note": "Interrupted during collection; not 14 executed test failures"
+  },
+  "isolatedSuite": {
+    "passed": 16,
+    "failed": 1,
+    "failure": "test_probe_audio_rejects_corrupted_or_fake_file"
+  },
+  "pythonSyntaxErrors": [
+    {
+      "file": "eju_bank/db.py",
+      "line": 30,
+      "error": "expected an indented block after function definition on line 29"
+    },
+    {
+      "file": "eju_bank/server.py",
+      "line": 139,
+      "error": "expected an indented block after 'except' statement on line 138"
+    },
+    {
+      "file": "eju_bank/sessions.py",
+      "line": 309,
+      "error": "unmatched '}'"
+    },
+    {
+      "file": "eju_bank/ocr/pipeline.py",
+      "line": 130,
+      "error": "expected an indented block after 'for' statement on line 129"
+    },
+    {
+      "file": "scripts/sync_schemas.py",
+      "line": 21,
+      "error": "expected an indented block after 'if' statement on line 19"
+    }
+  ],
+  "javascript": [
+    {
+      "file": "eju_bank/web/app.js",
+      "exitCode": 1,
+      "output": "/workspace/Develop/eju-question-bank/eju_bank/web/app.js:719\n    const key = getDraftKey(state.activeSession.sessionId);\n          ^^^\n\nSyntaxError: Unexpected identifier 'key'\n    at wrapSafe (node:internal/modules/cjs/loader:1486:18)\n    at checkSyntax (node:internal/main/check_syntax:78:3)\n\nNode.js v22.14.0\n"
+    },
+    {
+      "file": "eju_bank/web/learning.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "file": "eju_bank/web/review.js",
+      "exitCode": 0,
+      "output": ""
+    }
+  ],
+  "schemas": [
+    {
+      "file": "schemas/common.schema.json",
+      "matchesPackaged": true,
+      "validJson": true
+    },
+    {
+      "file": "schemas/content-inventory.schema.json",
+      "matchesPackaged": false,
+      "validJson": false,
+      "line": 73,
+      "error": "Expecting ',' delimiter"
+    },
+    {
+      "file": "schemas/page-contract.schema.json",
+      "matchesPackaged": false,
+      "validJson": false,
+      "line": 13,
+      "error": "Expecting ',' delimiter"
+    },
+    {
+      "file": "schemas/paper.schema.json",
+      "matchesPackaged": false,
+      "validJson": false,
+      "line": 34,
+      "error": "Expecting ',' delimiter"
+    },
+    {
+      "file": "schemas/source-manifest.schema.json",
+      "matchesPackaged": true,
+      "validJson": true
+    }
+  ],
+  "databaseReadOnly": {
+    "schemaVersion": 4,
+    "integrity": "ok",
+    "counts": {
+      "papers": 1,
+      "paper_versions": 1,
+      "questions": 57,
+      "practice_sessions": 6,
+      "page_revisions": 0,
+      "paper_reviews": 0,
+      "assets": 0,
+      "audio_cues": 0,
+      "extraction_runs": 0,
+      "source_structure_revisions": null,
+      "jobs": null,
+      "content_issues": null
+    }
+  },
+  "codeSha256": {
+    "eju_bank/__init__.py": "ceb61a90dc93c9b89475575e26f8c4154c534ec4b7836d36cb25f2de82b1dff1",
+    "eju_bank/__main__.py": "19f07de3d1765a6803d4332ab1e67346381236f7769f47640e73849922394790",
+    "eju_bank/answers.py": "a1a0a5694582d81894179249961b1b639ee1d69b16ad8deb904b9bb46e4bc3dd",
+    "eju_bank/assemble.py": "cb181831d9aa0346294a3479b1b147d496694d99887c273a58ecf54b7da0822f",
+    "eju_bank/assets.py": "c2c400473e9eb33cd66cb66e582c91d7e9863faffd091bcef77592966b51b9ca",
+    "eju_bank/audio.py": "7c4c6d847a3709303b18c9d64634a087736f4025e199246b4681baeaff005730",
+    "eju_bank/audit.py": "4900831134d678e92a6d1675e16c2ccd144fdaaded7cc931ca3f47cd6b7f4918",
+    "eju_bank/cli.py": "11a7fd1884041c17a04def00814be27b1d8ec61e8cc2a308ff04faee1ce9615d",
+    "eju_bank/constants.py": "273ef3a11f073d2b55a0f7504300a1a34da81b1802dd84f961d7b6ecddb012f1",
+    "eju_bank/db.py": "070e75312fa89a663c18f5a072e0fff55a8b0228879ecec65e6f2b0a381076ea",
+    "eju_bank/errors.py": "73f89cf281c2ccdd322bd57299484cb544e80a3f2527e258adca9df27acc1d2e",
+    "eju_bank/grading.py": "40051eca71954d951a52c5978e498a4e44ca501705abb8b1804dd66f19be92cf",
+    "eju_bank/inventory.py": "4b719ec8c29c1c94f45d58ac769da827ea92ac4928091a673e305cda8c2fca1d",
+    "eju_bank/jobs.py": "24c81f985788b613ffccbb1945c945817086d4fc5005cde59fc0b4db5e7eac4d",
+    "eju_bank/learning.py": "e332e1fa0482712be254f70dfd7100cdb761c22af5476e02ee707d7b8cfe35dd",
+    "eju_bank/migrations.py": "6a2a6c293e984a15e2ceb61fe7f52701d66425f0349ea7f385133b8bcf80b5e7",
+    "eju_bank/ocr/__init__.py": "b5fca4763d869e941f33e046e890df5d22a7774179fbff24749bc00f5adee1f1",
+    "eju_bank/ocr/pipeline.py": "56fd8f67a085a7950749be120771f47bcab58f45284a6dce304d57d9e6b374da",
+    "eju_bank/ocr/providers.py": "c96affecdf5a54298308ab3033e584ad1632760efb9b10c32e5df3a326ffa9d5",
+    "eju_bank/ops.py": "55923987edfa0673d2b511ab9c8643c915ba75624fc9b6fa4af9c19509564dab",
+    "eju_bank/page_contract.py": "6d28d7fb576864528eb44428c3fba80c2d84b8ca1d1eb1886dd2ec45bd17d25e",
+    "eju_bank/pdf_pipeline.py": "44acc049ff5a5a88ee76ec2afff75969f0a47a6b9f2c357dd061af5b486b63bb",
+    "eju_bank/prompts.py": "29613d5ed9e301e30f516f042ff7c6e206a349efa3141f9642f6780a7a5bdefe",
+    "eju_bank/publish.py": "d6b17602af6b458b31e3422b19f031e7d1cd41b6c9720ca0d85df19c97678ad8",
+    "eju_bank/review.py": "88b39ebfa6c407e7fa662c8988002766e5a4977ed7dd7931cf66e19c6871d4a1",
+    "eju_bank/schema_validation.py": "2174ba9e66676d1f3809318e1bb977c8c5aeb88c497d311c2f724fbbb5d5f3dd",
+    "eju_bank/schemas/common.schema.json": "32816ac494309d809bd4459626843c94c564a19af0a77783d5cdbec7321964ca",
+    "eju_bank/schemas/content-inventory.schema.json": "17a0f07ebf1ab0bcbd1c27894de46ca7764e56c25056e50a70e3ac28d1013f98",
+    "eju_bank/schemas/page-contract.schema.json": "2171efcf3d181b56d76945900fd828f9e6503bf837c24f156e592e344f6a59a6",
+    "eju_bank/schemas/paper.schema.json": "36f1644b93d3dadb8e7b9e16b799556c7e432faa457c13dc8dc56587dcd17525",
+    "eju_bank/schemas/source-manifest.schema.json": "0a1712cf65389bd6bf79b767f473c0793117a120108c2d0acc17dd402dde1d4d",
+    "eju_bank/security.py": "f248652fd9ec477c2e6f1a5458c6a719e554b64b8e9880970d253f15e7f9ff6a",
+    "eju_bank/selection.py": "027b812b29e497a2d2d99c66d13c452fcfe84c8ccc736d1c00544cc6c6c51f53",
+    "eju_bank/server.py": "b980be3fa56ad604dab3a2370983599c819ad499099a4e8eb4e0cf959e38554d",
+    "eju_bank/sessions.py": "023d123bba1b7b08e99c045029ba694a30266d819b45abd06e317ef4c3aa6f19",
+    "eju_bank/source.py": "6abf8b142ee7f5ab209ffe02768bfb2536ed2cbb85f79089ef63b70f71423d68",
+    "eju_bank/util.py": "ecf3f96d3ef864c11494186e93a2cfa3932810ffc010f1f5bc71c146eb643cd1",
+    "eju_bank/web/app.js": "3932209bac950e7c2847db5fc1eb7599d8e009dd89b2d5e2fdb86505f8b179b4",
+    "eju_bank/web/index.html": "e897aedb094a4b7a8ae50dbc1886c5af42026ede16755578876b20abd9dea801",
+    "eju_bank/web/learning.js": "e87d8eef1abad3dc72c2c87dca596ebaf4704e0dd1e55322d9b4ff762bfc92a8",
+    "eju_bank/web/review.js": "234d4f091a429d2a4a97786e8d9b9349856c92eff58377e0467c49d0d313718d",
+    "eju_bank/web/styles.css": "1c5ede53372908ddd7a1f83a0ab1af57c55cb8f26cc5dcfba7223b3e7a7de28e",
+    "pyproject.toml": "1c8408d75199fd66bd5b093625503aad10aa4c52649012173da523ba5987cfe8",
+    "schemas/common.schema.json": "32816ac494309d809bd4459626843c94c564a19af0a77783d5cdbec7321964ca",
+    "schemas/content-inventory.schema.json": "fcf0bc8933790b23979b7c61580cd48b965c3c12b109894526a3694cb2ce5bf7",
+    "schemas/page-contract.schema.json": "37b8b19c2940bcb0b8d6969186b9fee3f884e80368bf735154a6e63f4d362aaa",
+    "schemas/paper.schema.json": "e9e3ffaf71729a434202bde702b09216ed02d8bce1df3cf57493a22db97f0237",
+    "schemas/source-manifest.schema.json": "0a1712cf65389bd6bf79b767f473c0793117a120108c2d0acc17dd402dde1d4d",
+    "scripts/build_2023_science.py": "e90d0183af6927301e5a7b8cc6d089b937abbec36387a498348db29571729020",
+    "scripts/clip_all_figures_2023.py": "d684d54bba2b7e77e3cf0dd14fb3608569cf3b452234d5816c44846025377446",
+    "scripts/probe_2024_sources.py": "e72b288081f29f09c69b229a99c0f32a8503bf097f9b04cdb2886fa82e4329e9",
+    "scripts/sync_schemas.py": "33b566ada1603cad71caafcecda12da39b1ecac86cb172574c99c0fa09c3a243",
+    "scripts/trial_run_2023_science.py": "82efa6d17c17aaa4d169229b903755920c75f04e38fa1d1511f8c76d8b05c620",
+    "tests/conftest.py": "d52f468f6885523ab83302bdaa7fa22f8b3f8b6fe61cfbb03909dbdf699f2f8a",
+    "tests/fixtures/synthetic_all_forms.py": "6e5d44900ee94ea64fd42b97e176801b4a97171db9594d9f3617f603c0b56233",
+    "tests/test_answers.py": "f3a9d847de4eab75df44ce60573744acc32a72437b6e890b362a840dce0d9195",
+    "tests/test_assemble_publish.py": "dda578b6d1dd3186c71491f9a6795c3665325a6e8576a394e9b4a4ce7d9591c4",
+    "tests/test_assets_audio.py": "9c493facf9ff6b3557707457531cb7384ae35feb768ef2a893c7746a225bc8fb",
+    "tests/test_backup_migrations.py": "d1e145cb7ce649efa5155e036d6a122a246d2f297617c342ee1079f20f1c02c7",
+    "tests/test_browser_learning.py": "3f76471602df37ec66ce9a01d2f7667dfa62466f129c1188c1eee8b7c5d531fc",
+    "tests/test_content_issues.py": "7c6b0ea0e4100bb4382991514442ca1681adaaac5aaacb09f0dfb64d09228163",
+    "tests/test_content_review.py": "72aeaa2798e1b93a921540b37dd40b02eaa76712571c520cd129d78346399df8",
+    "tests/test_inventory_cli.py": "1add28b1a949dbf31b14dc794b03ab4785ce99b82072ed8e70fea174fd7023d8",
+    "tests/test_jobs.py": "242017d7169e3eb6f6bc33d57348ec850ad7cc7e9c902b80f80f239c565b3b5d",
+    "tests/test_learning_collections.py": "86f991a5cb2451ec2f475f24d25a133526ebd5a46f6a21123c280e1d2922b264",
+    "tests/test_ocr_pipeline.py": "ac0355f3713607fdc34358ed6e34516f825e15fdb2ad4de7ff8ea2fa28aef820",
+    "tests/test_ops.py": "9a35c4634eb24e5439cac08ad96461c46f1ba8bea605cf3338c603337ab8c285",
+    "tests/test_page_contract.py": "c3b22d259fd2d7ef0ddb4db097771bf1a27afb8bb20a03a575405cc8bddc8ee4",
+    "tests/test_real_2023_science_pdf.py": "9508f09e82703dd279695cee7ca710454fcfbf06da40f6c82e289e425579f8ac",
+    "tests/test_remote_boundary.py": "013dd25b7f66a9d9554dbdb255f9b16413145c3cf1b59472beb8ab93dc7ecdb9",
+    "tests/test_review_browser.py": "2ce6d0dc86d088b1ed8b756dc75432402efd2b465b523c52eae40cebdeaccb52",
+    "tests/test_security.py": "2213eb56562d44500eab610071b89518525a4a800b0c778496d6d7656a60ed12",
+    "tests/test_selection_grading.py": "010b547ef56d820c0c194a2f47a21455511452f4b8bfaaac8ba21ad293df1555",
+    "tests/test_server_v1.py": "863594e06cb9263ec9a280a340a2d4e6f4f375d580035e8e3591a495e8c09a59",
+    "tests/test_session_reliability.py": "14938c46dfc085c1b6ce59506960141017402eaf172e85e82cb03d1ed4271ca9",
+    "tests/test_trial_2023_science.py": "550fb4380e4cd45f9187ead9241a675c5a84c6605c084fc3b71599acd754e612"
+  },
+  "sourceSha256": {
+    "sources/2023令和5年第2回理科.pdf": "fddda625865030cdea57d7860fa75d9c583a41dde4ec471d79db2474630e0c3b",
+    "sources/2023令和5年第2回理科答案.pdf": "5ce3039d9daeef5560fa51b92f8865346d631c39bccbc68e083245e186284a8a",
+    "sources/2024令和6年听力原文.pdf": "49008f41bbb36536b9a1b6ab772f91efc4f53faeb3b27321f02092e8bb0ece47",
+    "sources/2024令和6年数学1(1).pdf": "59437d43a3357743cbf6d5cd235a0b8a2fb67f35196cd7d469cd91a341b091ca",
+    "sources/2024令和6年数学2.pdf": "4643ea65888b01f42c5929bf427975987f036fa0a411f234f68d1d6b5d87ed45",
+    "sources/2024令和6年日语.pdf": "171babbcc710895c7d9dddbc617915559fc02e121c3d636f961e88172455195d",
+    "sources/2024令和6年理科.pdf": "7b8ed37e13f0c65f023e7c7b8a8f3aac66f2b3d64c155983947451e27328b459",
+    "sources/2024令和6年综合科目.pdf": "2562805a8fe579a64fe850fb69f0b60892b8dc7a9c2a3ec242e19d5a476a24b1"
+  },
+  "isolatedProbes": {
+    "newDatabaseMigration": {
+      "version": 5,
+      "missingTables": [
+        "jobs",
+        "job_events",
+        "extraction_page_attempts",
+        "asset_origins",
+        "content_issues"
+      ],
+      "jobCreateError": "OperationalError: no such table: jobs"
+    },
+    "validatorFullFilename": "KeyError: page-contract.schema.json.schema.json",
+    "coverageCountsVsIds": {
+      "inkRegions": 99,
+      "accountedRegions": 99,
+      "regionIds": [
+        "a"
+      ],
+      "accountedRegionIds": [
+        "a"
+      ],
+      "status": "passed"
+    },
+    "v1Migration": {
+      "needsReview": true,
+      "pageValidation": "passed"
+    },
+    "auditValidatorFailure": {
+      "method": "Fault injection: schema_issues raises RuntimeError",
+      "status": "passed"
+    },
+    "inventoryC1C2": {
+      "method": "Original ContentWorkspace.publish_review with stubbed publication/certificate/source dependencies and temporary inventory",
+      "explicitTarget": "c1",
+      "actualResults": {
+        "c1": "PUBLISHED, blockingIssues=[]",
+        "c2": "PUBLISHED, blockingIssues=[]"
+      }
+    },
+    "structureSignature": {
+      "method": "Original sign_source_structure, migrated temporary SQLite, source lookup stub",
+      "inTransactionAfterReturn": true,
+      "rowsAfterReopen": 0
+    },
+    "derivedBaseline": {
+      "scope": "audit_paper only; no database publication certificate asserted",
+      "baselineType": "DERIVED",
+      "status": "passed"
+    }
+  }
+}

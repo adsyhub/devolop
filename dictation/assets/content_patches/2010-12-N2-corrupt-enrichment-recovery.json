@@ -1,0 +1,660 @@
+{
+  "schemaVersion": 1,
+  "description": "Recover the question 4-6 and problem 3 block after its Chinese enrichment was irreversibly replaced by question marks; also correct Japanese text and boundaries using two independent-context retranscriptions.",
+  "sourceSentencesDigest": "c5553f85d599fd934dc9f6e89e69b5f0fa8525f0b3667032173b6aae7adb2cef",
+  "evidence": {
+    "file": "corrupt-block-retranscription.json",
+    "model": "faster-whisper large-v3",
+    "runs": [
+      "baseline-independent",
+      "conservative"
+    ],
+    "conditionOnPreviousText": false,
+    "temperature": 0.0,
+    "clip": [
+      915,
+      1380
+    ]
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 179,
+      "endIndex": 267,
+      "expectedStartTime": 923.37,
+      "expectedEndTime": 1379.92,
+      "items": [
+        {
+          "startTime": 924.0,
+          "endTime": 926.44,
+          "jaText": "今日は引っ越し用の箱をお持ちしました。",
+          "zhTranslation": "今天我把搬家用的箱子带来了。",
+          "explanationText": "「お持ちしました」是「持ってきました」的礼貌说法；「引っ越し用」表示搬家专用。",
+          "confidence": 0.886,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 927.34,
+          "endTime": 929.98,
+          "jaText": "色は赤と青、2色あります。",
+          "zhTranslation": "颜色有红色和蓝色两种。",
+          "explanationText": "「2色あります」表示共有两种颜色；先抓住「赤」和「青」两个关键词。",
+          "confidence": 0.886,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 930.92,
+          "endTime": 932.5,
+          "jaText": "赤はすぐに使うもの、",
+          "zhTranslation": "红色箱子装马上要用的东西，",
+          "explanationText": "这里省略了「箱には入れてください」；句尾仍会接下一个对比项目。",
+          "confidence": 0.886,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 933.1,
+          "endTime": 936.76,
+          "jaText": "青はしばらく使わないもの、というように使い分けてください。",
+          "zhTranslation": "蓝色箱子装暂时不会用的东西，请像这样区分使用。",
+          "explanationText": "「しばらく」表示一段时间；「使い分ける」指依用途区分使用。",
+          "confidence": 0.886,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 937.18,
+          "endTime": 937.58,
+          "jaText": "はい。",
+          "zhTranslation": "好的。",
+          "explanationText": "简短回应，表示已理解对方的说明。",
+          "confidence": 0.886,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 938.04,
+          "endTime": 941.14,
+          "jaText": "それから、サイズは大小ご用意しております。",
+          "zhTranslation": "另外，我们准备了大、小两种尺寸。",
+          "explanationText": "「大小」读作「だいしょう」；「ご用意しております」是「用意しています」的谦恭礼貌说法。",
+          "confidence": 0.886,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 941.9,
+          "endTime": 945.06,
+          "jaText": "本やお皿など重いものは小さい箱に、",
+          "zhTranslation": "书和盘子等较重的物品请放进小箱子，",
+          "explanationText": "枚举使用「～など」；句尾的「に」会接下一句的「お诘めください」。",
+          "confidence": 0.847,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 945.58,
+          "endTime": 949.12,
+          "jaText": "衣類など軽いものは大きい箱にお詰めください。",
+          "zhTranslation": "衣物等较轻的物品请装进大箱子。",
+          "explanationText": "「衣类」泛指衣物；「お诘めください」是「诘めてください」的礼貌形式。",
+          "confidence": 0.847,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 949.12,
+          "endTime": 952.86,
+          "jaText": "ああ、そうですか。工夫してあるんですね。",
+          "zhTranslation": "哦，原来如此。设计得很用心呢。",
+          "explanationText": "「工夫してある」表示经过特别设计或安排；「んですね」带有理解后的感叹。",
+          "confidence": 0.847,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 958.74,
+          "endTime": 962.9,
+          "jaText": "小さい赤い箱にはどんなものを詰めたらいいですか。",
+          "zhTranslation": "小的红色箱子应该装什么东西？",
+          "explanationText": "需要同时套用两个条件：红色代表很快要用，小箱子适合较重的物品。",
+          "confidence": 0.847,
+          "contentType": "prompt"
+        },
+        {
+          "startTime": 978.46,
+          "endTime": 979.2,
+          "jaText": "5番",
+          "zhTranslation": "第5题",
+          "explanationText": "这是题号提示。",
+          "confidence": 0.811,
+          "contentType": "marker"
+        },
+        {
+          "startTime": 979.94,
+          "endTime": 983.8,
+          "jaText": "会社で女の人と男の人が話しています。",
+          "zhTranslation": "一名女子和一名男子正在公司里交谈。",
+          "explanationText": "这句交代场景与人物；「会社で」表示事情发生在公司。",
+          "confidence": 0.841,
+          "contentType": "prompt"
+        },
+        {
+          "startTime": 984.64,
+          "endTime": 988.82,
+          "jaText": "男の人はどうして残業をしていると言っていますか。",
+          "zhTranslation": "男子说他为什么要加班？",
+          "explanationText": "「どうして」询问原因；题目要找出男子自己说明的理由。",
+          "confidence": 0.841,
+          "contentType": "prompt"
+        },
+        {
+          "startTime": 1012.34,
+          "endTime": 1013.54,
+          "jaText": "お疲れ様。",
+          "zhTranslation": "辛苦了。",
+          "explanationText": "职场常用招呼语，用来慰劳同事。",
+          "confidence": 0.77,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1014.76,
+          "endTime": 1016.4,
+          "jaText": "あれ、今日残業？",
+          "zhTranslation": "咦，今天要加班？",
+          "explanationText": "「あれ」表示察觉到意外情况；口语中省略了「するの」。",
+          "confidence": 0.77,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1017.0,
+          "endTime": 1018.0,
+          "jaText": "頑張ってるね。",
+          "zhTranslation": "很努力呢。",
+          "explanationText": "「顽张ってる」是「顽张っている」的口语缩约。",
+          "confidence": 0.77,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1018.0,
+          "endTime": 1022.3,
+          "jaText": "うーん、会議の資料、あともう少しで完成するんだ。",
+          "zhTranslation": "嗯，会议数据再差一点就完成了。",
+          "explanationText": "「あともう少しで」表示距离完成只剩一点；「んだ」用来说明情况。",
+          "confidence": 0.77,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1022.3,
+          "endTime": 1025.16,
+          "jaText": "あ、昨日作ってた資料？",
+          "zhTranslation": "啊，是昨天在做的那份数据？",
+          "explanationText": "「作ってた」是「作っていた」的口语缩约。",
+          "confidence": 0.873,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1025.44,
+          "endTime": 1030.16,
+          "jaText": "うん、来週休暇取ってるから、今週中にやりたいんだよね。",
+          "zhTranslation": "嗯，因为我下周要休假，所以想在这周内做完。",
+          "explanationText": "「休暇を取る」表示请假；「今周中に」表示在本周结束以前。",
+          "confidence": 0.873,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1030.94,
+          "endTime": 1034.12,
+          "jaText": "今週中って、明日しかないじゃない。",
+          "zhTranslation": "说是这周内，不就只剩明天了吗？",
+          "explanationText": "「って」引用前面的说法；「～しかない」表示只有～；「じゃない」在此带有提醒语气。",
+          "confidence": 0.873,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1034.12,
+          "endTime": 1038.44,
+          "jaText": "うん、部長には休暇明けでもいいって言われたんだけど、",
+          "zhTranslation": "嗯，部长是说休假结束后再做也可以，不过……",
+          "explanationText": "「休暇明け」表示休假结束后；「～って言われた」是被动引用，表示别人对自己这么说。",
+          "confidence": 0.873,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1039.4,
+          "endTime": 1041.12,
+          "jaText": "でも仕事のことが気になって。",
+          "zhTranslation": "可是我会一直惦记着工作。",
+          "explanationText": "「気になる」表示放不下心、一直在意；句尾て形连接后面的理由。",
+          "confidence": 0.873,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1041.92,
+          "endTime": 1046.2,
+          "jaText": "せっかくの休みを楽しめないくらいなら、今やっといた方がいいかなって思って。",
+          "zhTranslation": "如果难得的假期会因为这样而无法尽兴，我想还是现在先做完比较好。",
+          "explanationText": "「せっかくの」表示难得的；「～くらいなら」表示与其到那种程度，不如；「やっといた」是「やっておいた」的口语缩约。",
+          "confidence": 0.873,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1046.2,
+          "endTime": 1047.94,
+          "jaText": "まあ、そりゃそうよね。",
+          "zhTranslation": "嗯，那倒也是。",
+          "explanationText": "「そりゃ」是「それは」的口语缩约，表示同意对方的说法。",
+          "confidence": 0.873,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1054.02,
+          "endTime": 1058.3,
+          "jaText": "男の人はどうして残業をしていると言っていますか。",
+          "zhTranslation": "男子说他为什么要加班？",
+          "explanationText": "答案重点不是主管要求，而是他担心工作会影响休假心情，所以想先完成。",
+          "confidence": 0.875,
+          "contentType": "prompt"
+        },
+        {
+          "startTime": 1073.82,
+          "endTime": 1074.6,
+          "jaText": "6番",
+          "zhTranslation": "第6题",
+          "explanationText": "这是题号提示。",
+          "confidence": 0.718,
+          "contentType": "marker"
+        },
+        {
+          "startTime": 1075.34,
+          "endTime": 1080.94,
+          "jaText": "電話で女の人と男の人がカメラの修理について話しています。",
+          "zhTranslation": "一名女子和一名男子正在电话中谈论相机维修。",
+          "explanationText": "「电话で」表示通过电话；「～について」表示关于某个主题。",
+          "confidence": 0.854,
+          "contentType": "prompt"
+        },
+        {
+          "startTime": 1081.96,
+          "endTime": 1083.94,
+          "jaText": "男の人はどうしますか。",
+          "zhTranslation": "男子会怎么做？",
+          "explanationText": "先确认说话者最后接受的是维修、退回，还是其他方案。",
+          "confidence": 0.854,
+          "contentType": "prompt"
+        },
+        {
+          "startTime": 1107.82,
+          "endTime": 1111.44,
+          "jaText": "もしもし、こちらカメラ修理センターです。",
+          "zhTranslation": "喂，这里是相机维修中心。",
+          "explanationText": "电话中的「こちら～です」用来表明自己所属的机构。",
+          "confidence": 0.663,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1112.08,
+          "endTime": 1113.86,
+          "jaText": "山田さんのお宅でしょうか。",
+          "zhTranslation": "请问是山田先生家吗？",
+          "explanationText": "「お宅」在电话中可礼貌地指对方家中；「でしょうか」比「ですか」更委婉。",
+          "confidence": 0.903,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1114.22,
+          "endTime": 1114.62,
+          "jaText": "はい。",
+          "zhTranslation": "是的。",
+          "explanationText": "确认对方打对了电话。",
+          "confidence": 0.903,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1115.34,
+          "endTime": 1124.0,
+          "jaText": "先日お預かりしたカメラですが、調べましたら部品の一部が壊れていまして、交換が必要だと分かりました。",
+          "zhTranslation": "关于前几天收下的相机，检查后发现有部分零件损坏，需要更换。",
+          "explanationText": "「お预かりした」是服务业的谦恭说法；「～ていまして」礼貌地连接原因与结果。",
+          "confidence": 0.903,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1124.72,
+          "endTime": 1129.6,
+          "jaText": "部品の交換には1万円かかりますが、いかがいたしましょうか。",
+          "zhTranslation": "更换零件需要一万日圆，请问您打算怎么处理？",
+          "explanationText": "「～には～かかる」表示某件事所需的费用；「いかがいたしましょうか」是非常礼貌的询问。",
+          "confidence": 0.903,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1129.96,
+          "endTime": 1134.88,
+          "jaText": "え？まだ買ったばかりだから、保証期間中じゃないんですか。",
+          "zhTranslation": "咦？才刚买不久，不是在保固期内吗？",
+          "explanationText": "「～たばかり」表示刚做完某事；「じゃないんですか」带有与预期不符的质疑。",
+          "confidence": 0.903,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1135.3,
+          "endTime": 1141.04,
+          "jaText": "それが、今回のケースは申し訳ございませんが、保証の対象外となります。",
+          "zhTranslation": "不过很抱歉，这次的情况不在保固范围内。",
+          "explanationText": "「それが」用来引出与对方期待不同的消息；「対象外」表示不在适用范围内。",
+          "confidence": 0.903,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1141.72,
+          "endTime": 1148.06,
+          "jaText": "修理が必要かどうかお調べした費用3,000円につきましては、無料とさせていただきますが。",
+          "zhTranslation": "不过，检查是否需要维修的三千日圆费用，我们可以为您免除。",
+          "explanationText": "「～かどうか」表示是否；「につきましては」是「については」的正式说法；「无料とさせていただく」表示由店家决定免收。",
+          "confidence": 0.906,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1148.06,
+          "endTime": 1149.14,
+          "jaText": "そうですか。",
+          "zhTranslation": "是这样啊。",
+          "explanationText": "表示理解了对方的说明，但不一定代表已做决定。",
+          "confidence": 0.906,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1150.4,
+          "endTime": 1153.8,
+          "jaText": "あの、もしこのまま修理しないということでしたら、",
+          "zhTranslation": "那个，如果您决定就这样不维修的话，",
+          "explanationText": "「もし～ということでしたら」礼貌地提出假设条件；句子会接续可选方案。",
+          "confidence": 0.906,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1153.8,
+          "endTime": 1157.98,
+          "jaText": "お預かりしたカメラをご自宅にお送りすることもできますが。",
+          "zhTranslation": "我们也可以把收下的相机寄回您家。",
+          "explanationText": "「～こともできる」表示也有这个选项；「お送りする」是谦恭语。",
+          "confidence": 0.906,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1157.98,
+          "endTime": 1162.98,
+          "jaText": "あ、それはいいです。気に入ってるし、まだ使いたいから。じゃあ、お願いします。",
+          "zhTranslation": "啊，不用了。我很喜欢这台，也还想继续用。那就麻烦你们维修了。",
+          "explanationText": "这里的「それはいいです」表示婉拒寄回方案；后面的理由与「お愿いします」确认选择维修。",
+          "confidence": 0.906,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1168.94,
+          "endTime": 1171.32,
+          "jaText": "男の人はどうしますか。",
+          "zhTranslation": "男子会怎么做？",
+          "explanationText": "男子最后说「お愿いします」，并表示还想继续使用相机，因此会付费更换零件。",
+          "confidence": 0.773,
+          "contentType": "prompt"
+        },
+        {
+          "startTime": 1185.26,
+          "endTime": 1187.64,
+          "jaText": "ここでちょっと休みましょう。",
+          "zhTranslation": "我们在这里稍微休息一下。",
+          "explanationText": "「～ましょう」表示提议一起做某事；这是考试录音中的休息提示。",
+          "confidence": 0.773,
+          "contentType": "instruction"
+        },
+        {
+          "startTime": 1220.24,
+          "endTime": 1223.02,
+          "jaText": "では、また続けます。",
+          "zhTranslation": "那么，我们继续。",
+          "explanationText": "中间是休息静音，不属于句子；「では」用来重新开始流程。",
+          "confidence": 0.822,
+          "contentType": "instruction"
+        },
+        {
+          "startTime": 1229.08,
+          "endTime": 1230.24,
+          "jaText": "問題3",
+          "zhTranslation": "问题3",
+          "explanationText": "这是大题题号提示。",
+          "confidence": 0.822,
+          "contentType": "marker"
+        },
+        {
+          "startTime": 1231.2,
+          "endTime": 1236.46,
+          "jaText": "問題3では、問題用紙に何も印刷されていません。",
+          "zhTranslation": "问题3的题目纸上没有印任何内容。",
+          "explanationText": "「何も～ない」表示什么都没有；这是在说明题型规则。",
+          "confidence": 0.822,
+          "contentType": "instruction"
+        },
+        {
+          "startTime": 1238.12,
+          "endTime": 1244.02,
+          "jaText": "この問題は、全体としてどんな内容かを聞く問題です。",
+          "zhTranslation": "这个题型要问的是整段内容大意。",
+          "explanationText": "「全体として」表示从整体来看；作答时要抓主旨，不是单一细节。",
+          "confidence": 0.822,
+          "contentType": "instruction"
+        },
+        {
+          "startTime": 1245.7,
+          "endTime": 1248.76,
+          "jaText": "話の前に質問はありません。",
+          "zhTranslation": "谈话开始前不会先播放问题。",
+          "explanationText": "提醒考生无法先看到或听到问题，需要从一开始掌握主题。",
+          "confidence": 0.822,
+          "contentType": "instruction"
+        },
+        {
+          "startTime": 1250.26,
+          "endTime": 1252.42,
+          "jaText": "まず話を聞いてください。",
+          "zhTranslation": "请先听谈话。",
+          "explanationText": "「まず」表示第一个步骤。",
+          "confidence": 0.822,
+          "contentType": "instruction"
+        },
+        {
+          "startTime": 1254.04,
+          "endTime": 1264.2,
+          "jaText": "それから質問と選択肢を聞いて、1から4の中から最も良いものを一つ選んでください。",
+          "zhTranslation": "接着听问题和选项，从1到4中选出最适当的一项。",
+          "explanationText": "「最も良いもの」在测验指示中表示最符合谈话内容的答案；原稿的「最も难しい质问」是误辨。",
+          "confidence": 0.733,
+          "contentType": "instruction"
+        },
+        {
+          "startTime": 1269.18,
+          "endTime": 1270.84,
+          "jaText": "では、始めます。",
+          "zhTranslation": "那么，开始。",
+          "explanationText": "表示说明结束，正式进入题目。",
+          "confidence": 0.733,
+          "contentType": "instruction"
+        },
+        {
+          "startTime": 1277.8,
+          "endTime": 1278.5,
+          "jaText": "1番",
+          "zhTranslation": "第1题",
+          "explanationText": "这是题号提示。",
+          "confidence": 0.903,
+          "contentType": "marker"
+        },
+        {
+          "startTime": 1279.58,
+          "endTime": 1281.84,
+          "jaText": "俳優がインタビューに答えています。",
+          "zhTranslation": "一名演员正在接受采访。",
+          "explanationText": "「インタビューに答える」表示回答采访问题。",
+          "confidence": 0.903,
+          "contentType": "prompt"
+        },
+        {
+          "startTime": 1283.88,
+          "endTime": 1287.24,
+          "jaText": "この映画では、初めて登山家の役をしました。",
+          "zhTranslation": "我在这部电影中第一次饰演登山家。",
+          "explanationText": "「役をする」表示扮演某个角色；「初めて」修饰这次经验。",
+          "confidence": 0.903,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1288.32,
+          "endTime": 1292.48,
+          "jaText": "撮影の時、危険な場面は専門の人に頼むことが多いんですが、",
+          "zhTranslation": "拍摄时，危险场面通常会请专业人士代为完成，不过……",
+          "explanationText": "「人に頼む」表示拜托某人；「ことが多い」表示通常如此；句尾「が」引出这次的不同做法。",
+          "confidence": 0.903,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1293.14,
+          "endTime": 1294.76,
+          "jaText": "私は全部自分で演じました。",
+          "zhTranslation": "我全部都亲自演出了。",
+          "explanationText": "「自分で」表示亲自完成，与前句的「専门の人」形成对比。",
+          "confidence": 0.903,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1296.02,
+          "endTime": 1298.88,
+          "jaText": "私は登山はやったことがなかったんで、",
+          "zhTranslation": "因为我以前没有登山经验，",
+          "explanationText": "「～たことがない」表示没有某种经验；口语的「んで」表示原因。",
+          "confidence": 0.931,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1299.42,
+          "endTime": 1302.4,
+          "jaText": "撮影に入る前から体力作りに力を入れ、",
+          "zhTranslation": "从正式开拍前就着重锻炼体力，",
+          "explanationText": "「撮影に入る」表示进入正式拍摄；「力を入れる」表示特别投入心力。",
+          "confidence": 0.931,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1302.78,
+          "endTime": 1305.26,
+          "jaText": "プロの登山家にもアドバイスを受けながら、",
+          "zhTranslation": "同时也接受专业登山家的指导，",
+          "explanationText": "「～ながら」表示两件事同时进行；「アドバイスを受ける」表示接受建议或指导。",
+          "confidence": 0.931,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1305.26,
+          "endTime": 1307.56,
+          "jaText": "実際に山で訓練を重ねました。",
+          "zhTranslation": "并且真的在山上反复训练。",
+          "explanationText": "「训练を重ねる」表示持续、反复进行训练。",
+          "confidence": 0.931,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1308.44,
+          "endTime": 1310.44,
+          "jaText": "セリフを覚えるよりも大変でした。",
+          "zhTranslation": "这比背台词还要辛苦。",
+          "explanationText": "「～よりも」用来比较；这句总结体能与登山训练的辛苦程度。",
+          "confidence": 0.931,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1316.68,
+          "endTime": 1319.58,
+          "jaText": "俳優は何について話していますか。",
+          "zhTranslation": "这名演员在谈论什么？",
+          "explanationText": "整段重点是为拍摄登山家角色所做的准备与辛苦。",
+          "confidence": 0.89,
+          "contentType": "prompt"
+        },
+        {
+          "startTime": 1321.9,
+          "endTime": 1325.36,
+          "jaText": "1．登山家になるために大切なこと。",
+          "zhTranslation": "1．成为登山家所需的重要条件。",
+          "explanationText": "选项谈的是一般成为登山家的条件，并非电影拍摄本身。",
+          "confidence": 0.855,
+          "contentType": "option"
+        },
+        {
+          "startTime": 1329.08,
+          "endTime": 1332.04,
+          "jaText": "2．毎日しているトレーニングの内容。",
+          "zhTranslation": "2．每天进行的训练内容。",
+          "explanationText": "受访者谈的是为角色做的准备，不是长期每天固定进行的训练。",
+          "confidence": 0.855,
+          "contentType": "option"
+        },
+        {
+          "startTime": 1334.94,
+          "endTime": 1338.82,
+          "jaText": "3．映画監督から受けたアドバイス。",
+          "zhTranslation": "3．从电影导演那里得到的建议。",
+          "explanationText": "音频提到的是专业登山家的建议，不是电影导演。",
+          "confidence": 0.855,
+          "contentType": "option"
+        },
+        {
+          "startTime": 1341.58,
+          "endTime": 1345.52,
+          "jaText": "4．映画の撮影で苦労したこと。",
+          "zhTranslation": "4．拍摄电影时辛苦的事情。",
+          "explanationText": "这个选项概括了亲自演危险场面、锻炼体力与登山训练，符合主旨。",
+          "confidence": 0.855,
+          "contentType": "option"
+        },
+        {
+          "startTime": 1357.8,
+          "endTime": 1358.2,
+          "jaText": "2番",
+          "zhTranslation": "第2题",
+          "explanationText": "这是题号提示；原稿中的第3题是误辨。",
+          "confidence": 0.878,
+          "contentType": "marker"
+        },
+        {
+          "startTime": 1358.2,
+          "endTime": 1360.88,
+          "jaText": "テレビで女の人が話しています。",
+          "zhTranslation": "一名女子正在电视上说话。",
+          "explanationText": "这句交代媒体场景与说话者。",
+          "confidence": 0.878,
+          "contentType": "prompt"
+        },
+        {
+          "startTime": 1363.14,
+          "endTime": 1366.54,
+          "jaText": "今、女性の間で紅茶がブームになっています。",
+          "zhTranslation": "现在红茶在女性之间蔚为风潮。",
+          "explanationText": "「～の间で」表示在某个群体之中；「ブームになる」表示成为流行。",
+          "confidence": 0.878,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1367.38,
+          "endTime": 1371.86,
+          "jaText": "いろいろな産地や種類の紅茶を揃えた店も、ずいぶん増えました。",
+          "zhTranslation": "备有各种产地和种类红茶的店家也增加了许多。",
+          "explanationText": "「揃える」表示备齐；「ずいぶん」在此强调增加的幅度很大。",
+          "confidence": 0.878,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 1372.84,
+          "endTime": 1378.72,
+          "jaText": "お店で好きな紅茶を買ってきて、家でゆっくり味わうというのもいいですよね。",
+          "zhTranslation": "在店里买回喜欢的红茶，在家慢慢品味也很不错。",
+          "explanationText": "「买ってくる」表示买了带回来；「～というのもいい」表示这种做法也是不错的选择。",
+          "confidence": 0.878,
+          "contentType": "dialogue"
+        }
+      ]
+    }
+  ]
+}

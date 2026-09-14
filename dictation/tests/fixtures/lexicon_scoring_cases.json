@@ -1,0 +1,435 @@
+[
+  {
+    "name": "katakana normalization",
+    "question": {
+      "mode": "input",
+      "acceptedAnswers": [
+        "がっこう"
+      ],
+      "normalizeReading": true
+    },
+    "answer": "ガッコウ",
+    "options": {},
+    "expected": {
+      "correct": true,
+      "classification": "correct",
+      "suggestedGrade": "good",
+      "needsRetry": false,
+      "parts": []
+    }
+  },
+  {
+    "name": "small tsu matters",
+    "question": {
+      "mode": "input",
+      "acceptedAnswers": [
+        "がっこう"
+      ],
+      "normalizeReading": true
+    },
+    "answer": "がこう",
+    "options": {},
+    "expected": {
+      "correct": false,
+      "classification": "wrong",
+      "suggestedGrade": "again",
+      "needsRetry": true,
+      "parts": []
+    }
+  },
+  {
+    "name": "voicing matters",
+    "question": {
+      "mode": "input",
+      "acceptedAnswers": [
+        "がっこう"
+      ],
+      "normalizeReading": true
+    },
+    "answer": "かっこう",
+    "options": {},
+    "expected": {
+      "correct": false,
+      "classification": "wrong",
+      "suggestedGrade": "again",
+      "needsRetry": true,
+      "parts": []
+    }
+  },
+  {
+    "name": "hint",
+    "question": {
+      "mode": "input",
+      "acceptedAnswers": [
+        "がっこう"
+      ],
+      "normalizeReading": true
+    },
+    "answer": "がっこう",
+    "options": {
+      "hinted": true
+    },
+    "expected": {
+      "correct": true,
+      "classification": "assisted",
+      "suggestedGrade": "again",
+      "needsRetry": true,
+      "parts": []
+    }
+  },
+  {
+    "name": "guess",
+    "question": {
+      "mode": "input",
+      "acceptedAnswers": [
+        "がっこう"
+      ],
+      "normalizeReading": true
+    },
+    "answer": "がっこう",
+    "options": {
+      "guessed": true
+    },
+    "expected": {
+      "correct": true,
+      "classification": "assisted",
+      "suggestedGrade": "again",
+      "needsRetry": true,
+      "parts": []
+    }
+  },
+  {
+    "name": "skip",
+    "question": {
+      "mode": "input",
+      "acceptedAnswers": [
+        "がっこう"
+      ],
+      "normalizeReading": true
+    },
+    "answer": null,
+    "options": {
+      "skipped": true
+    },
+    "expected": {
+      "correct": null,
+      "classification": "skipped",
+      "suggestedGrade": null,
+      "needsRetry": false,
+      "parts": []
+    }
+  },
+  {
+    "name": "input object rejected",
+    "question": {
+      "mode": "input",
+      "acceptedAnswers": [
+        "がっこう"
+      ],
+      "normalizeReading": true
+    },
+    "answer": {},
+    "options": {},
+    "error": true
+  },
+  {
+    "name": "self again",
+    "question": {
+      "mode": "self"
+    },
+    "answer": {
+      "grade": "again"
+    },
+    "options": {},
+    "expected": {
+      "correct": null,
+      "classification": "self_assessed",
+      "suggestedGrade": "again",
+      "needsRetry": true,
+      "parts": []
+    }
+  },
+  {
+    "name": "self hard",
+    "question": {
+      "mode": "self"
+    },
+    "answer": {
+      "grade": "hard"
+    },
+    "options": {},
+    "expected": {
+      "correct": null,
+      "classification": "self_assessed",
+      "suggestedGrade": "hard",
+      "needsRetry": true,
+      "parts": []
+    }
+  },
+  {
+    "name": "self good",
+    "question": {
+      "mode": "self"
+    },
+    "answer": {
+      "grade": "good"
+    },
+    "options": {},
+    "expected": {
+      "correct": null,
+      "classification": "self_assessed",
+      "suggestedGrade": "good",
+      "needsRetry": false,
+      "parts": []
+    }
+  },
+  {
+    "name": "self easy",
+    "question": {
+      "mode": "self"
+    },
+    "answer": {
+      "grade": "easy"
+    },
+    "options": {},
+    "expected": {
+      "correct": null,
+      "classification": "self_assessed",
+      "suggestedGrade": "easy",
+      "needsRetry": false,
+      "parts": []
+    }
+  },
+  {
+    "name": "invalid self",
+    "question": {
+      "mode": "self"
+    },
+    "answer": "yes",
+    "options": {},
+    "error": true
+  },
+  {
+    "name": "choice correct",
+    "question": {
+      "mode": "choice",
+      "choices": [
+        {
+          "id": "a"
+        },
+        {
+          "id": "b"
+        }
+      ],
+      "acceptedAnswers": [
+        "b"
+      ]
+    },
+    "answer": "b",
+    "options": {},
+    "expected": {
+      "correct": true,
+      "classification": "correct",
+      "suggestedGrade": "good",
+      "needsRetry": false,
+      "parts": []
+    }
+  },
+  {
+    "name": "choice wrong",
+    "question": {
+      "mode": "choice",
+      "choices": [
+        {
+          "id": "a"
+        },
+        {
+          "id": "b"
+        }
+      ],
+      "acceptedAnswers": [
+        "b"
+      ]
+    },
+    "answer": "a",
+    "options": {},
+    "expected": {
+      "correct": false,
+      "classification": "wrong",
+      "suggestedGrade": "again",
+      "needsRetry": true,
+      "parts": []
+    }
+  },
+  {
+    "name": "unknown choice",
+    "question": {
+      "mode": "choice",
+      "choices": [
+        {
+          "id": "a"
+        },
+        {
+          "id": "b"
+        }
+      ],
+      "acceptedAnswers": [
+        "b"
+      ]
+    },
+    "answer": "c",
+    "options": {},
+    "error": true
+  },
+  {
+    "name": "order",
+    "question": {
+      "mode": "order",
+      "tokens": [
+        {
+          "id": "a"
+        },
+        {
+          "id": "b"
+        }
+      ],
+      "acceptedAnswers": [
+        [
+          "a",
+          "b"
+        ]
+      ]
+    },
+    "answer": [
+      "a",
+      "b"
+    ],
+    "options": {},
+    "expected": {
+      "correct": true,
+      "classification": "correct",
+      "suggestedGrade": "good",
+      "needsRetry": false,
+      "parts": []
+    }
+  },
+  {
+    "name": "order wrong",
+    "question": {
+      "mode": "order",
+      "tokens": [
+        {
+          "id": "a"
+        },
+        {
+          "id": "b"
+        }
+      ],
+      "acceptedAnswers": [
+        [
+          "a",
+          "b"
+        ]
+      ]
+    },
+    "answer": [
+      "b",
+      "a"
+    ],
+    "options": {},
+    "expected": {
+      "correct": false,
+      "classification": "wrong",
+      "suggestedGrade": "again",
+      "needsRetry": true,
+      "parts": []
+    }
+  },
+  {
+    "name": "order duplicate",
+    "question": {
+      "mode": "order",
+      "tokens": [
+        {
+          "id": "a"
+        },
+        {
+          "id": "b"
+        }
+      ],
+      "acceptedAnswers": [
+        [
+          "a",
+          "b"
+        ]
+      ]
+    },
+    "answer": [
+      "a",
+      "a"
+    ],
+    "options": {},
+    "error": true
+  },
+  {
+    "name": "multi alternative",
+    "question": {
+      "mode": "input",
+      "blankCount": 2,
+      "acceptedAnswers": [
+        [
+          "に",
+          "は"
+        ],
+        [
+          "で",
+          "も"
+        ]
+      ]
+    },
+    "answer": [
+      "で",
+      "も"
+    ],
+    "options": {},
+    "expected": {
+      "correct": true,
+      "classification": "correct",
+      "suggestedGrade": "good",
+      "needsRetry": false,
+      "parts": [
+        true,
+        true
+      ]
+    }
+  },
+  {
+    "name": "multi mixed",
+    "question": {
+      "mode": "input",
+      "blankCount": 2,
+      "acceptedAnswers": [
+        [
+          "に",
+          "は"
+        ],
+        [
+          "で",
+          "も"
+        ]
+      ]
+    },
+    "answer": "に/も",
+    "options": {},
+    "expected": {
+      "correct": false,
+      "classification": "wrong",
+      "suggestedGrade": "again",
+      "needsRetry": true,
+      "parts": [
+        true,
+        true
+      ]
+    }
+  }
+]

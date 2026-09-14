@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "level": "N1",
+  "slug": "2023-07-N1",
+  "title": "2023年7月 日本語能力試験 N1",
+  "sessionLabel": "2023年7月",
+  "uiLanguage": "zh-Hans",
+  "durationSec": 10200,
+  "source": {
+    "kind": "pdf-scan",
+    "fileName": "2023年7月N1真题 （13页）.pdf",
+    "sha256": "86e4e68cf76f63c41ed5c5541fe725afc242e97fff51890a3ef9a28d9cadb7f5",
+    "bytes": 620261,
+    "pageCount": 13,
+    "answerKeyFile": "2023年7月N1答案+解析+听力原文.pdf",
+    "answerKeySha256": "73361982827f457baba29d34d88f2688b1729055ac0d0b5c8546ab5367433916",
+    "answerKeyPageCount": 87,
+    "importedOn": "2026-09-02",
+    "importer": "src/exam_import.py",
+    "rights": "Personal study copy supplied by the user. The JLPT paper is copyright JEES/Japan Foundation; this exam.json is not cleared for redistribution or sale."
+  }
+}

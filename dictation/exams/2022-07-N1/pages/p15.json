@@ -1,0 +1,84 @@
+{
+  "page": 15,
+  "pageLabel": "第14页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": 9,
+      "label": "(2)",
+      "text": "これまでずいぶんたくさんアニメーションを作ってきましたが、しかしなかなか未だに巧くアニメーションを作るのは難しく、大変です。いつもどう作ったらよいのか、作り始めてからもとまどってしまうのです。しかし少しずつ形になってくると、ふつふつ（注１）と楽しくなってくるのです。そしてできあがってきたイメージと自分の頭の中のイメージとの、一致とズレを近づけたり、遠ざけたりするために、たくさんの作業を積み重ねて、最後には、どこかであきらめを付けて、終わりにします。\nただその時には終わったと思っても、少し時間を置いてみると、もう少しこうすればよかった、ああすればよかったと、後悔ばかりが浮かんできて、自分のアニメーションの上映会に立ち会う時は、いたたまれない思いがします。アニメーションに限らず、クリエーター（注２）は多かれ少なかれ、ただ楽しいばかりではなく、こんな思いをしながら、次こそは自分のベストを形にしようと、日々まるで「修行」のように物作りに追われていくのではないでしょうか。いつかは、<u>この魔物</u>から逃れて、心安らかな日が訪れるのを夢想しながら。\n（中略）\n現実世界には、辛いことや思いどおりにならないこともたくさんありますが、創作活動の中、精神の世界で自由に羽を伸ばせる時、そこには他のいろいろな楽しい娯楽では味わえない深い喜びがあり、それがこの魔物から逃れられない理由のひとつです。\nそして、言葉にはできない価値観をうまく作品として整えられた時、それは人の反応や評価を超えた、絶対的な充実感を与えてくれるものと信じています。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "note",
+      "partNumber": 9,
+      "label": null,
+      "text": "（注１）ふつふつと：心の中からわいてくるように\n（注２）クリエークー：創造的な仕事に携わっている人",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 9,
+      "label": null,
+      "text": "筆者にとって、アニメーションを作る作業とはどのようなものか。",
+      "questionNumber": 52,
+      "choices": [
+        "自分のイメージどおりになることを求めずに、楽しみながら形にする。",
+        "自分のイメージに近づけて修正を重ねるうちに、できあがっていく。",
+        "思い描いたことと現実の形を調整し続け、あるところで妥協する。",
+        "十分納得できるまで、完成に向けて作業を積み重ねる。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 9,
+      "label": null,
+      "text": "この魔物とは何か。",
+      "questionNumber": 53,
+      "choices": [
+        "我慢できないくらい大変で、作品作りをやめてしまいたくなる物作り",
+        "後悔に悩まされながら、納得できる作品を目指し続ける物作り",
+        "自分のベストの形が分からなくなってしまうような物作り",
+        "作品を作り終えるたびに、気力を奪われるような物作り"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 9,
+      "label": null,
+      "text": "創作することについて、筆者の考えに合うのはどれか。",
+      "questionNumber": 54,
+      "choices": [
+        "自分の思いどおりにならなくても、人に評価された時に充実感が得られる。",
+        "自分の世界観を思う存分広げ、作品の中で表現できた時に満足できる。",
+        "満足できる作品になりそうになくても、完成させると充実感が得られる。",
+        "いつか満足する作品が作れると信じていれば、評価される作品が作れる。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "note block, （注２）: the booklet prints the headword as「クリエークー」(katakana ク as the 5th character, verified at 8x magnification — no crossing stroke), while the passage body prints「クリエーター」. Transcribed exactly as printed; this is almost certainly a misprint for クリエーター.",
+    "note block: the numeral in「（注１）」is printed as a bare vertical stroke (the font's full-width 1); recorded as full-width １. Same convention used for the （注１）/（注２）markers inside the passage.",
+    "passage, paragraph 2: the underline under「この魔物」is clearly printed and has been marked with <u>...</u>. The same phrase in question 53's stem is NOT underlined on this page.",
+    "Paragraph-leading indent spaces (printed as one full-width space at the start of each paragraph) were treated as layout and omitted from the text.",
+    "This page carries no 問題 heading; partNumber 9 was inferred from the question numbers 52-54 falling in 問題9 (中文, Q49-57) and from the passage label (2)."
+  ]
+}

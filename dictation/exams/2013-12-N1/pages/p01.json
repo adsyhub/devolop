@@ -1,0 +1,226 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最も良いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "関係者から話を聞いて、ようやく現状が<u>把握</u>できた。",
+      "choices": [
+        "ばおく",
+        "はおく",
+        "ばあく",
+        "はあく"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "社長の発言に<u>憤り</u>を感じる。",
+      "choices": [
+        "あせり",
+        "こだわり",
+        "いきどおり",
+        "いかり"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "その話の<u>趣旨</u>がよくわからなかった。",
+      "choices": [
+        "しゅし",
+        "しゅじ",
+        "しゅうし",
+        "しゅうじ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "兄は大学で<u>日夜</u>研究に励んでいる。",
+      "choices": [
+        "にちよ",
+        "じつよ",
+        "にちや",
+        "じつや"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "川田さんは最後まで自分の出張を<u>貫いた</u>。",
+      "choices": [
+        "つらぬいた",
+        "つらむいた",
+        "すらぬいた",
+        "すらむいた"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "この30年で、この国の<u>貧富</u>の差は縮まってきている。",
+      "choices": [
+        "ひんふ",
+        "ひんぷ",
+        "びんふ",
+        "びんぷ"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "問題の再発防止のために、何度も会議を開いて対策を（　　）。",
+      "choices": [
+        "培った",
+        "築いた",
+        "練った",
+        "磨いた"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "私はスポーツなら何でも好きだが、（　　）サッカーが大好きだ。",
+      "choices": [
+        "いよいよ",
+        "まさしく",
+        "いっそう",
+        "とりわけ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "職場の環境に満足していたので、その当時は転職など全く（　　）になかった。",
+      "choices": [
+        "念頭",
+        "本心",
+        "念願",
+        "内心"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "妹は今日が初めてのデートらしく、朝から（　　）して落ち着かない様子だ。",
+      "choices": [
+        "ぐらぐら",
+        "そわそわ",
+        "ぶらぶら",
+        "めそめそ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "社長は、会社の将来を（　　）人材の育成に力を入れている。",
+      "choices": [
+        "になう",
+        "いたわる",
+        "やしなう",
+        "かかげる"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "パーティーでは林さんが料理を作って、みんなにその（　　）を披露してくれた。",
+      "choices": [
+        "そぶり",
+        "しわざ",
+        "腕前",
+        "手間"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "自分の考えに自信がなくて発言するのを（　　）いるうちに、議論が先に進んでしまった。",
+      "choices": [
+        "遠ざけて",
+        "ためらって",
+        "案じて",
+        "よけて"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "彼の予測は<u>ことごとく</u>外れた。",
+      "choices": [
+        "すべて",
+        "わずかに",
+        "思ったとおり",
+        "残念ながら"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "やっと<u>雑踏</u>を抜けた。",
+      "choices": [
+        "人込み",
+        "渋滞",
+        "混乱",
+        "暗やみ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "台風発生の<u>メカニズム</u>について説明した。",
+      "choices": [
+        "可能性",
+        "きっかけ",
+        "危険性",
+        "しくみ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "この記述内容が正しいと言えるだけの<u>裏づけ</u>があるのだろうか。",
+      "choices": [
+        "確信",
+        "証拠",
+        "支持",
+        "基準"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "page": 7,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "25 デマ\n1 誰かがデマを流して、私たちをだまそうとしている。\n2 この絵画はデマで、本物は市の美術館で見られます。\n3 山本さんは年上だと思っていたが、私のデマだった。\n4 二人できちんと話し合って、お互いのデマを解いた。\n> 文字・語彙"
+    }
+  ],
+  "pageLabel": "5",
+  "issues": [
+    "Choice-looking line with no question open: '1 誰かがデマを流して、私たちをだまそうとしている。'",
+    "Choice-looking line with no question open: '2 この絵画はデマで、本物は市の美術館で見られます。'",
+    "Choice-looking line with no question open: '3 山本さんは年上だと思っていたが、私のデマだった。'",
+    "Choice-looking line with no question open: '4 二人できちんと話し合って、お互いのデマを解いた。'"
+  ]
+}

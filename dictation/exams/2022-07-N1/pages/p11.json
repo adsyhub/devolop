@@ -1,0 +1,64 @@
+{
+  "page": 11,
+  "pageLabel": "第10页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 8,
+      "label": null,
+      "text": "問題8　次の(1)から(4)の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "passage",
+      "partNumber": 8,
+      "label": "(1)",
+      "text": "テレビ番組は、その番組内容のすべてが視聴者に伝わるよう、わかるように作られるが、一歩間違えれば、「わかりやすいだけの番組づくり」になってしまう危険性がある。メッセージがシンプルな番組のほうが視聴率を取りやすい、などと言われる傾向があるなかで、「わかりやすく」することでかえって、事象や事実の、深さ、複雑さ、多面性、つまり事実の豊かさを、そぎ（注）落としてしまう危険性があるのだ。とりわけ報道番組では、このことは致命的な危うさになる。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "note",
+      "partNumber": 8,
+      "label": "(注)",
+      "text": "（注）そぎ落とす：削る",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 8,
+      "label": null,
+      "text": "筆者が、番組づくりにおいて危険だと感じていることは何か。",
+      "questionNumber": 45,
+      "choices": [
+        "視聴率を上げようとして、事実とは異なることを伝えてしまうこと",
+        "わかりやすいことだけを伝えて、視聴者に関心を持たれなくなってしまうこと",
+        "わかりやすくしようとして、事実を掘り下げて伝えられなくなってしまうこと",
+        "メッセージをシンプルにしょうとして、本質がわかりにくくなってしまうこと"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "Question 45 stem is printed as \"45、筆者が、　番組づくりにおいて…\" — the question number is followed by a full-width comma (、) instead of the usual period, and there is an extra wide space after \"筆者が、\". Both are artifacts of the reprint; the number and the extra space were dropped from the transcribed stem text.",
+    "Question 45, choice 4: the booklet prints \"シンプルにしょうとして\" with a SMALL ょ (i.e. しょう, not しよう). Confirmed in band crop p11_b. Transcribed exactly as printed; this is almost certainly a typo in the reprint for 「しようとして」.",
+    "Choices 2, 3 and 4 wrap onto a second printed line ending in 「しまうこと」; the wrapped lines were joined back into a single choice string as instructed.",
+    "The (1) label and the numerals 1·2·3·4 in the instruction line are printed in a proportional Latin-ish face (the digit 1 renders as a bare vertical stroke); transcribed as ASCII/standard digits with full-width middle dots.",
+    "No publisher watermark text was legible on this page; the page label 第10页 at the bottom is recorded in pageLabel and excluded from blocks.",
+    "The lower half of the page (below choice 4) is blank."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "description": "2021-07-N2：LLM 逐句校对发现的 ASR 误识别修正 3 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "426937e461bb0963d394b04093870f55f3345c39e70d4887b7e1dd0e6892f31c",
+  "evidence": {
+    "file": "proofread-work/2021-07-N2/proofread.json",
+    "proposedFixes": "proofread-work/2021-07-N2/proposed-fixes.json",
+    "notes": "proofread-work/2021-07-N2/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 75,
+      "endIndex": 75,
+      "expectedStartTime": 452.95,
+      "expectedEndTime": 457.37,
+      "items": [
+        {
+          "startTime": 452.95,
+          "endTime": 457.37,
+          "sourceText": "星のお茶はパソコン等の見すぎで目が疲れている方。",
+          "jaText": "星のお茶はパソコン等の見すぎで目が疲れている方。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 98,
+      "endIndex": 98,
+      "expectedStartTime": 600.28,
+      "expectedEndTime": 606.97,
+      "items": [
+        {
+          "startTime": 600.28,
+          "endTime": 606.97,
+          "sourceText": "問題2問題2ではまず質問を聞いてください",
+          "jaText": "問題2問題2ではまず質問を聞いてください"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 305,
+      "endIndex": 305,
+      "expectedStartTime": 2578.32,
+      "expectedEndTime": 2583.3,
+      "items": [
+        {
+          "startTime": 2578.32,
+          "endTime": 2583.3,
+          "sourceText": "問2 2人は一緒にどこへ行こうと言っていますか",
+          "jaText": "問2 2人は一緒にどこへ行こうと言っていますか"
+        }
+      ]
+    }
+  ]
+}

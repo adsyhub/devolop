@@ -1,0 +1,28 @@
+{
+  "page": 13,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>2024年12月·N1</u>\n<u>41</u>\n1 気を使えはしない\n3 気を使わせられはしない\n2 気を使ってなどいない\n4 気を使わせてなどいない\n<u>42</u>\n1 それによって\n3 それどころか\n2 そればかりでなく\n4 それにもかかわらず\n<u>43</u>\n1 承知していれば\n3 承知していたのか\n2 承知していて\n4 承知していたかのように\n<u>44</u>\n1 なら\n2 だって\n3 でさえ\n4 といっても"
+    }
+  ],
+  "issues": [
+    "Choice-looking line with no question open: '1 気を使えはしない'",
+    "Choice-looking line with no question open: '3 気を使わせられはしない'",
+    "Choice-looking line with no question open: '2 気を使ってなどいない'",
+    "Choice-looking line with no question open: '4 気を使わせてなどいない'",
+    "Choice-looking line with no question open: '1 それによって'",
+    "Choice-looking line with no question open: '3 それどころか'",
+    "Choice-looking line with no question open: '2 そればかりでなく'",
+    "Choice-looking line with no question open: '4 それにもかかわらず'",
+    "Choice-looking line with no question open: '1 承知していれば'",
+    "Choice-looking line with no question open: '3 承知していたのか'",
+    "Choice-looking line with no question open: '2 承知していて'",
+    "Choice-looking line with no question open: '4 承知していたかのように'",
+    "Choice-looking line with no question open: '1 なら'",
+    "Choice-looking line with no question open: '2 だって'",
+    "Choice-looking line with no question open: '3 でさえ'",
+    "Choice-looking line with no question open: '4 といっても'"
+  ]
+}

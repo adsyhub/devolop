@@ -1,0 +1,29 @@
+{
+  "page": 13,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>41</u>\n1 選べそうだ\n2 選び得るか\n3 選べるとよかった\n4 選ばなければならない\n<u>42</u>\n1 というほどだ\n2 というわけだ\n3 ということだ\n4 というときだ\n<u>43</u>\n1 小説\n2 ある小説\n3 その小説\n4 そういった小説\n<u>44</u>\n1 アプローチだとか\n2 アプローチかもしれない\n3 アプローチにある\n4 アプローチとされているのだ"
+    }
+  ],
+  "pageLabel": "11",
+  "issues": [
+    "Choice-looking line with no question open: '1 選べそうだ'",
+    "Choice-looking line with no question open: '2 選び得るか'",
+    "Choice-looking line with no question open: '3 選べるとよかった'",
+    "Choice-looking line with no question open: '4 選ばなければならない'",
+    "Choice-looking line with no question open: '1 というほどだ'",
+    "Choice-looking line with no question open: '2 というわけだ'",
+    "Choice-looking line with no question open: '3 ということだ'",
+    "Choice-looking line with no question open: '4 というときだ'",
+    "Choice-looking line with no question open: '1 小説'",
+    "Choice-looking line with no question open: '2 ある小説'",
+    "Choice-looking line with no question open: '3 その小説'",
+    "Choice-looking line with no question open: '4 そういった小説'",
+    "Choice-looking line with no question open: '1 アプローチだとか'",
+    "Choice-looking line with no question open: '2 アプローチかもしれない'",
+    "Choice-looking line with no question open: '3 アプローチにある'",
+    "Choice-looking line with no question open: '4 アプローチとされているのだ'"
+  ]
+}

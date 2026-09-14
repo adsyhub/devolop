@@ -1,0 +1,19 @@
+{
+  "level": "N1",
+  "title": "2022年7月 日本語能力試験 N1",
+  "sessionLabel": "2022年7月",
+  "uiLanguage": "zh-Hans",
+  "durationSec": 10800,
+  "source": {
+    "kind": "pdf-scan",
+    "fileName": "去水印版本-2022年7月N1真题完整版.pdf",
+    "sha256": "5fd5fa261f883340adc5b67ffc9c00d40c1ab51f18eda6928ac546ea45c84176",
+    "bytes": 2503664,
+    "pageCount": 34,
+    "contentPages": "2-33 (questions), 34 (answer key)",
+    "importedOn": "2026-08-31",
+    "importer": "src/exam_import.py",
+    "textLayer": "unusable — embedded font subsets carry no ToUnicode map, so the pages were read from rendered images rather than extracted",
+    "rights": "Personal study copy supplied by the user. The JLPT paper is copyright JEES/Japan Foundation; this exam.json is not cleared for redistribution or sale."
+  }
+}

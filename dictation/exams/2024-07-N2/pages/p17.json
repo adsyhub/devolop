@@ -1,0 +1,28 @@
+{
+  "page": 17,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "(2)\n以下是、ある鉄道会社がホームページに掲載したお知らせである。\n> トップ>お知らせ>定期システム点検実施のお知らせ\n>\n> 6月の定期システム点検実施のお知ら\n>\n> いつも北坂鉄道をご利用いただきまして、ありがとうございます。\n>\n> 当社では情報管理システムの安全性向上のため、第4土曜日の夜間にシステム点検を実施しております。\n>\n> 今月の作業は6月23日(土)午前2時から4時までとなります。この間は、予約システムを休止いたします。インターネットでの特急券予約がご利用いただけなくなりますのでご注意ください。なお、ホームページ内の時刻表や運賃元25h表は通常どおり閲覧が可能です。\n>\n> ご不便をおかけいたしますが、ご理解くださいますようお願い申し上げます。\n>\n> 北坂鉄道株式会\n53 このお知らせで伝えたいことは何か。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "6月23日の午前2時から4時までは、インターネットで特急券が予約できない。",
+      "questionNumber": 1,
+      "choices": [
+        "6月23日の午前2時から4時までは、ホームページで時刻表や運賃表が見られない。",
+        "6月23日の午前4時以降、インターネットで特急券が予約できるようになる。",
+        "6月23日の午前4時以降、ホームページで時刻表や運賃表が見られるようになる。"
+      ]
+    }
+  ],
+  "pageLabel": "15",
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

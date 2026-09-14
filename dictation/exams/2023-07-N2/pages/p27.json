@@ -1,0 +1,70 @@
+{
+  "page": 27,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "うだ。\n次の世代に夢をつなげていくのは、「老兵」の重要な仕事なのである。"
+    },
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注 1)挑戦:チャレンジ"
+    },
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注 2)どうにか:なんとか"
+    },
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注 3)薄々:なんとなく"
+    },
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注 4)反射神経:ここでは、反応する速さ"
+    },
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注 5)かなわない:勝てない"
+    },
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注 6)後ろ髪を引かれる:ここでは、なかなか諦められない"
+    },
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注 7)なにがなんでも:どうしても"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "7. 筆者によると、初めての宇出飛行から帰ってきたあと、毛利さんはどのように感じていたか。",
+      "questionNumber": 6,
+      "choices": [
+        "宇宙飛行のような大きな夢を持って生活を送りたい。",
+        "宇宙でやり残したもうひとつの夢を果たしたい。",
+        "経験したことを生かすために、また宇宙へいきたい。",
+        "緊張感や感動を得るために、また宇宙へいきたい。"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "8. 筆者によると、二度目の訓練を受けているとき、毛利さんはどのように感じていたか。",
+      "questionNumber": 6,
+      "choices": [
+        "自分が輝ける場所をふたたび見つけられないかもしれない。",
+        "いかは活躍していた場所から離れなくてはならない。"
+      ]
+    }
+  ],
+  "issues": [
+    "Q6: 2 choices transcribed, expected 4. Check the page image."
+  ]
+}

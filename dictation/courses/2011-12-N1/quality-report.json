@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "status": "needs_review",
+  "summary": {
+    "sentences": 432,
+    "errors": 0,
+    "warnings": 8,
+    "issueCounts": {
+      "sentence.low_confidence": 1,
+      "sentence.rate_implausible": 1,
+      "sentence.transcript_review_flag": 4,
+      "sentence.very_long": 2
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "sentence.low_confidence",
+      "message": "Low ASR confidence; human review is recommended.",
+      "sentenceIndex": 118
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 184
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 222
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 252
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 334
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 421
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.transcript_review_flag",
+      "message": "The explanation itself says the source transcript may be wrong.",
+      "sentenceIndex": 423
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "10 characters in 0.36s (28/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 43
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#22406e">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <title>EJU 日本留学考试题库</title>
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="home.css">
+</head>
+<body class="home-body">
+  <a class="skip-link" href="#boards">跳到工作区</a>
+
+  <header class="topbar">
+    <div class="topbar-lead">
+      <span class="brand">
+        <span class="brand-mark" aria-hidden="true">留</span>
+        <span>
+          <strong>EJU 日本留学考试题库</strong>
+          <small>本地离线运行</small>
+        </span>
+      </span>
+    </div>
+    <div class="topbar-actions">
+      <span class="home-status" id="home-status" role="status">正在连接本地题库…</span>
+    </div>
+  </header>
+
+  <main class="home-main">
+    <div class="home-hero">
+      <p class="eyebrow">学习入口</p>
+      <h1>今天练哪一部分？</h1>
+      <p>
+        题库、媒体与学习记录全部保存在本机。成绩为本地原始客观题统计（正确题数与正确率），
+        并非日本学生支援机构（JASSO）官方得点等化尺度分。
+      </p>
+    </div>
+
+    <!-- 練習与我的是两个独立工作区：一个是做题的路径，一个是跨科目的资产汇总。
+         制作台不是第三种学习路径，所以放在下面的横幅里，不做成对等的卡片。 -->
+    <nav class="board-grid" id="boards" aria-label="工作区">
+      <a class="board-card practice" href="./practice">
+        <span class="board-kind">学习工作区</span>
+        <span class="board-icon" aria-hidden="true">開</span>
+        <h2>開始練習</h2>
+        <p class="board-copy">
+          先选科目，再选练法：按考试规则计时的整卷模考、只练一门的单科精练，
+          或者跨卷按知识点组一份专项题。
+        </p>
+        <span class="board-features" aria-label="可用练法">
+          <span>整卷模考</span><span>单科精练</span><span>专项组题</span>
+        </span>
+        <p class="board-stat" id="stat-practice">正在读取试卷…</p>
+        <span class="board-go" aria-hidden="true">进入練習工作区 →</span>
+      </a>
+
+      <a class="board-card me" href="./me">
+        <span class="board-kind">跨科目学习资产</span>
+        <span class="board-icon" aria-hidden="true">我</span>
+        <h2>我的学习中心</h2>
+        <p class="board-copy">
+          错题、收藏笔记、练习记录与学习分析都在这里。错题按科目分开管理，
+          不把不同科目的掌握度混成一个数字。
+        </p>
+        <span class="board-features" aria-label="模块">
+          <span>错题集</span><span>收藏笔记</span><span>练习记录</span><span>学习分析</span>
+        </span>
+        <p class="board-stat" id="stat-me">正在读取学习记录…</p>
+        <span class="board-go" aria-hidden="true">进入我的学习中心 →</span>
+      </a>
+    </nav>
+
+    <a class="continue-banner" id="continue-banner" href="./practice" hidden>
+      <span class="continue-icon" aria-hidden="true">▶</span>
+      <span class="continue-text">
+        <strong id="continue-title">继续上次练习</strong>
+        <small id="continue-detail">上次的作答已保留，可以直接接着做。</small>
+      </span>
+      <span class="continue-go" aria-hidden="true">继续 →</span>
+    </a>
+
+    <a class="studio-banner" href="./studio">
+      <span class="studio-mark" aria-hidden="true">製</span>
+      <span class="studio-text">
+        <strong>题库制作台</strong>
+        <small>导入原卷、逐页复核、签署与发布。发布前需要复核人签名。</small>
+      </span>
+      <span class="studio-go" aria-hidden="true">进入 →</span>
+    </a>
+  </main>
+
+  <script src="core.js" defer></script>
+  <script src="home.js" defer></script>
+</body>
+</html>

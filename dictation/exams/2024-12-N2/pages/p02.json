@@ -1,0 +1,71 @@
+{
+  "page": 2,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　____ の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "山本さんは優秀な社員だ。",
+      "questionNumber": 1,
+      "choices": [
+        "ゆしゅ",
+        "ゆうしゅ",
+        "ゆしゅう",
+        "ゆうしゅう"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "そんなことを言われたら、私も迷ったに違いない。",
+      "questionNumber": 2,
+      "choices": [
+        "あやまった",
+        "あせった",
+        "まよった",
+        "うたがった"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "今から行うのは背骨を伸ばす体操です。",
+      "questionNumber": 3,
+      "choices": [
+        "せいこつ",
+        "せこつ",
+        "せいぼね",
+        "せぼね"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "すぐに実践できるとは思っていなかった。",
+      "questionNumber": 4,
+      "choices": [
+        "じっせん",
+        "じっけん",
+        "じっぜん",
+        "じっげん"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "彼はコンサートで派手な衣装を着ていた。",
+      "questionNumber": 5,
+      "choices": [
+        "いそう",
+        "いしょう",
+        "いじょう",
+        "いぞう"
+      ]
+    }
+  ],
+  "issues": []
+}

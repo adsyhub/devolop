@@ -1,0 +1,21 @@
+{
+  "page": 11,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "39 学生から提出された論文の中に面白いものがあった。私が ____ ★ ____ これまでにない。\n1 知る限りでは\n2 論文は\n3 分析している\n4 このアプローチで\n40 このレシピ本は、ふだん料理をしない人でも ____ ★ ____ 評判になっているそうだ。\n1 若い人の間で\n2 調理するだけで\n3 レシピに沿って\n4 簡単に本格的な料理が作れると"
+    }
+  ],
+  "pageLabel": "9",
+  "issues": [
+    "Choice-looking line with no question open: '1 知る限りでは'",
+    "Choice-looking line with no question open: '2 論文は'",
+    "Choice-looking line with no question open: '3 分析している'",
+    "Choice-looking line with no question open: '4 このアプローチで'",
+    "Choice-looking line with no question open: '1 若い人の間で'",
+    "Choice-looking line with no question open: '2 調理するだけで'",
+    "Choice-looking line with no question open: '3 レシピに沿って'",
+    "Choice-looking line with no question open: '4 簡単に本格的な料理が作れると'"
+  ]
+}

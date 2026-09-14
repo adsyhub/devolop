@@ -1,0 +1,77 @@
+{
+  "page": 36,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "聴解"
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "",
+      "label": "1番",
+      "choices": [
+        "体験会で使うシーンを選ぶ",
+        "せりふを印刷する",
+        "当日の仕事の担当を決める",
+        "ちらしを印刷する"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "",
+      "label": "2番",
+      "choices": [
+        "具の量を増やす",
+        "塩分を減らす",
+        "麺の量を増やす",
+        "麺の太さを変える"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "",
+      "label": "3番",
+      "choices": [
+        "雪の上を歩く道具をくつにつける",
+        "森の動物のビデオを見る",
+        "建物の入り口に移動する",
+        "ツアーの地図を受け取る"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "",
+      "label": "4番",
+      "choices": [
+        "床の素材",
+        "壁の色合いの明るさ",
+        "照明器具",
+        "カウンターのデザイン"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "text": "",
+      "label": "5番",
+      "choices": [
+        "備品の注文書を修正する",
+        "取引先に案内状を送る",
+        "カタログを注文する",
+        "会計課に連絡する"
+      ]
+    }
+  ],
+  "pageLabel": "35",
+  "issues": []
+}

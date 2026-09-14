@@ -1,0 +1,756 @@
+{
+  "schemaVersion": 1,
+  "title": "長期金利 3%に上昇 約30年ぶり 日銀の早期利上げ観測など背景 | NHK | #shorts",
+  "sourceLanguage": "ja",
+  "media": {
+    "kind": "remote",
+    "provider": "youtube",
+    "control": "full",
+    "videoId": "ygOeHL7QJIg",
+    "pageUrl": "https://www.youtube.com/watch?v=ygOeHL7QJIg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ygOeHL7QJIg",
+    "durationSec": 14.0,
+    "uploader": "NHK",
+    "attribution": {
+      "sourceName": "YouTube",
+      "rightsHolder": "NHK",
+      "retrievedAt": "2026-09-01",
+      "redistributable": false,
+      "notes": "Timings, translations and explanations are ours; the transcript text derives from the site's captions or from local transcription. The media itself is never stored and this course is not redistributable."
+    }
+  },
+  "sentences": [
+    {
+      "startTime": 0.52,
+      "endTime": 3.789,
+      "sourceText": "今日の債券市場では国債を売る動きが広がり、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "今日の債券市場では国債を売る動きが広がり、",
+      "id": "s_6cdafd89acbe506216704ced"
+    },
+    {
+      "startTime": 4.4,
+      "endTime": 10.669,
+      "sourceText": "午後0時半過ぎ長期金利の代表的な指標である10年もの国債の利回りが",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "午後0時半過ぎ長期金利の代表的な指標である10年もの国債の利回りが",
+      "id": "s_c27ec49191fe14b5a400d422"
+    }
+  ],
+  "buildMetadata": {
+    "transcriptSource": "site-subtitles",
+    "retrievedAt": "2026-09-01",
+    "mediaProbe": {
+      "title": "長期金利 3%に上昇 約30年ぶり 日銀の早期利上げ観測など背景 | NHK | #shorts",
+      "uploader": "NHK",
+      "durationSec": 14.0,
+      "extractor": "Youtube",
+      "subtitles": [
+        {
+          "language": "aa",
+          "kind": "auto"
+        },
+        {
+          "language": "ab",
+          "kind": "auto"
+        },
+        {
+          "language": "af",
+          "kind": "auto"
+        },
+        {
+          "language": "ak",
+          "kind": "auto"
+        },
+        {
+          "language": "am",
+          "kind": "auto"
+        },
+        {
+          "language": "ar",
+          "kind": "auto"
+        },
+        {
+          "language": "as",
+          "kind": "auto"
+        },
+        {
+          "language": "ay",
+          "kind": "auto"
+        },
+        {
+          "language": "az",
+          "kind": "auto"
+        },
+        {
+          "language": "ba",
+          "kind": "auto"
+        },
+        {
+          "language": "be",
+          "kind": "auto"
+        },
+        {
+          "language": "bg",
+          "kind": "auto"
+        },
+        {
+          "language": "bho",
+          "kind": "auto"
+        },
+        {
+          "language": "bn",
+          "kind": "auto"
+        },
+        {
+          "language": "bo",
+          "kind": "auto"
+        },
+        {
+          "language": "br",
+          "kind": "auto"
+        },
+        {
+          "language": "bs",
+          "kind": "auto"
+        },
+        {
+          "language": "ca",
+          "kind": "auto"
+        },
+        {
+          "language": "ceb",
+          "kind": "auto"
+        },
+        {
+          "language": "co",
+          "kind": "auto"
+        },
+        {
+          "language": "crs",
+          "kind": "auto"
+        },
+        {
+          "language": "cs",
+          "kind": "auto"
+        },
+        {
+          "language": "cy",
+          "kind": "auto"
+        },
+        {
+          "language": "da",
+          "kind": "auto"
+        },
+        {
+          "language": "de",
+          "kind": "auto"
+        },
+        {
+          "language": "dv",
+          "kind": "auto"
+        },
+        {
+          "language": "dz",
+          "kind": "auto"
+        },
+        {
+          "language": "ee",
+          "kind": "auto"
+        },
+        {
+          "language": "el",
+          "kind": "auto"
+        },
+        {
+          "language": "en",
+          "kind": "auto"
+        },
+        {
+          "language": "eo",
+          "kind": "auto"
+        },
+        {
+          "language": "es",
+          "kind": "auto"
+        },
+        {
+          "language": "et",
+          "kind": "auto"
+        },
+        {
+          "language": "eu",
+          "kind": "auto"
+        },
+        {
+          "language": "fa",
+          "kind": "auto"
+        },
+        {
+          "language": "fi",
+          "kind": "auto"
+        },
+        {
+          "language": "fil",
+          "kind": "auto"
+        },
+        {
+          "language": "fj",
+          "kind": "auto"
+        },
+        {
+          "language": "fo",
+          "kind": "auto"
+        },
+        {
+          "language": "fr",
+          "kind": "auto"
+        },
+        {
+          "language": "fy",
+          "kind": "auto"
+        },
+        {
+          "language": "ga",
+          "kind": "auto"
+        },
+        {
+          "language": "gaa",
+          "kind": "auto"
+        },
+        {
+          "language": "gd",
+          "kind": "auto"
+        },
+        {
+          "language": "gl",
+          "kind": "auto"
+        },
+        {
+          "language": "gn",
+          "kind": "auto"
+        },
+        {
+          "language": "gu",
+          "kind": "auto"
+        },
+        {
+          "language": "gv",
+          "kind": "auto"
+        },
+        {
+          "language": "ha",
+          "kind": "auto"
+        },
+        {
+          "language": "haw",
+          "kind": "auto"
+        },
+        {
+          "language": "hi",
+          "kind": "auto"
+        },
+        {
+          "language": "hmn",
+          "kind": "auto"
+        },
+        {
+          "language": "hr",
+          "kind": "auto"
+        },
+        {
+          "language": "ht",
+          "kind": "auto"
+        },
+        {
+          "language": "hu",
+          "kind": "auto"
+        },
+        {
+          "language": "hy",
+          "kind": "auto"
+        },
+        {
+          "language": "id",
+          "kind": "auto"
+        },
+        {
+          "language": "ig",
+          "kind": "auto"
+        },
+        {
+          "language": "is",
+          "kind": "auto"
+        },
+        {
+          "language": "it",
+          "kind": "auto"
+        },
+        {
+          "language": "iu",
+          "kind": "auto"
+        },
+        {
+          "language": "iw",
+          "kind": "auto"
+        },
+        {
+          "language": "ja",
+          "kind": "auto"
+        },
+        {
+          "language": "ja-orig",
+          "kind": "auto"
+        },
+        {
+          "language": "jv",
+          "kind": "auto"
+        },
+        {
+          "language": "ka",
+          "kind": "auto"
+        },
+        {
+          "language": "kha",
+          "kind": "auto"
+        },
+        {
+          "language": "kk",
+          "kind": "auto"
+        },
+        {
+          "language": "kl",
+          "kind": "auto"
+        },
+        {
+          "language": "km",
+          "kind": "auto"
+        },
+        {
+          "language": "kn",
+          "kind": "auto"
+        },
+        {
+          "language": "ko",
+          "kind": "auto"
+        },
+        {
+          "language": "kri",
+          "kind": "auto"
+        },
+        {
+          "language": "ku",
+          "kind": "auto"
+        },
+        {
+          "language": "ky",
+          "kind": "auto"
+        },
+        {
+          "language": "la",
+          "kind": "auto"
+        },
+        {
+          "language": "lb",
+          "kind": "auto"
+        },
+        {
+          "language": "lg",
+          "kind": "auto"
+        },
+        {
+          "language": "ln",
+          "kind": "auto"
+        },
+        {
+          "language": "lo",
+          "kind": "auto"
+        },
+        {
+          "language": "lt",
+          "kind": "auto"
+        },
+        {
+          "language": "lua",
+          "kind": "auto"
+        },
+        {
+          "language": "luo",
+          "kind": "auto"
+        },
+        {
+          "language": "lv",
+          "kind": "auto"
+        },
+        {
+          "language": "mfe",
+          "kind": "auto"
+        },
+        {
+          "language": "mg",
+          "kind": "auto"
+        },
+        {
+          "language": "mi",
+          "kind": "auto"
+        },
+        {
+          "language": "mk",
+          "kind": "auto"
+        },
+        {
+          "language": "ml",
+          "kind": "auto"
+        },
+        {
+          "language": "mn",
+          "kind": "auto"
+        },
+        {
+          "language": "mr",
+          "kind": "auto"
+        },
+        {
+          "language": "ms",
+          "kind": "auto"
+        },
+        {
+          "language": "mt",
+          "kind": "auto"
+        },
+        {
+          "language": "my",
+          "kind": "auto"
+        },
+        {
+          "language": "ne",
+          "kind": "auto"
+        },
+        {
+          "language": "new",
+          "kind": "auto"
+        },
+        {
+          "language": "nl",
+          "kind": "auto"
+        },
+        {
+          "language": "no",
+          "kind": "auto"
+        },
+        {
+          "language": "nso",
+          "kind": "auto"
+        },
+        {
+          "language": "ny",
+          "kind": "auto"
+        },
+        {
+          "language": "oc",
+          "kind": "auto"
+        },
+        {
+          "language": "om",
+          "kind": "auto"
+        },
+        {
+          "language": "or",
+          "kind": "auto"
+        },
+        {
+          "language": "os",
+          "kind": "auto"
+        },
+        {
+          "language": "pa",
+          "kind": "auto"
+        },
+        {
+          "language": "pam",
+          "kind": "auto"
+        },
+        {
+          "language": "pl",
+          "kind": "auto"
+        },
+        {
+          "language": "ps",
+          "kind": "auto"
+        },
+        {
+          "language": "pt",
+          "kind": "auto"
+        },
+        {
+          "language": "pt-PT",
+          "kind": "auto"
+        },
+        {
+          "language": "qu",
+          "kind": "auto"
+        },
+        {
+          "language": "rn",
+          "kind": "auto"
+        },
+        {
+          "language": "ro",
+          "kind": "auto"
+        },
+        {
+          "language": "ru",
+          "kind": "auto"
+        },
+        {
+          "language": "rw",
+          "kind": "auto"
+        },
+        {
+          "language": "sa",
+          "kind": "auto"
+        },
+        {
+          "language": "sd",
+          "kind": "auto"
+        },
+        {
+          "language": "sg",
+          "kind": "auto"
+        },
+        {
+          "language": "si",
+          "kind": "auto"
+        },
+        {
+          "language": "sk",
+          "kind": "auto"
+        },
+        {
+          "language": "sl",
+          "kind": "auto"
+        },
+        {
+          "language": "sm",
+          "kind": "auto"
+        },
+        {
+          "language": "sn",
+          "kind": "auto"
+        },
+        {
+          "language": "so",
+          "kind": "auto"
+        },
+        {
+          "language": "sq",
+          "kind": "auto"
+        },
+        {
+          "language": "sr",
+          "kind": "auto"
+        },
+        {
+          "language": "ss",
+          "kind": "auto"
+        },
+        {
+          "language": "st",
+          "kind": "auto"
+        },
+        {
+          "language": "su",
+          "kind": "auto"
+        },
+        {
+          "language": "sv",
+          "kind": "auto"
+        },
+        {
+          "language": "sw",
+          "kind": "auto"
+        },
+        {
+          "language": "ta",
+          "kind": "auto"
+        },
+        {
+          "language": "te",
+          "kind": "auto"
+        },
+        {
+          "language": "tg",
+          "kind": "auto"
+        },
+        {
+          "language": "th",
+          "kind": "auto"
+        },
+        {
+          "language": "ti",
+          "kind": "auto"
+        },
+        {
+          "language": "tk",
+          "kind": "auto"
+        },
+        {
+          "language": "tn",
+          "kind": "auto"
+        },
+        {
+          "language": "to",
+          "kind": "auto"
+        },
+        {
+          "language": "tr",
+          "kind": "auto"
+        },
+        {
+          "language": "ts",
+          "kind": "auto"
+        },
+        {
+          "language": "tt",
+          "kind": "auto"
+        },
+        {
+          "language": "tum",
+          "kind": "auto"
+        },
+        {
+          "language": "ug",
+          "kind": "auto"
+        },
+        {
+          "language": "uk",
+          "kind": "auto"
+        },
+        {
+          "language": "ur",
+          "kind": "auto"
+        },
+        {
+          "language": "uz",
+          "kind": "auto"
+        },
+        {
+          "language": "ve",
+          "kind": "auto"
+        },
+        {
+          "language": "vi",
+          "kind": "auto"
+        },
+        {
+          "language": "war",
+          "kind": "auto"
+        },
+        {
+          "language": "wo",
+          "kind": "auto"
+        },
+        {
+          "language": "xh",
+          "kind": "auto"
+        },
+        {
+          "language": "yi",
+          "kind": "auto"
+        },
+        {
+          "language": "yo",
+          "kind": "auto"
+        },
+        {
+          "language": "zh-Hans",
+          "kind": "auto"
+        },
+        {
+          "language": "zh-Hant",
+          "kind": "auto"
+        },
+        {
+          "language": "zu",
+          "kind": "auto"
+        }
+      ]
+    },
+    "subtitle": {
+      "language": "ja",
+      "kind": "auto",
+      "format": "json3"
+    },
+    "segmentation": {
+      "strategy": "sentence-boundary/v1",
+      "timeResolution": "token",
+      "sourceCues": 3,
+      "sentences": 2,
+      "forcedCuts": 0,
+      "params": {
+        "maxChars": 45,
+        "targetChars": 24,
+        "minChars": 8,
+        "pauseHard": 0.6,
+        "pauseSoft": 0.35,
+        "tailPad": 0.15,
+        "minDuration": 0.35
+      }
+    },
+    "contentPatches": [
+      {
+        "name": "nhk-news-0002-ygOeHL7QJIg-asr-proofread-202609.json",
+        "sourceSentencesDigest": "26c4500e3b2b4abe4ff0df1df4e055a017f7cf0b7469f3b2724dc9cb1974e89c",
+        "resultSentencesDigest": "68e6224140733508c2ca358b23904714c04e4802f8fdefe55d7e8c91efda2c92",
+        "description": "nhk-news-0002-ygOeHL7QJIg：LLM 逐句校对发现的 ASR 误识别修正 2 处。只替换 sourceText，其余字段沿用既有内容。",
+        "evidence": {
+          "file": "proofread-work/nhk-news-0002-ygOeHL7QJIg/proofread.json",
+          "proposedFixes": "proofread-work/nhk-news-0002-ygOeHL7QJIg/proposed-fixes.json",
+          "notes": "proofread-work/nhk-news-0002-ygOeHL7QJIg/notes.md",
+          "reviewer": "llm-agent",
+          "audioListened": false,
+          "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+        }
+      }
+    ]
+  },
+  "language": {
+    "code": "ja",
+    "locale": "ja-JP",
+    "name": "Japanese",
+    "displayName": "日语",
+    "nativeName": "日本語"
+  },
+  "locales": {
+    "source": "ja-JP",
+    "translation": "zh-Hans-CN",
+    "interface": "zh-Hans-CN"
+  },
+  "transcriptText": "今日の債券市場では国債を売る動きが広がり、午後0時半過ぎ長期金利の代表的な指標である10年もの国債の利回りが",
+  "courseId": "c_65883c3ae507eb92f563bbe1",
+  "contentModelVersion": 1,
+  "practiceSentenceCount": 2,
+  "contentRevision": "c3643b7761fb5fb3513ff44f4e567f8620bb77f79cc96857cdf8a055c30b165e",
+  "review": {
+    "humanListening": "pending",
+    "commercialRights": "unverified",
+    "browserAcceptance": "pending"
+  },
+  "quality": {
+    "status": "needs_review",
+    "sentences": 2,
+    "errors": 0,
+    "warnings": 5,
+    "issueCounts": {
+      "course.unterminated_ratio": 1,
+      "sentence.explanation_missing": 2,
+      "sentence.translation_missing": 2
+    }
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "パン|ぱん": {
+    "word": "パン",
+    "reading": "ぱん",
+    "reason": "ambiguous",
+    "candidates": [
+      "1103090",
+      "2827858",
+      "2850596",
+      "2850597"
+    ],
+    "entSeq": "1103090",
+    "senseKeys": [
+      "5df7cd8b5648ecc6ddd1"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：bread; (sweet) pastry。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "わかめ|わかめ": {
+    "word": "わかめ",
+    "reading": "わかめ",
+    "reason": "ambiguous",
+    "candidates": [
+      "1324440",
+      "1662030",
+      "2847226"
+    ],
+    "entSeq": "1324440",
+    "senseKeys": [
+      "a9b6e8d30aecc5e8eb0a"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：wakame (species of edible brown seaweed, Undaria pinnatifida)。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "ハム|はむ": {
+    "word": "ハム",
+    "reading": "はむ",
+    "reason": "ambiguous",
+    "candidates": [
+      "1096180",
+      "1575020",
+      "2145650",
+      "2843768"
+    ],
+    "entSeq": "1096180",
+    "senseKeys": [
+      "d38fea1a339120117135"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：ham (cured pig meat)。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "ジュース|じゅーす": {
+    "word": "ジュース",
+    "reading": "じゅーす",
+    "reason": "ambiguous",
+    "candidates": [
+      "1065950",
+      "2843595"
+    ],
+    "entSeq": "1065950",
+    "senseKeys": [
+      "6547be21c4cd7a77358b"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：juice。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "ビール|びーる": {
+    "word": "ビール",
+    "reading": "びーる",
+    "reason": "ambiguous",
+    "candidates": [
+      "2796520",
+      "1104550"
+    ],
+    "entSeq": "2796520",
+    "senseKeys": [
+      "c6b21ae17936aaa826f1"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：beer。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "りんご|りんご": {
+    "word": "りんご",
+    "reading": "りんご",
+    "reason": "ambiguous",
+    "candidates": [
+      "1555480",
+      "2859671"
+    ],
+    "entSeq": "1555480",
+    "senseKeys": [
+      "5694582ce08cc06f6014"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：apple (fruit)。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "みかん|みかん": {
+    "word": "みかん",
+    "reading": "みかん",
+    "reason": "ambiguous",
+    "candidates": [
+      "1527290",
+      "1528410",
+      "1527270"
+    ],
+    "entSeq": "1528410",
+    "senseKeys": [
+      "b229c5f358cbe527acb0"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：mandarin (esp. the satsuma mandarin (Citrus unshiu)); mandarin orange; tangerine; clementine; satsuma。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "ぶどう|ぶどう": {
+    "word": "ぶどう",
+    "reading": "ぶどう",
+    "reason": "ambiguous",
+    "candidates": [
+      "1498880",
+      "1499230",
+      "1673240",
+      "2194390"
+    ],
+    "entSeq": "1499230",
+    "senseKeys": [
+      "e969ee3dd675ec3d1eaa"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：grape; grapevine。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "いちご|いちご": {
+    "word": "いちご",
+    "reading": "いちご",
+    "reason": "ambiguous",
+    "candidates": [
+      "1161690",
+      "1162350",
+      "1571460"
+    ],
+    "entSeq": "1571460",
+    "senseKeys": [
+      "d6155b71bbad599c59d6"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：strawberry (esp. the garden strawberry, Fragaria x ananassa)。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "すいか|すいか": {
+    "word": "すいか",
+    "reading": "すいか",
+    "reason": "ambiguous",
+    "candidates": [
+      "1380890",
+      "1370930",
+      "1371340",
+      "1619450",
+      "1736780",
+      "1854160",
+      "2154130",
+      "2854545",
+      "5744333"
+    ],
+    "entSeq": "1380890",
+    "senseKeys": [
+      "147490b95a272ebfe29c"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：watermelon (Citrullus lanatus)。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "きゅうり|きゅうり": {
+    "word": "きゅうり",
+    "reading": "きゅうり",
+    "reason": "ambiguous",
+    "candidates": [
+      "1591500",
+      "1869920",
+      "2846893",
+      "2863165"
+    ],
+    "entSeq": "1591500",
+    "senseKeys": [
+      "f3c8aaaa7c288576c12d"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：cucumber (Cucumis sativus)。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "なす|なす": {
+    "word": "なす",
+    "reading": "なす",
+    "reason": "ambiguous",
+    "candidates": [
+      "1157130",
+      "1195240",
+      "2861111",
+      "1563800",
+      "2824590",
+      "2842197",
+      "2864469",
+      "2866666"
+    ],
+    "entSeq": "1195240",
+    "senseKeys": [
+      "6c864f343b4253493abe"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：eggplant (Solanum melongena); aubergine。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "にんにく|にんにく": {
+    "word": "にんにく",
+    "reading": "にんにく",
+    "reason": "ambiguous",
+    "candidates": [
+      "1599940",
+      "2192680"
+    ],
+    "entSeq": "1599940",
+    "senseKeys": [
+      "a1b3575bc82e9fb19538"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：garlic (Allium sativum)。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "しょうが|しょうが": {
+    "word": "しょうが",
+    "reading": "しょうが",
+    "reason": "ambiguous",
+    "candidates": [
+      "1347500",
+      "1379620",
+      "1743700",
+      "2224660"
+    ],
+    "entSeq": "1379620",
+    "senseKeys": [
+      "91095e041dab39d33247"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：ginger (Zingiber officinale)。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "ズボン|ずぼん": {
+    "word": "ズボン",
+    "reading": "ずぼん",
+    "reason": "ambiguous",
+    "candidates": [
+      "1074260",
+      "2735420"
+    ],
+    "entSeq": "1074260",
+    "senseKeys": [
+      "7f6353a18934b00b9752"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：trousers; pants。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "コート|こーと": {
+    "word": "コート",
+    "reading": "こーと",
+    "reason": "ambiguous",
+    "candidates": [
+      "1049000",
+      "2842174"
+    ],
+    "entSeq": "1049000",
+    "senseKeys": [
+      "2f5357e55c9a36dd54ae"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：coat。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "タオル|たおる": {
+    "word": "タオル",
+    "reading": "たおる",
+    "reason": "ambiguous",
+    "candidates": [
+      "1076170",
+      "2573460",
+      "2804550"
+    ],
+    "entSeq": "1076170",
+    "senseKeys": [
+      "8930e2d65849ee3d2168"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：towel。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "鏡|かがみ": {
+    "word": "鏡",
+    "reading": "かがみ",
+    "reason": "ambiguous",
+    "candidates": [
+      "1238550",
+      "2017840"
+    ],
+    "entSeq": "1238550",
+    "senseKeys": [
+      "422aaa032e1a6d616e79"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：mirror; looking-glass。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "パソコン|ぱそこん": {
+    "word": "パソコン",
+    "reading": "ぱそこん",
+    "reason": "ambiguous",
+    "candidates": [
+      "1101570",
+      "2223560"
+    ],
+    "entSeq": "1101570",
+    "senseKeys": [
+      "166c96825a54f4802340"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：personal computer; PC。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "ペン|ぺん": {
+    "word": "ペン",
+    "reading": "ぺん",
+    "reason": "ambiguous",
+    "candidates": [
+      "1121380",
+      "5000059"
+    ],
+    "entSeq": "1121380",
+    "senseKeys": [
+      "42e69b5fa801f497bdb9"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：pen。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "はさみ|はさみ": {
+    "word": "はさみ",
+    "reading": "はさみ",
+    "reason": "ambiguous",
+    "candidates": [
+      "1573820",
+      "2029540",
+      "2867133"
+    ],
+    "entSeq": "1573820",
+    "senseKeys": [
+      "67cbf4bed70ddc29ca2a"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：scissors; shears; clippers。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "バス|ばす": {
+    "word": "バス",
+    "reading": "ばす",
+    "reason": "ambiguous",
+    "candidates": [
+      "1098390",
+      "2845312",
+      "2845314",
+      "2845315"
+    ],
+    "entSeq": "1098390",
+    "senseKeys": [
+      "5a5f184f9b7be2552741"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：bus。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "ホーム|ほーむ": {
+    "word": "ホーム",
+    "reading": "ほーむ",
+    "reason": "ambiguous",
+    "candidates": [
+      "1121740",
+      "2855797"
+    ],
+    "entSeq": "1121740",
+    "senseKeys": [
+      "8ef5ece8fa7681a409e3"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：platform。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "虹|にじ": {
+    "word": "虹",
+    "reading": "にじ",
+    "reason": "ambiguous",
+    "candidates": [
+      "1461870",
+      "1463740"
+    ],
+    "entSeq": "1463740",
+    "senseKeys": [
+      "bb305e022e246a1e72f7"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：rainbow。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  },
+  "腰|こし": {
+    "word": "腰",
+    "reading": "こし",
+    "reason": "ambiguous",
+    "candidates": [
+      "1288340",
+      "2844070"
+    ],
+    "entSeq": "1288340",
+    "senseKeys": [
+      "89860430d484fecd9c36"
+    ],
+    "decidedBy": "Codex",
+    "decidedAt": "2026-09-08",
+    "note": "逐项比较候选的 JMdict 英文义项与种子中文语境，选取：lower back; waist; hips; lumbar region。这是词典义项匹配决定，不是整条学习内容的人工语言审核。",
+    "method": "model-dictionary-sense-comparison",
+    "notHumanReview": true
+  }
+}

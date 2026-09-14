@@ -1,0 +1,113 @@
+{
+  "page": 8,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 6,
+      "text": "問題6　次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 6,
+      "text": "<u>26</u> 廃止"
+    },
+    {
+      "kind": "question",
+      "partNumber": 6,
+      "text": "両親は20年以上続けてきた店を<u>はいし</u>することにした。",
+      "questionNumber": 1,
+      "choices": [
+        "点検のため、午前中はエレベーターの使用を<u>はいし</u>します。",
+        "雨が降ってきたので、今日のイベントは<u>はいし</u>します。",
+        "時代に合わない古い制度は<u>はいし</u>したほうがいい。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 6,
+      "text": "<u>27</u> はる"
+    },
+    {
+      "kind": "question",
+      "partNumber": 6,
+      "text": "森さんのポケットは、物が多くて<u>はる</u>ている。",
+      "questionNumber": 1,
+      "choices": [
+        "今日はたくさん食べたので、おなかが<u>はる</u>ている。",
+        "サッカーの試合でけがをして、足が<u>はる</u>てしまった。",
+        "オーブンでクッキーを焼いたら、だんだん<u>はる</u>てきた。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 6,
+      "text": "<u>28</u> 上達"
+    },
+    {
+      "kind": "question",
+      "partNumber": 6,
+      "text": "毎日練習しているので、ピアノがかなり<u>上達</u>した。",
+      "questionNumber": 1,
+      "choices": [
+        "いい病院で治療してもらえたようで、祖父の体調は<u>上達</u>した。",
+        "同じ作家が好きなことが分かって、大野さんとの仲が<u>上達</u>した。",
+        "小川さんが詳しく説明してくれたので、理解が<u>上達</u>した。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 6,
+      "text": "<u>29</u> 暮れ"
+    },
+    {
+      "kind": "question",
+      "partNumber": 6,
+      "text": "この物語の<u>暮れ</u>は、意外な内容だった。",
+      "questionNumber": 1,
+      "choices": [
+        "旅行の<u>暮れ</u>に、みんなで記念に写真を撮った。",
+        "授業の<u>暮れ</u>に、先生が今日の宿題を出した。",
+        "今年の<u>暮れ</u>は、実家で両親と過ごしたい。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 6,
+      "text": "<u>30</u> 残高"
+    },
+    {
+      "kind": "question",
+      "partNumber": 6,
+      "text": "私たちが会議室を利用できる<u>残高</u>は、あと10分です。",
+      "questionNumber": 1,
+      "choices": [
+        "私の銀行口座の<u>残高</u>は、1,000円しかありません。",
+        "この町の<u>残高</u>は、ついに1万人を下回りました。",
+        "山の頂上までの<u>残高</u>は、100メートルくらいです。"
+      ]
+    }
+  ],
+  "pageLabel": "6",
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

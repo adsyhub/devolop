@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "description": "2020-12-N2：LLM 逐句校对发现的 ASR 误识别修正 1 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "c0c8e9641321cb2558d8956487e880604d2f4c1071128a4c2cb25ffe836d4489",
+  "evidence": {
+    "file": "proofread-work/2020-12-N2/proofread.json",
+    "proposedFixes": "proofread-work/2020-12-N2/proposed-fixes.json",
+    "notes": "proofread-work/2020-12-N2/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 177,
+      "endIndex": 177,
+      "expectedStartTime": 1356.53,
+      "expectedEndTime": 1369.5,
+      "items": [
+        {
+          "startTime": 1356.53,
+          "endTime": 1369.5,
+          "sourceText": "昨年長編アニメとして映画化されましたがそのDVDの海外での売り上げも好調だそうです 日本に留まらず世界中でファンを獲得しているようです",
+          "jaText": "昨年長編アニメとして映画化されましたがそのDVDの海外での売り上げも好調だそうです 日本に留まらず世界中でファンを獲得しているようです"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "description": "librivox-test：LLM 逐句校对发现的 ASR 误识别修正 9 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "1b3a417a430b14eac8df5167e4a050f1d4af32d46dc539fcebc18ca21964ec79",
+  "evidence": {
+    "file": "proofread-work/librivox-test/proofread.json",
+    "proposedFixes": "proofread-work/librivox-test/proposed-fixes.json",
+    "notes": "proofread-work/librivox-test/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 1,
+      "endIndex": 1,
+      "expectedStartTime": 5.06,
+      "expectedEndTime": 7.2,
+      "items": [
+        {
+          "startTime": 5.06,
+          "endTime": 7.2,
+          "sourceText": "思索者の日記、三木清。",
+          "jaText": "思索者の日記、三木清。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 8,
+      "endIndex": 8,
+      "expectedStartTime": 36.52,
+      "expectedEndTime": 50.38,
+      "items": [
+        {
+          "startTime": 36.52,
+          "endTime": 50.38,
+          "sourceText": "私が外出先から帰ってくるときには、家に入らない前に咳でわかると亡妻は言っていたし、私が在宅かいなかは、咳が聞こえるかどうかで判断することができると、隣の人たちは言っている。",
+          "jaText": "私が外出先から帰ってくるときには、家に入らない前に咳でわかると亡妻は言っていたし、私が在宅かいなかは、咳が聞こえるかどうかで判断することができると、隣の人たちは言っている。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 11,
+      "endIndex": 11,
+      "expectedStartTime": 66.26,
+      "expectedEndTime": 73.0,
+      "items": [
+        {
+          "startTime": 66.26,
+          "endTime": 73.0,
+          "sourceText": "飛んでいるようでもあり、踊っているようでもあり、舞っているようでもあり、そのコミカルな姿態をしばらく眺める。",
+          "jaText": "飛んでいるようでもあり、踊っているようでもあり、舞っているようでもあり、そのコミカルな姿態をしばらく眺める。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 18,
+      "endIndex": 18,
+      "expectedStartTime": 93.04,
+      "expectedEndTime": 105.36,
+      "items": [
+        {
+          "startTime": 93.04,
+          "endTime": 105.36,
+          "sourceText": "昨夜、遅くまで起きて済ませたパンフレットの校正を持って、夕方までに再校を出してもらうつもりで、急いで日本橋まで行ったが、今日は印刷所では仕事をしないという。",
+          "jaText": "昨夜、遅くまで起きて済ませたパンフレットの校正を持って、夕方までに再校を出してもらうつもりで、急いで日本橋まで行ったが、今日は印刷所では仕事をしないという。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 24,
+      "endIndex": 24,
+      "expectedStartTime": 136.2,
+      "expectedEndTime": 159.84,
+      "items": [
+        {
+          "startTime": 136.2,
+          "endTime": 159.84,
+          "sourceText": "ソクラテスでも、キリストでも、彼らの死が、その思想的影響にとって、大きな意義を持っているに反して、孔子のごとき場合には、その死は特別に考えられていないということは、確か、和辻氏なども指摘していることであるが、それは東洋人には、死が問題でないというのでなく、かえって死についての考え方が違っているからだと思う。",
+          "jaText": "ソクラテスでも、キリストでも、彼らの死が、その思想的影響にとって、大きな意義を持っているに反して、孔子のごとき場合には、その死は特別に考えられていないということは、確か、和辻氏なども指摘していることであるが、それは東洋人には、死が問題でないというのでなく、かえって死についての考え方が違っているからだと思う。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 31,
+      "endIndex": 31,
+      "expectedStartTime": 205.94,
+      "expectedEndTime": 213.78,
+      "items": [
+        {
+          "startTime": 205.94,
+          "endTime": 213.78,
+          "sourceText": "ヘーゲルやシェリングなどが、悲劇的精神を、歴史の本質の理解の根本に置いたということには、重要な意義がある。",
+          "jaText": "ヘーゲルやシェリングなどが、悲劇的精神を、歴史の本質の理解の根本に置いたということには、重要な意義がある。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 36,
+      "endIndex": 36,
+      "expectedStartTime": 248.46,
+      "expectedEndTime": 258.42,
+      "items": [
+        {
+          "startTime": 248.46,
+          "endTime": 258.42,
+          "sourceText": "昨日、田中美知太郎君が来て、テルトゥリアヌスの本を持っていないかと言っていたので、今日探してみたが、恐怖文庫の中の、毒薬があっただけだった。",
+          "jaText": "昨日、田中美知太郎君が来て、テルトゥリアヌスの本を持っていないかと言っていたので、今日探してみたが、恐怖文庫の中の、毒薬があっただけだった。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 39,
+      "endIndex": 39,
+      "expectedStartTime": 271.9,
+      "expectedEndTime": 278.06,
+      "items": [
+        {
+          "startTime": 271.9,
+          "endTime": 278.06,
+          "sourceText": "田辺君一人先に帰ってから、渡辺君と碁を二番打ち、三人で夕食をする。",
+          "jaText": "田辺君一人先に帰ってから、渡辺君と碁を二番打ち、三人で夕食をする。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 45,
+      "endIndex": 45,
+      "expectedStartTime": 303.46,
+      "expectedEndTime": 305.86,
+      "items": [
+        {
+          "startTime": 303.46,
+          "endTime": 305.86,
+          "sourceText": "思索者の日記、三木清終。",
+          "jaText": "思索者の日記、三木清終。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+work/
+library/
+*.db
+
+
+# 大体积数据与生成产物，不入版本库
+PAPER/
+sources/
+media/
+build/
+*.egg-info/
+:memory:
+content/*.bak

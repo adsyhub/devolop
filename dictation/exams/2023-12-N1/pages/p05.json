@@ -1,0 +1,42 @@
+{
+  "page": 5,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　____の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 3,
+      "text": "14 自分の尺度を持ったほうがいい。\n1 理想\n2 意思\n3 基準\n4 専門\n15 わずらわしい仕事をやることになってしまった。\n1 退屈な\n2 面倒な\n3 危険な\n4 余計な\n16 池田さんには会えたが、肝心な話はできなかった。\n1 個人的な\n2 具体的な\n3 詳細な\n4 重要な\n17 今週は仕事がはかどりました。\n1 順調に進みました\n2 大幅に遅れました\n3 徐々に減りました\n4 急激に増えました\n18 新人のときはずっと辛抱していた。\n1 苦労\n2 我慢\n3 失敗\n4 心配\n19 この地方のしきたりについて話を聞いた。\n1 名物\n2 気候\n3 慣習\n4 歴史"
+    }
+  ],
+  "pageLabel": "3",
+  "issues": [
+    "Choice-looking line with no question open: '1 理想'",
+    "Choice-looking line with no question open: '2 意思'",
+    "Choice-looking line with no question open: '3 基準'",
+    "Choice-looking line with no question open: '4 専門'",
+    "Choice-looking line with no question open: '1 退屈な'",
+    "Choice-looking line with no question open: '2 面倒な'",
+    "Choice-looking line with no question open: '3 危険な'",
+    "Choice-looking line with no question open: '4 余計な'",
+    "Choice-looking line with no question open: '1 個人的な'",
+    "Choice-looking line with no question open: '2 具体的な'",
+    "Choice-looking line with no question open: '3 詳細な'",
+    "Choice-looking line with no question open: '4 重要な'",
+    "Choice-looking line with no question open: '1 順調に進みました'",
+    "Choice-looking line with no question open: '2 大幅に遅れました'",
+    "Choice-looking line with no question open: '3 徐々に減りました'",
+    "Choice-looking line with no question open: '4 急激に増えました'",
+    "Choice-looking line with no question open: '1 苦労'",
+    "Choice-looking line with no question open: '2 我慢'",
+    "Choice-looking line with no question open: '3 失敗'",
+    "Choice-looking line with no question open: '4 心配'",
+    "Choice-looking line with no question open: '1 名物'",
+    "Choice-looking line with no question open: '2 気候'",
+    "Choice-looking line with no question open: '3 慣習'",
+    "Choice-looking line with no question open: '4 歴史'"
+  ]
+}

@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#22406e">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <title>開始練習 · EJU 题库</title>
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="vendor/katex/katex.min.css">
+  <link rel="stylesheet" href="practice.css">
+  <script defer src="vendor/katex/katex.min.js"></script>
+</head>
+<body class="practice-body">
+  <a class="skip-link" href="#main">跳到内容</a>
+
+  <header class="topbar">
+    <div class="topbar-lead">
+      <a class="brand" href="./" aria-label="返回学习入口">
+        <span class="brand-mark" aria-hidden="true">練</span>
+        <span>
+          <strong id="brand-title">開始練習</strong>
+          <small id="brand-subtitle">選一個科目</small>
+        </span>
+      </a>
+      <!-- 作答中切换卷子：浮层压在按钮下面，不把人踢回上一层，
+           正在做的这道题留在原处。整个卷库仍然一键可达（浮层底部）。 -->
+      <div class="switcher-wrap" id="switcher-wrap" hidden>
+        <button class="icon-button" id="switcher-button" type="button"
+          aria-expanded="false" aria-controls="switcher-menu" title="切换卷子">
+          <span aria-hidden="true">☰</span><span class="button-label">卷库</span>
+        </button>
+        <div class="switcher-menu" id="switcher-menu" hidden>
+          <div class="switcher-head">
+            <span>切换卷子</span>
+            <button class="icon-button" id="switcher-close" type="button" aria-label="收起">✕</button>
+          </div>
+          <div class="switcher-list" id="switcher-list"></div>
+          <a class="switcher-more" id="switcher-more" href="#/">返回卷库首页 →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 練習与我的是独立工作区：进度口径不共享，跨工作区切换回入口页。 -->
+    <nav class="mode-context" aria-label="当前工作区">
+      <span class="mode-context-current" aria-current="page">
+        <span aria-hidden="true">📖</span><span>練習工作区</span>
+      </span>
+      <a class="mode-switch-link" href="./">切换工作区</a>
+    </nav>
+
+    <div class="topbar-actions">
+      <a class="secondary-button" href="./me#/mistakes">我的</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ================================================================ -->
+    <!-- L1 + L2 + L3：工作区首页。选科目，再选练法。                     -->
+    <!-- ================================================================ -->
+    <section class="view" id="view-subjects" aria-labelledby="subjects-heading">
+      <div class="board-hero">
+        <p class="eyebrow">PRACTICE WORKSPACE</p>
+        <h1 id="subjects-heading">选一个科目</h1>
+        <p class="board-hero-copy">
+          EJU 一年两回。理科与総合科目按考试规则互斥，具体选科在开始前的一步确认。
+        </p>
+      </div>
+
+      <nav class="category-switch" id="subject-switch" role="tablist" aria-label="科目分类"></nav>
+
+      <p class="status-line" id="subjects-status" role="status"></p>
+
+      <div class="study-mode-grid" id="study-mode-grid">
+        <button class="study-mode-card" id="mode-card-mock" type="button">
+          <span class="study-mode-icon" aria-hidden="true">⏱</span>
+          <h2>整卷模考</h2>
+          <p class="study-mode-copy">
+            按考试规则计时作答，严格执行选科互斥，交卷后锁定本次答案。
+          </p>
+          <p class="study-mode-stat" id="mock-stat"></p>
+          <span class="study-mode-go" aria-hidden="true">选一套卷 →</span>
+        </button>
+        <button class="study-mode-card" id="mode-card-form" type="button">
+          <span class="study-mode-icon" aria-hidden="true">◱</span>
+          <h2>单科精练</h2>
+          <p class="study-mode-copy">
+            只练一门，不受互斥规则限制，可随时暂停、自由跳题、无强制倒计时。
+          </p>
+          <p class="study-mode-stat" id="form-stat"></p>
+          <span class="study-mode-go" aria-hidden="true">选一门 →</span>
+        </button>
+        <button class="study-mode-card" id="mode-card-collect" type="button">
+          <span class="study-mode-icon" aria-hidden="true">▤</span>
+          <h2>专项组题</h2>
+          <p class="study-mode-copy">
+            跨卷按知识点、题型、未做过、做错过或已收藏检索，自己组一份练习。
+          </p>
+          <p class="study-mode-stat" id="collect-stat"></p>
+          <span class="study-mode-go" aria-hidden="true">去组题 →</span>
+        </button>
+      </div>
+
+      <div class="empty-hint" id="subjects-empty" hidden>
+        题库中还没有已发布的试卷。先在<a href="./studio">制作台</a>导入原卷、逐页复核并发布。
+      </div>
+    </section>
+
+    <!-- ================================================================ -->
+    <!-- L4a：整卷模考 → 年度回次列表                                     -->
+    <!-- ================================================================ -->
+    <section class="view" id="view-papers" hidden aria-labelledby="papers-heading">
+      <button class="quiet-button back-link" id="papers-back" type="button">← 返回科目</button>
+      <div class="board-hero">
+        <p class="eyebrow">整卷模考</p>
+        <h1 id="papers-heading">选一套卷</h1>
+        <p class="board-hero-copy" id="papers-meta"></p>
+      </div>
+      <div class="filters" id="papers-filters">
+        <label class="field"><span>考试年度与回次</span>
+          <select id="filter-session"><option value="">全部年度与回次</option></select></label>
+        <label class="field"><span>试卷完整度</span>
+          <select id="filter-completeness">
+            <option value="">全部完整度</option>
+            <option value="COMPLETE">完整整套卷</option>
+            <option value="PARTIAL">部分练习卷</option>
+            <option value="SAMPLE">演示样卷</option>
+          </select></label>
+      </div>
+      <p class="status-line" id="papers-status" role="status"></p>
+      <div id="paper-list" class="card-grid"></div>
+    </section>
+
+    <!-- ================================================================ -->
+    <!-- L4b：单科精练 → 分科列表                                         -->
+    <!-- ================================================================ -->
+    <section class="view" id="view-forms" hidden aria-labelledby="forms-heading">
+      <button class="quiet-button back-link" id="forms-back" type="button">← 返回科目</button>
+      <div class="board-hero">
+        <p class="eyebrow">单科精练</p>
+        <h1 id="forms-heading">选一门</h1>
+        <p class="board-hero-copy" id="forms-meta"></p>
+      </div>
+      <p class="status-line" id="forms-status" role="status"></p>
+      <div id="form-list" class="card-grid"></div>
+    </section>
+
+    <!-- ================================================================ -->
+    <!-- L4c：专项组题 → 跨卷检索器                                       -->
+    <!-- ================================================================ -->
+    <section class="view" id="view-collect" hidden aria-labelledby="collect-heading">
+      <button class="quiet-button back-link" id="collect-back" type="button">← 返回科目</button>
+      <div class="board-hero">
+        <p class="eyebrow">专项组题</p>
+        <h1 id="collect-heading">自己组一份练习</h1>
+        <p class="board-hero-copy">
+          共享材料题会一起加入并保持内部顺序，所以最终题量可能多于所选题量。
+        </p>
+      </div>
+
+      <div class="filters">
+        <label class="field"><span>范围</span>
+          <select id="collection-kind">
+            <option value="ALL">全部题目</option>
+            <option value="UNSEEN">未做过</option>
+            <option value="BOOKMARKED">已收藏</option>
+            <option value="NOTES">有笔记</option>
+            <option value="WRONG">做错过</option>
+            <option value="DUE">到期复习</option>
+          </select></label>
+        <label class="field"><span>科目</span>
+          <select id="collection-form"><option value="">全部</option></select></label>
+        <label class="field"><span>关键词</span>
+          <input id="collection-query" maxlength="300" placeholder="题干或个人笔记"></label>
+        <label class="field"><span>知识点</span>
+          <input id="collection-topic" maxlength="100" placeholder="知识点标签"></label>
+        <button id="collection-search" class="primary-button" type="button">搜索</button>
+      </div>
+
+      <div class="collection-actions">
+        <button id="collection-select-page" class="btn btn-outline" type="button">选择本页</button>
+        <button id="collection-clear" class="btn btn-outline" type="button">清空选择</button>
+        <label class="check-row"><input id="collection-random" type="checkbox">随机排列题组</label>
+        <button id="collection-start" class="primary-button" type="button">练习所选题目</button>
+        <span id="collection-count" role="status"></span>
+      </div>
+
+      <div id="collection-list" class="card-grid"></div>
+      <div class="pager">
+        <button id="collection-prev" class="btn btn-outline" type="button">上一页</button>
+        <button id="collection-next" class="btn btn-outline" type="button">下一页</button>
+      </div>
+    </section>
+
+    <!-- ================================================================ -->
+    <!-- L5：开始练习。选科互斥规则要空间解释，所以是完整视图不是模态框。 -->
+    <!-- ================================================================ -->
+    <section class="view" id="view-setup" hidden aria-labelledby="setup-heading">
+      <button class="quiet-button back-link" id="setup-back" type="button">← 返回卷库</button>
+      <div class="board-hero">
+        <p class="eyebrow">开始练习</p>
+        <h1 id="setup-heading">开始练习</h1>
+        <p class="board-hero-copy" id="setup-meta"></p>
+        <!-- 把关程度与内容缺口：开始作答前就要看见，不能练完才发现。 -->
+        <div class="review-note" id="setup-review-note" role="note" hidden></div>
+      </div>
+
+      <div class="setup-block">
+        <h2>作答模式</h2>
+        <div class="mode-radios" role="radiogroup" aria-label="作答模式">
+          <label class="mode-card">
+            <input type="radio" name="exam-mode" value="PRACTICE" checked>
+            <span class="mode-info">
+              <strong>自由练习</strong>
+              <span>可随时暂停、题目自由跳转、无强制交卷倒计时</span>
+            </span>
+          </label>
+          <label class="mode-card">
+            <input type="radio" name="exam-mode" value="MOCK">
+            <span class="mode-info">
+              <strong>全真模考</strong>
+              <span>严格考场倒计时、严格执行选科互斥规则、交卷后锁定</span>
+            </span>
+          </label>
+        </div>
+        <p class="mode-note" id="mode-note"></p>
+      </div>
+
+      <div class="setup-block">
+        <h2>选择作答科目</h2>
+        <p class="rule-note" id="selection-rules"></p>
+        <div id="setup-form-selection" class="form-checkboxes"></div>
+        <div id="section-selection" class="form-checkboxes"></div>
+        <div id="selection-error" class="error-banner hidden" role="alert"></div>
+      </div>
+
+      <div class="setup-block">
+        <h2>本次范围</h2>
+        <p class="scope-summary" id="duration-hint"></p>
+      </div>
+
+      <div class="setup-actions">
+        <button class="primary-button" id="setup-start" type="button">开始作答</button>
+        <span class="setup-hint" id="setup-hint"></span>
+      </div>
+
+      <div class="setup-block" id="setup-history-block" hidden>
+        <h2>这套卷的历史记录</h2>
+        <div class="history-rows" id="setup-history"></div>
+      </div>
+    </section>
+
+    <!-- ================================================================ -->
+    <!-- L6：作答。顶栏只留会话状态，翻页与交卷在题目下方。               -->
+    <!-- ================================================================ -->
+    <section class="view view-wide" id="view-session" hidden aria-labelledby="top-paper-title">
+      <div class="session-bar">
+        <div class="session-bar-left">
+          <button class="quiet-button" id="btn-exit" type="button">← 保存并退出</button>
+          <span class="session-title">
+            <span class="session-badge" id="top-paper-session"></span>
+            <strong id="top-paper-title"></strong>
+            <span class="mode-badge" id="top-paper-mode"></span>
+          </span>
+        </div>
+        <div class="session-bar-right">
+          <span class="timer-chip" id="timer-box" hidden>
+            <span class="timer-label">剩余</span>
+            <strong class="timer-display" id="timer-display">00:00</strong>
+          </span>
+          <span class="progress-chip" id="question-progress" role="status"></span>
+          <button class="icon-button" id="answer-sheet-button" type="button"
+            aria-expanded="false" aria-controls="answer-sheet" title="答题卡">
+            <span aria-hidden="true">▦</span><span class="button-label">答题卡</span>
+          </button>
+          <div class="settings-wrap">
+            <button class="icon-button" id="reading-settings-button" type="button"
+              aria-expanded="false" aria-controls="reading-settings" title="阅读设置">
+              <span aria-hidden="true">⚙</span><span class="button-label">阅读设置</span>
+            </button>
+            <!-- 显示范围 / 排版 / 字号是阅读偏好，不是会话状态：
+                 收进浮层，一次设定长期生效（存 localStorage）。 -->
+            <div class="settings-menu" id="reading-settings" hidden>
+              <label class="field"><span>显示范围</span>
+                <select id="question-view">
+                  <option value="ALL">全部题目</option>
+                  <option value="SINGLE">单题</option>
+                  <option value="UNANSWERED">未完成</option>
+                  <option value="FLAGGED">存疑</option>
+                </select></label>
+              <label class="field"><span>排版</span>
+                <select id="question-layout">
+                  <option value="SPLIT">并排分栏</option>
+                  <option value="STACKED">上下单栏</option>
+                </select></label>
+              <label class="field"><span>正文字号</span>
+                <input id="reading-size" type="range" min="14" max="28" value="18"></label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="session-state" id="workspace-state" role="status"></p>
+      <div id="session-audio"></div>
+
+      <div class="session-body">
+        <div class="question-pane">
+          <div id="question-container" class="question-container"></div>
+          <nav class="session-nav" aria-label="题目导航">
+            <button class="secondary-button" id="question-prev" type="button">← 上一题</button>
+            <button class="quiet-button" id="btn-pause" type="button">暂停</button>
+            <button class="secondary-button" id="question-next" type="button">下一题 →</button>
+            <button class="primary-button" id="btn-submit" type="button">交卷评分</button>
+          </nav>
+          <div class="session-foot">
+            <button class="quiet-button danger-text" id="btn-abandon" type="button">放弃本次作答</button>
+          </div>
+        </div>
+
+        <aside class="answer-sheet" id="answer-sheet" hidden aria-label="答题卡">
+          <div class="answer-sheet-head">
+            <strong>答题卡</strong>
+            <button class="icon-button" id="answer-sheet-close" type="button" aria-label="收起答题卡">✕</button>
+          </div>
+          <div class="sheet-legend">
+            <span><i class="dot answered"></i>已做</span>
+            <span><i class="dot current"></i>当前</span>
+            <span><i class="dot bookmarked"></i>存疑</span>
+          </div>
+          <div id="question-palette" class="question-palette"></div>
+        </aside>
+      </div>
+
+      <!-- 保存状态回到它该在的地方：作答区角落，四态明确。 -->
+      <div class="save-dock"><span class="save-status" id="save-status">● 已保存</span></div>
+    </section>
+
+    <!-- ================================================================ -->
+    <!-- L7：成绩与逐题复盘                                               -->
+    <!-- ================================================================ -->
+    <section class="view" id="view-result" hidden aria-labelledby="res-paper-title">
+      <button class="quiet-button back-link" id="result-back" type="button">← 返回卷库</button>
+
+      <div class="disclaimer-banner">
+        ⚠️ 本成绩为本地原始客观题作答统计（正确题数与正确率），并非日本学生支援机构（JASSO）官方得点等化尺度分。
+      </div>
+
+      <div class="result-summary-card">
+        <div class="score-main">
+          <div class="score-circle">
+            <span class="score-num" id="res-accuracy">0%</span>
+            <span class="score-label">客观题正确率</span>
+          </div>
+          <div class="score-details">
+            <h1 id="res-paper-title">作答结果</h1>
+            <p>做题统计：<strong id="res-correct">0</strong> / <span id="res-total">0</span> 题正确</p>
+            <p id="res-detail"></p>
+            <div id="res-per-form" class="per-form-breakdown"></div>
+          </div>
+        </div>
+        <div class="result-actions">
+          <button class="primary-button" id="btn-retry-wrong" type="button">立即重练本次错题</button>
+          <button class="secondary-button" id="btn-restart-exam" type="button">再做一次</button>
+          <button class="quiet-button" id="btn-export-result" type="button">打印 / 导出</button>
+        </div>
+      </div>
+
+      <div class="review-questions">
+        <div class="review-filter">
+          <h2>逐题详细复盘</h2>
+          <div class="radio-filters">
+            <label><input type="radio" name="review-filter" value="ALL" checked> 全部</label>
+            <label><input type="radio" name="review-filter" value="WRONG"> 答错</label>
+            <label><input type="radio" name="review-filter" value="UNANSWERED"> 未作答</label>
+            <label><input type="radio" name="review-filter" value="PENDING"> 待评阅</label>
+          </div>
+        </div>
+        <div id="review-list" class="review-list"></div>
+      </div>
+      <div id="result-extras"></div>
+    </section>
+  </main>
+
+  <div class="modal hidden" role="dialog" aria-modal="true" aria-label="试题原图" id="modal-image-zoom">
+    <div class="modal-card zoom-card">
+      <div class="modal-header">
+        <span>试题图表原图查看</span>
+        <button class="close-btn" id="modal-zoom-close" type="button" aria-label="关闭">&times;</button>
+      </div>
+      <div class="zoom-content"><img id="zoom-img" src="" alt="试题原图"></div>
+    </div>
+  </div>
+
+  <div id="floating-figure-dock" class="floating-figure-dock hidden" hidden
+       role="region" aria-label="悬浮图表窗"></div>
+
+  <script src="core.js" defer></script>
+  <script src="practice.js" defer></script>
+</body>
+</html>

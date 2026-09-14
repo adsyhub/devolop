@@ -1,0 +1,136 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　<u>　　　</u>の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "問題文の中で<u>対象単語1</u>の意味や読み方として最もよいものを選びなさい。",
+      "choices": [
+        "選択肢1",
+        "選択肢2",
+        "選択肢3",
+        "選択肢4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "問題文の中で<u>対象単語2</u>の意味や読み方として最もよいものを選びなさい。",
+      "choices": [
+        "選択肢1",
+        "選択肢2",
+        "選択肢3",
+        "選択肢4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "問題文の中で<u>対象単語3</u>の意味や読み方として最もよいものを選びなさい。",
+      "choices": [
+        "選択肢1",
+        "選択肢2",
+        "選択肢3",
+        "選択肢4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "問題文の中で<u>対象単語4</u>の意味や読み方として最もよいものを選びなさい。",
+      "choices": [
+        "選択肢1",
+        "選択肢2",
+        "選択肢3",
+        "選択肢4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "問題文の中で<u>対象単語5</u>の意味や読み方として最もよいものを選びなさい。",
+      "choices": [
+        "選択肢1",
+        "選択肢2",
+        "選択肢3",
+        "選択肢4"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　<u>　　　</u>の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 6,
+      "text": "文中の<u>ひらがな6</u>を漢字で書くとき、最もよいものを選びなさい。",
+      "choices": [
+        "漢字表記1",
+        "漢字表記2",
+        "漢字表記3",
+        "漢字表記4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "文中の<u>ひらがな7</u>を漢字で書くとき、最もよいものを選びなさい。",
+      "choices": [
+        "漢字表記1",
+        "漢字表記2",
+        "漢字表記3",
+        "漢字表記4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "文中の<u>ひらがな8</u>を漢字で書くとき、最もよいものを選びなさい。",
+      "choices": [
+        "漢字表記1",
+        "漢字表記2",
+        "漢字表記3",
+        "漢字表記4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "文中の<u>ひらがな9</u>を漢字で書くとき、最もよいものを選びなさい。",
+      "choices": [
+        "漢字表記1",
+        "漢字表記2",
+        "漢字表記3",
+        "漢字表記4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "文中の<u>ひらがな10</u>を漢字で書くとき、最もよいものを選びなさい。",
+      "choices": [
+        "漢字表記1",
+        "漢字表記2",
+        "漢字表記3",
+        "漢字表記4"
+      ]
+    }
+  ]
+}

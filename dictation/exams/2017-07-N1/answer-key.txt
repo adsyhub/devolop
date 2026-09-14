@@ -1,0 +1,33 @@
+# 2017年7月 日本語能力試験 N1 — 答案
+note 2017年7月N1参考答案与计分规则
+
+# ---- 第一部分　言語知識（文字・語彙・文法） ----
+written   1-6     1   324112
+written   7-13    1   1424323
+written   14-19   1   423121
+written   20-25   1   434133
+written   26-35   1   2123414213
+written   36-40   2   32144
+written   41-45   1   34211
+
+# 排序題順序
+order     36      2431
+order     37      1423
+order     38      4213
+order     39      3241
+order     40      3142
+
+# ---- 第二部分　読解 ----
+written   46-49   2   4342
+written   50-58   2   314233121
+written   59-62   3   3414
+written   63-64   3   14
+written   65-68   3   4321
+written   69-70   2   23
+
+# ---- 第三部分　聴解 ----
+listening 1       1   112213
+listening 2       1   341242
+listening 3       2   141342
+listening 4       2   2112222132331
+listening 5       3   3223

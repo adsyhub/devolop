@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "description": "tbs-news-0009-tM-SNfRl8w0：LLM 逐句校对发现的 ASR 误识别修正 25 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "3d0d7b26de09bec6696d2191c34f3b72c128045f914c087d7aac3257255c00e1",
+  "evidence": {
+    "file": "proofread-work/tbs-news-0009-tM-SNfRl8w0/proofread.json",
+    "proposedFixes": "proofread-work/tbs-news-0009-tM-SNfRl8w0/proposed-fixes.json",
+    "notes": "proofread-work/tbs-news-0009-tM-SNfRl8w0/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 1,
+      "endIndex": 1,
+      "expectedStartTime": 6.839,
+      "expectedEndTime": 9.869,
+      "items": [
+        {
+          "startTime": 6.839,
+          "endTime": 9.869,
+          "sourceText": "ヘンリー王子とメガ警察の警備なしでイギリスに帰国。",
+          "jaText": "ヘンリー王子とメガ警察の警備なしでイギリスに帰国。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 2,
+      "endIndex": 2,
+      "expectedStartTime": 13.96,
+      "expectedEndTime": 14.98,
+      "items": [
+        {
+          "startTime": 13.96,
+          "endTime": 14.98,
+          "sourceText": "夫妻を乗せていたと見られる航空機が",
+          "jaText": "夫妻を乗せていたと見られる航空機が"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 3,
+      "endIndex": 3,
+      "expectedStartTime": 14.98,
+      "expectedEndTime": 16.72,
+      "items": [
+        {
+          "startTime": 14.98,
+          "endTime": 16.72,
+          "sourceText": "イギリス中部のバーミンガム空港に到着したと伝えました。",
+          "jaText": "イギリス中部のバーミンガム空港に到着したと伝えました。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 10,
+      "endIndex": 10,
+      "expectedStartTime": 66.799,
+      "expectedEndTime": 70.23,
+      "items": [
+        {
+          "startTime": 66.799,
+          "endTime": 70.23,
+          "sourceText": "その後夫妻はイギリスメディアの過熱した取材を",
+          "jaText": "その後夫妻はイギリスメディアの過熱した取材を"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 12,
+      "endIndex": 12,
+      "expectedStartTime": 78.52,
+      "expectedEndTime": 84.51,
+      "items": [
+        {
+          "startTime": 78.52,
+          "endTime": 84.51,
+          "sourceText": "見ずに個人を攻撃するイギリスのタブロイド紙の新たな犠牲者の1人になってしまいました。",
+          "jaText": "見ずに個人を攻撃するイギリスのタブロイド紙の新たな犠牲者の1人になってしまいました。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 13,
+      "endIndex": 13,
+      "expectedStartTime": 86.84,
+      "expectedEndTime": 91.43,
+      "items": [
+        {
+          "startTime": 86.84,
+          "endTime": 91.43,
+          "sourceText": "そして2020年王室の主要メンバーとしての公務から退き",
+          "jaText": "そして2020年王室の主要メンバーとしての公務から退き"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 15,
+      "endIndex": 15,
+      "expectedStartTime": 95.88,
+      "expectedEndTime": 99.67,
+      "items": [
+        {
+          "startTime": 95.88,
+          "endTime": 99.67,
+          "sourceText": "アメリカ・カリフォルニア州に生活の拠点を移しました。",
+          "jaText": "アメリカ・カリフォルニア州に生活の拠点を移しました。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 18,
+      "endIndex": 18,
+      "expectedStartTime": 127.079,
+      "expectedEndTime": 132.15,
+      "items": [
+        {
+          "startTime": 127.079,
+          "endTime": 132.15,
+          "sourceText": "これに対し王室は声明で記憶が異なる部分もあるとしました。",
+          "jaText": "これに対し王室は声明で記憶が異なる部分もあるとしました。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 19,
+      "endIndex": 19,
+      "expectedStartTime": 133.4,
+      "expectedEndTime": 137.43,
+      "items": [
+        {
+          "startTime": 133.4,
+          "endTime": 137.43,
+          "sourceText": "王室やメディアとの確執が繰り返し伝えられてきた2人。",
+          "jaText": "王室やメディアとの確執が繰り返し伝えられてきた2人。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 23,
+      "endIndex": 23,
+      "expectedStartTime": 157.8,
+      "expectedEndTime": 158.292,
+      "items": [
+        {
+          "startTime": 157.8,
+          "endTime": 158.292,
+          "sourceText": "一方夫妻はカリフォルニアの自宅も維持するということで王室の公務に復帰する予定もありません。",
+          "jaText": "一方夫妻はカリフォルニアの自宅も維持するということで王室の公務に復帰する予定もありません。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 31,
+      "endIndex": 31,
+      "expectedStartTime": 187.56,
+      "expectedEndTime": 194.43,
+      "items": [
+        {
+          "startTime": 187.56,
+          "endTime": 194.43,
+          "sourceText": "骨肉の争い自分の身に切ると最悪ですけど、他人のこととなると面白い娯楽なんですよね。",
+          "jaText": "骨肉の争い自分の身に切ると最悪ですけど、他人のこととなると面白い娯楽なんですよね。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 42,
+      "endIndex": 42,
+      "expectedStartTime": 241.56,
+      "expectedEndTime": 247.849,
+      "items": [
+        {
+          "startTime": 241.56,
+          "endTime": 247.849,
+          "sourceText": "ではまずはなぜ利王家6年ぶりに帰国することになったのか、その経緯について見ていきます。",
+          "jaText": "ではまずはなぜ利王家6年ぶりに帰国することになったのか、その経緯について見ていきます。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 43,
+      "endIndex": 43,
+      "expectedStartTime": 248.48,
+      "expectedEndTime": 252.887,
+      "items": [
+        {
+          "startTime": 248.48,
+          "endTime": 252.887,
+          "sourceText": "2020年に王室の公務を退いてからアメリカのカリフォルニア",
+          "jaText": "2020年に王室の公務を退いてからアメリカのカリフォルニア"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 54,
+      "endIndex": 54,
+      "expectedStartTime": 310.039,
+      "expectedEndTime": 314.909,
+      "items": [
+        {
+          "startTime": 310.039,
+          "endTime": 314.909,
+          "sourceText": "アメリカの学校はヘンリー王子が受けたような教育とは大きく異なります。",
+          "jaText": "アメリカの学校はヘンリー王子が受けたような教育とは大きく異なります。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 63,
+      "endIndex": 63,
+      "expectedStartTime": 354.881,
+      "expectedEndTime": 355.231,
+      "items": [
+        {
+          "startTime": 354.881,
+          "endTime": 355.231,
+          "sourceText": "え、学校についてはアーチー王子とリリベット王女はちょうど",
+          "jaText": "え、学校についてはアーチー王子とリリベット王女はちょうど"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 69,
+      "endIndex": 69,
+      "expectedStartTime": 381.88,
+      "expectedEndTime": 385.789,
+      "items": [
+        {
+          "startTime": 381.88,
+          "endTime": 385.789,
+          "sourceText": "え、チャールズ国王は2024年のがん公表以来、",
+          "jaText": "え、チャールズ国王は2024年のがん公表以来、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 74,
+      "endIndex": 74,
+      "expectedStartTime": 400.84,
+      "expectedEndTime": 404.749,
+      "items": [
+        {
+          "startTime": 400.84,
+          "endTime": 404.749,
+          "sourceText": "エリザベス女王の国葬以来となるおよそ4年ぶりに",
+          "jaText": "エリザベス女王の国葬以来となるおよそ4年ぶりに"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 79,
+      "endIndex": 79,
+      "expectedStartTime": 417.918,
+      "expectedEndTime": 418.84,
+      "items": [
+        {
+          "startTime": 417.918,
+          "endTime": 418.84,
+          "sourceText": "で、これもヘンリー王はこう王室との確執とかをこう、ま、",
+          "jaText": "で、これもヘンリー王はこう王室との確執とかをこう、ま、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 80,
+      "endIndex": 80,
+      "expectedStartTime": 426.28,
+      "expectedEndTime": 430.37,
+      "items": [
+        {
+          "startTime": 426.28,
+          "endTime": 430.37,
+          "sourceText": "Netflixに出たり、あとは、ま、解力を発売したりして、かなり、ま、物議を醸していた。",
+          "jaText": "Netflixに出たり、あとは、ま、解力を発売したりして、かなり、ま、物議を醸していた。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 86,
+      "endIndex": 86,
+      "expectedStartTime": 448.36,
+      "expectedEndTime": 451.439,
+      "items": [
+        {
+          "startTime": 448.36,
+          "endTime": 451.439,
+          "sourceText": "だから、あの、イギリスのは、ま、そういう意味でいろんなその試行錯誤を続けていて、その",
+          "jaText": "だから、あの、イギリスのは、ま、そういう意味でいろんなその試行錯誤を続けていて、その"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 93,
+      "endIndex": 93,
+      "expectedStartTime": 485.52,
+      "expectedEndTime": 488.6,
+      "items": [
+        {
+          "startTime": 485.52,
+          "endTime": 488.6,
+          "sourceText": "では、そのヘンリー王子以下とイギリス王室の確執なぜこじれていったのか見ていきましょう。",
+          "jaText": "では、そのヘンリー王子以下とイギリス王室の確執なぜこじれていったのか見ていきましょう。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 100,
+      "endIndex": 100,
+      "expectedStartTime": 518.08,
+      "expectedEndTime": 524.549,
+      "items": [
+        {
+          "startTime": 518.08,
+          "endTime": 524.549,
+          "sourceText": "兄のウィリアム皇太子から暴力沙汰こういった暴露があったということなんですよね。",
+          "jaText": "兄のウィリアム皇太子から暴力沙汰こういった暴露があったということなんですよね。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 109,
+      "endIndex": 109,
+      "expectedStartTime": 561.654,
+      "expectedEndTime": 562.081,
+      "items": [
+        {
+          "startTime": 561.654,
+          "endTime": 562.081,
+          "sourceText": "その警備レベルについて、その夫妻がアメリカに行って、",
+          "jaText": "その警備レベルについて、その夫妻がアメリカに行って、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 110,
+      "endIndex": 110,
+      "expectedStartTime": 562.081,
+      "expectedEndTime": 562.556,
+      "items": [
+        {
+          "startTime": 562.081,
+          "endTime": 562.556,
+          "sourceText": "もうアメリカでは自費でもう警備行ってるっていう話ですけど、",
+          "jaText": "もうアメリカでは自費でもう警備行ってるっていう話ですけど、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 120,
+      "endIndex": 120,
+      "expectedStartTime": 603.64,
+      "expectedEndTime": 607.87,
+      "items": [
+        {
+          "startTime": 603.64,
+          "endTime": 607.87,
+          "sourceText": "公費で今のところセキュリティがつく予定はないんですけれども、",
+          "jaText": "公費で今のところセキュリティがつく予定はないんですけれども、"
+        }
+      ]
+    }
+  ]
+}

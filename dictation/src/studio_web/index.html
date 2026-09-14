@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>制课工作台</title>
+<link rel="stylesheet" href="studio.css">
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <h1>制课工作台</h1>
+    <p class="sub" id="config-line">正在读取配置…</p>
+  </div>
+  <div class="topbar-actions">
+  <div class="topbar-status-group">
+    <span class="badge subtle-badge" id="status-pill" title="服务器显卡与本地模型状态（点击刷新）">检测中…</span>
+  </div>
+    <button type="button" id="refresh-models">刷新模型状态</button>
+  </div>
+</header>
+
+<nav class="nav" aria-label="工作台入口">
+  <a href="/" class="current" aria-current="page">制课</a>
+  <a href="/import.html">教材入库</a>
+  <a href="/library.html">课程库</a>
+  <a href="/editor.html">复核编辑器</a>
+  <a href="/ops.html">运维</a>
+</nav>
+
+<div id="fatal" class="fatal" hidden>
+  <strong>无法连接到工作台服务。</strong>
+  <span id="fatal-message"></span>
+</div>
+
+<main class="layout layout--build">
+  <section class="panel" aria-labelledby="setup-heading">
+    <h2 id="setup-heading">1 · 准备</h2>
+
+    <div class="field">
+      <span class="label">课程来源</span>
+      <div class="source-tabs" role="tablist">
+        <button type="button" id="tab-audio" class="source-tab active" role="tab" aria-selected="true">本地音频</button>
+        <button type="button" id="tab-video" class="source-tab" role="tab" aria-selected="false">在线视频</button>
+      </div>
+    </div>
+
+<div id="video-fields" hidden>
+      <div class="field">
+        <label class="label" for="video-url">视频链接</label>
+        <div class="url-row">
+          <input type="url" id="video-url" placeholder="https://www.youtube.com/watch?v=…" spellcheck="false">
+          <button type="button" id="probe-button">探测</button>
+        </div>
+        <p class="hint">支持 YouTube、哔哩哔哩、Vimeo 等；视频不会被下载。</p>
+      </div>
+
+      <div class="probe-result" id="probe-result" hidden></div>
+
+      <div class="field">
+        <label class="label" for="video-transcript">逐句文本来源</label>
+        <select id="video-transcript">
+          <option value="verified" selected>已验证：站点字幕 + 本地 ASR 双源核验（推荐）</option>
+          <option value="auto">快速：有站点字幕就用，没有就本地转写</option>
+          <option value="subs">只用站点字幕（没有就停止）</option>
+          <option value="asr">直接本地转写（临时取音频，用完即删）</option>
+        </select>
+        <p class="hint" id="video-transcript-hint"></p>
+      </div>
+
+      <div class="field">
+        <label class="label" for="video-sub-langs">字幕语言优先顺序</label>
+        <input type="text" id="video-sub-langs" placeholder="ja,ja-JP,en" spellcheck="false">
+      </div>
+
+      <div class="field">
+        <span class="label">只学其中一段（可留空）</span>
+        <div class="clip-row">
+          <input type="number" id="video-clip-start" min="0" step="1" placeholder="起始秒">
+          <span>—</span>
+          <input type="number" id="video-clip-end" min="0" step="1" placeholder="结束秒">
+        </div>
+      </div>
+    </div>
+
+<div class="field" id="audio-field">
+      <span class="label">音频</span>
+      <label class="dropzone" id="dropzone" for="audio-input">
+        <input type="file" id="audio-input" accept="audio/*,video/mp4,.m4a,.opus" multiple hidden>
+        <span id="dropzone-text">把一个或多个音频文件拖到这里，或点击选择</span>
+        <span class="hint">支持多选，后台按顺序逐个制作；每个文件最大 512 MB</span>
+      </label>
+      <p class="upload-state" id="upload-state" hidden></p>
+    </div>
+
+<div class="field" id="title-field">
+      <label class="label" for="title">课程标题</label>
+      <input type="text" id="title" maxlength="200" placeholder="留空则用音频文件名">
+    </div>
+
+<div class="field" id="language-field">
+      <label class="label" for="language">源语言</label>
+      <select id="language"></select>
+      <p class="hint" id="routing-hint"></p>
+    </div>
+
+<div class="field" id="asr-profile-field">
+      <label class="label" for="asr-profile">转写模型</label>
+      <select id="asr-profile"></select>
+      <p class="hint" id="asr-hint"></p>
+    </div>
+
+<div class="field" id="enrich-field">
+      <label class="checkbox">
+        <input type="checkbox" id="enrich" checked>
+        <span>生成中文翻译与讲解</span>
+      </label>
+    </div>
+
+<div class="field" id="text-profile-field">
+      <label class="label" for="text-profile">翻译讲解模型</label>
+      <select id="text-profile"></select>
+      <p class="hint" id="text-hint"></p>
+    </div>
+
+<details class="advanced" id="common-advanced">
+      <summary>更多选项</summary>
+      <label class="checkbox"><input type="checkbox" id="strict-quality"> <span>有警告也拒绝打包</span></label>
+      <label class="checkbox"><input type="checkbox" id="no-normalize"> <span>跳过繁转简</span></label>
+      <label class="checkbox"><input type="checkbox" id="keep-going"> <span>单批失败后继续</span></label>
+    </details>
+
+    <p class="note">
+      模型只能从 <code>config/providers.json</code> 里已有的 profile 中选。
+      本页不能自己指定模型地址或命令——那会让浏览器有能力在你的机器上执行任意程序。
+    </p>
+
+    <button type="button" id="start" class="primary" disabled>开始制作</button>
+    <p class="error" id="setup-error" hidden></p>
+  </section>
+
+  <section class="panel" aria-labelledby="run-heading">
+    <div class="run-head">
+      <h2 id="run-heading">2 · 构建</h2>
+      <span class="status-chip" id="status-chip" data-status="idle">未开始</span>
+    </div>
+    <p class="sub" id="run-meta">选择来源和模型管线后点「开始制作」。完成后在「课程库」里查看。</p>
+    <div id="batch-queue" class="batch-queue" hidden></div>
+    <pre class="log" id="log" tabindex="0" aria-live="polite" aria-label="构建日志"></pre>
+    <div class="result-summary" id="result-summary" hidden></div>
+    <div class="run-actions">
+      <button type="button" id="cancel" hidden class="danger">停止</button>
+      <button type="button" id="install" hidden class="success">装入课程库</button>
+    </div>
+    <p class="error" id="run-error" hidden></p>
+  </section>
+
+</main>
+
+<script src="core.js"></script>
+<script src="studio_state.js"></script>
+<script src="studio_setup.js"></script>
+<script src="studio_uploads.js"></script>
+<script src="studio_pipeline_audio.js"></script>
+<script src="studio_pipeline_video.js"></script>
+<script src="studio_pipelines.js"></script>
+<script src="gpu.js"></script>
+<script src="status_pill.js"></script>
+<script src="studio_jobs.js"></script>
+<script src="studio.js"></script>
+</body>
+</html>

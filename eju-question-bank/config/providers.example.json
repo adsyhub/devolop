@@ -1,0 +1,32 @@
+{
+  "providers": {
+    "qwen-transformers": {
+      "kind": "qwen-local",
+      "model": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "device": "cuda",
+      "dtype": "bfloat16",
+      "attention": "sdpa",
+      "localFilesOnly": true,
+      "minFreeGpuMiB": 21000,
+      "imageMode": "full",
+      "minPixels": 200704,
+      "maxPixels": 3211264,
+      "maxTokens": 4096,
+      "repetitionPenalty": 1.0
+    },
+    "qwen-ollama": {
+      "kind": "openai-compatible",
+      "baseUrl": "http://127.0.0.1:11434/v1",
+      "model": "qwen2.5vl:7b",
+      "apiKeyEnv": "",
+      "imageMode": "full",
+      "timeoutSec": 600,
+      "maxTokens": 8192
+    },
+    "custom-command": {
+      "kind": "command",
+      "command": ["python", "path/to/your_ocr_adapter.py"],
+      "timeoutSec": 600
+    }
+  }
+}

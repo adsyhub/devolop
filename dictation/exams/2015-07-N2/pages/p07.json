@@ -1,0 +1,121 @@
+{
+  "page": 7,
+  "pageLabel": "7",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 10,
+      "text": "問題10　次の（1）から（5）の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 10,
+      "passageId": "p_2015_07_N2_short_1",
+      "text": "（1）短文の本文です。筆者の考えや出来事の経緯が述べられています。",
+      "notes": [
+        "注1　専門用語の解説"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 10,
+      "questionNumber": 55,
+      "passageId": "p_2015_07_N2_short_1",
+      "text": "筆者の主張や文中の内容と一致するものはどれか。",
+      "choices": [
+        "内容理解選択肢1",
+        "内容理解選択肢2",
+        "内容理解選択肢3",
+        "内容理解選択肢4"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 10,
+      "passageId": "p_2015_07_N2_short_2",
+      "text": "（2）短文の本文です。筆者の考えや出来事の経緯が述べられています。",
+      "notes": [
+        "注1　専門用語の解説"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 10,
+      "questionNumber": 56,
+      "passageId": "p_2015_07_N2_short_2",
+      "text": "筆者の主張や文中の内容と一致するものはどれか。",
+      "choices": [
+        "内容理解選択肢1",
+        "内容理解選択肢2",
+        "内容理解選択肢3",
+        "内容理解選択肢4"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 10,
+      "passageId": "p_2015_07_N2_short_3",
+      "text": "（3）短文の本文です。筆者の考えや出来事の経緯が述べられています。",
+      "notes": [
+        "注1　専門用語の解説"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 10,
+      "questionNumber": 57,
+      "passageId": "p_2015_07_N2_short_3",
+      "text": "筆者の主張や文中の内容と一致するものはどれか。",
+      "choices": [
+        "内容理解選択肢1",
+        "内容理解選択肢2",
+        "内容理解選択肢3",
+        "内容理解選択肢4"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 10,
+      "passageId": "p_2015_07_N2_short_4",
+      "text": "（4）短文の本文です。筆者の考えや出来事の経緯が述べられています。",
+      "notes": [
+        "注1　専門用語の解説"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 10,
+      "questionNumber": 58,
+      "passageId": "p_2015_07_N2_short_4",
+      "text": "筆者の主張や文中の内容と一致するものはどれか。",
+      "choices": [
+        "内容理解選択肢1",
+        "内容理解選択肢2",
+        "内容理解選択肢3",
+        "内容理解選択肢4"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 10,
+      "passageId": "p_2015_07_N2_short_5",
+      "text": "（5）短文の本文です。筆者の考えや出来事の経緯が述べられています。",
+      "notes": [
+        "注1　専門用語の解説"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 10,
+      "questionNumber": 59,
+      "passageId": "p_2015_07_N2_short_5",
+      "text": "筆者の主張や文中の内容と一致するものはどれか。",
+      "choices": [
+        "内容理解選択肢1",
+        "内容理解選択肢2",
+        "内容理解選択肢3",
+        "内容理解選択肢4"
+      ]
+    }
+  ]
+}

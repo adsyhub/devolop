@@ -1,0 +1,684 @@
+[
+  {
+    "paper": "eju-2023-2-science-ja",
+    "version": 4,
+    "pv": "pv_6ac930b37f1e465692c87cd1303fc81f",
+    "form": "PHYSICS_JA",
+    "group": "OCR",
+    "q": {
+      "answerRef": "PHYSICS:2",
+      "answerSpec": {
+        "type": "SINGLE_CHOICE"
+      },
+      "correctAnswer": {
+        "optionKey": "2"
+      },
+      "evidence": [
+        {
+          "bbox": [
+            0.08,
+            0.08,
+            0.92,
+            0.92
+          ],
+          "page": 3,
+          "sourceFileRole": "QUESTION_BOOKLET"
+        }
+      ],
+      "localKey": "p0003-q01",
+      "materialRefs": [],
+      "options": [
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "30"
+            }
+          ],
+          "key": "1"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "40"
+            }
+          ],
+          "key": "2"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "50"
+            }
+          ],
+          "key": "3"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "60"
+            }
+          ],
+          "key": "4"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "70"
+            }
+          ],
+          "key": "5"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "80"
+            }
+          ],
+          "key": "6"
+        }
+      ],
+      "printedLabel": "問1",
+      "questionId": "q_24f03615bd3a4d3570529399",
+      "sectionCode": "MAIN",
+      "sequence": 1,
+      "stemAst": [
+        {
+          "type": "text",
+          "value": "Wは何 Nか。最も適当な値を，次の①～⑥の中から一つ選びなさい。 1 N"
+        }
+      ]
+    },
+    "visibleMaterials": []
+  },
+  {
+    "paper": "eju-2023-2-science-ja",
+    "version": 4,
+    "pv": "pv_6ac930b37f1e465692c87cd1303fc81f",
+    "form": "PHYSICS_JA",
+    "group": "OCR",
+    "q": {
+      "answerRef": "PHYSICS:3",
+      "answerSpec": {
+        "type": "SINGLE_CHOICE"
+      },
+      "correctAnswer": {
+        "optionKey": "4"
+      },
+      "evidence": [
+        {
+          "bbox": [
+            0.08,
+            0.08,
+            0.92,
+            0.92
+          ],
+          "page": 4,
+          "sourceFileRole": "QUESTION_BOOKLET"
+        }
+      ],
+      "localKey": "p0004-q01",
+      "materialRefs": [],
+      "options": [
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "17.5"
+            }
+          ],
+          "key": "1"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "19.5"
+            }
+          ],
+          "key": "2"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "21.5"
+            }
+          ],
+          "key": "3"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "23.5"
+            }
+          ],
+          "key": "4"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "25.5"
+            }
+          ],
+          "key": "5"
+        }
+      ],
+      "printedLabel": "問2",
+      "questionId": "q_1be49ccff1d46d14716274fd",
+      "sectionCode": "MAIN",
+      "sequence": 2,
+      "stemAst": [
+        {
+          "type": "text",
+          "value": "$t = 0$ sから $t = 10$ sの間の物体の変位は何mか。最も適当な値を，次の①～⑤の中から一つ選びなさい。 2 m"
+        }
+      ]
+    },
+    "visibleMaterials": []
+  },
+  {
+    "paper": "eju-2023-2-science-ja",
+    "version": 4,
+    "pv": "pv_6ac930b37f1e465692c87cd1303fc81f",
+    "form": "PHYSICS_JA",
+    "group": "OCR",
+    "q": {
+      "answerRef": "PHYSICS:5",
+      "answerSpec": {
+        "type": "SINGLE_CHOICE"
+      },
+      "correctAnswer": {
+        "optionKey": "2"
+      },
+      "evidence": [
+        {
+          "bbox": [
+            0.08,
+            0.08,
+            0.92,
+            0.92
+          ],
+          "page": 7,
+          "sourceFileRole": "QUESTION_BOOKLET"
+        }
+      ],
+      "localKey": "p0007-q01",
+      "materialRefs": [],
+      "options": [
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "&"
+            }
+          ],
+          "key": "1"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "&"
+            }
+          ],
+          "key": "2"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "&"
+            }
+          ],
+          "key": "3"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "\\\\ \\hline \\frac{f_1}{f_0} & \\sqrt{\\frac{2}{3}} & \\sqrt{\\frac{2}{3}} & \\sqrt{\\frac{3}{2}} & \\sqrt{\\frac{3}{2}} \\\\ \\hline \\frac{A_1}{A_0} & \\frac{2}{3} & \\frac{3}{2} & \\frac{2}{3} & \\frac{3}{2} \\end{array}$"
+            }
+          ],
+          "key": "4"
+        }
+      ],
+      "printedLabel": "問5",
+      "questionId": "q_9b2621d92fc2d27e6faed438",
+      "sectionCode": "MAIN",
+      "sequence": 3,
+      "stemAst": [
+        {
+          "type": "text",
+          "value": "$\\frac{f_1}{f_0}$ はいくらか。また，$\\frac{A_1}{A_0}$ はいくらか。正しい組み合わせを，次の①～④の中から一つ選びなさい。 $\\begin{array}{c|c|c|c|c} \\hline"
+        }
+      ]
+    },
+    "visibleMaterials": []
+  },
+  {
+    "paper": "eju-2009-1-math-c2-ja",
+    "version": 4,
+    "pv": "pv_7623e9168a5743d293e36a2236d88770",
+    "form": "MATHEMATICS_COURSE_2_JA",
+    "group": "III",
+    "q": {
+      "answerRef": "III",
+      "answerSpec": {
+        "slots": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O",
+          "P"
+        ],
+        "type": "DIGIT_GRID"
+      },
+      "correctAnswer": {
+        "tokens": {
+          "A": "1",
+          "B": "2",
+          "C": "1",
+          "D": "6",
+          "E": "5",
+          "F": "4",
+          "G": "8",
+          "H": "6",
+          "I": "0",
+          "J": "1",
+          "K": "3",
+          "L": "2",
+          "M": "1",
+          "N": "2",
+          "O": "1",
+          "P": "3"
+        }
+      },
+      "evidence": [
+        {
+          "bbox": [
+            0.08,
+            0.08,
+            0.92,
+            0.92
+          ],
+          "page": 1,
+          "sourceFileRole": "QUESTION_BOOKLET"
+        }
+      ],
+      "localKey": "math-iii",
+      "materialRefs": [],
+      "options": [],
+      "printedLabel": "第III問",
+      "questionId": "q_95578d7316e8632b7c8922fb",
+      "sectionCode": "MAIN",
+      "sequence": 2,
+      "stemAst": [
+        {
+          "type": "text",
+          "value": "1. 解答は，解答用紙に鉛筆(HB)で記入してください。 2. 問題文中のA，B，C，…には、それぞれ一(マイナスの符号)，または，0から9までの数が一つずつ入ります。あてはまるものを選び，解答用紙（マークシート)の対応する解答欄にマークしてください。 解答方法に関する注意 (1) 根号（$\\sqrt{1}$）の中に現れる自然数が最小となる形で答えてください。 (例：$\\sqrt{12}$のときは，2$\\sqrt{3}$と答えます。) (2) 符号は分子につけ，分母・分子は既約分数(reduced fraction)にして答えてください。 (例：$\\frac{2}{6}$は$\\frac{1}{3}$，-$\\frac{2}{\\sqrt{6}}$は$\\frac{-2\\sqrt{6}}{6}$と有理化してから約分し，$\\frac{-\\sqrt{6}}{3}$と答えます。) (3) $\\frac{A}{\\sqrt{B}}$に$\\frac{-\\sqrt{3}}{4}$と答える場合は，以下のようにマークしてください。 (4) DE xに一xと答える場合は，Dを一，Eを1とし，以下のようにマークしてください。 【解答用紙】 A ● $\\textcircled{1}$ $\\textcircled{2}$ $\\textcircled{3}$ $\\textcircled{4}$ $\\textcircled{5}$ $\\textcircled{6}$ $\\textcircled{7}$ $\\textcircled{8}$ $\\textcircled{9}$ B $\\textcircled{1}$ $\\textcircled{2}$ ● $\\textcircled{4}$ $\\textcircled{5}$ $\\textcircled{6}$ $\\textcircled{7}$ $\\textcircled{8}$ $\\textcircled{9}$ C $\\textcircled{1}$ $\\textcircled{2}$ $\\textcircled{3}$ ● $\\textcircled{5}$ $\\textcircled{6}$ $\\textcircled{7}$ $\\textcircled{8}$ $\\textcircled{9}$ D ● $\\textcircled{1}$ $\\textcircled{2}$ $\\textcircled{3}$ $\\textcircled{4}$ $\\textcircled{5}$ $\\textcircled{6}$ $\\textcircled{7}$ $\\textcircled{8}$ $\\textcircled{9}$ E $\\textcircled{1}$ $\\textcircled{2}$ $\\textcircled{3}$ $\\textcircled{4}$ $\\textcircled{5}$ $\\textcircled{6}$ $\\textcircled{7}$ $\\textcircled{8}$ $\\textcircled{9}$ 3. 解答用紙に書いてある注意事項も必ず読んでください。 ※ 試験開始の合図があったら，必ず受験番号と名前を記入してください。 受験番号 * * 名前"
+        }
+      ]
+    },
+    "visibleMaterials": []
+  },
+  {
+    "paper": "eju-2006-2-japan-world-ja",
+    "version": 4,
+    "pv": "pv_c7cd049462ba485ab9817cdf447d4644",
+    "form": "JAPAN_AND_WORLD_JA",
+    "group": "OCR",
+    "q": {
+      "answerRef": "JW:8",
+      "answerSpec": {
+        "type": "SINGLE_CHOICE"
+      },
+      "correctAnswer": {
+        "optionKey": "1"
+      },
+      "evidence": [
+        {
+          "bbox": [
+            0.08,
+            0.08,
+            0.92,
+            0.92
+          ],
+          "page": 5,
+          "sourceFileRole": "QUESTION_BOOKLET"
+        }
+      ],
+      "localKey": "p0005-q03",
+      "materialRefs": [
+        "p0005-material"
+      ],
+      "options": [
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "日本 ASEAN EU NAFTA"
+            }
+          ],
+          "key": "1"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "ASEAN EU NAFTA 日本"
+            }
+          ],
+          "key": "2"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "EU NAFTA 日本 ASEAN"
+            }
+          ],
+          "key": "3"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "NAFTA 日本 ASEAN EU"
+            }
+          ],
+          "key": "4"
+        }
+      ],
+      "printedLabel": "問2(4)",
+      "questionId": "q_e7a0bdb0c1c918aefae713fa",
+      "sectionCode": "MAIN",
+      "sequence": 6,
+      "stemAst": [
+        {
+          "type": "text",
+          "value": "次の表中のA～Dは，EU，日本，ASEAN，NAFTAのいずれかを表している。最も適当な組み合わせを，下の①～④の中から一つ選びなさい。 <table class=\"table table-bordered\"><thead><tr><th rowspan=\"2\"></th><th rowspan=\"2\">人口<br>(百万人)</th><th rowspan=\"2\">GDP<br>(億ドル)</th><th colspan=\"2\">貿易額（億ドル）</th></tr><tr><th>輸出</th><th>輸入</th></tr></thead><tbody><tr><td>A</td><td>128</td><td>43,009</td><td>4,720</td><td>3,831</td></tr><tr><td>B</td><td>537</td><td>7,113</td><td>4,480</td><td>3,854</td></tr><tr><td>C</td><td>455</td><td>110,017</td><td>30,247</td><td>29,645</td></tr><tr><td>D</td><td>425</td><td>124,312</td><td>10,738</td><td>16,269</td></tr></tbody></table> 『世界国势図会2005/06』より作成"
+        }
+      ]
+    },
+    "visibleMaterials": [
+      {
+        "contentAst": [
+          {
+            "type": "text",
+            "value": "次の文章を読み，下の問い(1)～(4)に答えなさい。 ヨーロッパでは，2004年5月，欧州連合（EU）が25カ国体制に拡大した。しかし，2005年前半，EC創設時からの加盟国であり，統合推進派の国として知られていたaとオランダ（the Netherlands）が，EU憲法の批准を国民投票で否決するなど，統合への動きは停滞を余儀なくされた。両国の否決は，2EUが進めてきた自由主義経済・競争により，自国の政策の独自性が失われることに対する一般庶民の不安が露呈したものとの見方が強い。"
+          }
+        ],
+        "evidence": [
+          {
+            "bbox": [
+              0.08,
+              0.08,
+              0.92,
+              0.92
+            ],
+            "page": 5,
+            "sourceFileRole": "QUESTION_BOOKLET"
+          }
+        ],
+        "localKey": "p0005-material",
+        "materialId": "m_70ad27fe768bfe5f30611e9d"
+      }
+    ]
+  },
+  {
+    "paper": "eju-2004-2-science-ja",
+    "version": 3,
+    "pv": "pv_93204e071dac4ed1a22eaec62c67d11a",
+    "form": "CHEMISTRY_JA",
+    "group": "OCR",
+    "q": {
+      "answerRef": "CHEMISTRY:17",
+      "answerSpec": {
+        "type": "SINGLE_CHOICE"
+      },
+      "correctAnswer": {
+        "optionKey": "3"
+      },
+      "evidence": [
+        {
+          "bbox": [
+            0.08,
+            0.08,
+            0.92,
+            0.92
+          ],
+          "page": 23,
+          "sourceFileRole": "QUESTION_BOOKLET"
+        }
+      ],
+      "localKey": "p0023-q03",
+      "materialRefs": [],
+      "options": [
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "q 2"
+            }
+          ],
+          "key": "1"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "q 2"
+            }
+          ],
+          "key": "2"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "q 3"
+            }
+          ],
+          "key": "3"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "q 3"
+            }
+          ],
+          "key": "4"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "q 4"
+            }
+          ],
+          "key": "5"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "q 4"
+            }
+          ],
+          "key": "6"
+        }
+      ],
+      "printedLabel": "問17",
+      "questionId": "q_5950a2c3902d70c70ec16bcc",
+      "sectionCode": "MAIN",
+      "sequence": 27,
+      "stemAst": [
+        {
+          "type": "text",
+          "value": "次の文章中の空欄 p，q 中に入る数と語の組合せとして最も適当なものを下の①～⑥の中から一つ選びなさい。 分子式 $C_4H_8$で表される鎖式化合物 (chain compound) の構造異性体 (structural isomers) は p 個存在する。そのうち，2-プテン (2-butene)には 2 個の q が存在する。"
+        }
+      ]
+    },
+    "visibleMaterials": []
+  },
+  {
+    "paper": "eju-2002-2-science-ja",
+    "version": 5,
+    "pv": "pv_17af35dfc8584df0a78e7b3506128bfb",
+    "form": "BIOLOGY_JA",
+    "group": "OCR",
+    "q": {
+      "answerRef": "BIOLOGY:2",
+      "answerSpec": {
+        "type": "SINGLE_CHOICE"
+      },
+      "correctAnswer": {
+        "optionKey": "5"
+      },
+      "evidence": [
+        {
+          "bbox": [
+            0.08,
+            0.08,
+            0.92,
+            0.92
+          ],
+          "page": 23,
+          "sourceFileRole": "QUESTION_BOOKLET"
+        }
+      ],
+      "localKey": "p0023-q02",
+      "materialRefs": [
+        "p0023-material"
+      ],
+      "options": [
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "a, b"
+            }
+          ],
+          "key": "1"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "a, b, c"
+            }
+          ],
+          "key": "2"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "a, b, c, d"
+            }
+          ],
+          "key": "3"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "b, c"
+            }
+          ],
+          "key": "4"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "b, c, d"
+            }
+          ],
+          "key": "5"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "b, c, d, e"
+            }
+          ],
+          "key": "6"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "d, e, f"
+            }
+          ],
+          "key": "7"
+        },
+        {
+          "contentAst": [
+            {
+              "type": "text",
+              "value": "e, f"
+            }
+          ],
+          "key": "8"
+        }
+      ],
+      "printedLabel": "問2(1)",
+      "questionId": "q_aafc67d96ba0c0ce65a9cf9e",
+      "sectionCode": "MAIN",
+      "sequence": 32,
+      "stemAst": [
+        {
+          "type": "text",
+          "value": "図1のa～fの組織（tissue）の中から、その構成細胞に葉緑体（chloroplast）をもつものをすべて示した組み合わせはどれか。次の①～⑧の中から一つ選びなさい。"
+        }
+      ]
+    },
+    "visibleMaterials": [
+      {
+        "contentAst": [
+          {
+            "type": "text",
+            "value": "次の図1は，ある植物の葉の断面を示したものであり，図2は同じ植物の茎の断面を示したものである。下の問い(1)～(3)に答えなさい。 図1 図2"
+          }
+        ],
+        "evidence": [
+          {
+            "bbox": [
+              0.08,
+              0.08,
+              0.92,
+              0.92
+            ],
+            "page": 23,
+            "sourceFileRole": "QUESTION_BOOKLET"
+          }
+        ],
+        "localKey": "p0023-material",
+        "materialId": "m_e9da02d0b2751888a99645ce"
+      }
+    ]
+  }
+]

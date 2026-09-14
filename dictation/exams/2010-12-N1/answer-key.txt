@@ -1,0 +1,33 @@
+# 2010年12月 日本語能力試験 N1 — 答案
+note 2010年12月N1参考答案与计分规则
+
+# ---- 第一部分　言語知識（文字・語彙・文法） ----
+written   1-6     1   322144
+written   7-13    1   3141321
+written   14-19   1   213241
+written   20-25   1   132434
+written   26-35   1   4213414223
+written   36-40   2   41132
+written   41-45   1   13432
+
+# 排序題順序
+order     36      3241
+order     37      3412
+order     38      2413
+order     39      2431
+order     40      1423
+
+# ---- 第二部分　読解 ----
+written   46-49   2   1232
+written   50-58   2   441333413
+written   59-62   3   4422
+written   63-65   3   434
+written   66-69   3   4321
+written   70-71   2   24
+
+# ---- 第三部分　聴解 ----
+listening 1       1   223314
+listening 2       1   2334242
+listening 3       2   22132
+listening 4       2   23231121132322
+listening 5       3   1224

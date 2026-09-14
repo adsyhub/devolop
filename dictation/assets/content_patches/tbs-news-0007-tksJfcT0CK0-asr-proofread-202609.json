@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "description": "tbs-news-0007-tksJfcT0CK0：LLM 逐句校对发现的 ASR 误识别修正 7 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "ff73cdbe110dfffce2e9ba5e5a081891fe161eb01240d5a36dae17b6e72f9804",
+  "evidence": {
+    "file": "proofread-work/tbs-news-0007-tksJfcT0CK0/proofread.json",
+    "proposedFixes": "proofread-work/tbs-news-0007-tksJfcT0CK0/proposed-fixes.json",
+    "notes": "proofread-work/tbs-news-0007-tksJfcT0CK0/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 34,
+      "endIndex": 34,
+      "expectedStartTime": 226.799,
+      "expectedEndTime": 235.429,
+      "items": [
+        {
+          "startTime": 226.799,
+          "endTime": 235.429,
+          "sourceText": "5願くば地震のことを忘れるぐらいの時間を過ごしてもらえればなと思っています。",
+          "jaText": "5願くば地震のことを忘れるぐらいの時間を過ごしてもらえればなと思っています。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 38,
+      "endIndex": 38,
+      "expectedStartTime": 278.479,
+      "expectedEndTime": 280.115,
+      "items": [
+        {
+          "startTime": 278.479,
+          "endTime": 280.115,
+          "sourceText": "地震があって、ま、で、電気とか水も止まって、ま、",
+          "jaText": "地震があって、ま、で、電気とか水も止まって、ま、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 45,
+      "endIndex": 45,
+      "expectedStartTime": 326.919,
+      "expectedEndTime": 329.944,
+      "items": [
+        {
+          "startTime": 326.919,
+          "endTime": 329.944,
+          "sourceText": "天真爛漫でみんなの中心にいるムードメーカーです。",
+          "jaText": "天真爛漫でみんなの中心にいるムードメーカーです。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 52,
+      "endIndex": 52,
+      "expectedStartTime": 375.919,
+      "expectedEndTime": 381.256,
+      "items": [
+        {
+          "startTime": 375.919,
+          "endTime": 381.256,
+          "sourceText": "こっちは震自宅は中規模半壊。",
+          "jaText": "こっちは震自宅は中規模半壊。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 68,
+      "endIndex": 68,
+      "expectedStartTime": 508.31,
+      "expectedEndTime": 510.46,
+      "items": [
+        {
+          "startTime": 508.31,
+          "endTime": 510.46,
+          "sourceText": "地震のことだった。",
+          "jaText": "地震のことだった。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 69,
+      "endIndex": 69,
+      "expectedStartTime": 513.479,
+      "expectedEndTime": 516.514,
+      "items": [
+        {
+          "startTime": 513.479,
+          "endTime": 516.514,
+          "sourceText": "辛い地震の記憶をちょっとだけ忘れさせてくれたご念時。",
+          "jaText": "辛い地震の記憶をちょっとだけ忘れさせてくれたご念時。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 71,
+      "endIndex": 71,
+      "expectedStartTime": 540.44,
+      "expectedEndTime": 540.928,
+      "items": [
+        {
+          "startTime": 540.44,
+          "endTime": 540.928,
+          "sourceText": "綺麗と思って地震のことを忘れてずっとこのままたいなと思った。",
+          "jaText": "綺麗と思って地震のことを忘れてずっとこのままたいなと思った。"
+        }
+      ]
+    }
+  ]
+}

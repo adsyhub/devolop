@@ -1,0 +1,29 @@
+{
+  "page": 30,
+  "pageLabel": "第29页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "question", "partNumber": 2, "label": "6番", "text": "", "questionNumber": 6,
+      "choices": [
+        "売り上げを伸ばすこと",
+        "客に満足してもらうこと"
+      ],
+      "vertical": false, "continuesFromPreviousPage": true, "continuesOnNextPage": false
+    },
+    {
+      "kind": "question", "partNumber": 2, "label": "7番", "text": "", "questionNumber": 7,
+      "choices": [
+        "さまざまな文化を比較すること",
+        "社会と文化を分けて考えること",
+        "社会と自分を関連させて考えること",
+        "建設的な議論の方法を学ぶこと"
+      ],
+      "vertical": false, "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "The first block holds choices 3 and 4 of 問題2 6番, whose choices 1 and 2 are on PDF page 29; the two halves must be joined.",
+    "7番 is the last question of 聴解 問題2, matching the answer key's seven answers for 問題2."
+  ]
+}

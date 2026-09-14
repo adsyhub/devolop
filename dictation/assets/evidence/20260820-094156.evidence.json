@@ -1,0 +1,284 @@
+{
+  "schemaVersion": "evidence-v1",
+  "createdAt": "2026-08-20T00:41:56.244001+00:00",
+  "operator": "phase0-baseline",
+  "note": "Phase 0 起点：修复前冻结证据",
+  "tooling": {
+    "python": "3.13.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "sqlite": "3.50.4"
+  },
+  "projectDir": "C:\\Users\\cribug\\OneDrive\\Desktop\\dictation",
+  "sources": [
+    {
+      "path": "courses/2010-12-N2/manifest.json",
+      "bytes": 360851,
+      "sha256": "d9b6f054bf2488c740151a4f191593c2a177f23e0ba99d73e50017f77a2bd431"
+    },
+    {
+      "path": "courses/librivox-test/manifest.json",
+      "bytes": 32067,
+      "sha256": "f03dbc986e9785bca3c6988b71762da1782e45f27f4b144eaeb60e22965c9f19"
+    },
+    {
+      "path": "courses/2010-12-N2/audio.mp3",
+      "bytes": 21490537,
+      "sha256": "5f41e2ac3a4100b4fa2f38d7a93d76b1402d3625201a3953b9dd77b5fe94c614"
+    },
+    {
+      "path": "courses/librivox-test/audio.mp3",
+      "bytes": 5030062,
+      "sha256": "469eeebb86c5585caf3be283aaec8eb45cb18563a1a014e72c806a1fd3c2b314"
+    },
+    {
+      "path": "dist/2010-12-N2-commercial-candidate.zip",
+      "bytes": 19376228,
+      "sha256": "4ac7dc0246a7c5c1cad87ce788914ed7c10c42696204541695dbe82df88f72e1"
+    },
+    {
+      "path": "assets/content_patches/2010-12-N2-corrupt-enrichment-recovery.json",
+      "bytes": 30081,
+      "sha256": "6c3c37ebdc34ae2a048cdaf98fd93232bf3f678778069de47c7aa610fc848af7"
+    },
+    {
+      "path": "assets/content_patches/2010-12-N2-final-commercial-spotcheck.json",
+      "bytes": 25771,
+      "sha256": "1a64607b8df5217c0d155cfffbb799acd6db27f5d7278920d06f1d4da4e6c47a"
+    },
+    {
+      "path": "assets/content_patches/2010-12-N2-final-overlap-repair.json",
+      "bytes": 1158,
+      "sha256": "bbed9883a83d350ba022562e7978da503ac72548a11ebcb14a8129dea6caec47"
+    },
+    {
+      "path": "assets/content_patches/2010-12-N2-low-confidence-repair.json",
+      "bytes": 5054,
+      "sha256": "51a166343241a4bf51dfcd9697cfd21eca2388515a4ecb79daba9c462ac26347"
+    },
+    {
+      "path": "assets/content_patches/2010-12-N2-timing-and-duplicate-repair.json",
+      "bytes": 8523,
+      "sha256": "b403d5a222d2e04b1ceeecfb846ec3f30988dc425711e69c8d9a88fcf8f32a35"
+    },
+    {
+      "path": "assets/licenses/2010-12-N2-v11.license.json",
+      "bytes": 2343,
+      "sha256": "75cfe53c73ac2f91b470f6dfa5435f70a15785b022fb06448310f64aea3d0363"
+    },
+    {
+      "path": "src/apply_content_patch.py",
+      "bytes": 1920,
+      "sha256": "0a88242f1c3de47b3bd4830c28f8af6c77e91a492b39ef0491a52560e41e09d4"
+    },
+    {
+      "path": "src/asr_quality.py",
+      "bytes": 2208,
+      "sha256": "3c0bd87c0bbbb24f07bff5b38453167fdcc18cba24ebc627afda4fa3b53cecea"
+    },
+    {
+      "path": "src/attach_asr_quality.py",
+      "bytes": 1941,
+      "sha256": "d3aafe18a993aaa9e6a7f787e36e6c5797c920cd5808c6b5d23f8ba7b884d6ea"
+    },
+    {
+      "path": "src/audit_bundle.py",
+      "bytes": 2136,
+      "sha256": "78eedca645652bc67c6510d96fd6a877463455461b1a793434ded7f1a65700ed"
+    },
+    {
+      "path": "src/build_deepseek_offline_bundle.py",
+      "bytes": 41004,
+      "sha256": "6d4f4c0f9d31ac756a2632838695b296e2ae474c16cfc4c1de8caa63635dcaeb"
+    },
+    {
+      "path": "src/bundle_quality.py",
+      "bytes": 13974,
+      "sha256": "b775f8173c0709a32556aabff921374d5f7f9451213c15cd283ad349816292b2"
+    },
+    {
+      "path": "src/chinese_localization.py",
+      "bytes": 2466,
+      "sha256": "7a1130594b0f2e1c66aedb5c9391a743c7b8b18f122d2e5d0a3f7a4317dab69b"
+    },
+    {
+      "path": "src/content_license.py",
+      "bytes": 13051,
+      "sha256": "fad8fcbba77c8669fac03cda210d8303a6b32bcb6e4f743075f16c048e2947f9"
+    },
+    {
+      "path": "src/content_patch.py",
+      "bytes": 6380,
+      "sha256": "15f5873a699a00e727049bce9276cf812a9ae02f61c5d90f98a56e080f4af639"
+    },
+    {
+      "path": "src/course_schema.py",
+      "bytes": 7657,
+      "sha256": "0809e2a9f079df3bdfb5dd48d6ccbe614196283cde776a9b71c9636b21b2667e"
+    },
+    {
+      "path": "src/generate_pwa_icons.py",
+      "bytes": 1993,
+      "sha256": "42b69d7c936f31f3778ca18291b9b564906a45addf9832a56ebaa386a883ab64"
+    },
+    {
+      "path": "src/human_review.py",
+      "bytes": 13797,
+      "sha256": "8e7941a174697de13384aaf85ebbbf7653356cfc8e209bc797c52a882091bc4c"
+    },
+    {
+      "path": "src/language_support.py",
+      "bytes": 6415,
+      "sha256": "5b8d2e5169ecd89c04c2d4c626a46cc47ca981511fae046a6c095f58270dafc0"
+    },
+    {
+      "path": "src/local_backend.py",
+      "bytes": 16906,
+      "sha256": "23db853157b2c2f702d8f4acee07b2f0e37990fddc25a5f2053fdc8fdce00af4"
+    },
+    {
+      "path": "src/make_zip.py",
+      "bytes": 11772,
+      "sha256": "2f5149aae634ad2c54a3216342f04ff981e48207512779d38174a87afc98475c"
+    },
+    {
+      "path": "src/normalize_chinese.py",
+      "bytes": 2205,
+      "sha256": "35beab8f68f8bd27089a4d5e3c34a1f7f32176c120989631a96e9e12d189be39"
+    },
+    {
+      "path": "src/prepare_commercial_manifest.py",
+      "bytes": 2453,
+      "sha256": "4efd8c44d512f8ce6981941e22d27896fc7c242ec5d7e6d14a221dbd6c769872"
+    },
+    {
+      "path": "src/release_evidence.py",
+      "bytes": 1127,
+      "sha256": "f5f6c4c2820b4e454706e9b0dd20f769023a7c22cf762470902d35946cd7a08a"
+    },
+    {
+      "path": "src/release_readiness.py",
+      "bytes": 17255,
+      "sha256": "a375bffd2540562bb2cd7dc0d29e80c036ecb2c364f46786015abc2c1d9ade5f"
+    },
+    {
+      "path": "src/repack_offline_bundle.py",
+      "bytes": 5460,
+      "sha256": "6cd0f3de59dd0ad7ad01042bbde57f501be347640ade36452f7b583a55f3e619"
+    },
+    {
+      "path": "src/repair_enrichment.py",
+      "bytes": 6058,
+      "sha256": "d39af2ba5b3274c20df7c1c46d435b4d963831b77dd2b77b4bddbc59f59bb767"
+    },
+    {
+      "path": "src/review_server.py",
+      "bytes": 13852,
+      "sha256": "59814399aa8f79f16552faee828999241b95decfbc70f22fd484a574a128ca5e"
+    },
+    {
+      "path": "src/sentence_segmentation.py",
+      "bytes": 2189,
+      "sha256": "da4c9fc6d42e5962a4abf9b4eaaedadb38289212e390fafd5da88e02b6ec4a70"
+    },
+    {
+      "path": "src/serve_course.py",
+      "bytes": 11770,
+      "sha256": "d4ac56de68c667ad44028d7b4b5df27b7ed1788e76fd1a34fae27054d5401f75"
+    },
+    {
+      "path": "src/snapshot_evidence.py",
+      "bytes": 10016,
+      "sha256": "dbcb195c67410c9953eeae41f03462237da3f04d020087cea3bffbe54cb9babf"
+    },
+    {
+      "path": "src/web/_headers",
+      "bytes": 467,
+      "sha256": "e50de57cbccb1b071f11de1037f2fe0b324cb4ddae3ecd8e06c26794ba38f046"
+    },
+    {
+      "path": "src/web/app.css",
+      "bytes": 21210,
+      "sha256": "a0a09243db3ffbaa39704aba98e3efde622856de2de9e38970eb0d52aac2f08f"
+    },
+    {
+      "path": "src/web/app.js",
+      "bytes": 76237,
+      "sha256": "7fd45ea045d69d7bc5a650c8241e2262d11a54f09abe16f555311150c8a88dda"
+    },
+    {
+      "path": "src/web/icon-192.png",
+      "bytes": 2738,
+      "sha256": "1255e382b0c8f583e69b92263788838ec9236c476b70911b7fbaea87a884d07a"
+    },
+    {
+      "path": "src/web/icon-512.png",
+      "bytes": 7220,
+      "sha256": "fa013ef9a2d84c33e8d73bf2601f79f325ea584f520b3dedfb0cc2faa19e0b6d"
+    },
+    {
+      "path": "src/web/icon.svg",
+      "bytes": 330,
+      "sha256": "e7c99417e2a13ccd4d4a33b0a7798bf34663c90cf2b633ab6170cb0f7ca17fe0"
+    },
+    {
+      "path": "src/web/index.html",
+      "bytes": 17767,
+      "sha256": "365be011a7e6e283863fb6b29856bd61f26b012d57817a2e082cfe637f79e098"
+    },
+    {
+      "path": "src/web/manifest.webmanifest",
+      "bytes": 688,
+      "sha256": "02680ff521393ac652c49e9cd476b67e580cd6ffae59db76a81af4ec8c81b0c4"
+    },
+    {
+      "path": "src/web/sw.js",
+      "bytes": 6628,
+      "sha256": "c7140759592994f93fc1f2a554f328c15da614854598dad5761ecd5eb0eef743"
+    },
+    {
+      "path": "src/review_web/favicon.svg",
+      "bytes": 423,
+      "sha256": "cfd9a28fb5c9d1b18d541c98ead31ef6f49795b50ed2b43865ed0f0003366b18"
+    },
+    {
+      "path": "src/review_web/index.html",
+      "bytes": 4638,
+      "sha256": "c4b4a7795519cf1f7f24772de88bf46469da8278239219349361aee212fa3919"
+    },
+    {
+      "path": "src/review_web/review.css",
+      "bytes": 5202,
+      "sha256": "af894d1fecf1e26e7513cf6e951977257072c829cc4ec04e44755f4cfcf70cf0"
+    },
+    {
+      "path": "src/review_web/review.js",
+      "bytes": 12908,
+      "sha256": "b2f901db6706001762e2691ead323c3fd5f15ca952c263f984550ab9cb3bc244"
+    },
+    {
+      "path": "start_dictation.py",
+      "bytes": 5704,
+      "sha256": "bb99ed52667066a2833a0ef08a1fb4894ad80031c9a5b3003c231b4330d4e70c"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 72,
+      "sha256": "5d223628377b7546d03b9f8efb8fc421abe9c597b8a4271e58955a7fdbdfeeba"
+    }
+  ],
+  "learningDatabase": {
+    "present": true,
+    "source": "C:\\Users\\cribug\\AppData\\Local\\dictation-preview\\learning.sqlite3",
+    "sha256": "35765a43140390d6c176aa446412e09f16b3c6a8ecd134e5d58d4055e68d8714",
+    "bytes": 32768,
+    "integrityCheck": "ok",
+    "rowCounts": {
+      "notes": 0,
+      "streak": 1,
+      "vocab": 0
+    }
+  },
+  "knownUnrecoverable": [
+    "Browser localStorage/IndexedDB written under earlier random-port origins (http://127.0.0.1:<random>) cannot be enumerated or exported by any tool. Only the user can recover them, by reopening that exact port and exporting per-origin. Treat unlisted origins as lost, not as migrated."
+  ]
+}

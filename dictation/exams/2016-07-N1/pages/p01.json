@@ -1,0 +1,250 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "この寺の周辺には<u>樹木</u>が生い茂っている。",
+      "choices": [
+        "きぎ",
+        "じゅぎ",
+        "じゅもく",
+        "きもく"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "将来のために様々な知識を<u>蓄えて</u>おきたい。",
+      "choices": [
+        "そろえて",
+        "ととのえて",
+        "かかえて",
+        "たくわえて"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "この店は今月から商品の<u>陳列</u>の仕方を変更した。",
+      "choices": [
+        "ちんれつ",
+        "じんれつ",
+        "ちんれい",
+        "じんれい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "今日の舞台は<u>華やか</u>で、観客を大いに楽しませた。",
+      "choices": [
+        "おだやか",
+        "さわやか",
+        "はなやか",
+        "しなやか"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "専門家に<u>鑑定</u>を依頼した。",
+      "choices": [
+        "けんてい",
+        "かんてい",
+        "けんち",
+        "かんち"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "この雑誌にある情報は少し<u>偏って</u>いる。",
+      "choices": [
+        "へだたって",
+        "へんこうして",
+        "かたむいて",
+        "かたよって"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "今回の事故から得た（　　）をもとに、再発を防止するための対策を立てた。",
+      "choices": [
+        "知恵",
+        "知識",
+        "見識",
+        "教訓"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "林さんは服の（　　）が抜群で、いつもすてきな服装をしている。",
+      "choices": [
+        "センス",
+        "スタイル",
+        "ポーズ",
+        "バランス"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "A社は、開発した技術が外部に（　　）するのを防ぐため、管理体制を強化した。",
+      "choices": [
+        "分散",
+        "脱出",
+        "流出",
+        "放流"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "どんな苦難に直面しても、最善を（　　）よう努めている。",
+      "choices": [
+        "明かす",
+        "尽くす",
+        "果たす",
+        "保つ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "駅から博物館まではバスが（　　）出ているので、ほとんど待たずに乗ることができる。",
+      "choices": [
+        "頻繁に",
+        "密集して",
+        "厳重に",
+        "満場に"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "一日中歩いて（　　）に疲れたので、今夜はゆっくり休みたい。",
+      "choices": [
+        "ふらふら",
+        "ぎくしゃく",
+        "へとへと",
+        "ぶらぶら"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "母に相談したかったが、忙しそうだったので、なかなか話を（　　）ことができなかった。",
+      "choices": [
+        "引き起こす",
+        "切り出す",
+        "持ち直す",
+        "呼び止める"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "この仕事には<u>綿密な</u>計画が不可欠だ。",
+      "choices": [
+        "詳しい",
+        "長期的な",
+        "単純な",
+        "総合的な"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "父は<u>ルーズな</u>人が嫌いだ。",
+      "choices": [
+        "短気な",
+        "だらしない",
+        "無口な",
+        "不親切な"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "今日の仕事はこれで<u>おしまい</u>だ。",
+      "choices": [
+        "中止",
+        "終了",
+        "失敗",
+        "延期"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "今さら<u>あがいても</u>仕方がない。",
+      "choices": [
+        "怒っても",
+        "祈っても",
+        "泣いても",
+        "もがいても"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 18,
+      "text": "あの人は<u>ことごとく</u>私の提案に反対する。",
+      "choices": [
+        "常に",
+        "あえて",
+        "すべて",
+        "わざわざ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 19,
+      "text": "この提案は<u>見送る</u>ことになった。",
+      "choices": [
+        "やめる",
+        "認める",
+        "優先する",
+        "保留する"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="8" skipped="2" tests="282" time="159.559" timestamp="2026-09-14T08:15:48.862528+00:00" hostname="6fcf5d95cba7"><testcase classname="tests.test_2019_2_pipeline" name="test_2019_2_files_exist" time="0.001" /><testcase classname="tests.test_2019_2_pipeline" name="test_2019_2_math_c1_structure" time="0.001" /><testcase classname="tests.test_2019_2_pipeline" name="test_2019_2_math_c2_structure" time="0.001" /><testcase classname="tests.test_2019_2_pipeline" name="test_2019_2_science_structure" time="0.001" /><testcase classname="tests.test_2019_2_pipeline" name="test_2019_2_markdown_docs" time="0.000"><failure message="AssertionError: Doc 2019-2-math-c1-solutions.md missing or too small&#10;assert (False)&#10; +  where False = exists()&#10; +    where exists = PosixPath('/tmp/eju-audit-20260914/repo/docs/explanations/2019-2-math-c1-solutions.md').exists">def test_2019_2_markdown_docs():
+        """Verify generated Markdown solution documents."""
+        docs_dir = PROJECT_ROOT / "docs/explanations"
+        expected_docs = [
+            "2019-2-math-c1-solutions.md",
+            "2019-2-math-c2-solutions.md",
+            "2019-2-physics-solutions.md",
+            "2019-2-chemistry-solutions.md",
+            "2019-2-biology-solutions.md",
+            "2019-2-pipeline-guide.md",
+        ]
+        for doc in expected_docs:
+            f = docs_dir / doc
+&gt;           assert f.exists() and f.stat().st_size &gt; 500, f"Doc {doc} missing or too small"
+E           AssertionError: Doc 2019-2-math-c1-solutions.md missing or too small
+E           assert (False)
+E            +  where False = exists()
+E            +    where exists = PosixPath('/tmp/eju-audit-20260914/repo/docs/explanations/2019-2-math-c1-solutions.md').exists
+
+/workspace/Develop/eju-question-bank/tests/test_2019_2_pipeline.py:96: AssertionError</failure></testcase><testcase classname="tests.test_2022_2_explanations_assembly" name="test_2022_2_database_has_reviewed_explanations" time="0.117" /><testcase classname="tests.test_2022_2_explanations_assembly" name="test_2022_2_work_paper_json_explanations" time="0.005" /><testcase classname="tests.test_2022_2_explanations_assembly" name="test_2022_2_review_content_workflow" time="0.000"><skipped type="pytest.skip" message="这套卷当前未被限制投放；本测试只覆盖受限时的拒绝行为">/workspace/Develop/eju-question-bank/tests/test_2022_2_explanations_assembly.py:154: 这套卷当前未被限制投放；本测试只覆盖受限时的拒绝行为</skipped></testcase><testcase classname="tests.test_2022_2_explanations_assembly" name="test_2022_2_docs_exist" time="0.001"><failure message="AssertionError: Missing docs/explanations/2022-2-physics-solutions.md&#10;assert False&#10; +  where False = exists()&#10; +    where exists = PosixPath('/tmp/eju-audit-20260914/repo/docs/explanations/2022-2-physics-solutions.md').exists">def test_2022_2_docs_exist():
+        """Verify all 5 Markdown explanation solution files exist and have substantial content."""
+        docs = [
+            "docs/explanations/2022-2-physics-solutions.md",
+            "docs/explanations/2022-2-chemistry-solutions.md",
+            "docs/explanations/2022-2-biology-solutions.md",
+            "docs/explanations/2022-2-math-c1-solutions.md",
+            "docs/explanations/2022-2-math-c2-solutions.md",
+        ]
+        for d in docs:
+            p = PROJECT_ROOT / d
+&gt;           assert p.exists(), f"Missing {d}"
+E           AssertionError: Missing docs/explanations/2022-2-physics-solutions.md
+E           assert False
+E            +  where False = exists()
+E            +    where exists = PosixPath('/tmp/eju-audit-20260914/repo/docs/explanations/2022-2-physics-solutions.md').exists
+
+/workspace/Develop/eju-question-bank/tests/test_2022_2_explanations_assembly.py:170: AssertionError</failure></testcase><testcase classname="tests.test_2024_explanations_assembly" name="test_2024_database_has_reviewed_explanations" time="0.112" /><testcase classname="tests.test_2024_explanations_assembly" name="test_2024_work_paper_json_explanations" time="0.004" /><testcase classname="tests.test_2024_explanations_assembly" name="test_2024_review_content_workflow" time="0.001" /><testcase classname="tests.test_2024_explanations_assembly" name="test_2024_docs_exist" time="0.001"><failure message="AssertionError: Missing docs/explanations/2024-physics-solutions.md&#10;assert False&#10; +  where False = exists()&#10; +    where exists = PosixPath('/tmp/eju-audit-20260914/repo/docs/explanations/2024-physics-solutions.md').exists">def test_2024_docs_exist():
+        """Verify all 5 Markdown explanation solution files exist and have substantial content."""
+        docs = [
+            "docs/explanations/2024-physics-solutions.md",
+            "docs/explanations/2024-chemistry-solutions.md",
+            "docs/explanations/2024-biology-solutions.md",
+            "docs/explanations/2024-math-c1-solutions.md",
+            "docs/explanations/2024-math-c2-solutions.md",
+        ]
+        for d in docs:
+            p = PROJECT_ROOT / d
+&gt;           assert p.exists(), f"Missing {d}"
+E           AssertionError: Missing docs/explanations/2024-physics-solutions.md
+E           assert False
+E            +  where False = exists()
+E            +    where exists = PosixPath('/tmp/eju-audit-20260914/repo/docs/explanations/2024-physics-solutions.md').exists
+
+/workspace/Develop/eju-question-bank/tests/test_2024_explanations_assembly.py:172: AssertionError</failure></testcase><testcase classname="tests.test_answer_key_parse" name="test_pairs_header_and_answer_rows" time="0.000" /><testcase classname="tests.test_answer_key_parse" name="test_maps_sections_to_answer_refs" time="0.000" /><testcase classname="tests.test_answer_key_parse" name="test_mismatched_row_is_reported_not_guessed" time="0.000" /><testcase classname="tests.test_answer_key_parse" name="test_answer_row_without_header_is_reported" time="0.000" /><testcase classname="tests.test_answer_key_parse" name="test_unknown_section_is_not_assigned_to_a_guessed_form" time="0.000" /><testcase classname="tests.test_answer_key_parse" name="test_spaced_subject_heading_is_recognised" time="0.000" /><testcase classname="tests.test_answer_key_parse" name="test_ocr_confusing_the_label_characters_still_reads_the_rows" time="0.000" /><testcase classname="tests.test_answer_table" name="test_reads_every_slot_with_its_printed_answer" time="0.001" /><testcase classname="tests.test_answer_table" name="test_a_question_may_own_several_slots" time="0.001" /><testcase classname="tests.test_answer_table" name="test_unalignable_header_is_reported_not_applied" time="0.001" /><testcase classname="tests.test_answer_table" name="test_section_heading_is_picked_up" time="0.001" /><testcase classname="tests.test_answer_table" name="test_answer_row_shorter_than_slot_row_is_refused" time="0.000" /><testcase classname="tests.test_answer_table" name="test_unrecognised_section_drops_its_answers" time="0.000" /><testcase classname="tests.test_answer_table" name="test_empty_input_is_safe" time="0.000" /><testcase classname="tests.test_answer_table" name="test_ocr_confusing_the_label_character_still_reads_the_row" time="0.000" /><testcase classname="tests.test_answer_table" name="test_reads_the_column_oriented_key_used_from_2009" time="0.001" /><testcase classname="tests.test_answer_table" name="test_each_section_on_a_page_keeps_its_own_slots" time="0.001" /><testcase classname="tests.test_answer_table" name="test_continuation_rows_missing_their_tr_are_still_read" time="0.000" /><testcase classname="tests.test_answers" name="test_variable_choice_and_digit_grid_preserve_tokens" time="0.000" /><testcase classname="tests.test_answers" name="test_answer_parser_rejects_duplicate_and_misaligned_digits" time="0.000" /><testcase classname="tests.test_assemble_from_ocr" name="test_collects_questions_under_the_heading_that_precedes_them" time="0.003" /><testcase classname="tests.test_assemble_from_ocr" name="test_section_carries_forward_to_later_pages" time="0.001" /><testcase classname="tests.test_assemble_from_ocr" name="test_reading_number_joins_directly_to_the_answer_slot" time="0.001" /><testcase classname="tests.test_assemble_from_ocr" name="test_question_without_a_verified_answer_is_not_emitted" time="0.001" /><testcase classname="tests.test_assemble_from_ocr" name="test_answer_outside_the_option_keys_is_refused" time="0.001" /><testcase classname="tests.test_assemble_from_ocr" name="test_sections_whose_numbering_restarts_are_left_unjoined" time="0.001" /><testcase classname="tests.test_assemble_from_ocr" name="test_question_with_no_heading_above_it_is_not_assigned_a_section" time="0.001" /><testcase classname="tests.test_assemble_from_ocr" name="test_missing_cache_directory_is_safe" time="0.001" /><testcase classname="tests.test_assemble_from_ocr" name="test_a_form_only_takes_its_own_sections" time="0.001" /><testcase classname="tests.test_assemble_from_ocr" name="test_boxed_slot_is_preferred_over_the_printed_question_number" time="0.001" /><testcase classname="tests.test_assemble_publish" name="test_assemble_publish_and_server_side_grading" time="0.060" /><testcase classname="tests.test_assemble_publish" name="test_private_source_cannot_be_publicly_published" time="0.002" /><testcase classname="tests.test_assets_audio" name="test_asset_store" time="0.002" /><testcase classname="tests.test_assets_audio" name="test_clip_figure_from_pdf" time="0.075" /><testcase classname="tests.test_assets_audio" name="test_parse_range_header" time="0.000" /><testcase classname="tests.test_assets_audio" name="test_validate_audio_cues" time="0.000" /><testcase classname="tests.test_assets_audio" name="test_probe_audio_rejects_corrupted_or_fake_file" time="0.004" /><testcase classname="tests.test_assets_audio" name="test_crop_origin_matches_migrated_schema_and_survives_reopen" time="0.061" /><testcase classname="tests.test_assets_audio" name="test_asset_write_cannot_escape_via_symlink" time="0.001" /><testcase classname="tests.test_assets_audio" name="test_audio_cues_reject_boolean_times_and_do_not_mutate_input" time="0.000" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_uniform_options_cannot_witness_the_pairing" time="0.000" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_distinguishing_options_still_witness_the_pairing" time="0.000" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_gap_recovery_also_needs_a_distinguishing_check" time="0.000" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_module_no_longer_claims_an_unfounded_error_rate" time="0.000" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_attestation_does_not_survive_an_edited_stem" time="0.018" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_attestation_does_not_survive_an_edited_answer_reference" time="0.019" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_attestation_does_not_survive_a_rewritten_ocr_cache" time="0.019" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_a_self_consistent_forgery_is_refused" time="0.030" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_unknown_or_missing_checks_are_refused" time="0.018" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_rerun_does_not_overwrite_a_signed_page" time="0.062" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_rerun_does_not_overwrite_an_unsigned_human_draft" time="0.055" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_machine_pages_are_still_refreshed_when_the_content_changes" time="0.044" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_unchanged_structure_is_not_resigned" time="0.059" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_unchanged_structure_does_not_revoke_existing_certificates" time="0.060" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_a_changed_structure_is_still_signed_afresh" time="0.063" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_a_new_scan_is_not_silently_replaced_by_the_old_one" time="0.024" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_resubmitting_the_same_files_reuses_the_source" time="0.020" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_a_late_answer_key_is_accepted_without_a_new_source" time="0.020" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_a_replaced_answer_key_is_refused" time="0.022" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_scope_is_chosen_not_hardcoded" time="0.066" /><testcase classname="tests.test_automation_p0_counterexamples" name="test_the_published_scope_matches_the_assembled_one" time="0.066" /><testcase classname="tests.test_backup_migrations" name="test_legacy_migration_preserves_answers_and_results" time="0.028" /><testcase classname="tests.test_backup_migrations" name="test_failed_migration_rolls_back_every_change" time="0.018" /><testcase classname="tests.test_backup_migrations" name="test_wal_backup_restores_committed_rows" time="0.076" /><testcase classname="tests.test_backup_migrations" name="test_bad_backup_never_overwrites_target" time="0.001" /><testcase classname="tests.test_backup_migrations" name="test_media_reference_missing_rejects_backup" time="0.052" /><testcase classname="tests.test_browser_learning" name="test_save_reload_pause_submit_and_history" time="3.207" /><testcase classname="tests.test_browser_learning" name="test_offline_save_does_not_submit" time="2.686" /><testcase classname="tests.test_browser_learning" name="test_essay_pending_and_offline_math" time="3.407" /><testcase classname="tests.test_browser_learning" name="test_bookmark_note_collection_and_image_zoom" time="3.079" /><testcase classname="tests.test_browser_learning" name="test_machine_attested_paper_says_so_before_the_learner_starts" time="1.425" /><testcase classname="tests.test_browser_workflows" name="test_cross_tab_conflict_accept_remote_and_draft_isolation" time="3.468" /><testcase classname="tests.test_browser_workflows" name="test_navigation_stats_and_empty_essay" time="1.829" /><testcase classname="tests.test_browser_workflows" name="test_management_backup_job_and_diagnostics" time="4.249" /><testcase classname="tests.test_browser_workflows" name="test_narrow_screen_navigation_and_modal_keyboard" time="2.236" /><testcase classname="tests.test_content_issues" name="test_content_issue_lifecycle" time="0.074" /><testcase classname="tests.test_content_issues" name="test_content_issue_http_endpoints" time="0.569" /><testcase classname="tests.test_content_review" name="test_signed_pages_assemble_approve_publish_and_revoke" time="0.612" /><testcase classname="tests.test_content_review" name="test_page_signature_and_revision_cannot_be_faked" time="0.032" /><testcase classname="tests.test_content_review" name="test_withdraw_signature_records_reason_and_preserves_signed_revision" time="0.047" /><testcase classname="tests.test_content_review" name="test_source_structure_baseline_enforcement" time="0.068" /><testcase classname="tests.test_content_review" name="test_math_c1_c2_inventory_isolation" time="0.002" /><testcase classname="tests.test_content_review" name="test_release_rechecks_rights_and_source_hash_after_approval" time="0.072" /><testcase classname="tests.test_content_review" name="test_explicit_reviewed_partial_scope_does_not_claim_complete" time="0.088" /><testcase classname="tests.test_content_review" name="test_partial_scope_rejects_invalid_values_without_signing[pages-value0]" time="0.025" /><testcase classname="tests.test_content_review" name="test_partial_scope_rejects_invalid_values_without_signing[pages-value1]" time="0.026" /><testcase classname="tests.test_content_review" name="test_partial_scope_rejects_invalid_values_without_signing[forms-value2]" time="0.026" /><testcase classname="tests.test_content_review" name="test_partial_scope_rejects_invalid_values_without_signing[forms-value3]" time="0.028" /><testcase classname="tests.test_explanation_quality" name="test_a_sound_explanation_passes" time="0.000" /><testcase classname="tests.test_explanation_quality" name="test_an_explanation_contradicting_the_official_answer_fails" time="0.000" /><testcase classname="tests.test_explanation_quality" name="test_an_explanation_citing_a_nonexistent_option_fails" time="0.000" /><testcase classname="tests.test_explanation_quality" name="test_an_explanation_that_states_no_answer_is_unknown_not_pass" time="0.000" /><testcase classname="tests.test_explanation_quality" name="test_placeholder_and_empty_explanations_fail" time="0.000" /><testcase classname="tests.test_explanation_quality" name="test_a_digit_grid_question_is_unknown_not_pass" time="0.000" /><testcase classname="tests.test_explanation_quality" name="test_the_verdict_states_what_it_did_not_check" time="0.000" /><testcase classname="tests.test_explanation_quality" name="test_machine_reviewed_requires_a_passing_server_verification" time="0.014" /><testcase classname="tests.test_explanation_quality" name="test_machine_reviewed_is_signed_by_the_machine_not_a_person" time="0.015" /><testcase classname="tests.test_explanation_quality" name="test_a_human_version_outranks_a_later_machine_one" time="0.016" /><testcase classname="tests.test_explanation_quality" name="test_a_machine_version_delivers_where_no_human_one_exists" time="0.014" /><testcase classname="tests.test_explanation_quality" name="test_a_draft_is_never_delivered" time="0.014" /><testcase classname="tests.test_explanation_quality" name="test_verification_evidence_is_rejected_on_ordinary_statuses" time="0.014" /><testcase classname="tests.test_explanations_assembly" name="test_database_has_reviewed_explanations" time="0.111" /><testcase classname="tests.test_explanations_assembly" name="test_work_paper_json_explanations" time="0.004" /><testcase classname="tests.test_explanations_assembly" name="test_review_content_workflow" time="0.001"><skipped type="pytest.skip" message="这套卷当前未被限制投放；本测试只覆盖受限时的拒绝行为">/workspace/Develop/eju-question-bank/tests/test_explanations_assembly.py:161: 这套卷当前未被限制投放；本测试只覆盖受限时的拒绝行为</skipped></testcase><testcase classname="tests.test_image_remaster" name="test_clean_and_whiten_image" time="0.004" /><testcase classname="tests.test_image_remaster" name="test_crop_tight_bbox" time="0.001" /><testcase classname="tests.test_image_remaster" name="test_remaster_image_file" time="0.003" /><testcase classname="tests.test_image_remaster" name="test_render_table_to_svg" time="0.000" /><testcase classname="tests.test_image_remaster" name="test_parse_reading_page" time="0.001" /><testcase classname="tests.test_image_remaster" name="test_detect_reading_illustrations" time="0.007" /><testcase classname="tests.test_image_remaster" name="test_crop_and_whiten_figure" time="0.002" /><testcase classname="tests.test_inventory_cli" name="test_inventory_status_summary" time="0.055" /><testcase classname="tests.test_inventory_cli" name="test_cli_subcommands" time="1.212" /><testcase classname="tests.test_jobs" name="test_job_manager_lifecycle" time="0.042" /><testcase classname="tests.test_jobs" name="test_job_http_endpoints" time="1.707" /><testcase classname="tests.test_jobs" name="test_queued_cancellation_and_lease_recovery" time="0.044" /><testcase classname="tests.test_jobs" name="test_user_cancellation_is_never_auto_resumed" time="0.015" /><testcase classname="tests.test_jobs" name="test_auto_recovery_stops_at_the_retry_budget" time="0.022" /><testcase classname="tests.test_learning_collections" name="test_collection_pins_multiple_sources_and_keeps_material_group" time="0.103" /><testcase classname="tests.test_learning_collections" name="test_notes_bookmarks_wrong_retry_and_schedule" time="0.056" /><testcase classname="tests.test_machine_attestation" name="test_attested_pages_publish_and_stay_labelled_as_machine_work" time="0.093" /><testcase classname="tests.test_machine_attestation" name="test_attestation_cannot_be_forged_or_used_on_a_draft" time="0.070" /><testcase classname="tests.test_machine_attestation" name="test_human_signature_replaces_the_machine_attestation" time="0.036" /><testcase classname="tests.test_machine_attestation" name="test_unexplained_slot_gap_truncates_a_section_but_an_explained_one_does_not" time="0.000" /><testcase classname="tests.test_machine_attestation" name="test_unverifiable_questions_are_excluded_with_a_stated_reason" time="0.001" /><testcase classname="tests.test_machine_attestation" name="test_session_answer_key_registration_is_factual_and_idempotent" time="0.010" /><testcase classname="tests.test_machine_attestation" name="test_row_per_question_key_files_each_section_under_its_own_subject" time="0.001" /><testcase classname="tests.test_machine_attestation" name="test_a_slot_read_twice_with_two_different_answers_is_dropped_alone" time="0.001" /><testcase classname="tests.test_machine_attestation" name="test_answers_above_a_numbering_hole_are_kept_when_the_booklet_confirms_them" time="0.000" /><testcase classname="tests.test_machine_attestation" name="test_section_sequence_fills_slots_only_when_both_checks_agree" time="0.000" /><testcase classname="tests.test_machine_attestation" name="test_two_captures_of_one_answer_page_merge_by_agreement" time="0.000" /><testcase classname="tests.test_machine_attestation" name="test_a_question_whose_options_land_on_the_next_page_is_still_read" time="0.000" /><testcase classname="tests.test_machine_attestation" name="test_transposed_mathematics_key_is_read_by_letter_runs" time="0.000" /><testcase classname="tests.test_machine_attestation" name="test_a_group_is_used_only_when_its_questions_account_for_every_blank" time="0.000" /><testcase classname="tests.test_machine_attestation" name="test_parse_pages_reports_the_run_limit_and_what_sits_above_it" time="0.002" /><testcase classname="tests.test_machine_attestation" name="test_sub_questions_keep_their_parent_and_its_passage_across_a_page_break" time="0.002" /><testcase classname="tests.test_make_paper" name="test_filename_detection_reports_what_it_could_not_read" time="0.000" /><testcase classname="tests.test_make_paper" name="test_upload_only_accepts_real_pdfs_and_stays_in_the_workspace" time="0.001" /><testcase classname="tests.test_make_paper" name="test_vision_profiles_must_stay_on_loopback" time="0.001" /><testcase classname="tests.test_make_paper" name="test_make_paper_rejects_requests_the_pipeline_could_not_honour" time="0.541" /><testcase classname="tests.test_management_browser" name="test_import_render_and_backup_from_management_ui" time="10.970" /><testcase classname="tests.test_management_browser" name="test_practice_audio_stops_at_cue_end_and_restores_position" time="2.678" /><testcase classname="tests.test_math_answers" name="test_letters_and_digits_pair_one_for_one" time="0.001" /><testcase classname="tests.test_math_answers" name="test_a_minus_sign_occupies_its_own_blank" time="0.001" /><testcase classname="tests.test_math_answers" name="test_a_roman_numeral_line_is_told_from_a_blank_row" time="0.001" /><testcase classname="tests.test_math_answers" name="test_question_number_resets_with_the_group" time="0.001" /><testcase classname="tests.test_math_answers" name="test_courses_are_kept_apart" time="0.001" /><testcase classname="tests.test_math_answers" name="test_a_row_that_does_not_line_up_is_reported_not_split" time="0.001" /><testcase classname="tests.test_math_answers" name="test_text_without_a_course_heading_yields_nothing" time="0.001" /><testcase classname="tests.test_math_questions" name="test_slot_letters_come_from_unambiguous_notation_only" time="0.001" /><testcase classname="tests.test_math_questions" name="test_a_reprinted_answer_key_page_is_not_read_as_questions" time="0.001" /><testcase classname="tests.test_math_questions" name="test_collects_one_entry_per_printed_question" time="0.005" /><testcase classname="tests.test_math_questions" name="test_blanks_come_from_the_key_and_the_stem_only_checks_them" time="0.004" /><testcase classname="tests.test_math_questions" name="test_a_stem_referencing_a_blank_the_key_lacks_is_refused" time="0.003" /><testcase classname="tests.test_math_questions" name="test_a_question_the_key_says_nothing_about_is_dropped" time="0.003" /><testcase classname="tests.test_math_questions" name="test_a_group_without_a_question_number_is_one_question" time="0.003" /><testcase classname="tests.test_math_questions" name="test_duplicate_group_and_question_are_collapsed" time="0.003" /><testcase classname="tests.test_ocr_pipeline" name="test_extract_is_resumable" time="0.014" /><testcase classname="tests.test_ocr_pipeline" name="test_compute_ocr_cache_key" time="0.001" /><testcase classname="tests.test_ocr_pipeline" name="test_extract_with_pages_filter_and_db" time="0.034" /><testcase classname="tests.test_ocr_pipeline" name="test_extract_retry_failed" time="0.013" /><testcase classname="tests.test_ocr_pipeline" name="test_cache_sidecar_does_not_become_a_page" time="0.005" /><testcase classname="tests.test_ocr_pipeline" name="test_stale_render_and_wrong_model_page_are_rejected" time="0.007" /><testcase classname="tests.test_ocr_pipeline" name="test_ocr_cache_is_not_reused_across_models" time="0.002" /><testcase classname="tests.test_ocr_pipeline" name="test_ocr_cache_is_not_reused_after_the_page_is_re_rendered" time="0.002" /><testcase classname="tests.test_ocr_pipeline" name="test_a_legacy_cache_without_provenance_is_still_reused" time="0.002" /><testcase classname="tests.test_ops" name="test_run_doctor" time="0.147" /><testcase classname="tests.test_ops" name="test_check_database" time="0.020" /><testcase classname="tests.test_ops" name="test_backup_create_verify_restore" time="0.050" /><testcase classname="tests.test_page_contract" name="test_page_contract_accepts_variable_option_count" time="0.003" /><testcase classname="tests.test_page_contract" name="test_page_contract_fails_closed_on_coverage_and_bbox" time="0.003" /><testcase classname="tests.test_page_contract" name="test_page_contract_region_ids_exact_set_match" time="0.002" /><testcase classname="tests.test_page_contracts" name="test_draft_carries_the_questions_it_read" time="0.001" /><testcase classname="tests.test_page_contracts" name="test_draft_can_never_be_signed" time="0.001" /><testcase classname="tests.test_page_contracts" name="test_region_evidence_is_never_invented" time="0.001" /><testcase classname="tests.test_page_contracts" name="test_detected_ink_regions_are_reported_as_unaccounted" time="0.002" /><testcase classname="tests.test_page_contracts" name="test_shared_passage_becomes_one_material_block" time="0.001" /><testcase classname="tests.test_page_contracts" name="test_a_question_without_a_slot_is_flagged_not_guessed" time="0.001" /><testcase classname="tests.test_page_contracts" name="test_a_page_with_nothing_read_gets_an_ignored_block_and_an_issue" time="0.001" /><testcase classname="tests.test_page_contracts" name="test_contract_path_matches_what_the_review_workbench_reads" time="0.001" /><testcase classname="tests.test_quality_findings" name="test_a_failed_run_is_not_reported_as_clean" time="0.000" /><testcase classname="tests.test_quality_findings" name="test_a_partial_run_is_unknown_not_pass" time="0.000" /><testcase classname="tests.test_quality_findings" name="test_a_complete_run_passes" time="0.000" /><testcase classname="tests.test_quality_findings" name="test_no_questions_is_not_applicable" time="0.000" /><testcase classname="tests.test_quality_findings" name="test_a_confirmable_finding_is_confirmed_before_it_blocks" time="0.000" /><testcase classname="tests.test_quality_findings" name="test_a_confirmable_finding_the_server_disproves_is_dismissed" time="0.000" /><testcase classname="tests.test_quality_findings" name="test_placeholder_text_left_in_the_product_is_a_blocker" time="0.002" /><testcase classname="tests.test_quality_findings" name="test_an_unconfirmable_finding_stays_suspect_and_is_quarantined" time="0.000" /><testcase classname="tests.test_quality_findings" name="test_a_finding_about_a_question_not_in_this_paper_is_dropped" time="0.000" /><testcase classname="tests.test_quality_findings" name="test_an_unknown_kind_is_dropped" time="0.000" /><testcase classname="tests.test_quality_findings" name="test_the_same_problem_reported_twice_is_one_finding" time="0.000" /><testcase classname="tests.test_quality_findings" name="test_dedup_key_separates_generations_and_targets" time="0.000" /><testcase classname="tests.test_quality_findings" name="test_quarantine_is_per_question_not_per_paper" time="0.000" /><testcase classname="tests.test_quality_findings" name="test_summary_reports_quarantine_and_coverage_together" time="0.000" /><testcase classname="tests.test_quality_findings" name="test_bad_severity_or_status_is_refused" time="0.000" /><testcase classname="tests.test_quality_findings" name="test_a_broken_shared_material_quarantines_its_whole_group" time="0.000" /><testcase classname="tests.test_quality_findings" name="test_one_questions_own_problem_does_not_take_its_neighbours" time="0.000" /><testcase classname="tests.test_quality_findings" name="test_dependency_groups_map_materials_to_their_questions" time="0.000" /><testcase classname="tests.test_question_blocks" name="test_reads_latex_circled_options" time="0.000" /><testcase classname="tests.test_question_blocks" name="test_reads_plain_numbered_options" time="0.000" /><testcase classname="tests.test_question_blocks" name="test_sub_questions_keep_their_own_stem_and_share_the_passage" time="0.000" /><testcase classname="tests.test_question_blocks" name="test_front_matter_numbered_list_is_not_a_question" time="0.000" /><testcase classname="tests.test_question_blocks" name="test_incomplete_options_are_dropped_not_padded" time="0.000" /><testcase classname="tests.test_question_blocks" name="test_empty_page_yields_nothing" time="0.000" /><testcase classname="tests.test_real_2023_science_pdf" name="test_real_pdf_probe_and_representative_render" time="1.062" /><testcase classname="tests.test_remastered_assembly" name="test_build_japanese_forms_with_ocr_data" time="0.002" /><testcase classname="tests.test_remastered_assembly" name="test_ingest_booklet_pages_prefers_remastered" time="0.003" /><testcase classname="tests.test_remote_boundary" name="test_bad_remote_configuration_fails_before_binding" time="0.001" /><testcase classname="tests.test_remote_boundary" name="test_remote_api_requires_token_and_cookie_is_usable" time="0.525" /><testcase classname="tests.test_review_browser" name="test_review_from_page_to_publication_in_browser" time="31.180"><failure message="playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.&#10;Call log:&#10;  - waiting for locator(&quot;.stage-rail-item&quot;).filter(has_text=&quot;4 提取与逐页复核&quot;)">tmp_path = PosixPath('/tmp/pytest-of-root/pytest-796/test_review_from_page_to_publi0')
+
+    def test_review_from_page_to_publication_in_browser(tmp_path):
+        (tmp_path/'sources').mkdir()
+        for name,text in [('q.pdf','Choose 1 or 2'),('a.pdf','Answer 2')]:
+            doc=pymupdf.open();page=doc.new_page();page.insert_text((40,40),text);doc.save(tmp_path/'sources'/name);doc.close()
+        manifest=create_source_manifest(session='TEST',subject='SCIENCE',language='ja',syllabus_version='2015',
+            question_booklet=tmp_path/'sources/q.pdf',answer_key=tmp_path/'sources/a.pdf',rights_status='PRIVATE_STUDY',rights_note='Synthetic browser fixture',
+            output_path=tmp_path/'work/test/source-manifest.json')
+        from eju_bank.inventory import upsert_inventory_item
+        from eju_bank.util import write_json
+        manifest['inventoryId']='fixture-source'
+        write_json(tmp_path/'work/test/source-manifest.json',manifest)
+        upsert_inventory_item({'inventoryId':'fixture-source','session':manifest['session'],'subject':'SCIENCE','language':'ja',
+            'syllabusId':'basic-2015','requiredFiles':['QUESTION_BOOKLET','ANSWER_KEY'],'rightsStatus':'PRIVATE_STUDY',
+            'pipelineStatus':'RECEIVED','expectedForms':['PHYSICS_JA']},tmp_path/'content/content-inventory.json')
+        server=create_server(tmp_path/'library/eju.db',port=0,workspace_root=tmp_path)
+        thread=threading.Thread(target=server.serve_forever,daemon=True);thread.start()
+        try:
+            with sync_playwright() as pw:
+                browser=pw.chromium.launch(headless=True);page=browser.new_page();errors=[]
+                page.on('pageerror',lambda e: errors.append(str(e)))
+                base=f'http://127.0.0.1:{server.server_port}'
+                # 逐页复核是流水线的阶段 ④，从课程库的来源列表点进去；
+                # 点开之后会跳到复核编辑器那个独立页面。
+                page.goto(f'{base}/studio/library')
+                expect(page.locator('.source-row').first).to_be_visible()
+                page.locator('.source-row a').first.click()
+&gt;               page.locator('.stage-rail-item', has_text='4 提取与逐页复核').click()
+
+/workspace/Develop/eju-question-bank/tests/test_review_browser.py:41: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/opt/conda/lib/python3.11/site-packages/playwright/sync_api/_generated.py:17876: in click
+    self._sync(
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_locator.py:165: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_frame.py:593: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;playwright._impl._connection.Connection object at 0x7272ddbf3250&gt;
+cb = &lt;function Channel.send.&lt;locals&gt;.&lt;lambda&gt; at 0x7272d498f4c0&gt;
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -&gt; Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        parsed_st = _attach_api_call_information(
+            getattr(task, "__pw_stack__", None) or _capture_stack_trace(),
+            is_internal,
+            title,
+        )
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+&gt;           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator(".stage-rail-item").filter(has_text="4 提取与逐页复核")
+
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_connection.py:632: TimeoutError</failure></testcase><testcase classname="tests.test_security" name="test_host_validation" time="0.000" /><testcase classname="tests.test_security" name="test_origin_validation" time="0.000" /><testcase classname="tests.test_security" name="test_admin_token" time="0.000" /><testcase classname="tests.test_security" name="test_zero_correct_answer_leakage" time="0.000" /><testcase classname="tests.test_selection_grading" name="test_science_mock_requires_two_and_excludes_japan_world" time="0.000" /><testcase classname="tests.test_selection_grading" name="test_digit_grid_is_exact_and_preserves_leading_zero" time="0.000" /><testcase classname="tests.test_server_v1" name="test_api_health" time="0.570" /><testcase classname="tests.test_server_v1" name="test_api_papers_and_sanitization" time="0.604" /><testcase classname="tests.test_server_v1" name="test_session_lifecycle" time="0.655" /><testcase classname="tests.test_server_v1" name="test_route_strictness_and_transfer_encoding" time="0.615" /><testcase classname="tests.test_session_reliability" name="test_unanswered_and_essay_denominators" time="0.082" /><testcase classname="tests.test_session_reliability" name="test_atomic_batch_receipts_and_versions" time="0.050" /><testcase classname="tests.test_session_reliability" name="test_version_pinned_result_and_restart" time="0.074" /><testcase classname="tests.test_session_reliability" name="test_concurrent_submit_is_idempotent" time="0.063" /><testcase classname="tests.test_session_reliability" name="test_every_publish_entry_checks_rights" time="0.040" /><testcase classname="tests.test_session_reliability" name="test_expired_session_auto_submit" time="0.046" /><testcase classname="tests.test_session_reliability" name="test_submit_expected_response_version_conflict" time="0.044" /><testcase classname="tests.test_split_layout" name="test_split_layout_and_material_association" time="1.793" /><testcase classname="tests.test_split_layout" name="test_split_layout_narrow_screen_no_overflow" time="1.448" /><testcase classname="tests.test_split_layout" name="test_material_figure_and_split_layout" time="1.526" /><testcase classname="tests.test_studio_state_isolation" name="test_session_review_state_belongs_to_one_source" time="15.895"><failure message="playwright._impl._errors.TimeoutError: Page.wait_for_function: Timeout 15000ms exceeded.">studio = 'http://127.0.0.1:41829'
+
+    def test_session_review_state_belongs_to_one_source(studio):
+        """组装过 A 之后，B 不能继承 A 的候选与批准。"""
+        with sync_playwright() as pw:
+&gt;           browser, page, errors = _open(pw, studio)
+                                    ^^^^^^^^^^^^^^^^^
+
+/workspace/Develop/eju-question-bank/tests/test_studio_state_isolation.py:49: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/workspace/Develop/eju-question-bank/tests/test_studio_state_isolation.py:42: in _open
+    page.wait_for_function("() =&gt; typeof stageExtra === 'function'", timeout=15000)
+/opt/conda/lib/python3.11/site-packages/playwright/sync_api/_generated.py:12761: in wait_for_function
+    self._sync(
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_page.py:1151: in wait_for_function
+    return await self._main_frame.wait_for_function(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_frame.py:940: in wait_for_function
+    await self._channel.send("waitForFunction", self._timeout, params)
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;playwright._impl._connection.Connection object at 0x7272d49d3690&gt;
+cb = &lt;function Channel.send.&lt;locals&gt;.&lt;lambda&gt; at 0x7272caf63740&gt;
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -&gt; Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        parsed_st = _attach_api_call_information(
+            getattr(task, "__pw_stack__", None) or _capture_stack_trace(),
+            is_internal,
+            title,
+        )
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+&gt;           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Page.wait_for_function: Timeout 15000ms exceeded.
+
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_connection.py:632: TimeoutError</failure></testcase><testcase classname="tests.test_studio_state_isolation" name="test_invalidating_the_review_releases_its_owner" time="15.876"><failure message="playwright._impl._errors.TimeoutError: Page.wait_for_function: Timeout 15000ms exceeded.">studio = 'http://127.0.0.1:35251'
+
+    def test_invalidating_the_review_releases_its_owner(studio):
+        """作废候选时连所有者一起清掉，否则下一次比对还会认成同一套卷。"""
+        with sync_playwright() as pw:
+&gt;           browser, page, errors = _open(pw, studio)
+                                    ^^^^^^^^^^^^^^^^^
+
+/workspace/Develop/eju-question-bank/tests/test_studio_state_isolation.py:77: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/workspace/Develop/eju-question-bank/tests/test_studio_state_isolation.py:42: in _open
+    page.wait_for_function("() =&gt; typeof stageExtra === 'function'", timeout=15000)
+/opt/conda/lib/python3.11/site-packages/playwright/sync_api/_generated.py:12761: in wait_for_function
+    self._sync(
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_page.py:1151: in wait_for_function
+    return await self._main_frame.wait_for_function(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_frame.py:940: in wait_for_function
+    await self._channel.send("waitForFunction", self._timeout, params)
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;playwright._impl._connection.Connection object at 0x7272caf179d0&gt;
+cb = &lt;function Channel.send.&lt;locals&gt;.&lt;lambda&gt; at 0x7272caf63e20&gt;
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -&gt; Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        parsed_st = _attach_api_call_information(
+            getattr(task, "__pw_stack__", None) or _capture_stack_trace(),
+            is_internal,
+            title,
+        )
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+&gt;           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Page.wait_for_function: Timeout 15000ms exceeded.
+
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_connection.py:632: TimeoutError</failure></testcase><testcase classname="tests.test_studio_state_isolation" name="test_a_stale_open_response_does_not_repaint_the_new_source" time="15.893"><failure message="playwright._impl._errors.TimeoutError: Page.wait_for_function: Timeout 15000ms exceeded.">studio = 'http://127.0.0.1:42735'
+
+    def test_a_stale_open_response_does_not_repaint_the_new_source(studio):
+        """切来源时旧请求还在路上，回来得晚的那份必须被丢掉。
+    
+        ``openSource`` 每次递增一个序号，返回后先比对；序号变了就直接退出，不写
+        ``state.stageInfo``、不重画面板。
+        """
+        with sync_playwright() as pw:
+&gt;           browser, page, errors = _open(pw, studio)
+                                    ^^^^^^^^^^^^^^^^^
+
+/workspace/Develop/eju-question-bank/tests/test_studio_state_isolation.py:101: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/workspace/Develop/eju-question-bank/tests/test_studio_state_isolation.py:42: in _open
+    page.wait_for_function("() =&gt; typeof stageExtra === 'function'", timeout=15000)
+/opt/conda/lib/python3.11/site-packages/playwright/sync_api/_generated.py:12761: in wait_for_function
+    self._sync(
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_page.py:1151: in wait_for_function
+    return await self._main_frame.wait_for_function(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_frame.py:940: in wait_for_function
+    await self._channel.send("waitForFunction", self._timeout, params)
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;playwright._impl._connection.Connection object at 0x7272c0d56350&gt;
+cb = &lt;function Channel.send.&lt;locals&gt;.&lt;lambda&gt; at 0x7272ddb8bba0&gt;
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -&gt; Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        parsed_st = _attach_api_call_information(
+            getattr(task, "__pw_stack__", None) or _capture_stack_trace(),
+            is_internal,
+            title,
+        )
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+&gt;           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Page.wait_for_function: Timeout 15000ms exceeded.
+
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_connection.py:632: TimeoutError</failure></testcase><testcase classname="tests.test_studio_state_isolation" name="test_extra_booklets_are_refused_not_silently_dropped" time="1.214" /><testcase classname="tests.test_studio_state_isolation" name="test_a_missing_answer_key_warns_but_does_not_block_extraction" time="1.172" /><testcase classname="tests.test_studio_state_isolation" name="test_one_booklet_and_one_key_is_clean" time="1.197" /><testcase classname="tests.test_studio_state_isolation" name="test_math_sources_are_distinguishable_in_every_list" time="15.849"><failure message="playwright._impl._errors.TimeoutError: Page.wait_for_function: Timeout 15000ms exceeded.">studio = 'http://127.0.0.1:34371'
+
+    def test_math_sources_are_distinguishable_in_every_list(studio):
+        """「数学」这一行分不出文科卷还是理科卷，而那是两份完全不同的题册。"""
+        with sync_playwright() as pw:
+&gt;           browser, page, errors = _open(pw, studio)
+                                    ^^^^^^^^^^^^^^^^^
+
+/workspace/Develop/eju-question-bank/tests/test_studio_state_isolation.py:207: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/workspace/Develop/eju-question-bank/tests/test_studio_state_isolation.py:42: in _open
+    page.wait_for_function("() =&gt; typeof stageExtra === 'function'", timeout=15000)
+/opt/conda/lib/python3.11/site-packages/playwright/sync_api/_generated.py:12761: in wait_for_function
+    self._sync(
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_page.py:1151: in wait_for_function
+    return await self._main_frame.wait_for_function(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_frame.py:940: in wait_for_function
+    await self._channel.send("waitForFunction", self._timeout, params)
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_connection.py:76: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;playwright._impl._connection.Connection object at 0x7272c0d55f10&gt;
+cb = &lt;function Channel.send.&lt;locals&gt;.&lt;lambda&gt; at 0x7272caf60900&gt;
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -&gt; Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        parsed_st = _attach_api_call_information(
+            getattr(task, "__pw_stack__", None) or _capture_stack_trace(),
+            is_internal,
+            title,
+        )
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+&gt;           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Page.wait_for_function: Timeout 15000ms exceeded.
+
+/opt/conda/lib/python3.11/site-packages/playwright/_impl/_connection.py:632: TimeoutError</failure></testcase><testcase classname="tests.test_studio_summary" name="test_a_fresh_source_is_not_reported_as_published" time="0.020" /><testcase classname="tests.test_studio_summary" name="test_reading_the_summary_has_no_side_effects" time="0.037" /><testcase classname="tests.test_studio_summary" name="test_human_pages_show_up_as_manual_state" time="0.042" /><testcase classname="tests.test_studio_summary" name="test_an_incomplete_proofread_is_not_reported_as_verified" time="0.034" /><testcase classname="tests.test_studio_summary" name="test_quarantined_questions_are_counted_separately" time="0.033" /><testcase classname="tests.test_studio_summary" name="test_studio_summary_states_its_basis" time="0.035" /><testcase classname="tests.test_studio_summary" name="test_one_broken_source_does_not_blank_the_overview" time="0.020" /><testcase classname="tests.test_trial_2023_science" name="test_published_2023_science_paper" time="0.021" /><testcase classname="tests.test_trial_2023_science" name="test_mock_session_trial" time="0.070" /><testcase classname="tests.test_workflow_acceptance" name="test_first_attempt_stats_skip_unanswered_exposures" time="0.055" /><testcase classname="tests.test_workflow_acceptance" name="test_preview_is_pinned_idempotent_and_rechecks_delivery" time="0.050" /><testcase classname="tests.test_workflow_acceptance" name="test_explanations_pin_at_submission_and_require_review" time="0.049" /><testcase classname="tests.test_workflow_acceptance" name="test_note_cas_and_assessment_never_changes_objective_score" time="0.054" /><testcase classname="tests.test_workflow_acceptance" name="test_http_cursor_and_job_input_boundaries" time="0.598" /><testcase classname="tests.test_workflow_acceptance" name="test_suspended_version_keeps_only_its_session_media" time="0.633" /><testcase classname="tests.test_workflow_acceptance" name="test_explanation_and_translation_have_independent_frozen_streams" time="0.121" /><testcase classname="tests.test_workflow_acceptance" name="test_issue_from_old_session_stays_bound_to_old_version" time="0.096" /><testcase classname="tests.test_workflow_completion" name="test_attempt_facts_first_repeat_unanswered_and_idempotence" time="0.054" /><testcase classname="tests.test_workflow_completion" name="test_preview_pins_old_version_and_receipt" time="0.078" /><testcase classname="tests.test_workflow_completion" name="test_note_conflict_and_progress_conflict" time="0.043" /><testcase classname="tests.test_workflow_completion" name="test_explanation_revision_is_frozen_at_submission" time="0.048" /><testcase classname="tests.test_workflow_completion" name="test_essay_empty_unicode_and_assessment_preserves_response" time="0.086" /><testcase classname="tests.test_workflow_completion" name="test_section_enforces_selected_question_scope" time="0.069" /><testcase classname="tests.test_workflow_completion" name="test_keyset_cursor_filters_and_no_answer_leaks" time="0.041" /><testcase classname="tests.test_workflow_completion" name="test_default_workspace_rejects_synthetic_and_opens_local_admin" time="0.558" /><testcase classname="tests.test_workflow_completion" name="test_full_backup_restores_production_paths_and_history" time="0.097" /><testcase classname="tests.test_workflow_completion" name="test_strict_audio_only_exposes_current_segment_and_preserves_play_count" time="0.090" /><testcase classname="tests.test_workflow_completion" name="test_diagnostics_retention_and_personal_delete_are_scoped" time="0.073" /><testcase classname="tests.test_workflow_completion" name="test_rights_withdrawal_blocks_old_content_but_retains_history" time="0.044" /><testcase classname="tests.test_workflow_completion" name="test_published_media_and_stopped_bookmark_preview" time="0.049" /><testcase classname="tests.test_workflow_completion" name="test_foreground_time_is_not_doubled_across_sessions" time="0.045" /><testcase classname="tests.test_workflow_completion" name="test_session_question_pages_pin_version_and_cursor_scope" time="0.071" /></testsuite></testsuites>

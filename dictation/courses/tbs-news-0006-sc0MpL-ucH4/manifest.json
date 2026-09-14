@@ -1,0 +1,1407 @@
+{
+  "schemaVersion": 1,
+  "title": "【熊本地震から1か月】政府の“1500億円”支援パッケージとは？“九州応援割”1泊6割補助も【Nスタ解説】｜TBS NEWS DIG",
+  "sourceLanguage": "ja",
+  "media": {
+    "kind": "remote",
+    "provider": "youtube",
+    "control": "full",
+    "videoId": "sc0MpL-ucH4",
+    "pageUrl": "https://www.youtube.com/watch?v=sc0MpL-ucH4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/sc0MpL-ucH4",
+    "durationSec": 287.0,
+    "uploader": "TBS NEWS DIG Powered by JNN",
+    "attribution": {
+      "sourceName": "YouTube",
+      "rightsHolder": "TBS NEWS DIG Powered by JNN",
+      "retrievedAt": "2026-09-01",
+      "redistributable": false,
+      "notes": "Timings, translations and explanations are ours; the transcript text derives from the site's captions or from local transcription. The media itself is never stored and this course is not redistributable."
+    }
+  },
+  "sentences": [
+    {
+      "startTime": 0.199,
+      "endTime": 3.278,
+      "sourceText": "政府はどのような支援を今後続けていくのかというところについて詳しく見ていきましょう。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "政府はどのような支援を今後続けていくのかというところについて詳しく見ていきましょう。",
+      "id": "s_1ea08441b2086606e29c642e"
+    },
+    {
+      "startTime": 6.399,
+      "endTime": 14.855,
+      "sourceText": "TBSよろしくお願いします。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "TBSよろしくお願いします。",
+      "id": "s_594abdc65208778e4c3f246c"
+    },
+    {
+      "startTime": 23.599,
+      "endTime": 29.829,
+      "sourceText": "政府がこの支援パッケージとして3つの柱を立てて今後行っていくということが分かりました。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "政府がこの支援パッケージとして3つの柱を立てて今後行っていくということが分かりました。",
+      "id": "s_7bf4b100001801b3d3cbbfab"
+    },
+    {
+      "startTime": 30.16,
+      "endTime": 34.029,
+      "sourceText": "今年度の予備からはおよそ1500億円1478億円",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "今年度の予備からはおよそ1500億円1478億円",
+      "id": "s_f82fcd7a35ae3e5762a99aa6"
+    },
+    {
+      "startTime": 35.92,
+      "endTime": 41.719,
+      "sourceText": "を当てるということなんですが山崎さんはこの予備費規模というのはどうでしょうか?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "を当てるということなんですが山崎さんはこの予備費規模というのはどうでしょうか?",
+      "id": "s_832adfabc794a61242cad678"
+    },
+    {
+      "startTime": 41.719,
+      "endTime": 44.67,
+      "sourceText": "そうですね、10年前のああもう支援パッケージありましたけれど",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "そうですね、10年前のああもう支援パッケージありましたけれど",
+      "id": "s_0717b178bf4184c34111e1e0"
+    },
+    {
+      "startTime": 44.719,
+      "endTime": 49.07,
+      "sourceText": "もえそれと同等のあの非常にえ地元の要望を組んだ支援",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "もえそれと同等のあの非常にえ地元の要望を組んだ支援",
+      "id": "s_50669dde7d98f99761721c46"
+    },
+    {
+      "startTime": 50.199,
+      "endTime": 52.239,
+      "sourceText": "になっているという風に考えています。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "になっているという風に考えています。",
+      "id": "s_5558154c1937bb9863fa2597"
+    },
+    {
+      "startTime": 52.239,
+      "endTime": 52.709,
+      "sourceText": "なるほど。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "なるほど。",
+      "id": "s_0982ac0ddb5ca082286d3201"
+    },
+    {
+      "startTime": 52.96,
+      "endTime": 55.709,
+      "sourceText": "では具体的にこの3本の柱見ていきますが、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "では具体的にこの3本の柱見ていきますが、",
+      "id": "s_6009fc4a7f94b5c33db1994f"
+    },
+    {
+      "startTime": 55.76,
+      "endTime": 61.029,
+      "sourceText": "まずは生活の再建に向けた避難生活環境の改善であったりとか",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "まずは生活の再建に向けた避難生活環境の改善であったりとか",
+      "id": "s_bc29d545020e7f08fd5c61e0"
+    },
+    {
+      "startTime": 61.12,
+      "endTime": 67.23,
+      "sourceText": "住まの確保など先ほどデミザアナウンサーの中継にもありましたがこの仮設住宅を作っていく、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "住まの確保など先ほどデミザアナウンサーの中継にもありましたがこの仮設住宅を作っていく、",
+      "id": "s_fb7f4e3a6e582024967e71dd"
+    },
+    {
+      "startTime": 67.28,
+      "endTime": 71.39,
+      "sourceText": "また十分に準備をしていくというのもこれ大事なポイントになっていきます。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "また十分に準備をしていくというのもこれ大事なポイントになっていきます。",
+      "id": "s_167f51f5808a2783bef509d7"
+    },
+    {
+      "startTime": 71.92,
+      "endTime": 73.47,
+      "sourceText": "それから生業の再建、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "それから生業の再建、",
+      "id": "s_f2def471b05debc4d987619d"
+    },
+    {
+      "startTime": 73.759,
+      "endTime": 78.71,
+      "sourceText": "こういった農林や農林漁業業者への支援や観光産業への支援、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "こういった農林や農林漁業業者への支援や観光産業への支援、",
+      "id": "s_5c8f08b07726f5c0bb563362"
+    },
+    {
+      "startTime": 78.84,
+      "endTime": 83.35,
+      "sourceText": "とりわけ夏休みというこの1番観光業でも、ま、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "とりわけ夏休みというこの1番観光業でも、ま、",
+      "id": "s_396b33a18bc6ec6df2439b0c"
+    },
+    {
+      "startTime": 83.439,
+      "endTime": 88.589,
+      "sourceText": "稼ぎ時きであった時の避難生活を続けていらっしゃる皆様へのサポートというのが急務です。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "稼ぎ時きであった時の避難生活を続けていらっしゃる皆様へのサポートというのが急務です。",
+      "id": "s_06a8c8995268850866c33d89"
+    },
+    {
+      "startTime": 89.04,
+      "endTime": 91.19,
+      "sourceText": "そして3つ目としては災害復旧、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "そして3つ目としては災害復旧、",
+      "id": "s_981316c89d4ae29f209a178f"
+    },
+    {
+      "startTime": 91.439,
+      "endTime": 97.19,
+      "sourceText": "公共施設の復旧や交通の確保などこういった3つの柱が立てられています。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "公共施設の復旧や交通の確保などこういった3つの柱が立てられています。",
+      "id": "s_99de3d3c1a677739f230d01a"
+    },
+    {
+      "startTime": 97.96,
+      "endTime": 101.03,
+      "sourceText": "中でもやはり観光業ですね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "中でもやはり観光業ですね。",
+      "id": "s_a294d8e19caeea12664c5da5"
+    },
+    {
+      "startTime": 118.6,
+      "endTime": 119.809,
+      "sourceText": "そうですね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "そうですね。",
+      "id": "s_0fe3d53b6b65ea61571173df"
+    },
+    {
+      "startTime": 119.871,
+      "endTime": 124.258,
+      "sourceText": "九州全体が影響を受けたという風になります。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "九州全体が影響を受けたという風になります。",
+      "id": "s_d16414dbf9330f1b867423db"
+    },
+    {
+      "startTime": 124.32,
+      "endTime": 124.366,
+      "sourceText": "はい。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "はい。",
+      "id": "s_049901c988ebc8f993be478e"
+    },
+    {
+      "startTime": 124.366,
+      "endTime": 124.719,
+      "sourceText": "では具体的にどういった内容になるんでしょうか?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "では具体的にどういった内容になるんでしょうか?",
+      "id": "s_0fbe65dbbe3de167ce5a6299"
+    },
+    {
+      "startTime": 124.719,
+      "endTime": 126.869,
+      "sourceText": "はい。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "はい。",
+      "id": "s_43b26d7c5f5460e641a00fdf"
+    },
+    {
+      "startTime": 128.08,
+      "endTime": 132.768,
+      "sourceText": "6割、え、その他の5県が5割というような内容になっております。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "6割、え、その他の5県が5割というような内容になっております。",
+      "id": "s_61a1c01c53ffd30af2b3c027"
+    },
+    {
+      "startTime": 132.768,
+      "endTime": 138.16,
+      "sourceText": "え、1泊りですね、補助が出るという形になります。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "え、1泊りですね、補助が出るという形になります。",
+      "id": "s_cf615a92da0f9d3faa082123"
+    },
+    {
+      "startTime": 138.16,
+      "endTime": 141.959,
+      "sourceText": "え、ただ上限額が決まっていまして、え、2万円、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "え、ただ上限額が決まっていまして、え、2万円、",
+      "id": "s_cf0c93058c97b7ccbe575cfc"
+    },
+    {
+      "startTime": 141.959,
+      "endTime": 146.957,
+      "sourceText": "え、200以上の交通付き宿泊旅行ですと3万円。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "え、200以上の交通付き宿泊旅行ですと3万円。",
+      "id": "s_0028bb765442633d74790b87"
+    },
+    {
+      "startTime": 146.957,
+      "endTime": 155.44,
+      "sourceText": "え、宿泊地が2件以上となる泊旅行商品ですと3万5000円とあの上限額が決まっています。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "え、宿泊地が2件以上となる泊旅行商品ですと3万5000円とあの上限額が決まっています。",
+      "id": "s_a65afac349f768031eb8784c"
+    },
+    {
+      "startTime": 155.68,
+      "endTime": 156.23,
+      "sourceText": "10月1",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "10月1",
+      "id": "s_2ee611fb2923255779ca6e3d"
+    },
+    {
+      "startTime": 161.76,
+      "endTime": 163.27,
+      "sourceText": "うん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "うん。",
+      "id": "s_e4f0697df25d68fa0719d4da"
+    },
+    {
+      "startTime": 163.8,
+      "endTime": 164.993,
+      "sourceText": "ただ新幹線全線再開は9月の18",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "ただ新幹線全線再開は9月の18",
+      "id": "s_7628ea2191987a2f6ba14ad5"
+    },
+    {
+      "startTime": 169.72,
+      "endTime": 175.613,
+      "sourceText": "1日も早く何かできることを考えてみたいですね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "1日も早く何かできることを考えてみたいですね。",
+      "id": "s_ca4e033d045b1d7f4f9aa758"
+    },
+    {
+      "startTime": 177.239,
+      "endTime": 179.976,
+      "sourceText": "はい。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "はい。",
+      "id": "s_24d7cbda5b209736bd3211c7"
+    },
+    {
+      "startTime": 186.08,
+      "endTime": 186.43,
+      "sourceText": "1",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "1",
+      "id": "s_6f1e927766adcd07b8233d9a"
+    },
+    {
+      "startTime": 196.2,
+      "endTime": 198.723,
+      "sourceText": "はい。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "はい。",
+      "id": "s_f4d356fc1323363cadd5a1c2"
+    },
+    {
+      "startTime": 211.4,
+      "endTime": 211.487,
+      "sourceText": "うん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "うん。",
+      "id": "s_6a189ccdc8ce99bca3912bdd"
+    },
+    {
+      "startTime": 211.487,
+      "endTime": 212.121,
+      "sourceText": "ただやはりまだまだ復旧作業が続く中で被災地で",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "ただやはりまだまだ復旧作業が続く中で被災地で",
+      "id": "s_f3627f58a664218978a2ab23"
+    },
+    {
+      "startTime": 212.121,
+      "endTime": 213.304,
+      "sourceText": "はない場所だと思っても行っていいのかなという気持ちも正直ある方もいると思いますが、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "はない場所だと思っても行っていいのかなという気持ちも正直ある方もいると思いますが、",
+      "id": "s_ccefc2a282b3c59be579e0d5"
+    },
+    {
+      "startTime": 213.304,
+      "endTime": 214.521,
+      "sourceText": "過去で、過去の地震の際にはどういった効果であったりとかがあったんでしょうか?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "過去で、過去の地震の際にはどういった効果であったりとかがあったんでしょうか?",
+      "id": "s_dcaa5a97324e5b03bef85e10"
+    },
+    {
+      "startTime": 225.799,
+      "endTime": 226.149,
+      "sourceText": "そうですね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "そうですね。",
+      "id": "s_c833e9398a883824a8db4d74"
+    },
+    {
+      "startTime": 226.2,
+      "endTime": 228.72,
+      "sourceText": "ま過去の10年前の熊本地震の際もですね、え、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "ま過去の10年前の熊本地震の際もですね、え、",
+      "id": "s_390e5f280237f826f57bbd38"
+    },
+    {
+      "startTime": 228.72,
+      "endTime": 234.0,
+      "sourceText": "宿泊者数が271万9000人とあの目標が150万人だったんですけども、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "宿泊者数が271万9000人とあの目標が150万人だったんですけども、",
+      "id": "s_fe631afc92e2caf2ffd2ddff"
+    },
+    {
+      "startTime": 234.0,
+      "endTime": 236.109,
+      "sourceText": "それを大幅に上回った形となりました。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "それを大幅に上回った形となりました。",
+      "id": "s_f111f7bc58efd214ae5ecbe0"
+    },
+    {
+      "startTime": 236.319,
+      "endTime": 239.43,
+      "sourceText": "え、また地元の方々はですね、えっと復興割りを利用して、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "え、また地元の方々はですね、えっと復興割りを利用して、",
+      "id": "s_03c1475c366b3cb114cc1426"
+    },
+    {
+      "startTime": 239.439,
+      "endTime": 242.589,
+      "sourceText": "え、多くの観光客が戻ってくることへの期待の声も聞かれました。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "え、多くの観光客が戻ってくることへの期待の声も聞かれました。",
+      "id": "s_02dcd9671238c7252c7cc747"
+    },
+    {
+      "startTime": 242.599,
+      "endTime": 242.72,
+      "sourceText": "うん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "うん。",
+      "id": "s_77633096007c67db3e088442"
+    },
+    {
+      "startTime": 242.72,
+      "endTime": 243.07,
+      "sourceText": "うん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "うん。",
+      "id": "s_b56587a6dcf4c3f49677aa44"
+    },
+    {
+      "startTime": 243.319,
+      "endTime": 245.669,
+      "sourceText": "ですから難波さん、厚みさんできることを是非",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "ですから難波さん、厚みさんできることを是非",
+      "id": "s_0824b82d337f97517721c847"
+    },
+    {
+      "startTime": 246.959,
+      "endTime": 247.309,
+      "sourceText": "ですね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "ですね。",
+      "id": "s_ffc852d3a4cbfc8d7b41f59e"
+    },
+    {
+      "startTime": 247.319,
+      "endTime": 247.749,
+      "sourceText": "そうですね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "そうですね。",
+      "id": "s_1e3fa0447186c6fa10ac2db0"
+    },
+    {
+      "startTime": 250.799,
+      "endTime": 250.937,
+      "sourceText": "特に前回の復興割りの時ってすぐにこう完売になってしまうぐらい人気でしたし、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "特に前回の復興割りの時ってすぐにこう完売になってしまうぐらい人気でしたし、",
+      "id": "s_907117da78f7c6b528d0778a"
+    },
+    {
+      "startTime": 250.937,
+      "endTime": 251.093,
+      "sourceText": "飲食業の方もあの観光業やってらっしゃる方も皆さんすごくあの助かったって声もあったので",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "飲食業の方もあの観光業やってらっしゃる方も皆さんすごくあの助かったって声もあったので",
+      "id": "s_0f003dee8609336e102492a5"
+    },
+    {
+      "startTime": 251.093,
+      "endTime": 251.443,
+      "sourceText": "非常に期待したいなと思います。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "非常に期待したいなと思います。",
+      "id": "s_82d352e66a6426cfeb59e5e7"
+    },
+    {
+      "startTime": 259.4,
+      "endTime": 260.021,
+      "sourceText": "そうですね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "そうですね。",
+      "id": "s_57b1ce6a8aa41c272449fe9e"
+    },
+    {
+      "startTime": 260.021,
+      "endTime": 262.447,
+      "sourceText": "すでに復旧作業大変な中ではありますが前を向いて",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "すでに復旧作業大変な中ではありますが前を向いて",
+      "id": "s_0b40e383385a5d38e0a47fa9"
+    },
+    {
+      "startTime": 263.8,
+      "endTime": 264.39,
+      "sourceText": "1日1",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "1日1",
+      "id": "s_b2e45b0a394947479c7c64c9"
+    },
+    {
+      "startTime": 271.08,
+      "endTime": 277.55,
+      "sourceText": "こちらJNN・JRNでは令和8年熊本地震義援金を実施しております。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "こちらJNN・JRNでは令和8年熊本地震義援金を実施しております。",
+      "id": "s_f546c56af84135ca6fffdbfb"
+    },
+    {
+      "startTime": 277.8,
+      "endTime": 283.11,
+      "sourceText": "お寄せいただいた義援金は全額日本赤十字社を通じて被災地に送られます。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "お寄せいただいた義援金は全額日本赤十字社を通じて被災地に送られます。",
+      "id": "s_4819ab4375f9e0dbe8c64b6e"
+    },
+    {
+      "startTime": 283.36,
+      "endTime": 285.95,
+      "sourceText": "皆様のご協力どうぞお願いいたします。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "皆様のご協力どうぞお願いいたします。",
+      "id": "s_08076d01096315eb57642583"
+    }
+  ],
+  "buildMetadata": {
+    "transcriptSource": "site-subtitles",
+    "retrievedAt": "2026-09-01",
+    "mediaProbe": {
+      "title": "【熊本地震から1か月】政府の“1500億円”支援パッケージとは？“九州応援割”1泊6割補助も【Nスタ解説】｜TBS NEWS DIG",
+      "uploader": "TBS NEWS DIG Powered by JNN",
+      "durationSec": 287.0,
+      "extractor": "Youtube",
+      "subtitles": [
+        {
+          "language": "aa",
+          "kind": "auto"
+        },
+        {
+          "language": "ab",
+          "kind": "auto"
+        },
+        {
+          "language": "af",
+          "kind": "auto"
+        },
+        {
+          "language": "ak",
+          "kind": "auto"
+        },
+        {
+          "language": "am",
+          "kind": "auto"
+        },
+        {
+          "language": "ar",
+          "kind": "auto"
+        },
+        {
+          "language": "as",
+          "kind": "auto"
+        },
+        {
+          "language": "ay",
+          "kind": "auto"
+        },
+        {
+          "language": "az",
+          "kind": "auto"
+        },
+        {
+          "language": "ba",
+          "kind": "auto"
+        },
+        {
+          "language": "be",
+          "kind": "auto"
+        },
+        {
+          "language": "bg",
+          "kind": "auto"
+        },
+        {
+          "language": "bho",
+          "kind": "auto"
+        },
+        {
+          "language": "bn",
+          "kind": "auto"
+        },
+        {
+          "language": "bo",
+          "kind": "auto"
+        },
+        {
+          "language": "br",
+          "kind": "auto"
+        },
+        {
+          "language": "bs",
+          "kind": "auto"
+        },
+        {
+          "language": "ca",
+          "kind": "auto"
+        },
+        {
+          "language": "ceb",
+          "kind": "auto"
+        },
+        {
+          "language": "co",
+          "kind": "auto"
+        },
+        {
+          "language": "crs",
+          "kind": "auto"
+        },
+        {
+          "language": "cs",
+          "kind": "auto"
+        },
+        {
+          "language": "cy",
+          "kind": "auto"
+        },
+        {
+          "language": "da",
+          "kind": "auto"
+        },
+        {
+          "language": "de",
+          "kind": "auto"
+        },
+        {
+          "language": "dv",
+          "kind": "auto"
+        },
+        {
+          "language": "dz",
+          "kind": "auto"
+        },
+        {
+          "language": "ee",
+          "kind": "auto"
+        },
+        {
+          "language": "el",
+          "kind": "auto"
+        },
+        {
+          "language": "en",
+          "kind": "auto"
+        },
+        {
+          "language": "eo",
+          "kind": "auto"
+        },
+        {
+          "language": "es",
+          "kind": "auto"
+        },
+        {
+          "language": "et",
+          "kind": "auto"
+        },
+        {
+          "language": "eu",
+          "kind": "auto"
+        },
+        {
+          "language": "fa",
+          "kind": "auto"
+        },
+        {
+          "language": "fi",
+          "kind": "auto"
+        },
+        {
+          "language": "fil",
+          "kind": "auto"
+        },
+        {
+          "language": "fj",
+          "kind": "auto"
+        },
+        {
+          "language": "fo",
+          "kind": "auto"
+        },
+        {
+          "language": "fr",
+          "kind": "auto"
+        },
+        {
+          "language": "fy",
+          "kind": "auto"
+        },
+        {
+          "language": "ga",
+          "kind": "auto"
+        },
+        {
+          "language": "gaa",
+          "kind": "auto"
+        },
+        {
+          "language": "gd",
+          "kind": "auto"
+        },
+        {
+          "language": "gl",
+          "kind": "auto"
+        },
+        {
+          "language": "gn",
+          "kind": "auto"
+        },
+        {
+          "language": "gu",
+          "kind": "auto"
+        },
+        {
+          "language": "gv",
+          "kind": "auto"
+        },
+        {
+          "language": "ha",
+          "kind": "auto"
+        },
+        {
+          "language": "haw",
+          "kind": "auto"
+        },
+        {
+          "language": "hi",
+          "kind": "auto"
+        },
+        {
+          "language": "hmn",
+          "kind": "auto"
+        },
+        {
+          "language": "hr",
+          "kind": "auto"
+        },
+        {
+          "language": "ht",
+          "kind": "auto"
+        },
+        {
+          "language": "hu",
+          "kind": "auto"
+        },
+        {
+          "language": "hy",
+          "kind": "auto"
+        },
+        {
+          "language": "id",
+          "kind": "auto"
+        },
+        {
+          "language": "ig",
+          "kind": "auto"
+        },
+        {
+          "language": "is",
+          "kind": "auto"
+        },
+        {
+          "language": "it",
+          "kind": "auto"
+        },
+        {
+          "language": "iu",
+          "kind": "auto"
+        },
+        {
+          "language": "iw",
+          "kind": "auto"
+        },
+        {
+          "language": "ja",
+          "kind": "auto"
+        },
+        {
+          "language": "ja-orig",
+          "kind": "auto"
+        },
+        {
+          "language": "jv",
+          "kind": "auto"
+        },
+        {
+          "language": "ka",
+          "kind": "auto"
+        },
+        {
+          "language": "kha",
+          "kind": "auto"
+        },
+        {
+          "language": "kk",
+          "kind": "auto"
+        },
+        {
+          "language": "kl",
+          "kind": "auto"
+        },
+        {
+          "language": "km",
+          "kind": "auto"
+        },
+        {
+          "language": "kn",
+          "kind": "auto"
+        },
+        {
+          "language": "ko",
+          "kind": "auto"
+        },
+        {
+          "language": "kri",
+          "kind": "auto"
+        },
+        {
+          "language": "ku",
+          "kind": "auto"
+        },
+        {
+          "language": "ky",
+          "kind": "auto"
+        },
+        {
+          "language": "la",
+          "kind": "auto"
+        },
+        {
+          "language": "lb",
+          "kind": "auto"
+        },
+        {
+          "language": "lg",
+          "kind": "auto"
+        },
+        {
+          "language": "ln",
+          "kind": "auto"
+        },
+        {
+          "language": "lo",
+          "kind": "auto"
+        },
+        {
+          "language": "lt",
+          "kind": "auto"
+        },
+        {
+          "language": "lua",
+          "kind": "auto"
+        },
+        {
+          "language": "luo",
+          "kind": "auto"
+        },
+        {
+          "language": "lv",
+          "kind": "auto"
+        },
+        {
+          "language": "mfe",
+          "kind": "auto"
+        },
+        {
+          "language": "mg",
+          "kind": "auto"
+        },
+        {
+          "language": "mi",
+          "kind": "auto"
+        },
+        {
+          "language": "mk",
+          "kind": "auto"
+        },
+        {
+          "language": "ml",
+          "kind": "auto"
+        },
+        {
+          "language": "mn",
+          "kind": "auto"
+        },
+        {
+          "language": "mr",
+          "kind": "auto"
+        },
+        {
+          "language": "ms",
+          "kind": "auto"
+        },
+        {
+          "language": "mt",
+          "kind": "auto"
+        },
+        {
+          "language": "my",
+          "kind": "auto"
+        },
+        {
+          "language": "ne",
+          "kind": "auto"
+        },
+        {
+          "language": "new",
+          "kind": "auto"
+        },
+        {
+          "language": "nl",
+          "kind": "auto"
+        },
+        {
+          "language": "no",
+          "kind": "auto"
+        },
+        {
+          "language": "nso",
+          "kind": "auto"
+        },
+        {
+          "language": "ny",
+          "kind": "auto"
+        },
+        {
+          "language": "oc",
+          "kind": "auto"
+        },
+        {
+          "language": "om",
+          "kind": "auto"
+        },
+        {
+          "language": "or",
+          "kind": "auto"
+        },
+        {
+          "language": "os",
+          "kind": "auto"
+        },
+        {
+          "language": "pa",
+          "kind": "auto"
+        },
+        {
+          "language": "pam",
+          "kind": "auto"
+        },
+        {
+          "language": "pl",
+          "kind": "auto"
+        },
+        {
+          "language": "ps",
+          "kind": "auto"
+        },
+        {
+          "language": "pt",
+          "kind": "auto"
+        },
+        {
+          "language": "pt-PT",
+          "kind": "auto"
+        },
+        {
+          "language": "qu",
+          "kind": "auto"
+        },
+        {
+          "language": "rn",
+          "kind": "auto"
+        },
+        {
+          "language": "ro",
+          "kind": "auto"
+        },
+        {
+          "language": "ru",
+          "kind": "auto"
+        },
+        {
+          "language": "rw",
+          "kind": "auto"
+        },
+        {
+          "language": "sa",
+          "kind": "auto"
+        },
+        {
+          "language": "sd",
+          "kind": "auto"
+        },
+        {
+          "language": "sg",
+          "kind": "auto"
+        },
+        {
+          "language": "si",
+          "kind": "auto"
+        },
+        {
+          "language": "sk",
+          "kind": "auto"
+        },
+        {
+          "language": "sl",
+          "kind": "auto"
+        },
+        {
+          "language": "sm",
+          "kind": "auto"
+        },
+        {
+          "language": "sn",
+          "kind": "auto"
+        },
+        {
+          "language": "so",
+          "kind": "auto"
+        },
+        {
+          "language": "sq",
+          "kind": "auto"
+        },
+        {
+          "language": "sr",
+          "kind": "auto"
+        },
+        {
+          "language": "ss",
+          "kind": "auto"
+        },
+        {
+          "language": "st",
+          "kind": "auto"
+        },
+        {
+          "language": "su",
+          "kind": "auto"
+        },
+        {
+          "language": "sv",
+          "kind": "auto"
+        },
+        {
+          "language": "sw",
+          "kind": "auto"
+        },
+        {
+          "language": "ta",
+          "kind": "auto"
+        },
+        {
+          "language": "te",
+          "kind": "auto"
+        },
+        {
+          "language": "tg",
+          "kind": "auto"
+        },
+        {
+          "language": "th",
+          "kind": "auto"
+        },
+        {
+          "language": "ti",
+          "kind": "auto"
+        },
+        {
+          "language": "tk",
+          "kind": "auto"
+        },
+        {
+          "language": "tn",
+          "kind": "auto"
+        },
+        {
+          "language": "to",
+          "kind": "auto"
+        },
+        {
+          "language": "tr",
+          "kind": "auto"
+        },
+        {
+          "language": "ts",
+          "kind": "auto"
+        },
+        {
+          "language": "tt",
+          "kind": "auto"
+        },
+        {
+          "language": "tum",
+          "kind": "auto"
+        },
+        {
+          "language": "ug",
+          "kind": "auto"
+        },
+        {
+          "language": "uk",
+          "kind": "auto"
+        },
+        {
+          "language": "ur",
+          "kind": "auto"
+        },
+        {
+          "language": "uz",
+          "kind": "auto"
+        },
+        {
+          "language": "ve",
+          "kind": "auto"
+        },
+        {
+          "language": "vi",
+          "kind": "auto"
+        },
+        {
+          "language": "war",
+          "kind": "auto"
+        },
+        {
+          "language": "wo",
+          "kind": "auto"
+        },
+        {
+          "language": "xh",
+          "kind": "auto"
+        },
+        {
+          "language": "yi",
+          "kind": "auto"
+        },
+        {
+          "language": "yo",
+          "kind": "auto"
+        },
+        {
+          "language": "zh-Hans",
+          "kind": "auto"
+        },
+        {
+          "language": "zh-Hant",
+          "kind": "auto"
+        },
+        {
+          "language": "zu",
+          "kind": "auto"
+        }
+      ]
+    },
+    "subtitle": {
+      "language": "ja",
+      "kind": "auto",
+      "format": "json3"
+    },
+    "segmentation": {
+      "strategy": "sentence-boundary/v1",
+      "timeResolution": "token",
+      "sourceCues": 73,
+      "sentences": 61,
+      "forcedCuts": 0,
+      "params": {
+        "maxChars": 45,
+        "targetChars": 24,
+        "minChars": 8,
+        "pauseHard": 0.6,
+        "pauseSoft": 0.35,
+        "tailPad": 0.15,
+        "minDuration": 0.35
+      }
+    },
+    "contentPatches": [
+      {
+        "name": "tbs-news-0006-sc0MpL-ucH4-asr-proofread-202609.json",
+        "sourceSentencesDigest": "24c0d4ffbfe5625342057d5b3e27de37fa151be7954d39e89e4008734c8ea0ae",
+        "resultSentencesDigest": "a3a67a82ac82c714a02cf9ed59c67b80f507e53ba9a67439d04485dc46b2d019",
+        "description": "tbs-news-0006-sc0MpL-ucH4：LLM 逐句校对发现的 ASR 误识别修正 8 处。只替换 sourceText，其余字段沿用既有内容。",
+        "evidence": {
+          "file": "proofread-work/tbs-news-0006-sc0MpL-ucH4/proofread.json",
+          "proposedFixes": "proofread-work/tbs-news-0006-sc0MpL-ucH4/proposed-fixes.json",
+          "notes": "proofread-work/tbs-news-0006-sc0MpL-ucH4/notes.md",
+          "reviewer": "llm-agent",
+          "audioListened": false,
+          "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+        }
+      }
+    ]
+  },
+  "language": {
+    "code": "ja",
+    "locale": "ja-JP",
+    "name": "Japanese",
+    "displayName": "日语",
+    "nativeName": "日本語"
+  },
+  "locales": {
+    "source": "ja-JP",
+    "translation": "zh-Hans-CN",
+    "interface": "zh-Hans-CN"
+  },
+  "transcriptText": "政府はどのような支援を今後続けていくのかというところについて詳しく見ていきましょう。TBSよろしくお願いします。政府がこの支援パッケージとして3つの柱を立てて今後行っていくということが分かりました。今年度の予備からはおよそ1500億円1478億円を当てるということなんですが山崎さんはこの予備費規模というのはどうでしょうか?そうですね、10年前のああもう支援パッケージありましたけれどもえそれと同等のあの非常にえ地元の要望を組んだ支援になっているという風に考えています。なるほど。では具体的にこの3本の柱見ていきますが、まずは生活の再建に向けた避難生活環境の改善であったりとか住まの確保など先ほどデミザアナウンサーの中継にもありましたがこの仮設住宅を作っていく、また十分に準備をしていくというのもこれ大事なポイントになっていきます。それから生業の再建、こういった農林や農林漁業業者への支援や観光産業への支援、とりわけ夏休みというこの1番観光業でも、ま、稼ぎ時きであった時の避難生活を続けていらっしゃる皆様へのサポートというのが急務です。そして3つ目としては災害復旧、公共施設の復旧や交通の確保などこういった3つの柱が立てられています。中でもやはり観光業ですね。そうですね。九州全体が影響を受けたという風になります。はい。では具体的にどういった内容になるんでしょうか?はい。6割、え、その他の5県が5割というような内容になっております。え、1泊りですね、補助が出るという形になります。え、ただ上限額が決まっていまして、え、2万円、え、200以上の交通付き宿泊旅行ですと3万円。え、宿泊地が2件以上となる泊旅行商品ですと3万5000円とあの上限額が決まっています。10月1うん。ただ新幹線全線再開は9月の181日も早く何かできることを考えてみたいですね。はい。1はい。うん。ただやはりまだまだ復旧作業が続く中で被災地ではない場所だと思っても行っていいのかなという気持ちも正直ある方もいると思いますが、過去で、過去の地震の際にはどういった効果であったりとかがあったんでしょうか?そうですね。ま過去の10年前の熊本地震の際もですね、え、宿泊者数が271万9000人とあの目標が150万人だったんですけども、それを大幅に上回った形となりました。え、また地元の方々はですね、えっと復興割りを利用して、え、多くの観光客が戻ってくることへの期待の声も聞かれました。うん。うん。ですから難波さん、厚みさんできることを是非ですね。そうですね。特に前回の復興割りの時ってすぐにこう完売になってしまうぐらい人気でしたし、飲食業の方もあの観光業やってらっしゃる方も皆さんすごくあの助かったって声もあったので非常に期待したいなと思います。そうですね。すでに復旧作業大変な中ではありますが前を向いて1日1こちらJNN・JRNでは令和8年熊本地震義援金を実施しております。お寄せいただいた義援金は全額日本赤十字社を通じて被災地に送られます。皆様のご協力どうぞお願いいたします。",
+  "courseId": "c_596715dd292895c6e3657228",
+  "contentModelVersion": 1,
+  "practiceSentenceCount": 44,
+  "contentRevision": "31bb281672c280c80b46bdd18cbfd2df52cf885328e5e436b239abe28dd97588",
+  "review": {
+    "humanListening": "pending",
+    "commercialRights": "unverified",
+    "browserAcceptance": "pending"
+  },
+  "quality": {
+    "status": "needs_review",
+    "sentences": 61,
+    "errors": 0,
+    "warnings": 137,
+    "issueCounts": {
+      "course.unterminated_ratio": 1,
+      "sentence.explanation_missing": 61,
+      "sentence.rate_implausible": 10,
+      "sentence.translation_missing": 61,
+      "sentence.very_short": 4
+    }
+  }
+}

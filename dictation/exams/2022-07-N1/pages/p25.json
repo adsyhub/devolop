@@ -1,0 +1,82 @@
+{
+  "page": 25,
+  "pageLabel": "第24页",
+  "sectionHeader": "第三部分　聴解",
+  "blocks": [
+    {
+      "kind": "section-header",
+      "partNumber": null,
+      "label": null,
+      "text": "第三部分　聴解",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "label": null,
+      "text": "問題1\n問題1では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "label": "例",
+      "text": "例",
+      "questionNumber": null,
+      "choices": [
+        "企画書を見せる",
+        "製品の説明を書き直す",
+        "データを新しくする",
+        "パソコンを準備する"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "label": "1番",
+      "text": "1番",
+      "questionNumber": 1,
+      "choices": [
+        "学部での研究内容",
+        "進学の志望動機",
+        "進学希望の大学院の情報",
+        "今後の研究の展望"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "label": "2番",
+      "text": "2番",
+      "questionNumber": 2,
+      "choices": [
+        "集まった食品の数を数える",
+        "食品を袋に入れる",
+        "段ボール箱に食品を分けて入れる",
+        "申し込みのかくにんをする"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "問題1 is a listening section: only the four printed choices appear for 例/1番/2番; the question stems are spoken and not printed. The 'text' field of those blocks holds only the printed label.",
+    "The digit '1' is printed in a font where it renders as a bare vertical stroke (looks like a lowercase 'l') throughout this page (問題1, choice numeral 1, 1番, '1から4の中から'). Transcribed as the digit 1.",
+    "2番 choice 4 is printed in kana as 'かくにん' (not 確認); transcribed as printed."
+  ]
+}

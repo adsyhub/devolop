@@ -1,0 +1,1498 @@
+paper,form,label,qid,page,flags
+eju-2002-2-science-ja,PHYSICS_JA,問3,q_bcb06ab1c70b678f4ede0b33,5,latex_in_text
+eju-2002-2-science-ja,PHYSICS_JA,問3,q_cd1f9706ffa2f4fe9963db8e,6,latex_in_text
+eju-2002-2-science-ja,PHYSICS_JA,問1,q_497c90e332da10a449d9dca7,7,latex_in_text
+eju-2002-2-science-ja,PHYSICS_JA,問2,q_2ab0fffc7e87f11b2035ba18,7,latex_in_text
+eju-2002-2-science-ja,PHYSICS_JA,問1,q_243d95348cd42a71e96eec85,10,latex_in_text
+eju-2002-2-science-ja,PHYSICS_JA,問2,q_63904ad3ce2e8ddddbad4e3f,10,latex_in_text
+eju-2002-2-science-ja,CHEMISTRY_JA,問2,q_bbcce842f62419631ee60f38,12,latex_in_text
+eju-2002-2-science-ja,CHEMISTRY_JA,問3,q_03e655c3cf81f897173bcf24,13,latex_in_text
+eju-2002-2-science-ja,CHEMISTRY_JA,問5,q_367d2f7a8f217c3cab1731ff,13,latex_in_text
+eju-2002-2-science-ja,CHEMISTRY_JA,問6,q_3d73ee6988215182c2dc1ff8,14,latex_in_text;underline_reference
+eju-2002-2-science-ja,CHEMISTRY_JA,問8,q_9135953342bf625d0ae0c21b,14,latex_in_text
+eju-2002-2-science-ja,CHEMISTRY_JA,問13,q_ff55c6bd66e876f0dd0ea49b,16,latex_in_text
+eju-2002-2-science-ja,CHEMISTRY_JA,問14,q_f45c5d13933aacffdd4ea6cd,16,latex_in_text
+eju-2002-2-science-ja,CHEMISTRY_JA,問15,q_a47ae67297642fa549dd47c0,17,latex_in_text
+eju-2002-2-science-ja,CHEMISTRY_JA,問17,q_8dad40e46b8684b9ce5b7a8f,19,latex_in_text
+eju-2002-2-science-ja,BIOLOGY_JA,問2(1),q_aafc67d96ba0c0ce65a9cf9e,23,explicit_figure_reference
+eju-2002-2-science-ja,BIOLOGY_JA,問2(2),q_e443810cc604c616f0b2e8aa,23,explicit_figure_reference
+eju-2002-2-science-ja,BIOLOGY_JA,問2(3),q_ad48c706379dd08d1dd19daf,23,explicit_figure_reference
+eju-2002-2-science-ja,BIOLOGY_JA,問4,q_4947a07a5930991a970ccf43,24,explicit_figure_reference
+eju-2002-2-science-ja,BIOLOGY_JA,問5,q_1724cc31465af7cd35a840d5,25,raw_html;duplicate_options
+eju-2002-2-science-ja,BIOLOGY_JA,問6,q_35ed06b2983e4b6c4511ec13,25,raw_html;duplicate_options
+eju-2003-1-science-ja,PHYSICS_JA,問3,q_3f9351b0013627a17795b83d,3,latex_in_text
+eju-2003-1-science-ja,PHYSICS_JA,問4,q_6c2ec332327231779a061ff3,4,latex_in_text
+eju-2003-1-science-ja,PHYSICS_JA,問5,q_763cd51acf3e44076cb3fe66,4,latex_in_text
+eju-2003-1-science-ja,PHYSICS_JA,問6,q_8006491346ad4dc7648d3ea7,5,latex_in_text
+eju-2003-1-science-ja,PHYSICS_JA,問7,q_9f8a7c9b3f9708712edbc643,5,latex_in_text
+eju-2003-1-science-ja,PHYSICS_JA,問1,q_2d0ffbe37c28dfce0563f33c,7,latex_in_text
+eju-2003-1-science-ja,PHYSICS_JA,問2,q_3a29ca44bfb37af250831254,7,latex_in_text
+eju-2003-1-science-ja,PHYSICS_JA,問3,q_707e28be3847d5872ceaa2cf,7,latex_in_text
+eju-2003-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_b13eecefbc30c9918d7169c9,3,underline_reference
+eju-2003-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_4343f10d7800a2811478cdd0,3,underline_reference
+eju-2003-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_a225dc21a8b2fbc7acd784be,4,underline_reference
+eju-2003-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_5e960a339cf2c3a898132aae,4,underline_reference
+eju-2003-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_98fe5f5c46bba6ada26e9598,4,underline_reference
+eju-2003-2-japan-world-ja,JAPAN_AND_WORLD_JA,問9,q_2d2d50096e0c551db774f514,9,explicit_figure_reference
+eju-2003-2-japan-world-ja,JAPAN_AND_WORLD_JA,問11(1),q_7217b4d496254cd8e20b84ab,11,explicit_figure_reference
+eju-2003-2-japan-world-ja,JAPAN_AND_WORLD_JA,問11(2),q_f18a3c2370cd85034d7b9eca,11,explicit_figure_reference
+eju-2003-2-japan-world-ja,JAPAN_AND_WORLD_JA,問16,q_4d6afbc270443a8cb6fd0077,14,underline_reference
+eju-2003-2-japan-world-ja,JAPAN_AND_WORLD_JA,問17(1),q_b379a8b2f74d61ee6a9283d6,14,underline_reference
+eju-2003-2-japan-world-ja,JAPAN_AND_WORLD_JA,問17(2),q_c11779f74dd7a1976a9a71d4,14,underline_reference
+eju-2003-2-japan-world-ja,JAPAN_AND_WORLD_JA,問18(3),q_e6d1645ab45fbe3d49c0e915,15,underline_reference
+eju-2003-2-japan-world-ja,JAPAN_AND_WORLD_JA,問19(2),q_a3fb3cd2006d46079dbd1ac6,17,explicit_figure_reference
+eju-2003-2-science-ja,PHYSICS_JA,問1,q_799e1780faac41ec53344a01,2,latex_in_text
+eju-2003-2-science-ja,PHYSICS_JA,問1,q_3101cda9fc61cd3ebaa5b937,5,latex_in_text
+eju-2003-2-science-ja,PHYSICS_JA,問2,q_ee0f8e524756e1306d1513ba,5,latex_in_text
+eju-2003-2-science-ja,PHYSICS_JA,問3,q_ddc5188c9c5506b655d04282,5,latex_in_text
+eju-2003-2-science-ja,PHYSICS_JA,問1,q_32b7de4cb6f58d67ed813e60,6,latex_in_text
+eju-2003-2-science-ja,PHYSICS_JA,問2,q_5ae7aa902e1829108e2ba207,6,latex_in_text;explicit_figure_reference
+eju-2003-2-science-ja,PHYSICS_JA,問3,q_20286bedbe65ca655497a12c,7,latex_in_text
+eju-2003-2-science-ja,PHYSICS_JA,問1,q_fdad2e0bdd52c281b52218b7,8,latex_in_text
+eju-2003-2-science-ja,PHYSICS_JA,問2,q_99ac160416276539b8c4fd73,8,latex_in_text
+eju-2003-2-science-ja,CHEMISTRY_JA,問2,q_21f160561c85f8265014394e,13,latex_in_text
+eju-2003-2-science-ja,CHEMISTRY_JA,問10,q_a8034fb495f52ad032513643,16,latex_in_text
+eju-2003-2-science-ja,CHEMISTRY_JA,問13,q_975e2c5be7694e8a7d34799d,18,latex_in_text
+eju-2003-2-science-ja,CHEMISTRY_JA,問15,q_3c3a6a68a0ab180a1bedb0dd,19,latex_in_text
+eju-2003-2-science-ja,CHEMISTRY_JA,問18,q_39f64372494e3bde304b8f21,20,latex_in_text
+eju-2003-2-science-ja,CHEMISTRY_JA,問19,q_3160316edb90b16d70cf3ff7,20,latex_in_text
+eju-2003-2-science-ja,BIOLOGY_JA,問2,q_f2e3c12af97e2397105b3124,23,latex_in_text
+eju-2003-2-science-ja,BIOLOGY_JA,問3(1),q_0e284348498427dc98137f1c,23,explicit_figure_reference
+eju-2003-2-science-ja,BIOLOGY_JA,問3(2),q_bd54b46f20c49716c83a0e78,24,explicit_figure_reference
+eju-2003-2-science-ja,BIOLOGY_JA,問5(1),q_33adf829342750633540637d,26,explicit_figure_reference
+eju-2003-2-science-ja,BIOLOGY_JA,問5(2),q_c7cccb33475de60e7719b3ae,26,explicit_figure_reference
+eju-2003-2-science-ja,BIOLOGY_JA,問6(1),q_d0202094fa91cb7bdcbaf2cd,27,explicit_figure_reference
+eju-2003-2-science-ja,BIOLOGY_JA,問6(2),q_df7842a769e0da0a9b72b4ee,27,explicit_figure_reference
+eju-2004-1-japan-world-ja,JAPAN_AND_WORLD_JA,問22,q_dba4816deee5900b5e1e3ee5,19,explicit_figure_reference
+eju-2004-1-science-ja,BIOLOGY_JA,問4,q_b1aea1966fd4e684730130af,25,latex_in_text
+eju-2004-1-science-ja,BIOLOGY_JA,問6(1),q_15064ab3240f500bc2f7feb3,27,explicit_figure_reference
+eju-2004-1-science-ja,BIOLOGY_JA,問6(2),q_0632d7860d1c0f082105b44d,27,explicit_figure_reference
+eju-2004-1-science-ja,BIOLOGY_JA,問7,q_9443c0f9fe8d1b3834725455,28,latex_in_text
+eju-2004-1-science-ja,BIOLOGY_JA,問14,q_779f9cff18b4ebb9d4743f62,32,explicit_figure_reference
+eju-2004-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_4ab357fc17c6ab6ae112f5f4,3,underline_reference
+eju-2004-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_d0e1f6e95e51b6666f17c910,3,underline_reference
+eju-2004-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_204d8b1dbe13716416478602,4,underline_reference
+eju-2004-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_aab1bfa81c152c5d824f0579,4,underline_reference
+eju-2004-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_1ec457df8ed660b485fdb28d,5,underline_reference
+eju-2004-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_cf75603c4369fe4dcfd49b55,5,explicit_figure_reference
+eju-2004-2-japan-world-ja,JAPAN_AND_WORLD_JA,問20(1),q_938c260ca75636b6eda364a5,14,underline_reference
+eju-2004-2-japan-world-ja,JAPAN_AND_WORLD_JA,問20(3),q_5dc71509f224e98c6fe44feb,14,underline_reference
+eju-2004-2-japan-world-ja,JAPAN_AND_WORLD_JA,問21(1),q_75b568a75d4e6a1ff1294673,15,underline_reference
+eju-2004-2-japanese-ja,JAPANESE_JA,問1,q_b7af0269b5d77ce233e147fa,5,underline_reference
+eju-2004-2-japanese-ja,JAPANESE_JA,問11,q_97deb523975956389a0c6e1c,15,underline_reference
+eju-2004-2-japanese-ja,JAPANESE_JA,問17,q_679290d1fac828b4aaf9f51f,21,underline_reference
+eju-2004-2-science-ja,PHYSICS_JA,問1,q_f49ad13169333c649d6a6b98,2,latex_in_text
+eju-2004-2-science-ja,PHYSICS_JA,問2,q_7670662519ba121bcbead961,3,latex_in_text;markdown_table
+eju-2004-2-science-ja,PHYSICS_JA,問3,q_00ceda6ee955b432c450b6f9,4,latex_in_text
+eju-2004-2-science-ja,PHYSICS_JA,問4,q_20b8c0a93dafd989cc1289bc,5,latex_in_text
+eju-2004-2-science-ja,PHYSICS_JA,問5,q_c1a28527c769db198dc4d417,6,latex_in_text
+eju-2004-2-science-ja,PHYSICS_JA,問1,q_83186d309f2553c51a142fc7,9,latex_in_text
+eju-2004-2-science-ja,PHYSICS_JA,問3,q_227d016eb5dc4a272ad71587,11,latex_in_text
+eju-2004-2-science-ja,PHYSICS_JA,問1,q_3a84e1a863c1f248aca60d28,12,latex_in_text
+eju-2004-2-science-ja,CHEMISTRY_JA,問2,q_997ecdc9e9ff4ada1188801f,18,latex_in_text
+eju-2004-2-science-ja,CHEMISTRY_JA,問3,q_02fe32f0a4412036ce543259,18,latex_in_text
+eju-2004-2-science-ja,CHEMISTRY_JA,問4,q_16b9b5202798294a45373643,18,latex_in_text
+eju-2004-2-science-ja,CHEMISTRY_JA,問6,q_4fd5a8fd3862723e25b10102,19,latex_in_text
+eju-2004-2-science-ja,CHEMISTRY_JA,問7,q_4081cf46c5ed55d187a50fbb,19,latex_in_text
+eju-2004-2-science-ja,CHEMISTRY_JA,問17,q_5950a2c3902d70c70ec16bcc,23,latex_in_text;duplicate_options
+eju-2004-2-science-ja,CHEMISTRY_JA,問20,q_87dbba30bc8dd33154f9c873,25,latex_in_text;raw_html
+eju-2004-2-science-ja,BIOLOGY_JA,問2(2),q_474bed5aa09c95c702bbe00d,28,explicit_figure_reference
+eju-2004-2-science-ja,BIOLOGY_JA,問3(1),q_aef62d0cb08107838f431bbe,29,explicit_figure_reference
+eju-2004-2-science-ja,BIOLOGY_JA,問3(2),q_8aee25c10c598a1bfc52adaf,29,explicit_figure_reference
+eju-2004-2-science-ja,BIOLOGY_JA,問4(2),q_5760e34a74afeda243479ec6,30,explicit_figure_reference
+eju-2004-2-science-ja,BIOLOGY_JA,問6,q_9a3836d6f4270168c907fe22,32,explicit_figure_reference
+eju-2004-2-science-ja,BIOLOGY_JA,問7,q_4eb4a418541fb6eb82c79484,33,explicit_figure_reference
+eju-2004-2-science-ja,BIOLOGY_JA,問12,q_c3e089c114cabbdf74dd3405,36,explicit_figure_reference
+eju-2004-2-science-ja,BIOLOGY_JA,問13,q_a00c9ef3b8da6b22d34697a4,36,latex_in_text
+eju-2004-2-science-ja,BIOLOGY_JA,問14(1),q_cc8736abd835452b3be88602,37,explicit_figure_reference
+eju-2004-2-science-ja,BIOLOGY_JA,問14(2),q_b6545cf01c6b29c76a609d12,37,explicit_figure_reference
+eju-2005-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(1),q_cd9c777a8fc004ec51180ac9,2,explicit_figure_reference;underline_reference
+eju-2005-1-japan-world-ja,JAPAN_AND_WORLD_JA,問4,q_1264db3acc02cc5dd046b6e8,6,explicit_figure_reference
+eju-2005-1-japan-world-ja,JAPAN_AND_WORLD_JA,問16(1),q_b8e12c4fd31885d0e6e92d16,12,explicit_figure_reference
+eju-2005-1-japan-world-ja,JAPAN_AND_WORLD_JA,問16(2),q_fcad55700e24cefa293d7d90,12,explicit_figure_reference
+eju-2005-1-japan-world-ja,JAPAN_AND_WORLD_JA,問17(1),q_707b7ba786ddba1ac7ec1a44,13,underline_reference
+eju-2005-1-japan-world-ja,JAPAN_AND_WORLD_JA,問22,q_e987e91274510a332c45ba6a,16,underline_reference
+eju-2005-1-japanese-ja,JAPANESE_JA,問2,q_a8626b2d76ab9b79f3fe1cea,8,underline_reference
+eju-2005-1-japanese-ja,JAPANESE_JA,問6,q_30005688605d793db892f578,12,explicit_figure_reference
+eju-2005-1-japanese-ja,JAPANESE_JA,問15,q_fe11fea0aae892726126a777,21,underline_reference
+eju-2005-1-science-ja,PHYSICS_JA,問1,q_9696591091b83a6fdfe7b8f4,2,latex_in_text
+eju-2005-1-science-ja,PHYSICS_JA,問2,q_9a1bf50d8f8d02c93de8d1ab,3,latex_in_text
+eju-2005-1-science-ja,PHYSICS_JA,問3,q_960f1cfd27785a1111fcac0a,4,latex_in_text
+eju-2005-1-science-ja,PHYSICS_JA,問4,q_47dca5f4a138eefde5581aa1,4,latex_in_text
+eju-2005-1-science-ja,PHYSICS_JA,問5,q_fd57a9ee6412505b2b4368b4,5,latex_in_text
+eju-2005-1-science-ja,PHYSICS_JA,問6,q_45b423dc3077535bb9cfc404,5,latex_in_text
+eju-2005-1-science-ja,PHYSICS_JA,問7,q_7ae53b1cd3c033d46ed562c7,5,latex_in_text
+eju-2005-1-science-ja,PHYSICS_JA,問1,q_ccc3ee0affe2577c8773673e,6,latex_in_text
+eju-2005-1-science-ja,PHYSICS_JA,問2,q_a1da81fd3d1408a8fe85f350,6,latex_in_text
+eju-2005-1-science-ja,PHYSICS_JA,問1,q_80091bf62cc06035347bfd30,8,latex_in_text
+eju-2005-1-science-ja,PHYSICS_JA,問2,q_6a9c2c06736683431fcc9496,9,latex_in_text
+eju-2005-1-science-ja,PHYSICS_JA,問1,q_11a5737bad3dd64aaadb2c20,10,latex_in_text
+eju-2005-1-science-ja,PHYSICS_JA,問2,q_ce383ea38026916c566d1566,11,latex_in_text
+eju-2005-1-science-ja,PHYSICS_JA,問3,q_28c717bf1b33580a0f310367,12,latex_in_text;duplicate_options
+eju-2005-1-science-ja,PHYSICS_JA,問4,q_9a7fe417b7eee2ec0ead0b7b,13,latex_in_text
+eju-2005-1-science-ja,PHYSICS_JA,問5,q_be0fb3848b99ca408dc67c82,13,latex_in_text
+eju-2005-1-science-ja,PHYSICS_JA,問6,q_a86fd8913f8ac5c23d49d350,14,latex_in_text
+eju-2005-1-science-ja,CHEMISTRY_JA,問7,q_5c98585d2a1477d34b6bf6b9,18,latex_in_text;underline_reference
+eju-2005-1-science-ja,CHEMISTRY_JA,問8,q_d974f2425dabfbe58b674664,19,latex_in_text;explicit_figure_reference
+eju-2005-1-science-ja,CHEMISTRY_JA,問9,q_8a8dfafc95b907d06ea3bd47,19,latex_in_text
+eju-2005-1-science-ja,CHEMISTRY_JA,問10,q_bbedcde3f5c7ab10df648c7d,20,latex_in_text
+eju-2005-1-science-ja,CHEMISTRY_JA,問12,q_abab338cd5cd7dd706d3cc5f,21,latex_in_text
+eju-2005-1-science-ja,CHEMISTRY_JA,問17,q_320e7baa48e9195359b4a18a,24,latex_in_text
+eju-2005-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(1),q_aef97dbcc6f50ba2ee34e247,2,explicit_figure_reference
+eju-2005-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_afea9778a764867ed85e96c7,3,underline_reference
+eju-2005-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_ef7b844b5f9f14615a47f237,3,underline_reference
+eju-2005-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_36f48591129d63a0974e430d,5,underline_reference
+eju-2005-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_c7a1a1ec1f9346538dc195e2,5,underline_reference
+eju-2005-2-japan-world-ja,JAPAN_AND_WORLD_JA,問4,q_a14eca847d08f8924526298f,6,latex_in_text
+eju-2005-2-japan-world-ja,JAPAN_AND_WORLD_JA,問9(1),q_fce2d8611f4ad98b997968d4,9,explicit_figure_reference
+eju-2005-2-japan-world-ja,JAPAN_AND_WORLD_JA,問12(1),q_e9a49c06f98ac861fd49348c,11,underline_reference
+eju-2005-2-japan-world-ja,JAPAN_AND_WORLD_JA,問17(2),q_f1dc2090e6df199fec507e9e,14,underline_reference
+eju-2005-2-japan-world-ja,JAPAN_AND_WORLD_JA,問19(1),q_b96d6107c39c11f06d01a522,15,underline_reference
+eju-2005-2-japan-world-ja,JAPAN_AND_WORLD_JA,問19(2),q_a02aeff560451f9e968ff843,15,underline_reference
+eju-2005-2-japan-world-ja,JAPAN_AND_WORLD_JA,問19(3),q_fdb506a954a0772e50d67a37,16,underline_reference
+eju-2005-2-japan-world-ja,JAPAN_AND_WORLD_JA,問23(1),q_6c952219ba783a30dfee6cf7,18,explicit_figure_reference
+eju-2005-2-japan-world-ja,JAPAN_AND_WORLD_JA,問23(2),q_d5a8974a69326656c560e6a0,18,explicit_figure_reference
+eju-2005-2-japanese-ja,JAPANESE_JA,問2,q_c4bc9bc35172af05ed9db747,8,explicit_figure_reference
+eju-2005-2-japanese-ja,JAPANESE_JA,問5,q_31d3f790b43efce07daf48a5,11,underline_reference
+eju-2005-2-japanese-ja,JAPANESE_JA,問13,q_d6d59fdb4e866a9d0062802e,19,underline_reference
+eju-2005-2-science-ja,PHYSICS_JA,問1,q_c81b7d160cca60f8bab1e180,2,latex_in_text
+eju-2005-2-science-ja,PHYSICS_JA,問3,q_5ee849e92bde1977c858dda9,11,latex_in_text
+eju-2005-2-science-ja,PHYSICS_JA,問2,q_931ca90b3af8e2fdc0a2aed0,13,latex_in_text
+eju-2005-2-science-ja,PHYSICS_JA,問3,q_ac869b64eee0b4db6df00ca9,13,latex_in_text
+eju-2005-2-science-ja,CHEMISTRY_JA,問1,q_33a4fcf033bfce575b4260e8,17,latex_in_text
+eju-2005-2-science-ja,CHEMISTRY_JA,問3,q_1b28637b1c0ee19f343dd0ec,18,latex_in_text
+eju-2005-2-science-ja,CHEMISTRY_JA,問4,q_1d0300aca725804b7d21df5d,18,latex_in_text
+eju-2005-2-science-ja,CHEMISTRY_JA,問9,q_ded1687c940ba68d21dab576,20,latex_in_text
+eju-2005-2-science-ja,CHEMISTRY_JA,問10,q_a7bbe714af052b9bf508f9cd,20,latex_in_text
+eju-2005-2-science-ja,CHEMISTRY_JA,問11,q_9ebc087564424a6c025640ab,21,latex_in_text
+eju-2005-2-science-ja,CHEMISTRY_JA,問12,q_ed5ccfaf6b5b4c9852be763b,21,latex_in_text
+eju-2005-2-science-ja,CHEMISTRY_JA,問13,q_f0c944c6cf75345232264c4a,21,latex_in_text
+eju-2005-2-science-ja,BIOLOGY_JA,問4(1),q_3fc1b6b52c37a8077cd29480,28,explicit_figure_reference
+eju-2005-2-science-ja,BIOLOGY_JA,問4(2),q_e71d8b7c7eaf6af1dbf7d244,29,explicit_figure_reference
+eju-2005-2-science-ja,BIOLOGY_JA,問6,q_44cbaffd9aafb0b94ecc0cd4,30,explicit_figure_reference
+eju-2005-2-science-ja,BIOLOGY_JA,問7,q_48075d9e600e6b811810ce16,30,latex_in_text
+eju-2005-2-science-ja,BIOLOGY_JA,問9,q_de0e5437af8d74eb413356b3,32,latex_in_text;explicit_figure_reference
+eju-2005-2-science-ja,BIOLOGY_JA,問10(1),q_84387f2c383742b16494a552,33,explicit_figure_reference
+eju-2005-2-science-ja,BIOLOGY_JA,問10(2),q_3127ee21a1bea2b23b4028e6,33,explicit_figure_reference
+eju-2005-2-science-ja,BIOLOGY_JA,問13,q_d8c7479f51f96a1c346150cd,34,explicit_figure_reference
+eju-2006-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_92dc4e7bb7e85a4a133f103a,5,underline_reference
+eju-2006-1-japan-world-ja,JAPAN_AND_WORLD_JA,問12(3),q_968da4973ae3009ec7c815d7,14,latex_in_text
+eju-2006-1-japan-world-ja,JAPAN_AND_WORLD_JA,問18(1),q_acf5401591e29d8ebd9a3b28,17,underline_reference
+eju-2006-1-japan-world-ja,JAPAN_AND_WORLD_JA,問18(2),q_12c4497aaef22314c46979f0,17,underline_reference
+eju-2006-1-japan-world-ja,JAPAN_AND_WORLD_JA,問19(2),q_28cf35bbd584a8f497662d1b,18,underline_reference
+eju-2006-1-japan-world-ja,JAPAN_AND_WORLD_JA,問25(2),q_544e8bf2177fad6db4b814b4,22,underline_reference
+eju-2006-1-japanese-ja,JAPANESE_JA,問4,q_8c2fc5280a5e454fdf31404c,10,underline_reference
+eju-2006-1-japanese-ja,JAPANESE_JA,問9,q_ff8078c11c69e630d4e74fb1,15,underline_reference
+eju-2006-1-science-ja,PHYSICS_JA,問4,q_19b13e3dfdc895d15dfdc929,5,latex_in_text
+eju-2006-1-science-ja,PHYSICS_JA,問5,q_06e879b7d694696f60becaf0,5,latex_in_text
+eju-2006-1-science-ja,PHYSICS_JA,問6,q_79414ad05723e433e3e06f2b,6,latex_in_text
+eju-2006-1-science-ja,PHYSICS_JA,問2,q_8f9590ad07d471cb37d8831f,8,latex_in_text
+eju-2006-1-science-ja,PHYSICS_JA,問5,q_ebdcc3586bf8fa918c0faf5d,14,latex_in_text
+eju-2006-1-science-ja,CHEMISTRY_JA,問2,q_ad4ee5c6d37ca73a6b1c8463,17,latex_in_text
+eju-2006-1-science-ja,CHEMISTRY_JA,問3,q_081669d56520fe44a5a2fcbb,17,latex_in_text
+eju-2006-1-science-ja,CHEMISTRY_JA,問6,q_1e8ff40e62a51ca6a9c17b65,19,latex_in_text
+eju-2006-1-science-ja,CHEMISTRY_JA,問7,q_9a14e7a615bdaca3744486c7,19,latex_in_text
+eju-2006-1-science-ja,CHEMISTRY_JA,問11,q_ddbd0ead6a4e8471e74a3e80,21,latex_in_text;explicit_figure_reference;raw_html
+eju-2006-1-science-ja,CHEMISTRY_JA,問12,q_15e928958230e36df97045d7,21,latex_in_text
+eju-2006-1-science-ja,CHEMISTRY_JA,問13,q_7b72c61e238e89da5944385b,22,explicit_figure_reference
+eju-2006-1-science-ja,CHEMISTRY_JA,問15,q_a1febaa26c7840e1d8d2e8ba,24,latex_in_text
+eju-2006-1-science-ja,CHEMISTRY_JA,問16,q_25d4e483ab1ff31f6901aae2,25,explicit_figure_reference
+eju-2006-1-science-ja,CHEMISTRY_JA,問18,q_13605aeff8b9cb9b1f50137a,26,latex_in_text
+eju-2006-1-science-ja,CHEMISTRY_JA,問19,q_ad2016034c73cf5259ef8098,27,latex_in_text;explicit_figure_reference
+eju-2006-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(1),q_b52b5a89afe9607621ec19b3,2,underline_reference
+eju-2006-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_18243cb69ddf473b9dffb382,5,underline_reference
+eju-2006-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_e7a0bdb0c1c918aefae713fa,5,raw_html
+eju-2006-2-japan-world-ja,JAPAN_AND_WORLD_JA,問10(2),q_e2a63b6e5f007b61f5c77946,10,explicit_figure_reference
+eju-2006-2-japanese-ja,JAPANESE_JA,問3,q_7328a2ca89961f73a0dbe14f,9,underline_reference
+eju-2006-2-science-ja,PHYSICS_JA,問1,q_39a7d706817d60d7cd31a745,2,latex_in_text
+eju-2006-2-science-ja,PHYSICS_JA,問2,q_4fa64c83aac92c3c6fd1d140,3,latex_in_text;explicit_figure_reference
+eju-2006-2-science-ja,PHYSICS_JA,問3,q_ea4ced40721a52a62c516a09,3,latex_in_text
+eju-2006-2-science-ja,PHYSICS_JA,問4,q_9e10551d6fd867cc40619f53,4,latex_in_text
+eju-2006-2-science-ja,PHYSICS_JA,問6,q_2aa54d8f2a8b9a2adbbbbfc6,6,latex_in_text
+eju-2006-2-science-ja,PHYSICS_JA,問1,q_40ea3992d8f705cdd6f3e5b0,7,latex_in_text
+eju-2006-2-science-ja,PHYSICS_JA,問2,q_eb8f20d6cb99cff377034ccd,7,latex_in_text
+eju-2006-2-science-ja,PHYSICS_JA,問2,q_f0689130b507a06161ae0fb3,10,latex_in_text
+eju-2006-2-science-ja,PHYSICS_JA,問3,q_a1c250a07d581b0a097f5699,11,latex_in_text
+eju-2006-2-science-ja,PHYSICS_JA,問1,q_7884d2ed67255010ffcef610,12,latex_in_text
+eju-2006-2-science-ja,PHYSICS_JA,問2,q_8df962dc6f9971b7281e82b1,13,latex_in_text
+eju-2006-2-science-ja,PHYSICS_JA,問3,q_4d804bc8dc9989efbc45dfc4,13,latex_in_text
+eju-2006-2-science-ja,PHYSICS_JA,問4,q_c4309c7d1eb16eb6ecd5d654,14,latex_in_text
+eju-2006-2-science-ja,PHYSICS_JA,問5,q_8537992613e529bb944a4192,14,latex_in_text;explicit_figure_reference;duplicate_options
+eju-2006-2-science-ja,PHYSICS_JA,問6,q_b6aa8c58c9817e3c1c97166c,15,latex_in_text;duplicate_options
+eju-2006-2-science-ja,PHYSICS_JA,問7,q_94ddb89dd31a0700793318a0,16,latex_in_text
+eju-2006-2-science-ja,CHEMISTRY_JA,問1,q_ed5118831413ab58289eb9e5,17,latex_in_text
+eju-2006-2-science-ja,BIOLOGY_JA,問3,q_d1886269c31af25f738a1f31,28,explicit_figure_reference
+eju-2006-2-science-ja,BIOLOGY_JA,問6,q_0a80d6eb37cc269b14200862,31,explicit_figure_reference
+eju-2006-2-science-ja,BIOLOGY_JA,問9(2),q_b174da20855bc2a32f5f9873,35,explicit_figure_reference
+eju-2006-2-science-ja,BIOLOGY_JA,問13(2),q_a2676d860ec80ae15f7c0279,38,explicit_figure_reference
+eju-2006-2-science-ja,BIOLOGY_JA,問14,q_cdb2ab833aac32bf7c6117bb,39,explicit_figure_reference
+eju-2007-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(1),q_26e280329ffd597c10839d44,2,underline_reference
+eju-2007-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_0ed94c6fe30efed20e507b4b,3,explicit_figure_reference;underline_reference
+eju-2007-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_ab8be09fd7d52253e15a4ae8,4,underline_reference
+eju-2007-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_863060ef9b459403cd8840ab,5,underline_reference
+eju-2007-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_71b85125d5e73bc7c7f031c5,5,underline_reference
+eju-2007-1-japan-world-ja,JAPAN_AND_WORLD_JA,問6(2),q_f8cc15a7e16227529625d7b8,8,duplicate_options
+eju-2007-1-japan-world-ja,JAPAN_AND_WORLD_JA,問13,q_6dbf7d1be7f8dc30d1be39cb,11,explicit_figure_reference
+eju-2007-1-japan-world-ja,JAPAN_AND_WORLD_JA,問20(1),q_e11b5d357ffa1936493b94f3,15,latex_in_text
+eju-2007-1-japan-world-ja,JAPAN_AND_WORLD_JA,問20(2),q_880487ac25501fda7afa4746,16,latex_in_text
+eju-2007-1-japan-world-ja,JAPAN_AND_WORLD_JA,問25(2),q_56558129dbc6ad7e223a877d,18,explicit_figure_reference
+eju-2007-1-japanese-ja,JAPANESE_JA,問17,q_e33425a5d2a5ffa0882d656b,23,explicit_figure_reference
+eju-2007-1-science-ja,PHYSICS_JA,問1,q_1035578f85d44d608af5f70d,3,latex_in_text
+eju-2007-1-science-ja,PHYSICS_JA,問2,q_52470e2c6bf41934053bf2c8,4,latex_in_text;explicit_figure_reference;duplicate_options
+eju-2007-1-science-ja,PHYSICS_JA,問3,q_222c13ba41491fae162f10ff,5,latex_in_text
+eju-2007-1-science-ja,PHYSICS_JA,問4,q_4fa0dcb371b4740613a4e545,6,latex_in_text
+eju-2007-1-science-ja,PHYSICS_JA,問5,q_aa41de49447fd533b62be6d0,7,latex_in_text
+eju-2007-1-science-ja,PHYSICS_JA,問6,q_7cff1796d867bfb9bc0860dc,8,latex_in_text
+eju-2007-1-science-ja,PHYSICS_JA,問7,q_e19af835a44849b6e367e313,8,latex_in_text
+eju-2007-1-science-ja,PHYSICS_JA,問1,q_39e4491a39204a1dce274cc7,9,latex_in_text
+eju-2007-1-science-ja,PHYSICS_JA,問3,q_ae9467a6b8f0f1f3ffe921d5,10,latex_in_text
+eju-2007-1-science-ja,PHYSICS_JA,問2,q_0aae5641a9530240c80fb6d3,12,latex_in_text
+eju-2007-1-science-ja,PHYSICS_JA,問1,q_9ba3776ca15709625c9be171,13,latex_in_text
+eju-2007-1-science-ja,PHYSICS_JA,問2,q_4ea791f5b037db7c68e173b3,14,latex_in_text
+eju-2007-1-science-ja,PHYSICS_JA,問3,q_537631c7b46624c2a3d2beed,15,latex_in_text
+eju-2007-1-science-ja,PHYSICS_JA,問4,q_023eb11c20de037931a87282,16,latex_in_text
+eju-2007-1-science-ja,PHYSICS_JA,問6,q_1c923163820f091757a121e0,18,latex_in_text
+eju-2007-1-science-ja,CHEMISTRY_JA,問1,q_e3ba33f8730b24549f9fee12,20,latex_in_text
+eju-2007-1-science-ja,CHEMISTRY_JA,問6,q_4a25e72d55b2a1b2ea18c345,23,latex_in_text
+eju-2007-1-science-ja,CHEMISTRY_JA,問7,q_21bb19f4785f5032a2607889,23,latex_in_text
+eju-2007-1-science-ja,CHEMISTRY_JA,問8,q_26f9dc0c96e55130d2826aee,24,latex_in_text
+eju-2007-1-science-ja,CHEMISTRY_JA,問9,q_2865f0d3918c24bc65b28b90,24,latex_in_text
+eju-2007-1-science-ja,CHEMISTRY_JA,問10,q_c847b9b4120bf84d86db615d,24,latex_in_text
+eju-2007-1-science-ja,CHEMISTRY_JA,問13,q_295da2ca28072031fdeb684a,26,latex_in_text
+eju-2007-1-science-ja,CHEMISTRY_JA,問14,q_a87dc5fe73da92364f4f4198,27,explicit_figure_reference
+eju-2007-1-science-ja,CHEMISTRY_JA,問17,q_0544d389613d356412338bf1,28,raw_html
+eju-2007-1-science-ja,CHEMISTRY_JA,問18,q_8bd26f6ecc887fcb091c0776,29,latex_in_text
+eju-2007-1-science-ja,CHEMISTRY_JA,問19,q_08c91a58f9b9f52ae24ab492,29,latex_in_text
+eju-2007-1-science-ja,CHEMISTRY_JA,問20,q_ec6a48a3a05248aa5a35cc58,30,latex_in_text
+eju-2007-1-science-ja,BIOLOGY_JA,問2,q_ed5feafcc7bc8e1457fa88a7,32,explicit_figure_reference
+eju-2007-1-science-ja,BIOLOGY_JA,問3(1),q_29434a95fd8974b248f56ba5,33,latex_in_text
+eju-2007-1-science-ja,BIOLOGY_JA,問7(1),q_e7457533966206d36f4ea674,36,explicit_figure_reference
+eju-2007-1-science-ja,BIOLOGY_JA,問9(1),q_76d13355715fca20a2c8254a,38,explicit_figure_reference
+eju-2007-1-science-ja,BIOLOGY_JA,問9(2),q_2f3bb9241f55f878d30fb53f,39,explicit_figure_reference
+eju-2007-1-science-ja,BIOLOGY_JA,問10,q_a1fcc8ee24d394f0feaa7040,39,explicit_figure_reference
+eju-2007-1-science-ja,BIOLOGY_JA,問14,q_87b82dd6103f7217e159652e,42,explicit_figure_reference
+eju-2007-1-science-ja,BIOLOGY_JA,問15,q_dbf67f236b2ea050e20ea23c,43,underline_reference
+eju-2007-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_ef5bb78174f5c98a78d8348e,3,underline_reference
+eju-2007-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_5a83f611ddc68b6370fdf2db,3,underline_reference
+eju-2007-2-japan-world-ja,JAPAN_AND_WORLD_JA,問3,q_8f4fb21b405c2025757d4744,6,explicit_figure_reference
+eju-2007-2-japan-world-ja,JAPAN_AND_WORLD_JA,問4,q_cccc076359fe4eeb3f86e437,7,explicit_figure_reference
+eju-2007-2-japan-world-ja,JAPAN_AND_WORLD_JA,問10,q_ab59bc11598d828c33111e14,9,explicit_figure_reference
+eju-2007-2-japan-world-ja,JAPAN_AND_WORLD_JA,問11,q_9d80203afcf0a3f2e7cad4e2,10,explicit_figure_reference
+eju-2007-2-japan-world-ja,JAPAN_AND_WORLD_JA,問15,q_a89284ecbfe142c4e2fdefb0,12,explicit_figure_reference
+eju-2007-2-japan-world-ja,JAPAN_AND_WORLD_JA,問23(2),q_eb702246f35091853b0494d1,16,underline_reference
+eju-2007-2-japan-world-ja,JAPAN_AND_WORLD_JA,問32(2),q_923ddabcffeeda530b53054a,20,underline_reference
+eju-2007-2-japanese-ja,JAPANESE_JA,問5,q_3a5f4aefc9aa452082503169,11,underline_reference
+eju-2007-2-japanese-ja,JAPANESE_JA,問11,q_06b0e4a904a4a21dc6481873,17,underline_reference
+eju-2007-2-japanese-ja,JAPANESE_JA,問12,q_af7fecf7af5b6b3d4d34d980,18,explicit_figure_reference
+eju-2002-1-science-ja,PHYSICS_JA,問1,q_7aee74d537adeec76669cbb2,2,latex_in_text
+eju-2002-1-science-ja,PHYSICS_JA,問2,q_f10ea21a47ffb7122763abf1,2,latex_in_text
+eju-2002-1-science-ja,PHYSICS_JA,問3,q_b0316949845691d0ff20e7a7,5,latex_in_text
+eju-2002-1-science-ja,PHYSICS_JA,問4,q_0ec1ec7f425befdc962bd291,5,latex_in_text
+eju-2002-1-science-ja,PHYSICS_JA,問5,q_ed1e56ebc695b1199a539771,5,latex_in_text
+eju-2002-1-science-ja,PHYSICS_JA,問1,q_15fe392bb85e17ae517e7466,6,latex_in_text
+eju-2002-1-science-ja,PHYSICS_JA,問2,q_88e3f78cacabf23974c4a814,6,latex_in_text
+eju-2002-1-science-ja,PHYSICS_JA,問3,q_154e9a977f53ee2a0889fce0,7,explicit_figure_reference
+eju-2002-1-science-ja,PHYSICS_JA,問4,q_a63f0afa891b0683c770f031,9,latex_in_text
+eju-2002-1-science-ja,PHYSICS_JA,問5,q_391395a9d5e5a165ab69b579,9,latex_in_text
+eju-2002-1-science-ja,PHYSICS_JA,問1,q_fec502ae500a4414f1eff564,10,latex_in_text
+eju-2002-1-science-ja,PHYSICS_JA,問2,q_880d04a1a48047767ee7bd40,10,latex_in_text
+eju-2002-1-science-ja,PHYSICS_JA,問3,q_064a96fdaf8ef2f030095bcb,10,latex_in_text
+eju-2002-1-science-ja,CHEMISTRY_JA,問2(2),q_e05b69fbe4dfc56b4c8e0719,13,latex_in_text
+eju-2002-1-science-ja,BIOLOGY_JA,問2(1),q_4a31adfe4355a36d6c0efbb3,21,explicit_figure_reference
+eju-2002-1-science-ja,BIOLOGY_JA,問2(2),q_6793e4c0c487f764f29bb207,21,explicit_figure_reference
+eju-2002-1-science-ja,BIOLOGY_JA,問5,q_8a92abe250c9448ec61a13c2,23,explicit_figure_reference
+eju-2002-1-science-ja,BIOLOGY_JA,問8,q_148edac4bbd069009b337800,24,latex_in_text
+eju-2007-2-science-ja,PHYSICS_JA,問2,q_c253cc7b160fe034b568894b,4,latex_in_text;explicit_figure_reference;duplicate_options
+eju-2007-2-science-ja,PHYSICS_JA,問3,q_1c94ae82a6a3c24d5816ae69,5,latex_in_text
+eju-2007-2-science-ja,PHYSICS_JA,問4,q_886db5d9e551020f7bf544fb,5,latex_in_text
+eju-2007-2-science-ja,PHYSICS_JA,問5,q_9c14a34233f5d23197e2e5be,6,latex_in_text
+eju-2007-2-science-ja,PHYSICS_JA,問6,q_b74abfeddad5ff5a54dd97ba,7,latex_in_text
+eju-2007-2-science-ja,PHYSICS_JA,問1,q_59e22ce7feb454358ee58763,15,latex_in_text;explicit_figure_reference;duplicate_options
+eju-2007-2-science-ja,PHYSICS_JA,問4,q_f81d3cf0422299cc9157fac0,17,latex_in_text;explicit_figure_reference
+eju-2007-2-science-ja,PHYSICS_JA,問5,q_4b312b91867dedbb5a7aceed,17,latex_in_text;explicit_figure_reference
+eju-2007-2-science-ja,CHEMISTRY_JA,問17,q_864cc0a208de0bc3fba8982f,27,latex_in_text
+eju-2002-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(1),q_9710dc6ad51247ac7ca1affe,2,explicit_figure_reference
+eju-2002-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_181e4d95a9307572a730e59f,2,explicit_figure_reference
+eju-2002-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_d5a4a23ec614803ce75ec777,3,explicit_figure_reference
+eju-2002-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_223cf65f4c7d381ef0664e95,3,explicit_figure_reference
+eju-2002-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_8c205093d93a46f2e494ab83,3,underline_reference
+eju-2002-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_cb4f5f1ba22b3d25baa657a3,4,underline_reference
+eju-2002-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_35a8f91429df6a153f0f4179,4,underline_reference
+eju-2002-2-japan-world-ja,JAPAN_AND_WORLD_JA,問3(1),q_a4d056833e2dc4ef57abe8c5,5,explicit_figure_reference
+eju-2002-2-japan-world-ja,JAPAN_AND_WORLD_JA,問3(2),q_4568ddff76e9417ac389205d,5,explicit_figure_reference
+eju-2008-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_bc9af9c0720cd0fb74a47a22,3,underline_reference
+eju-2008-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_3adb411556f61e6ccf4134aa,3,underline_reference
+eju-2008-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_c856fdf1e605e8f614bbeea0,4,underline_reference
+eju-2008-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_ca56cd2501bce8d737b65a20,4,underline_reference
+eju-2008-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_dfffcad63e15f78c23f0a349,5,underline_reference
+eju-2008-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_b76bddd296e1f0dc981adeac,5,underline_reference
+eju-2008-1-japan-world-ja,JAPAN_AND_WORLD_JA,問9,q_2648f07b925a9b2200c7eb7a,9,explicit_figure_reference
+eju-2008-1-japan-world-ja,JAPAN_AND_WORLD_JA,問10,q_1a83f17e6b981f4a78efacf7,10,explicit_figure_reference;duplicate_options
+eju-2008-1-japan-world-ja,JAPAN_AND_WORLD_JA,問18(2),q_b497eb14892a318a08f4a7a9,16,underline_reference
+eju-2008-1-japan-world-ja,JAPAN_AND_WORLD_JA,問29,q_92d6a90a1dbbc777dff21af8,22,explicit_figure_reference
+eju-2008-1-japanese-ja,JAPANESE_JA,問5,q_7fd90f3e38af6b9003da317c,11,explicit_figure_reference
+eju-2008-1-japanese-ja,JAPANESE_JA,問11,q_75ee53620d8f064456fefcc5,17,underline_reference
+eju-2008-1-japanese-ja,JAPANESE_JA,問13,q_7adf1c0c53960dc8f362fbc3,19,underline_reference
+eju-2008-1-science-ja,PHYSICS_JA,問4,q_68dd4aecec5f40c962699901,5,latex_in_text;explicit_figure_reference
+eju-2008-1-science-ja,PHYSICS_JA,問5,q_ec645edf9ed49a0955d0f3e1,6,latex_in_text;explicit_figure_reference
+eju-2008-1-science-ja,PHYSICS_JA,問6,q_d4311ad316727ea2505e738e,7,latex_in_text
+eju-2008-1-science-ja,PHYSICS_JA,問7,q_ac5140999bbc9a6751645ec5,8,latex_in_text
+eju-2008-1-science-ja,PHYSICS_JA,問1,q_d8a3c2b9da814dacdc4f3d88,9,latex_in_text
+eju-2008-1-science-ja,PHYSICS_JA,問3,q_8af1f0dbde861c3608f256e8,10,latex_in_text
+eju-2008-1-science-ja,PHYSICS_JA,問2,q_b1cc5c2e0f5e5636671b423e,12,latex_in_text;explicit_figure_reference;duplicate_options
+eju-2008-1-science-ja,PHYSICS_JA,問3,q_39e0fe97a91f7ecb71dfe084,13,latex_in_text;explicit_figure_reference
+eju-2008-1-science-ja,PHYSICS_JA,問1,q_0b5f94525ead9cb789719d38,14,latex_in_text
+eju-2008-1-science-ja,PHYSICS_JA,問2,q_742dfd5fc0fe6c91284538df,15,latex_in_text
+eju-2008-1-science-ja,PHYSICS_JA,問3,q_236731c46221f4b21584146a,16,latex_in_text;explicit_figure_reference
+eju-2008-1-science-ja,PHYSICS_JA,問6,q_0fe3b9bdae67404be3f8b42b,19,latex_in_text
+eju-2008-1-science-ja,CHEMISTRY_JA,問1,q_c8c0573c3452d43481f61cf4,20,latex_in_text
+eju-2008-1-science-ja,CHEMISTRY_JA,問3,q_b977d7cd8546b5fc40f0a85b,21,latex_in_text
+eju-2008-1-science-ja,CHEMISTRY_JA,問4,q_1301f6c3e029d0902b6d1b15,21,latex_in_text
+eju-2008-1-science-ja,CHEMISTRY_JA,問5,q_2d45f265539ecff9a8285c7e,22,latex_in_text
+eju-2008-1-science-ja,CHEMISTRY_JA,問6,q_94635126a1c5c6b869ff5747,22,latex_in_text
+eju-2008-1-science-ja,CHEMISTRY_JA,問7,q_6d67ce07eefd4f02a511c2a1,22,latex_in_text
+eju-2008-1-science-ja,CHEMISTRY_JA,問8,q_054ea82fa593cef183743421,23,latex_in_text;underline_reference
+eju-2008-1-science-ja,CHEMISTRY_JA,問9,q_1ec83c0fd1ebac3917e27b45,23,latex_in_text
+eju-2008-1-science-ja,CHEMISTRY_JA,問10,q_c230b227abc66b4fb3baf6dd,24,explicit_figure_reference
+eju-2008-1-science-ja,BIOLOGY_JA,問6(2),q_c1ce605190e3d7d7747a9f3a,38,explicit_figure_reference
+eju-2008-1-science-ja,BIOLOGY_JA,問7,q_eb37204313cee87ac011c823,39,latex_in_text
+eju-2008-1-science-ja,BIOLOGY_JA,問8,q_b065090807e0aad59bdab36e,40,explicit_figure_reference
+eju-2008-1-science-ja,BIOLOGY_JA,問9,q_81d3a9113779a7ecef5e0b1d,41,explicit_figure_reference
+eju-2008-1-science-ja,BIOLOGY_JA,問13,q_14a323a219952989aea37544,45,explicit_figure_reference
+eju-2008-1-science-ja,BIOLOGY_JA,問14,q_34083ed4ba9a6fc51384c383,46,explicit_figure_reference
+eju-2008-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(1),q_fa0e4fa850fcc04ab1a0b5f6,2,underline_reference
+eju-2008-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_d5ebda2748945d6db7a66542,2,underline_reference
+eju-2008-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_da6342fe1e509c5daee9abaf,4,underline_reference
+eju-2008-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_bf4609a99cbafffc0b395363,4,underline_reference
+eju-2008-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_d10d7a79099970e840ea5ed5,4,underline_reference
+eju-2008-2-japan-world-ja,JAPAN_AND_WORLD_JA,問5(1),q_0e6abee8f2661a34782a49ab,7,explicit_figure_reference;duplicate_options
+eju-2008-2-japan-world-ja,JAPAN_AND_WORLD_JA,問5(2),q_fac3adec2d394e1e4ffae03d,8,explicit_figure_reference;underline_reference
+eju-2008-2-japan-world-ja,JAPAN_AND_WORLD_JA,問11(1),q_08000990a77b663393310a7f,12,explicit_figure_reference
+eju-2008-2-japan-world-ja,JAPAN_AND_WORLD_JA,問11(2),q_696123424d194e670809eb43,12,explicit_figure_reference
+eju-2008-2-japan-world-ja,JAPAN_AND_WORLD_JA,問12,q_e88ad47691c9ed511fdf1fcf,13,explicit_figure_reference
+eju-2008-2-science-ja,PHYSICS_JA,問1,q_dae31a3be53bfd9c660271a2,3,latex_in_text
+eju-2008-2-science-ja,PHYSICS_JA,問2,q_9a2df8f86613308bee4e4641,4,explicit_figure_reference
+eju-2008-2-science-ja,PHYSICS_JA,問3,q_5a20746b170758ba6629eec6,5,latex_in_text
+eju-2008-2-science-ja,PHYSICS_JA,問4,q_488ff16fc23293f0c1d70e65,6,latex_in_text;explicit_figure_reference;duplicate_options
+eju-2008-2-science-ja,PHYSICS_JA,問5,q_9343ed5193bab342a7f9454f,7,latex_in_text
+eju-2008-2-science-ja,PHYSICS_JA,問6,q_456cc9ffa7b42b55d7a11703,7,latex_in_text
+eju-2008-2-science-ja,PHYSICS_JA,問7,q_57180109896a0a8881db7a26,8,latex_in_text
+eju-2008-2-science-ja,PHYSICS_JA,問3,q_0ae6004bb22de8284271bde9,11,latex_in_text
+eju-2008-2-science-ja,PHYSICS_JA,問1,q_6ff040821f8eaa394a4055f7,12,latex_in_text
+eju-2008-2-science-ja,PHYSICS_JA,問2,q_82944eee4bdb359ac5710f8e,13,latex_in_text
+eju-2008-2-science-ja,PHYSICS_JA,問1,q_691caf9ea59670e132205b98,15,latex_in_text
+eju-2008-2-science-ja,PHYSICS_JA,問2,q_db52c8ae53584e66170d027f,16,latex_in_text
+eju-2008-2-science-ja,PHYSICS_JA,問4,q_92707eadb442f91ce812b0b6,18,latex_in_text
+eju-2008-2-science-ja,PHYSICS_JA,問6,q_efd6711a6d76e408d4ae7a57,20,latex_in_text
+eju-2008-2-science-ja,CHEMISTRY_JA,問1,q_d64e723b681b54ac6d899220,21,latex_in_text
+eju-2008-2-science-ja,CHEMISTRY_JA,問2,q_2d95916fe663503bedef5360,22,latex_in_text
+eju-2008-2-science-ja,CHEMISTRY_JA,問5,q_828d26367bd12bca64ca404b,23,latex_in_text
+eju-2008-2-science-ja,CHEMISTRY_JA,問6,q_e6fa9b2629cbab00aaed7ede,23,latex_in_text
+eju-2008-2-science-ja,CHEMISTRY_JA,問7,q_903f15288499067faee38f29,23,latex_in_text
+eju-2008-2-science-ja,CHEMISTRY_JA,問15,q_57405af24f67309dd3679205,26,latex_in_text
+eju-2008-2-science-ja,CHEMISTRY_JA,問16,q_75f3fb662a8bd01f41d9d7c2,26,latex_in_text
+eju-2008-2-science-ja,CHEMISTRY_JA,問17,q_aaf70db85a67ec35a67efecd,27,latex_in_text
+eju-2008-2-science-ja,CHEMISTRY_JA,問18,q_5b5f1c5189744fccdf60ea60,27,latex_in_text
+eju-2008-2-science-ja,BIOLOGY_JA,問1,q_6740126f36bf77dfae5b9e98,29,duplicate_options
+eju-2008-2-science-ja,BIOLOGY_JA,問2,q_19152869ff9228ec36a36653,30,explicit_figure_reference
+eju-2008-2-science-ja,BIOLOGY_JA,問7,q_d5f705b8f84a1504f435b6d1,33,latex_in_text
+eju-2008-2-science-ja,BIOLOGY_JA,問8(1),q_23046ed27360b2511070c971,35,explicit_figure_reference
+eju-2008-2-science-ja,BIOLOGY_JA,問8(2),q_b019ef3cf53a447207d4bf27,35,explicit_figure_reference
+eju-2008-2-science-ja,BIOLOGY_JA,問10,q_a8ef3f6c7ab67acf64f5ad10,37,explicit_figure_reference
+eju-2008-2-science-ja,BIOLOGY_JA,問10(2),q_4cce03f473ce450bfd675ef4,39,explicit_figure_reference
+eju-2008-2-science-ja,BIOLOGY_JA,問10(1),q_59761cb68b347d1b0c307376,40,explicit_figure_reference
+eju-2009-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(1),q_a410e826914116b13ce87193,2,underline_reference
+eju-2009-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_e5c755f008b300d7798af969,2,underline_reference
+eju-2009-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_4c2d5b41df306824106732a8,3,underline_reference
+eju-2009-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_c2fd2bb351ddb68809b81e4c,3,underline_reference
+eju-2009-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_c82cb0bd83b2b7b0b0830c0c,4,underline_reference
+eju-2009-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_99b47ed131efa3b86ee0a951,4,underline_reference
+eju-2009-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_f2124c40dc4f681baa8851e1,5,underline_reference
+eju-2009-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_ddca11da2715cc58b1823926,5,underline_reference
+eju-2009-1-japan-world-ja,JAPAN_AND_WORLD_JA,問11,q_dc24d31402f3574cfc850af6,10,explicit_figure_reference
+eju-2009-1-japan-world-ja,JAPAN_AND_WORLD_JA,問12,q_53f1e8b23bc3d5e80ce431ff,11,explicit_figure_reference
+eju-2009-1-japan-world-ja,JAPAN_AND_WORLD_JA,問13,q_c8f09ce39c3a1c0339c852ef,12,explicit_figure_reference
+eju-2009-1-japan-world-ja,JAPAN_AND_WORLD_JA,問15,q_b70da20260c6d6860a382b71,14,explicit_figure_reference
+eju-2009-1-japan-world-ja,JAPAN_AND_WORLD_JA,問26(1),q_5f54a5d279e23bccdcf2864f,21,explicit_figure_reference
+eju-2009-1-japan-world-ja,JAPAN_AND_WORLD_JA,問26(2),q_0b8afb077a66fe9a4cc2f346,22,explicit_figure_reference
+eju-2009-1-japan-world-ja,JAPAN_AND_WORLD_JA,問26(3),q_b08ef1754c46a3bc8ee02a5c,22,explicit_figure_reference
+eju-2009-1-japanese-ja,JAPANESE_JA,問2,q_d3abd6027eb6a0885be69aeb,8,explicit_figure_reference
+eju-2009-1-japanese-ja,JAPANESE_JA,問11,q_89e38ed848cf824f357fd496,17,underline_reference
+eju-2009-1-japanese-ja,JAPANESE_JA,問15,q_6a55c7f28884a2eae950df03,21,underline_reference
+eju-2009-1-japanese-ja,JAPANESE_JA,問17,q_4b451c37b9c89b642d858aa4,23,underline_reference
+eju-2009-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第II問,q_b3ef606fa2a9a0edda5b3b39,1,guidance_as_question
+eju-2009-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_95578d7316e8632b7c8922fb,1,latex_in_text;guidance_as_question
+eju-2009-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_7ad90ef7f41b2da2317deb39,3,latex_in_text;explicit_figure_reference
+eju-2009-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_3bd2dd8451cc1d31933aced6,5,latex_in_text
+eju-2009-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,IV 問2,q_7285e05f860958634e837ced,13,latex_in_text;explicit_figure_reference
+eju-2009-1-science-ja,PHYSICS_JA,問3,q_e3d0a0ea6f17658ef415758d,5,latex_in_text
+eju-2009-1-science-ja,PHYSICS_JA,問4,q_83513797fab013d05774ab92,6,latex_in_text;explicit_figure_reference
+eju-2009-1-science-ja,PHYSICS_JA,問5,q_4ed8d6858f2f8fe9994ecc51,7,latex_in_text
+eju-2009-1-science-ja,PHYSICS_JA,問6,q_f4644cbcf1e8683713720cb0,8,latex_in_text
+eju-2009-1-science-ja,PHYSICS_JA,問7,q_8492e7cf11cde8c433797b39,9,latex_in_text;explicit_figure_reference
+eju-2009-1-science-ja,PHYSICS_JA,問2,q_dd61dc4173d21c2e6f98eda1,11,latex_in_text
+eju-2009-1-science-ja,PHYSICS_JA,問3,q_af083ee8bad501d37dec067c,11,latex_in_text
+eju-2009-1-science-ja,PHYSICS_JA,問1,q_31e88e799f9ebd83d32761a6,12,latex_in_text;explicit_figure_reference;duplicate_options
+eju-2009-1-science-ja,PHYSICS_JA,問1,q_2ebdb9bc03997f76468d49e7,15,latex_in_text
+eju-2009-1-science-ja,PHYSICS_JA,問2,q_0f87bb59f6dee3755db14de4,16,latex_in_text;explicit_figure_reference
+eju-2009-1-science-ja,PHYSICS_JA,問3,q_71fcc9437c4f07860ea16f4d,17,latex_in_text;markdown_table;duplicate_options
+eju-2009-1-science-ja,PHYSICS_JA,問5,q_71e9daf6efbcb051b6c86859,19,explicit_figure_reference
+eju-2009-1-science-ja,PHYSICS_JA,問6,q_88ae12ab6f75e6c2f3f35642,20,latex_in_text
+eju-2009-1-science-ja,CHEMISTRY_JA,問2,q_d8ef0ec56ed5cac4c20ac34d,22,latex_in_text
+eju-2009-1-science-ja,CHEMISTRY_JA,問3,q_9d7a1d4fff904c941c76223b,22,latex_in_text
+eju-2009-1-science-ja,CHEMISTRY_JA,問5,q_e02b5da6506ebbe059d40411,22,latex_in_text
+eju-2009-1-science-ja,CHEMISTRY_JA,問7,q_89b3d9fd6acecffca7584be8,23,explicit_figure_reference
+eju-2009-1-science-ja,CHEMISTRY_JA,問9,q_a8c44ff08f8f12843ca83869,24,latex_in_text
+eju-2009-1-science-ja,CHEMISTRY_JA,問10,q_234c9ca281053ddd0b339990,24,latex_in_text
+eju-2009-1-science-ja,CHEMISTRY_JA,問11,q_d6da8bc29a7bc980f5bd67fa,24,latex_in_text
+eju-2009-1-science-ja,CHEMISTRY_JA,問13,q_ad899543f0126eac51db7c10,25,latex_in_text
+eju-2009-1-science-ja,CHEMISTRY_JA,問20,q_adef223367afdb4a462cc7b3,28,latex_in_text
+eju-2009-1-science-ja,BIOLOGY_JA,問3,q_9c10f0d45bc0dfb36088989b,30,explicit_figure_reference
+eju-2009-1-science-ja,BIOLOGY_JA,問6(1),q_aacb8f1dced676d1df713fae,32,explicit_figure_reference
+eju-2009-1-science-ja,BIOLOGY_JA,問6(2),q_105e3ae77444673deff14c23,32,explicit_figure_reference
+eju-2009-1-science-ja,BIOLOGY_JA,問11,q_142a70684201a2a9df7d6b44,36,duplicate_options
+eju-2009-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_665fa0fc15b8beb4e2b6e6a3,3,underline_reference
+eju-2009-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_eed814ecded66b18a69dcd0e,3,underline_reference
+eju-2009-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_ad0a09e2206b9c9c747f3344,3,underline_reference
+eju-2009-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_1bb598972318697c60331330,5,underline_reference
+eju-2009-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_068c3420489cd51ff4503ca6,5,underline_reference
+eju-2009-2-japan-world-ja,JAPAN_AND_WORLD_JA,問5(1),q_1069d4dd1f86620ee453cbbf,7,explicit_figure_reference
+eju-2009-2-japan-world-ja,JAPAN_AND_WORLD_JA,問5(2),q_c67621f85ab96ddb50ac07ad,8,explicit_figure_reference
+eju-2009-2-japan-world-ja,JAPAN_AND_WORLD_JA,問8(1),q_81b23d0e9379d586f0c703d3,9,underline_reference
+eju-2009-2-japan-world-ja,JAPAN_AND_WORLD_JA,問11(1),q_c19587a60a09625af42e466a,11,explicit_figure_reference
+eju-2009-2-japan-world-ja,JAPAN_AND_WORLD_JA,問11(2),q_41bca7fc40aed2f4d7aa6724,12,explicit_figure_reference
+eju-2009-2-japan-world-ja,JAPAN_AND_WORLD_JA,問12,q_0244bf29e6ad94da5bee0a2e,12,explicit_figure_reference
+eju-2009-2-japanese-ja,JAPANESE_JA,問2,q_a3753341bbb9ba0c57e0b323,8,underline_reference
+eju-2009-2-science-ja,PHYSICS_JA,問3,q_ab195d0ca4911de89c9d778d,5,latex_in_text
+eju-2009-2-science-ja,PHYSICS_JA,問4,q_fb5b35eb79c2d20754c760ae,5,latex_in_text
+eju-2009-2-science-ja,PHYSICS_JA,問6,q_035a726d064c0ba9c85d2d24,7,latex_in_text
+eju-2009-2-science-ja,PHYSICS_JA,問7,q_3bd0e196f1fa4b0abba3bf3a,8,latex_in_text
+eju-2009-2-science-ja,PHYSICS_JA,問2,q_5f127b82b63ab3cc1039824c,10,latex_in_text;duplicate_options
+eju-2009-2-science-ja,PHYSICS_JA,問3,q_bebe837118819f7c294b6170,11,latex_in_text;explicit_figure_reference
+eju-2009-2-science-ja,PHYSICS_JA,問1,q_4620bbfc7b198b73e04f5dfe,15,latex_in_text
+eju-2009-2-science-ja,PHYSICS_JA,問2,q_81e0c83b7693b500e8fb2f12,16,explicit_figure_reference;duplicate_options
+eju-2009-2-science-ja,PHYSICS_JA,問3,q_0e9dedfe2747ed95519c18b3,17,latex_in_text
+eju-2009-2-science-ja,PHYSICS_JA,問5,q_199e2790fd7f49165755b2bf,19,latex_in_text
+eju-2009-2-science-ja,CHEMISTRY_JA,問1,q_2eaee9348bfd00c72f6a0e01,21,latex_in_text
+eju-2009-2-science-ja,CHEMISTRY_JA,問3,q_948f243cb1ed65ae6735a98d,23,raw_html
+eju-2009-2-science-ja,CHEMISTRY_JA,問4,q_a99a69c3a31767460b71f716,23,latex_in_text
+eju-2009-2-science-ja,CHEMISTRY_JA,問5,q_764132232aabcd4b2eb5fa61,23,latex_in_text
+eju-2009-2-science-ja,CHEMISTRY_JA,問9,q_e866fda0fafb0287b081770b,25,latex_in_text
+eju-2009-2-science-ja,CHEMISTRY_JA,問10,q_66e06b1f084aaf76ad2d244d,25,latex_in_text
+eju-2009-2-science-ja,CHEMISTRY_JA,問11,q_51b70f6e76a05a398910c66b,26,latex_in_text
+eju-2009-2-science-ja,CHEMISTRY_JA,問13,q_5a278b7a637b37bb78bf5d1b,28,latex_in_text
+eju-2009-2-science-ja,CHEMISTRY_JA,問14,q_991b53e686194ab1bca6bd79,28,latex_in_text
+eju-2009-2-science-ja,CHEMISTRY_JA,問19,q_a45193db3343a29fae2cc2e1,30,latex_in_text
+eju-2009-2-science-ja,BIOLOGY_JA,問3,q_e8a26a3de7d4bf4f574acfcb,34,latex_in_text
+eju-2009-2-science-ja,BIOLOGY_JA,問4(1),q_97b0d191b633b4505622424b,35,explicit_figure_reference
+eju-2009-2-science-ja,BIOLOGY_JA,問4(2),q_d39a7aee261fd27115aeba71,35,explicit_figure_reference
+eju-2009-2-science-ja,BIOLOGY_JA,問6,q_a3bb2553bb5c665927515291,37,explicit_figure_reference
+eju-2009-2-science-ja,BIOLOGY_JA,問9,q_9dd270477f3b2a09b276858b,41,explicit_figure_reference
+eju-2009-2-science-ja,BIOLOGY_JA,問15,q_0bfc3648f2783670643b46ac,45,explicit_figure_reference
+eju-2010-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(1),q_074e0df2e9a1800ca64d472d,2,underline_reference
+eju-2010-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_08e736c7eefa60d5ccdbf601,6,markdown_table;underline_reference
+eju-2010-1-japan-world-ja,JAPAN_AND_WORLD_JA,問5,q_9e88a70b820941314e77944f,8,explicit_figure_reference
+eju-2010-1-japan-world-ja,JAPAN_AND_WORLD_JA,問7,q_8e179df00f736c8b13cb72f1,9,explicit_figure_reference
+eju-2010-1-japan-world-ja,JAPAN_AND_WORLD_JA,問25(2),q_7c1a3386a656046b8a765aa6,20,underline_reference
+eju-2010-1-japan-world-ja,JAPAN_AND_WORLD_JA,問28(1),q_a6958e3333b5cef13eabe136,22,underline_reference
+eju-2010-1-japan-world-ja,JAPAN_AND_WORLD_JA,問28(2),q_91b12d32e1d5b27455d96986,22,underline_reference
+eju-2010-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_2aa2234bb8f41ea9e42b78bc,1,latex_in_text;guidance_as_question
+eju-2010-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_590a6126f544d570554f728e,3,latex_in_text
+eju-2010-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_7371d8c8c31161a3021467b2,5,latex_in_text
+eju-2010-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_a87412ace8da719d9c53dc5f,9,latex_in_text;explicit_figure_reference
+eju-2010-1-science-ja,PHYSICS_JA,問6,q_8eab2656b1680f4a3c00225b,8,latex_in_text
+eju-2010-1-science-ja,PHYSICS_JA,問7,q_5b8a4b6b5e48b7b260fec453,9,latex_in_text
+eju-2010-1-science-ja,PHYSICS_JA,問1,q_0b5b7497e8d027351b26fd66,10,latex_in_text
+eju-2010-1-science-ja,PHYSICS_JA,問2,q_6feb9affa2d94aeb8c58a02b,11,latex_in_text
+eju-2010-1-science-ja,PHYSICS_JA,問1,q_a1b393f0351d08df3563bd1a,13,explicit_figure_reference
+eju-2010-1-science-ja,PHYSICS_JA,問2,q_e6e273a775329f15fc70ca48,14,latex_in_text
+eju-2010-1-science-ja,PHYSICS_JA,問1,q_98341437f252c940504f723b,17,latex_in_text
+eju-2010-1-science-ja,PHYSICS_JA,問2,q_5ee89915eb5adc823e2a224b,18,latex_in_text;explicit_figure_reference;duplicate_options
+eju-2010-1-science-ja,PHYSICS_JA,問5,q_0d24ae1094e982d18e2d914c,20,latex_in_text
+eju-2010-1-science-ja,CHEMISTRY_JA,問1,q_188a2b7db2265130ef82908b,23,latex_in_text
+eju-2010-1-science-ja,CHEMISTRY_JA,問3,q_911cf3a5f329f59f1f231f34,24,latex_in_text
+eju-2010-1-science-ja,CHEMISTRY_JA,問5,q_5d37a3f67dd588ffaab96d33,25,explicit_figure_reference
+eju-2010-1-science-ja,CHEMISTRY_JA,問6,q_312d810c225e9536bae58346,26,latex_in_text
+eju-2010-1-science-ja,CHEMISTRY_JA,問7,q_a44549d66235137322d4b8dc,26,latex_in_text
+eju-2010-1-science-ja,CHEMISTRY_JA,問8,q_96f089ac7ce00e0e6dbb894e,27,latex_in_text
+eju-2010-1-science-ja,CHEMISTRY_JA,問12,q_4ff93d5e6db0904368f0b594,30,latex_in_text
+eju-2010-1-science-ja,CHEMISTRY_JA,問15,q_6ee70da6bf6f09010cd77273,32,explicit_figure_reference
+eju-2010-1-science-ja,CHEMISTRY_JA,問16,q_6fc98f6c4425842a35434606,33,latex_in_text
+eju-2010-1-science-ja,CHEMISTRY_JA,問19,q_92822689ca809d28e9f6c447,34,latex_in_text
+eju-2010-1-science-ja,BIOLOGY_JA,問4,q_889afbe1d16bd073df7a5fa1,39,explicit_figure_reference
+eju-2010-1-science-ja,BIOLOGY_JA,問5,q_cf942e53b558b2b713269324,40,latex_in_text
+eju-2010-1-science-ja,BIOLOGY_JA,問6(1),q_a78a65956b45d3b5c501f7f9,41,explicit_figure_reference
+eju-2010-1-science-ja,BIOLOGY_JA,問6(2),q_1a6bab5f7f8a526e438a400e,42,latex_in_text;explicit_figure_reference
+eju-2010-1-science-ja,BIOLOGY_JA,問7(1),q_7c65d8f34be75aecf854c9a4,43,explicit_figure_reference
+eju-2010-1-science-ja,BIOLOGY_JA,問7(2),q_8c89c65ff474591a3d572db5,44,explicit_figure_reference
+eju-2010-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_cbc9f12c0158d3ae113870ef,3,underline_reference
+eju-2010-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_82c1bb901615c95676b9adb3,4,underline_reference
+eju-2010-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_32d038adbdd4458b17069cba,5,underline_reference
+eju-2010-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_e9fedd922514b75373fcc9dd,5,underline_reference
+eju-2010-2-japan-world-ja,JAPAN_AND_WORLD_JA,問11,q_416c084e669b24757f2a579c,10,explicit_figure_reference
+eju-2010-2-japan-world-ja,JAPAN_AND_WORLD_JA,問13,q_f36265a81849758d358b133c,11,explicit_figure_reference;underline_reference
+eju-2010-2-japan-world-ja,JAPAN_AND_WORLD_JA,問14,q_7bea83e2e94bd02828c179ab,12,explicit_figure_reference
+eju-2010-2-japan-world-ja,JAPAN_AND_WORLD_JA,問17,q_21d21d31a69fae33e8f7c722,13,explicit_figure_reference
+eju-2010-2-japan-world-ja,JAPAN_AND_WORLD_JA,問22,q_bf914f3e80e1aad40e3b2a87,16,underline_reference
+eju-2010-2-japan-world-ja,JAPAN_AND_WORLD_JA,問25(1),q_46c38a5016bc0d9201f22883,18,underline_reference
+eju-2010-2-science-ja,PHYSICS_JA,問2,q_5a34eed2934ee276dc3fc41b,4,latex_in_text;explicit_figure_reference;duplicate_options
+eju-2010-2-science-ja,PHYSICS_JA,問4,q_feafda60504066a77f37263a,6,latex_in_text
+eju-2010-2-science-ja,PHYSICS_JA,問5,q_91e2a9365d66b7e6d5d87089,7,latex_in_text
+eju-2010-2-science-ja,PHYSICS_JA,問6,q_ca59b8c55ba25ffc0a24f386,8,latex_in_text
+eju-2010-2-science-ja,PHYSICS_JA,問7,q_ebca452324bbf3ae221324e0,9,latex_in_text
+eju-2010-2-science-ja,PHYSICS_JA,問2,q_5480d134fa933453a60b4706,11,latex_in_text
+eju-2010-2-science-ja,PHYSICS_JA,問3,q_4009374e33f4dba6cf86867c,12,latex_in_text
+eju-2010-2-science-ja,PHYSICS_JA,問1,q_69ea5b22e8d77e0271a41bfb,13,latex_in_text
+eju-2010-2-science-ja,PHYSICS_JA,問2,q_83af1beeb7457615cbdf5140,14,explicit_figure_reference
+eju-2010-2-science-ja,PHYSICS_JA,問2,q_d1430d3a6617d5a1b98cfe10,16,latex_in_text
+eju-2010-2-science-ja,PHYSICS_JA,問3,q_aba2a02679f2a32a9669f7f0,17,latex_in_text
+eju-2010-2-science-ja,PHYSICS_JA,問4,q_575ada8368e841a58ac88632,18,latex_in_text;explicit_figure_reference
+eju-2010-2-science-ja,CHEMISTRY_JA,問7,q_71a090fcd66a5865401e343e,27,underline_reference
+eju-2010-2-science-ja,CHEMISTRY_JA,問9,q_4563688dadcd473a9ee62ba5,27,latex_in_text
+eju-2010-2-science-ja,CHEMISTRY_JA,問10,q_88c43a473568386749232389,28,explicit_figure_reference
+eju-2010-2-science-ja,CHEMISTRY_JA,問11,q_5a6f84afb9906f8dde1343b9,28,latex_in_text;underline_reference
+eju-2010-2-science-ja,CHEMISTRY_JA,問12,q_52f62ac7545bd52e79475dc2,29,latex_in_text
+eju-2010-2-science-ja,CHEMISTRY_JA,問13,q_e35631070f2af01f6c891d84,29,latex_in_text
+eju-2010-2-science-ja,CHEMISTRY_JA,問16,q_fe15b4bda0370f2af4bba403,31,latex_in_text
+eju-2010-2-science-ja,CHEMISTRY_JA,問17,q_c16f2644f7519dabd7e6dd4d,31,latex_in_text
+eju-2010-2-science-ja,CHEMISTRY_JA,問18,q_b3df233c248cefc5941f536e,31,latex_in_text
+eju-2010-2-science-ja,CHEMISTRY_JA,問20,q_f728d3f16b930106360a21dd,32,latex_in_text
+eju-2010-2-science-ja,BIOLOGY_JA,問5,q_e3e3d07917ef1c338b6f02f7,36,duplicate_options
+eju-2010-2-science-ja,BIOLOGY_JA,問7,q_3f4a37a142b4898b8bd607d5,37,explicit_figure_reference
+eju-2011-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_d318eef69a833b6445802ff8,3,underline_reference
+eju-2011-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_399abafe05f99dbc294921e8,3,underline_reference
+eju-2011-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_ee9de28e05c78b155ba965a3,4,underline_reference
+eju-2011-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_96eef3d783d1eecb2f0fdccc,5,underline_reference
+eju-2011-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_8cd610cd7b925317a299acc2,5,underline_reference
+eju-2011-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_c966676005977910efdf5f62,6,underline_reference
+eju-2011-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_3b594471ebb20a8bbb347297,1,latex_in_text;guidance_as_question
+eju-2011-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_30a39c2b05add38c86c5e570,3,latex_in_text
+eju-2011-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_8c8a58c35541f171ff848aa4,5,latex_in_text
+eju-2011-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_755a72b9e56cb52eca67b8b5,7,latex_in_text
+eju-2011-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_1e142a90e587edfe52472b40,9,latex_in_text
+eju-2011-1-science-ja,PHYSICS_JA,問2,q_877cdc1ac9763fe8eba77592,4,latex_in_text;explicit_figure_reference
+eju-2011-1-science-ja,PHYSICS_JA,問3,q_b0ee357b2df3dee5b86c180f,5,latex_in_text
+eju-2011-1-science-ja,PHYSICS_JA,問4,q_97ba73e4f11ce9c546d3c234,6,latex_in_text
+eju-2011-1-science-ja,PHYSICS_JA,問5,q_3b5c38369327b73c653b80e9,7,latex_in_text
+eju-2011-1-science-ja,PHYSICS_JA,問6,q_7a8ec8640af95b70136a1380,8,latex_in_text
+eju-2011-1-science-ja,PHYSICS_JA,問7,q_a0c1f0d2527b5f13743642f5,9,latex_in_text
+eju-2011-1-science-ja,PHYSICS_JA,問2,q_4dea2d9dd8ac2049ed5ff976,11,latex_in_text
+eju-2011-1-science-ja,PHYSICS_JA,問3,q_4d2024a6d0c6250d5c3c734c,12,latex_in_text
+eju-2011-1-science-ja,PHYSICS_JA,問3,q_c136fb497986bd2db8535fdb,15,latex_in_text
+eju-2011-1-science-ja,PHYSICS_JA,問1,q_50cc0366ecc746511e491b9f,16,latex_in_text
+eju-2011-1-science-ja,PHYSICS_JA,問2,q_658612ee6814d62712908780,17,latex_in_text;explicit_figure_reference
+eju-2011-1-science-ja,PHYSICS_JA,問3,q_420976bc5c7a63a9c40b0bc6,18,latex_in_text
+eju-2011-1-science-ja,PHYSICS_JA,問5,q_796e4411d49575ea878b5849,20,latex_in_text
+eju-2011-1-science-ja,CHEMISTRY_JA,問3,q_7db29a5d47209c8a309a54eb,23,latex_in_text
+eju-2011-1-science-ja,CHEMISTRY_JA,問6,q_fc1a840a77518a167b5237bd,25,latex_in_text;explicit_figure_reference
+eju-2011-1-science-ja,CHEMISTRY_JA,問7,q_cb221bef0e7c1c82f85c12a3,26,latex_in_text;underline_reference
+eju-2011-1-science-ja,CHEMISTRY_JA,問8,q_bf4f019925091ed253291005,27,latex_in_text;explicit_figure_reference
+eju-2011-1-science-ja,CHEMISTRY_JA,問9,q_b3de5aacb88a25c35c0f3670,28,latex_in_text
+eju-2011-1-science-ja,CHEMISTRY_JA,問10,q_640483c6f2caee12fd34d275,28,latex_in_text
+eju-2011-1-science-ja,CHEMISTRY_JA,問11,q_6834a3c289c71415a9b3c890,28,latex_in_text
+eju-2011-1-science-ja,CHEMISTRY_JA,問12,q_2f0c49d83fe645e3470f5260,29,latex_in_text
+eju-2011-1-science-ja,CHEMISTRY_JA,問13,q_4c465b61e98cd4771eec0c57,29,latex_in_text
+eju-2011-1-science-ja,CHEMISTRY_JA,問15,q_54c40b1f514f6395117e4b53,31,latex_in_text;explicit_figure_reference
+eju-2011-1-science-ja,CHEMISTRY_JA,問16,q_132a110789ce27184d1faf5a,32,latex_in_text
+eju-2011-1-science-ja,CHEMISTRY_JA,問17,q_981db7bff4a54a8b0d96f712,32,latex_in_text
+eju-2011-1-science-ja,CHEMISTRY_JA,問18,q_11c3612944721428b20b691c,32,latex_in_text
+eju-2011-1-science-ja,BIOLOGY_JA,問3,q_beb88e7ae6d261131dffb427,37,explicit_figure_reference
+eju-2011-1-science-ja,BIOLOGY_JA,問6,q_abd24d9a686ae1e4196875b6,39,explicit_figure_reference
+eju-2011-1-science-ja,BIOLOGY_JA,問7,q_5a9325492f9c524dc0fd7810,40,latex_in_text;explicit_figure_reference
+eju-2011-1-science-ja,BIOLOGY_JA,問11,q_5ad44a2b4128b1bb2de61fb4,43,explicit_figure_reference
+eju-2011-1-science-ja,BIOLOGY_JA,問12(1),q_53f75a318fc11afef382deef,45,explicit_figure_reference
+eju-2011-1-science-ja,BIOLOGY_JA,問12(2),q_32596feadc0f898b4bb5af3b,45,explicit_figure_reference
+eju-2011-1-science-ja,BIOLOGY_JA,問13(2),q_06c4c9144eb8496574d556aa,47,underline_reference
+eju-2011-1-science-ja,BIOLOGY_JA,問14,q_878e510c445344dac7fd6173,48,latex_in_text
+eju-2011-1-science-ja,BIOLOGY_JA,問15,q_8605d5f80665c5e0daa03792,49,latex_in_text
+eju-2011-1-science-ja,BIOLOGY_JA,問16,q_bee086824d0cb74a409f7a1b,50,explicit_figure_reference
+eju-2011-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_7ed1f9f3661b820c0f44d88f,4,explicit_figure_reference;underline_reference
+eju-2011-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_8bc3be826483ccfff6293cf3,4,underline_reference
+eju-2011-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_702feda3f81d1c81f869fd6a,5,underline_reference
+eju-2011-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_dca329f45fb5ae7979000484,6,underline_reference
+eju-2011-2-japan-world-ja,JAPAN_AND_WORLD_JA,問10,q_e216b5ec947251480c7b2b88,10,explicit_figure_reference
+eju-2011-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_543720d8581d842fce757266,1,latex_in_text;guidance_as_question
+eju-2011-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_73f8126476fd626dcee9044f,3,latex_in_text
+eju-2011-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_3ff4fed93a018afac1b4554f,5,latex_in_text;explicit_figure_reference
+eju-2011-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_394ae3d245cfc5fd6c87ec88,9,latex_in_text
+eju-2011-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_87451bb90e4732498ec67282,13,latex_in_text
+eju-2011-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第II問,q_381bd73220a811a865623aea,1,guidance_as_question
+eju-2011-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_7474afef8d7162dd9cef3d4f,1,latex_in_text;guidance_as_question
+eju-2011-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_1be835331f9fff685fd702da,3,latex_in_text
+eju-2011-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_d8fad2b47a86be357bd28527,5,latex_in_text;explicit_figure_reference
+eju-2011-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,IV 問1,q_1030e17ca57551b8ff8b76ae,11,latex_in_text
+eju-2011-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,IV 問2,q_12ad8fb9de99bee88be2e9fb,13,latex_in_text
+eju-2011-2-science-ja,PHYSICS_JA,問3,q_1cf7181a2b5c6f86a1929185,5,latex_in_text
+eju-2011-2-science-ja,PHYSICS_JA,問5,q_dfdcffe230cd606e7dd2339b,7,latex_in_text;explicit_figure_reference
+eju-2011-2-science-ja,PHYSICS_JA,問6,q_531c97b16680abda9779b994,8,latex_in_text
+eju-2011-2-science-ja,PHYSICS_JA,問7,q_7d1c0c21fb8a2f2703e57a34,9,latex_in_text
+eju-2011-2-science-ja,BIOLOGY_JA,問2,q_a8433a17fb59f888102b4a99,34,explicit_figure_reference
+eju-2011-2-science-ja,BIOLOGY_JA,問5(1),q_ebff2fde2ba6da449a9f2a25,36,explicit_figure_reference
+eju-2011-2-science-ja,BIOLOGY_JA,問5(2),q_1fc93c2f1db3c928bdaed432,37,explicit_figure_reference
+eju-2011-2-science-ja,BIOLOGY_JA,問6,q_a5b89c88dd38261b7dcf043c,37,latex_in_text
+eju-2011-2-science-ja,BIOLOGY_JA,問13(1),q_aa990d5262501cb387052db2,43,explicit_figure_reference;underline_reference
+eju-2012-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_c835743580fef9f8f800dcc1,3,explicit_figure_reference;underline_reference
+eju-2012-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_2ec422b41cb8e1411c0adfd5,4,underline_reference
+eju-2012-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_d62167df0496be0b4aaa2389,4,underline_reference
+eju-2012-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_1e43093f29157c7456e34fbd,6,underline_reference
+eju-2012-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_8270562002667078ecea4214,6,underline_reference
+eju-2012-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_320d0fd56cdaa4ec2aaa41f4,6,underline_reference
+eju-2012-1-japan-world-ja,JAPAN_AND_WORLD_JA,問8,q_545fadb65ece8d320b7847c9,11,explicit_figure_reference
+eju-2012-1-japan-world-ja,JAPAN_AND_WORLD_JA,問14(1),q_b811e088eacb489ce5faa805,18,explicit_figure_reference
+eju-2012-1-japan-world-ja,JAPAN_AND_WORLD_JA,問14(2),q_56f5e3611b8bc888a1c4a290,18,explicit_figure_reference
+eju-2012-1-japan-world-ja,JAPAN_AND_WORLD_JA,問19(1),q_153f6cf7f7cc9770bb29df3a,22,underline_reference
+eju-2012-1-japan-world-ja,JAPAN_AND_WORLD_JA,問19(2),q_c29f1ded4cc7c77cd5496a3c,22,underline_reference
+eju-2012-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_e2e5bf0377f583b47c6167c4,1,latex_in_text;guidance_as_question
+eju-2012-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_80ee99b34bfd83afbd2dc00c,3,latex_in_text;explicit_figure_reference
+eju-2012-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_b819d04e1f6fccf74926ec3d,5,latex_in_text
+eju-2012-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_d81635bbc098d12c2edc4733,7,latex_in_text
+eju-2012-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_5d7564a1fd4ac382583e2bd3,9,latex_in_text
+eju-2012-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_7a8d53b4079238f3c3b90aaa,13,latex_in_text
+eju-2012-1-science-ja,PHYSICS_JA,問2,q_646a7e316f3849ba013b623d,4,latex_in_text
+eju-2012-1-science-ja,PHYSICS_JA,問3,q_00d2451ef315d6be49b0a33d,5,latex_in_text;explicit_figure_reference
+eju-2012-1-science-ja,PHYSICS_JA,問4,q_bffa5a1289b6a8d52980bd8f,6,latex_in_text
+eju-2012-1-science-ja,PHYSICS_JA,問5,q_4887d6560b043ee2412d4eea,7,explicit_figure_reference
+eju-2012-1-science-ja,PHYSICS_JA,問6,q_e6859850bce355506141c430,8,latex_in_text
+eju-2012-1-science-ja,PHYSICS_JA,問7,q_db2268b5c8e378c7a71a6402,9,latex_in_text
+eju-2012-1-science-ja,PHYSICS_JA,問3,q_cf3cf59688471308cd075dc7,12,latex_in_text
+eju-2012-1-science-ja,PHYSICS_JA,問1,q_7677e50f1ede496d865bc9ae,16,latex_in_text
+eju-2012-1-science-ja,PHYSICS_JA,問2,q_c741901fbd84e43ca6ed5b11,17,latex_in_text;explicit_figure_reference
+eju-2012-1-science-ja,PHYSICS_JA,問3,q_92b2341b3fa9bd09b2a2fa46,18,latex_in_text
+eju-2012-1-science-ja,PHYSICS_JA,問4,q_b5040ec1f45b2e05a4ac853a,19,explicit_figure_reference
+eju-2012-1-science-ja,PHYSICS_JA,問5,q_8d26b009cfe0c25b282d3857,20,latex_in_text
+eju-2012-1-science-ja,CHEMISTRY_JA,問3,q_ed6064ef18cabb0497368592,24,latex_in_text
+eju-2012-1-science-ja,CHEMISTRY_JA,問6,q_950ab0e999084e0e6bcf9d7b,25,latex_in_text
+eju-2012-1-science-ja,CHEMISTRY_JA,問10,q_0603f75a29bd96a5be28bec9,28,latex_in_text
+eju-2012-1-science-ja,CHEMISTRY_JA,問11,q_7c8014f0bbd403aad120e044,28,latex_in_text
+eju-2012-1-science-ja,CHEMISTRY_JA,問12,q_31530fdbce5ed622bbc1f3e0,29,latex_in_text
+eju-2012-1-science-ja,CHEMISTRY_JA,問15,q_8a9d30e4236902b247a38998,31,explicit_figure_reference
+eju-2012-1-science-ja,CHEMISTRY_JA,問19,q_6e2cf10d30476a49eb089005,33,latex_in_text
+eju-2012-1-science-ja,CHEMISTRY_JA,問20,q_791f095bb5fe9908fa3f0c21,34,latex_in_text
+eju-2012-1-science-ja,BIOLOGY_JA,問5(2),q_46e4528c5171d4e218550e48,38,explicit_figure_reference
+eju-2012-1-science-ja,BIOLOGY_JA,問6,q_485a3cc18dee379aa55ee152,39,explicit_figure_reference
+eju-2012-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_dd7e55102ac0f981746b1f28,3,underline_reference
+eju-2012-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_58c8c6433151da4407d5b40c,3,underline_reference
+eju-2012-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_05870bae7f4bb55e4ff9b45b,4,underline_reference
+eju-2012-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_b1db58e05358d307ce790be2,6,underline_reference
+eju-2012-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_dc35577c5a872a3a33c369e1,6,underline_reference
+eju-2012-2-japan-world-ja,JAPAN_AND_WORLD_JA,問5,q_e3b03cb78bfec888371555d4,9,explicit_figure_reference
+eju-2012-2-japan-world-ja,JAPAN_AND_WORLD_JA,問13,q_a6da0208434d6cc0d20d1000,16,explicit_figure_reference
+eju-2012-2-japan-world-ja,JAPAN_AND_WORLD_JA,問14,q_51c4aa4b486178eb74213be2,17,underline_reference
+eju-2012-2-japan-world-ja,JAPAN_AND_WORLD_JA,問15(2),q_fdfe44035e70e4ed9f7b0fd0,18,underline_reference
+eju-2012-2-japan-world-ja,JAPAN_AND_WORLD_JA,問16,q_40213f963e236c25b335d02f,19,explicit_figure_reference
+eju-2012-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_bbd5430ea910049e9b6dae32,1,latex_in_text;guidance_as_question
+eju-2012-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_a95fcaf467db348d9f2206d3,3,latex_in_text;explicit_figure_reference
+eju-2012-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_54e4418eb9eac12adbdcb0a8,5,latex_in_text
+eju-2012-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_c4be6b4814536eb99fc3885d,7,latex_in_text
+eju-2012-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_831e62ca9275d70205586cd2,9,latex_in_text
+eju-2012-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第II問,q_b58cbf35655a040158b7f13b,1,guidance_as_question
+eju-2012-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_d166eddc11a4146c175bb18e,1,latex_in_text;guidance_as_question
+eju-2012-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_907e840a12a22d43261dfcfa,3,latex_in_text;explicit_figure_reference
+eju-2012-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_6653171417814218987161c6,5,latex_in_text
+eju-2012-2-science-ja,PHYSICS_JA,問2,q_906c21fa1506074d27f70dae,4,latex_in_text;duplicate_options
+eju-2012-2-science-ja,PHYSICS_JA,問3,q_76f7edb0b27565fcb91e0c92,5,latex_in_text
+eju-2012-2-science-ja,PHYSICS_JA,問5,q_8073c0b8ce1453161d3ee73f,7,latex_in_text
+eju-2012-2-science-ja,PHYSICS_JA,問6,q_42742a5a95ea61b9c20f1fb4,8,latex_in_text
+eju-2012-2-science-ja,PHYSICS_JA,問7,q_da4964582ada533c911310a6,9,latex_in_text
+eju-2012-2-science-ja,PHYSICS_JA,問3,q_d31d29cd8adf605c0f73c45d,12,latex_in_text
+eju-2012-2-science-ja,PHYSICS_JA,問2,q_9972289c399831957648be35,14,latex_in_text
+eju-2012-2-science-ja,PHYSICS_JA,問3,q_ae9cd65a78b022ca84cf0281,15,explicit_figure_reference;duplicate_options
+eju-2012-2-science-ja,PHYSICS_JA,問3,q_a07d9507912f939b61f48f14,18,latex_in_text
+eju-2012-2-science-ja,CHEMISTRY_JA,問1,q_851a16bd81f2c73c842aa093,22,latex_in_text
+eju-2012-2-science-ja,CHEMISTRY_JA,問2,q_61b316e71de1d47729f0d201,23,explicit_figure_reference
+eju-2012-2-science-ja,CHEMISTRY_JA,問3,q_da75751ddd2d07c3ca25a524,23,latex_in_text
+eju-2012-2-science-ja,CHEMISTRY_JA,問4,q_1c50116facff98e7d9c6240b,23,latex_in_text
+eju-2012-2-science-ja,CHEMISTRY_JA,問7,q_c8d1c3957241e0ca670e1727,25,latex_in_text
+eju-2012-2-science-ja,CHEMISTRY_JA,問11,q_0eb29a7feb2d9733abb6415a,26,latex_in_text
+eju-2012-2-science-ja,BIOLOGY_JA,問3(1),q_bdcb45f3c47574ab063b202b,34,explicit_figure_reference
+eju-2012-2-science-ja,BIOLOGY_JA,問3(2),q_ababbeb6995cce16f5a5f975,34,explicit_figure_reference
+eju-2012-2-science-ja,BIOLOGY_JA,問4(1),q_d55b04299f1ed42827b7f3da,35,explicit_figure_reference
+eju-2012-2-science-ja,BIOLOGY_JA,問4(2),q_7e7d7843fafa3bb463ef2eab,36,explicit_figure_reference
+eju-2012-2-science-ja,BIOLOGY_JA,問8,q_c9277acec07b55d552a74c6f,40,explicit_figure_reference;duplicate_options
+eju-2013-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_5f859c40c4a34a48de23bdad,3,underline_reference
+eju-2013-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_9f7c9eec4c5540a7c45593a1,3,underline_reference
+eju-2013-1-japan-world-ja,JAPAN_AND_WORLD_JA,問3,q_c7e9e13c27dc3065dab14e1c,7,explicit_figure_reference
+eju-2013-1-japan-world-ja,JAPAN_AND_WORLD_JA,問5,q_ec43d224665a7ae70de0f67a,8,underline_reference
+eju-2013-1-japan-world-ja,JAPAN_AND_WORLD_JA,問8,q_0ae1ef156d4ab43ddd739aa4,10,explicit_figure_reference;duplicate_options
+eju-2013-1-japan-world-ja,JAPAN_AND_WORLD_JA,問14,q_0ee89c07ba414afd8240ed23,14,explicit_figure_reference;duplicate_options
+eju-2013-1-japan-world-ja,JAPAN_AND_WORLD_JA,問24,q_36b98f2c58d08b17da8d8eef,20,explicit_figure_reference
+eju-2013-1-japan-world-ja,JAPAN_AND_WORLD_JA,問32,q_bf356e22e7d5750c2f4e8930,24,explicit_figure_reference
+eju-2013-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_e6d1ffe18d7efaae98bc470b,1,latex_in_text;guidance_as_question
+eju-2013-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_14f82fcfada90316e75123c1,3,latex_in_text;explicit_figure_reference
+eju-2013-1-science-ja,PHYSICS_JA,問2,q_e99269e3d4d6dbcfcae968fa,4,latex_in_text
+eju-2013-1-science-ja,PHYSICS_JA,問3,q_042cf32db5ad01cc9389e81f,5,latex_in_text
+eju-2013-1-science-ja,PHYSICS_JA,問4,q_d2b7838c5040d19fc463514e,6,latex_in_text
+eju-2013-1-science-ja,PHYSICS_JA,問5,q_a7c0850c18cdde59e393afd5,7,latex_in_text
+eju-2013-1-science-ja,PHYSICS_JA,問7,q_5cb129d18c7011b3ca0beb9d,9,latex_in_text
+eju-2013-1-science-ja,PHYSICS_JA,問3,q_5593361a5858dfe22ebffdc5,12,latex_in_text
+eju-2013-1-science-ja,PHYSICS_JA,問2,q_b1ef103566cc53d347b511d3,14,latex_in_text
+eju-2013-1-science-ja,PHYSICS_JA,問2,q_c948edd9fa213a80527b561a,17,latex_in_text
+eju-2013-1-science-ja,PHYSICS_JA,問3,q_f43ea1744a2af0facc5b8862,18,latex_in_text
+eju-2013-1-science-ja,PHYSICS_JA,問4,q_5de29bdcc84cabb4c1ab87f3,19,latex_in_text;explicit_figure_reference
+eju-2013-1-science-ja,PHYSICS_JA,問6,q_db590e378fd989901e91fdc5,21,latex_in_text
+eju-2013-1-science-ja,CHEMISTRY_JA,問3,q_dc892f598d3bc82ba50ae029,24,latex_in_text
+eju-2013-1-science-ja,CHEMISTRY_JA,問5,q_7d9d496d860ed8bbfef28192,25,latex_in_text
+eju-2013-1-science-ja,CHEMISTRY_JA,問6,q_115431962e78a7ec5071b395,25,latex_in_text;explicit_figure_reference
+eju-2013-1-science-ja,CHEMISTRY_JA,問9,q_381ebc71195cab881ad6bbf2,27,latex_in_text
+eju-2013-1-science-ja,CHEMISTRY_JA,問12,q_f7754435bb3dccd540646071,28,latex_in_text
+eju-2013-1-science-ja,CHEMISTRY_JA,問15,q_e39f7bca80930e568446fd8f,30,latex_in_text
+eju-2013-1-science-ja,CHEMISTRY_JA,問17,q_7b9b3df4916f1062c57ea4dd,31,latex_in_text
+eju-2013-1-science-ja,CHEMISTRY_JA,問18,q_224728b014f689fe85355cfa,31,latex_in_text
+eju-2013-1-science-ja,BIOLOGY_JA,問4,q_ad60096209f17448977aa912,39,explicit_figure_reference
+eju-2013-1-science-ja,BIOLOGY_JA,問8(1),q_3a06c3d7905361fbc148b057,43,explicit_figure_reference
+eju-2013-1-science-ja,BIOLOGY_JA,問8(2),q_22da6f371232c565dc694d95,44,explicit_figure_reference
+eju-2013-1-science-ja,BIOLOGY_JA,問11,q_a0a986e7362a140b30a70749,47,explicit_figure_reference;duplicate_options
+eju-2013-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(1),q_c62299476b9f5bc00c92cf49,2,underline_reference
+eju-2013-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_823c4cc9f27b27c07f4eaa83,4,underline_reference
+eju-2013-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_0495a65ea0735adf30e31315,6,latex_in_text;underline_reference
+eju-2013-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_db32d5fc183ee94a1c096826,6,underline_reference
+eju-2013-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_a867e9768e35691bde628fca,7,underline_reference
+eju-2013-2-japan-world-ja,JAPAN_AND_WORLD_JA,問8,q_13c7ec50aa26d07b376643fa,11,explicit_figure_reference
+eju-2013-2-japan-world-ja,JAPAN_AND_WORLD_JA,問12,q_a717d59dbc36c7e0efd19685,13,explicit_figure_reference
+eju-2013-2-japan-world-ja,JAPAN_AND_WORLD_JA,問15,q_bb8f3e3bccb743943e523dbd,15,explicit_figure_reference
+eju-2013-2-japan-world-ja,JAPAN_AND_WORLD_JA,問16(1),q_9fa0f370717ee3c6b15a727b,16,latex_in_text;underline_reference
+eju-2013-2-japan-world-ja,JAPAN_AND_WORLD_JA,問16(2),q_7e1a032fe0d38c161d42e54b,16,latex_in_text;underline_reference
+eju-2013-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_0094c19cf0417f06f5d2f1e2,1,latex_in_text;guidance_as_question
+eju-2013-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_7ecc5975da540ed260d2e863,3,latex_in_text;explicit_figure_reference
+eju-2013-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_44914a65927051177937b4c2,5,latex_in_text
+eju-2013-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_cd9ad96a851cfd8cc3708c43,7,latex_in_text
+eju-2013-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_75473f27c84824474b8533cc,9,latex_in_text
+eju-2013-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_6617dab6be13c78db5973382,13,latex_in_text;explicit_figure_reference
+eju-2013-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第II問,q_77a08007bc4592ae9b3343f9,1,guidance_as_question
+eju-2013-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_7cb75b5b850996c15ac718d1,1,latex_in_text;guidance_as_question
+eju-2013-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_e74582c24729f87b5aeac678,3,latex_in_text;explicit_figure_reference
+eju-2013-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_886174a54e2e5e99f17a33e9,5,latex_in_text
+eju-2013-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,IV 問1,q_7897ca0685c2c34b3ce83729,11,latex_in_text
+eju-2013-2-science-ja,PHYSICS_JA,問4,q_7e5a46438d1dbfc6d8dffd4a,6,latex_in_text
+eju-2013-2-science-ja,PHYSICS_JA,問6,q_cc944ce5c4d2bb4aede2bddc,8,latex_in_text
+eju-2013-2-science-ja,PHYSICS_JA,問7,q_de40bd95dc216c32bd0652d6,9,latex_in_text
+eju-2013-2-science-ja,PHYSICS_JA,問2,q_8ea0a0231fbaf48b434b1c8a,11,latex_in_text
+eju-2013-2-science-ja,PHYSICS_JA,問2,q_8bd95f446534c94a7739ca99,14,latex_in_text
+eju-2013-2-science-ja,PHYSICS_JA,問2,q_6bb4dab290dc380d8a28a46d,17,latex_in_text
+eju-2013-2-science-ja,PHYSICS_JA,問5,q_bfa7f4140c3af9b10651457c,20,latex_in_text
+eju-2013-2-science-ja,PHYSICS_JA,問6,q_6a7a4eae57240b795be8aa27,21,latex_in_text
+eju-2013-2-science-ja,CHEMISTRY_JA,問8,q_99b957fdf0ed0317b6e1c170,27,latex_in_text
+eju-2013-2-science-ja,CHEMISTRY_JA,問10,q_bc480b07392cef0d136193db,28,duplicate_options
+eju-2013-2-science-ja,CHEMISTRY_JA,問11,q_4ea5bd6fca7f8f0cf4b7f7f4,28,latex_in_text
+eju-2013-2-science-ja,CHEMISTRY_JA,問12,q_c7853d871209d2d913107e24,28,latex_in_text
+eju-2013-2-science-ja,CHEMISTRY_JA,問14,q_d587d8ba24a38d2f13d4ec5a,29,latex_in_text
+eju-2013-2-science-ja,CHEMISTRY_JA,問15,q_3d126e1dad3bac4560566af2,30,latex_in_text
+eju-2013-2-science-ja,CHEMISTRY_JA,問17,q_907e5a2c242838d551f2b5f0,30,latex_in_text
+eju-2013-2-science-ja,CHEMISTRY_JA,問18,q_eef9edf077d3df71bba11a96,31,latex_in_text
+eju-2013-2-science-ja,BIOLOGY_JA,問3,q_1bc075d5848971bc712afa6a,35,explicit_figure_reference
+eju-2013-2-science-ja,BIOLOGY_JA,問5(2),q_923c85e2a6d7e51962ceac63,38,duplicate_options
+eju-2013-2-science-ja,BIOLOGY_JA,問7,q_b196ff01e01890200ab2d3a0,40,explicit_figure_reference
+eju-2013-2-science-ja,BIOLOGY_JA,問8,q_f155ff414cbc1733c12631a7,41,explicit_figure_reference
+eju-2013-2-science-ja,BIOLOGY_JA,問13,q_fa497eaba83f37b9088b4b30,45,explicit_figure_reference
+eju-2013-2-science-ja,BIOLOGY_JA,問14,q_4a876d96da8486189faa2196,46,explicit_figure_reference
+eju-2014-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_dddb12ff250983f1ee07f473,3,underline_reference
+eju-2014-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_60b98851911fa924d24bbddc,3,underline_reference
+eju-2014-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_99266620bb76dc5e1c02b991,3,underline_reference
+eju-2014-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_c04191fafc5d085c0f56fc34,5,underline_reference
+eju-2014-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_0481be613e0b7224ce856cab,5,underline_reference
+eju-2014-1-japan-world-ja,JAPAN_AND_WORLD_JA,問3,q_f9069cb5a0e008c00f18dd62,6,explicit_figure_reference
+eju-2014-1-japan-world-ja,JAPAN_AND_WORLD_JA,問10,q_1dfaa32f3a403b088517e3f7,12,explicit_figure_reference
+eju-2014-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_db1a0d85d2abeeb5224486d4,1,latex_in_text;guidance_as_question
+eju-2014-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_3da23425a231ad0ab7ccd7a6,3,latex_in_text
+eju-2014-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_b67370ad194c076a60582486,5,latex_in_text
+eju-2014-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_0397cc4c8eedac203c138924,7,latex_in_text
+eju-2014-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_5a9f6ae7b0a302486375d01b,9,latex_in_text
+eju-2014-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_09f47d710f148d6b675507c3,13,latex_in_text
+eju-2014-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_f979b6880e77371abcd46bda,1,latex_in_text;guidance_as_question
+eju-2014-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_834df57fe7236676062777e1,3,latex_in_text
+eju-2014-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_140a43d5ceb63d62eea7f60b,5,latex_in_text
+eju-2014-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,IV 問1,q_ba795075809b2ed17d9a229d,11,latex_in_text;explicit_figure_reference
+eju-2014-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,IV 問2,q_56d322e5d1e33e9340834392,13,latex_in_text;explicit_figure_reference
+eju-2014-1-science-ja,PHYSICS_JA,問1,q_28602b732c699bb2226e3f9a,2,latex_in_text
+eju-2014-1-science-ja,PHYSICS_JA,問6,q_e7085665c37c8d8a749489e1,7,latex_in_text
+eju-2014-1-science-ja,PHYSICS_JA,問3,q_195209197bea23048192d4c2,11,latex_in_text
+eju-2014-1-science-ja,PHYSICS_JA,問2,q_d2585b9243cfcfdb4edfe42e,13,latex_in_text;explicit_figure_reference
+eju-2014-1-science-ja,PHYSICS_JA,問1,q_90a01d5450411311f8ef0b0a,15,latex_in_text
+eju-2014-1-science-ja,PHYSICS_JA,問2,q_5111e869d6e469f7cf32a8fc,16,latex_in_text
+eju-2014-1-science-ja,PHYSICS_JA,問3,q_749d7ccad69d8fd15a56a6c8,17,latex_in_text
+eju-2014-1-science-ja,PHYSICS_JA,問4,q_959129ea45191925fd9b475b,18,latex_in_text
+eju-2014-1-science-ja,PHYSICS_JA,問5,q_c890f6f26c0a617e38d85190,19,latex_in_text
+eju-2014-1-science-ja,PHYSICS_JA,問6,q_421b03a6e5ffb0d491149eee,20,latex_in_text
+eju-2014-1-science-ja,CHEMISTRY_JA,問1,q_cddb0b4451ebd20f78040f90,22,latex_in_text;underline_reference
+eju-2014-1-science-ja,CHEMISTRY_JA,問3,q_8b8fd0d3af22cd2ba39dd066,23,latex_in_text
+eju-2014-1-science-ja,CHEMISTRY_JA,問4,q_f001e176c3b81803043ae8cb,23,latex_in_text
+eju-2014-1-science-ja,CHEMISTRY_JA,問5,q_b934f881d62db093c42aef8b,23,latex_in_text
+eju-2014-1-science-ja,CHEMISTRY_JA,問7,q_5b174c2eb8edc07ed7dcd102,24,explicit_figure_reference;duplicate_options
+eju-2014-1-science-ja,CHEMISTRY_JA,問11,q_c91e896772041ba8c7091fdb,26,latex_in_text
+eju-2014-1-science-ja,CHEMISTRY_JA,問12,q_ae0d63a8c7f40ce5e4eef8de,26,latex_in_text
+eju-2014-1-science-ja,CHEMISTRY_JA,問13,q_54f8462e18f3ab7e159af986,27,latex_in_text
+eju-2014-1-science-ja,CHEMISTRY_JA,問14,q_8f28c347f3a85bbc3debe4af,27,latex_in_text
+eju-2014-1-science-ja,CHEMISTRY_JA,問16,q_527715e8c2cac1cae6c3f6b1,28,latex_in_text
+eju-2014-1-science-ja,CHEMISTRY_JA,問17,q_c17df49c18968c49ed15926c,29,latex_in_text;duplicate_options
+eju-2014-1-science-ja,CHEMISTRY_JA,問18,q_f1438867ae43416a37f90b7b,29,latex_in_text
+eju-2014-1-science-ja,CHEMISTRY_JA,問19,q_c6b9003ef2cbf85ee298c0cb,30,latex_in_text
+eju-2014-1-science-ja,BIOLOGY_JA,問3,q_3c1743265430009dba061f8b,34,explicit_figure_reference
+eju-2014-1-science-ja,BIOLOGY_JA,問4(1),q_b113e629a6a781fed7639c3a,35,explicit_figure_reference
+eju-2014-1-science-ja,BIOLOGY_JA,問4(2),q_8c19031cd863049ea3047e62,35,explicit_figure_reference
+eju-2014-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(1),q_112ab87cbdd75e85ce8dec94,2,underline_reference
+eju-2014-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_617caa251bab0b5f158622aa,3,underline_reference
+eju-2014-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_69dbdd82a1a923b414020bd5,3,underline_reference
+eju-2014-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_79efe5f3ef2f6e2c2eff619b,5,underline_reference
+eju-2014-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_09c94b2dedbbaa56d324c0a5,5,underline_reference
+eju-2014-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_a0433493d16796a7f113f811,5,underline_reference
+eju-2014-2-japan-world-ja,JAPAN_AND_WORLD_JA,問5,q_2d47ec73421587891f8ec64d,7,explicit_figure_reference
+eju-2014-2-japan-world-ja,JAPAN_AND_WORLD_JA,問15(1),q_fd9ef32762b556ed46f4609c,16,explicit_figure_reference
+eju-2014-2-japan-world-ja,JAPAN_AND_WORLD_JA,問15(2),q_729a696913438040dcaa7548,16,explicit_figure_reference
+eju-2014-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_d1393c4a4112e277ee0792c9,1,latex_in_text;guidance_as_question
+eju-2014-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_abe051023a33e1f4564d5fc4,3,latex_in_text
+eju-2014-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_0b3cc7ea13fe7ccceca4dc5c,5,latex_in_text
+eju-2014-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_48f52f95a3b656047e515d51,9,latex_in_text
+eju-2014-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_78eb06026cb85c774b65daa8,13,latex_in_text
+eju-2014-2-science-ja,PHYSICS_JA,問1,q_fcb4bca03f0ac5b463e4a71f,3,latex_in_text
+eju-2014-2-science-ja,PHYSICS_JA,問6,q_66d83b5515622360dea7b2ca,8,latex_in_text
+eju-2014-2-science-ja,PHYSICS_JA,問7,q_e8d1cbd3cb2fb4d696cbd21e,9,latex_in_text
+eju-2014-2-science-ja,PHYSICS_JA,問2,q_9cd91337998c5a1657e3d0b8,11,latex_in_text
+eju-2014-2-science-ja,PHYSICS_JA,問2,q_e965e590088678a156e9259a,14,latex_in_text
+eju-2014-2-science-ja,PHYSICS_JA,問1,q_aff6e140a3c804fa4e447106,16,latex_in_text
+eju-2014-2-science-ja,PHYSICS_JA,問3,q_eee8ea8bffcd5de708513f4c,18,latex_in_text
+eju-2014-2-science-ja,PHYSICS_JA,問4,q_502fb0667f81836977d8953d,19,latex_in_text
+eju-2014-2-science-ja,PHYSICS_JA,問5,q_b9702e3660c072142c541431,20,latex_in_text
+eju-2014-2-science-ja,PHYSICS_JA,問6,q_d5debb30a6aceca68114988b,21,latex_in_text
+eju-2014-2-science-ja,CHEMISTRY_JA,問2,q_cc12bb959fcdba157a710a1c,24,latex_in_text
+eju-2014-2-science-ja,CHEMISTRY_JA,問3,q_bfd129931468362e8855400b,25,latex_in_text
+eju-2014-2-science-ja,CHEMISTRY_JA,問5,q_52a76402ef0082d11834d0a5,26,latex_in_text
+eju-2014-2-science-ja,CHEMISTRY_JA,問6,q_df4aa78d93295ccc15b43e4f,27,latex_in_text
+eju-2014-2-science-ja,CHEMISTRY_JA,問7,q_748ba50e6150c21ca66969ce,28,latex_in_text
+eju-2014-2-science-ja,CHEMISTRY_JA,問8,q_fb95f2ed587dc6776d6b06b0,28,latex_in_text
+eju-2014-2-science-ja,CHEMISTRY_JA,問10,q_f6db6a7b2cd9eb222a7f2744,30,explicit_figure_reference
+eju-2014-2-science-ja,CHEMISTRY_JA,問11,q_112e1962ffdac5025511951c,31,latex_in_text
+eju-2014-2-science-ja,CHEMISTRY_JA,問12,q_8be9116de5364f15bf9cbf39,31,latex_in_text
+eju-2014-2-science-ja,CHEMISTRY_JA,問13,q_6bfff923a821740ed697441c,32,latex_in_text;underline_reference
+eju-2014-2-science-ja,CHEMISTRY_JA,問14,q_d2dc4743b1d65dd7e6bb6dea,32,latex_in_text
+eju-2014-2-science-ja,CHEMISTRY_JA,問15,q_cb46dfb9ef4fdf491540dc3d,32,latex_in_text
+eju-2014-2-science-ja,CHEMISTRY_JA,問16,q_ba01a366c0034b9d5b1914a7,33,latex_in_text
+eju-2014-2-science-ja,CHEMISTRY_JA,問17,q_8f9b600a307f60cd610c6b69,33,latex_in_text
+eju-2014-2-science-ja,CHEMISTRY_JA,問18,q_1d008beac933b05ea304a690,34,latex_in_text
+eju-2014-2-science-ja,BIOLOGY_JA,問2,q_2d6491e6395847b8bbac77b7,37,explicit_figure_reference
+eju-2014-2-science-ja,BIOLOGY_JA,問9,q_1408b1c59ed73901354ce3a1,43,explicit_figure_reference
+eju-2015-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_c9c33439aa73621bb7d04f57,5,underline_reference
+eju-2015-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_5372ef306892b41ef217b2e7,6,underline_reference
+eju-2015-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_54e6d2610314fce334f1d672,6,underline_reference
+eju-2015-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_4fb11a38527f4905480b5b65,6,underline_reference
+eju-2015-1-japan-world-ja,JAPAN_AND_WORLD_JA,問7,q_6bd16c9e5b16bb837c73dff2,9,explicit_figure_reference
+eju-2015-1-japan-world-ja,JAPAN_AND_WORLD_JA,問16,q_782b82239c35d0b490e91c7b,15,explicit_figure_reference
+eju-2015-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_ed8dae62fb9720aa62c40f04,1,latex_in_text;guidance_as_question
+eju-2015-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_ac929d09e402022a7e56671f,3,latex_in_text
+eju-2015-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_6caff73480acde8e20c5ea33,5,latex_in_text
+eju-2015-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_b20444a709616b91e68310bd,7,latex_in_text;explicit_figure_reference
+eju-2015-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_b57c48fc2f016ddc63adef5d,9,latex_in_text
+eju-2015-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_efdd9432d6ed8788d5140308,13,latex_in_text;explicit_figure_reference
+eju-2015-1-science-ja,PHYSICS_JA,問1,q_3140f00bcc504b2694031611,3,latex_in_text
+eju-2015-1-science-ja,PHYSICS_JA,問2,q_9627a7a27df8438e92f02216,4,latex_in_text
+eju-2015-1-science-ja,PHYSICS_JA,問4,q_273ee7ac9dc33ce7e876d070,6,latex_in_text
+eju-2015-1-science-ja,PHYSICS_JA,問5,q_e041ce38e422bca15cb9484f,7,latex_in_text
+eju-2015-1-science-ja,PHYSICS_JA,問2,q_484e283d20b4c0a3dc24a887,10,latex_in_text
+eju-2015-1-science-ja,PHYSICS_JA,問3,q_0470f24341b6406b8e873e78,11,latex_in_text
+eju-2015-1-science-ja,PHYSICS_JA,問1,q_7e7b50746d0ad01649fe0890,12,latex_in_text
+eju-2015-1-science-ja,PHYSICS_JA,問2,q_f8c0a7133a2e077c451756c9,16,latex_in_text
+eju-2015-1-science-ja,PHYSICS_JA,問3,q_68c51b16ab384fd9d7f56bcc,17,explicit_figure_reference
+eju-2015-1-science-ja,PHYSICS_JA,問4,q_0b93e2ed6600de4eda20b630,18,explicit_figure_reference
+eju-2015-1-science-ja,PHYSICS_JA,問5,q_41de188244fa7b0bf159c60f,19,explicit_figure_reference
+eju-2015-1-science-ja,PHYSICS_JA,問1,q_9794b7642a4dabf6386efd30,21,latex_in_text
+eju-2015-1-science-ja,CHEMISTRY_JA,問1,q_9bb1c8abcfe3f7468d5b69bf,25,latex_in_text
+eju-2015-1-science-ja,CHEMISTRY_JA,問3,q_cf4890eeb399e242ebd4cbac,26,latex_in_text;underline_reference
+eju-2015-1-science-ja,CHEMISTRY_JA,問4,q_ee4ad473a5337374225f53ce,26,latex_in_text
+eju-2015-1-science-ja,CHEMISTRY_JA,問5,q_1a2affd931c543d623c95e34,27,latex_in_text;explicit_figure_reference
+eju-2015-1-science-ja,CHEMISTRY_JA,問6,q_403fa5c928634981ee781562,28,latex_in_text;explicit_figure_reference
+eju-2015-1-science-ja,CHEMISTRY_JA,問10,q_951517b0a8ca3e57fb11f3f9,31,explicit_figure_reference
+eju-2015-1-science-ja,CHEMISTRY_JA,問11,q_92260441aadd19f12eb0d0c8,32,latex_in_text
+eju-2015-1-science-ja,CHEMISTRY_JA,問12,q_81d675023a42b93eb70f634b,32,latex_in_text
+eju-2015-1-science-ja,CHEMISTRY_JA,問14,q_fae93aa1a588514f683c9e1c,33,underline_reference
+eju-2015-1-science-ja,CHEMISTRY_JA,問17,q_29a7b399264fa212411cd6e8,35,latex_in_text
+eju-2015-1-science-ja,CHEMISTRY_JA,問18,q_628dd8fd4537883320c84d8c,35,latex_in_text
+eju-2015-1-science-ja,BIOLOGY_JA,問4,q_5d9e45724d30dd9247879829,41,latex_in_text
+eju-2015-1-science-ja,BIOLOGY_JA,問9,q_6f44fe4b0d8b421cd7e505c8,44,explicit_figure_reference
+eju-2015-1-science-ja,BIOLOGY_JA,問10(1),q_f7d246de212d8e5cb2f64b23,45,explicit_figure_reference
+eju-2015-1-science-ja,BIOLOGY_JA,問13,q_44fe3cbdec305faea76e6bb0,48,explicit_figure_reference
+eju-2015-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(1),q_4e904c6252bde787967e7956,2,underline_reference
+eju-2015-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_76d201b0e7e8f54837970b47,3,underline_reference
+eju-2015-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_4be01f9c16d008144337d8c3,3,underline_reference
+eju-2015-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_c2322095deaaffc7ea16fb75,3,underline_reference
+eju-2015-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_1633ab86a9438fbf2429eba0,4,underline_reference
+eju-2015-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_e0592c2ccbe7f2995cae6e3f,5,underline_reference
+eju-2015-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_f61de91409d29b764c84d05c,5,underline_reference
+eju-2015-2-japan-world-ja,JAPAN_AND_WORLD_JA,問3,q_82b5c8c9065ce79909a61832,6,explicit_figure_reference
+eju-2015-2-japan-world-ja,JAPAN_AND_WORLD_JA,問7,q_5b91c379d131741cc1a1f22e,8,raw_html
+eju-2015-2-japan-world-ja,JAPAN_AND_WORLD_JA,問11,q_fc022c676b53d14878c01264,10,explicit_figure_reference
+eju-2015-2-japan-world-ja,JAPAN_AND_WORLD_JA,問12,q_f859747e3fc6e2bc94b702df,11,explicit_figure_reference
+eju-2015-2-japan-world-ja,JAPAN_AND_WORLD_JA,問17,q_6fca29be4f629617fb2b3c6c,14,explicit_figure_reference
+eju-2015-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_672923b37e75b82108196b28,1,latex_in_text;guidance_as_question
+eju-2015-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_17f97c29a2daefbcf4e28554,3,latex_in_text
+eju-2015-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問1,q_9056d10fa4e1a767624acc8d,7,latex_in_text;markdown_table
+eju-2015-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第IV問,q_4d00b1109a8bb2d758708134,13,latex_in_text
+eju-2015-2-science-ja,PHYSICS_JA,問3,q_4c29dcdcee312c1e79fcc80d,5,latex_in_text
+eju-2015-2-science-ja,PHYSICS_JA,問4,q_4f446ddf446a48d23fe28d48,6,latex_in_text
+eju-2015-2-science-ja,PHYSICS_JA,問5,q_d49a48f9b11c242ec3058c6e,7,latex_in_text
+eju-2015-2-science-ja,PHYSICS_JA,問6,q_c3216c973bef1d7dfc58fca2,8,latex_in_text
+eju-2015-2-science-ja,PHYSICS_JA,問1,q_f05879ebf2b664213d62f385,9,latex_in_text
+eju-2015-2-science-ja,PHYSICS_JA,問1,q_03ce31aee2cd99fa9f63982f,12,latex_in_text
+eju-2015-2-science-ja,PHYSICS_JA,問3,q_dd6e436983d1ec3963381b25,14,latex_in_text
+eju-2015-2-science-ja,PHYSICS_JA,問1,q_d66c0e8b50123fa751b1b76f,15,latex_in_text
+eju-2015-2-science-ja,PHYSICS_JA,問3,q_4c2d183caa131afac536b26f,17,latex_in_text
+eju-2015-2-science-ja,PHYSICS_JA,問4,q_56a4a5b1f08fdcea046b3181,18,latex_in_text
+eju-2015-2-science-ja,PHYSICS_JA,問6,q_66e8661a733b9c75794d8e5e,20,latex_in_text
+eju-2015-2-science-ja,PHYSICS_JA,問1,q_3bce4515b4b0c350d59453eb,21,latex_in_text
+eju-2015-2-science-ja,BIOLOGY_JA,問1,q_dd29801ebf76039643ac5b36,38,explicit_figure_reference
+eju-2015-2-science-ja,BIOLOGY_JA,問2(1),q_0ef3bb7fff2e696f28bc5034,39,explicit_figure_reference;underline_reference
+eju-2015-2-science-ja,BIOLOGY_JA,問2(2),q_0a895c570a5abba59b8513e8,39,explicit_figure_reference;underline_reference
+eju-2015-2-science-ja,BIOLOGY_JA,問3,q_2e637c87e958b1c76c7f3f41,40,latex_in_text
+eju-2015-2-science-ja,BIOLOGY_JA,問5,q_180647729e244e67508a4509,42,explicit_figure_reference
+eju-2015-2-science-ja,BIOLOGY_JA,問6,q_62ac6db5f151e7292c4a368a,43,explicit_figure_reference
+eju-2015-2-science-ja,BIOLOGY_JA,問10(2),q_a332386d278a42b330f55127,46,explicit_figure_reference
+eju-2015-2-science-ja,BIOLOGY_JA,問12,q_834688260cb6e118f82ce0ab,47,explicit_figure_reference
+eju-2015-2-science-ja,BIOLOGY_JA,問13,q_a63c8f97646886d1e1bff001,48,explicit_figure_reference
+eju-2015-2-science-ja,BIOLOGY_JA,問14,q_40cc4a4ddb12640720f31a3a,49,explicit_figure_reference
+eju-2015-2-science-ja,BIOLOGY_JA,問15,q_7c5293cca651ab391b4824f8,50,explicit_figure_reference
+eju-2016-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_5be24236422bb4cca21fa7ee,3,underline_reference
+eju-2016-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_1c78ef84d00c69348ec6a129,4,underline_reference
+eju-2016-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_30e6068d7b0d0e322d3bdf2b,4,underline_reference
+eju-2016-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_fc7f696bc65d04d4a9664ad3,5,underline_reference
+eju-2016-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_54f36b8dfbd921b2939e737a,5,underline_reference
+eju-2016-1-japan-world-ja,JAPAN_AND_WORLD_JA,問14,q_b6c8d8163cc4ab5a54451740,13,explicit_figure_reference
+eju-2016-1-japan-world-ja,JAPAN_AND_WORLD_JA,問17,q_1c30a8ca5b39c282709f3bc4,16,explicit_figure_reference
+eju-2016-1-science-ja,PHYSICS_JA,問1,q_55aa7502009df4bfe305a3e3,3,latex_in_text;explicit_figure_reference
+eju-2016-1-science-ja,PHYSICS_JA,問2,q_8062e108caefb1dfc518acab,4,latex_in_text
+eju-2016-1-science-ja,PHYSICS_JA,問3,q_a49a0c350afd04dff2975686,5,latex_in_text
+eju-2016-1-science-ja,PHYSICS_JA,問5,q_496acfa70e2e55284524b2cd,7,latex_in_text
+eju-2016-1-science-ja,PHYSICS_JA,問6,q_d0fadca4242354a381496b42,8,latex_in_text
+eju-2016-1-science-ja,PHYSICS_JA,問2,q_046f503855f711c32f632fa1,10,latex_in_text
+eju-2016-1-science-ja,PHYSICS_JA,問3,q_af4bbb80c3c19b00be8cca1c,11,latex_in_text
+eju-2016-1-science-ja,PHYSICS_JA,問2,q_110a3ed1212a1a1b070c67aa,13,latex_in_text
+eju-2016-1-science-ja,PHYSICS_JA,問3,q_a9711f1dad1b46d511e08019,14,latex_in_text
+eju-2016-1-science-ja,PHYSICS_JA,問1,q_c9e59e5572c2d7a1ad3b94dd,15,latex_in_text
+eju-2016-1-science-ja,PHYSICS_JA,問3,q_481a233fbc203c1e6525e2bc,17,latex_in_text
+eju-2016-1-science-ja,PHYSICS_JA,問4,q_857848eaf9b10b7f45aa9ef9,18,latex_in_text
+eju-2016-1-science-ja,PHYSICS_JA,問5,q_2af5250c8bc9b79ad74e6853,19,latex_in_text
+eju-2016-1-science-ja,PHYSICS_JA,問6,q_66d349bd3ca7f8331fc291df,20,latex_in_text
+eju-2016-1-science-ja,CHEMISTRY_JA,問1,q_4a2ca33b295c13249d1e80e8,25,latex_in_text
+eju-2016-1-science-ja,CHEMISTRY_JA,問2,q_195f87970ebbb12bc776e04e,25,latex_in_text
+eju-2016-1-science-ja,CHEMISTRY_JA,問4,q_e682ab8b92c2e91fbd7e7bfe,26,latex_in_text
+eju-2016-1-science-ja,CHEMISTRY_JA,問6,q_aff668c8578a33c6ace761d9,27,latex_in_text
+eju-2016-1-science-ja,CHEMISTRY_JA,問7,q_6abff8acf4b1a50b14096a14,27,latex_in_text
+eju-2016-1-science-ja,CHEMISTRY_JA,問8,q_e842e01bdc74381978c389a0,28,latex_in_text
+eju-2016-1-science-ja,BIOLOGY_JA,問1,q_812ee16673aa631381699f09,36,latex_in_text;explicit_figure_reference
+eju-2016-1-science-ja,BIOLOGY_JA,問2,q_2e843bef78d00c66cdb4bcf4,37,explicit_figure_reference
+eju-2016-1-science-ja,BIOLOGY_JA,問3,q_13e8a14d1b70588a25ae7a4e,38,explicit_figure_reference
+eju-2016-1-science-ja,BIOLOGY_JA,問7,q_a0fee08fc23b9dcde7ff6a44,41,explicit_figure_reference
+eju-2016-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_39efa776c4092ba0f257b0c2,3,underline_reference
+eju-2016-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_ccd92ea5529a96bddb4ec369,4,underline_reference
+eju-2016-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_7f576d9552260735384ed8ef,5,underline_reference
+eju-2016-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_df96cfc588c44cc2741b4179,5,underline_reference
+eju-2016-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_edd41a967f456430cb87f6e8,6,underline_reference
+eju-2016-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_bb531e2250fa91288ddc9c94,6,underline_reference
+eju-2016-2-japan-world-ja,JAPAN_AND_WORLD_JA,問3,q_013984d7bd5fa681db161f74,7,explicit_figure_reference;duplicate_options
+eju-2016-2-japan-world-ja,JAPAN_AND_WORLD_JA,問14,q_74f7e2f1e71d37f25c49c404,14,explicit_figure_reference
+eju-2016-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_07f74f2da81010247a3b3c6e,1,latex_in_text;guidance_as_question
+eju-2016-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_9c63869330a8a9df68e971a9,3,latex_in_text;explicit_figure_reference
+eju-2016-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_7e49bc2ce448bbabe7449624,4,latex_in_text
+eju-2016-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_01643994a1fe006505e43bcf,6,latex_in_text
+eju-2016-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_ff091ddce7ca86bceb801336,7,latex_in_text
+eju-2016-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第II問,q_45f3263d109f42e9cbeea8cc,1,guidance_as_question
+eju-2016-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_641713b7025114c2ebd82c3e,1,latex_in_text;guidance_as_question
+eju-2016-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_3d80285cac5715077255c343,3,latex_in_text;explicit_figure_reference
+eju-2016-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_9d8d8b1cb2cc84005d603697,4,latex_in_text
+eju-2016-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,IV 問2,q_ef670180e9a9eeab579b509a,12,latex_in_text
+eju-2016-2-science-ja,PHYSICS_JA,問2,q_9b2b172f4fd86160c63e89b2,4,latex_in_text
+eju-2016-2-science-ja,PHYSICS_JA,問3,q_47d1efeff743f03d712239c5,5,latex_in_text
+eju-2016-2-science-ja,PHYSICS_JA,問6,q_39c83cc96e15379cd8df8b12,8,latex_in_text
+eju-2016-2-science-ja,PHYSICS_JA,問1,q_7c44ee2758708de52dcfe122,9,latex_in_text
+eju-2016-2-science-ja,PHYSICS_JA,問2,q_33ab192334662c5ac0417ed1,10,latex_in_text
+eju-2016-2-science-ja,PHYSICS_JA,問1,q_c033d9a21eff1ecfd95ea0bb,12,latex_in_text
+eju-2016-2-science-ja,PHYSICS_JA,問2,q_f6bf90e51acbd74287b02fb8,13,latex_in_text;duplicate_options
+eju-2016-2-science-ja,PHYSICS_JA,問1,q_a85c29ff34e0a20e2b3a7a79,15,latex_in_text;explicit_figure_reference
+eju-2016-2-science-ja,PHYSICS_JA,問2,q_bfb9e67e7fd751e548c92cf9,16,latex_in_text
+eju-2016-2-science-ja,PHYSICS_JA,問3,q_98522e7c70b1af1e5d549955,17,latex_in_text
+eju-2016-2-science-ja,PHYSICS_JA,問1,q_110367a0acfa271a19f7b77e,21,latex_in_text
+eju-2016-2-science-ja,CHEMISTRY_JA,問1,q_02f9d4875b9e539b5505710e,24,latex_in_text
+eju-2016-2-science-ja,CHEMISTRY_JA,問2,q_d737828e4b749f6e3d8f65f2,24,latex_in_text
+eju-2016-2-science-ja,CHEMISTRY_JA,問4,q_e77cb0a79457a55fbac7a126,25,latex_in_text
+eju-2016-2-science-ja,CHEMISTRY_JA,問5,q_e67c9ec9ece788af3bda0d48,25,latex_in_text
+eju-2016-2-science-ja,CHEMISTRY_JA,問6,q_dc5d57f66eafcb8abeb46748,26,latex_in_text
+eju-2016-2-science-ja,CHEMISTRY_JA,問7,q_64aaa827d85c056164b94ecc,27,latex_in_text
+eju-2016-2-science-ja,CHEMISTRY_JA,問8,q_546df0e8391bf504dbec3aea,28,latex_in_text;explicit_figure_reference
+eju-2016-2-science-ja,CHEMISTRY_JA,問12,q_b248513ebb9ea1df9c527222,31,latex_in_text
+eju-2016-2-science-ja,CHEMISTRY_JA,問13,q_7ae400e4e5b6ace46071d49d,31,latex_in_text
+eju-2016-2-science-ja,CHEMISTRY_JA,問15,q_8507e56990ba4c8665225529,32,underline_reference
+eju-2016-2-science-ja,BIOLOGY_JA,問5,q_3d4d8b032b5738157a65438f,39,explicit_figure_reference
+eju-2016-2-science-ja,BIOLOGY_JA,問6,q_910f92aedeea9d3044dc2b52,40,latex_in_text
+eju-2016-2-science-ja,BIOLOGY_JA,問11,q_89f118bfa882d223ccb3208a,44,explicit_figure_reference
+eju-2016-2-science-ja,BIOLOGY_JA,問13(2),q_695588ea7f33f9b5898a42c9,47,explicit_figure_reference
+eju-2016-2-science-ja,BIOLOGY_JA,問14,q_3dc5d4bb667e8dc7ac60b870,48,explicit_figure_reference
+eju-2017-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_8522ca9369f9f017b2a437d7,1,latex_in_text;guidance_as_question
+eju-2017-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_d23ea109f7bfc9383d5e2605,3,latex_in_text;explicit_figure_reference
+eju-2017-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_26326183dff11af4631bf609,4,latex_in_text
+eju-2017-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_1ca8463e2b017cbf1973d7da,5,latex_in_text;explicit_figure_reference;markdown_table
+eju-2017-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_95c5f552f7dd91435137172f,6,latex_in_text;explicit_figure_reference
+eju-2017-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_7f58b160044c090dab55664a,8,latex_in_text;explicit_figure_reference
+eju-2017-1-science-ja,PHYSICS_JA,問3,q_dd632d0d68ae07c5722af897,5,latex_in_text
+eju-2017-1-science-ja,PHYSICS_JA,問4,q_1f044ac07c62d8a07f1f04fb,6,latex_in_text
+eju-2017-1-science-ja,PHYSICS_JA,問6,q_f2f3deb46801a10614393c7c,8,latex_in_text
+eju-2017-1-science-ja,PHYSICS_JA,問2,q_d704f4cc70b4d146c9020e6d,10,latex_in_text
+eju-2017-1-science-ja,PHYSICS_JA,問1,q_a0e15600faa17ae803b310c8,12,explicit_figure_reference
+eju-2017-1-science-ja,PHYSICS_JA,問2,q_10b017c61756ae2e4afb1150,13,latex_in_text
+eju-2017-1-science-ja,PHYSICS_JA,問3,q_a0ab97ceb6deba659905666c,14,latex_in_text
+eju-2017-1-science-ja,PHYSICS_JA,問1,q_b6b8e6777748c82718de2a43,15,latex_in_text
+eju-2017-1-science-ja,PHYSICS_JA,問2,q_3f2f834479c4077406ddb0a3,16,latex_in_text
+eju-2017-1-science-ja,PHYSICS_JA,問4,q_790bfdd921972f5c38eb70fc,18,latex_in_text;duplicate_options
+eju-2017-1-science-ja,CHEMISTRY_JA,問1,q_6020558e5bc73214ed2e0440,24,latex_in_text
+eju-2017-1-science-ja,CHEMISTRY_JA,問7,q_db692cda35d51c45c8b2d843,27,latex_in_text
+eju-2017-1-science-ja,CHEMISTRY_JA,問8,q_cbc726af673ffd0821ae4088,27,latex_in_text
+eju-2017-1-science-ja,CHEMISTRY_JA,問9,q_ece44654bc603577499c5faa,28,latex_in_text
+eju-2017-1-science-ja,CHEMISTRY_JA,問10,q_628217a2c589b3c1afc120d8,29,explicit_figure_reference
+eju-2017-1-science-ja,BIOLOGY_JA,問3,q_7d7cdbf24e0a3462161d60a6,40,raw_html
+eju-2017-1-science-ja,BIOLOGY_JA,問5,q_38ba85c27e1cc3275b47e2e6,42,explicit_figure_reference
+eju-2017-1-science-ja,BIOLOGY_JA,問7,q_8971a39e8be9b5d7d877dfce,44,explicit_figure_reference
+eju-2017-1-science-ja,BIOLOGY_JA,問8,q_6d1834a0a67205c68622e7b4,45,explicit_figure_reference
+eju-2017-1-science-ja,BIOLOGY_JA,問9,q_ca1371f4d2a78d7d50b7bcac,46,explicit_figure_reference
+eju-2017-1-science-ja,BIOLOGY_JA,問15,q_55d8eb28c441145be1fb3e96,49,explicit_figure_reference
+eju-2017-1-science-ja,BIOLOGY_JA,問17,q_b3f3e28c615ba15bd32875a9,50,explicit_figure_reference
+eju-2017-1-science-ja,BIOLOGY_JA,問18,q_81c3c408990de25a60c2a18a,51,explicit_figure_reference
+eju-2017-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(1),q_f65d54c4ff1239c3afc451fd,3,underline_reference
+eju-2017-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_ee0c3cd6bd6758b42e3e5be9,5,underline_reference
+eju-2017-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_956ed5d905725d0306eae2ef,6,underline_reference
+eju-2017-2-japan-world-ja,JAPAN_AND_WORLD_JA,問3,q_379fa969b2cfdf088363127f,8,explicit_figure_reference
+eju-2017-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_20741ba7389f767295ba8879,1,latex_in_text;guidance_as_question
+eju-2017-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_ce4f52372f11844503689468,3,latex_in_text;explicit_figure_reference
+eju-2017-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_1b660b17d3116345e5702e42,5,latex_in_text
+eju-2017-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_f14dbb2e878c887c28778f94,7,latex_in_text
+eju-2017-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_1777a1ed140eaf76825d0382,9,latex_in_text;explicit_figure_reference
+eju-2017-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_2465cfc7aca36c23994a1de3,13,latex_in_text
+eju-2017-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_ad0fb7f540c2bae99f69e73b,1,latex_in_text;guidance_as_question
+eju-2017-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_16ac6543a3eaec38c993e2a5,3,latex_in_text;explicit_figure_reference
+eju-2017-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_0c0d9b80b8598aaaf00cd1dd,5,latex_in_text
+eju-2017-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問1,q_33a04d52c5b497ceb774243f,7,latex_in_text
+eju-2017-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問2,q_983e9fc0ea4015a9b0f9cdb4,9,latex_in_text;explicit_figure_reference
+eju-2017-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第IV問,q_1cc40b97417c2f802a5b7543,13,latex_in_text
+eju-2017-2-science-ja,PHYSICS_JA,問1,q_72ea82c1309c233c1de46301,3,latex_in_text
+eju-2017-2-science-ja,PHYSICS_JA,問3,q_30979a7fa3d2f1554a2aa6df,5,latex_in_text
+eju-2017-2-science-ja,PHYSICS_JA,問5,q_8916e6b044bac90d8e174637,7,latex_in_text
+eju-2017-2-science-ja,PHYSICS_JA,問6,q_e40ff27149c3b54491b6a00d,8,latex_in_text
+eju-2017-2-science-ja,PHYSICS_JA,問2,q_063f79acad2acc71d6d1b14e,10,latex_in_text
+eju-2017-2-science-ja,PHYSICS_JA,問3,q_39ba9e3d832855bc034c2888,11,latex_in_text;explicit_figure_reference
+eju-2017-2-science-ja,PHYSICS_JA,問1,q_3a35ba3e57a6f34e4dd2fd41,12,explicit_figure_reference
+eju-2017-2-science-ja,PHYSICS_JA,問2,q_e90f38908f13fc3481b74d5d,13,latex_in_text
+eju-2017-2-science-ja,PHYSICS_JA,問1,q_5ded5cb8f707ff614a25e1b5,15,latex_in_text
+eju-2017-2-science-ja,PHYSICS_JA,問3,q_cafec2d5783dda5ecb8075ab,17,latex_in_text
+eju-2017-2-science-ja,PHYSICS_JA,問4,q_77d7a66ec638893413700f5e,18,latex_in_text
+eju-2017-2-science-ja,PHYSICS_JA,問5,q_3a40517d68671cbbfc6fb854,19,latex_in_text
+eju-2018-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(1),q_6cb325361a73567d146cca9e,2,underline_reference
+eju-2018-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_b03174a48cb29119ea8e78ad,4,underline_reference
+eju-2018-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_0b4badf3a787b02cd9aa1a60,4,underline_reference
+eju-2018-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_41f3aedf7ea9ede61371cc8f,6,latex_in_text;underline_reference
+eju-2018-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_5d6b62bc3e46ed09f8b31c90,6,latex_in_text;underline_reference
+eju-2018-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_819d129f375144515332973e,7,latex_in_text;underline_reference
+eju-2018-1-japan-world-ja,JAPAN_AND_WORLD_JA,問8,q_7d7c429b955a7f5f44bb46cc,12,explicit_figure_reference
+eju-2018-1-japan-world-ja,JAPAN_AND_WORLD_JA,問15,q_aef522566fd98f30801670c5,16,explicit_figure_reference
+eju-2018-1-japan-world-ja,JAPAN_AND_WORLD_JA,問18,q_b7192cf96ae76ac1b05da637,17,explicit_figure_reference
+eju-2018-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_272697a35e95ddd82d408077,3,latex_in_text;explicit_figure_reference
+eju-2018-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_b4c6d0edeb0e2b8523f77597,5,latex_in_text
+eju-2018-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_e0ce5ccc2eead65e670c905d,3,latex_in_text;explicit_figure_reference
+eju-2018-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問1,q_57977cb675cab89672500078,5,latex_in_text;explicit_figure_reference;markdown_table
+eju-2018-1-science-ja,PHYSICS_JA,問3,q_5e28944f038b6567884122af,5,latex_in_text
+eju-2018-1-science-ja,PHYSICS_JA,問4,q_8e3f92da78afc3256c4a089a,6,latex_in_text
+eju-2018-1-science-ja,PHYSICS_JA,問2,q_c3082c3106adb11c1a39c16f,10,latex_in_text
+eju-2018-1-science-ja,PHYSICS_JA,問3,q_0114d33dfe8ad73ff9e2be30,11,latex_in_text
+eju-2018-1-science-ja,PHYSICS_JA,問3,q_2c8e7580ac7d8d0de4896652,14,latex_in_text
+eju-2018-1-science-ja,PHYSICS_JA,問1,q_f3d268404686149f451f9cdb,15,latex_in_text
+eju-2018-1-science-ja,PHYSICS_JA,問2,q_89526e8954649a2d66126a94,16,latex_in_text
+eju-2018-1-science-ja,PHYSICS_JA,問6,q_3a9507757caf75cbdae64a9a,20,latex_in_text
+eju-2018-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_313b29212eadfb1332350f7c,4,underline_reference
+eju-2018-2-japan-world-ja,JAPAN_AND_WORLD_JA,問3,q_d9e8c6475e3dcc6ec30b2a23,6,explicit_figure_reference
+eju-2018-2-japan-world-ja,JAPAN_AND_WORLD_JA,問9,q_4f3776864ddb62b9cc7fcd35,10,explicit_figure_reference
+eju-2018-2-japan-world-ja,JAPAN_AND_WORLD_JA,問15,q_8e84c659a2d7dba414f20de8,13,explicit_figure_reference
+eju-2018-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_0f561eb8458679496e081e89,1,latex_in_text;guidance_as_question
+eju-2018-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_42fd7b336e3720b0a7bbb3ba,3,latex_in_text;explicit_figure_reference
+eju-2018-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_1604e6927142cca4b7a2d4be,4,latex_in_text
+eju-2018-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_677d7ad45c69b34b79c82121,5,latex_in_text
+eju-2018-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_9c229f1dd34ce9d2766e5b39,6,latex_in_text
+eju-2018-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_e3b0ac6f18384c80f3a6d7de,8,latex_in_text
+eju-2018-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_a62699b5fb709714752c1f32,1,latex_in_text;guidance_as_question
+eju-2018-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_96b36f38d444c7142294219a,3,latex_in_text;explicit_figure_reference
+eju-2018-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_2b1b3c02cc7c3b86e497072f,4,latex_in_text
+eju-2018-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問1,q_57f8a12aa5a98e836e551434,5,latex_in_text
+eju-2018-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問2,q_7b954e4bbd7a646c8fce82f5,6,latex_in_text
+eju-2018-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第IV問,q_4984edd50b47fefc90c73844,9,latex_in_text;explicit_figure_reference
+eju-2018-2-science-ja,PHYSICS_JA,問2,q_afbb15b2de5803614cd461fd,4,latex_in_text
+eju-2018-2-science-ja,PHYSICS_JA,問3,q_caf2c6f41207e807b5152b8d,5,latex_in_text
+eju-2018-2-science-ja,PHYSICS_JA,問5,q_dc7013274a78e3b6bdd4bb7b,7,latex_in_text
+eju-2018-2-science-ja,PHYSICS_JA,問6,q_d6a407601faec5a2992b29cd,8,latex_in_text
+eju-2018-2-science-ja,PHYSICS_JA,問2,q_23c6f601a912835c2ed27182,10,latex_in_text
+eju-2018-2-science-ja,PHYSICS_JA,問1,q_ce67dbf87cac6fcb5b3e13de,12,explicit_figure_reference
+eju-2018-2-science-ja,PHYSICS_JA,問2,q_3f98b7ed1cd5380a4fc37080,13,latex_in_text
+eju-2018-2-science-ja,PHYSICS_JA,問3,q_c9f1efe6a9c912a35971c27d,14,latex_in_text
+eju-2018-2-science-ja,PHYSICS_JA,問1,q_902986f4cafb79f2b80ce4fc,15,latex_in_text
+eju-2018-2-science-ja,PHYSICS_JA,問1,q_6e67df0f5dedd20d35644be6,21,latex_in_text
+eju-2018-2-science-ja,CHEMISTRY_JA,問6,q_f1fa9d793664f6c4a4eac15f,26,latex_in_text;underline_reference
+eju-2018-2-science-ja,BIOLOGY_JA,問4,q_5669c73609c4249c4d2d3731,42,explicit_figure_reference
+eju-2018-2-science-ja,BIOLOGY_JA,問7(1),q_0d979a87584f8b5769742615,45,explicit_figure_reference
+eju-2018-2-science-ja,BIOLOGY_JA,問7(2),q_8a6873644116eefd93c4b675,45,explicit_figure_reference
+eju-2018-2-science-ja,BIOLOGY_JA,問8,q_2127014067536f0227070de2,46,explicit_figure_reference
+eju-2018-2-science-ja,BIOLOGY_JA,問10,q_b2ed5c93370f6e6c269cc188,48,explicit_figure_reference
+eju-2018-2-science-ja,BIOLOGY_JA,問11(1),q_206288cbf7c80ae21852709b,49,explicit_figure_reference
+eju-2018-2-science-ja,BIOLOGY_JA,問11(2),q_ed912f67aafa70829fbac8f3,50,explicit_figure_reference
+eju-2018-2-science-ja,BIOLOGY_JA,問12,q_b30458906e2ed5e2acdfc5be,51,explicit_figure_reference
+eju-2018-2-science-ja,BIOLOGY_JA,問14,q_d9ce460ca292ab92df46ce0f,53,latex_in_text;explicit_figure_reference
+eju-2019-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_3149fc8b8ad3200064ad9b1e,5,underline_reference
+eju-2019-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_fea17b06377e4e571a89094f,7,underline_reference
+eju-2019-1-japan-world-ja,JAPAN_AND_WORLD_JA,問4,q_9d16b9eeb4c48b0cc4cc8381,9,latex_in_text;explicit_figure_reference
+eju-2019-1-japan-world-ja,JAPAN_AND_WORLD_JA,問13,q_6848b63a5f19b2e6d45a2f3e,14,explicit_figure_reference
+eju-2019-1-science-ja,PHYSICS_JA,問1,q_9f799ce2bc19ab0cade66701,4,latex_in_text
+eju-2019-1-science-ja,PHYSICS_JA,問2,q_b3819f16355bcd123ab06277,5,latex_in_text
+eju-2019-1-science-ja,PHYSICS_JA,問4,q_ac4250176305b85bf8e78e4c,7,latex_in_text
+eju-2019-1-science-ja,PHYSICS_JA,問5,q_7503f9386427b4d044b2b2d3,8,latex_in_text
+eju-2019-1-science-ja,PHYSICS_JA,問6,q_bd447ca4370acc9026096671,9,latex_in_text
+eju-2019-1-science-ja,PHYSICS_JA,問1,q_35f7b58d7eef1a000d3f7a0d,10,latex_in_text
+eju-2019-1-science-ja,PHYSICS_JA,問2,q_a21068861ffe68c5ee737517,11,latex_in_text
+eju-2019-1-science-ja,PHYSICS_JA,問2,q_bafae2f6c1c035872639cedb,14,latex_in_text
+eju-2019-1-science-ja,PHYSICS_JA,問1,q_3aa846c97abf6af22adb6178,16,latex_in_text
+eju-2019-1-science-ja,PHYSICS_JA,問1,q_51a707e1c0313174c56e8d6c,22,latex_in_text
+eju-2019-1-science-ja,CHEMISTRY_JA,問3,q_7275f0a17b52c7579ca5277b,27,latex_in_text
+eju-2019-1-science-ja,CHEMISTRY_JA,問10,q_84c6debe67309f75ead008ee,31,explicit_figure_reference
+eju-2019-1-science-ja,BIOLOGY_JA,問3,q_023c80e3b45c4274db10ab1d,43,explicit_figure_reference
+eju-2019-1-science-ja,BIOLOGY_JA,問7,q_8a5b53e1a0d0099818811611,47,explicit_figure_reference
+eju-2019-1-science-ja,BIOLOGY_JA,問9,q_2072c97e35d9bd928519bfab,49,explicit_figure_reference
+eju-2019-1-science-ja,BIOLOGY_JA,問10,q_8f455d574ffe281c91cf05d2,50,explicit_figure_reference
+eju-2019-1-science-ja,BIOLOGY_JA,問12,q_a799e275b41e095bd34f411f,52,explicit_figure_reference
+eju-2019-1-science-ja,BIOLOGY_JA,問13,q_49b260b273e0bc47b9c6f103,53,explicit_figure_reference;duplicate_options
+eju-2020-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(1),q_216282c767d7013ca6f15ed6,3,underline_reference
+eju-2020-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_57aae2f35f11327926ad2adc,4,underline_reference
+eju-2020-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_9b9595bfc26b6aba5e8d5126,4,underline_reference
+eju-2020-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_2515a29d033052a821836829,6,underline_reference
+eju-2020-2-japan-world-ja,JAPAN_AND_WORLD_JA,問3,q_6b9c76ac0f57342e56cb73ba,8,explicit_figure_reference
+eju-2020-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_983c03c4906336818053a02b,2,latex_in_text;guidance_as_question
+eju-2020-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_acb5a2d8fbfbbdf6443e698c,4,latex_in_text;explicit_figure_reference
+eju-2020-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_a875ead249472646ad8716c2,8,latex_in_text
+eju-2020-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_2e3a011a5a29a5ca24feb3aa,10,latex_in_text
+eju-2020-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_5c7112d721425b3b9f923093,3,latex_in_text;explicit_figure_reference
+eju-2020-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問1,q_59d080f7388478ed1cf86e6b,7,latex_in_text
+eju-2020-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問2,q_2e41363531061b25cada4936,9,latex_in_text
+eju-2020-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第IV問,q_d8d133200cca89cbe2d286bf,13,latex_in_text
+eju-2020-2-science-ja,PHYSICS_JA,問1,q_057bea44d12b437597ea42c9,4,latex_in_text
+eju-2020-2-science-ja,PHYSICS_JA,問4,q_d1fdd55b73c5b67e9f3a9a21,7,latex_in_text
+eju-2020-2-science-ja,PHYSICS_JA,問6,q_3a85e0e3217907422737a428,9,latex_in_text
+eju-2020-2-science-ja,PHYSICS_JA,問2,q_8da8ab9ea48f11d0fb9380fa,11,latex_in_text
+eju-2020-2-science-ja,PHYSICS_JA,問1,q_16ea8801bc6ff3a336401c7b,13,latex_in_text
+eju-2020-2-science-ja,PHYSICS_JA,問2,q_bba62aa166e7b2732e9640ca,14,latex_in_text
+eju-2020-2-science-ja,PHYSICS_JA,問3,q_84eb5bd6b60dc543677bc5a6,15,latex_in_text
+eju-2020-2-science-ja,PHYSICS_JA,問1,q_cfde134279a37df7d2067a67,16,latex_in_text
+eju-2020-2-science-ja,PHYSICS_JA,問2,q_2432b52138e2fee2c95ada9f,17,latex_in_text
+eju-2020-2-science-ja,PHYSICS_JA,問3,q_2e0e0ff8b3af2eb41b391559,18,latex_in_text
+eju-2020-2-science-ja,PHYSICS_JA,問4,q_1b9bebb3147af033336b793f,19,latex_in_text
+eju-2020-2-science-ja,PHYSICS_JA,問5,q_50b103d556415322cff3629d,20,latex_in_text
+eju-2020-2-science-ja,PHYSICS_JA,問1,q_6df9ffa164df8197c4657662,22,latex_in_text
+eju-2020-2-science-ja,CHEMISTRY_JA,問2,q_aba9cfd426dacc073077950a,26,latex_in_text
+eju-2020-2-science-ja,CHEMISTRY_JA,問5,q_2756ff4e5a907ca995a6e84e,28,latex_in_text;explicit_figure_reference
+eju-2020-2-science-ja,CHEMISTRY_JA,問7,q_8edeaf369a5b42081f632952,30,latex_in_text
+eju-2020-2-science-ja,CHEMISTRY_JA,問8,q_939c1739db40f295a44437ea,31,latex_in_text
+eju-2020-2-science-ja,CHEMISTRY_JA,問9,q_b562089275fc8c408b73a3d6,32,latex_in_text;underline_reference
+eju-2020-2-science-ja,CHEMISTRY_JA,問15,q_c74c4e9a9438046e1139b984,35,latex_in_text
+eju-2020-2-science-ja,CHEMISTRY_JA,問16,q_7185afd83daa335c5e0a51a4,35,latex_in_text
+eju-2020-2-science-ja,CHEMISTRY_JA,問17,q_a177b48016098cb4fc5787b8,36,latex_in_text
+eju-2020-2-science-ja,CHEMISTRY_JA,問18,q_4a149a10133dcc81923469ef,37,explicit_figure_reference
+eju-2020-2-science-ja,CHEMISTRY_JA,問20,q_8f71525b1321da25271b2cf5,39,latex_in_text;underline_reference
+eju-2020-2-science-ja,BIOLOGY_JA,問2,q_37e384342d04081a0c16b772,42,latex_in_text
+eju-2020-2-science-ja,BIOLOGY_JA,問3,q_b6811ce8b24180dbb9299796,43,explicit_figure_reference
+eju-2020-2-science-ja,BIOLOGY_JA,問4,q_87fd6fdd4ad6d81efb1aa722,44,latex_in_text
+eju-2020-2-science-ja,BIOLOGY_JA,問5,q_6286f966ba262382c4445098,44,latex_in_text
+eju-2021-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_63290c00028f16207c53375e,4,underline_reference
+eju-2021-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_1824c790129836f4c9b47332,5,underline_reference
+eju-2021-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_2a0dadf27012642102acad96,6,underline_reference
+eju-2021-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_bd493a329db5431541f11641,7,underline_reference
+eju-2021-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_3fc2e5c12f82b22ae7d7aa60,9,underline_reference
+eju-2021-1-japan-world-ja,JAPAN_AND_WORLD_JA,問12,q_558f9521ca601d77a21ac747,16,explicit_figure_reference
+eju-2021-1-japan-world-ja,JAPAN_AND_WORLD_JA,問13,q_6b0dd803d02776f5dac428f1,17,explicit_figure_reference
+eju-2021-1-japan-world-ja,JAPAN_AND_WORLD_JA,問15,q_1c5b7e3a845ca22a789aeb5d,19,explicit_figure_reference
+eju-2021-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_c8811ed48dee9bbabfc560a0,1,latex_in_text;guidance_as_question
+eju-2021-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_7f084049576607f2bd4f671f,3,latex_in_text
+eju-2021-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_eaebf5de95ad3abb58653b0e,4,latex_in_text
+eju-2021-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_b16aa8e2489e60dcd8aca306,5,latex_in_text
+eju-2021-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_2e034e97659e70ac0c611009,6,latex_in_text
+eju-2021-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_e0fdc9e49883851676d2ce09,8,latex_in_text
+eju-2021-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_4b3e6128e7be74b5345fe89e,2,latex_in_text;guidance_as_question
+eju-2021-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_35d13424d7342e404d9c8cd7,4,latex_in_text
+eju-2021-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_17fe8f925b6934e0491f3788,6,latex_in_text
+eju-2021-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問1,q_70d809a78ce4bd016d2d7661,8,latex_in_text;markdown_table
+eju-2021-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問2,q_d2e14bcab298012b1c5b2af9,10,latex_in_text;markdown_table
+eju-2021-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第IV問,q_a3333bc5e0ab4872fe37ede0,14,latex_in_text
+eju-2021-1-science-ja,PHYSICS_JA,問2,q_494eb4b641ee2b179d86d4aa,5,latex_in_text
+eju-2021-1-science-ja,PHYSICS_JA,問3,q_b2e9cba080bdfa57632bdf59,6,latex_in_text
+eju-2021-1-science-ja,PHYSICS_JA,問3,q_40ed4cf1da2b0a4be8131e86,18,latex_in_text
+eju-2021-1-science-ja,BIOLOGY_JA,問1,q_eef9f73552c9c268f14fd65f,39,explicit_figure_reference
+eju-2021-1-science-ja,BIOLOGY_JA,問3,q_ad4d73e604fbfa2beade4044,41,raw_html
+eju-2021-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_48d74b98ec087f7dcc4dbc64,6,underline_reference
+eju-2021-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_735b9fd11d2da1eba93df9e7,8,underline_reference
+eju-2021-2-japan-world-ja,JAPAN_AND_WORLD_JA,問4,q_c28ed25af70ca9b584b85263,11,explicit_figure_reference;duplicate_options
+eju-2021-2-japan-world-ja,JAPAN_AND_WORLD_JA,問5,q_8d268fb550ae76158a741649,12,explicit_figure_reference
+eju-2021-2-japan-world-ja,JAPAN_AND_WORLD_JA,問10,q_6110bebece31e65f4976c2e1,15,explicit_figure_reference
+eju-2021-2-japan-world-ja,JAPAN_AND_WORLD_JA,問11,q_3da2a228e5121fb59e0d1096,16,explicit_figure_reference
+eju-2021-2-japan-world-ja,JAPAN_AND_WORLD_JA,問14,q_876d8077b24f8efc93eab044,18,explicit_figure_reference
+eju-2021-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_af8d866146841150f273acb4,2,latex_in_text;guidance_as_question
+eju-2021-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_27c63fdd51225039394e1daa,4,latex_in_text;explicit_figure_reference
+eju-2021-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_c9223db5ace47e12944cd468,8,latex_in_text
+eju-2021-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_a782befdac85ce8da887754f,10,latex_in_text
+eju-2021-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_92e4871d757d7e523881df6a,14,latex_in_text
+eju-2021-2-science-ja,PHYSICS_JA,問1,q_afefc773ba71548f4ef5b052,4,latex_in_text
+eju-2021-2-science-ja,PHYSICS_JA,問3,q_1113b556c5a03cf02fe1f247,6,latex_in_text
+eju-2021-2-science-ja,PHYSICS_JA,問4,q_7aba919f7104c3a742f91636,7,latex_in_text
+eju-2021-2-science-ja,PHYSICS_JA,問5,q_fe949a829bf286e66ca55b2f,8,latex_in_text
+eju-2021-2-science-ja,PHYSICS_JA,問6,q_f230fe607950660391eb157d,9,latex_in_text
+eju-2021-2-science-ja,PHYSICS_JA,問2,q_f18687e7c4fbd81b415ff0a2,11,latex_in_text
+eju-2021-2-science-ja,CHEMISTRY_JA,問1,q_828eb629c4fd380aee0205f1,25,latex_in_text
+eju-2021-2-science-ja,BIOLOGY_JA,問2,q_78e2e7fe2ba975d6580ff2b8,40,latex_in_text;explicit_figure_reference
+eju-2021-2-science-ja,BIOLOGY_JA,問3,q_079bc843f86174c68fd65a39,41,explicit_figure_reference
+eju-2021-2-science-ja,BIOLOGY_JA,問4,q_82f29a99bc2050739ba980c2,42,latex_in_text;explicit_figure_reference
+eju-2021-2-science-ja,BIOLOGY_JA,問6,q_a957fdc4291dd8db41701c29,44,explicit_figure_reference
+eju-2021-2-science-ja,BIOLOGY_JA,問9,q_d0e7e175e358eba6339991ea,47,explicit_figure_reference
+eju-2022-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_f581c74a2c85c860cc79ab41,1,latex_in_text;guidance_as_question
+eju-2022-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_8c26f5e5f69bd2ab70863eb4,3,latex_in_text;explicit_figure_reference
+eju-2022-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_46e9a05645f322bcac8b3e53,5,latex_in_text
+eju-2022-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_a89f15bf5c5c46df86a49107,7,latex_in_text
+eju-2022-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_f9cdea5f220f7b59dd6f3fad,9,latex_in_text
+eju-2022-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_1946187506b9ac6d995393f8,13,latex_in_text
+eju-2022-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_0f8ed366d0ecbdee73a45a4c,2,latex_in_text;explicit_figure_reference
+eju-2022-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_59c231a911bdb43c6f2078fd,4,latex_in_text
+eju-2022-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問1,q_4998c4cc0de08e3e35cdd998,6,latex_in_text
+eju-2022-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問2,q_68d6a899ea1fd835341fd7d7,8,latex_in_text
+eju-2022-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_071fc8cc66161e68079a44e7,10,latex_in_text
+eju-2022-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第IV問,q_a1fa0dfed6ac76e6c312032c,12,latex_in_text;explicit_figure_reference
+eju-2022-1-science-ja,PHYSICS_JA,問2,q_b36f9bf601e17de6003f2206,4,latex_in_text
+eju-2022-1-science-ja,PHYSICS_JA,問4,q_d7fdfc053b283a36ef454357,6,latex_in_text
+eju-2022-1-science-ja,PHYSICS_JA,問5,q_978c8335576d9dc96f03f0be,7,latex_in_text
+eju-2022-1-science-ja,PHYSICS_JA,問6,q_ecca44bb89eb6eaed2683b6b,8,latex_in_text
+eju-2022-1-science-ja,PHYSICS_JA,問1,q_2825d73684e0a08e47b4fe6a,13,latex_in_text
+eju-2022-1-science-ja,PHYSICS_JA,問1,q_a6e384a06713219a7f2b9983,16,latex_in_text
+eju-2022-1-science-ja,PHYSICS_JA,問2,q_bbf0382d81615f2660b46885,17,latex_in_text
+eju-2022-1-science-ja,PHYSICS_JA,問3,q_aaed463f56a92c0b39fc9968,18,latex_in_text
+eju-2022-1-science-ja,PHYSICS_JA,問4,q_ac6559133eb7c5052b8a6cf9,19,explicit_figure_reference
+eju-2022-1-science-ja,PHYSICS_JA,問6,q_eaffc483001e6a4de6b557ce,21,latex_in_text
+eju-2022-1-science-ja,PHYSICS_JA,問1,q_0df3942d4ec54d1b7033e63e,22,latex_in_text
+eju-2022-1-science-ja,CHEMISTRY_JA,問2,q_83401afd52a27bd345a8919f,25,latex_in_text
+eju-2022-1-science-ja,CHEMISTRY_JA,問3,q_adc62186edc311782d52ca12,26,explicit_figure_reference
+eju-2022-1-science-ja,CHEMISTRY_JA,問6,q_98db15f41644cafa78286920,29,latex_in_text;explicit_figure_reference;raw_html
+eju-2022-1-science-ja,CHEMISTRY_JA,問7,q_8f6a5680095b33c7fa3a1e18,30,latex_in_text
+eju-2022-1-science-ja,CHEMISTRY_JA,問8,q_c9881821e9986959ece3f56e,31,latex_in_text
+eju-2022-1-science-ja,CHEMISTRY_JA,問9,q_eb38cab833574dd6f9dffeb1,32,latex_in_text
+eju-2022-1-science-ja,BIOLOGY_JA,問3,q_807e594b0f384d8144551c66,44,explicit_figure_reference
+eju-2022-1-science-ja,BIOLOGY_JA,問4,q_49914b1d26f4368f4f72735c,45,explicit_figure_reference
+eju-2022-1-science-ja,BIOLOGY_JA,問5,q_b8e68b436a50373a828eea9e,46,explicit_figure_reference
+eju-2022-1-science-ja,BIOLOGY_JA,問10(1),q_a317fc429657fe81b85f995a,51,explicit_figure_reference
+eju-2022-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_fd6681dc3046734babd16caf,3,underline_reference
+eju-2022-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(3),q_7ba46aa5372c308388e16ba1,3,underline_reference
+eju-2022-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_3cf5c968536e1d37e6666750,4,explicit_figure_reference;underline_reference
+eju-2022-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_bf1186e4b22f498becb64b4b,5,latex_in_text;underline_reference
+eju-2022-2-japan-world-ja,JAPAN_AND_WORLD_JA,問2(4),q_23e56d8bc604bf0bd0023581,7,latex_in_text;underline_reference
+eju-2022-2-japan-world-ja,JAPAN_AND_WORLD_JA,問3,q_2ccd8fb4057a80aeaacdc5bb,8,explicit_figure_reference
+eju-2022-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_71e7522605fcbbb9e73fc2ee,1,latex_in_text;guidance_as_question
+eju-2022-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_180899b06d964ef675c34f4f,3,latex_in_text;explicit_figure_reference
+eju-2022-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_5f346485debe2f5e168b0812,4,latex_in_text
+eju-2022-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_53dc7c0ed97fc9fa2d3db725,5,latex_in_text
+eju-2022-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_f5b36b4630e40f95e776f8f2,6,latex_in_text
+eju-2022-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_0808e11d6ce0ea845642b6a2,8,latex_in_text
+eju-2022-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_1f6a852d9c91046456b7bbb9,2,latex_in_text;explicit_figure_reference
+eju-2022-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_634711a2b6f4d1e3acbc4da4,3,latex_in_text
+eju-2022-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問1,q_4eb7020268a095ea7123b6cf,4,latex_in_text
+eju-2022-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問2,q_50a06c77f1187e49be18ed1e,6,latex_in_text;markdown_table
+eju-2022-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_e33f3a2ebf1690ab72ace4b0,7,latex_in_text;markdown_table
+eju-2022-2-science-ja,PHYSICS_JA,問1,q_3a3f54815aa6f3248eab4403,3,latex_in_text
+eju-2022-2-science-ja,PHYSICS_JA,問2,q_112d72bc54a86b8924cd5e52,4,latex_in_text
+eju-2022-2-science-ja,PHYSICS_JA,問3,q_5ea856992a83e5918e1f32f3,5,latex_in_text
+eju-2022-2-science-ja,PHYSICS_JA,問4,q_e4d16fef561eaeaf4bc73566,6,latex_in_text
+eju-2022-2-science-ja,PHYSICS_JA,問5,q_68fc4016a707424046c985b9,7,latex_in_text
+eju-2022-2-science-ja,PHYSICS_JA,問6,q_1c49104d600eb523a2ab5d89,8,latex_in_text
+eju-2022-2-science-ja,PHYSICS_JA,問2,q_20b4086f5ece472d3f56e5ba,10,latex_in_text
+eju-2022-2-science-ja,PHYSICS_JA,問2,q_0b3931f0eaf6532f13dbb3a2,13,latex_in_text
+eju-2022-2-science-ja,PHYSICS_JA,問3,q_50e2d0a7f232a50498fb9584,14,latex_in_text
+eju-2022-2-science-ja,PHYSICS_JA,問1,q_1762e334c8fb8f1f0dcb4a86,15,latex_in_text
+eju-2022-2-science-ja,PHYSICS_JA,問2,q_d0ff8657353c56410e8b3a45,16,latex_in_text
+eju-2022-2-science-ja,PHYSICS_JA,問4,q_3e5e7e1b9a6bcd091e5d00fd,18,latex_in_text
+eju-2022-2-science-ja,PHYSICS_JA,問5,q_48f17547243e38ef498f7c2d,19,latex_in_text;duplicate_options
+eju-2022-2-science-ja,PHYSICS_JA,問6,q_31400a8a11c36516e4afe129,20,latex_in_text
+eju-2022-2-science-ja,PHYSICS_JA,問1,q_735caf67f21e11e30eaf2df5,21,latex_in_text
+eju-2022-2-science-ja,CHEMISTRY_JA,問1,q_0c065e8601ed295083efe31f,24,latex_in_text
+eju-2022-2-science-ja,CHEMISTRY_JA,問2,q_762fa06ad0fc4e40744cd68c,24,latex_in_text
+eju-2022-2-science-ja,CHEMISTRY_JA,問3,q_e6d7bec5355d5a2305aa99f2,25,latex_in_text;explicit_figure_reference
+eju-2022-2-science-ja,BIOLOGY_JA,問1,q_227ddcfe80793d8c502af878,39,latex_in_text
+eju-2022-2-science-ja,BIOLOGY_JA,問2,q_90a6b7e4202319124d78d591,40,explicit_figure_reference
+eju-2022-2-science-ja,BIOLOGY_JA,問3,q_a65d5779f58196c04b6ac736,41,latex_in_text;explicit_figure_reference
+eju-2023-1-science-ja,PHYSICS_JA,問2,q_d576d42079c4e7b7b4529643,5,latex_in_text
+eju-2023-1-science-ja,PHYSICS_JA,問3,q_12f4f6a9a6f96a495065af07,6,latex_in_text
+eju-2023-1-science-ja,PHYSICS_JA,問4,q_5dee71ac754bcd6669514add,7,latex_in_text
+eju-2023-1-science-ja,PHYSICS_JA,問5,q_1d1ece65c6a4f2e91d05c61b,8,latex_in_text
+eju-2023-1-science-ja,PHYSICS_JA,問1,q_c38edff9570363d3cadd1b7c,10,latex_in_text
+eju-2023-1-science-ja,PHYSICS_JA,問2,q_8d1ec4b64a64d2379460d741,11,explicit_figure_reference
+eju-2023-1-science-ja,PHYSICS_JA,問1,q_8e1c0f5906c091341e483838,13,explicit_figure_reference
+eju-2023-1-science-ja,PHYSICS_JA,問2,q_8a7ad40b8a3eb3e44e944354,14,latex_in_text
+eju-2023-1-science-ja,PHYSICS_JA,問3,q_7f22d6dbc2a6aa1926711bcd,15,latex_in_text
+eju-2023-1-science-ja,PHYSICS_JA,問1,q_97f91daf7d2cb3d6e7b1b658,16,latex_in_text
+eju-2023-1-science-ja,PHYSICS_JA,問2,q_992aaee8026251aaf20f7542,17,latex_in_text
+eju-2023-1-science-ja,PHYSICS_JA,問3,q_72e31e97c8e248dc30ad743f,18,explicit_figure_reference
+eju-2023-1-science-ja,PHYSICS_JA,問6,q_371239d6bed2bf66b703c28f,21,latex_in_text
+eju-2023-1-science-ja,CHEMISTRY_JA,問1,q_d6e57264dc5cf390dcbcaee3,26,latex_in_text
+eju-2023-1-science-ja,CHEMISTRY_JA,問2,q_3f122a294c22013b876dbfac,27,latex_in_text
+eju-2023-1-science-ja,CHEMISTRY_JA,問5,q_84ecea40f5a8c27db9edb9fb,30,explicit_figure_reference
+eju-2023-1-science-ja,CHEMISTRY_JA,問6,q_d83ca9b3e32d3b9bd17aea7e,31,latex_in_text;explicit_figure_reference
+eju-2023-1-science-ja,CHEMISTRY_JA,問7,q_051a8d3e4049d867fce6c4de,32,latex_in_text
+eju-2023-1-science-ja,CHEMISTRY_JA,問8,q_363c69a3293e0b592bda78fe,33,latex_in_text;underline_reference
+eju-2023-1-science-ja,CHEMISTRY_JA,問9,q_e0979cb292f7f96d20229365,34,latex_in_text
+eju-2023-1-science-ja,CHEMISTRY_JA,問12,q_ae05dde54bb07b2adcbf209b,36,latex_in_text
+eju-2023-1-science-ja,CHEMISTRY_JA,問13,q_12839affd893c0ec973171bb,37,latex_in_text
+eju-2023-1-science-ja,CHEMISTRY_JA,問16,q_6ba07fe3def994fd63dc8d78,39,latex_in_text
+eju-2023-1-science-ja,CHEMISTRY_JA,問17,q_609fbd38e63ddb7d063c68e4,40,latex_in_text
+eju-2023-1-science-ja,CHEMISTRY_JA,問18,q_699d7bd7cb5b336ffe9a896d,41,latex_in_text;explicit_figure_reference
+eju-2023-1-science-ja,CHEMISTRY_JA,問19,q_8cc7e66822c68223f1fcb6fc,42,latex_in_text
+eju-2023-1-science-ja,BIOLOGY_JA,問2(1),q_33faab980f1931667363a18c,46,explicit_figure_reference
+eju-2023-1-science-ja,BIOLOGY_JA,問2(2),q_fd1e563d9651c5496df52ea8,46,explicit_figure_reference
+eju-2023-1-science-ja,BIOLOGY_JA,問7,q_84e58932969aeb190beff269,50,explicit_figure_reference
+eju-2023-1-science-ja,BIOLOGY_JA,問9,q_54fc10206e7522ed38cc47f7,52,explicit_figure_reference
+eju-2023-1-science-ja,BIOLOGY_JA,問13,q_5755e18a1b6e43cf0afa6457,56,explicit_figure_reference
+eju-2023-1-science-ja,BIOLOGY_JA,問14,q_bcb42c69ba5f281ac9bdc185,57,explicit_figure_reference
+eju-2023-1-science-ja,BIOLOGY_JA,問16,q_b39aae3ab8b976e4efe152f6,59,explicit_figure_reference
+eju-2023-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(1),q_47cf674a4993a21f9c5f48f9,2,underline_reference
+eju-2023-2-japan-world-ja,JAPAN_AND_WORLD_JA,問1(4),q_3299b873b79b0b4d53f0be76,4,explicit_figure_reference;underline_reference
+eju-2002-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(1),q_67b1ac439453927f50655a02,3,latex_in_text;underline_reference
+eju-2002-1-japan-world-ja,JAPAN_AND_WORLD_JA,問1(2),q_a6b8c31e8eb3fc8ef33c9cdd,3,underline_reference
+eju-2002-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(1),q_6042ed9f7f6ccb14c3146740,4,explicit_figure_reference
+eju-2002-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(2),q_6fd369af63d80db3db43c4ec,5,explicit_figure_reference
+eju-2002-1-japan-world-ja,JAPAN_AND_WORLD_JA,問2(3),q_fe3fd1b64a3cffcfc86feb60,5,explicit_figure_reference
+eju-2002-1-japan-world-ja,JAPAN_AND_WORLD_JA,問4(1),q_89c063723defeeb1c79663d5,6,explicit_figure_reference
+eju-2002-1-japan-world-ja,JAPAN_AND_WORLD_JA,問9(1),q_a1bea4729e5576084e5b27b1,9,latex_in_text;underline_reference
+eju-2002-1-japan-world-ja,JAPAN_AND_WORLD_JA,問9(2),q_0596a7b07b700c5002da8729,9,latex_in_text;underline_reference
+eju-2002-1-japan-world-ja,JAPAN_AND_WORLD_JA,問14(2),q_02d976c7de6d2f0341ee8750,13,underline_reference
+eju-2002-1-japan-world-ja,JAPAN_AND_WORLD_JA,問17,q_612ea14b65434f104896a308,15,explicit_figure_reference
+eju-2002-1-japan-world-ja,JAPAN_AND_WORLD_JA,問19,q_c9ad35665765a1242e8ed24e,16,explicit_figure_reference
+eju-2002-1-japan-world-ja,JAPAN_AND_WORLD_JA,問22,q_39de54b61edb89056262d9b7,18,explicit_figure_reference
+eju-2010-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第II問,q_64bd9e95f920cee7049c1d39,1,guidance_as_question
+eju-2010-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_ffa5cff546672a92525b7f4e,1,latex_in_text;guidance_as_question
+eju-2010-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_915c9f91f6d17514acd32889,3,latex_in_text
+eju-2010-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_f00e554ad890df6cb3e5a5ef,5,latex_in_text
+eju-2010-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,IV 問2,q_01e3485be2c907ab5bf77d8b,13,latex_in_text
+eju-2011-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第II問,q_47c9c089cf16db15e233054e,1,guidance_as_question
+eju-2011-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_f58248b8d9c6c8d602fd675e,1,latex_in_text;guidance_as_question
+eju-2011-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_cf981df5d4cb4cb6217dffec,3,latex_in_text
+eju-2011-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_32ed2604ef5daeff966bdca0,5,latex_in_text
+eju-2011-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,IV 問1,q_84d36e01b1b720b42cdff10c,11,latex_in_text
+eju-2011-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,IV 問2,q_21e89d26084a991fa1f52edf,13,latex_in_text;markdown_table
+eju-2014-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第II問,q_4f760a5a4e82884959f0904c,1,guidance_as_question
+eju-2014-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_c45790d72529e69b426d8cc2,1,latex_in_text;guidance_as_question
+eju-2014-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_cb3883a769dd3562bf46ff6e,3,latex_in_text
+eju-2014-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_be3922a6b3a1b0fc2005201d,5,latex_in_text
+eju-2014-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,IV 問2,q_8c03a588d45a11a53bd495f6,13,latex_in_text
+eju-2015-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_f12c95ace595883b5fd6d95c,1,latex_in_text;guidance_as_question
+eju-2015-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_84b5e779f6b2bcdcf2a69f97,3,latex_in_text;explicit_figure_reference
+eju-2015-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_37001f450f3e93a3294acd90,5,latex_in_text
+eju-2015-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問1,q_b2396afd5f5544ca966e7a28,7,latex_in_text;markdown_table
+eju-2015-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問2,q_cfe5fed4efef61f5d56f1fb4,9,latex_in_text
+eju-2019-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_757aa987f96146bf2eec9f14,3,latex_in_text;explicit_figure_reference
+eju-2019-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_0fed1f575a6d11f0ec0f395f,5,latex_in_text
+eju-2019-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問1,q_319c9fb90ca7f8d44f533057,7,latex_in_text
+eju-2019-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問2,q_de56c5f1be0136fb33387d08,9,latex_in_text;markdown_table
+eju-2019-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_68bf16f464184a73916433b3,11,latex_in_text
+eju-2019-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第IV問,q_fb6a8a854afc057cd0480328,13,latex_in_text
+eju-2023-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_a4a1b7a818533da5316be0c9,1,latex_in_text;guidance_as_question
+eju-2023-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_edb9f8cf109ceb2ba2aaf09e,4,latex_in_text;explicit_figure_reference
+eju-2023-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_5dc6be4ff0df11e85031688e,6,latex_in_text
+eju-2023-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_49752d0989a6da1bc02fc6db,8,latex_in_text
+eju-2023-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_ef933b29de13ad94045fabcd,14,latex_in_text
+eju-2023-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_4db5459246c4d90591f98fd1,1,latex_in_text;guidance_as_question
+eju-2023-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_2989aa458ce19b5ed0486e6f,3,latex_in_text
+eju-2023-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問1,q_9d03e68a258f0a88720105f4,7,latex_in_text
+eju-2023-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問2,q_f8053c4a48fe1cec27ab295c,9,latex_in_text
+eju-2023-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第IV問,q_68c006da9e43fe4c380b5c90,13,latex_in_text;markdown_table
+eju-2023-2-science-ja,PHYSICS_JA,問2,q_1be49ccff1d46d14716274fd,4,latex_in_text
+eju-2023-2-science-ja,PHYSICS_JA,問5,q_9b2621d92fc2d27e6faed438,7,latex_in_text;markdown_table;duplicate_options
+eju-2023-2-science-ja,PHYSICS_JA,問2,q_f960e3a7f7819333c9761201,10,latex_in_text
+eju-2023-2-science-ja,PHYSICS_JA,問3,q_cfeeca1dcfb110bd108d85e3,11,latex_in_text
+eju-2023-2-science-ja,PHYSICS_JA,問2,q_84f7c5ee08b599ac7229d34c,13,latex_in_text
+eju-2023-2-science-ja,PHYSICS_JA,問1,q_edcfac46f69639e4a1b85856,15,latex_in_text
+eju-2023-2-science-ja,PHYSICS_JA,問2,q_105da2997b7b676f712bd088,16,latex_in_text
+eju-2023-2-science-ja,PHYSICS_JA,問3,q_45fe40c5cd73c861c6773208,17,latex_in_text
+eju-2023-2-science-ja,PHYSICS_JA,問4,q_e10a1cbe4343fe3efa1aa950,18,latex_in_text
+eju-2023-2-science-ja,PHYSICS_JA,問1,q_7c39de3db90e5b86dbf052ce,21,latex_in_text
+eju-2023-2-science-ja,CHEMISTRY_JA,問1,q_1e598d997b5fd7ad14497265,25,latex_in_text
+eju-2023-2-science-ja,CHEMISTRY_JA,問2,q_d2fdb2257d9d128f103abe42,25,latex_in_text
+eju-2023-2-science-ja,CHEMISTRY_JA,問7,q_85b8cd366f26509320c0bd1d,29,latex_in_text
+eju-2023-2-science-ja,CHEMISTRY_JA,問8,q_dd50c65db33929ad92f7311d,30,explicit_figure_reference
+eju-2023-2-science-ja,CHEMISTRY_JA,問9,q_c18be8f4b6988d961c868fba,31,latex_in_text
+eju-2023-2-science-ja,CHEMISTRY_JA,問10,q_b39771e5880e7b6f943cdf6f,32,latex_in_text
+eju-2023-2-science-ja,CHEMISTRY_JA,問13,q_9e5908e0aff9e28d13699811,34,latex_in_text
+eju-2023-2-science-ja,CHEMISTRY_JA,問14,q_bd575ee1fe69b164d8578467,34,latex_in_text
+eju-2023-2-science-ja,CHEMISTRY_JA,問15,q_04a333706d604d71ea8b9a9b,35,latex_in_text
+eju-2023-2-science-ja,CHEMISTRY_JA,問16,q_5780b0c1177f14b66f225013,36,latex_in_text
+eju-2023-2-science-ja,BIOLOGY_JA,問2,q_dbdb95565ec21db2615c5017,43,underline_reference
+eju-2023-2-science-ja,BIOLOGY_JA,問3(1),q_9480b51123ffba882ebc6b75,44,explicit_figure_reference
+eju-2023-2-science-ja,BIOLOGY_JA,問3(2),q_bf8434beb60b6f1751f3dafd,44,explicit_figure_reference
+eju-2023-2-science-ja,BIOLOGY_JA,問5,q_5a81da84ab8791e19d8b7459,46,explicit_figure_reference
+eju-2023-2-science-ja,BIOLOGY_JA,問7,q_77dd83929125edcabb4b1bed,47,explicit_figure_reference
+eju-2023-2-science-ja,BIOLOGY_JA,問8,q_1f86e26d4eed35f88b3b4be3,48,explicit_figure_reference
+eju-2009-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_62dc357133fedf2a33237abf,1,latex_in_text;guidance_as_question
+eju-2009-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_94bfa77a34dc37222829bf90,3,latex_in_text;explicit_figure_reference
+eju-2009-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_a20e5cd67a59cd4488746613,5,latex_in_text
+eju-2009-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_7574423c04f48b3547747c9f,7,latex_in_text
+eju-2009-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_7d71124116b2a9b6932b31e5,9,latex_in_text
+eju-2009-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_993fcde2713e2e0c520f4aee,13,latex_in_text
+eju-2009-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_e17597fb6631c99e20cda6ca,1,latex_in_text;guidance_as_question
+eju-2009-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_4b5e760947db1002da375daa,3,latex_in_text
+eju-2009-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_68fd1ae38ed288c11c6740f2,5,latex_in_text;explicit_figure_reference
+eju-2009-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_646c881c374582d0254ae32c,7,latex_in_text
+eju-2009-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_c8a1e9dc11334dc48ed60036,9,latex_in_text
+eju-2009-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第II問,q_fbde87fdd8cb21a440b623f6,1,guidance_as_question
+eju-2009-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_5a2797178890c03a713bb968,1,latex_in_text;guidance_as_question
+eju-2009-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_260ac346a78b94ec59977a0a,5,latex_in_text;explicit_figure_reference
+eju-2010-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第II問,q_ba7cdee7415b5d077986a2f3,1,guidance_as_question
+eju-2010-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_bf7a1f8805827914962aa15c,1,latex_in_text;guidance_as_question
+eju-2010-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_0e87c24ed17635f6b4225dbb,3,latex_in_text;explicit_figure_reference
+eju-2010-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_122d6f054aa0bd6cb5dae096,5,latex_in_text;markdown_table
+eju-2012-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第II問,q_f18bf45ccad6ee37e0f97a84,1,guidance_as_question
+eju-2012-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_06fb8e128740ca7fb35a1a58,1,latex_in_text;guidance_as_question
+eju-2012-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_9563e4f409e92446622bc274,3,latex_in_text;explicit_figure_reference
+eju-2012-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_95e1195ae38f1407632eaa04,5,latex_in_text
+eju-2012-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,IV 問1,q_7120e7630cfb98cd23b7d9a7,11,latex_in_text
+eju-2015-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_f48f871ba24a78f9c2d37d1b,1,latex_in_text;guidance_as_question
+eju-2015-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_7b18c806f9a30890e9fd0e8c,3,latex_in_text
+eju-2015-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_b247b3eeaf29cb99fc898885,7,latex_in_text;explicit_figure_reference;markdown_table
+eju-2015-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_4710e96679a5b683cda3d374,9,latex_in_text
+eju-2015-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_d69213c9ec866faf3f310b4d,13,latex_in_text;explicit_figure_reference
+eju-2016-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_b38aeb7fba1f6f07ff84905e,1,latex_in_text;guidance_as_question
+eju-2016-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_46c061e6d0610509655f0099,3,latex_in_text;explicit_figure_reference
+eju-2016-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_78149d882b3bd502153d676e,7,latex_in_text
+eju-2016-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_8aae06557d213b74a898b2bd,9,latex_in_text
+eju-2016-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_16fce8989911ca8aa106801a,13,latex_in_text;explicit_figure_reference
+eju-2023-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_b4a1303980da13aac0cb4b65,1,latex_in_text;guidance_as_question
+eju-2023-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_8b1e16c3c1abaaed26521070,3,latex_in_text
+eju-2023-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_f158704dc9d83aff42e200e4,7,latex_in_text
+eju-2023-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_98b65fd01c2426ac126b0076,9,latex_in_text
+eju-2023-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_c2cc8d8264ce6eaa2f57b6ce,13,latex_in_text;explicit_figure_reference
+eju-2010-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_5e6b7b21854b3b7bf36d11ee,1,latex_in_text;guidance_as_question
+eju-2010-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_3d02b096690343d398081a87,3,latex_in_text;explicit_figure_reference
+eju-2010-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_fe39f231ddec4ff361d2424c,5,latex_in_text;markdown_table
+eju-2010-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_58f94434842e861d9c7ace4f,7,latex_in_text
+eju-2010-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_dd88e6cb60590e62dfc513a2,9,latex_in_text
+eju-2010-2-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_823f1bf9f5507916998cdb12,13,latex_in_text;explicit_figure_reference
+eju-2013-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_02d763321a67827f798f4ba0,1,latex_in_text;guidance_as_question
+eju-2013-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_350569341b25e90f82cd09f5,3,latex_in_text;explicit_figure_reference
+eju-2013-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_4a5a8ab14ddf358c75a31d32,5,latex_in_text
+eju-2013-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_434fd28c65880366b2a3ec1f,7,latex_in_text
+eju-2013-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_99922cfbf91aa196f818e88d,9,latex_in_text
+eju-2013-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_d98aa6bb9840c0e70260b827,13,latex_in_text;explicit_figure_reference
+eju-2017-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_a06fc3032ec5b1ac25b1b17a,1,latex_in_text;guidance_as_question
+eju-2017-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_4d1cebb841e50027fe608284,3,latex_in_text;explicit_figure_reference
+eju-2017-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問2,q_0f586dc553bd7b0192c69369,4,latex_in_text
+eju-2017-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問1,q_2851d4ee8706184d6dc28bde,6,latex_in_text;explicit_figure_reference
+eju-2017-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問2,q_6c5d6efb534c3aeb0c0dfe43,7,latex_in_text;markdown_table
+eju-2017-1-math-c2-ja,MATHEMATICS_COURSE_2_JA,第IV問,q_07bd7a57b9848427764ae9c7,11,latex_in_text
+eju-2019-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第III問,q_d5bb3ccc28ac50cf783ee4fd,2,latex_in_text;guidance_as_question
+eju-2019-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問1,q_1e9c877774216cf35ac2fc11,4,latex_in_text;explicit_figure_reference
+eju-2019-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,I 問2,q_37c96cb0c914c48f19049ff4,6,latex_in_text
+eju-2019-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問1,q_3412e51df567ffeb72f9e50d,8,latex_in_text;markdown_table
+eju-2019-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,II 問2,q_200f59ee4da2e1cf72de7d6c,10,latex_in_text
+eju-2019-1-math-c1-ja,MATHEMATICS_COURSE_1_JA,第IV問,q_29d5081be1d647d1838928ea,14,latex_in_text
+eju-2021-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第III問,q_0ff0eea8a33564934edcb4ec,2,latex_in_text;guidance_as_question
+eju-2021-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,I 問1,q_d42f5119a75d062011a8097e,4,latex_in_text;explicit_figure_reference
+eju-2021-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問1,q_bdb6d70d6f55856b2929c61d,8,latex_in_text;markdown_table
+eju-2021-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,II 問2,q_7528cb777fff90fce88e689a,10,latex_in_text
+eju-2021-2-math-c2-ja,MATHEMATICS_COURSE_2_JA,第IV問,q_e13014f079cecf2002fbda4a,14,latex_in_text;explicit_figure_reference

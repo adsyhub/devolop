@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eju.local/schemas/source-structure.schema.json",
+  "type": "object",
+  "required": [
+    "forms",
+    "pages"
+  ],
+  "properties": {
+    "forms": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        }
+      }
+    },
+    "pages": {
+      "type": "object",
+      "required": [
+        "QUESTION_BOOKLET",
+        "ANSWER_KEY"
+      ],
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 3000
+      }
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "sectionId",
+          "formCode",
+          "questionRefs"
+        ],
+        "properties": {
+          "sectionId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "formCode": {
+            "type": "string"
+          },
+          "questionRefs": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "excludedAnswerRefs": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 3
+      }
+    },
+    "rulesReviewed": {
+      "type": "boolean"
+    },
+    "ruleEvidence": {
+      "type": "string",
+      "minLength": 3
+    },
+    "reviewedScope": {
+      "type": "object"
+    }
+  }
+}

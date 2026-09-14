@@ -1,0 +1,62 @@
+{
+  "page": 13,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>3</u>. このメールで伝えたいことは何か。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "会議室のテーブルといすをもっと増やしてほしい。",
+      "questionNumber": 1,
+      "choices": [
+        "昼休みに、会議室を休憩室として使えるようにしてほしい。",
+        "昼休みには、昼食を取る人に休憩室を優先して使わせてほしい。",
+        "昼休み以外にも、会議室で休憩できるようにしてほしい。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "(3)\n条件が違えば、勝者が敗者になり、敗者が勝者になるのが自然の生物社会です。\nどの生物もすべての環境条件で競争の勝者になることはできません。生態学(注1)の研究が示すのは多様な環境の重要性です。生物は競争があることで多様な環境の中に自分に適した環境を見つけることができます。\n競争は敗者を排除(注2)するプロセスではなく、多様な環境の中にそれぞれの生物の居場所をつくり出すプロセスといってもいいかもしれません。"
+    },
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注1)生態学:生物の生き方と環境に関する科学"
+    },
+    {
+      "kind": "note",
+      "partNumber": null,
+      "text": "(注2)排除する:ここでは、取り除く"
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "<u>4</u>. 生物について、筆者の考えに合うのはどれか。"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "ある環境で競争に負けても、自分に合った別の環境で生き残れる。",
+      "questionNumber": 1,
+      "choices": [
+        "多様な環境の中で自らを変化させなければ、共存に勝てない。",
+        "競争に負けた生物は、場所を変えずにそこで生きられるように変化する。",
+        "競争に勝たなければ、すべての環境条件で生き残れない。"
+      ]
+    }
+  ],
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}

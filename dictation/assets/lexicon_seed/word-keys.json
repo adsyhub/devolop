@@ -1,0 +1,1308 @@
+{
+  "schemaVersion": 1,
+  "packId": "Everyday-words",
+  "nextKey": 326,
+  "note": "Keys frozen from the shipped pack (325 seeds, 300 included). A key is allocated once and never moves; new seeds take 326 onward.",
+  "entries": [
+    {
+      "seedKey": "米|こめ",
+      "entryKey": "e0001"
+    },
+    {
+      "seedKey": "パン|ぱん",
+      "entryKey": "e0002"
+    },
+    {
+      "seedKey": "肉|にく",
+      "entryKey": "e0003"
+    },
+    {
+      "seedKey": "魚|さかな",
+      "entryKey": "e0004"
+    },
+    {
+      "seedKey": "卵|たまご",
+      "entryKey": "e0005"
+    },
+    {
+      "seedKey": "豆腐|とうふ",
+      "entryKey": "e0006"
+    },
+    {
+      "seedKey": "納豆|なっとう",
+      "entryKey": "e0007"
+    },
+    {
+      "seedKey": "味噌|みそ",
+      "entryKey": "e0008"
+    },
+    {
+      "seedKey": "醤油|しょうゆ",
+      "entryKey": "e0009"
+    },
+    {
+      "seedKey": "塩|しお",
+      "entryKey": "e0010"
+    },
+    {
+      "seedKey": "砂糖|さとう",
+      "entryKey": "e0011"
+    },
+    {
+      "seedKey": "酢|す",
+      "entryKey": "e0012"
+    },
+    {
+      "seedKey": "油|あぶら",
+      "entryKey": "e0013"
+    },
+    {
+      "seedKey": "小麦粉|こむぎこ",
+      "entryKey": "e0014"
+    },
+    {
+      "seedKey": "麺|めん",
+      "entryKey": "e0015"
+    },
+    {
+      "seedKey": "餅|もち",
+      "entryKey": "e0016"
+    },
+    {
+      "seedKey": "海苔|のり",
+      "entryKey": "e0017"
+    },
+    {
+      "seedKey": "昆布|こんぶ",
+      "entryKey": "e0018"
+    },
+    {
+      "seedKey": "わかめ|わかめ",
+      "entryKey": "e0019"
+    },
+    {
+      "seedKey": "バター|ばたー",
+      "entryKey": "e0020"
+    },
+    {
+      "seedKey": "チーズ|ちーず",
+      "entryKey": "e0021"
+    },
+    {
+      "seedKey": "ヨーグルト|よーぐると",
+      "entryKey": "e0022"
+    },
+    {
+      "seedKey": "ハム|はむ",
+      "entryKey": "e0023"
+    },
+    {
+      "seedKey": "ソーセージ|そーせーじ",
+      "entryKey": "e0024"
+    },
+    {
+      "seedKey": "弁当|べんとう",
+      "entryKey": "e0025"
+    },
+    {
+      "seedKey": "水|みず",
+      "entryKey": "e0026"
+    },
+    {
+      "seedKey": "お茶|おちゃ",
+      "entryKey": "e0027"
+    },
+    {
+      "seedKey": "紅茶|こうちゃ",
+      "entryKey": "e0028"
+    },
+    {
+      "seedKey": "緑茶|りょくちゃ",
+      "entryKey": "e0029"
+    },
+    {
+      "seedKey": "牛乳|ぎゅうにゅう",
+      "entryKey": "e0030"
+    },
+    {
+      "seedKey": "コーヒー|こーひー",
+      "entryKey": "e0031"
+    },
+    {
+      "seedKey": "ジュース|じゅーす",
+      "entryKey": "e0032"
+    },
+    {
+      "seedKey": "ビール|びーる",
+      "entryKey": "e0033"
+    },
+    {
+      "seedKey": "ワイン|わいん",
+      "entryKey": "e0034"
+    },
+    {
+      "seedKey": "日本酒|にほんしゅ",
+      "entryKey": "e0035"
+    },
+    {
+      "seedKey": "豆乳|とうにゅう",
+      "entryKey": "e0036"
+    },
+    {
+      "seedKey": "ココア|ここあ",
+      "entryKey": "e0037"
+    },
+    {
+      "seedKey": "スープ|すーぷ",
+      "entryKey": "e0038"
+    },
+    {
+      "seedKey": "味噌汁|みそしる",
+      "entryKey": "e0039"
+    },
+    {
+      "seedKey": "炭酸水|たんさんすい",
+      "entryKey": "e0040"
+    },
+    {
+      "seedKey": "りんご|りんご",
+      "entryKey": "e0041"
+    },
+    {
+      "seedKey": "みかん|みかん",
+      "entryKey": "e0042"
+    },
+    {
+      "seedKey": "バナナ|ばなな",
+      "entryKey": "e0043"
+    },
+    {
+      "seedKey": "ぶどう|ぶどう",
+      "entryKey": "e0044"
+    },
+    {
+      "seedKey": "いちご|いちご",
+      "entryKey": "e0045"
+    },
+    {
+      "seedKey": "桃|もも",
+      "entryKey": "e0046"
+    },
+    {
+      "seedKey": "梨|なし",
+      "entryKey": "e0047"
+    },
+    {
+      "seedKey": "柿|かき",
+      "entryKey": "e0048"
+    },
+    {
+      "seedKey": "栗|くり",
+      "entryKey": "e0049"
+    },
+    {
+      "seedKey": "梅|うめ",
+      "entryKey": "e0050"
+    },
+    {
+      "seedKey": "レモン|れもん",
+      "entryKey": "e0051"
+    },
+    {
+      "seedKey": "オレンジ|おれんじ",
+      "entryKey": "e0052"
+    },
+    {
+      "seedKey": "すいか|すいか",
+      "entryKey": "e0053"
+    },
+    {
+      "seedKey": "メロン|めろん",
+      "entryKey": "e0054"
+    },
+    {
+      "seedKey": "さくらんぼ|さくらんぼ",
+      "entryKey": "e0055"
+    },
+    {
+      "seedKey": "トマト|とまと",
+      "entryKey": "e0056"
+    },
+    {
+      "seedKey": "きゅうり|きゅうり",
+      "entryKey": "e0057"
+    },
+    {
+      "seedKey": "なす|なす",
+      "entryKey": "e0058"
+    },
+    {
+      "seedKey": "にんじん|にんじん",
+      "entryKey": "e0059"
+    },
+    {
+      "seedKey": "じゃがいも|じゃがいも",
+      "entryKey": "e0060"
+    },
+    {
+      "seedKey": "玉ねぎ|たまねぎ",
+      "entryKey": "e0061"
+    },
+    {
+      "seedKey": "キャベツ|きゃべつ",
+      "entryKey": "e0062"
+    },
+    {
+      "seedKey": "白菜|はくさい",
+      "entryKey": "e0063"
+    },
+    {
+      "seedKey": "大根|だいこん",
+      "entryKey": "e0064"
+    },
+    {
+      "seedKey": "ほうれん草|ほうれんそう",
+      "entryKey": "e0065"
+    },
+    {
+      "seedKey": "かぼちゃ|かぼちゃ",
+      "entryKey": "e0066"
+    },
+    {
+      "seedKey": "ピーマン|ぴーまん",
+      "entryKey": "e0067"
+    },
+    {
+      "seedKey": "レタス|れたす",
+      "entryKey": "e0068"
+    },
+    {
+      "seedKey": "にんにく|にんにく",
+      "entryKey": "e0069"
+    },
+    {
+      "seedKey": "しょうが|しょうが",
+      "entryKey": "e0070"
+    },
+    {
+      "seedKey": "服|ふく",
+      "entryKey": "e0071"
+    },
+    {
+      "seedKey": "靴|くつ",
+      "entryKey": "e0072"
+    },
+    {
+      "seedKey": "靴下|くつした",
+      "entryKey": "e0073"
+    },
+    {
+      "seedKey": "帽子|ぼうし",
+      "entryKey": "e0074"
+    },
+    {
+      "seedKey": "手袋|てぶくろ",
+      "entryKey": "e0075"
+    },
+    {
+      "seedKey": "上着|うわぎ",
+      "entryKey": "e0076"
+    },
+    {
+      "seedKey": "下着|したぎ",
+      "entryKey": "e0077"
+    },
+    {
+      "seedKey": "シャツ|しゃつ",
+      "entryKey": "e0078"
+    },
+    {
+      "seedKey": "ズボン|ずぼん",
+      "entryKey": "e0079"
+    },
+    {
+      "seedKey": "スカート|すかーと",
+      "entryKey": "e0080"
+    },
+    {
+      "seedKey": "セーター|せーたー",
+      "entryKey": "e0081"
+    },
+    {
+      "seedKey": "コート|こーと",
+      "entryKey": "e0082"
+    },
+    {
+      "seedKey": "マフラー|まふらー",
+      "entryKey": "e0083"
+    },
+    {
+      "seedKey": "ネクタイ|ねくたい",
+      "entryKey": "e0084"
+    },
+    {
+      "seedKey": "ベルト|べると",
+      "entryKey": "e0085"
+    },
+    {
+      "seedKey": "眼鏡|めがね",
+      "entryKey": "e0086"
+    },
+    {
+      "seedKey": "腕時計|うでどけい",
+      "entryKey": "e0087"
+    },
+    {
+      "seedKey": "財布|さいふ",
+      "entryKey": "e0088"
+    },
+    {
+      "seedKey": "鞄|かばん",
+      "entryKey": "e0089"
+    },
+    {
+      "seedKey": "傘|かさ",
+      "entryKey": "e0090"
+    },
+    {
+      "seedKey": "タオル|たおる",
+      "entryKey": "e0091"
+    },
+    {
+      "seedKey": "ハンカチ|はんかち",
+      "entryKey": "e0092"
+    },
+    {
+      "seedKey": "浴衣|ゆかた",
+      "entryKey": "e0093"
+    },
+    {
+      "seedKey": "着物|きもの",
+      "entryKey": "e0094"
+    },
+    {
+      "seedKey": "指輪|ゆびわ",
+      "entryKey": "e0095"
+    },
+    {
+      "seedKey": "机|つくえ",
+      "entryKey": "e0096"
+    },
+    {
+      "seedKey": "椅子|いす",
+      "entryKey": "e0097"
+    },
+    {
+      "seedKey": "ベッド|べっど",
+      "entryKey": "e0098"
+    },
+    {
+      "seedKey": "布団|ふとん",
+      "entryKey": "e0099"
+    },
+    {
+      "seedKey": "枕|まくら",
+      "entryKey": "e0100"
+    },
+    {
+      "seedKey": "毛布|もうふ",
+      "entryKey": "e0101"
+    },
+    {
+      "seedKey": "棚|たな",
+      "entryKey": "e0102"
+    },
+    {
+      "seedKey": "本棚|ほんだな",
+      "entryKey": "e0103"
+    },
+    {
+      "seedKey": "鏡|かがみ",
+      "entryKey": "e0104"
+    },
+    {
+      "seedKey": "時計|とけい",
+      "entryKey": "e0105"
+    },
+    {
+      "seedKey": "テレビ|てれび",
+      "entryKey": "e0106"
+    },
+    {
+      "seedKey": "ラジオ|らじお",
+      "entryKey": "e0107"
+    },
+    {
+      "seedKey": "冷蔵庫|れいぞうこ",
+      "entryKey": "e0108"
+    },
+    {
+      "seedKey": "洗濯機|せんたくき",
+      "entryKey": "e0109"
+    },
+    {
+      "seedKey": "掃除機|そうじき",
+      "entryKey": "e0110"
+    },
+    {
+      "seedKey": "電子レンジ|でんしれんじ",
+      "entryKey": "e0111"
+    },
+    {
+      "seedKey": "炊飯器|すいはんき",
+      "entryKey": "e0112"
+    },
+    {
+      "seedKey": "扇風機|せんぷうき",
+      "entryKey": "e0113"
+    },
+    {
+      "seedKey": "暖房|だんぼう",
+      "entryKey": "e0114"
+    },
+    {
+      "seedKey": "エアコン|えあこん",
+      "entryKey": "e0115"
+    },
+    {
+      "seedKey": "パソコン|ぱそこん",
+      "entryKey": "e0116"
+    },
+    {
+      "seedKey": "電話|でんわ",
+      "entryKey": "e0117"
+    },
+    {
+      "seedKey": "カメラ|かめら",
+      "entryKey": "e0118"
+    },
+    {
+      "seedKey": "電池|でんち",
+      "entryKey": "e0119"
+    },
+    {
+      "seedKey": "電球|でんきゅう",
+      "entryKey": "e0120"
+    },
+    {
+      "seedKey": "本|ほん",
+      "entryKey": "e0121"
+    },
+    {
+      "seedKey": "辞書|じしょ",
+      "entryKey": "e0122"
+    },
+    {
+      "seedKey": "教科書|きょうかしょ",
+      "entryKey": "e0123"
+    },
+    {
+      "seedKey": "ノート|のーと",
+      "entryKey": "e0124"
+    },
+    {
+      "seedKey": "鉛筆|えんぴつ",
+      "entryKey": "e0125"
+    },
+    {
+      "seedKey": "ペン|ぺん",
+      "entryKey": "e0126"
+    },
+    {
+      "seedKey": "消しゴム|けしごむ",
+      "entryKey": "e0127"
+    },
+    {
+      "seedKey": "定規|じょうぎ",
+      "entryKey": "e0128"
+    },
+    {
+      "seedKey": "はさみ|はさみ",
+      "entryKey": "e0129"
+    },
+    {
+      "seedKey": "紙|かみ",
+      "entryKey": "e0130"
+    },
+    {
+      "seedKey": "封筒|ふうとう",
+      "entryKey": "e0131"
+    },
+    {
+      "seedKey": "切手|きって",
+      "entryKey": "e0132"
+    },
+    {
+      "seedKey": "地図|ちず",
+      "entryKey": "e0133"
+    },
+    {
+      "seedKey": "資料|しりょう",
+      "entryKey": "e0134"
+    },
+    {
+      "seedKey": "書類|しょるい",
+      "entryKey": "e0135"
+    },
+    {
+      "seedKey": "名刺|めいし",
+      "entryKey": "e0136"
+    },
+    {
+      "seedKey": "新聞|しんぶん",
+      "entryKey": "e0137"
+    },
+    {
+      "seedKey": "雑誌|ざっし",
+      "entryKey": "e0138"
+    },
+    {
+      "seedKey": "手帳|てちょう",
+      "entryKey": "e0139"
+    },
+    {
+      "seedKey": "便箋|びんせん",
+      "entryKey": "e0140"
+    },
+    {
+      "seedKey": "学校|がっこう",
+      "entryKey": "e0141"
+    },
+    {
+      "seedKey": "大学|だいがく",
+      "entryKey": "e0142"
+    },
+    {
+      "seedKey": "図書館|としょかん",
+      "entryKey": "e0143"
+    },
+    {
+      "seedKey": "病院|びょういん",
+      "entryKey": "e0144"
+    },
+    {
+      "seedKey": "銀行|ぎんこう",
+      "entryKey": "e0145"
+    },
+    {
+      "seedKey": "郵便局|ゆうびんきょく",
+      "entryKey": "e0146"
+    },
+    {
+      "seedKey": "駅|えき",
+      "entryKey": "e0147"
+    },
+    {
+      "seedKey": "空港|くうこう",
+      "entryKey": "e0148"
+    },
+    {
+      "seedKey": "公園|こうえん",
+      "entryKey": "e0149"
+    },
+    {
+      "seedKey": "動物園|どうぶつえん",
+      "entryKey": "e0150"
+    },
+    {
+      "seedKey": "美術館|びじゅつかん",
+      "entryKey": "e0151"
+    },
+    {
+      "seedKey": "博物館|はくぶつかん",
+      "entryKey": "e0152"
+    },
+    {
+      "seedKey": "映画館|えいがかん",
+      "entryKey": "e0153"
+    },
+    {
+      "seedKey": "体育館|たいいくかん",
+      "entryKey": "e0154"
+    },
+    {
+      "seedKey": "市役所|しやくしょ",
+      "entryKey": "e0155"
+    },
+    {
+      "seedKey": "交番|こうばん",
+      "entryKey": "e0156"
+    },
+    {
+      "seedKey": "工場|こうじょう",
+      "entryKey": "e0157"
+    },
+    {
+      "seedKey": "会社|かいしゃ",
+      "entryKey": "e0158"
+    },
+    {
+      "seedKey": "事務所|じむしょ",
+      "entryKey": "e0159"
+    },
+    {
+      "seedKey": "教室|きょうしつ",
+      "entryKey": "e0160"
+    },
+    {
+      "seedKey": "食堂|しょくどう",
+      "entryKey": "e0161"
+    },
+    {
+      "seedKey": "台所|だいどころ",
+      "entryKey": "e0162"
+    },
+    {
+      "seedKey": "玄関|げんかん",
+      "entryKey": "e0163"
+    },
+    {
+      "seedKey": "廊下|ろうか",
+      "entryKey": "e0164"
+    },
+    {
+      "seedKey": "階段|かいだん",
+      "entryKey": "e0165"
+    },
+    {
+      "seedKey": "医者|いしゃ",
+      "entryKey": "e0166"
+    },
+    {
+      "seedKey": "看護師|かんごし",
+      "entryKey": "e0167"
+    },
+    {
+      "seedKey": "教師|きょうし",
+      "entryKey": "e0168"
+    },
+    {
+      "seedKey": "警察官|けいさつかん",
+      "entryKey": "e0169"
+    },
+    {
+      "seedKey": "消防士|しょうぼうし",
+      "entryKey": "e0170"
+    },
+    {
+      "seedKey": "弁護士|べんごし",
+      "entryKey": "e0171"
+    },
+    {
+      "seedKey": "記者|きしゃ",
+      "entryKey": "e0172"
+    },
+    {
+      "seedKey": "作家|さっか",
+      "entryKey": "e0173"
+    },
+    {
+      "seedKey": "画家|がか",
+      "entryKey": "e0174"
+    },
+    {
+      "seedKey": "歌手|かしゅ",
+      "entryKey": "e0175"
+    },
+    {
+      "seedKey": "俳優|はいゆう",
+      "entryKey": "e0176"
+    },
+    {
+      "seedKey": "料理人|りょうりにん",
+      "entryKey": "e0177"
+    },
+    {
+      "seedKey": "美容師|びようし",
+      "entryKey": "e0178"
+    },
+    {
+      "seedKey": "運転手|うんてんしゅ",
+      "entryKey": "e0179"
+    },
+    {
+      "seedKey": "通訳|つうやく",
+      "entryKey": "e0180"
+    },
+    {
+      "seedKey": "翻訳家|ほんやくか",
+      "entryKey": "e0181"
+    },
+    {
+      "seedKey": "研究者|けんきゅうしゃ",
+      "entryKey": "e0182"
+    },
+    {
+      "seedKey": "技術者|ぎじゅつしゃ",
+      "entryKey": "e0183"
+    },
+    {
+      "seedKey": "会社員|かいしゃいん",
+      "entryKey": "e0184"
+    },
+    {
+      "seedKey": "公務員|こうむいん",
+      "entryKey": "e0185"
+    },
+    {
+      "seedKey": "車|くるま",
+      "entryKey": "e0186"
+    },
+    {
+      "seedKey": "自転車|じてんしゃ",
+      "entryKey": "e0187"
+    },
+    {
+      "seedKey": "バス|ばす",
+      "entryKey": "e0188"
+    },
+    {
+      "seedKey": "タクシー|たくしー",
+      "entryKey": "e0189"
+    },
+    {
+      "seedKey": "電車|でんしゃ",
+      "entryKey": "e0190"
+    },
+    {
+      "seedKey": "地下鉄|ちかてつ",
+      "entryKey": "e0191"
+    },
+    {
+      "seedKey": "新幹線|しんかんせん",
+      "entryKey": "e0192"
+    },
+    {
+      "seedKey": "飛行機|ひこうき",
+      "entryKey": "e0193"
+    },
+    {
+      "seedKey": "船|ふね",
+      "entryKey": "e0194"
+    },
+    {
+      "seedKey": "道路|どうろ",
+      "entryKey": "e0195"
+    },
+    {
+      "seedKey": "橋|はし",
+      "entryKey": "e0196"
+    },
+    {
+      "seedKey": "信号|しんごう",
+      "entryKey": "e0197"
+    },
+    {
+      "seedKey": "横断歩道|おうだんほどう",
+      "entryKey": "e0198"
+    },
+    {
+      "seedKey": "歩道|ほどう",
+      "entryKey": "e0199"
+    },
+    {
+      "seedKey": "交差点|こうさてん",
+      "entryKey": "e0200"
+    },
+    {
+      "seedKey": "駐車場|ちゅうしゃじょう",
+      "entryKey": "e0201"
+    },
+    {
+      "seedKey": "改札口|かいさつぐち",
+      "entryKey": "e0202"
+    },
+    {
+      "seedKey": "ホーム|ほーむ",
+      "entryKey": "e0203"
+    },
+    {
+      "seedKey": "線路|せんろ",
+      "entryKey": "e0204"
+    },
+    {
+      "seedKey": "トンネル|とんねる",
+      "entryKey": "e0205"
+    },
+    {
+      "seedKey": "山|やま",
+      "entryKey": "e0206"
+    },
+    {
+      "seedKey": "川|かわ",
+      "entryKey": "e0207"
+    },
+    {
+      "seedKey": "海|うみ",
+      "entryKey": "e0208"
+    },
+    {
+      "seedKey": "湖|みずうみ",
+      "entryKey": "e0209"
+    },
+    {
+      "seedKey": "池|いけ",
+      "entryKey": "e0210"
+    },
+    {
+      "seedKey": "森|もり",
+      "entryKey": "e0211"
+    },
+    {
+      "seedKey": "林|はやし",
+      "entryKey": "e0212"
+    },
+    {
+      "seedKey": "木|き",
+      "entryKey": "e0213"
+    },
+    {
+      "seedKey": "花|はな",
+      "entryKey": "e0214"
+    },
+    {
+      "seedKey": "草|くさ",
+      "entryKey": "e0215"
+    },
+    {
+      "seedKey": "葉|は",
+      "entryKey": "e0216"
+    },
+    {
+      "seedKey": "枝|えだ",
+      "entryKey": "e0217"
+    },
+    {
+      "seedKey": "桜|さくら",
+      "entryKey": "e0218"
+    },
+    {
+      "seedKey": "雲|くも",
+      "entryKey": "e0219"
+    },
+    {
+      "seedKey": "空|そら",
+      "entryKey": "e0220"
+    },
+    {
+      "seedKey": "太陽|たいよう",
+      "entryKey": "e0221"
+    },
+    {
+      "seedKey": "月|つき",
+      "entryKey": "e0222"
+    },
+    {
+      "seedKey": "星|ほし",
+      "entryKey": "e0223"
+    },
+    {
+      "seedKey": "雪|ゆき",
+      "entryKey": "e0224"
+    },
+    {
+      "seedKey": "虹|にじ",
+      "entryKey": "e0225"
+    },
+    {
+      "seedKey": "島|しま",
+      "entryKey": "e0226"
+    },
+    {
+      "seedKey": "砂浜|すなはま",
+      "entryKey": "e0227"
+    },
+    {
+      "seedKey": "石|いし",
+      "entryKey": "e0228"
+    },
+    {
+      "seedKey": "岩|いわ",
+      "entryKey": "e0229"
+    },
+    {
+      "seedKey": "滝|たき",
+      "entryKey": "e0230"
+    },
+    {
+      "seedKey": "頭|あたま",
+      "entryKey": "e0231"
+    },
+    {
+      "seedKey": "目|め",
+      "entryKey": "e0232"
+    },
+    {
+      "seedKey": "耳|みみ",
+      "entryKey": "e0233"
+    },
+    {
+      "seedKey": "鼻|はな",
+      "entryKey": "e0234"
+    },
+    {
+      "seedKey": "口|くち",
+      "entryKey": "e0235"
+    },
+    {
+      "seedKey": "歯|は",
+      "entryKey": "e0236"
+    },
+    {
+      "seedKey": "舌|した",
+      "entryKey": "e0237"
+    },
+    {
+      "seedKey": "喉|のど",
+      "entryKey": "e0238"
+    },
+    {
+      "seedKey": "首|くび",
+      "entryKey": "e0239"
+    },
+    {
+      "seedKey": "肩|かた",
+      "entryKey": "e0240"
+    },
+    {
+      "seedKey": "腕|うで",
+      "entryKey": "e0241"
+    },
+    {
+      "seedKey": "肘|ひじ",
+      "entryKey": "e0242"
+    },
+    {
+      "seedKey": "手|て",
+      "entryKey": "e0243"
+    },
+    {
+      "seedKey": "指|ゆび",
+      "entryKey": "e0244"
+    },
+    {
+      "seedKey": "胸|むね",
+      "entryKey": "e0245"
+    },
+    {
+      "seedKey": "背中|せなか",
+      "entryKey": "e0246"
+    },
+    {
+      "seedKey": "腰|こし",
+      "entryKey": "e0247"
+    },
+    {
+      "seedKey": "膝|ひざ",
+      "entryKey": "e0248"
+    },
+    {
+      "seedKey": "足|あし",
+      "entryKey": "e0249"
+    },
+    {
+      "seedKey": "胃|い",
+      "entryKey": "e0250"
+    },
+    {
+      "seedKey": "今日|きょう",
+      "entryKey": "e0251"
+    },
+    {
+      "seedKey": "明日|あした",
+      "entryKey": "e0252"
+    },
+    {
+      "seedKey": "昨日|きのう",
+      "entryKey": "e0253"
+    },
+    {
+      "seedKey": "今週|こんしゅう",
+      "entryKey": "e0254"
+    },
+    {
+      "seedKey": "来週|らいしゅう",
+      "entryKey": "e0255"
+    },
+    {
+      "seedKey": "先週|せんしゅう",
+      "entryKey": "e0256"
+    },
+    {
+      "seedKey": "今月|こんげつ",
+      "entryKey": "e0257"
+    },
+    {
+      "seedKey": "来月|らいげつ",
+      "entryKey": "e0258"
+    },
+    {
+      "seedKey": "先月|せんげつ",
+      "entryKey": "e0259"
+    },
+    {
+      "seedKey": "今年|ことし",
+      "entryKey": "e0260"
+    },
+    {
+      "seedKey": "来年|らいねん",
+      "entryKey": "e0261"
+    },
+    {
+      "seedKey": "去年|きょねん",
+      "entryKey": "e0262"
+    },
+    {
+      "seedKey": "週末|しゅうまつ",
+      "entryKey": "e0263"
+    },
+    {
+      "seedKey": "休日|きゅうじつ",
+      "entryKey": "e0264"
+    },
+    {
+      "seedKey": "月曜日|げつようび",
+      "entryKey": "e0265"
+    },
+    {
+      "seedKey": "火曜日|かようび",
+      "entryKey": "e0266"
+    },
+    {
+      "seedKey": "水曜日|すいようび",
+      "entryKey": "e0267"
+    },
+    {
+      "seedKey": "木曜日|もくようび",
+      "entryKey": "e0268"
+    },
+    {
+      "seedKey": "金曜日|きんようび",
+      "entryKey": "e0269"
+    },
+    {
+      "seedKey": "土曜日|どようび",
+      "entryKey": "e0270"
+    },
+    {
+      "seedKey": "日曜日|にちようび",
+      "entryKey": "e0271"
+    },
+    {
+      "seedKey": "午前|ごぜん",
+      "entryKey": "e0272"
+    },
+    {
+      "seedKey": "午後|ごご",
+      "entryKey": "e0273"
+    },
+    {
+      "seedKey": "夕方|ゆうがた",
+      "entryKey": "e0274"
+    },
+    {
+      "seedKey": "夜|よる",
+      "entryKey": "e0275"
+    },
+    {
+      "seedKey": "文化|ぶんか",
+      "entryKey": "e0276"
+    },
+    {
+      "seedKey": "歴史|れきし",
+      "entryKey": "e0277"
+    },
+    {
+      "seedKey": "政治|せいじ",
+      "entryKey": "e0278"
+    },
+    {
+      "seedKey": "経済|けいざい",
+      "entryKey": "e0279"
+    },
+    {
+      "seedKey": "社会|しゃかい",
+      "entryKey": "e0280"
+    },
+    {
+      "seedKey": "法律|ほうりつ",
+      "entryKey": "e0281"
+    },
+    {
+      "seedKey": "教育|きょういく",
+      "entryKey": "e0282"
+    },
+    {
+      "seedKey": "科学|かがく",
+      "entryKey": "e0283"
+    },
+    {
+      "seedKey": "技術|ぎじゅつ",
+      "entryKey": "e0284"
+    },
+    {
+      "seedKey": "環境|かんきょう",
+      "entryKey": "e0285"
+    },
+    {
+      "seedKey": "自然|しぜん",
+      "entryKey": "e0286"
+    },
+    {
+      "seedKey": "言語|げんご",
+      "entryKey": "e0287"
+    },
+    {
+      "seedKey": "文学|ぶんがく",
+      "entryKey": "e0288"
+    },
+    {
+      "seedKey": "音楽|おんがく",
+      "entryKey": "e0289"
+    },
+    {
+      "seedKey": "芸術|げいじゅつ",
+      "entryKey": "e0290"
+    },
+    {
+      "seedKey": "宗教|しゅうきょう",
+      "entryKey": "e0291"
+    },
+    {
+      "seedKey": "哲学|てつがく",
+      "entryKey": "e0292"
+    },
+    {
+      "seedKey": "心理|しんり",
+      "entryKey": "e0293"
+    },
+    {
+      "seedKey": "健康|けんこう",
+      "entryKey": "e0294"
+    },
+    {
+      "seedKey": "医療|いりょう",
+      "entryKey": "e0295"
+    },
+    {
+      "seedKey": "福祉|ふくし",
+      "entryKey": "e0296"
+    },
+    {
+      "seedKey": "産業|さんぎょう",
+      "entryKey": "e0297"
+    },
+    {
+      "seedKey": "農業|のうぎょう",
+      "entryKey": "e0298"
+    },
+    {
+      "seedKey": "貿易|ぼうえき",
+      "entryKey": "e0299"
+    },
+    {
+      "seedKey": "観光|かんこう",
+      "entryKey": "e0300"
+    },
+    {
+      "seedKey": "仕事|しごと",
+      "entryKey": "e0301"
+    },
+    {
+      "seedKey": "会議|かいぎ",
+      "entryKey": "e0302"
+    },
+    {
+      "seedKey": "計画|けいかく",
+      "entryKey": "e0303"
+    },
+    {
+      "seedKey": "予定|よてい",
+      "entryKey": "e0304"
+    },
+    {
+      "seedKey": "約束|やくそく",
+      "entryKey": "e0305"
+    },
+    {
+      "seedKey": "目的|もくてき",
+      "entryKey": "e0306"
+    },
+    {
+      "seedKey": "目標|もくひょう",
+      "entryKey": "e0307"
+    },
+    {
+      "seedKey": "方法|ほうほう",
+      "entryKey": "e0308"
+    },
+    {
+      "seedKey": "理由|りゆう",
+      "entryKey": "e0309"
+    },
+    {
+      "seedKey": "原因|げんいん",
+      "entryKey": "e0310"
+    },
+    {
+      "seedKey": "結果|けっか",
+      "entryKey": "e0311"
+    },
+    {
+      "seedKey": "問題|もんだい",
+      "entryKey": "e0312"
+    },
+    {
+      "seedKey": "解決|かいけつ",
+      "entryKey": "e0313"
+    },
+    {
+      "seedKey": "意見|いけん",
+      "entryKey": "e0314"
+    },
+    {
+      "seedKey": "提案|ていあん",
+      "entryKey": "e0315"
+    },
+    {
+      "seedKey": "相談|そうだん",
+      "entryKey": "e0316"
+    },
+    {
+      "seedKey": "説明|せつめい",
+      "entryKey": "e0317"
+    },
+    {
+      "seedKey": "報告|ほうこく",
+      "entryKey": "e0318"
+    },
+    {
+      "seedKey": "連絡|れんらく",
+      "entryKey": "e0319"
+    },
+    {
+      "seedKey": "情報|じょうほう",
+      "entryKey": "e0320"
+    },
+    {
+      "seedKey": "経験|けいけん",
+      "entryKey": "e0321"
+    },
+    {
+      "seedKey": "条件|じょうけん",
+      "entryKey": "e0322"
+    },
+    {
+      "seedKey": "責任|せきにん",
+      "entryKey": "e0323"
+    },
+    {
+      "seedKey": "協力|きょうりょく",
+      "entryKey": "e0324"
+    },
+    {
+      "seedKey": "努力|どりょく",
+      "entryKey": "e0325"
+    }
+  ]
+}

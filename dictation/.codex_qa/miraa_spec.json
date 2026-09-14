@@ -1,0 +1,5339 @@
+{
+  "path": "C:\\Users\\cribug\\Downloads\\Miraa_App_Technical_Specification_v1.0.docx",
+  "title": "Miraa 应用功能技术说明书",
+  "author": "OpenAI",
+  "pages_metadata": 1,
+  "pages_rendered_breaks": 2,
+  "paragraphs": [
+    {
+      "type": "paragraph",
+      "index": 1,
+      "page": 1,
+      "style_id": "",
+      "style": "",
+      "text": "MIRAA"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "page": 1,
+      "style_id": "Title",
+      "style": "Title",
+      "text": "Miraa 应用功能技术说明书"
+    },
+    {
+      "type": "paragraph",
+      "index": 3,
+      "page": 1,
+      "style_id": "Subtitle",
+      "style": "Subtitle",
+      "text": "AI 双语字幕、实时翻译、互动解释与 Echo 跟读"
+    },
+    {
+      "type": "paragraph",
+      "index": 6,
+      "page": 1,
+      "style_id": "",
+      "style": "",
+      "text": "保密级别：公开资料整理"
+    },
+    {
+      "type": "paragraph",
+      "index": 7,
+      "page": 1,
+      "style_id": "",
+      "style": "",
+      "text": "说明：文中标注“逻辑推断/建议”的内容用于形成可执行的技术规格，不代表 Miraa 已采用该实现。"
+    },
+    {
+      "type": "paragraph",
+      "index": 9,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "0. 文档说明"
+    },
+    {
+      "type": "paragraph",
+      "index": 10,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "本说明书将 Miraa 的公开功能整理为一份可供产品、研发和测试团队共同使用的技术基线。它覆盖功能范围、用户流程、逻辑数据模型、推荐的系统边界、异常处理、非功能要求和验收口径。公开资料未披露的内部算法、API、云服务厂商和数据结构均以“逻辑推断”标识。"
+    },
+    {
+      "type": "paragraph",
+      "index": 13,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "目录"
+    },
+    {
+      "type": "paragraph",
+      "index": 14,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "1. 产品概览"
+    },
+    {
+      "type": "paragraph",
+      "index": 15,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "Miraa 是 Myoland, Inc. 推出的 AI 语言学习应用，核心能力是把音频、视频和播客转写为可交互的双语字幕材料，并提供实时翻译、AI 词汇/语法解释以及四步 Echo 跟读流程“Listen—Understand—Imitate—Compare”。官方公开页面将其概括为 AI Materials、Seamless Echoing、Interactive AI Explanation 和 Realtime Translation。[S1][S2][S3]"
+    },
+    {
+      "type": "paragraph",
+      "index": 17,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "1.1 产品原则（由公开功能归纳）"
+    },
+    {
+      "type": "paragraph",
+      "index": 18,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "内容优先：学习材料由用户兴趣驱动，而非固定课程或 JLPT 章节驱动。"
+    },
+    {
+      "type": "paragraph",
+      "index": 19,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "句段优先：播放器、翻译、解析、AI 解释与 Echo 围绕时间同步的字幕句段协同。"
+    },
+    {
+      "type": "paragraph",
+      "index": 20,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "从被动输入到主动输出：先听和理解，再模仿、录音和比较。"
+    },
+    {
+      "type": "paragraph",
+      "index": 21,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "AI 辅助而非权威答案：转写、翻译与解释均可能出现错误，必须允许用户复核和修订。"
+    },
+    {
+      "type": "paragraph",
+      "index": 22,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "跨语言一致体验：相同学习流程适用于多种语言，但注音/解析规则按语言定制。"
+    },
+    {
+      "type": "paragraph",
+      "index": 23,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "1.2 核心能力清单"
+    },
+    {
+      "type": "paragraph",
+      "index": 25,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "2. 系统边界与功能架构"
+    },
+    {
+      "type": "paragraph",
+      "index": 26,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "从用户视角看，Miraa 的系统边界由“内容采集—AI 处理—学习交互—结果管理”四段组成。下图是逻辑功能架构，用于统一产品和研发语言，不代表官方实际部署拓扑。"
+    },
+    {
+      "type": "paragraph",
+      "index": 28,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "图 1  Miraa 逻辑功能架构（推断）"
+    },
+    {
+      "type": "paragraph",
+      "index": 29,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "2.1 系统参与者"
+    },
+    {
+      "type": "paragraph",
+      "index": 31,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "2.2 关键边界假设"
+    },
+    {
+      "type": "paragraph",
+      "index": 32,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "转写和翻译属于服务器处理能力；隐私政策明确描述了文件/文本上传及处理后删除。[S4]"
+    },
+    {
+      "type": "paragraph",
+      "index": 33,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "播放器、字幕交互和部分缓存主要位于客户端；派生字幕是否长期云端保存未公开。"
+    },
+    {
+      "type": "paragraph",
+      "index": 34,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "Echo 录音至少在客户端触发；录音是否上传、保留多久、是否用于评分未公开。"
+    },
+    {
+      "type": "paragraph",
+      "index": 35,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "Miraa Drop 属于设备间传递能力，但发现协议、传输通道、加密和授权方式未公开。"
+    },
+    {
+      "type": "paragraph",
+      "index": 36,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "播客推荐据隐私政策为非个性化展示，不采用针对个人的算法推送。[S4]"
+    },
+    {
+      "type": "paragraph",
+      "index": 37,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "3. 功能模块详细说明"
+    },
+    {
+      "type": "paragraph",
+      "index": 39,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.1 账号、区域与订阅"
+    },
+    {
+      "type": "paragraph",
+      "index": 40,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "账号模块负责识别用户、绑定购买权益、控制 AI 处理额度并提供个人信息管理。版本历史确认了更多登录方式、第三方登录稳定性和账号管理优化；隐私政策说明邮箱可作为购买/账号标识，并提供“Delete Account”。[S2][S4]"
+    },
+    {
+      "type": "paragraph",
+      "index": 43,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.2 素材导入与内容采集"
+    },
+    {
+      "type": "paragraph",
+      "index": 44,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "素材导入是学习链路的入口。公开资料确认本地音视频、在线媒体和播客；版本历史还提到从相册/外部文件导入、在线视频转换和 Miraa Drop。"
+    },
+    {
+      "type": "paragraph",
+      "index": 46,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.3 AI 字幕转写与任务编排"
+    },
+    {
+      "type": "paragraph",
+      "index": 47,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "AI 字幕是 Miraa 的基础数据层。隐私政策明确：使用 AI Subtitle recognition 时，文件会先上传服务器识别，识别完成后删除相关文件；版本历史显示任务状态通知、在线/本地转换稳定性、时间轴准确性及单次媒体时长上限持续优化。[S2][S4]"
+    },
+    {
+      "type": "paragraph",
+      "index": 49,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.4 翻译、语言解析与注音"
+    },
+    {
+      "type": "paragraph",
+      "index": 50,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "翻译层将目标语言字幕转换为用户语言；语言解析层将句子拆为词/短语，并展示注音或音标。官方截图展示了日语原文、注音、词级标记和英语译文；版本历史还明确提到日语解析引擎 Gaya、英语音标、韩语注音方向以及简/繁中文解释设置。[S2][S4]"
+    },
+    {
+      "type": "paragraph",
+      "index": 53,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.5 媒体播放器与字幕交互"
+    },
+    {
+      "type": "paragraph",
+      "index": 55,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.6 Echo 跟读与录音比较"
+    },
+    {
+      "type": "paragraph",
+      "index": 56,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "Echo Method 是 Miraa 的标志性学习流程。官方定义四步为 Listen、Understand、Imitate、Compare，并说明跟读功能需要麦克风权限。[S2][S4]"
+    },
+    {
+      "type": "paragraph",
+      "index": 58,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "FR-ECH-001：Echo 必须以一个明确的字幕句段为练习单元，并在媒体时间轴中保存关联。"
+    },
+    {
+      "type": "paragraph",
+      "index": 59,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "FR-ECH-002：首次录音时请求麦克风权限；拒绝后展示用途说明和系统设置入口。"
+    },
+    {
+      "type": "paragraph",
+      "index": 60,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "FR-ECH-003：录音期间显示时长、音量/波形或最小反馈，避免用户不知道是否正在录制。"
+    },
+    {
+      "type": "paragraph",
+      "index": 61,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "FR-ECH-004：允许重录、删除本次录音、试听原音和试听录音。"
+    },
+    {
+      "type": "paragraph",
+      "index": 62,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "FR-ECH-005：公开资料未确认自动发音评分；验收时不得把“Compare”默认解释为 AI 评分。"
+    },
+    {
+      "type": "paragraph",
+      "index": 63,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "FR-ECH-006：应明确录音是仅本地保存、临时缓存还是上传服务器；当前公开隐私政策未给出完整保留说明。"
+    },
+    {
+      "type": "paragraph",
+      "index": 64,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.7 AI 解释与上下文查词"
+    },
+    {
+      "type": "paragraph",
+      "index": 65,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "官方页面描述“Chat with AI and resolve your questions”；官方截图展示了针对句子的翻译和词汇拆解；官方账号公开更新还确认可在上下文中点词查询，并可标记文本后向 AI 提问。[S1][S7]"
+    },
+    {
+      "type": "paragraph",
+      "index": 67,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.8 字幕编辑、格式与导出"
+    },
+    {
+      "type": "paragraph",
+      "index": 69,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.9 播客发现、材料库与 Miraa Drop"
+    },
+    {
+      "type": "paragraph",
+      "index": 70,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "1.14 版本更新了播客首页，并优化播客列表浏览；官方账号说明该首页面向每种语言，目标是更容易发现内容。隐私政策同时说明推荐内容对所有用户一致，不进行个性化或定向推送。[S2][S4][S8]"
+    },
+    {
+      "type": "paragraph",
+      "index": 72,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.10 设置、通知与本地化"
+    },
+    {
+      "type": "paragraph",
+      "index": 74,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "4. 关键用户流程"
+    },
+    {
+      "type": "paragraph",
+      "index": 75,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "4.1 导入媒体并生成双语字幕"
+    },
+    {
+      "type": "paragraph",
+      "index": 76,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "用户选择“导入材料”，从本地文件、相册、在线链接或播客进入。"
+    },
+    {
+      "type": "paragraph",
+      "index": 77,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "客户端读取最小元数据并执行类型、时长、可访问性、网络和额度预校验。"
+    },
+    {
+      "type": "paragraph",
+      "index": 78,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "用户确认源语言、是否生成 AI 字幕、翻译目标语言及可选注音设置。"
+    },
+    {
+      "type": "paragraph",
+      "index": 79,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "客户端创建素材和转换任务；本地文件开始上传，在线资源进入解析/抓取。"
+    },
+    {
+      "type": "paragraph",
+      "index": 80,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "服务端执行转写、时间轴分段、翻译和语言解析；客户端持续展示任务状态。"
+    },
+    {
+      "type": "paragraph",
+      "index": 81,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "任务完成后生成统一学习材料，播放器从第一句或上次位置开始。"
+    },
+    {
+      "type": "paragraph",
+      "index": 82,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "若结果异常，用户可重新选择语言、重试、人工插入/修订字幕或删除材料。"
+    },
+    {
+      "type": "paragraph",
+      "index": 84,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "4.2 使用翻译与 AI 解释理解句子"
+    },
+    {
+      "type": "paragraph",
+      "index": 85,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "播放自动定位当前字幕句段并高亮。"
+    },
+    {
+      "type": "paragraph",
+      "index": 86,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "用户切换原文/译文/注音层，或点击某个词查看上下文释义。"
+    },
+    {
+      "type": "paragraph",
+      "index": 87,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "用户对整句、词语或标记文本发起 AI 解释。"
+    },
+    {
+      "type": "paragraph",
+      "index": 88,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "客户端发送选中内容、必要的前后文、语言设置和问题；服务返回结构化解释。"
+    },
+    {
+      "type": "paragraph",
+      "index": 89,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "用户继续追问，或返回字幕人工修订识别错误。"
+    },
+    {
+      "type": "paragraph",
+      "index": 90,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "4.3 完成一次 Echo 跟读"
+    },
+    {
+      "type": "paragraph",
+      "index": 91,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "用户在当前句进入 Echo 模式，先播放原音。"
+    },
+    {
+      "type": "paragraph",
+      "index": 92,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "查看翻译、词级解析或 AI 解释，确认句义。"
+    },
+    {
+      "type": "paragraph",
+      "index": 93,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "首次使用时授权麦克风；用户按提示开始并结束录音。"
+    },
+    {
+      "type": "paragraph",
+      "index": 94,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "应用保存本次跟读尝试，并允许试听用户录音。"
+    },
+    {
+      "type": "paragraph",
+      "index": 95,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "用户交替播放原音和录音完成比较，选择重录或进入下一句。"
+    },
+    {
+      "type": "paragraph",
+      "index": 96,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "4.4 编辑并导出字幕"
+    },
+    {
+      "type": "paragraph",
+      "index": 97,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "用户进入字幕管理，定位错误或缺失句段。"
+    },
+    {
+      "type": "paragraph",
+      "index": 98,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "新增句段或修订文本/时间（修订能力需按版本确认）。"
+    },
+    {
+      "type": "paragraph",
+      "index": 99,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "保存时执行时间范围、排序、重叠和空文本校验。"
+    },
+    {
+      "type": "paragraph",
+      "index": 100,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "选择 SRT 或 LRC 等受支持格式导出，并调用系统分享/保存。"
+    },
+    {
+      "type": "paragraph",
+      "index": 101,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "导出失败时保留修改，显示原因并允许重试。"
+    },
+    {
+      "type": "paragraph",
+      "index": 102,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "5. 概念数据模型"
+    },
+    {
+      "type": "paragraph",
+      "index": 105,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "5.1 关键状态机"
+    },
+    {
+      "type": "paragraph",
+      "index": 107,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "6. 逻辑服务架构与接口"
+    },
+    {
+      "type": "paragraph",
+      "index": 108,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "该章节给出可支持上述功能的建议服务分层。Miraa 的真实实现可能是单体、模块化服务或第三方 API 组合，公开资料无法确认。"
+    },
+    {
+      "type": "paragraph",
+      "index": 110,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "6.1 推荐接口契约"
+    },
+    {
+      "type": "paragraph",
+      "index": 113,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "7. 非功能要求"
+    },
+    {
+      "type": "paragraph",
+      "index": 114,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "下列指标是为实现和验收提出的推荐目标（I），并非 Miraa 官方 SLA。实际值应根据媒体长度、模型能力、成本和移动网络重新评审。"
+    },
+    {
+      "type": "paragraph",
+      "index": 116,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "7.1 监控与验收口径"
+    },
+    {
+      "type": "paragraph",
+      "index": 117,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "以下口径用于把推荐性非功能要求转成可重复测量的验收数据。采集时应遵守最小化原则，避免把完整媒体、字幕正文或录音写入普通分析日志。"
+    },
+    {
+      "type": "paragraph",
+      "index": 119,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "8. 数据、隐私与权限"
+    },
+    {
+      "type": "paragraph",
+      "index": 120,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "Miraa 的隐私政策对核心处理链路给出了较明确说明：AI 字幕会上传文件到服务器识别并在识别后删除；翻译文本会发送到服务器处理，处理后删除且不存储；Echo 需要麦克风权限；选择本地文件需要存储权限。[S4]"
+    },
+    {
+      "type": "paragraph",
+      "index": 122,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "图 2  公开隐私说明下的逻辑数据流"
+    },
+    {
+      "type": "paragraph",
+      "index": 124,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "8.1 设备权限"
+    },
+    {
+      "type": "paragraph",
+      "index": 126,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "8.2 平台隐私声明差异"
+    },
+    {
+      "type": "paragraph",
+      "index": 128,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "9. 异常与边界场景"
+    },
+    {
+      "type": "paragraph",
+      "index": 130,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "10. 验收标准"
+    },
+    {
+      "type": "paragraph",
+      "index": 131,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "以下用例可作为黑盒验收基线。受公开信息限制，涉及具体阈值、格式和平台差异的条目在执行前需与目标版本确认。"
+    },
+    {
+      "type": "paragraph",
+      "index": 133,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "11. 已知限制与待确认问题"
+    },
+    {
+      "type": "paragraph",
+      "index": 136,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "12. 证据矩阵与参考资料"
+    },
+    {
+      "type": "paragraph",
+      "index": 138,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "12.1 参考资料"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "[S1] Miraa 官方网站：AI Bilingual Subtitles & Learning：来源链接"
+    },
+    {
+      "type": "paragraph",
+      "index": 140,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "[S2] Apple App Store：Miraa - AI transcribe & shadow（含版本历史、兼容性、隐私声明和内购）：来源链接"
+    },
+    {
+      "type": "paragraph",
+      "index": 141,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "[S3] Google Play：Miraa - AI transcribe & study（含功能、更新和 Data safety）：来源链接"
+    },
+    {
+      "type": "paragraph",
+      "index": 142,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "[S4] Miraa Privacy Policy：来源链接"
+    },
+    {
+      "type": "paragraph",
+      "index": 143,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "[S5] Miraa Terms of Use：来源链接"
+    },
+    {
+      "type": "paragraph",
+      "index": 144,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "[S6] Miraa 官方 X：Version 1.6 / Miraa Drop：来源链接"
+    },
+    {
+      "type": "paragraph",
+      "index": 145,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "[S7] Miraa 官方 X：Version 1.7 / 上下文点词与标记提问：来源链接"
+    },
+    {
+      "type": "paragraph",
+      "index": 146,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "[S8] Miraa 官方 X：Version 1.14 / Podcast Home：来源链接"
+    },
+    {
+      "type": "paragraph",
+      "index": 147,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "检索日期：2026-08-19。应用商店价格、版本号、评分、语言、隐私标签和功能说明可能随地区与时间变化；实施前应重新核对目标商店和目标版本。"
+    }
+  ],
+  "tables": [
+    {
+      "type": "table",
+      "index": 1,
+      "page": 1,
+      "rows": [
+        [
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 2,
+      "page": 1,
+      "rows": [
+        [
+          "文档类型",
+          "功能规格说明 / 逻辑架构 / 数据与隐私"
+        ],
+        [
+          "文档版本",
+          "1.0"
+        ],
+        [
+          "产品基线",
+          "iOS 1.14.1；Android 商店更新日期 2026-07-28"
+        ],
+        [
+          "资料日期",
+          "2026-08-19"
+        ],
+        [
+          "适用读者",
+          "产品、设计、移动端、后端、测试、数据与隐私团队"
+        ],
+        [
+          "文档性质",
+          "基于公开资料的技术分析，不等同于官方内部 PRD 或系统设计"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 3,
+      "page": 2,
+      "rows": [
+        [
+          "口径｜证据等级\nA：官方官网、应用商店说明、版本历史、隐私政策或使用条款直接确认；B：官方商店截图或官方社交账号公开展示；C：应用商店用户反馈，仅作补充；I：为形成技术文档而提出的逻辑模型或推荐要求。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 4,
+      "page": 2,
+      "rows": [
+        [
+          "项目",
+          "内容"
+        ],
+        [
+          "文档目标",
+          "描述 Miraa 当前公开可见的功能能力，并转化为可实现、可测试的技术规格。"
+        ],
+        [
+          "产品定位",
+          "将用户选择的真实音视频/播客转为双语字幕学习材料，并通过 AI 解释和 Echo 跟读形成主动学习闭环。"
+        ],
+        [
+          "范围内",
+          "账号与订阅、素材导入、AI 字幕、翻译、语言解析、播放器、Echo、AI 解释、播客、字幕编辑/导出、Miraa Drop、隐私与权限。"
+        ],
+        [
+          "范围外",
+          "官方源代码、真实微服务拓扑、模型供应商、训练数据、内部风控规则、精确成本和未公开路线图。"
+        ],
+        [
+          "产品版本基线",
+          "iOS 1.14.1；Google Play 页面更新于 2026-07-28。[S2][S3]"
+        ],
+        [
+          "关键风险",
+          "公开文档粒度有限；不同平台、地区、订阅档位和语言可能存在功能差异。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 5,
+      "page": 2,
+      "rows": [
+        [
+          "1",
+          "产品概览"
+        ],
+        [
+          "2",
+          "系统边界与功能架构"
+        ],
+        [
+          "3",
+          "功能模块详细说明"
+        ],
+        [
+          "4",
+          "关键用户流程"
+        ],
+        [
+          "5",
+          "概念数据模型"
+        ],
+        [
+          "6",
+          "逻辑服务架构与接口"
+        ],
+        [
+          "7",
+          "非功能要求"
+        ],
+        [
+          "8",
+          "数据、隐私与权限"
+        ],
+        [
+          "9",
+          "异常与边界场景"
+        ],
+        [
+          "10",
+          "验收标准"
+        ],
+        [
+          "11",
+          "已知限制与待确认问题"
+        ],
+        [
+          "12",
+          "证据矩阵与参考资料"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 6,
+      "page": 2,
+      "rows": [
+        [
+          "维度",
+          "公开基线"
+        ],
+        [
+          "主要价值",
+          "把“看视频/听播客”转为可暂停、可查词、可解释、可跟读、可比较的学习过程。"
+        ],
+        [
+          "目标用户",
+          "具备一定目标语言基础、希望使用真实内容强化听力、语感、发音与句法理解的学习者。"
+        ],
+        [
+          "核心输入",
+          "本地音频/视频、在线媒体、播客，以及通过 Miraa Drop 传入的内容。"
+        ],
+        [
+          "核心输出",
+          "时间同步字幕、双语翻译、词法/注音层、AI 解释、跟读录音与字幕文件。"
+        ],
+        [
+          "学习语言",
+          "公开资料明确列出英语、日语、中文、韩语、西班牙语、德语、意大利语、法语；版本历史另显示已加入阿拉伯语。不同功能的语言矩阵可能不完全一致。[S2]"
+        ],
+        [
+          "客户端",
+          "iPhone、iPad；Apple Silicon Mac 与 Apple Vision 可运行兼容版本；Android 客户端在 Google Play 提供。[S2][S3]"
+        ],
+        [
+          "商业模式",
+          "免费计划 + Miraa Basic + Miraa Pro；功能/额度受套餐、地区及商店政策影响。[S2][S5]"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 7,
+      "page": 2,
+      "rows": [
+        [
+          "编号",
+          "能力",
+          "说明",
+          "证据"
+        ],
+        [
+          "F01",
+          "AI 双语字幕",
+          "把音视频转写为时间同步字幕，并生成目标翻译。",
+          "A"
+        ],
+        [
+          "F02",
+          "同步播放器",
+          "媒体播放与当前字幕句段联动，支持逐句学习。",
+          "A/B"
+        ],
+        [
+          "F03",
+          "实时翻译",
+          "把字幕转换为用户选择的语言。",
+          "A"
+        ],
+        [
+          "F04",
+          "语言解析与注音",
+          "词级切分、语法解析、日语注音、英语音标、韩语注音方向等。",
+          "A/B"
+        ],
+        [
+          "F05",
+          "AI 解释/对话",
+          "针对句子、词语或标记文本生成翻译、词义、语法和追问式解释。",
+          "A/B"
+        ],
+        [
+          "F06",
+          "Echo 跟读",
+          "Listen、Understand、Imitate、Compare 四步训练，使用麦克风录音。",
+          "A"
+        ],
+        [
+          "F07",
+          "延迟显现",
+          "延后显示字幕/翻译，以训练听辨反应。",
+          "A"
+        ],
+        [
+          "F08",
+          "播客发现",
+          "专用播客首页和列表浏览，将节目/单集转为学习材料。",
+          "A/B"
+        ],
+        [
+          "F09",
+          "字幕管理",
+          "支持人工插入字幕，并公开提及 SRT、LRC 和字幕导出。",
+          "A"
+        ],
+        [
+          "F10",
+          "Miraa Drop",
+          "在附近的 Miraa 设备之间传递内容。",
+          "B"
+        ],
+        [
+          "F11",
+          "账号/订阅",
+          "登录、第三方登录、套餐额度、购买恢复与账号删除。",
+          "A"
+        ],
+        [
+          "F12",
+          "任务状态与通知",
+          "AI 字幕任务状态提示、失败反馈和网络/缓冲状态。",
+          "A"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 8,
+      "page": 2,
+      "rows": [
+        [
+          "参与者",
+          "职责/交互"
+        ],
+        [
+          "学习者",
+          "导入材料、选择语言、播放、查词、请求解释、录音跟读、编辑/导出字幕。"
+        ],
+        [
+          "移动客户端",
+          "素材管理、媒体播放、字幕渲染、权限请求、录音、任务状态和本地缓存。"
+        ],
+        [
+          "AI 处理服务",
+          "媒体转写、分段/对齐、翻译、语言解析、注音、AI 解释。"
+        ],
+        [
+          "内容/播客服务",
+          "提供非个性化推荐、播客首页、列表与搜索/浏览。"
+        ],
+        [
+          "账号与计费服务",
+          "登录、套餐权限、额度、订阅状态、购买恢复和账号删除。"
+        ],
+        [
+          "平台服务",
+          "Apple/Google 应用内购买、第三方登录、Firebase 崩溃/使用分析。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 9,
+      "page": 2,
+      "rows": [
+        [
+          "提示｜阅读方式\n每个功能模块包含用户目标、功能要求、输入/处理/输出、异常与公开证据。标有“建议”的条目可直接转成 PRD、接口设计或测试用例，但不应被误认为现网行为。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 10,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "功能",
+          "详细要求",
+          "关键状态",
+          "证据"
+        ],
+        [
+          "FR-ACC-001",
+          "登录/注册",
+          "用户可使用当前客户端提供的登录方式进入账号；具体供应商未公开。",
+          "未登录、登录成功、验证失败、账号受限",
+          "A"
+        ],
+        [
+          "FR-ACC-002",
+          "区域选择",
+          "注册时选择国际区或中国区，并据此决定账号数据存储地域。",
+          "国际区→美国；中国区→中国",
+          "A"
+        ],
+        [
+          "FR-ACC-003",
+          "权益校验",
+          "提交转写、翻译或高级功能前校验免费/Basic/Pro 权益和剩余额度。",
+          "允许、额度不足、需升级、订阅失效",
+          "A/I"
+        ],
+        [
+          "FR-ACC-004",
+          "购买与恢复",
+          "通过应用商店购买订阅，并支持读取/恢复有效权益。",
+          "购买成功、取消、待处理、退款/撤销",
+          "A/I"
+        ],
+        [
+          "FR-ACC-005",
+          "账号管理",
+          "查看账号状态、套餐、区域和登录信息；支持退出登录。",
+          "正常、离线、状态同步失败",
+          "A"
+        ],
+        [
+          "FR-ACC-006",
+          "删除账号",
+          "设置中提供删除账号能力，删除会员与购买历史等相关信息。",
+          "二次确认、删除中、完成、失败",
+          "A"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 11,
+      "page": 2,
+      "rows": [
+        [
+          "注意｜套餐信息的时效性\n公开使用条款称免费计划默认含 30 分钟转写额度，Basic 提供按英文文本估算的 220,000 词上限，Pro 受公平使用政策约束；App Store 与条款中的年费存在差异。实现和测试应读取服务端/商店实时商品配置，禁止在客户端硬编码价格和额度。[S2][S5]"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 12,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "能力",
+          "要求",
+          "输入",
+          "输出",
+          "证据"
+        ],
+        [
+          "FR-ING-001",
+          "本地媒体",
+          "从文件系统或系统相册选择音频/视频作为学习材料；请求最小必要的存储/照片权限。",
+          "文件句柄、名称、MIME、时长",
+          "素材条目或错误",
+          "A"
+        ],
+        [
+          "FR-ING-002",
+          "在线媒体",
+          "接收在线媒体链接或可解析资源，创建在线转换任务；对需要登录或不可访问资源给出明确反馈。",
+          "URL、登录态、语言",
+          "在线素材任务",
+          "A"
+        ],
+        [
+          "FR-ING-003",
+          "播客",
+          "通过播客首页/列表浏览节目与单集，并将单集纳入学习流程。",
+          "语言、节目、单集",
+          "可播放/可转写素材",
+          "A"
+        ],
+        [
+          "FR-ING-004",
+          "Miraa Drop",
+          "发现附近可接收设备，建立一次性传输会话并发送内容。",
+          "设备、内容、授权",
+          "接收成功/失败",
+          "B"
+        ],
+        [
+          "FR-ING-005",
+          "预校验",
+          "提交前验证类型、大小、时长、可访问性、套餐额度与网络条件。",
+          "素材元数据",
+          "允许/阻止与原因",
+          "I"
+        ],
+        [
+          "FR-ING-006",
+          "任务创建",
+          "为每次导入创建唯一素材 ID 和转换任务 ID，允许查询状态、取消或重试。",
+          "素材、配置",
+          "任务记录",
+          "A/I"
+        ],
+        [
+          "FR-ING-007",
+          "素材库",
+          "展示已导入/已处理内容并支持删除；用户反馈显示存在分类能力，但公开规格未明确其完整行为。",
+          "标题、类型、状态、分类",
+          "可管理素材列表",
+          "C"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 13,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "功能要求",
+          "行为描述",
+          "证据"
+        ],
+        [
+          "FR-ASR-001",
+          "语言配置",
+          "允许自动检测或由用户选择源语言；记录语言用于 ASR、分词和注音。",
+          "A/I"
+        ],
+        [
+          "FR-ASR-002",
+          "异步上传",
+          "大文件采用可恢复上传；显示上传、排队、识别、后处理等阶段。",
+          "I"
+        ],
+        [
+          "FR-ASR-003",
+          "语音转写",
+          "生成带起止时间的字幕句段；保留原文层。",
+          "A"
+        ],
+        [
+          "FR-ASR-004",
+          "时间轴对齐",
+          "字幕句段必须与媒体时间轴同步；本地视频场景需处理旋转、可变帧率等差异。",
+          "A/I"
+        ],
+        [
+          "FR-ASR-005",
+          "任务状态",
+          "客户端可见排队、处理中、完成、失败、取消/重试等状态，并可接收状态通知。",
+          "A/I"
+        ],
+        [
+          "FR-ASR-006",
+          "结果校验",
+          "对空结果、极低置信度、语言不匹配和异常字符给出警告。",
+          "I"
+        ],
+        [
+          "FR-ASR-007",
+          "源文件删除",
+          "服务器在识别完成后删除上传的相关文件，并对失败/取消任务定义清理机制。",
+          "A/I"
+        ],
+        [
+          "FR-ASR-008",
+          "人工修订",
+          "支持在 AI 字幕中人工插入字幕；对现有句段编辑的完整能力需按目标版本验证。",
+          "A/C"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 14,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "能力",
+          "行为",
+          "输入",
+          "输出",
+          "证据"
+        ],
+        [
+          "FR-LNG-001",
+          "字幕翻译",
+          "为每个字幕句段生成目标语言译文，可按设置显示/隐藏。",
+          "源句、目标语言",
+          "译文层",
+          "A"
+        ],
+        [
+          "FR-LNG-002",
+          "即时请求",
+          "用户打开翻译或切换语言时触发服务端处理；处理完成后更新对应句段。",
+          "句段/整轨文本",
+          "翻译任务",
+          "A/I"
+        ],
+        [
+          "FR-LNG-003",
+          "词级切分",
+          "把句段拆分为可点击词/短语，并保持与原句位置的关联。",
+          "原文",
+          "Token 列表",
+          "B"
+        ],
+        [
+          "FR-LNG-004",
+          "日语注音",
+          "显示假名/读音等注音；提供可选解析引擎或字幕设置。",
+          "日语句段",
+          "词形、读音",
+          "A/B"
+        ],
+        [
+          "FR-LNG-005",
+          "英语音标",
+          "在支持场景显示英语音标。",
+          "英语词项",
+          "音标",
+          "A"
+        ],
+        [
+          "FR-LNG-006",
+          "韩语注音",
+          "支持调整韩语注音的显示方向。",
+          "韩语词项/设置",
+          "布局结果",
+          "A"
+        ],
+        [
+          "FR-LNG-007",
+          "中文设置",
+          "解释时保持简体/繁体设置稳定，并支持相应解析。",
+          "中文句段/偏好",
+          "解释与显示",
+          "A"
+        ],
+        [
+          "FR-LNG-008",
+          "延迟显现",
+          "在播放过程中延后显示字幕或翻译，让用户先完成听辨。",
+          "延迟策略",
+          "受控显现",
+          "A"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 15,
+      "page": 2,
+      "rows": [
+        [
+          "质量｜翻译与解析的质量边界\nASR 错字会继续影响翻译、分词和 AI 解释。界面应允许用户回到原句、查看上下文、标记疑似错误并进行人工修订，而不是把 AI 结果包装成确定事实。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 16,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "功能",
+          "要求",
+          "证据"
+        ],
+        [
+          "FR-PLY-001",
+          "同步播放",
+          "播放音频/视频时自动定位当前字幕句段，并更新高亮/进度。",
+          "A/B"
+        ],
+        [
+          "FR-PLY-002",
+          "逐句导航",
+          "支持跳转上一句/下一句或点击字幕定位到对应时间。",
+          "B/I"
+        ],
+        [
+          "FR-PLY-003",
+          "句段循环",
+          "对当前句按用户设置重复若干次；版本历史确认重复次数设置优化。",
+          "A/C"
+        ],
+        [
+          "FR-PLY-004",
+          "速度/慢速",
+          "官方商店截图显示慢速练习入口；具体速度档位与音高保持方式未公开。",
+          "B"
+        ],
+        [
+          "FR-PLY-005",
+          "全屏与横屏",
+          "支持本地竖屏视频全屏、横屏布局，并防止字幕遮挡播放控件。",
+          "A"
+        ],
+        [
+          "FR-PLY-006",
+          "快速跳转",
+          "全屏场景支持双击快进/快退。",
+          "A"
+        ],
+        [
+          "FR-PLY-007",
+          "缓冲反馈",
+          "弱网时展示缓冲状态，并避免播放器假死。",
+          "A/I"
+        ],
+        [
+          "FR-PLY-008",
+          "字幕层控制",
+          "显示原文、译文、注音/音标和词级标记；允许按学习模式组合。",
+          "A/B"
+        ],
+        [
+          "FR-PLY-009",
+          "延迟显现控制",
+          "允许启用/关闭 Delayed Reveal，并清楚说明当前显现策略。",
+          "A/I"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 17,
+      "page": 2,
+      "rows": [
+        [
+          "阶段",
+          "功能行为",
+          "输入",
+          "输出"
+        ],
+        [
+          "1. Listen",
+          "播放目标句原音；可结合重复次数、慢速和字幕显现策略。",
+          "原音片段、播放配置",
+          "用户听辨"
+        ],
+        [
+          "2. Understand",
+          "显示原文、翻译、词级解析，并可跳转 AI 解释。",
+          "句段及语言层",
+          "语义理解"
+        ],
+        [
+          "3. Imitate",
+          "请求麦克风权限，按指示录制用户复述；提供录音开始/结束状态。",
+          "麦克风、句段",
+          "跟读录音"
+        ],
+        [
+          "4. Compare",
+          "允许原音与用户录音交替或连续播放，帮助比较节奏、重音、音高和连读。",
+          "原音、用户录音",
+          "自我纠正"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 18,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "能力",
+          "详细要求",
+          "最小上下文"
+        ],
+        [
+          "FR-AIX-001",
+          "句段解释",
+          "用户对当前字幕句段发起解释，返回翻译、重点词语、语法和必要的语用说明。",
+          "当前句段、前后文、学习语言"
+        ],
+        [
+          "FR-AIX-002",
+          "点词查询",
+          "点击词项时使用句中上下文解释词义、词形和用法，避免只给孤立词典义。",
+          "Token、句段、上下文"
+        ],
+        [
+          "FR-AIX-003",
+          "标记提问",
+          "允许选择/标记一段文本，再发起针对性问题。",
+          "选中文本、用户问题"
+        ],
+        [
+          "FR-AIX-004",
+          "追问对话",
+          "在同一解释会话中继续追问，并保持当前材料和句段上下文。",
+          "会话历史"
+        ],
+        [
+          "FR-AIX-005",
+          "结果结构化",
+          "界面至少区分翻译、词汇、语法/句法、补充说明，便于扫描。",
+          "AI 输出"
+        ],
+        [
+          "FR-AIX-006",
+          "错误提示",
+          "显示 AI 解释可能不准确；提供重试、重新选择上下文和反馈入口。",
+          "错误/低质量输出"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 19,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "能力",
+          "要求",
+          "证据"
+        ],
+        [
+          "FR-EDT-001",
+          "人工插入",
+          "在 AI 字幕轨中新增一个有起止时间和文本的句段。",
+          "A"
+        ],
+        [
+          "FR-EDT-002",
+          "文本修订",
+          "建议支持修改识别文本、翻译和时间点；用户反馈表明可编辑，但需按版本验证。",
+          "C/I"
+        ],
+        [
+          "FR-EDT-003",
+          "冲突校验",
+          "新增/修改后检查时间重叠、倒序、空文本和超出媒体时长。",
+          "I"
+        ],
+        [
+          "FR-EDT-004",
+          "SRT 支持",
+          "公开版本历史确认增强 SRT 支持及字幕导出稳定性；导入/导出双向能力需验证。",
+          "A"
+        ],
+        [
+          "FR-EDT-005",
+          "LRC 支持",
+          "公开版本历史确认加入 LRC 歌词格式；具体字段映射需验证。",
+          "A"
+        ],
+        [
+          "FR-EDT-006",
+          "导出",
+          "导出成功后通过系统分享/文件保存交付；失败时保留编辑内容并允许重试。",
+          "A/I"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 20,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "能力",
+          "要求",
+          "证据"
+        ],
+        [
+          "FR-POD-001",
+          "语言入口",
+          "按学习语言展示播客首页或内容分区。",
+          "A/B"
+        ],
+        [
+          "FR-POD-002",
+          "节目/单集浏览",
+          "浏览节目列表、节目详情和单集，显示标题、时长与可用状态。",
+          "A/I"
+        ],
+        [
+          "FR-POD-003",
+          "搜索/记忆",
+          "官方账号曾公开“记住上次播客搜索”；应把它作为可选体验点验证。",
+          "B"
+        ],
+        [
+          "FR-POD-004",
+          "转为材料",
+          "从单集创建可播放/可转写的学习材料，并进入统一播放器。",
+          "A/I"
+        ],
+        [
+          "FR-LIB-001",
+          "材料状态",
+          "区分待处理、处理中、可学习、失败和已删除。",
+          "A/I"
+        ],
+        [
+          "FR-LIB-002",
+          "分类组织",
+          "用户反馈显示可创建音视频分类；是否跨设备同步及其上限未公开。",
+          "C"
+        ],
+        [
+          "FR-DRP-001",
+          "设备发现",
+          "发现附近 Miraa 设备并让用户明确选择接收方。",
+          "B/I"
+        ],
+        [
+          "FR-DRP-002",
+          "安全传输",
+          "建议使用短时会话、接收端确认、传输加密、内容校验和失败重试。",
+          "I"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 21,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "能力",
+          "推荐要求"
+        ],
+        [
+          "FR-SET-001",
+          "学习语言/界面语言",
+          "区分“界面语言、源语言、翻译目标语言”，避免一个设置承担多个含义。"
+        ],
+        [
+          "FR-SET-002",
+          "字幕设置",
+          "控制原文、译文、注音/音标、解析引擎、延迟显现及字幕位置/大小。"
+        ],
+        [
+          "FR-SET-003",
+          "播放设置",
+          "控制重复次数、速度、快进/快退步长、自动进入下一句等。"
+        ],
+        [
+          "FR-SET-004",
+          "权限设置",
+          "展示麦克风、照片/存储、通知等授权状态，并提供系统设置入口。"
+        ],
+        [
+          "FR-SET-005",
+          "任务通知",
+          "AI 字幕完成/失败时通知；版本历史明确优化过状态通知。"
+        ],
+        [
+          "FR-SET-006",
+          "账户与地区",
+          "查看套餐、区域、登录方式、退出、删除账号。"
+        ],
+        [
+          "FR-SET-007",
+          "反馈与诊断",
+          "提供反馈入口；诊断信息不得包含未授权的媒体正文或录音。"
+        ],
+        [
+          "FR-SET-008",
+          "多端布局",
+          "适配手机、平板、横屏和兼容 Mac/visionOS 的窗口尺寸。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 22,
+      "page": 2,
+      "rows": [
+        [
+          "异常｜主要异常\n无权限、格式不支持、URL 失效/需登录、DRM 限制、额度不足、上传中断、识别失败、源语言选择错误、结果为空或时间轴漂移。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 23,
+      "page": 2,
+      "rows": [
+        [
+          "逻辑推断｜模型性质\n以下是为了支持功能设计和接口讨论而建立的概念模型（I），不代表 Miraa 的真实数据库表或字段。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 24,
+      "page": 2,
+      "rows": [
+        [
+          "实体",
+          "关键字段示例",
+          "关系/用途",
+          "数据注意事项"
+        ],
+        [
+          "User",
+          "user_id, region, interface_language, created_at",
+          "拥有订阅、设备、材料和解释会话。",
+          "账号删除时需要清理或匿名化。"
+        ],
+        [
+          "Entitlement",
+          "plan, status, quota, renewal_at, store",
+          "决定转写/翻译等功能可用性。",
+          "价格与额度不得硬编码。"
+        ],
+        [
+          "Device",
+          "device_id, platform, app_version, permissions",
+          "用于登录态、通知和 Miraa Drop。",
+          "避免持久化不必要的硬件标识。"
+        ],
+        [
+          "MediaItem",
+          "media_id, source_type, title, duration, language, state",
+          "学习材料聚合根。",
+          "源文件与派生字幕的保留策略分开。"
+        ],
+        [
+          "SourceReference",
+          "local/online/podcast/drop, uri, metadata",
+          "指向原始素材来源。",
+          "URL/文件句柄可能失效。"
+        ],
+        [
+          "ConversionJob",
+          "job_id, stage, progress, error_code, attempts",
+          "异步处理任务。",
+          "需幂等、可重试、可清理。"
+        ],
+        [
+          "SubtitleTrack",
+          "track_id, kind, language, format, revision",
+          "原文、译文、注音等字幕轨。",
+          "支持版本与导出。"
+        ],
+        [
+          "SubtitleSegment",
+          "segment_id, start_ms, end_ms, text, confidence",
+          "播放器和 Echo 的最小时间单元。",
+          "需校验顺序、重叠和范围。"
+        ],
+        [
+          "TokenAnnotation",
+          "token, lemma, reading, phonetic, gloss, span",
+          "词级点击与显示。",
+          "不同语言字段不同。"
+        ],
+        [
+          "ExplanationThread",
+          "thread_id, segment_id, selection, turns",
+          "AI 解释与追问上下文。",
+          "应限制上下文并支持删除。"
+        ],
+        [
+          "EchoAttempt",
+          "attempt_id, segment_id, recording_ref, created_at",
+          "一次跟读录音。",
+          "录音保留与上传策略需明确。"
+        ],
+        [
+          "Collection",
+          "collection_id, name, order",
+          "材料分类/组织。",
+          "该功能由用户反馈补充确认。"
+        ],
+        [
+          "PodcastEntity",
+          "feed_id, episode_id, language, media_url",
+          "播客发现与材料创建。",
+          "推荐为非个性化。"
+        ],
+        [
+          "TransferSession",
+          "session_id, sender, receiver, status, checksum",
+          "Miraa Drop 会话。",
+          "需短时授权和传输加密。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 25,
+      "page": 2,
+      "rows": [
+        [
+          "对象",
+          "建议状态",
+          "状态说明"
+        ],
+        [
+          "MediaItem",
+          "DRAFT → SUBMITTED → PROCESSING → READY / FAILED → DELETED",
+          "材料从创建到可学习的生命周期。"
+        ],
+        [
+          "ConversionJob",
+          "CREATED → UPLOADING/FETCHING → QUEUED → ASR → POST_PROCESS → COMPLETED / FAILED / CANCELED",
+          "体现上传、识别、翻译和解析阶段。"
+        ],
+        [
+          "EchoAttempt",
+          "IDLE → RECORDING → RECORDED → PLAYBACK / DISCARDED",
+          "避免录音按钮状态不明确。"
+        ],
+        [
+          "TransferSession",
+          "DISCOVERING → REQUESTED → ACCEPTED → TRANSFERRING → VERIFIED / FAILED / EXPIRED",
+          "支持授权、校验和超时。"
+        ],
+        [
+          "Entitlement",
+          "FREE / ACTIVE / GRACE / EXPIRED / REVOKED",
+          "处理订阅续期、宽限期和撤销。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 26,
+      "page": 2,
+      "rows": [
+        [
+          "逻辑组件",
+          "责任边界"
+        ],
+        [
+          "Client App",
+          "播放器、字幕渲染、素材库、录音、权限、缓存、任务轮询/推送。"
+        ],
+        [
+          "Auth & Entitlement",
+          "登录、区域、令牌、套餐和额度；对所有 AI 任务做服务端权威校验。"
+        ],
+        [
+          "Ingestion Gateway",
+          "接收本地上传或在线资源请求，生成内容指纹并执行安全/格式校验。"
+        ],
+        [
+          "Job Orchestrator",
+          "异步阶段编排、幂等、重试、超时、取消、进度和通知。"
+        ],
+        [
+          "Media Processing",
+          "音轨抽取、转码、采样率标准化、时长与时间轴处理。"
+        ],
+        [
+          "ASR Service",
+          "语音识别、语言检测、句段切分和时间戳。供应商未知。"
+        ],
+        [
+          "Translation Service",
+          "字幕翻译与语言对转换。供应商未知。"
+        ],
+        [
+          "Language Parser",
+          "分词、词形、读音、音标、简繁体和语言特定解析。"
+        ],
+        [
+          "AI Explanation",
+          "基于句段与上下文生成结构化解释和对话。模型未知。"
+        ],
+        [
+          "Content/Podcast Catalog",
+          "播客首页、列表、搜索及非个性化内容展示。"
+        ],
+        [
+          "Subtitle Service",
+          "字幕版本、人工插入/修订、SRT/LRC 解析与导出。"
+        ],
+        [
+          "Transfer Service",
+          "Miraa Drop 发现、配对、短时授权、校验和传输状态。"
+        ],
+        [
+          "Telemetry",
+          "产品交互、性能和崩溃分析；公开政策列出 Firebase 崩溃分析。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 27,
+      "page": 2,
+      "rows": [
+        [
+          "示意接口",
+          "用途",
+          "请求要点",
+          "响应要点"
+        ],
+        [
+          "POST /materials",
+          "创建材料",
+          "source_type, source_ref, source_language, translation_language",
+          "media_id, state"
+        ],
+        [
+          "POST /materials/{id}/jobs",
+          "提交转写/后处理",
+          "options, idempotency_key",
+          "job_id, quota_snapshot"
+        ],
+        [
+          "GET /jobs/{id}",
+          "查询任务",
+          "job_id",
+          "stage, progress, error, result_refs"
+        ],
+        [
+          "GET /materials/{id}/tracks",
+          "读取字幕层",
+          "language/kind/revision",
+          "tracks, segments, annotations"
+        ],
+        [
+          "PATCH /segments/{id}",
+          "修订句段",
+          "text, start_ms, end_ms, revision",
+          "new_revision/conflict"
+        ],
+        [
+          "POST /explanations",
+          "发起 AI 解释",
+          "segment_id, selection, context, question",
+          "thread_id, structured_answer"
+        ],
+        [
+          "POST /echo-attempts",
+          "登记跟读尝试",
+          "segment_id, recording metadata",
+          "attempt_id, retention_info"
+        ],
+        [
+          "POST /exports",
+          "导出字幕",
+          "track_id, format",
+          "download/share reference"
+        ],
+        [
+          "POST /drop/sessions",
+          "建立传输会话",
+          "receiver, media_id, consent token",
+          "session_id, expires_at"
+        ],
+        [
+          "DELETE /account",
+          "删除账号",
+          "confirmation, auth challenge",
+          "deletion_request/status"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 28,
+      "page": 2,
+      "rows": [
+        [
+          "设计｜接口原则\n所有写操作应支持幂等键或版本号；媒体/字幕修改应使用乐观锁；任务错误返回稳定错误码；套餐权益必须由服务端验证；客户端不得凭本地状态绕过额度。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 29,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "类别",
+          "推荐要求"
+        ],
+        [
+          "NFR-PERF-01",
+          "交互响应",
+          "播放、暂停、切换字幕层、点词等本地操作 P95 ≤ 250 ms。"
+        ],
+        [
+          "NFR-PERF-02",
+          "任务反馈",
+          "用户提交转写后 2 秒内出现任务记录和明确阶段；长任务异步执行。"
+        ],
+        [
+          "NFR-SYNC-01",
+          "字幕同步",
+          "正常媒体的字幕高亮与音频主观漂移应控制在可感知阈值内；建议 P95 ≤ 250 ms。"
+        ],
+        [
+          "NFR-REL-01",
+          "上传可靠性",
+          "大文件支持分片/续传；网络切换后可恢复，不重复扣减额度。"
+        ],
+        [
+          "NFR-REL-02",
+          "任务幂等",
+          "同一 idempotency_key 不重复创建计费任务。"
+        ],
+        [
+          "NFR-REL-03",
+          "弱网体验",
+          "显示缓冲和重试状态；播放器与任务列表不可无提示卡死。"
+        ],
+        [
+          "NFR-SEC-01",
+          "传输安全",
+          "账号、媒体、文本、录音和 Miraa Drop 数据均使用加密传输；凭据存入平台安全存储。"
+        ],
+        [
+          "NFR-PRV-01",
+          "最小化",
+          "仅在功能需要时采集媒体、文本、录音和设备信息，并展示用途。"
+        ],
+        [
+          "NFR-LOC-01",
+          "本地化",
+          "界面语言、学习语言、翻译语言分别配置；布局适配长文本、RTL 和注音。"
+        ],
+        [
+          "NFR-A11Y-01",
+          "无障碍",
+          "播放器和录音控件提供可访问名称；支持动态字体、对比度、键盘/触控焦点。"
+        ],
+        [
+          "NFR-OBS-01",
+          "可观测性",
+          "记录任务阶段、耗时、失败码和崩溃，不记录完整媒体正文/录音作为普通日志。"
+        ],
+        [
+          "NFR-COST-01",
+          "成本保护",
+          "对时长、并发、重复请求和自动化访问执行服务端配额与公平使用控制。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 30,
+      "page": 2,
+      "rows": [
+        [
+          "测量对象",
+          "推荐口径",
+          "排除项/分层"
+        ],
+        [
+          "交互延迟",
+          "客户端事件起点至界面可见完成；统计 P50/P95/P99",
+          "冷启动、系统权限弹窗和第三方播放器初始化单列"
+        ],
+        [
+          "任务反馈",
+          "提交成功至任务卡片出现及首个服务端阶段可见",
+          "区分客户端排队、上传、服务端排队和模型处理"
+        ],
+        [
+          "字幕同步",
+          "播放器时钟与当前句段边界的偏差；抽样自动测量并配合人工听感",
+          "变速、蓝牙延迟、直播流及源文件时间戳异常单列"
+        ],
+        [
+          "弱网恢复",
+          "断网/切网后恢复成功率、重复任务率与重复扣量率",
+          "覆盖前台、后台、进程被杀和系统省电场景"
+        ],
+        [
+          "AI 质量",
+          "按语言和场景抽样评估转写、翻译、解析与解释；记录用户修订/重试率",
+          "不得用单一综合分数掩盖语言与素材类型差异"
+        ],
+        [
+          "隐私审计",
+          "定期检查上传文件删除、翻译文本留存、录音路径、权限用途及分析字段",
+          "生产日志与支持工单均不得默认包含完整学习内容"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 31,
+      "page": 2,
+      "rows": [
+        [
+          "数据",
+          "用途",
+          "触发",
+          "公开保留说明",
+          "技术/合规注意"
+        ],
+        [
+          "邮箱",
+          "购买/账号标识",
+          "注册/购买时",
+          "账号生命周期",
+          "删除账号/访问更正权"
+        ],
+        [
+          "媒体文件",
+          "AI 字幕识别",
+          "用户主动提交",
+          "政策称识别后删除相关文件",
+          "需明确失败/取消/备份清理"
+        ],
+        [
+          "待翻译文本",
+          "字幕翻译",
+          "用户使用翻译功能",
+          "政策称处理后删除且不存储",
+          "需避免写入普通日志"
+        ],
+        [
+          "跟读录音",
+          "Echo 模仿与比较",
+          "麦克风授权后",
+          "公开政策未明确",
+          "必须补充本地/云端保留说明"
+        ],
+        [
+          "设备型号/系统/IP",
+          "用户分布和网络统计",
+          "一般网络请求",
+          "匿名统计，具体周期未公开",
+          "IP 是否真正匿名需技术评审"
+        ],
+        [
+          "使用数据/崩溃数据",
+          "分析与稳定性",
+          "应用运行",
+          "平台声明为未关联或部分收集",
+          "iOS/Android 声明存在差异"
+        ],
+        [
+          "订阅与购买历史",
+          "权益校验/客户支持",
+          "应用内购买",
+          "账号相关数据",
+          "删除账号时应处理法律保留义务"
+        ],
+        [
+          "地区选择",
+          "数据驻留",
+          "注册时",
+          "国际区存美国；中国区存中国",
+          "跨区迁移规则未公开"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 32,
+      "page": 2,
+      "rows": [
+        [
+          "权限",
+          "功能用途",
+          "拒绝后的预期行为"
+        ],
+        [
+          "麦克风",
+          "Echo 跟读录音。",
+          "仍可听、看字幕和使用解释；录音入口提示授权方法。"
+        ],
+        [
+          "文件/存储",
+          "选择本地音视频、保存或导出字幕。",
+          "保留在线/播客能力；说明无法读取/保存本地内容。"
+        ],
+        [
+          "照片/媒体库",
+          "从系统相册导入视频等媒体。",
+          "允许通过文件选择器或在线来源替代。"
+        ],
+        [
+          "通知",
+          "AI 字幕任务完成、失败或服务公告。",
+          "任务仍可在应用内查询，不阻断核心流程。"
+        ],
+        [
+          "局域网/附近设备（可能）",
+          "Miraa Drop 发现和传输。",
+          "禁用 Drop，但不影响普通学习。具体权限依平台实现。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 33,
+      "page": 2,
+      "rows": [
+        [
+          "合规｜需持续对账\nApple 页面显示可能收集但不与身份关联的使用数据和诊断数据；Google Play 页面显示可能收集个人信息、应用活动和应用信息/性能，并可能与第三方共享应用活动及性能数据，同时声明传输加密和可请求删除。两者由开发者自行申报且可随版本、地区和功能变化，应由合规团队逐项对账。[S2][S3]"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 34,
+      "page": 2,
+      "rows": [
+        [
+          "错误码",
+          "场景",
+          "影响",
+          "预期处理"
+        ],
+        [
+          "E-ING-001",
+          "文件不可读/格式不支持",
+          "导入失败",
+          "显示支持范围与可操作建议；不创建计费任务。"
+        ],
+        [
+          "E-ING-002",
+          "在线链接失效、需登录或受 DRM 限制",
+          "在线转换失败",
+          "说明原因；允许重新登录/更换来源；不得承诺绕过 DRM。"
+        ],
+        [
+          "E-QUO-001",
+          "额度不足/公平使用限制",
+          "任务被拒绝或限流",
+          "展示当前套餐和升级/等待选项；避免重复扣量。"
+        ],
+        [
+          "E-NET-001",
+          "上传中断/弱网",
+          "任务停滞",
+          "断点续传或安全重试；保留任务状态。"
+        ],
+        [
+          "E-ASR-001",
+          "识别为空或语言错误",
+          "无可用字幕",
+          "建议重新选语言、换音轨或重试；不生成误导性解释。"
+        ],
+        [
+          "E-SUB-001",
+          "时间轴错位/句段重叠",
+          "播放与字幕不同步",
+          "允许修订或重新处理；记录媒体时间基准。"
+        ],
+        [
+          "E-TRN-001",
+          "翻译/解析失败",
+          "只有原文或部分层缺失",
+          "播放器仍可用；按层重试，不重跑完整 ASR。"
+        ],
+        [
+          "E-AI-001",
+          "AI 解释失败/答非所问",
+          "解释不可用",
+          "保留用户选择和问题，允许重试/反馈/缩小上下文。"
+        ],
+        [
+          "E-MIC-001",
+          "麦克风拒绝或录音中断",
+          "Echo 无法录音",
+          "继续提供 Listen/Understand；显示设置入口。"
+        ],
+        [
+          "E-EXP-001",
+          "导出失败/无存储权限",
+          "SRT/LRC 未生成或未保存",
+          "不丢失编辑，允许重新授权或分享。"
+        ],
+        [
+          "E-DRP-001",
+          "设备发现失败/会话超时/校验失败",
+          "Miraa Drop 中断",
+          "自动过期会话并可重试；不保留半成品为可用材料。"
+        ],
+        [
+          "E-ACC-001",
+          "登录/订阅状态不同步",
+          "权益误判",
+          "从商店和服务端刷新；提供购买恢复，避免本地永久锁定。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 35,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "验收项",
+          "通过条件"
+        ],
+        [
+          "AC-01",
+          "本地素材导入",
+          "给定一个受支持的本地音/视频，当用户确认语言并提交后，列表立即出现任务且显示可理解的处理阶段。"
+        ],
+        [
+          "AC-02",
+          "隐私提示",
+          "首次触发媒体上传或录音前，用户能看到与权限/处理目的匹配的提示。"
+        ],
+        [
+          "AC-03",
+          "AI 字幕",
+          "任务成功后至少生成带时间戳的原文字幕轨，播放器可按句段定位。"
+        ],
+        [
+          "AC-04",
+          "翻译层",
+          "用户启用翻译后，当前句段显示目标语言译文；失败时原文播放不受阻。"
+        ],
+        [
+          "AC-05",
+          "语言解析",
+          "日语材料在启用注音时显示读音；关闭后布局不留异常空位。"
+        ],
+        [
+          "AC-06",
+          "同步高亮",
+          "播放跨越句段边界时，当前句高亮随时间轴更新，点击句段可跳转。"
+        ],
+        [
+          "AC-07",
+          "逐句重复",
+          "设置重复 N 次后，当前句按 N 次播放并可提前终止。"
+        ],
+        [
+          "AC-08",
+          "延迟显现",
+          "启用后字幕/翻译按配置延后出现；关闭后立即恢复普通显示。"
+        ],
+        [
+          "AC-09",
+          "点词查询",
+          "点击可交互词项后，解释使用当前句上下文并允许返回原播放位置。"
+        ],
+        [
+          "AC-10",
+          "AI 解释",
+          "对句段发起解释时，结果至少区分翻译和语言要点；失败可重试且不丢失问题。"
+        ],
+        [
+          "AC-11",
+          "Echo 录音",
+          "授权麦克风后可录制、停止、试听、删除和重录；拒绝权限不阻断其他学习功能。"
+        ],
+        [
+          "AC-12",
+          "Compare",
+          "用户可以清楚区分原音和自己的录音并交替播放；界面不暗示未实现的自动评分。"
+        ],
+        [
+          "AC-13",
+          "字幕插入",
+          "新增字幕句段后保存并在播放器时间轴可见；非法时间范围被阻止。"
+        ],
+        [
+          "AC-14",
+          "字幕导出",
+          "至少一种公开支持格式可生成并交付系统分享/文件保存；失败保留编辑。"
+        ],
+        [
+          "AC-15",
+          "弱网恢复",
+          "上传或处理状态在网络恢复后可继续/重试，且同一任务不重复扣量。"
+        ],
+        [
+          "AC-16",
+          "账号删除",
+          "设置中可提交删除；完成后无法继续使用原账号权益，相关数据进入删除流程。"
+        ],
+        [
+          "AC-17",
+          "播客浏览",
+          "用户可按语言进入播客页面、选择单集并开始播放或创建学习材料。"
+        ],
+        [
+          "AC-18",
+          "Miraa Drop",
+          "接收端明确同意后才开始传输；完成后进行完整性校验，超时会话自动失效。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 36,
+      "page": 2,
+      "rows": [
+        [
+          "编号",
+          "待确认问题",
+          "影响"
+        ],
+        [
+          "OQ-01",
+          "精确支持哪些音视频容器、编码、最大文件大小和最大时长？",
+          "导入校验、成本、失败率"
+        ],
+        [
+          "OQ-02",
+          "各学习语言是否都支持 ASR、翻译、注音、词法解析和 AI 解释？",
+          "语言矩阵与 UI"
+        ],
+        [
+          "OQ-03",
+          "是否支持离线播放、离线字幕、离线查词或离线录音比较？",
+          "弱网与隐私"
+        ],
+        [
+          "OQ-04",
+          "Echo 录音只在本地还是会上传？保留多久？是否跨设备？",
+          "高优先级隐私问题"
+        ],
+        [
+          "OQ-05",
+          "Compare 是否包含自动发音评分、波形对齐或仅供人工试听？",
+          "功能承诺与验收"
+        ],
+        [
+          "OQ-06",
+          "Miraa Drop 使用何种发现协议、加密、配对和权限？",
+          "局域网安全"
+        ],
+        [
+          "OQ-07",
+          "字幕 SRT/LRC 的导入/导出方向、编码、样式和多轨规则是什么？",
+          "互操作性"
+        ],
+        [
+          "OQ-08",
+          "材料、字幕、分类和解释会话是否自动云同步？",
+          "多设备一致性"
+        ],
+        [
+          "OQ-09",
+          "免费/Basic/Pro 的实时额度、单任务限制和功能差异是什么？",
+          "商业规则"
+        ],
+        [
+          "OQ-10",
+          "AI 解释使用何种模型、上下文长度、内容过滤和质量评估？",
+          "成本、安全、质量"
+        ],
+        [
+          "OQ-11",
+          "ASR 置信度、说话人分离、多音轨和背景音乐场景如何处理？",
+          "转写质量"
+        ],
+        [
+          "OQ-12",
+          "是否提供生词本、SRS、学习进度、连续学习天数或课程体系？",
+          "产品边界；公开资料未确认"
+        ],
+        [
+          "OQ-13",
+          "可访问性支持清单为何未在 Apple 页面声明？",
+          "无障碍合规"
+        ],
+        [
+          "OQ-14",
+          "导入第三方在线内容时如何处理版权、登录、地区和 DRM？",
+          "合规与可用性"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 37,
+      "page": 2,
+      "rows": [
+        [
+          "结论｜产品边界结论\n依据公开资料，Miraa 更接近“真实媒体学习处理器 + 互动播放器 + 跟读工具”，而不是提供完整课程路径、JLPT 题库或词汇 SRS 的传统日语课程应用。该结论属于功能结构推断，不排除后续版本增加相关模块。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 38,
+      "page": 2,
+      "rows": [
+        [
+          "能力",
+          "证据来源",
+          "等级",
+          "引用"
+        ],
+        [
+          "AI 双语字幕、实时翻译、AI 解释、Echo 四步法",
+          "官方官网/商店说明",
+          "A",
+          "S1, S2, S3"
+        ],
+        [
+          "本地/在线媒体、播客",
+          "版本历史、商店说明",
+          "A",
+          "S2, S3"
+        ],
+        [
+          "延迟显现、字幕人工插入、SRT/LRC、横屏/全屏/双击快进",
+          "App Store 版本历史",
+          "A",
+          "S2"
+        ],
+        [
+          "日语 Gaya、日语注音、英语音标、韩语注音方向、中文简繁设置",
+          "App Store 版本历史",
+          "A",
+          "S2"
+        ],
+        [
+          "媒体上传识别后删除、翻译文本处理后删除",
+          "隐私政策",
+          "A",
+          "S4"
+        ],
+        [
+          "麦克风与存储权限、数据驻留、账号删除、Firebase",
+          "隐私政策",
+          "A",
+          "S4"
+        ],
+        [
+          "免费/Basic/Pro、30 分钟、220,000 词、公平使用",
+          "使用条款",
+          "A（可能过时）",
+          "S5"
+        ],
+        [
+          "Miraa Drop",
+          "官方 X 账号",
+          "B",
+          "S6"
+        ],
+        [
+          "上下文点词、标记文本向 AI 提问",
+          "官方 X 账号",
+          "B",
+          "S7"
+        ],
+        [
+          "播客首页重设计/按语言发现",
+          "官方 X 账号与版本历史",
+          "A/B",
+          "S2, S8"
+        ],
+        [
+          "材料分类、字幕编辑体验",
+          "App Store 用户反馈",
+          "C",
+          "S2"
+        ],
+        [
+          "逻辑数据模型、服务分层、接口、NFR、错误码",
+          "本说明书技术推断",
+          "I",
+          "—"
+        ]
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "index": 1,
+      "page": 1,
+      "style_id": "",
+      "style": "",
+      "text": "MIRAA"
+    },
+    {
+      "type": "paragraph",
+      "index": 2,
+      "page": 1,
+      "style_id": "Title",
+      "style": "Title",
+      "text": "Miraa 应用功能技术说明书"
+    },
+    {
+      "type": "paragraph",
+      "index": 3,
+      "page": 1,
+      "style_id": "Subtitle",
+      "style": "Subtitle",
+      "text": "AI 双语字幕、实时翻译、互动解释与 Echo 跟读"
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "page": 1,
+      "rows": [
+        [
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 2,
+      "page": 1,
+      "rows": [
+        [
+          "文档类型",
+          "功能规格说明 / 逻辑架构 / 数据与隐私"
+        ],
+        [
+          "文档版本",
+          "1.0"
+        ],
+        [
+          "产品基线",
+          "iOS 1.14.1；Android 商店更新日期 2026-07-28"
+        ],
+        [
+          "资料日期",
+          "2026-08-19"
+        ],
+        [
+          "适用读者",
+          "产品、设计、移动端、后端、测试、数据与隐私团队"
+        ],
+        [
+          "文档性质",
+          "基于公开资料的技术分析，不等同于官方内部 PRD 或系统设计"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 6,
+      "page": 1,
+      "style_id": "",
+      "style": "",
+      "text": "保密级别：公开资料整理"
+    },
+    {
+      "type": "paragraph",
+      "index": 7,
+      "page": 1,
+      "style_id": "",
+      "style": "",
+      "text": "说明：文中标注“逻辑推断/建议”的内容用于形成可执行的技术规格，不代表 Miraa 已采用该实现。"
+    },
+    {
+      "type": "paragraph",
+      "index": 9,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "0. 文档说明"
+    },
+    {
+      "type": "paragraph",
+      "index": 10,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "本说明书将 Miraa 的公开功能整理为一份可供产品、研发和测试团队共同使用的技术基线。它覆盖功能范围、用户流程、逻辑数据模型、推荐的系统边界、异常处理、非功能要求和验收口径。公开资料未披露的内部算法、API、云服务厂商和数据结构均以“逻辑推断”标识。"
+    },
+    {
+      "type": "table",
+      "index": 3,
+      "page": 2,
+      "rows": [
+        [
+          "口径｜证据等级\nA：官方官网、应用商店说明、版本历史、隐私政策或使用条款直接确认；B：官方商店截图或官方社交账号公开展示；C：应用商店用户反馈，仅作补充；I：为形成技术文档而提出的逻辑模型或推荐要求。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 4,
+      "page": 2,
+      "rows": [
+        [
+          "项目",
+          "内容"
+        ],
+        [
+          "文档目标",
+          "描述 Miraa 当前公开可见的功能能力，并转化为可实现、可测试的技术规格。"
+        ],
+        [
+          "产品定位",
+          "将用户选择的真实音视频/播客转为双语字幕学习材料，并通过 AI 解释和 Echo 跟读形成主动学习闭环。"
+        ],
+        [
+          "范围内",
+          "账号与订阅、素材导入、AI 字幕、翻译、语言解析、播放器、Echo、AI 解释、播客、字幕编辑/导出、Miraa Drop、隐私与权限。"
+        ],
+        [
+          "范围外",
+          "官方源代码、真实微服务拓扑、模型供应商、训练数据、内部风控规则、精确成本和未公开路线图。"
+        ],
+        [
+          "产品版本基线",
+          "iOS 1.14.1；Google Play 页面更新于 2026-07-28。[S2][S3]"
+        ],
+        [
+          "关键风险",
+          "公开文档粒度有限；不同平台、地区、订阅档位和语言可能存在功能差异。"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 13,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "目录"
+    },
+    {
+      "type": "table",
+      "index": 5,
+      "page": 2,
+      "rows": [
+        [
+          "1",
+          "产品概览"
+        ],
+        [
+          "2",
+          "系统边界与功能架构"
+        ],
+        [
+          "3",
+          "功能模块详细说明"
+        ],
+        [
+          "4",
+          "关键用户流程"
+        ],
+        [
+          "5",
+          "概念数据模型"
+        ],
+        [
+          "6",
+          "逻辑服务架构与接口"
+        ],
+        [
+          "7",
+          "非功能要求"
+        ],
+        [
+          "8",
+          "数据、隐私与权限"
+        ],
+        [
+          "9",
+          "异常与边界场景"
+        ],
+        [
+          "10",
+          "验收标准"
+        ],
+        [
+          "11",
+          "已知限制与待确认问题"
+        ],
+        [
+          "12",
+          "证据矩阵与参考资料"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 14,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "1. 产品概览"
+    },
+    {
+      "type": "paragraph",
+      "index": 15,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "Miraa 是 Myoland, Inc. 推出的 AI 语言学习应用，核心能力是把音频、视频和播客转写为可交互的双语字幕材料，并提供实时翻译、AI 词汇/语法解释以及四步 Echo 跟读流程“Listen—Understand—Imitate—Compare”。官方公开页面将其概括为 AI Materials、Seamless Echoing、Interactive AI Explanation 和 Realtime Translation。[S1][S2][S3]"
+    },
+    {
+      "type": "table",
+      "index": 6,
+      "page": 2,
+      "rows": [
+        [
+          "维度",
+          "公开基线"
+        ],
+        [
+          "主要价值",
+          "把“看视频/听播客”转为可暂停、可查词、可解释、可跟读、可比较的学习过程。"
+        ],
+        [
+          "目标用户",
+          "具备一定目标语言基础、希望使用真实内容强化听力、语感、发音与句法理解的学习者。"
+        ],
+        [
+          "核心输入",
+          "本地音频/视频、在线媒体、播客，以及通过 Miraa Drop 传入的内容。"
+        ],
+        [
+          "核心输出",
+          "时间同步字幕、双语翻译、词法/注音层、AI 解释、跟读录音与字幕文件。"
+        ],
+        [
+          "学习语言",
+          "公开资料明确列出英语、日语、中文、韩语、西班牙语、德语、意大利语、法语；版本历史另显示已加入阿拉伯语。不同功能的语言矩阵可能不完全一致。[S2]"
+        ],
+        [
+          "客户端",
+          "iPhone、iPad；Apple Silicon Mac 与 Apple Vision 可运行兼容版本；Android 客户端在 Google Play 提供。[S2][S3]"
+        ],
+        [
+          "商业模式",
+          "免费计划 + Miraa Basic + Miraa Pro；功能/额度受套餐、地区及商店政策影响。[S2][S5]"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 17,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "1.1 产品原则（由公开功能归纳）"
+    },
+    {
+      "type": "paragraph",
+      "index": 18,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "内容优先：学习材料由用户兴趣驱动，而非固定课程或 JLPT 章节驱动。"
+    },
+    {
+      "type": "paragraph",
+      "index": 19,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "句段优先：播放器、翻译、解析、AI 解释与 Echo 围绕时间同步的字幕句段协同。"
+    },
+    {
+      "type": "paragraph",
+      "index": 20,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "从被动输入到主动输出：先听和理解，再模仿、录音和比较。"
+    },
+    {
+      "type": "paragraph",
+      "index": 21,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "AI 辅助而非权威答案：转写、翻译与解释均可能出现错误，必须允许用户复核和修订。"
+    },
+    {
+      "type": "paragraph",
+      "index": 22,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "跨语言一致体验：相同学习流程适用于多种语言，但注音/解析规则按语言定制。"
+    },
+    {
+      "type": "paragraph",
+      "index": 23,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "1.2 核心能力清单"
+    },
+    {
+      "type": "table",
+      "index": 7,
+      "page": 2,
+      "rows": [
+        [
+          "编号",
+          "能力",
+          "说明",
+          "证据"
+        ],
+        [
+          "F01",
+          "AI 双语字幕",
+          "把音视频转写为时间同步字幕，并生成目标翻译。",
+          "A"
+        ],
+        [
+          "F02",
+          "同步播放器",
+          "媒体播放与当前字幕句段联动，支持逐句学习。",
+          "A/B"
+        ],
+        [
+          "F03",
+          "实时翻译",
+          "把字幕转换为用户选择的语言。",
+          "A"
+        ],
+        [
+          "F04",
+          "语言解析与注音",
+          "词级切分、语法解析、日语注音、英语音标、韩语注音方向等。",
+          "A/B"
+        ],
+        [
+          "F05",
+          "AI 解释/对话",
+          "针对句子、词语或标记文本生成翻译、词义、语法和追问式解释。",
+          "A/B"
+        ],
+        [
+          "F06",
+          "Echo 跟读",
+          "Listen、Understand、Imitate、Compare 四步训练，使用麦克风录音。",
+          "A"
+        ],
+        [
+          "F07",
+          "延迟显现",
+          "延后显示字幕/翻译，以训练听辨反应。",
+          "A"
+        ],
+        [
+          "F08",
+          "播客发现",
+          "专用播客首页和列表浏览，将节目/单集转为学习材料。",
+          "A/B"
+        ],
+        [
+          "F09",
+          "字幕管理",
+          "支持人工插入字幕，并公开提及 SRT、LRC 和字幕导出。",
+          "A"
+        ],
+        [
+          "F10",
+          "Miraa Drop",
+          "在附近的 Miraa 设备之间传递内容。",
+          "B"
+        ],
+        [
+          "F11",
+          "账号/订阅",
+          "登录、第三方登录、套餐额度、购买恢复与账号删除。",
+          "A"
+        ],
+        [
+          "F12",
+          "任务状态与通知",
+          "AI 字幕任务状态提示、失败反馈和网络/缓冲状态。",
+          "A"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 25,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "2. 系统边界与功能架构"
+    },
+    {
+      "type": "paragraph",
+      "index": 26,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "从用户视角看，Miraa 的系统边界由“内容采集—AI 处理—学习交互—结果管理”四段组成。下图是逻辑功能架构，用于统一产品和研发语言，不代表官方实际部署拓扑。"
+    },
+    {
+      "type": "paragraph",
+      "index": 28,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "图 1  Miraa 逻辑功能架构（推断）"
+    },
+    {
+      "type": "paragraph",
+      "index": 29,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "2.1 系统参与者"
+    },
+    {
+      "type": "table",
+      "index": 8,
+      "page": 2,
+      "rows": [
+        [
+          "参与者",
+          "职责/交互"
+        ],
+        [
+          "学习者",
+          "导入材料、选择语言、播放、查词、请求解释、录音跟读、编辑/导出字幕。"
+        ],
+        [
+          "移动客户端",
+          "素材管理、媒体播放、字幕渲染、权限请求、录音、任务状态和本地缓存。"
+        ],
+        [
+          "AI 处理服务",
+          "媒体转写、分段/对齐、翻译、语言解析、注音、AI 解释。"
+        ],
+        [
+          "内容/播客服务",
+          "提供非个性化推荐、播客首页、列表与搜索/浏览。"
+        ],
+        [
+          "账号与计费服务",
+          "登录、套餐权限、额度、订阅状态、购买恢复和账号删除。"
+        ],
+        [
+          "平台服务",
+          "Apple/Google 应用内购买、第三方登录、Firebase 崩溃/使用分析。"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 31,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "2.2 关键边界假设"
+    },
+    {
+      "type": "paragraph",
+      "index": 32,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "转写和翻译属于服务器处理能力；隐私政策明确描述了文件/文本上传及处理后删除。[S4]"
+    },
+    {
+      "type": "paragraph",
+      "index": 33,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "播放器、字幕交互和部分缓存主要位于客户端；派生字幕是否长期云端保存未公开。"
+    },
+    {
+      "type": "paragraph",
+      "index": 34,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "Echo 录音至少在客户端触发；录音是否上传、保留多久、是否用于评分未公开。"
+    },
+    {
+      "type": "paragraph",
+      "index": 35,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "Miraa Drop 属于设备间传递能力，但发现协议、传输通道、加密和授权方式未公开。"
+    },
+    {
+      "type": "paragraph",
+      "index": 36,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "播客推荐据隐私政策为非个性化展示，不采用针对个人的算法推送。[S4]"
+    },
+    {
+      "type": "paragraph",
+      "index": 37,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "3. 功能模块详细说明"
+    },
+    {
+      "type": "table",
+      "index": 9,
+      "page": 2,
+      "rows": [
+        [
+          "提示｜阅读方式\n每个功能模块包含用户目标、功能要求、输入/处理/输出、异常与公开证据。标有“建议”的条目可直接转成 PRD、接口设计或测试用例，但不应被误认为现网行为。"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 39,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.1 账号、区域与订阅"
+    },
+    {
+      "type": "paragraph",
+      "index": 40,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "账号模块负责识别用户、绑定购买权益、控制 AI 处理额度并提供个人信息管理。版本历史确认了更多登录方式、第三方登录稳定性和账号管理优化；隐私政策说明邮箱可作为购买/账号标识，并提供“Delete Account”。[S2][S4]"
+    },
+    {
+      "type": "table",
+      "index": 10,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "功能",
+          "详细要求",
+          "关键状态",
+          "证据"
+        ],
+        [
+          "FR-ACC-001",
+          "登录/注册",
+          "用户可使用当前客户端提供的登录方式进入账号；具体供应商未公开。",
+          "未登录、登录成功、验证失败、账号受限",
+          "A"
+        ],
+        [
+          "FR-ACC-002",
+          "区域选择",
+          "注册时选择国际区或中国区，并据此决定账号数据存储地域。",
+          "国际区→美国；中国区→中国",
+          "A"
+        ],
+        [
+          "FR-ACC-003",
+          "权益校验",
+          "提交转写、翻译或高级功能前校验免费/Basic/Pro 权益和剩余额度。",
+          "允许、额度不足、需升级、订阅失效",
+          "A/I"
+        ],
+        [
+          "FR-ACC-004",
+          "购买与恢复",
+          "通过应用商店购买订阅，并支持读取/恢复有效权益。",
+          "购买成功、取消、待处理、退款/撤销",
+          "A/I"
+        ],
+        [
+          "FR-ACC-005",
+          "账号管理",
+          "查看账号状态、套餐、区域和登录信息；支持退出登录。",
+          "正常、离线、状态同步失败",
+          "A"
+        ],
+        [
+          "FR-ACC-006",
+          "删除账号",
+          "设置中提供删除账号能力，删除会员与购买历史等相关信息。",
+          "二次确认、删除中、完成、失败",
+          "A"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 11,
+      "page": 2,
+      "rows": [
+        [
+          "注意｜套餐信息的时效性\n公开使用条款称免费计划默认含 30 分钟转写额度，Basic 提供按英文文本估算的 220,000 词上限，Pro 受公平使用政策约束；App Store 与条款中的年费存在差异。实现和测试应读取服务端/商店实时商品配置，禁止在客户端硬编码价格和额度。[S2][S5]"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 43,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.2 素材导入与内容采集"
+    },
+    {
+      "type": "paragraph",
+      "index": 44,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "素材导入是学习链路的入口。公开资料确认本地音视频、在线媒体和播客；版本历史还提到从相册/外部文件导入、在线视频转换和 Miraa Drop。"
+    },
+    {
+      "type": "table",
+      "index": 12,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "能力",
+          "要求",
+          "输入",
+          "输出",
+          "证据"
+        ],
+        [
+          "FR-ING-001",
+          "本地媒体",
+          "从文件系统或系统相册选择音频/视频作为学习材料；请求最小必要的存储/照片权限。",
+          "文件句柄、名称、MIME、时长",
+          "素材条目或错误",
+          "A"
+        ],
+        [
+          "FR-ING-002",
+          "在线媒体",
+          "接收在线媒体链接或可解析资源，创建在线转换任务；对需要登录或不可访问资源给出明确反馈。",
+          "URL、登录态、语言",
+          "在线素材任务",
+          "A"
+        ],
+        [
+          "FR-ING-003",
+          "播客",
+          "通过播客首页/列表浏览节目与单集，并将单集纳入学习流程。",
+          "语言、节目、单集",
+          "可播放/可转写素材",
+          "A"
+        ],
+        [
+          "FR-ING-004",
+          "Miraa Drop",
+          "发现附近可接收设备，建立一次性传输会话并发送内容。",
+          "设备、内容、授权",
+          "接收成功/失败",
+          "B"
+        ],
+        [
+          "FR-ING-005",
+          "预校验",
+          "提交前验证类型、大小、时长、可访问性、套餐额度与网络条件。",
+          "素材元数据",
+          "允许/阻止与原因",
+          "I"
+        ],
+        [
+          "FR-ING-006",
+          "任务创建",
+          "为每次导入创建唯一素材 ID 和转换任务 ID，允许查询状态、取消或重试。",
+          "素材、配置",
+          "任务记录",
+          "A/I"
+        ],
+        [
+          "FR-ING-007",
+          "素材库",
+          "展示已导入/已处理内容并支持删除；用户反馈显示存在分类能力，但公开规格未明确其完整行为。",
+          "标题、类型、状态、分类",
+          "可管理素材列表",
+          "C"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 46,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.3 AI 字幕转写与任务编排"
+    },
+    {
+      "type": "paragraph",
+      "index": 47,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "AI 字幕是 Miraa 的基础数据层。隐私政策明确：使用 AI Subtitle recognition 时，文件会先上传服务器识别，识别完成后删除相关文件；版本历史显示任务状态通知、在线/本地转换稳定性、时间轴准确性及单次媒体时长上限持续优化。[S2][S4]"
+    },
+    {
+      "type": "table",
+      "index": 13,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "功能要求",
+          "行为描述",
+          "证据"
+        ],
+        [
+          "FR-ASR-001",
+          "语言配置",
+          "允许自动检测或由用户选择源语言；记录语言用于 ASR、分词和注音。",
+          "A/I"
+        ],
+        [
+          "FR-ASR-002",
+          "异步上传",
+          "大文件采用可恢复上传；显示上传、排队、识别、后处理等阶段。",
+          "I"
+        ],
+        [
+          "FR-ASR-003",
+          "语音转写",
+          "生成带起止时间的字幕句段；保留原文层。",
+          "A"
+        ],
+        [
+          "FR-ASR-004",
+          "时间轴对齐",
+          "字幕句段必须与媒体时间轴同步；本地视频场景需处理旋转、可变帧率等差异。",
+          "A/I"
+        ],
+        [
+          "FR-ASR-005",
+          "任务状态",
+          "客户端可见排队、处理中、完成、失败、取消/重试等状态，并可接收状态通知。",
+          "A/I"
+        ],
+        [
+          "FR-ASR-006",
+          "结果校验",
+          "对空结果、极低置信度、语言不匹配和异常字符给出警告。",
+          "I"
+        ],
+        [
+          "FR-ASR-007",
+          "源文件删除",
+          "服务器在识别完成后删除上传的相关文件，并对失败/取消任务定义清理机制。",
+          "A/I"
+        ],
+        [
+          "FR-ASR-008",
+          "人工修订",
+          "支持在 AI 字幕中人工插入字幕；对现有句段编辑的完整能力需按目标版本验证。",
+          "A/C"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 49,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.4 翻译、语言解析与注音"
+    },
+    {
+      "type": "paragraph",
+      "index": 50,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "翻译层将目标语言字幕转换为用户语言；语言解析层将句子拆为词/短语，并展示注音或音标。官方截图展示了日语原文、注音、词级标记和英语译文；版本历史还明确提到日语解析引擎 Gaya、英语音标、韩语注音方向以及简/繁中文解释设置。[S2][S4]"
+    },
+    {
+      "type": "table",
+      "index": 14,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "能力",
+          "行为",
+          "输入",
+          "输出",
+          "证据"
+        ],
+        [
+          "FR-LNG-001",
+          "字幕翻译",
+          "为每个字幕句段生成目标语言译文，可按设置显示/隐藏。",
+          "源句、目标语言",
+          "译文层",
+          "A"
+        ],
+        [
+          "FR-LNG-002",
+          "即时请求",
+          "用户打开翻译或切换语言时触发服务端处理；处理完成后更新对应句段。",
+          "句段/整轨文本",
+          "翻译任务",
+          "A/I"
+        ],
+        [
+          "FR-LNG-003",
+          "词级切分",
+          "把句段拆分为可点击词/短语，并保持与原句位置的关联。",
+          "原文",
+          "Token 列表",
+          "B"
+        ],
+        [
+          "FR-LNG-004",
+          "日语注音",
+          "显示假名/读音等注音；提供可选解析引擎或字幕设置。",
+          "日语句段",
+          "词形、读音",
+          "A/B"
+        ],
+        [
+          "FR-LNG-005",
+          "英语音标",
+          "在支持场景显示英语音标。",
+          "英语词项",
+          "音标",
+          "A"
+        ],
+        [
+          "FR-LNG-006",
+          "韩语注音",
+          "支持调整韩语注音的显示方向。",
+          "韩语词项/设置",
+          "布局结果",
+          "A"
+        ],
+        [
+          "FR-LNG-007",
+          "中文设置",
+          "解释时保持简体/繁体设置稳定，并支持相应解析。",
+          "中文句段/偏好",
+          "解释与显示",
+          "A"
+        ],
+        [
+          "FR-LNG-008",
+          "延迟显现",
+          "在播放过程中延后显示字幕或翻译，让用户先完成听辨。",
+          "延迟策略",
+          "受控显现",
+          "A"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 15,
+      "page": 2,
+      "rows": [
+        [
+          "质量｜翻译与解析的质量边界\nASR 错字会继续影响翻译、分词和 AI 解释。界面应允许用户回到原句、查看上下文、标记疑似错误并进行人工修订，而不是把 AI 结果包装成确定事实。"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 53,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.5 媒体播放器与字幕交互"
+    },
+    {
+      "type": "table",
+      "index": 16,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "功能",
+          "要求",
+          "证据"
+        ],
+        [
+          "FR-PLY-001",
+          "同步播放",
+          "播放音频/视频时自动定位当前字幕句段，并更新高亮/进度。",
+          "A/B"
+        ],
+        [
+          "FR-PLY-002",
+          "逐句导航",
+          "支持跳转上一句/下一句或点击字幕定位到对应时间。",
+          "B/I"
+        ],
+        [
+          "FR-PLY-003",
+          "句段循环",
+          "对当前句按用户设置重复若干次；版本历史确认重复次数设置优化。",
+          "A/C"
+        ],
+        [
+          "FR-PLY-004",
+          "速度/慢速",
+          "官方商店截图显示慢速练习入口；具体速度档位与音高保持方式未公开。",
+          "B"
+        ],
+        [
+          "FR-PLY-005",
+          "全屏与横屏",
+          "支持本地竖屏视频全屏、横屏布局，并防止字幕遮挡播放控件。",
+          "A"
+        ],
+        [
+          "FR-PLY-006",
+          "快速跳转",
+          "全屏场景支持双击快进/快退。",
+          "A"
+        ],
+        [
+          "FR-PLY-007",
+          "缓冲反馈",
+          "弱网时展示缓冲状态，并避免播放器假死。",
+          "A/I"
+        ],
+        [
+          "FR-PLY-008",
+          "字幕层控制",
+          "显示原文、译文、注音/音标和词级标记；允许按学习模式组合。",
+          "A/B"
+        ],
+        [
+          "FR-PLY-009",
+          "延迟显现控制",
+          "允许启用/关闭 Delayed Reveal，并清楚说明当前显现策略。",
+          "A/I"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 55,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.6 Echo 跟读与录音比较"
+    },
+    {
+      "type": "paragraph",
+      "index": 56,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "Echo Method 是 Miraa 的标志性学习流程。官方定义四步为 Listen、Understand、Imitate、Compare，并说明跟读功能需要麦克风权限。[S2][S4]"
+    },
+    {
+      "type": "table",
+      "index": 17,
+      "page": 2,
+      "rows": [
+        [
+          "阶段",
+          "功能行为",
+          "输入",
+          "输出"
+        ],
+        [
+          "1. Listen",
+          "播放目标句原音；可结合重复次数、慢速和字幕显现策略。",
+          "原音片段、播放配置",
+          "用户听辨"
+        ],
+        [
+          "2. Understand",
+          "显示原文、翻译、词级解析，并可跳转 AI 解释。",
+          "句段及语言层",
+          "语义理解"
+        ],
+        [
+          "3. Imitate",
+          "请求麦克风权限，按指示录制用户复述；提供录音开始/结束状态。",
+          "麦克风、句段",
+          "跟读录音"
+        ],
+        [
+          "4. Compare",
+          "允许原音与用户录音交替或连续播放，帮助比较节奏、重音、音高和连读。",
+          "原音、用户录音",
+          "自我纠正"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 58,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "FR-ECH-001：Echo 必须以一个明确的字幕句段为练习单元，并在媒体时间轴中保存关联。"
+    },
+    {
+      "type": "paragraph",
+      "index": 59,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "FR-ECH-002：首次录音时请求麦克风权限；拒绝后展示用途说明和系统设置入口。"
+    },
+    {
+      "type": "paragraph",
+      "index": 60,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "FR-ECH-003：录音期间显示时长、音量/波形或最小反馈，避免用户不知道是否正在录制。"
+    },
+    {
+      "type": "paragraph",
+      "index": 61,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "FR-ECH-004：允许重录、删除本次录音、试听原音和试听录音。"
+    },
+    {
+      "type": "paragraph",
+      "index": 62,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "FR-ECH-005：公开资料未确认自动发音评分；验收时不得把“Compare”默认解释为 AI 评分。"
+    },
+    {
+      "type": "paragraph",
+      "index": 63,
+      "page": 2,
+      "style_id": "ListBullet",
+      "style": "List Bullet",
+      "text": "FR-ECH-006：应明确录音是仅本地保存、临时缓存还是上传服务器；当前公开隐私政策未给出完整保留说明。"
+    },
+    {
+      "type": "paragraph",
+      "index": 64,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.7 AI 解释与上下文查词"
+    },
+    {
+      "type": "paragraph",
+      "index": 65,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "官方页面描述“Chat with AI and resolve your questions”；官方截图展示了针对句子的翻译和词汇拆解；官方账号公开更新还确认可在上下文中点词查询，并可标记文本后向 AI 提问。[S1][S7]"
+    },
+    {
+      "type": "table",
+      "index": 18,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "能力",
+          "详细要求",
+          "最小上下文"
+        ],
+        [
+          "FR-AIX-001",
+          "句段解释",
+          "用户对当前字幕句段发起解释，返回翻译、重点词语、语法和必要的语用说明。",
+          "当前句段、前后文、学习语言"
+        ],
+        [
+          "FR-AIX-002",
+          "点词查询",
+          "点击词项时使用句中上下文解释词义、词形和用法，避免只给孤立词典义。",
+          "Token、句段、上下文"
+        ],
+        [
+          "FR-AIX-003",
+          "标记提问",
+          "允许选择/标记一段文本，再发起针对性问题。",
+          "选中文本、用户问题"
+        ],
+        [
+          "FR-AIX-004",
+          "追问对话",
+          "在同一解释会话中继续追问，并保持当前材料和句段上下文。",
+          "会话历史"
+        ],
+        [
+          "FR-AIX-005",
+          "结果结构化",
+          "界面至少区分翻译、词汇、语法/句法、补充说明，便于扫描。",
+          "AI 输出"
+        ],
+        [
+          "FR-AIX-006",
+          "错误提示",
+          "显示 AI 解释可能不准确；提供重试、重新选择上下文和反馈入口。",
+          "错误/低质量输出"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 67,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.8 字幕编辑、格式与导出"
+    },
+    {
+      "type": "table",
+      "index": 19,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "能力",
+          "要求",
+          "证据"
+        ],
+        [
+          "FR-EDT-001",
+          "人工插入",
+          "在 AI 字幕轨中新增一个有起止时间和文本的句段。",
+          "A"
+        ],
+        [
+          "FR-EDT-002",
+          "文本修订",
+          "建议支持修改识别文本、翻译和时间点；用户反馈表明可编辑，但需按版本验证。",
+          "C/I"
+        ],
+        [
+          "FR-EDT-003",
+          "冲突校验",
+          "新增/修改后检查时间重叠、倒序、空文本和超出媒体时长。",
+          "I"
+        ],
+        [
+          "FR-EDT-004",
+          "SRT 支持",
+          "公开版本历史确认增强 SRT 支持及字幕导出稳定性；导入/导出双向能力需验证。",
+          "A"
+        ],
+        [
+          "FR-EDT-005",
+          "LRC 支持",
+          "公开版本历史确认加入 LRC 歌词格式；具体字段映射需验证。",
+          "A"
+        ],
+        [
+          "FR-EDT-006",
+          "导出",
+          "导出成功后通过系统分享/文件保存交付；失败时保留编辑内容并允许重试。",
+          "A/I"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 69,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.9 播客发现、材料库与 Miraa Drop"
+    },
+    {
+      "type": "paragraph",
+      "index": 70,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "1.14 版本更新了播客首页，并优化播客列表浏览；官方账号说明该首页面向每种语言，目标是更容易发现内容。隐私政策同时说明推荐内容对所有用户一致，不进行个性化或定向推送。[S2][S4][S8]"
+    },
+    {
+      "type": "table",
+      "index": 20,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "能力",
+          "要求",
+          "证据"
+        ],
+        [
+          "FR-POD-001",
+          "语言入口",
+          "按学习语言展示播客首页或内容分区。",
+          "A/B"
+        ],
+        [
+          "FR-POD-002",
+          "节目/单集浏览",
+          "浏览节目列表、节目详情和单集，显示标题、时长与可用状态。",
+          "A/I"
+        ],
+        [
+          "FR-POD-003",
+          "搜索/记忆",
+          "官方账号曾公开“记住上次播客搜索”；应把它作为可选体验点验证。",
+          "B"
+        ],
+        [
+          "FR-POD-004",
+          "转为材料",
+          "从单集创建可播放/可转写的学习材料，并进入统一播放器。",
+          "A/I"
+        ],
+        [
+          "FR-LIB-001",
+          "材料状态",
+          "区分待处理、处理中、可学习、失败和已删除。",
+          "A/I"
+        ],
+        [
+          "FR-LIB-002",
+          "分类组织",
+          "用户反馈显示可创建音视频分类；是否跨设备同步及其上限未公开。",
+          "C"
+        ],
+        [
+          "FR-DRP-001",
+          "设备发现",
+          "发现附近 Miraa 设备并让用户明确选择接收方。",
+          "B/I"
+        ],
+        [
+          "FR-DRP-002",
+          "安全传输",
+          "建议使用短时会话、接收端确认、传输加密、内容校验和失败重试。",
+          "I"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 72,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "3.10 设置、通知与本地化"
+    },
+    {
+      "type": "table",
+      "index": 21,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "能力",
+          "推荐要求"
+        ],
+        [
+          "FR-SET-001",
+          "学习语言/界面语言",
+          "区分“界面语言、源语言、翻译目标语言”，避免一个设置承担多个含义。"
+        ],
+        [
+          "FR-SET-002",
+          "字幕设置",
+          "控制原文、译文、注音/音标、解析引擎、延迟显现及字幕位置/大小。"
+        ],
+        [
+          "FR-SET-003",
+          "播放设置",
+          "控制重复次数、速度、快进/快退步长、自动进入下一句等。"
+        ],
+        [
+          "FR-SET-004",
+          "权限设置",
+          "展示麦克风、照片/存储、通知等授权状态，并提供系统设置入口。"
+        ],
+        [
+          "FR-SET-005",
+          "任务通知",
+          "AI 字幕完成/失败时通知；版本历史明确优化过状态通知。"
+        ],
+        [
+          "FR-SET-006",
+          "账户与地区",
+          "查看套餐、区域、登录方式、退出、删除账号。"
+        ],
+        [
+          "FR-SET-007",
+          "反馈与诊断",
+          "提供反馈入口；诊断信息不得包含未授权的媒体正文或录音。"
+        ],
+        [
+          "FR-SET-008",
+          "多端布局",
+          "适配手机、平板、横屏和兼容 Mac/visionOS 的窗口尺寸。"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 74,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "4. 关键用户流程"
+    },
+    {
+      "type": "paragraph",
+      "index": 75,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "4.1 导入媒体并生成双语字幕"
+    },
+    {
+      "type": "paragraph",
+      "index": 76,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "用户选择“导入材料”，从本地文件、相册、在线链接或播客进入。"
+    },
+    {
+      "type": "paragraph",
+      "index": 77,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "客户端读取最小元数据并执行类型、时长、可访问性、网络和额度预校验。"
+    },
+    {
+      "type": "paragraph",
+      "index": 78,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "用户确认源语言、是否生成 AI 字幕、翻译目标语言及可选注音设置。"
+    },
+    {
+      "type": "paragraph",
+      "index": 79,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "客户端创建素材和转换任务；本地文件开始上传，在线资源进入解析/抓取。"
+    },
+    {
+      "type": "paragraph",
+      "index": 80,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "服务端执行转写、时间轴分段、翻译和语言解析；客户端持续展示任务状态。"
+    },
+    {
+      "type": "paragraph",
+      "index": 81,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "任务完成后生成统一学习材料，播放器从第一句或上次位置开始。"
+    },
+    {
+      "type": "paragraph",
+      "index": 82,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "若结果异常，用户可重新选择语言、重试、人工插入/修订字幕或删除材料。"
+    },
+    {
+      "type": "table",
+      "index": 22,
+      "page": 2,
+      "rows": [
+        [
+          "异常｜主要异常\n无权限、格式不支持、URL 失效/需登录、DRM 限制、额度不足、上传中断、识别失败、源语言选择错误、结果为空或时间轴漂移。"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 84,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "4.2 使用翻译与 AI 解释理解句子"
+    },
+    {
+      "type": "paragraph",
+      "index": 85,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "播放自动定位当前字幕句段并高亮。"
+    },
+    {
+      "type": "paragraph",
+      "index": 86,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "用户切换原文/译文/注音层，或点击某个词查看上下文释义。"
+    },
+    {
+      "type": "paragraph",
+      "index": 87,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "用户对整句、词语或标记文本发起 AI 解释。"
+    },
+    {
+      "type": "paragraph",
+      "index": 88,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "客户端发送选中内容、必要的前后文、语言设置和问题；服务返回结构化解释。"
+    },
+    {
+      "type": "paragraph",
+      "index": 89,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "用户继续追问，或返回字幕人工修订识别错误。"
+    },
+    {
+      "type": "paragraph",
+      "index": 90,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "4.3 完成一次 Echo 跟读"
+    },
+    {
+      "type": "paragraph",
+      "index": 91,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "用户在当前句进入 Echo 模式，先播放原音。"
+    },
+    {
+      "type": "paragraph",
+      "index": 92,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "查看翻译、词级解析或 AI 解释，确认句义。"
+    },
+    {
+      "type": "paragraph",
+      "index": 93,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "首次使用时授权麦克风；用户按提示开始并结束录音。"
+    },
+    {
+      "type": "paragraph",
+      "index": 94,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "应用保存本次跟读尝试，并允许试听用户录音。"
+    },
+    {
+      "type": "paragraph",
+      "index": 95,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "用户交替播放原音和录音完成比较，选择重录或进入下一句。"
+    },
+    {
+      "type": "paragraph",
+      "index": 96,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "4.4 编辑并导出字幕"
+    },
+    {
+      "type": "paragraph",
+      "index": 97,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "用户进入字幕管理，定位错误或缺失句段。"
+    },
+    {
+      "type": "paragraph",
+      "index": 98,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "新增句段或修订文本/时间（修订能力需按版本确认）。"
+    },
+    {
+      "type": "paragraph",
+      "index": 99,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "保存时执行时间范围、排序、重叠和空文本校验。"
+    },
+    {
+      "type": "paragraph",
+      "index": 100,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "选择 SRT 或 LRC 等受支持格式导出，并调用系统分享/保存。"
+    },
+    {
+      "type": "paragraph",
+      "index": 101,
+      "page": 2,
+      "style_id": "ListNumber",
+      "style": "List Number",
+      "text": "导出失败时保留修改，显示原因并允许重试。"
+    },
+    {
+      "type": "paragraph",
+      "index": 102,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "5. 概念数据模型"
+    },
+    {
+      "type": "table",
+      "index": 23,
+      "page": 2,
+      "rows": [
+        [
+          "逻辑推断｜模型性质\n以下是为了支持功能设计和接口讨论而建立的概念模型（I），不代表 Miraa 的真实数据库表或字段。"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 24,
+      "page": 2,
+      "rows": [
+        [
+          "实体",
+          "关键字段示例",
+          "关系/用途",
+          "数据注意事项"
+        ],
+        [
+          "User",
+          "user_id, region, interface_language, created_at",
+          "拥有订阅、设备、材料和解释会话。",
+          "账号删除时需要清理或匿名化。"
+        ],
+        [
+          "Entitlement",
+          "plan, status, quota, renewal_at, store",
+          "决定转写/翻译等功能可用性。",
+          "价格与额度不得硬编码。"
+        ],
+        [
+          "Device",
+          "device_id, platform, app_version, permissions",
+          "用于登录态、通知和 Miraa Drop。",
+          "避免持久化不必要的硬件标识。"
+        ],
+        [
+          "MediaItem",
+          "media_id, source_type, title, duration, language, state",
+          "学习材料聚合根。",
+          "源文件与派生字幕的保留策略分开。"
+        ],
+        [
+          "SourceReference",
+          "local/online/podcast/drop, uri, metadata",
+          "指向原始素材来源。",
+          "URL/文件句柄可能失效。"
+        ],
+        [
+          "ConversionJob",
+          "job_id, stage, progress, error_code, attempts",
+          "异步处理任务。",
+          "需幂等、可重试、可清理。"
+        ],
+        [
+          "SubtitleTrack",
+          "track_id, kind, language, format, revision",
+          "原文、译文、注音等字幕轨。",
+          "支持版本与导出。"
+        ],
+        [
+          "SubtitleSegment",
+          "segment_id, start_ms, end_ms, text, confidence",
+          "播放器和 Echo 的最小时间单元。",
+          "需校验顺序、重叠和范围。"
+        ],
+        [
+          "TokenAnnotation",
+          "token, lemma, reading, phonetic, gloss, span",
+          "词级点击与显示。",
+          "不同语言字段不同。"
+        ],
+        [
+          "ExplanationThread",
+          "thread_id, segment_id, selection, turns",
+          "AI 解释与追问上下文。",
+          "应限制上下文并支持删除。"
+        ],
+        [
+          "EchoAttempt",
+          "attempt_id, segment_id, recording_ref, created_at",
+          "一次跟读录音。",
+          "录音保留与上传策略需明确。"
+        ],
+        [
+          "Collection",
+          "collection_id, name, order",
+          "材料分类/组织。",
+          "该功能由用户反馈补充确认。"
+        ],
+        [
+          "PodcastEntity",
+          "feed_id, episode_id, language, media_url",
+          "播客发现与材料创建。",
+          "推荐为非个性化。"
+        ],
+        [
+          "TransferSession",
+          "session_id, sender, receiver, status, checksum",
+          "Miraa Drop 会话。",
+          "需短时授权和传输加密。"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 105,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "5.1 关键状态机"
+    },
+    {
+      "type": "table",
+      "index": 25,
+      "page": 2,
+      "rows": [
+        [
+          "对象",
+          "建议状态",
+          "状态说明"
+        ],
+        [
+          "MediaItem",
+          "DRAFT → SUBMITTED → PROCESSING → READY / FAILED → DELETED",
+          "材料从创建到可学习的生命周期。"
+        ],
+        [
+          "ConversionJob",
+          "CREATED → UPLOADING/FETCHING → QUEUED → ASR → POST_PROCESS → COMPLETED / FAILED / CANCELED",
+          "体现上传、识别、翻译和解析阶段。"
+        ],
+        [
+          "EchoAttempt",
+          "IDLE → RECORDING → RECORDED → PLAYBACK / DISCARDED",
+          "避免录音按钮状态不明确。"
+        ],
+        [
+          "TransferSession",
+          "DISCOVERING → REQUESTED → ACCEPTED → TRANSFERRING → VERIFIED / FAILED / EXPIRED",
+          "支持授权、校验和超时。"
+        ],
+        [
+          "Entitlement",
+          "FREE / ACTIVE / GRACE / EXPIRED / REVOKED",
+          "处理订阅续期、宽限期和撤销。"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 107,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "6. 逻辑服务架构与接口"
+    },
+    {
+      "type": "paragraph",
+      "index": 108,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "该章节给出可支持上述功能的建议服务分层。Miraa 的真实实现可能是单体、模块化服务或第三方 API 组合，公开资料无法确认。"
+    },
+    {
+      "type": "table",
+      "index": 26,
+      "page": 2,
+      "rows": [
+        [
+          "逻辑组件",
+          "责任边界"
+        ],
+        [
+          "Client App",
+          "播放器、字幕渲染、素材库、录音、权限、缓存、任务轮询/推送。"
+        ],
+        [
+          "Auth & Entitlement",
+          "登录、区域、令牌、套餐和额度；对所有 AI 任务做服务端权威校验。"
+        ],
+        [
+          "Ingestion Gateway",
+          "接收本地上传或在线资源请求，生成内容指纹并执行安全/格式校验。"
+        ],
+        [
+          "Job Orchestrator",
+          "异步阶段编排、幂等、重试、超时、取消、进度和通知。"
+        ],
+        [
+          "Media Processing",
+          "音轨抽取、转码、采样率标准化、时长与时间轴处理。"
+        ],
+        [
+          "ASR Service",
+          "语音识别、语言检测、句段切分和时间戳。供应商未知。"
+        ],
+        [
+          "Translation Service",
+          "字幕翻译与语言对转换。供应商未知。"
+        ],
+        [
+          "Language Parser",
+          "分词、词形、读音、音标、简繁体和语言特定解析。"
+        ],
+        [
+          "AI Explanation",
+          "基于句段与上下文生成结构化解释和对话。模型未知。"
+        ],
+        [
+          "Content/Podcast Catalog",
+          "播客首页、列表、搜索及非个性化内容展示。"
+        ],
+        [
+          "Subtitle Service",
+          "字幕版本、人工插入/修订、SRT/LRC 解析与导出。"
+        ],
+        [
+          "Transfer Service",
+          "Miraa Drop 发现、配对、短时授权、校验和传输状态。"
+        ],
+        [
+          "Telemetry",
+          "产品交互、性能和崩溃分析；公开政策列出 Firebase 崩溃分析。"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 110,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "6.1 推荐接口契约"
+    },
+    {
+      "type": "table",
+      "index": 27,
+      "page": 2,
+      "rows": [
+        [
+          "示意接口",
+          "用途",
+          "请求要点",
+          "响应要点"
+        ],
+        [
+          "POST /materials",
+          "创建材料",
+          "source_type, source_ref, source_language, translation_language",
+          "media_id, state"
+        ],
+        [
+          "POST /materials/{id}/jobs",
+          "提交转写/后处理",
+          "options, idempotency_key",
+          "job_id, quota_snapshot"
+        ],
+        [
+          "GET /jobs/{id}",
+          "查询任务",
+          "job_id",
+          "stage, progress, error, result_refs"
+        ],
+        [
+          "GET /materials/{id}/tracks",
+          "读取字幕层",
+          "language/kind/revision",
+          "tracks, segments, annotations"
+        ],
+        [
+          "PATCH /segments/{id}",
+          "修订句段",
+          "text, start_ms, end_ms, revision",
+          "new_revision/conflict"
+        ],
+        [
+          "POST /explanations",
+          "发起 AI 解释",
+          "segment_id, selection, context, question",
+          "thread_id, structured_answer"
+        ],
+        [
+          "POST /echo-attempts",
+          "登记跟读尝试",
+          "segment_id, recording metadata",
+          "attempt_id, retention_info"
+        ],
+        [
+          "POST /exports",
+          "导出字幕",
+          "track_id, format",
+          "download/share reference"
+        ],
+        [
+          "POST /drop/sessions",
+          "建立传输会话",
+          "receiver, media_id, consent token",
+          "session_id, expires_at"
+        ],
+        [
+          "DELETE /account",
+          "删除账号",
+          "confirmation, auth challenge",
+          "deletion_request/status"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 28,
+      "page": 2,
+      "rows": [
+        [
+          "设计｜接口原则\n所有写操作应支持幂等键或版本号；媒体/字幕修改应使用乐观锁；任务错误返回稳定错误码；套餐权益必须由服务端验证；客户端不得凭本地状态绕过额度。"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 113,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "7. 非功能要求"
+    },
+    {
+      "type": "paragraph",
+      "index": 114,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "下列指标是为实现和验收提出的推荐目标（I），并非 Miraa 官方 SLA。实际值应根据媒体长度、模型能力、成本和移动网络重新评审。"
+    },
+    {
+      "type": "table",
+      "index": 29,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "类别",
+          "推荐要求"
+        ],
+        [
+          "NFR-PERF-01",
+          "交互响应",
+          "播放、暂停、切换字幕层、点词等本地操作 P95 ≤ 250 ms。"
+        ],
+        [
+          "NFR-PERF-02",
+          "任务反馈",
+          "用户提交转写后 2 秒内出现任务记录和明确阶段；长任务异步执行。"
+        ],
+        [
+          "NFR-SYNC-01",
+          "字幕同步",
+          "正常媒体的字幕高亮与音频主观漂移应控制在可感知阈值内；建议 P95 ≤ 250 ms。"
+        ],
+        [
+          "NFR-REL-01",
+          "上传可靠性",
+          "大文件支持分片/续传；网络切换后可恢复，不重复扣减额度。"
+        ],
+        [
+          "NFR-REL-02",
+          "任务幂等",
+          "同一 idempotency_key 不重复创建计费任务。"
+        ],
+        [
+          "NFR-REL-03",
+          "弱网体验",
+          "显示缓冲和重试状态；播放器与任务列表不可无提示卡死。"
+        ],
+        [
+          "NFR-SEC-01",
+          "传输安全",
+          "账号、媒体、文本、录音和 Miraa Drop 数据均使用加密传输；凭据存入平台安全存储。"
+        ],
+        [
+          "NFR-PRV-01",
+          "最小化",
+          "仅在功能需要时采集媒体、文本、录音和设备信息，并展示用途。"
+        ],
+        [
+          "NFR-LOC-01",
+          "本地化",
+          "界面语言、学习语言、翻译语言分别配置；布局适配长文本、RTL 和注音。"
+        ],
+        [
+          "NFR-A11Y-01",
+          "无障碍",
+          "播放器和录音控件提供可访问名称；支持动态字体、对比度、键盘/触控焦点。"
+        ],
+        [
+          "NFR-OBS-01",
+          "可观测性",
+          "记录任务阶段、耗时、失败码和崩溃，不记录完整媒体正文/录音作为普通日志。"
+        ],
+        [
+          "NFR-COST-01",
+          "成本保护",
+          "对时长、并发、重复请求和自动化访问执行服务端配额与公平使用控制。"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 116,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "7.1 监控与验收口径"
+    },
+    {
+      "type": "paragraph",
+      "index": 117,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "以下口径用于把推荐性非功能要求转成可重复测量的验收数据。采集时应遵守最小化原则，避免把完整媒体、字幕正文或录音写入普通分析日志。"
+    },
+    {
+      "type": "table",
+      "index": 30,
+      "page": 2,
+      "rows": [
+        [
+          "测量对象",
+          "推荐口径",
+          "排除项/分层"
+        ],
+        [
+          "交互延迟",
+          "客户端事件起点至界面可见完成；统计 P50/P95/P99",
+          "冷启动、系统权限弹窗和第三方播放器初始化单列"
+        ],
+        [
+          "任务反馈",
+          "提交成功至任务卡片出现及首个服务端阶段可见",
+          "区分客户端排队、上传、服务端排队和模型处理"
+        ],
+        [
+          "字幕同步",
+          "播放器时钟与当前句段边界的偏差；抽样自动测量并配合人工听感",
+          "变速、蓝牙延迟、直播流及源文件时间戳异常单列"
+        ],
+        [
+          "弱网恢复",
+          "断网/切网后恢复成功率、重复任务率与重复扣量率",
+          "覆盖前台、后台、进程被杀和系统省电场景"
+        ],
+        [
+          "AI 质量",
+          "按语言和场景抽样评估转写、翻译、解析与解释；记录用户修订/重试率",
+          "不得用单一综合分数掩盖语言与素材类型差异"
+        ],
+        [
+          "隐私审计",
+          "定期检查上传文件删除、翻译文本留存、录音路径、权限用途及分析字段",
+          "生产日志与支持工单均不得默认包含完整学习内容"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 119,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "8. 数据、隐私与权限"
+    },
+    {
+      "type": "paragraph",
+      "index": 120,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "Miraa 的隐私政策对核心处理链路给出了较明确说明：AI 字幕会上传文件到服务器识别并在识别后删除；翻译文本会发送到服务器处理，处理后删除且不存储；Echo 需要麦克风权限；选择本地文件需要存储权限。[S4]"
+    },
+    {
+      "type": "paragraph",
+      "index": 122,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "图 2  公开隐私说明下的逻辑数据流"
+    },
+    {
+      "type": "table",
+      "index": 31,
+      "page": 2,
+      "rows": [
+        [
+          "数据",
+          "用途",
+          "触发",
+          "公开保留说明",
+          "技术/合规注意"
+        ],
+        [
+          "邮箱",
+          "购买/账号标识",
+          "注册/购买时",
+          "账号生命周期",
+          "删除账号/访问更正权"
+        ],
+        [
+          "媒体文件",
+          "AI 字幕识别",
+          "用户主动提交",
+          "政策称识别后删除相关文件",
+          "需明确失败/取消/备份清理"
+        ],
+        [
+          "待翻译文本",
+          "字幕翻译",
+          "用户使用翻译功能",
+          "政策称处理后删除且不存储",
+          "需避免写入普通日志"
+        ],
+        [
+          "跟读录音",
+          "Echo 模仿与比较",
+          "麦克风授权后",
+          "公开政策未明确",
+          "必须补充本地/云端保留说明"
+        ],
+        [
+          "设备型号/系统/IP",
+          "用户分布和网络统计",
+          "一般网络请求",
+          "匿名统计，具体周期未公开",
+          "IP 是否真正匿名需技术评审"
+        ],
+        [
+          "使用数据/崩溃数据",
+          "分析与稳定性",
+          "应用运行",
+          "平台声明为未关联或部分收集",
+          "iOS/Android 声明存在差异"
+        ],
+        [
+          "订阅与购买历史",
+          "权益校验/客户支持",
+          "应用内购买",
+          "账号相关数据",
+          "删除账号时应处理法律保留义务"
+        ],
+        [
+          "地区选择",
+          "数据驻留",
+          "注册时",
+          "国际区存美国；中国区存中国",
+          "跨区迁移规则未公开"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 124,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "8.1 设备权限"
+    },
+    {
+      "type": "table",
+      "index": 32,
+      "page": 2,
+      "rows": [
+        [
+          "权限",
+          "功能用途",
+          "拒绝后的预期行为"
+        ],
+        [
+          "麦克风",
+          "Echo 跟读录音。",
+          "仍可听、看字幕和使用解释；录音入口提示授权方法。"
+        ],
+        [
+          "文件/存储",
+          "选择本地音视频、保存或导出字幕。",
+          "保留在线/播客能力；说明无法读取/保存本地内容。"
+        ],
+        [
+          "照片/媒体库",
+          "从系统相册导入视频等媒体。",
+          "允许通过文件选择器或在线来源替代。"
+        ],
+        [
+          "通知",
+          "AI 字幕任务完成、失败或服务公告。",
+          "任务仍可在应用内查询，不阻断核心流程。"
+        ],
+        [
+          "局域网/附近设备（可能）",
+          "Miraa Drop 发现和传输。",
+          "禁用 Drop，但不影响普通学习。具体权限依平台实现。"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 126,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "8.2 平台隐私声明差异"
+    },
+    {
+      "type": "table",
+      "index": 33,
+      "page": 2,
+      "rows": [
+        [
+          "合规｜需持续对账\nApple 页面显示可能收集但不与身份关联的使用数据和诊断数据；Google Play 页面显示可能收集个人信息、应用活动和应用信息/性能，并可能与第三方共享应用活动及性能数据，同时声明传输加密和可请求删除。两者由开发者自行申报且可随版本、地区和功能变化，应由合规团队逐项对账。[S2][S3]"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 128,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "9. 异常与边界场景"
+    },
+    {
+      "type": "table",
+      "index": 34,
+      "page": 2,
+      "rows": [
+        [
+          "错误码",
+          "场景",
+          "影响",
+          "预期处理"
+        ],
+        [
+          "E-ING-001",
+          "文件不可读/格式不支持",
+          "导入失败",
+          "显示支持范围与可操作建议；不创建计费任务。"
+        ],
+        [
+          "E-ING-002",
+          "在线链接失效、需登录或受 DRM 限制",
+          "在线转换失败",
+          "说明原因；允许重新登录/更换来源；不得承诺绕过 DRM。"
+        ],
+        [
+          "E-QUO-001",
+          "额度不足/公平使用限制",
+          "任务被拒绝或限流",
+          "展示当前套餐和升级/等待选项；避免重复扣量。"
+        ],
+        [
+          "E-NET-001",
+          "上传中断/弱网",
+          "任务停滞",
+          "断点续传或安全重试；保留任务状态。"
+        ],
+        [
+          "E-ASR-001",
+          "识别为空或语言错误",
+          "无可用字幕",
+          "建议重新选语言、换音轨或重试；不生成误导性解释。"
+        ],
+        [
+          "E-SUB-001",
+          "时间轴错位/句段重叠",
+          "播放与字幕不同步",
+          "允许修订或重新处理；记录媒体时间基准。"
+        ],
+        [
+          "E-TRN-001",
+          "翻译/解析失败",
+          "只有原文或部分层缺失",
+          "播放器仍可用；按层重试，不重跑完整 ASR。"
+        ],
+        [
+          "E-AI-001",
+          "AI 解释失败/答非所问",
+          "解释不可用",
+          "保留用户选择和问题，允许重试/反馈/缩小上下文。"
+        ],
+        [
+          "E-MIC-001",
+          "麦克风拒绝或录音中断",
+          "Echo 无法录音",
+          "继续提供 Listen/Understand；显示设置入口。"
+        ],
+        [
+          "E-EXP-001",
+          "导出失败/无存储权限",
+          "SRT/LRC 未生成或未保存",
+          "不丢失编辑，允许重新授权或分享。"
+        ],
+        [
+          "E-DRP-001",
+          "设备发现失败/会话超时/校验失败",
+          "Miraa Drop 中断",
+          "自动过期会话并可重试；不保留半成品为可用材料。"
+        ],
+        [
+          "E-ACC-001",
+          "登录/订阅状态不同步",
+          "权益误判",
+          "从商店和服务端刷新；提供购买恢复，避免本地永久锁定。"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 130,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "10. 验收标准"
+    },
+    {
+      "type": "paragraph",
+      "index": 131,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "以下用例可作为黑盒验收基线。受公开信息限制，涉及具体阈值、格式和平台差异的条目在执行前需与目标版本确认。"
+    },
+    {
+      "type": "table",
+      "index": 35,
+      "page": 2,
+      "rows": [
+        [
+          "ID",
+          "验收项",
+          "通过条件"
+        ],
+        [
+          "AC-01",
+          "本地素材导入",
+          "给定一个受支持的本地音/视频，当用户确认语言并提交后，列表立即出现任务且显示可理解的处理阶段。"
+        ],
+        [
+          "AC-02",
+          "隐私提示",
+          "首次触发媒体上传或录音前，用户能看到与权限/处理目的匹配的提示。"
+        ],
+        [
+          "AC-03",
+          "AI 字幕",
+          "任务成功后至少生成带时间戳的原文字幕轨，播放器可按句段定位。"
+        ],
+        [
+          "AC-04",
+          "翻译层",
+          "用户启用翻译后，当前句段显示目标语言译文；失败时原文播放不受阻。"
+        ],
+        [
+          "AC-05",
+          "语言解析",
+          "日语材料在启用注音时显示读音；关闭后布局不留异常空位。"
+        ],
+        [
+          "AC-06",
+          "同步高亮",
+          "播放跨越句段边界时，当前句高亮随时间轴更新，点击句段可跳转。"
+        ],
+        [
+          "AC-07",
+          "逐句重复",
+          "设置重复 N 次后，当前句按 N 次播放并可提前终止。"
+        ],
+        [
+          "AC-08",
+          "延迟显现",
+          "启用后字幕/翻译按配置延后出现；关闭后立即恢复普通显示。"
+        ],
+        [
+          "AC-09",
+          "点词查询",
+          "点击可交互词项后，解释使用当前句上下文并允许返回原播放位置。"
+        ],
+        [
+          "AC-10",
+          "AI 解释",
+          "对句段发起解释时，结果至少区分翻译和语言要点；失败可重试且不丢失问题。"
+        ],
+        [
+          "AC-11",
+          "Echo 录音",
+          "授权麦克风后可录制、停止、试听、删除和重录；拒绝权限不阻断其他学习功能。"
+        ],
+        [
+          "AC-12",
+          "Compare",
+          "用户可以清楚区分原音和自己的录音并交替播放；界面不暗示未实现的自动评分。"
+        ],
+        [
+          "AC-13",
+          "字幕插入",
+          "新增字幕句段后保存并在播放器时间轴可见；非法时间范围被阻止。"
+        ],
+        [
+          "AC-14",
+          "字幕导出",
+          "至少一种公开支持格式可生成并交付系统分享/文件保存；失败保留编辑。"
+        ],
+        [
+          "AC-15",
+          "弱网恢复",
+          "上传或处理状态在网络恢复后可继续/重试，且同一任务不重复扣量。"
+        ],
+        [
+          "AC-16",
+          "账号删除",
+          "设置中可提交删除；完成后无法继续使用原账号权益，相关数据进入删除流程。"
+        ],
+        [
+          "AC-17",
+          "播客浏览",
+          "用户可按语言进入播客页面、选择单集并开始播放或创建学习材料。"
+        ],
+        [
+          "AC-18",
+          "Miraa Drop",
+          "接收端明确同意后才开始传输；完成后进行完整性校验，超时会话自动失效。"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 133,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "11. 已知限制与待确认问题"
+    },
+    {
+      "type": "table",
+      "index": 36,
+      "page": 2,
+      "rows": [
+        [
+          "编号",
+          "待确认问题",
+          "影响"
+        ],
+        [
+          "OQ-01",
+          "精确支持哪些音视频容器、编码、最大文件大小和最大时长？",
+          "导入校验、成本、失败率"
+        ],
+        [
+          "OQ-02",
+          "各学习语言是否都支持 ASR、翻译、注音、词法解析和 AI 解释？",
+          "语言矩阵与 UI"
+        ],
+        [
+          "OQ-03",
+          "是否支持离线播放、离线字幕、离线查词或离线录音比较？",
+          "弱网与隐私"
+        ],
+        [
+          "OQ-04",
+          "Echo 录音只在本地还是会上传？保留多久？是否跨设备？",
+          "高优先级隐私问题"
+        ],
+        [
+          "OQ-05",
+          "Compare 是否包含自动发音评分、波形对齐或仅供人工试听？",
+          "功能承诺与验收"
+        ],
+        [
+          "OQ-06",
+          "Miraa Drop 使用何种发现协议、加密、配对和权限？",
+          "局域网安全"
+        ],
+        [
+          "OQ-07",
+          "字幕 SRT/LRC 的导入/导出方向、编码、样式和多轨规则是什么？",
+          "互操作性"
+        ],
+        [
+          "OQ-08",
+          "材料、字幕、分类和解释会话是否自动云同步？",
+          "多设备一致性"
+        ],
+        [
+          "OQ-09",
+          "免费/Basic/Pro 的实时额度、单任务限制和功能差异是什么？",
+          "商业规则"
+        ],
+        [
+          "OQ-10",
+          "AI 解释使用何种模型、上下文长度、内容过滤和质量评估？",
+          "成本、安全、质量"
+        ],
+        [
+          "OQ-11",
+          "ASR 置信度、说话人分离、多音轨和背景音乐场景如何处理？",
+          "转写质量"
+        ],
+        [
+          "OQ-12",
+          "是否提供生词本、SRS、学习进度、连续学习天数或课程体系？",
+          "产品边界；公开资料未确认"
+        ],
+        [
+          "OQ-13",
+          "可访问性支持清单为何未在 Apple 页面声明？",
+          "无障碍合规"
+        ],
+        [
+          "OQ-14",
+          "导入第三方在线内容时如何处理版权、登录、地区和 DRM？",
+          "合规与可用性"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "index": 37,
+      "page": 2,
+      "rows": [
+        [
+          "结论｜产品边界结论\n依据公开资料，Miraa 更接近“真实媒体学习处理器 + 互动播放器 + 跟读工具”，而不是提供完整课程路径、JLPT 题库或词汇 SRS 的传统日语课程应用。该结论属于功能结构推断，不排除后续版本增加相关模块。"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 136,
+      "page": 2,
+      "style_id": "Heading1",
+      "style": "heading 1",
+      "text": "12. 证据矩阵与参考资料"
+    },
+    {
+      "type": "table",
+      "index": 38,
+      "page": 2,
+      "rows": [
+        [
+          "能力",
+          "证据来源",
+          "等级",
+          "引用"
+        ],
+        [
+          "AI 双语字幕、实时翻译、AI 解释、Echo 四步法",
+          "官方官网/商店说明",
+          "A",
+          "S1, S2, S3"
+        ],
+        [
+          "本地/在线媒体、播客",
+          "版本历史、商店说明",
+          "A",
+          "S2, S3"
+        ],
+        [
+          "延迟显现、字幕人工插入、SRT/LRC、横屏/全屏/双击快进",
+          "App Store 版本历史",
+          "A",
+          "S2"
+        ],
+        [
+          "日语 Gaya、日语注音、英语音标、韩语注音方向、中文简繁设置",
+          "App Store 版本历史",
+          "A",
+          "S2"
+        ],
+        [
+          "媒体上传识别后删除、翻译文本处理后删除",
+          "隐私政策",
+          "A",
+          "S4"
+        ],
+        [
+          "麦克风与存储权限、数据驻留、账号删除、Firebase",
+          "隐私政策",
+          "A",
+          "S4"
+        ],
+        [
+          "免费/Basic/Pro、30 分钟、220,000 词、公平使用",
+          "使用条款",
+          "A（可能过时）",
+          "S5"
+        ],
+        [
+          "Miraa Drop",
+          "官方 X 账号",
+          "B",
+          "S6"
+        ],
+        [
+          "上下文点词、标记文本向 AI 提问",
+          "官方 X 账号",
+          "B",
+          "S7"
+        ],
+        [
+          "播客首页重设计/按语言发现",
+          "官方 X 账号与版本历史",
+          "A/B",
+          "S2, S8"
+        ],
+        [
+          "材料分类、字幕编辑体验",
+          "App Store 用户反馈",
+          "C",
+          "S2"
+        ],
+        [
+          "逻辑数据模型、服务分层、接口、NFR、错误码",
+          "本说明书技术推断",
+          "I",
+          "—"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "index": 138,
+      "page": 2,
+      "style_id": "Heading2",
+      "style": "heading 2",
+      "text": "12.1 参考资料"
+    },
+    {
+      "type": "paragraph",
+      "index": 139,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "[S1] Miraa 官方网站：AI Bilingual Subtitles & Learning：来源链接"
+    },
+    {
+      "type": "paragraph",
+      "index": 140,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "[S2] Apple App Store：Miraa - AI transcribe & shadow（含版本历史、兼容性、隐私声明和内购）：来源链接"
+    },
+    {
+      "type": "paragraph",
+      "index": 141,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "[S3] Google Play：Miraa - AI transcribe & study（含功能、更新和 Data safety）：来源链接"
+    },
+    {
+      "type": "paragraph",
+      "index": 142,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "[S4] Miraa Privacy Policy：来源链接"
+    },
+    {
+      "type": "paragraph",
+      "index": 143,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "[S5] Miraa Terms of Use：来源链接"
+    },
+    {
+      "type": "paragraph",
+      "index": 144,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "[S6] Miraa 官方 X：Version 1.6 / Miraa Drop：来源链接"
+    },
+    {
+      "type": "paragraph",
+      "index": 145,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "[S7] Miraa 官方 X：Version 1.7 / 上下文点词与标记提问：来源链接"
+    },
+    {
+      "type": "paragraph",
+      "index": 146,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "[S8] Miraa 官方 X：Version 1.14 / Podcast Home：来源链接"
+    },
+    {
+      "type": "paragraph",
+      "index": 147,
+      "page": 2,
+      "style_id": "",
+      "style": "",
+      "text": "检索日期：2026-08-19。应用商店价格、版本号、评分、语言、隐私标签和功能说明可能随地区与时间变化；实施前应重新核对目标商店和目标版本。"
+    }
+  ]
+}

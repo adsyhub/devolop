@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "description": "2010-12-N1：LLM 逐句校对发现的 ASR 误识别修正 16 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "a57f811dafca1321b30c8da052e5bcc0f19db810b28441cdea8ce76004fdf2fc",
+  "evidence": {
+    "file": "proofread-work/2010-12-N1/proofread.json",
+    "proposedFixes": "proofread-work/2010-12-N1/proposed-fixes.json",
+    "notes": "proofread-work/2010-12-N1/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 31,
+      "endIndex": 31,
+      "expectedStartTime": 195.47,
+      "expectedEndTime": 200.96,
+      "items": [
+        {
+          "startTime": 195.47,
+          "endTime": 200.96,
+          "sourceText": "会議で企画が通ったら試食会を行って対象者の生の声も聞いてみましょう。",
+          "jaText": "会議で企画が通ったら試食会を行って対象者の生の声も聞いてみましょう。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 51,
+      "endIndex": 51,
+      "expectedStartTime": 346.54,
+      "expectedEndTime": 350.93,
+      "items": [
+        {
+          "startTime": 346.54,
+          "endTime": 350.93,
+          "sourceText": "所属している課とは関係なく動きますから注意してください",
+          "jaText": "所属している課とは関係なく動きますから注意してください"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 52,
+      "endIndex": 52,
+      "expectedStartTime": 350.93,
+      "expectedEndTime": 355.44,
+      "items": [
+        {
+          "startTime": 350.93,
+          "endTime": 355.44,
+          "sourceText": "それ以外の人は課ごとに動きます",
+          "jaText": "それ以外の人は課ごとに動きます"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 68,
+      "endIndex": 68,
+      "expectedStartTime": 432.99,
+      "expectedEndTime": 439.35,
+      "items": [
+        {
+          "startTime": 432.99,
+          "endTime": 439.35,
+          "sourceText": "復旧に2時間はかかるとのことで、予定より会社に戻るのがだいぶ遅れそうなんですが。",
+          "jaText": "復旧に2時間はかかるとのことで、予定より会社に戻るのがだいぶ遅れそうなんですが。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 118,
+      "endIndex": 118,
+      "expectedStartTime": 783.64,
+      "expectedEndTime": 792.34,
+      "items": [
+        {
+          "startTime": 783.64,
+          "endTime": 792.34,
+          "sourceText": "まあ少なかったけどかえってやりやすかったよ それより2ヶ月で企画をまとめなきゃいけなかったのがきつかったなぁ",
+          "jaText": "まあ少なかったけどかえってやりやすかったよ それより2ヶ月で企画をまとめなきゃいけなかったのがきつかったなぁ"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 132,
+      "endIndex": 132,
+      "expectedStartTime": 873.73,
+      "expectedEndTime": 876.67,
+      "items": [
+        {
+          "startTime": 873.73,
+          "endTime": 876.67,
+          "sourceText": "配給会社も宣伝に力を入れてなかったんだって",
+          "jaText": "配給会社も宣伝に力を入れてなかったんだって"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 139,
+      "endIndex": 139,
+      "expectedStartTime": 893.64,
+      "expectedEndTime": 895.7,
+      "items": [
+        {
+          "startTime": 893.64,
+          "endTime": 895.7,
+          "sourceText": "噂が噂を呼んだってわけね",
+          "jaText": "噂が噂を呼んだってわけね"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 148,
+      "endIndex": 148,
+      "expectedStartTime": 976.28,
+      "expectedEndTime": 981.13,
+      "items": [
+        {
+          "startTime": 976.28,
+          "endTime": 981.13,
+          "sourceText": "ただ私としては支店の目標達成もさることながら",
+          "jaText": "ただ私としては支店の目標達成もさることながら"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 153,
+      "endIndex": 153,
+      "expectedStartTime": 998.34,
+      "expectedEndTime": 1007.37,
+      "items": [
+        {
+          "startTime": 998.34,
+          "endTime": 1007.37,
+          "sourceText": "支店長は何が一番嬉しいと言っていますか",
+          "jaText": "支店長は何が一番嬉しいと言っていますか"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 176,
+      "endIndex": 176,
+      "expectedStartTime": 1196.39,
+      "expectedEndTime": 1207.11,
+      "items": [
+        {
+          "startTime": 1196.39,
+          "endTime": 1207.11,
+          "sourceText": "ただし、光熱費などがかさみ、従来の野菜より高くなってしまうことが懸念されたため、ほとんどの農家は利用してきませんでした。",
+          "jaText": "ただし、光熱費などがかさみ、従来の野菜より高くなってしまうことが懸念されたため、ほとんどの農家は利用してきませんでした。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 183,
+      "endIndex": 183,
+      "expectedStartTime": 1279.66,
+      "expectedEndTime": 1281.87,
+      "items": [
+        {
+          "startTime": 1279.66,
+          "endTime": 1281.87,
+          "sourceText": "桜商事の山田です",
+          "jaText": "桜商事の山田です"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 211,
+      "endIndex": 211,
+      "expectedStartTime": 1493.13,
+      "expectedEndTime": 1497.98,
+      "items": [
+        {
+          "startTime": 1493.13,
+          "endTime": 1497.98,
+          "sourceText": "ある鳥は細長い花の蜜を吸うために",
+          "jaText": "ある鳥は細長い花の蜜を吸うために"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 230,
+      "endIndex": 230,
+      "expectedStartTime": 1660.49,
+      "expectedEndTime": 1672.47,
+      "items": [
+        {
+          "startTime": 1660.49,
+          "endTime": 1672.47,
+          "sourceText": "ある調査では、コーヒーを1日3杯以上飲む人は、糖尿病を発症する可能性がほとんど飲まない人より40%少ないという結果が出ています。",
+          "jaText": "ある調査では、コーヒーを1日3杯以上飲む人は、糖尿病を発症する可能性がほとんど飲まない人より40%少ないという結果が出ています。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 241,
+      "endIndex": 241,
+      "expectedStartTime": 1735.24,
+      "expectedEndTime": 1741.74,
+      "items": [
+        {
+          "startTime": 1735.24,
+          "endTime": 1741.74,
+          "sourceText": "お世話になっております朝日商事の佐藤です",
+          "jaText": "お世話になっております朝日商事の佐藤です"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 276,
+      "endIndex": 276,
+      "expectedStartTime": 1955.38,
+      "expectedEndTime": 1965.35,
+      "items": [
+        {
+          "startTime": 1955.38,
+          "endTime": 1965.35,
+          "sourceText": "何事にも挑戦する気持ちを忘れず、自分に向いていないと思ったことにも、前向きに取り組んでいくことが肝要だと考えます。",
+          "jaText": "何事にも挑戦する気持ちを忘れず、自分に向いていないと思ったことにも、前向きに取り組んでいくことが肝要だと考えます。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 371,
+      "endIndex": 371,
+      "expectedStartTime": 2622.92,
+      "expectedEndTime": 2631.4,
+      "items": [
+        {
+          "startTime": 2622.92,
+          "endTime": 2631.4,
+          "sourceText": "デザイン料がかなり上がっちゃってるんですよ コストがかかりすぎますねうーんそうだねやっぱり",
+          "jaText": "デザイン料がかなり上がっちゃってるんですよ コストがかかりすぎますねうーんそうだねやっぱり"
+        }
+      ]
+    }
+  ]
+}

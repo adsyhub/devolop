@@ -1,0 +1,641 @@
+{
+  "schemaVersion": 1,
+  "description": "Repair final commercial spot-check failures: standardized 聴解 labels, duplicated or hallucinated prompts, the question 12 response block, the complete problem 5 introduction and school-trip dialogue, and known ASR homophone errors.",
+  "sourceSentencesDigest": "ac60e24a44d4219ab0222add8547574d17194813ad3a34f880c0a279513130b7",
+  "evidence": {
+    "files": [
+      "final-spotcheck-retranscription.json",
+      "final-spotcheck-crosscheck.json",
+      "final-spotcheck-school-crosscheck.json",
+      "final-spotcheck-duplicates.json"
+    ],
+    "models": [
+      "faster-whisper large-v3",
+      "faster-whisper small"
+    ],
+    "conditionOnPreviousText": false,
+    "temperature": 0.0,
+    "beamSizes": [
+      5,
+      10
+    ],
+    "note": "聴解 and obvious grammatical homophones were normalized from the standardized JLPT wording after cross-ASR review."
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 0,
+      "endIndex": 5,
+      "expectedStartTime": 4.02,
+      "expectedEndTime": 53.34,
+      "items": [
+        {
+          "startTime": 4.04,
+          "endTime": 8.18,
+          "jaText": "聴解試験を始める前に音を聞いてください",
+          "zhTranslation": "开始听解考试前，请先听一段声音。",
+          "explanationText": "「～前に」表示「在……之前」；「音を闻いてください」是考试广播用来确认音量的指示。",
+          "confidence": 0.856,
+          "contentType": "instruction",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 10.28,
+          "endTime": 13.08,
+          "jaText": "まだ問題用紙を開けないでください",
+          "zhTranslation": "现在还不要打开试题本。",
+          "explanationText": "「まだ～ないでください」表示「现在还请不要……」，是考场常见的禁止指示。",
+          "confidence": 0.856,
+          "contentType": "instruction",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 15.02,
+          "endTime": 18.96,
+          "jaText": "音がよく聞こえないときは手を挙げてください",
+          "zhTranslation": "如果听不清楚声音，请举手。",
+          "explanationText": "「闻こえない」是客观上听不见；「～ときは」后面接发生该情况时的处理方式。",
+          "confidence": 0.856,
+          "contentType": "instruction",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 21.98,
+          "endTime": 24.54,
+          "jaText": "天気がいいから散歩しましょう",
+          "zhTranslation": "天气很好，我们去散步吧。",
+          "explanationText": "「から」说明理由；「～ましょう」用来提议一起做某事。",
+          "confidence": 0.856,
+          "contentType": "dialogue",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 25.3,
+          "endTime": 28.02,
+          "jaText": "天気がいいから散歩しましょう",
+          "zhTranslation": "天气很好，我们去散步吧。",
+          "explanationText": "这是音量确认用句的第二次播放；「～ましょう」表示邀请或提议。",
+          "confidence": 0.841,
+          "contentType": "dialogue",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 42.94,
+          "endTime": 47.24,
+          "jaText": "日本語能力試験 聴解N2",
+          "zhTranslation": "日本语能力试验 N2 听解。",
+          "explanationText": "这是考试项目标题；「聴解」指听力理解部分。",
+          "confidence": 0.841,
+          "contentType": "instruction",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 49.02,
+          "endTime": 53.16,
+          "jaText": "これからN2の聴解試験を始めます",
+          "zhTranslation": "现在开始 N2 的听解考试。",
+          "explanationText": "「これから」表示从现在起；「～を始めます」是正式声明开始的说法。",
+          "confidence": 0.841,
+          "contentType": "instruction",
+          "practiceEligible": true
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 127,
+      "endIndex": 128,
+      "expectedStartTime": 597.14,
+      "expectedEndTime": 603.54,
+      "items": [
+        {
+          "startTime": 597.84,
+          "endTime": 603.34,
+          "jaText": "男の人は新しい商品についてどうしたらいいと言っていますか?",
+          "zhTranslation": "男子说新商品应该怎么处理？",
+          "explanationText": "「～について」表示关于某个主题；题目要求找出男子对新商品提出的处理方式。",
+          "confidence": 0.892,
+          "contentType": "prompt",
+          "practiceEligible": true
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 172,
+      "endIndex": 174,
+      "expectedStartTime": 881.93,
+      "expectedEndTime": 887.15,
+      "items": [
+        {
+          "startTime": 881.93,
+          "endTime": 882.54,
+          "jaText": "4番",
+          "zhTranslation": "第4题。",
+          "explanationText": "「4番」是题号标记。",
+          "confidence": 0.803,
+          "contentType": "marker",
+          "practiceEligible": false
+        },
+        {
+          "startTime": 883.32,
+          "endTime": 887.14,
+          "jaText": "引っ越しの会社の人が女の人と話しています",
+          "zhTranslation": "搬家公司的人正在和一名女子交谈。",
+          "explanationText": "这是场景介绍；「引っ越しの会社」指搬家公司。",
+          "confidence": 0.909,
+          "contentType": "prompt",
+          "practiceEligible": true
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 306,
+      "endIndex": 318,
+      "expectedStartTime": 1670.98,
+      "expectedEndTime": 1728.04,
+      "items": [
+        {
+          "startTime": 1670.98,
+          "endTime": 1674.62,
+          "jaText": "人気のテレビ番組が見られないなど",
+          "zhTranslation": "例如看不到热门的电视节目等，",
+          "explanationText": "「～など」用来枚举例子；这里列出晚归造成的生活影响。"
+        },
+        {
+          "startTime": 1674.62,
+          "endTime": 1678.0,
+          "jaText": "塾のデメリットを指摘する意見が多くありました",
+          "zhTranslation": "过去有许多意见指出补习班的缺点。",
+          "explanationText": "「デメリットを指摘する」表示指出缺点；「多くありました」说明这类意见很多。"
+        },
+        {
+          "startTime": 1678.0,
+          "endTime": 1681.34,
+          "jaText": "ところが今回の調査では",
+          "zhTranslation": "然而，在这次调查中，",
+          "explanationText": "「ところが」表示与前文结果不同的转折，是后续结论的重要提示。"
+        },
+        {
+          "startTime": 1681.34,
+          "endTime": 1683.9,
+          "jaText": "違う学校の友達ができる",
+          "zhTranslation": "可以交到不同学校的朋友，",
+          "explanationText": "「友达ができる」不是制作朋友，而是交到朋友。"
+        },
+        {
+          "startTime": 1683.9,
+          "endTime": 1686.3,
+          "jaText": "楽しく勉強できる",
+          "zhTranslation": "可以愉快地学习，",
+          "explanationText": "「楽しく」是形容词「楽しい」的副词形，用来修饰「勉强できる」。"
+        },
+        {
+          "startTime": 1686.3,
+          "endTime": 1689.46,
+          "jaText": "自分の居場所があるなどの意見が多く",
+          "zhTranslation": "以及有一个属于自己的地方等意见很多，",
+          "explanationText": "「居场所」指能安心待着、感到自己有所归属的地方。"
+        },
+        {
+          "startTime": 1689.46,
+          "endTime": 1692.28,
+          "jaText": "子供たちの意識に変化が見られました",
+          "zhTranslation": "可以看出孩子们的想法发生了变化。",
+          "explanationText": "「変化が见られました」是客观报告调查结果时常用的表达。"
+        },
+        {
+          "startTime": 1692.28,
+          "endTime": 1701.83,
+          "jaText": "調査の結果どのようなことが分かりましたか",
+          "zhTranslation": "从调查结果得知了什么？",
+          "explanationText": "「どのようなことが分かりましたか」要求概括调查所显示的变化。",
+          "contentType": "prompt"
+        },
+        {
+          "startTime": 1704.4,
+          "endTime": 1707.42,
+          "jaText": "1．学校への否定的な意見が増えた。",
+          "zhTranslation": "1．对学校的负面意见增加了。",
+          "explanationText": "「否定的な意见」表示负面或否定的看法。",
+          "contentType": "option"
+        },
+        {
+          "startTime": 1711.24,
+          "endTime": 1714.36,
+          "jaText": "2．学校への肯定的な意見が増えた。",
+          "zhTranslation": "2．对学校的正面意见增加了。",
+          "explanationText": "「肯定的な意见」表示正面或肯定的看法。",
+          "contentType": "option"
+        },
+        {
+          "startTime": 1717.2,
+          "endTime": 1721.1,
+          "jaText": "3．塾への否定的な意見が増えた。",
+          "zhTranslation": "3．对补习班的负面意见增加了。",
+          "explanationText": "「塾」指课外补习班；此选项说负面意见增加。",
+          "contentType": "option"
+        },
+        {
+          "startTime": 1723.92,
+          "endTime": 1728.04,
+          "jaText": "4．塾への肯定的な意見が増えた。",
+          "zhTranslation": "4．对补习班的正面意见增加了。",
+          "explanationText": "调查列出的新看法都是补习班带来的正面效果。",
+          "contentType": "option"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 419,
+      "endIndex": 507,
+      "expectedStartTime": 2137.2,
+      "expectedEndTime": 2259.48,
+      "items": [
+        {
+          "startTime": 2137.2,
+          "endTime": 2137.86,
+          "jaText": "12番",
+          "zhTranslation": "第12题。",
+          "explanationText": "「12番」是题号标记。",
+          "confidence": 0.783,
+          "contentType": "marker",
+          "practiceEligible": false
+        },
+        {
+          "startTime": 2138.7,
+          "endTime": 2142.18,
+          "jaText": "課長に連絡が取れ次第、至急戻るように伝えて",
+          "zhTranslation": "一联系上课长，就告诉他务必立刻回来。",
+          "explanationText": "「～次第」表示一完成前项就立刻做后项；「至急」表示非常紧急。",
+          "confidence": 0.783,
+          "contentType": "dialogue",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2143.9,
+          "endTime": 2144.32,
+          "jaText": "1",
+          "zhTranslation": "选项1。",
+          "explanationText": "这是回应选项的编号。",
+          "confidence": 0.783,
+          "contentType": "marker",
+          "practiceEligible": false
+        },
+        {
+          "startTime": 2145.04,
+          "endTime": 2146.58,
+          "jaText": "すぐ連絡します",
+          "zhTranslation": "我马上联系。",
+          "explanationText": "「すぐ」表示立刻，这个回应承接对方要求联系课长的指示。",
+          "confidence": 0.783,
+          "contentType": "option",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2148.5,
+          "endTime": 2148.92,
+          "jaText": "2",
+          "zhTranslation": "选项2。",
+          "explanationText": "这是回应选项的编号。",
+          "confidence": 0.783,
+          "contentType": "marker",
+          "practiceEligible": false
+        },
+        {
+          "startTime": 2149.82,
+          "endTime": 2151.1,
+          "jaText": "今お返しします",
+          "zhTranslation": "我现在就归还。",
+          "explanationText": "「お返しします」是「返す」的礼貌说法，表示归还。",
+          "confidence": 0.783,
+          "contentType": "option",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2153.06,
+          "endTime": 2153.48,
+          "jaText": "3",
+          "zhTranslation": "选项3。",
+          "explanationText": "这是回应选项的编号。",
+          "confidence": 0.783,
+          "contentType": "marker",
+          "practiceEligible": false
+        },
+        {
+          "startTime": 2154.46,
+          "endTime": 2156.26,
+          "jaText": "課長が戻ったら伝えます",
+          "zhTranslation": "课长回来后我会转告。",
+          "explanationText": "「戻ったら」表示课长回来之后；注意这和「先联系上课长」的要求不同。",
+          "confidence": 0.783,
+          "contentType": "option",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2168.56,
+          "endTime": 2170.38,
+          "jaText": "問題5",
+          "zhTranslation": "问题5。",
+          "explanationText": "「问题5」是大题标记。",
+          "confidence": 0.799,
+          "contentType": "marker",
+          "practiceEligible": false
+        },
+        {
+          "startTime": 2171.52,
+          "endTime": 2175.14,
+          "jaText": "問題5では長めの話を聞きます",
+          "zhTranslation": "问题5会播放较长的内容。",
+          "explanationText": "「长め」表示偏长、比较长；「では」标示本大题的范围。",
+          "confidence": 0.799,
+          "contentType": "instruction",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2175.76,
+          "endTime": 2177.9,
+          "jaText": "メモを取ってもかまいません",
+          "zhTranslation": "可以做笔记。",
+          "explanationText": "「～てもかまいません」表示允许做某事。",
+          "confidence": 0.799,
+          "contentType": "instruction",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2180.3,
+          "endTime": 2181.16,
+          "jaText": "1番",
+          "zhTranslation": "第1题。",
+          "explanationText": "「1番」是题号标记。",
+          "confidence": 0.799,
+          "contentType": "marker",
+          "practiceEligible": false
+        },
+        {
+          "startTime": 2182.0,
+          "endTime": 2182.76,
+          "jaText": "2番",
+          "zhTranslation": "第2题。",
+          "explanationText": "「2番」是题号标记。",
+          "confidence": 0.799,
+          "contentType": "marker",
+          "practiceEligible": false
+        },
+        {
+          "startTime": 2184.76,
+          "endTime": 2188.24,
+          "jaText": "問題用紙に何も印刷されていません",
+          "zhTranslation": "试题本上没有印任何内容。",
+          "explanationText": "「何も～ていません」搭配否定表示什么都没有。",
+          "confidence": 0.799,
+          "contentType": "instruction",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2190.76,
+          "endTime": 2192.94,
+          "jaText": "まず話を聞いてください",
+          "zhTranslation": "请先听内容。",
+          "explanationText": "「まず」表示第一个步骤。",
+          "confidence": 0.799,
+          "contentType": "instruction",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2194.5,
+          "endTime": 2204.84,
+          "jaText": "それから、質問と選択肢を聞いて、1から4の中から最も良いものを1つ選んでください",
+          "zhTranslation": "接着听问题和选项，从1到4中选出最合适的一个。",
+          "explanationText": "「それから」提示下一个步骤；「最も良いもの」表示最合适的选项。",
+          "confidence": 0.776,
+          "contentType": "instruction",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2208.02,
+          "endTime": 2209.78,
+          "jaText": "では、始めます",
+          "zhTranslation": "那么，现在开始。",
+          "explanationText": "「では」在这里用来结束说明并开始题目。",
+          "confidence": 0.776,
+          "contentType": "instruction",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2215.78,
+          "endTime": 2216.74,
+          "jaText": "1番",
+          "zhTranslation": "第1题。",
+          "explanationText": "「1番」是题号标记。",
+          "confidence": 0.776,
+          "contentType": "marker",
+          "practiceEligible": false
+        },
+        {
+          "startTime": 2217.76,
+          "endTime": 2223.4,
+          "jaText": "先生が旅行会社の人と学校の校外学習について相談しています",
+          "zhTranslation": "老师正在和旅行社人员商量学校的校外教学。",
+          "explanationText": "这是场景介绍；「校外学习」指校外教学，「～について相谈する」表示针对某事商量。",
+          "confidence": 0.855,
+          "contentType": "prompt",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2225.44,
+          "endTime": 2228.62,
+          "jaText": "今年の3年生の校外学習の行き先なんですが",
+          "zhTranslation": "是关于今年三年级校外教学的目的地，",
+          "explanationText": "句尾「んですが」用来委婉提出想商量的主题。",
+          "confidence": 0.855,
+          "contentType": "dialogue",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2229.14,
+          "endTime": 2233.86,
+          "jaText": "去年行った植物公園は行ったことのある生徒が多いみたいなんで",
+          "zhTranslation": "去年去过的植物公园，好像很多学生以前已经去过了，",
+          "explanationText": "「～たことのある」表示有过某种经验；「みたい」表示根据情况作出的推测。",
+          "confidence": 0.855,
+          "contentType": "dialogue",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2234.42,
+          "endTime": 2237.5,
+          "jaText": "できれば違うところに行ってみたいと思ってるんですよ",
+          "zhTranslation": "如果可以，我想试着去别的地方。",
+          "explanationText": "「できれば」表示如果可以；「～てみたい」表示想试着做某事。",
+          "confidence": 0.855,
+          "contentType": "dialogue",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2237.5,
+          "endTime": 2238.96,
+          "jaText": "ああ、そうですか",
+          "zhTranslation": "啊，是这样啊。",
+          "explanationText": "「そうですか」表示理解对方刚说明的情况。",
+          "confidence": 0.855,
+          "contentType": "dialogue",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2239.48,
+          "endTime": 2242.38,
+          "jaText": "今年も人数は80人ぐらい連れて行くんです",
+          "zhTranslation": "今年也会带大约80个人去。",
+          "explanationText": "「ぐらい」表示概数；「连れて行く」表示带人前往某地。",
+          "confidence": 0.855,
+          "contentType": "dialogue",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2243.34,
+          "endTime": 2247.06,
+          "jaText": "ここからバスで1時間ぐらいで行けるところだったらいいんですけど",
+          "zhTranslation": "如果是从这里搭巴士大约一小时能到的地方就好了。",
+          "explanationText": "「～だったらいい」表示希望条件能成立；句尾「けど」让要求更委婉。",
+          "confidence": 0.881,
+          "contentType": "dialogue",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2247.06,
+          "endTime": 2252.78,
+          "jaText": "そうですね、植物公園は去年評判良かったんですけどね",
+          "zhTranslation": "我想想，植物公园去年评价很好，不过……",
+          "explanationText": "「评判が良い」表示口碑或评价好；句尾保留转折，表示接着会提出别的方案。",
+          "confidence": 0.881,
+          "contentType": "dialogue",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2253.44,
+          "endTime": 2256.62,
+          "jaText": "同じように自然について学習するのでしたら",
+          "zhTranslation": "如果同样是要学习自然相关知识，",
+          "explanationText": "「のでしたら」是礼貌的条件说法，相当于「如果是……的话」。",
+          "confidence": 0.881,
+          "contentType": "dialogue",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2256.62,
+          "endTime": 2259.32,
+          "jaText": "動物公園も非常におすすめです",
+          "zhTranslation": "动物公园也非常推荐。",
+          "explanationText": "「おすすめです」用来推荐选项；「も」表示动物公园也是可行方案。",
+          "confidence": 0.881,
+          "contentType": "dialogue",
+          "practiceEligible": true
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 522,
+      "endIndex": 524,
+      "expectedStartTime": 2313.74,
+      "expectedEndTime": 2326.81,
+      "items": [
+        {
+          "startTime": 2313.74,
+          "endTime": 2317.48,
+          "jaText": "うちは80人ですから、やっぱりさっきのところにします",
+          "zhTranslation": "我们有80人，所以还是选刚才那个地方。",
+          "explanationText": "「うち」指我方；「やっぱり」表示考虑后仍采用先前的方案。",
+          "confidence": 0.82,
+          "contentType": "dialogue",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2323.47,
+          "endTime": 2326.81,
+          "jaText": "校外学習はどこに行くことにしましたか?",
+          "zhTranslation": "校外教学最后决定去哪里？",
+          "explanationText": "「～ことにしました」表示经过考虑后作出决定，题目要求找出最后选定的地点。",
+          "confidence": 0.82,
+          "contentType": "prompt",
+          "practiceEligible": true
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 543,
+      "endIndex": 543,
+      "expectedStartTime": 2420.03,
+      "expectedEndTime": 2428.03,
+      "items": [
+        {
+          "startTime": 2420.03,
+          "endTime": 2428.03,
+          "jaText": "じゃあこれがいいよ、3番。僕も持ってるけど、軽くて使いやすいし、それに水に濡れても大丈夫なんだよ。",
+          "zhTranslation": "那这款不错，3号。我也有这款，既轻又好用，而且就算弄湿也没关系。",
+          "explanationText": "「軽くて使いやすい」用て形连接两个优点；「水に濡れても大丈夫」表示即使碰到水也没问题。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 548,
+      "endIndex": 548,
+      "expectedStartTime": 2448.03,
+      "expectedEndTime": 2457.79,
+      "items": [
+        {
+          "startTime": 2453.96,
+          "endTime": 2457.36,
+          "jaText": "妹はどの携帯電話を選びましたか?",
+          "zhTranslation": "妹妹选了哪一款手机？",
+          "explanationText": "「どの携帯电话」询问四个选项中的哪一款；重点是对话最后作出的决定。",
+          "contentType": "prompt"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 578,
+      "endIndex": 579,
+      "expectedStartTime": 2633.85,
+      "expectedEndTime": 2671.99,
+      "items": [
+        {
+          "startTime": 2647.0,
+          "endTime": 2648.24,
+          "jaText": "質問2",
+          "zhTranslation": "问题2。",
+          "explanationText": "「质问2」是第二个问题的标记。",
+          "confidence": 0.782,
+          "contentType": "marker",
+          "practiceEligible": false
+        },
+        {
+          "startTime": 2649.0,
+          "endTime": 2652.7,
+          "jaText": "2人はお昼を食べた後どこへ行きますか",
+          "zhTranslation": "两人吃完午餐后要去哪里？",
+          "explanationText": "「～た后」表示完成前项动作之后；题目问的是午餐后的行程。",
+          "confidence": 0.782,
+          "contentType": "prompt",
+          "practiceEligible": true
+        },
+        {
+          "startTime": 2668.86,
+          "endTime": 2671.46,
+          "jaText": "これで聴解試験を終わります",
+          "zhTranslation": "听解考试到此结束。",
+          "explanationText": "「これで」表示到此为止；「～を终わります」是正式宣布结束的说法。",
+          "confidence": 0.782,
+          "contentType": "instruction",
+          "practiceEligible": true
+        }
+      ]
+    }
+  ]
+}

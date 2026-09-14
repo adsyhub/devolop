@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "level": "N2",
+  "slug": "2023-07-N2",
+  "title": "2023年7月 日本語能力試験 N2",
+  "sessionLabel": "2023年7月",
+  "uiLanguage": "zh-Hans",
+  "durationSec": 9300,
+  "source": {
+    "kind": "pdf-scan",
+    "fileName": "2023年7月N2真题（修订版）.pdf",
+    "sha256": "891589c0ed205d4118cdb47d988f3785bbf4b6ab37ed35d3c1c209fd8e384142",
+    "bytes": 113179777,
+    "pageCount": 31,
+    "answerKeyFile": "2023年7月日语N2答案+解析+听力原文.pdf",
+    "answerKeySha256": "d00e0962fe801230bc93600a51fdeabed794ee9e8c322314063aaced1d68701c",
+    "answerKeyPageCount": 84,
+    "importedOn": "2026-09-02",
+    "importer": "src/exam_import.py",
+    "rights": "Personal study copy supplied by the user. The JLPT paper is copyright JEES/Japan Foundation; this exam.json is not cleared for redistribution or sale."
+  }
+}

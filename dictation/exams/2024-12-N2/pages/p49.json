@@ -1,0 +1,28 @@
+{
+  "page": 49,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "もんだい"
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 5,
+      "text": "問題5"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 5,
+      "text": "もんだい\n問題5では、長めの話を聞きます。この問題には練習はありません。\nもんだいようし\n問題用紙にメモをとってもかまいません。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "text": "もんだいようし問題用紙に何もいんさつされていません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。> メモ",
+      "label": "1番",
+      "choices": []
+    }
+  ],
+  "issues": []
+}

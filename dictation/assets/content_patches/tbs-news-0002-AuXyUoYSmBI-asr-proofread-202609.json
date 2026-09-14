@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "description": "tbs-news-0002-AuXyUoYSmBI：LLM 逐句校对发现的 ASR 误识别修正 4 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "e99d9ad1b9e0eea88bf9f0f596961046d5cd22a21624778c31e4892ab36a8f65",
+  "evidence": {
+    "file": "proofread-work/tbs-news-0002-AuXyUoYSmBI/proofread.json",
+    "proposedFixes": "proofread-work/tbs-news-0002-AuXyUoYSmBI/proposed-fixes.json",
+    "notes": "proofread-work/tbs-news-0002-AuXyUoYSmBI/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 9,
+      "endIndex": 9,
+      "expectedStartTime": 47.36,
+      "expectedEndTime": 48.36,
+      "items": [
+        {
+          "startTime": 47.36,
+          "endTime": 48.36,
+          "sourceText": "物づりをしたり、火起こしをしたり、",
+          "jaText": "物づりをしたり、火起こしをしたり、"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 17,
+      "endIndex": 17,
+      "expectedStartTime": 97.439,
+      "expectedEndTime": 99.569,
+      "items": [
+        {
+          "startTime": 97.439,
+          "endTime": 99.569,
+          "sourceText": "新学期が始まる不安などから悩みを抱える子供たちも少なくはありません。",
+          "jaText": "新学期が始まる不安などから悩みを抱える子供たちも少なくはありません。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 22,
+      "endIndex": 22,
+      "expectedStartTime": 124.52,
+      "expectedEndTime": 133.583,
+      "items": [
+        {
+          "startTime": 124.52,
+          "endTime": 133.583,
+          "sourceText": "全国各地の公園や図書館など50箇所以近くにない場合の相談窓口も紹介されています。",
+          "jaText": "全国各地の公園や図書館など50箇所以近くにない場合の相談窓口も紹介されています。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 37,
+      "endIndex": 37,
+      "expectedStartTime": 189.374,
+      "expectedEndTime": 190.119,
+      "items": [
+        {
+          "startTime": 189.374,
+          "endTime": 190.119,
+          "sourceText": "選択肢があるんだということで休みたいと口にできない子の方が一般的には多いと言われています。",
+          "jaText": "選択肢があるんだということで休みたいと口にできない子の方が一般的には多いと言われています。"
+        }
+      ]
+    }
+  ]
+}

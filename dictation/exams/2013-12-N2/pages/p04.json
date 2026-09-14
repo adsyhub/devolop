@@ -1,0 +1,155 @@
+{
+  "page": 4,
+  "pageLabel": "4",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 7,
+      "text": "問題7　次の文の（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 7,
+      "questionNumber": 33,
+      "text": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "文法形式1",
+        "文法形式2",
+        "文法形式3",
+        "文法形式4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 7,
+      "questionNumber": 34,
+      "text": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "文法形式1",
+        "文法形式2",
+        "文法形式3",
+        "文法形式4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 7,
+      "questionNumber": 35,
+      "text": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "文法形式1",
+        "文法形式2",
+        "文法形式3",
+        "文法形式4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 7,
+      "questionNumber": 36,
+      "text": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "文法形式1",
+        "文法形式2",
+        "文法形式3",
+        "文法形式4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 7,
+      "questionNumber": 37,
+      "text": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "文法形式1",
+        "文法形式2",
+        "文法形式3",
+        "文法形式4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 7,
+      "questionNumber": 38,
+      "text": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "文法形式1",
+        "文法形式2",
+        "文法形式3",
+        "文法形式4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 7,
+      "questionNumber": 39,
+      "text": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "文法形式1",
+        "文法形式2",
+        "文法形式3",
+        "文法形式4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 7,
+      "questionNumber": 40,
+      "text": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "文法形式1",
+        "文法形式2",
+        "文法形式3",
+        "文法形式4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 7,
+      "questionNumber": 41,
+      "text": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "文法形式1",
+        "文法形式2",
+        "文法形式3",
+        "文法形式4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 7,
+      "questionNumber": 42,
+      "text": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "文法形式1",
+        "文法形式2",
+        "文法形式3",
+        "文法形式4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 7,
+      "questionNumber": 43,
+      "text": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "文法形式1",
+        "文法形式2",
+        "文法形式3",
+        "文法形式4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 7,
+      "questionNumber": 44,
+      "text": "文法形式として文中の（　　）に入る最もよいものを選びなさい。",
+      "choices": [
+        "文法形式1",
+        "文法形式2",
+        "文法形式3",
+        "文法形式4"
+      ]
+    }
+  ]
+}

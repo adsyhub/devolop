@@ -1,0 +1,155 @@
+{
+  "page": 8,
+  "pageLabel": "8",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 11,
+      "text": "問題11　次の（1）から（3）の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 11,
+      "passageId": "p_2016_12_N2_mid_1",
+      "text": "（1）中文の本文です。複数の段落にわたって議論が展開されています。\n\n第1段落の展開...\n\n第2段落の展開...",
+      "notes": [
+        "注1　重要語句の解説"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 11,
+      "questionNumber": 60,
+      "passageId": "p_2016_12_N2_mid_1",
+      "text": "文章の内容について問いに答えなさい（設問60）。",
+      "choices": [
+        "中篇理解選択肢1",
+        "中篇理解選択肢2",
+        "中篇理解選択肢3",
+        "中篇理解選択肢4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 11,
+      "questionNumber": 61,
+      "passageId": "p_2016_12_N2_mid_1",
+      "text": "文章の内容について問いに答えなさい（設問61）。",
+      "choices": [
+        "中篇理解選択肢1",
+        "中篇理解選択肢2",
+        "中篇理解選択肢3",
+        "中篇理解選択肢4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 11,
+      "questionNumber": 62,
+      "passageId": "p_2016_12_N2_mid_1",
+      "text": "文章の内容について問いに答えなさい（設問62）。",
+      "choices": [
+        "中篇理解選択肢1",
+        "中篇理解選択肢2",
+        "中篇理解選択肢3",
+        "中篇理解選択肢4"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 11,
+      "passageId": "p_2016_12_N2_mid_2",
+      "text": "（2）中文の本文です。複数の段落にわたって議論が展開されています。\n\n第1段落の展開...\n\n第2段落の展開...",
+      "notes": [
+        "注1　重要語句の解説"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 11,
+      "questionNumber": 63,
+      "passageId": "p_2016_12_N2_mid_2",
+      "text": "文章の内容について問いに答えなさい（設問63）。",
+      "choices": [
+        "中篇理解選択肢1",
+        "中篇理解選択肢2",
+        "中篇理解選択肢3",
+        "中篇理解選択肢4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 11,
+      "questionNumber": 64,
+      "passageId": "p_2016_12_N2_mid_2",
+      "text": "文章の内容について問いに答えなさい（設問64）。",
+      "choices": [
+        "中篇理解選択肢1",
+        "中篇理解選択肢2",
+        "中篇理解選択肢3",
+        "中篇理解選択肢4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 11,
+      "questionNumber": 65,
+      "passageId": "p_2016_12_N2_mid_2",
+      "text": "文章の内容について問いに答えなさい（設問65）。",
+      "choices": [
+        "中篇理解選択肢1",
+        "中篇理解選択肢2",
+        "中篇理解選択肢3",
+        "中篇理解選択肢4"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 11,
+      "passageId": "p_2016_12_N2_mid_3",
+      "text": "（3）中文の本文です。複数の段落にわたって議論が展開されています。\n\n第1段落の展開...\n\n第2段落の展開...",
+      "notes": [
+        "注1　重要語句の解説"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 11,
+      "questionNumber": 66,
+      "passageId": "p_2016_12_N2_mid_3",
+      "text": "文章の内容について問いに答えなさい（設問66）。",
+      "choices": [
+        "中篇理解選択肢1",
+        "中篇理解選択肢2",
+        "中篇理解選択肢3",
+        "中篇理解選択肢4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 11,
+      "questionNumber": 67,
+      "passageId": "p_2016_12_N2_mid_3",
+      "text": "文章の内容について問いに答えなさい（設問67）。",
+      "choices": [
+        "中篇理解選択肢1",
+        "中篇理解選択肢2",
+        "中篇理解選択肢3",
+        "中篇理解選択肢4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 11,
+      "questionNumber": 68,
+      "passageId": "p_2016_12_N2_mid_3",
+      "text": "文章の内容について問いに答えなさい（設問68）。",
+      "choices": [
+        "中篇理解選択肢1",
+        "中篇理解選択肢2",
+        "中篇理解選択肢3",
+        "中篇理解選択肢4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "父は、楽しいときはいつも<u>豪快</u>に笑う。",
+      "choices": [
+        "ゆうかい",
+        "ごかい",
+        "ごうかい",
+        "ゆかい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "今回の仕事にはかなりの<u>忍耐</u>が必要だ。",
+      "choices": [
+        "にんてい",
+        "にんたい",
+        "じんたい",
+        "じんてい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "今、アイディアを<u>募って</u>いるところですので、ご協力をお願いします。",
+      "choices": [
+        "しぼって",
+        "ねって",
+        "つのって",
+        "さぐって"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "現代の社会では、<u>膨大な</u>エネルギーが消費されている。",
+      "choices": [
+        "はくだい",
+        "ほうだい",
+        "ばくだい",
+        "ぼうだい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "<u>滞って</u>いた作業が、担当者が変わってからスムーズに進み出した。",
+      "choices": [
+        "とどこおって",
+        "つまって",
+        "てこずって",
+        "たまあって"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "彼の見識の高さには<u>驚嘆</u>するばかりだ。",
+      "choices": [
+        "きょたん",
+        "きょうたん",
+        "きょうだん",
+        "きょだん"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "マラソン大会が終わり、先ほど道路の交通規制が（　　）されました。",
+      "choices": [
+        "解除",
+        "解禁",
+        "廃止",
+        "停止"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "記事のすぐ下に写真を載せるなど（　　）を工夫すれば、もっと読みやすくなるだろう。",
+      "choices": [
+        "スケッチ",
+        "レイアウト",
+        "アウトライン",
+        "ルックス"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "来春から始まる情報番組の司会に、若手のアナウンサーを（　　）することが決まった。",
+      "choices": [
+        "採取",
+        "引用",
+        "採択",
+        "起用"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "事件発生の連絡を受け、記者たちは急いで現場に（　　）。",
+      "choices": [
+        "寄りかかった",
+        "駆けつけた",
+        "結びついた",
+        "突っ込んだ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "この食品会社は、薬品や化粧品の分野にも進出し、（　　）経営に乗り出している。",
+      "choices": [
+        "建設的な",
+        "普遍的な",
+        "圧倒的な",
+        "多角的な"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "毎年8月の祭りは、県内外から集まった数千人が歌や踊りに参加し、（　　）行われる。",
+      "choices": [
+        "鮮烈に",
+        "絶大に",
+        "盛大に",
+        "熱烈に"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "あの人はいつも（　　）忙しそうに動き回っている。",
+      "choices": [
+        "のろのろと",
+        "すいすいと",
+        "せかせかと",
+        "ふらふらと"
+      ]
+    }
+  ]
+}

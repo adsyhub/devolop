@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "level": "N2",
+  "slug": "2016-12-N2",
+  "title": "2016年12月 日本語能力試験 N2",
+  "sessionLabel": "2016年12月",
+  "durationSec": 10800,
+  "source": {
+    "fileName": "N2 2016年12月真题+答案+详解+听力原文.pdf",
+    "sha256": "bd68fa8242bc9f2ff9918dbfdd89b7ddf41ef231e992f6861a20b8dca78f2e3f",
+    "bytes": 2185174,
+    "pageCount": 31
+  }
+}

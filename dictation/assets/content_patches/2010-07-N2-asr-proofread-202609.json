@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "description": "2010-07-N2：LLM 逐句校对发现的 ASR 误识别修正 4 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "45f25bc0528be86c90ce66ed8a5e2c7bd8cb621250186c3e5efadc1c0091bedb",
+  "evidence": {
+    "file": "proofread-work/2010-07-N2/proofread.json",
+    "proposedFixes": "proofread-work/2010-07-N2/proposed-fixes.json",
+    "notes": "proofread-work/2010-07-N2/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 70,
+      "endIndex": 70,
+      "expectedStartTime": 551.57,
+      "expectedEndTime": 556.1,
+      "items": [
+        {
+          "startTime": 551.57,
+          "endTime": 556.1,
+          "sourceText": "2ではまず質問を聞いてください そ",
+          "jaText": "2ではまず質問を聞いてください そ"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 81,
+      "endIndex": 81,
+      "expectedStartTime": 650.27,
+      "expectedEndTime": 653.21,
+      "items": [
+        {
+          "startTime": 650.27,
+          "endTime": 653.21,
+          "sourceText": "直ったから、明日配達してもらうことになったんだ。",
+          "jaText": "直ったから、明日配達してもらうことになったんだ。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 330,
+      "endIndex": 330,
+      "expectedStartTime": 2574.87,
+      "expectedEndTime": 2583.91,
+      "items": [
+        {
+          "startTime": 2574.87,
+          "endTime": 2583.91,
+          "sourceText": "な そうじゃあ一つはそれね私はドラマで見てからここのお城気になってて一度見てみた",
+          "jaText": "な そうじゃあ一つはそれね私はドラマで見てからここのお城気になってて一度見てみた"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 332,
+      "endIndex": 332,
+      "expectedStartTime": 2598.31,
+      "expectedEndTime": 2616.11,
+      "items": [
+        {
+          "startTime": 2598.31,
+          "endTime": 2616.11,
+          "sourceText": "質問2女",
+          "jaText": "質問2女"
+        }
+      ]
+    }
+  ]
+}

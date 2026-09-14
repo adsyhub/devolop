@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eju-question-bank"
+version = "0.2.0"
+description = "Isolated, fail-closed EJU PDF-to-question-bank pipeline"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["jsonschema>=4.22,<5", "psutil>=5.9,<8"]
+
+[project.optional-dependencies]
+pdf = ["pymupdf>=1.24", "pillow>=10"]
+audio = ["soundfile>=0.12,<1"]
+dev = ["pytest>=8"]
+browser = ["playwright>=1.50,<2"]
+
+[project.scripts]
+eju-bank = "eju_bank.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["eju_bank*"]
+
+[tool.setuptools.package-data]
+eju_bank = ["schemas/*.json", "web/*", "web/vendor/katex/*", "web/vendor/katex/fonts/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = ["."]

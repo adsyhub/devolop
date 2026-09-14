@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "description": "nhk-news-0008-ZqK7sS66J1Q：LLM 逐句校对发现的 ASR 误识别修正 1 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "1d8fe2905171c52c6d4094796963f6ee7da02642d6dc9f00af556b1dae082b93",
+  "evidence": {
+    "file": "proofread-work/nhk-news-0008-ZqK7sS66J1Q/proofread.json",
+    "proposedFixes": "proofread-work/nhk-news-0008-ZqK7sS66J1Q/proposed-fixes.json",
+    "notes": "proofread-work/nhk-news-0008-ZqK7sS66J1Q/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 2,
+      "endIndex": 2,
+      "expectedStartTime": 8.92,
+      "expectedEndTime": 9.99,
+      "items": [
+        {
+          "startTime": 8.92,
+          "endTime": 9.99,
+          "sourceText": "辞職をいたします。",
+          "jaText": "辞職をいたします。"
+        }
+      ]
+    }
+  ]
+}

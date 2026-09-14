@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "title": "次が見えるアプリ NHK ONE ニュース・防災アプリ",
+  "sourceLanguage": "ja",
+  "media": {
+    "kind": "remote",
+    "provider": "youtube",
+    "control": "full",
+    "videoId": "uAiNvInSb6c",
+    "pageUrl": "https://www.youtube.com/watch?v=uAiNvInSb6c",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/uAiNvInSb6c",
+    "durationSec": 15.0,
+    "uploader": "NHK",
+    "attribution": {
+      "sourceName": "YouTube",
+      "rightsHolder": "NHK",
+      "retrievedAt": "2026-09-11",
+      "redistributable": false,
+      "notes": "Timings, translations and explanations are ours; the transcript text derives from the site's captions or from local transcription. The media itself is never stored and this course is not redistributable."
+    }
+  },
+  "sentences": [
+    {
+      "startTime": 0.0,
+      "endTime": 1.36,
+      "sourceText": "大雨の特別警報が",
+      "translationText": "",
+      "zhTranslation": "",
+      "jaText": "大雨の特別警報が",
+      "id": "s_7449534a67c1731fb23678e1",
+      "contentType": "dialogue",
+      "practiceEligible": true
+    },
+    {
+      "startTime": 1.36,
+      "endTime": 8.86,
+      "sourceText": "空が冠水し",
+      "translationText": "",
+      "zhTranslation": "",
+      "jaText": "空が冠水し",
+      "id": "s_d7b777eeb2f2a96725af655a",
+      "contentType": "dialogue",
+      "practiceEligible": true
+    }
+  ],
+  "buildMetadata": {
+    "transcriptSource": "asr",
+    "retrievedAt": "2026-09-11",
+    "mediaProbe": {
+      "title": "次が見えるアプリ NHK ONE ニュース・防災アプリ",
+      "uploader": "NHK",
+      "durationSec": 15.0,
+      "extractor": "Youtube",
+      "subtitles": []
+    },
+    "asr": {
+      "kind": "faster-whisper",
+      "config": {
+        "kind": "faster-whisper",
+        "model": "large-v3",
+        "device": "cuda",
+        "computeType": "float16",
+        "language": "ja",
+        "beamSize": 10,
+        "vadFilter": true,
+        "wordTimestamps": true,
+        "minDuration": 0.2,
+        "conditionOnPreviousText": false,
+        "noSpeechThreshold": 0.6,
+        "logProbThreshold": -1.0,
+        "compressionRatioThreshold": 2.4,
+        "hallucinationSilenceThreshold": 2.0,
+        "repetitionPenalty": 1.0,
+        "noRepeatNgramSize": 0,
+        "maxSegmentSeconds": 15.0,
+        "vadOptions": {
+          "min_speech_duration_ms": 350,
+          "max_speech_duration_s": 20.0,
+          "min_silence_duration_ms": 500,
+          "speech_pad_ms": 200
+        }
+      }
+    },
+    "transcriptReview": {
+      "status": "passed",
+      "candidateCount": 0,
+      "artifact": "transcript-correction-review.json",
+      "courseId": "c_dfc719744b68263f84d40e38",
+      "contentRevision": "8be9212dd9f1430e7d4ee3b3abb66d6e294ee10f940fc35b8b538f117568e4d6"
+    }
+  },
+  "language": {
+    "code": "ja",
+    "locale": "ja-JP",
+    "name": "Japanese",
+    "displayName": "日语",
+    "nativeName": "日本語"
+  },
+  "locales": {
+    "source": "ja-JP",
+    "translation": "zh-Hans-CN",
+    "interface": "zh-Hans-CN"
+  },
+  "transcriptText": "大雨の特別警報が空が冠水し",
+  "courseId": "c_dfc719744b68263f84d40e38",
+  "contentModelVersion": 1,
+  "practiceSentenceCount": 2,
+  "contentRevision": "8be9212dd9f1430e7d4ee3b3abb66d6e294ee10f940fc35b8b538f117568e4d6",
+  "review": {
+    "humanListening": "pending",
+    "commercialRights": "unverified",
+    "browserAcceptance": "pending"
+  }
+}

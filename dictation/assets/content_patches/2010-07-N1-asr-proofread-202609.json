@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "description": "2010-07-N1：LLM 逐句校对发现的 ASR 误识别修正 10 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "2a147f67c8d2ff80038a75dd745190f4c552a62b72eb8b02ccf7a15adc034da4",
+  "evidence": {
+    "file": "proofread-work/2010-07-N1/proofread.json",
+    "proposedFixes": "proofread-work/2010-07-N1/proposed-fixes.json",
+    "notes": "proofread-work/2010-07-N1/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 33,
+      "endIndex": 33,
+      "expectedStartTime": 241.46,
+      "expectedEndTime": 247.02,
+      "items": [
+        {
+          "startTime": 241.46,
+          "endTime": 247.02,
+          "sourceText": "当日は1時間前からの開場となりますが、受付で入場券をお受け取りください。",
+          "jaText": "当日は1時間前からの開場となりますが、受付で入場券をお受け取りください。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 89,
+      "endIndex": 89,
+      "expectedStartTime": 564.41,
+      "expectedEndTime": 571.03,
+      "items": [
+        {
+          "startTime": 564.41,
+          "endTime": 571.03,
+          "sourceText": "そうでしょうちでは昔からの織り方で作ってるんでこの独特の感じが出るんですよ",
+          "jaText": "そうでしょうちでは昔からの織り方で作ってるんでこの独特の感じが出るんですよ"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 103,
+      "endIndex": 103,
+      "expectedStartTime": 668.4,
+      "expectedEndTime": 674.22,
+      "items": [
+        {
+          "startTime": 668.4,
+          "endTime": 674.22,
+          "sourceText": "あの明日の予約をお願いしてた山田ですが急用ができてキャンセルしたいんですけど",
+          "jaText": "あの明日の予約をお願いしてた山田ですが急用ができてキャンセルしたいんですけど"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 199,
+      "endIndex": 199,
+      "expectedStartTime": 1524.14,
+      "expectedEndTime": 1531.91,
+      "items": [
+        {
+          "startTime": 1524.14,
+          "endTime": 1531.91,
+          "sourceText": "より少しでも価格を抑えて提供するとか 献金かこれは面倒だから良策とは言えないな",
+          "jaText": "より少しでも価格を抑えて提供するとか 献金かこれは面倒だから良策とは言えないな"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 269,
+      "endIndex": 269,
+      "expectedStartTime": 2226.52,
+      "expectedEndTime": 2234.64,
+      "items": [
+        {
+          "startTime": 2226.52,
+          "endTime": 2234.64,
+          "sourceText": "食事用のナプキンなどがあります また西洋では古くからリネン素材で下着を作ってきました",
+          "jaText": "食事用のナプキンなどがあります また西洋では古くからリネン素材で下着を作ってきました"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 270,
+      "endIndex": 270,
+      "expectedStartTime": 2236.36,
+      "expectedEndTime": 2248.75,
+      "items": [
+        {
+          "startTime": 2236.36,
+          "endTime": 2248.75,
+          "sourceText": "最近日本でもリネン素材が婦人服にも使われるようになっています リネンは様々な製品に形を変え人々の暮らしに役立っているのです",
+          "jaText": "最近日本でもリネン素材が婦人服にも使われるようになっています リネンは様々な製品に形を変え人々の暮らしに役立っているのです"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 271,
+      "endIndex": 271,
+      "expectedStartTime": 2248.75,
+      "expectedEndTime": 2263.34,
+      "items": [
+        {
+          "startTime": 2248.75,
+          "endTime": 2263.34,
+          "sourceText": "先生はどのようなテーマで話していますか 1リネンの作り方理",
+          "jaText": "先生はどのようなテーマで話していますか 1リネンの作り方理"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 274,
+      "endIndex": 274,
+      "expectedStartTime": 2278.66,
+      "expectedEndTime": 2280.28,
+      "items": [
+        {
+          "startTime": 2278.66,
+          "endTime": 2280.28,
+          "sourceText": "リネンの流行5",
+          "jaText": "リネンの流行5"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 326,
+      "endIndex": 326,
+      "expectedStartTime": 2836.67,
+      "expectedEndTime": 2844.99,
+      "items": [
+        {
+          "startTime": 2836.67,
+          "endTime": 2844.99,
+          "sourceText": "番田中さんの気配りには 本当に頭が下がりますね1それは",
+          "jaText": "番田中さんの気配りには 本当に頭が下がりますね1それは"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 404,
+      "endIndex": 404,
+      "expectedStartTime": 3391.1,
+      "expectedEndTime": 3397.5,
+      "items": [
+        {
+          "startTime": 3391.1,
+          "endTime": 3397.5,
+          "sourceText": "ます これはすでに100万部を突破し今年度出版界最大のヒット作となっています",
+          "jaText": "ます これはすでに100万部を突破し今年度出版界最大のヒット作となっています"
+        }
+      ]
+    }
+  ]
+}

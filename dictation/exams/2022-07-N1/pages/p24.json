@@ -1,0 +1,23 @@
+{
+  "page": 24,
+  "pageLabel": "第23页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": 13,
+      "label": "案内",
+      "text": "2022年度\n外部講座の受講料補助について\n\n　社員の業務能力向上を目的として、社外で受講する外部講座の受講料を補助します。\n\n1.対象の講座\n・2022年4月1日から2023年2月28日までに行われる、業務と関連がある講座が対象です。業務との関連については、受講料補助申請書に記入してください。\n・昨年度の補助対象講座例：ビジネスマナー講座、プレゼン講座、ビジネス文書講座等\n\n2.補助金額\n・講座受講料の補助の申請は、以下のAかBで行ってください（同年度内にAとBの両方で申請することはできません）。\n|  | 一つの講座の受講料 | 補助金額 | 補助申請可能な講座数（年度につき） |\n| --- | --- | --- | --- |\n| A | 30,000円以上 | 25,000円 | 1講座 |\n| B | 30,000円未満 | 10,000円＊ | 2講座 |\n＊講座の受講料が1万円未満の場合、受講料の実費を支給します。\n\n3.申請書類と補助金の支払い\n・補助金額分は、立て替え払いになります。\n・以下の書類を、受講後にまとめて、人事課にご提出ください。Bで二つの講座を受講する場合は、講座ごとに書類を分けて提出してもかまいません。\n①受講料補助申請書（人事課ウェブページよりダウンロード）\n②受講料の領収書\n③講座に出席したことを証明する書類（講座修了証等）\n④講座の内容が書かれた資料（パンフレット等）\n・補助金は、各月の15日までに書類を提出した場合、翌月末日に振り込みます。16日以降に提出した場合は、2か月後の末日となります。\n\n・申請書類提出締め切り：2023年2月15日\n\n> 　提出締め切りまでに書類をまとめて提出できない場合、①のみ先に提出締め切りまでに提出し、他の書類については、3月10日までにご提出ください。補助金は、3月31日に振り込みます。\n\n提出・問い合わせ先：人事課平川（内線3210）",
+      "questionNumber": null, "choices": null, "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "This page is the boxed leaflet referred to by 問題13 as 右のページ; questions 67-68 are on PDF page 23.",
+    "The 補助金額 table is transcribed as a pipe table (header row + separator row) so it can be rendered as a real table rather than a run-on line.",
+    "The final callout box is marked with a leading '> ' line.",
+    "The scan prints 補助金は、3月81日に振り込みます; transcribed as 3月31日, the only date consistent with the 3月10日 deadline above it.",
+    "A publisher watermark URL (http://www.cdteikyo.com/single/84-190.html) is printed under 提出・問い合わせ先 and was excluded: it is not part of the exam paper.",
+    "④'s printed text runs 資料パンフレット等) with an unmatched bracket; transcribed as 資料（パンフレット等）."
+  ]
+}

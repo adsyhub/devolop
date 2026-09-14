@@ -1,0 +1,226 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "この広大な大地を<u>潤す</u>にはまだまだ不十分だった。",
+      "choices": [
+        "たがやす",
+        "ぬらす",
+        "うるおす",
+        "いやす"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "使う前に必ず熱湯で<u>殺菌</u>してください。",
+      "choices": [
+        "ざっきん",
+        "さっきん",
+        "さっこん",
+        "ざっこん"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "これが私に<u>託された</u>仕事です。",
+      "choices": [
+        "かされた",
+        "まかされた",
+        "くだされた",
+        "たくされた"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "このコンサートホールは、舞台に向かって床が<u>傾斜</u>している。",
+      "choices": [
+        "けいしゃ",
+        "けいさ",
+        "かいしゃ",
+        "かいさ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "毎回のようには反対派の人々に<u>阻まれて</u>きた。",
+      "choices": [
+        "はばまれて",
+        "にらまれて",
+        "からまれて",
+        "こばまれて"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "秘密にしていたことを友人に<u>暴露</u>された。",
+      "choices": [
+        "ばくろう",
+        "ばくろ",
+        "ぼうろ",
+        "ぼうろう"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "この学校は教育の（　　）として、職業体験活動を授業に取り入れている。",
+      "choices": [
+        "一環",
+        "一体",
+        "内部",
+        "部門"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "この商品は、特によく売れる時期というものはなく、毎月（　　）100個ほど売れる。",
+      "choices": [
+        "クリアに",
+        "ストレートに",
+        "シンプルに",
+        "コンスタントに"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "中学でクラスメートだった石井さんと話しているうちに、昔の記憶が（　　）きた。",
+      "choices": [
+        "さかのぼって",
+        "よみがえって",
+        "引き返して",
+        "立ち直って"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "林選手は、3度目のオリンピック出場で、ついに（　　）の金メダルを獲得した。",
+      "choices": [
+        "意欲",
+        "志願",
+        "欲求",
+        "念願"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "鈴木さんに表彰状を贈り、永年の功績を（　　）。",
+      "choices": [
+        "敬った",
+        "仰いだ",
+        "たたえた",
+        "もてなした"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "今回のトラブルの原因は相手側にあって、池田さんには決して（　　）はないよ。",
+      "choices": [
+        "悪",
+        "非",
+        "苦",
+        "没"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "以前はさまざまなジャンルの小説を読んでいたが、最近は（　　）推理小説ばかりだ。",
+      "choices": [
+        "ますます",
+        "しきりに",
+        "もっぱら",
+        "せめて"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "<u>粘り強く</u>交渉した。",
+      "choices": [
+        "覚悟して",
+        "油断せずに",
+        "思い切って",
+        "あきらめずに"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "<u>入念に</u>調査を行った。",
+      "choices": [
+        "厳しく公平に",
+        "細かく丁寧に",
+        "興味を持って",
+        "責任を持って"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "本人も<u>うすうす</u>気づいていたと思う。",
+      "choices": [
+        "おそらく",
+        "さすがに",
+        "なんとなく",
+        "とっくに"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "この方法にも<u>難点</u>はある。",
+      "choices": [
+        "悪いところ",
+        "惜しいところ",
+        "無駄なところ",
+        "不安なところ"
+      ]
+    }
+  ]
+}

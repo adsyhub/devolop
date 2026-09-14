@@ -1,0 +1,76 @@
+{
+  "page": 38,
+  "blocks": [
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "有名な起業家を呼んで講演会を行う",
+      "label": "6番",
+      "choices": [
+        "きんゆうの専門家を呼んで講演会を行う",
+        "弁護士を呼んで講演会を行う",
+        "業別の座談会を行う"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 3,
+      "text": "——メモ—"
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 4,
+      "text": "問題4"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 4,
+      "text": "——メモ—"
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 5,
+      "text": "問題5"
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "text": "",
+      "label": "1番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "text": "質問1",
+      "label": "2番",
+      "choices": [
+        "ヒガシヤ",
+        "ニシマル",
+        "ミナミ",
+        "キタヤ"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 5,
+      "text": "質問2\n1 ヒガシヤ\n2 ニシマル\n3 ミナミ\n4 キタヤ"
+    }
+  ],
+  "pageLabel": "37",
+  "issues": [
+    "Q6番: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q6番: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q6番: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q6番: 3 choices transcribed, expected 4. Check the page image.",
+    "Choice-looking line with no question open: '1 ヒガシヤ'",
+    "Choice-looking line with no question open: '2 ニシマル'",
+    "Choice-looking line with no question open: '3 ミナミ'",
+    "Choice-looking line with no question open: '4 キタヤ'"
+  ]
+}

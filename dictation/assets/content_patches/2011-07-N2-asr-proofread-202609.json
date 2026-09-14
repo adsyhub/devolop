@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "description": "2011-07-N2：LLM 逐句校对发现的 ASR 误识别修正 3 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "8973e0524d4f77df749c6a7a87c34cb6df4c469434ce1b07d8799056c61aa580",
+  "evidence": {
+    "file": "proofread-work/2011-07-N2/proofread.json",
+    "proposedFixes": "proofread-work/2011-07-N2/proposed-fixes.json",
+    "notes": "proofread-work/2011-07-N2/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 79,
+      "endIndex": 79,
+      "expectedStartTime": 542.19,
+      "expectedEndTime": 548.85,
+      "items": [
+        {
+          "startTime": 542.19,
+          "endTime": 548.85,
+          "sourceText": "問題2問題2ではまず質問を聞いてください",
+          "jaText": "問題2問題2ではまず質問を聞いてください"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 126,
+      "endIndex": 126,
+      "expectedStartTime": 948.4,
+      "expectedEndTime": 953.27,
+      "items": [
+        {
+          "startTime": 948.4,
+          "endTime": 953.27,
+          "sourceText": "しもし池田君おはようおはよう風邪の具合どう",
+          "jaText": "しもし池田君おはようおはよう風邪の具合どう"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 205,
+      "endIndex": 205,
+      "expectedStartTime": 1536.2,
+      "expectedEndTime": 1544.97,
+      "items": [
+        {
+          "startTime": 1536.2,
+          "endTime": 1544.97,
+          "sourceText": "このトマトの匂いを嗅ぐと子供の頃に畑で採ってその場でかじったその様子まで思い出すんです",
+          "jaText": "このトマトの匂いを嗅ぐと子供の頃に畑で採ってその場でかじったその様子まで思い出すんです"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# 2020年12月 日本語能力試験 N1 — 答案
+note 2020年12月N1参考答案与计分规则
+
+# ---- 第一部分　言語知識（文字・語彙・文法） ----
+written   1-6     1   213414
+written   7-13    1   4221423
+written   14-19   1   423213
+written   20-25   1   124133
+written   26-35   1   4344131233
+written   36-40   2   42431
+written   41-44   1   2123
+
+# 排序題順序
+order     36      1342
+order     37      3421
+order     38      2143
+order     39      1432
+order     40      2413
+
+# ---- 第二部分　読解 ----
+written   45-48   2   2311
+written   49-57   2   412312132
+written   58-60   3   242
+written   61-62   3   44
+written   63-66   3   4323
+written   67-68   2   31
+
+# ---- 第三部分　聴解 ----
+listening 1       1   321242
+listening 2       1   2331213
+listening 3       2   214414
+listening 4       2   1333232113211
+listening 5       3   334

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>运维</title>
+<link rel="stylesheet" href="studio.css">
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <h1>运维</h1>
+    <p class="sub" id="config-line">显卡与本地推理服务</p>
+  </div>
+  <div class="topbar-actions">
+    <button type="button" id="refresh-models">刷新模型状态</button>
+  </div>
+</header>
+
+<nav class="nav" aria-label="工作台入口">
+  <a href="/">制课</a>
+  <a href="/import.html">教材入库</a>
+  <a href="/library.html">课程库</a>
+  <a href="/editor.html">复核编辑器</a>
+  <a href="/ops.html" class="current" aria-current="page">运维</a>
+</nav>
+
+<div id="fatal" class="fatal" hidden>
+  <strong>无法连接到工作台服务。</strong>
+  <span id="fatal-message"></span>
+</div>
+
+<main class="layout layout--single">
+  <section class="panel wide" aria-labelledby="gpu-heading">
+    <div class="section-head">
+      <div>
+        <h2 id="gpu-heading">服务器显卡 (GPU)</h2>
+        <p class="sub" id="gpu-summary">正在获取显卡使用情况…</p>
+      </div>
+      <div class="inline-actions">
+        <button type="button" id="refresh-gpu-panel">刷新显卡</button>
+      </div>
+    </div>
+    <div id="gpu-cards" class="gpu-grid"></div>
+    <p class="hint" id="gpu-meta" hidden></p>
+    <p class="error" id="gpu-error" hidden></p>
+  </section>
+
+  <section class="panel wide" aria-labelledby="local-models-heading">
+    <div class="section-head">
+      <div>
+        <h2 id="local-models-heading">本地模型</h2>
+        <p class="sub" id="local-model-summary">正在检测本地推理服务…</p>
+      </div>
+      <div class="inline-actions">
+        <button type="button" id="start-local-models">启动全部</button>
+        <button type="button" id="stop-local-models" class="danger">停止全部</button>
+      </div>
+    </div>
+    <div id="local-models" class="model-grid"></div>
+    <details id="local-model-log-wrap" class="advanced" hidden>
+      <summary>启动/停止日志</summary>
+      <pre id="local-model-log" class="log compact"></pre>
+    </details>
+    <p class="error" id="local-model-error" hidden></p>
+  </section>
+
+</main>
+
+<script src="core.js"></script>
+<script src="gpu.js"></script>
+<script src="studio_state.js"></script>
+<script src="studio_setup.js"></script>
+<script src="studio_local_models.js"></script>
+<script src="ops.js"></script>
+</body>
+</html>

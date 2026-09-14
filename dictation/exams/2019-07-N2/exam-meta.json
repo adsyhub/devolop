@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "level": "N2",
+  "slug": "2019-07-N2",
+  "title": "2019年7月 日本語能力試験 N2",
+  "sessionLabel": "2019年7月",
+  "durationSec": 10800,
+  "source": {
+    "fileName": "N2 2019年7月真题+答案+详解+听力原文.pdf",
+    "sha256": "e47fab475f0825f47bfd6da51e6565fe56ce44400c939e9cfa74ef9883f916d3",
+    "bytes": 6419946,
+    "pageCount": 31
+  },
+  "listeningMedia": {
+    "kind": "course-audio",
+    "courseSlug": "2019-07-N2",
+    "expectedSha256": "6fcc49106c12010909d347c8d75c7f6d00360790e9d86d6b22d7a462c6f8d488",
+    "expectedBytes": 21939529
+  }
+}

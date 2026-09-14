@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "description": "2010-12-N2：LLM 逐句校对发现的 ASR 误识别修正 1 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "d6bdd4b09fed7f439ba11032f6e7aec1e384be2b3fd9894a64f4ca07c3653ef3",
+  "evidence": {
+    "file": "proofread-work/2010-12-N2/proofread.json",
+    "proposedFixes": "proofread-work/2010-12-N2/proposed-fixes.json",
+    "notes": "proofread-work/2010-12-N2/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 113,
+      "endIndex": 113,
+      "expectedStartTime": 513.22,
+      "expectedEndTime": 519.44,
+      "items": [
+        {
+          "startTime": 513.22,
+          "endTime": 519.44,
+          "sourceText": "あのリストの順番は名前のあいうえお順にした方がいいでしょうか?",
+          "jaText": "あのリストの順番は名前のあいうえお順にした方がいいでしょうか?"
+        }
+      ]
+    }
+  ]
+}

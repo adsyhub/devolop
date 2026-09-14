@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+
+  "_readme": [
+    "Copy this file to config/providers.json and edit it. That copy is gitignored.",
+    "",
+    "A key is NEVER written here. A profile names the environment variable that",
+    "holds it (apiKeyEnv), and the build reads the variable from your shell.",
+    "A config containing a literal apiKey/token/secret is rejected on load.",
+    "",
+    "Resolution order, last wins:",
+    "  built-in shape defaults -> the profile below -> environment -> CLI flags",
+    "",
+    "Pick a profile per run:   python src/build_course.py --audio in.mp3 --profile ollama",
+    "Or override any field:    ... --kind openai-compat --base-url URL --model NAME",
+    "See what is defined:      python src/build_course.py --list-profiles",
+    "",
+    "The model names below are EXAMPLES in a file you own, not defaults in the code.",
+    "Change them freely; the pipeline never supplies one for you."
+  ],
+
+  "defaultTextProfile": "",
+  "defaultAsrProfile": "local-whisper-cuda",
+
+  "_asrLanguageProfiles_readme": [
+    "语言 → ASR profile。给了 --language 就自动选对应的转写模型，",
+    "显式 --asr-profile 仍然优先。--language auto 不路由：",
+    "音频没读之前语言是未知的，拿日语模型去转英语比慢更糟。"
+  ],
+  "asrLanguageProfiles": {
+    "ja": "japanese-accurate",
+    "en": "english-accurate"
+  },
+
+  "textProfiles": {
+    "deepseek": {
+      "description": "Hosted API. $env:DEEPSEEK_API_KEY=\"...\" before building.",
+      "kind": "openai-compat",
+      "baseUrl": "https://api.deepseek.com/v1",
+      "apiKeyEnv": "DEEPSEEK_API_KEY",
+      "model": "deepseek-chat",
+      "batchSize": 25,
+      "temperature": 0.2,
+      "maxTokens": 16000
+    },
+
+    "openai": {
+      "description": "Any OpenAI chat model. Set the model to whatever your account can call.",
+      "kind": "openai-compat",
+      "baseUrl": "https://api.openai.com/v1",
+      "apiKeyEnv": "OPENAI_API_KEY",
+      "model": "gpt-4o-mini"
+    },
+
+    "anthropic": {
+      "description": "Claude via the Messages API. Model ids change; set the one you want.",
+      "kind": "anthropic",
+      "baseUrl": "https://api.anthropic.com",
+      "apiKeyEnv": "ANTHROPIC_API_KEY",
+      "model": "claude-sonnet-4-5",
+      "maxTokens": 8000
+    },
+
+    "openrouter": {
+      "description": "One key, many vendors. The model string carries the vendor prefix.",
+      "kind": "openai-compat",
+      "baseUrl": "https://openrouter.ai/api/v1",
+      "apiKeyEnv": "OPENROUTER_API_KEY",
+      "model": "deepseek/deepseek-chat"
+    },
+
+    "groq": {
+      "description": "Fast hosted inference, OpenAI-compatible.",
+      "kind": "openai-compat",
+      "baseUrl": "https://api.groq.com/openai/v1",
+      "apiKeyEnv": "GROQ_API_KEY",
+      "model": "llama-3.3-70b-versatile"
+    },
+
+    "siliconflow": {
+      "description": "Mainland-China endpoint, OpenAI-compatible.",
+      "kind": "openai-compat",
+      "baseUrl": "https://api.siliconflow.cn/v1",
+      "apiKeyEnv": "SILICONFLOW_API_KEY",
+      "model": "Qwen/Qwen2.5-72B-Instruct"
+    },
+
+    "ollama": {
+      "description": "Local model over Ollama's native API. No key, nothing leaves the machine.",
+      "kind": "ollama",
+      "baseUrl": "http://127.0.0.1:11434",
+      "model": "qwen2.5:7b",
+      "batchSize": 10,
+      "maxTokens": 8000,
+      "timeout": 600
+    },
+
+    "ollama-openai": {
+      "description": "The same Ollama server through its OpenAI-compatible shim.",
+      "kind": "openai-compat",
+      "baseUrl": "http://127.0.0.1:11434/v1",
+      "model": "qwen2.5:7b",
+      "batchSize": 10,
+      "timeout": 600
+    },
+
+    "lmstudio": {
+      "description": "LM Studio's local server. The model is whatever you loaded in the UI.",
+      "kind": "openai-compat",
+      "baseUrl": "http://127.0.0.1:1234/v1",
+      "model": "local-model",
+      "batchSize": 10,
+      "timeout": 600
+    },
+
+    "llamacpp": {
+      "description": "llama.cpp llama-server. It ignores the model field but one must be set.",
+      "kind": "openai-compat",
+      "baseUrl": "http://127.0.0.1:8080/v1",
+      "model": "local",
+      "batchSize": 8,
+      "timeout": 900
+    },
+
+    "vllm": {
+      "description": "vLLM's OpenAI server. The model must match --served-model-name.",
+      "kind": "openai-compat",
+      "baseUrl": "http://127.0.0.1:8000/v1",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "timeout": 600
+    },
+
+    "claude-cli": {
+      "description": "A subscription seat used as the API: Claude Code answers on stdout. Verify the flags against your installed version.",
+      "kind": "cli",
+      "command": ["claude", "-p", "--output-format", "text"],
+      "batchSize": 8,
+      "sleep": 1.0,
+      "timeout": 600,
+      "retries": 2
+    },
+
+    "custom-cli": {
+      "description": "Any command that reads a prompt on stdin and prints the answer. Use {prompt_file} instead if your tool wants a file path.",
+      "kind": "cli",
+      "command": ["my-ai-wrapper", "--json"],
+      "batchSize": 8,
+      "timeout": 600
+    },
+
+    "manual": {
+      "description": "No API at all. The build writes *.prompt.txt here; you paste each into any chat window and save the reply as the matching *.reply.json, then re-run with --resume.",
+      "kind": "manual",
+      "handoffDir": "./handoff",
+      "batchSize": 15
+    },
+
+    "echo": {
+      "description": "Offline stub for tests and scaffolding. Writes visible placeholders and cannot be packaged without --allow-stub-enrichment.",
+      "kind": "echo",
+      "batchSize": 50
+    }
+  },
+
+  "asrProfiles": {
+    "japanese-accurate": {
+      "description": "日语·精度优先（默认）。实测：与经 5 轮人工修补的 N2 课程一致率 93.9%，kotoba 只有 57.5%；字数多 19%，时间轴覆盖多 4.4 个百分点。慢，但这是为精度付的钱。",
+      "kind": "faster-whisper",
+      "model": "large-v3",
+      "device": "cuda",
+      "computeType": "float16",
+      "language": "ja",
+      "beamSize": 10,
+      "vadFilter": true,
+      "wordTimestamps": true,
+      "maxSegmentSeconds": 15,
+      "conditionOnPreviousText": false,
+      "hallucinationSilenceThreshold": 2.0,
+      "vadOptions": {
+        "maxSpeechDurationS": 20,
+        "minSilenceDurationMs": 500,
+        "minSpeechDurationMs": 350,
+        "speechPadMs": 200
+      }
+    },
+
+    "english-accurate": {
+      "description": "英语·精度优先（默认）。同样是 large-v3，语言锁定 en。注意：英语侧我没有实测数据，这里沿用日语侧验证过的解码策略。",
+      "kind": "faster-whisper",
+      "model": "large-v3",
+      "device": "cuda",
+      "computeType": "float16",
+      "language": "en",
+      "beamSize": 10,
+      "vadFilter": true,
+      "wordTimestamps": true,
+      "maxSegmentSeconds": 15,
+      "conditionOnPreviousText": false,
+      "hallucinationSilenceThreshold": 2.0,
+      "vadOptions": {
+        "maxSpeechDurationS": 20,
+        "minSilenceDurationMs": 500,
+        "minSpeechDurationMs": 350,
+        "speechPadMs": 200
+      }
+    },
+
+    "japanese-fast": {
+      "description": "日语·速度优先。kotoba-whisper 快 4 倍以上，但实测在 N2 音频上漏掉 19% 的字、26 个段短于 0.35 秒、20 个段语速物理不可能，且换个 beam size 自我一致率只有 44%。只适合出草稿或试跑，不要用它出成品。",
+      "kind": "faster-whisper",
+      "model": "kotoba-tech/kotoba-whisper-v2.0-faster",
+      "supportsWordTimestamps": false,
+      "device": "cuda",
+      "computeType": "float16",
+      "language": "ja",
+      "beamSize": 5,
+      "vadFilter": true,
+      "conditionOnPreviousText": false,
+      "hallucinationSilenceThreshold": 2.0,
+      "noRepeatNgramSize": 5,
+      "vadOptions": {
+        "maxSpeechDurationS": 20,
+        "minSilenceDurationMs": 500,
+        "minSpeechDurationMs": 350,
+        "speechPadMs": 200
+      }
+    },
+
+    "english-fast": {
+      "description": "英语·速度优先。distil-large-v3 只训英语，比 large-v3 快得多。蒸馏解码器的取舍与 kotoba 同类，英语侧我没有实测，出成品前请自己对比。",
+      "kind": "faster-whisper",
+      "model": "Systran/faster-distil-whisper-large-v3",
+      "device": "cuda",
+      "computeType": "float16",
+      "language": "en",
+      "beamSize": 5,
+      "vadFilter": true,
+      "conditionOnPreviousText": false,
+      "hallucinationSilenceThreshold": 2.0,
+      "noRepeatNgramSize": 5,
+      "vadOptions": {
+        "maxSpeechDurationS": 20,
+        "minSilenceDurationMs": 500,
+        "minSpeechDurationMs": 350,
+        "speechPadMs": 200
+      }
+    },
+
+    "local-whisper-cpu": {
+      "description": "Runs anywhere. Slower, but needs no GPU. Larger model = better text.",
+      "kind": "faster-whisper",
+      "model": "small",
+      "device": "cpu",
+      "computeType": "int8",
+      "language": "auto",
+      "beamSize": 5,
+      "vadFilter": true,
+      "minDuration": 0.2
+    },
+
+    "local-whisper-cuda": {
+      "description": "通用兜底：语言未知或没有专用模型时用 large-v3。时间戳是三者里最稳的，慢也慢在这上面。",
+      "kind": "faster-whisper",
+      "model": "large-v3",
+      "device": "cuda",
+      "computeType": "float16",
+      "language": "auto",
+      "beamSize": 5,
+      "conditionOnPreviousText": false,
+      "hallucinationSilenceThreshold": 2.0,
+      "vadOptions": {
+        "maxSpeechDurationS": 25,
+        "minSilenceDurationMs": 700
+      }
+    },
+
+    "openai-whisper": {
+      "description": "Hosted transcription. Must support response_format=verbose_json with segment timestamps.",
+      "kind": "openai-audio",
+      "baseUrl": "https://api.openai.com/v1",
+      "apiKeyEnv": "OPENAI_API_KEY",
+      "model": "whisper-1",
+      "language": "auto"
+    },
+
+    "groq-whisper": {
+      "description": "Hosted Whisper, usually much faster than local CPU.",
+      "kind": "openai-audio",
+      "baseUrl": "https://api.groq.com/openai/v1",
+      "apiKeyEnv": "GROQ_API_KEY",
+      "model": "whisper-large-v3-turbo",
+      "language": "auto"
+    },
+
+    "local-whisper-server": {
+      "description": "A local server imitating the audio API (faster-whisper-server, whisper.cpp server, LocalAI).",
+      "kind": "openai-audio",
+      "baseUrl": "http://127.0.0.1:8000/v1",
+      "model": "Systran/faster-whisper-small",
+      "language": "auto",
+      "timeout": 3600
+    },
+
+    "whisper-cpp": {
+      "description": "whisper.cpp writing JSON next to {output_stem}. Adjust paths to your build.",
+      "kind": "command",
+      "command": [
+        "whisper-cli",
+        "-m",
+        "models/ggml-large-v3.bin",
+        "-f",
+        "{audio}",
+        "-oj",
+        "-of",
+        "{output_stem}"
+      ],
+      "language": "auto",
+      "timeout": 7200
+    },
+
+    "import": {
+      "description": "Skip transcription entirely and use a transcript you already have. Override the path per run with --transcript.",
+      "kind": "import",
+      "transcript": "./my-transcript.srt",
+      "language": "ja"
+    }
+  }
+}

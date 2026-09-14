@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "description": "Align the preceding report-reference sentence with the independent-context word timestamps to remove the final overlap.",
+  "sourceSentencesDigest": "76570af662d9df6b8a70169361928eeb35bfed1a9e950128b4e1ff0df29bc7bc",
+  "evidence": {
+    "file": "warning-retranscription.json",
+    "model": "faster-whisper large-v3",
+    "run": "baseline-independent",
+    "conditionOnPreviousText": false
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 26,
+      "endIndex": 26,
+      "expectedStartTime": 136.15,
+      "expectedEndTime": 140.99,
+      "items": [
+        {
+          "startTime": 136.28,
+          "endTime": 140.0,
+          "jaText": "私、レポートの参考資料が見つからなくて困ってるんだ。",
+          "zhTranslation": "我找不到报告的参考数据，正为此发愁。",
+          "explanationText": "「～なくて困っている」表示因为找不到或无法做到某事而困扰；口语中「困ってる」是「困っている」的缩约。",
+          "confidence": 0.872,
+          "contentType": "dialogue"
+        }
+      ]
+    }
+  ]
+}

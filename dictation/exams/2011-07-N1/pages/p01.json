@@ -1,0 +1,226 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "去年より<u>利益</u>がわずかに増えた。",
+      "choices": [
+        "りし",
+        "りそく",
+        "りえき",
+        "りじゅん"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "橋本選手の活躍で、なんとかピンチを<u>逃れた</u>。",
+      "choices": [
+        "のがれた",
+        "はなれた",
+        "それた",
+        "まぬがれた"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "子どものおもちゃは、安全性を<u>考慮</u>して選ぶようにしている。",
+      "choices": [
+        "こうろ",
+        "こうりょ",
+        "こうろう",
+        "こうりょう"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "この辺りは視界を<u>遮る</u>物が何もない。",
+      "choices": [
+        "さまたげる",
+        "さえぎる",
+        "せばめる",
+        "へだてる"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "この説は科学的な<u>根拠</u>に乏しい。",
+      "choices": [
+        "こんしょ",
+        "こんじょ",
+        "こんきょ",
+        "こんぎょ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "何事も初めが<u>肝心</u>だ。",
+      "choices": [
+        "たんしん",
+        "かんしん",
+        "たんじん",
+        "かんじん"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "物置の隅で、ほこり（　　）になっている古い人形を見つけた。",
+      "choices": [
+        "ぐるみ",
+        "がらみ",
+        "まみれ",
+        "ずくめ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "木村さんとは共通の趣味があるので、いつも会話が（　　）。",
+      "choices": [
+        "舞う",
+        "弾む",
+        "転がる",
+        "跳ねる"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "地域の（　　）に合った医療のシステムが求められている。",
+      "choices": [
+        "実情",
+        "実況",
+        "実権",
+        "実在"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "その選手は、十年に一人の（　　）だと言われている。",
+      "choices": [
+        "玄人",
+        "大家",
+        "巨匠",
+        "逸材"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "書類に（　　）があった場合、申請は受理されません。",
+      "choices": [
+        "不穏",
+        "不当",
+        "不備",
+        "不順"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "約300年前の絵画の（　　）が終わり、来月から公開される予定だ。",
+      "choices": [
+        "回復",
+        "修復",
+        "復旧",
+        "復興"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "経済だけでなく、法律にも詳しいのが彼の（　　）だ。",
+      "choices": [
+        "深み",
+        "強み",
+        "高み",
+        "重み"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "この映画は<u>画期的な</u>手法で製作された。",
+      "choices": [
+        "広く知られている",
+        "最近ではめずらしい",
+        "非常に時間がかかる",
+        "今までになく新しい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "あの企業は海外市場への進出を<u>もくろんで</u>いる。",
+      "choices": [
+        "計画して",
+        "果たして",
+        "開始して",
+        "あきらめて"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "問題を解決するために、もう少し<u>手がかり</u>が欲しい。",
+      "choices": [
+        "イメージ",
+        "サポート",
+        "チャンス",
+        "ヒント"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "あの人の話は<u>にわかには</u>信じられない。",
+      "choices": [
+        "すぐには",
+        "完全には",
+        "すなおには",
+        "簡単には"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "page": 13,
+  "pageLabel": "13",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　問題3では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問と選択肢を聞いて、1から4の中から、最もよいものを一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 1,
+      "text": "1番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 2,
+      "text": "2番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 3,
+      "text": "3番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 4,
+      "text": "4番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 5,
+      "text": "5番",
+      "choices": []
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 4,
+      "text": "問題4　問題4では、問題用紙に何も印刷されていません。短い文を聞いて、その返しとして最もよいものを、1から3の中から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 1,
+      "text": "1番",
+      "choices": [],
+      "choiceCount": 3
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 2,
+      "text": "2番",
+      "choices": [],
+      "choiceCount": 3
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 3,
+      "text": "3番",
+      "choices": [],
+      "choiceCount": 3
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 4,
+      "text": "4番",
+      "choices": [],
+      "choiceCount": 3
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 5,
+      "text": "5番",
+      "choices": [],
+      "choiceCount": 3
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 6,
+      "text": "6番",
+      "choices": [],
+      "choiceCount": 3
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 7,
+      "text": "7番",
+      "choices": [],
+      "choiceCount": 3
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 8,
+      "text": "8番",
+      "choices": [],
+      "choiceCount": 3
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 9,
+      "text": "9番",
+      "choices": [],
+      "choiceCount": 3
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 10,
+      "text": "10番",
+      "choices": [],
+      "choiceCount": 3
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 11,
+      "text": "11番",
+      "choices": [],
+      "choiceCount": 3
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "questionNumber": 12,
+      "text": "12番",
+      "choices": [],
+      "choiceCount": 3
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 5,
+      "text": "問題5　問題5では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "questionNumber": 1,
+      "text": "1番",
+      "choices": [
+        "選択肢1",
+        "選択肢2",
+        "選択肢3",
+        "選択肢4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "questionNumber": 2,
+      "text": "2番",
+      "choices": [
+        "選択肢1",
+        "選択肢2",
+        "選択肢3",
+        "選択肢4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "questionNumber": 3,
+      "text": "3番",
+      "choices": [
+        "選択肢1",
+        "選択肢2",
+        "選択肢3",
+        "選択肢4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 5,
+      "questionNumber": 4,
+      "text": "4番",
+      "choices": [
+        "選択肢1",
+        "選択肢2",
+        "選択肢3",
+        "選択肢4"
+      ]
+    }
+  ]
+}

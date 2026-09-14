@@ -1,0 +1,101 @@
+{
+  "page": 22,
+  "pageLabel": "第21页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": 12,
+      "label": null,
+      "text": "て生きている。これは人間と人間が作り出した生命との新たな共生関係とも呼べる。\n　人間が登場して以来、進化の歴史は新しい局面を迎えた。人が作りかえたいのち。それに対して人間はきちんと責任を取らなければならない。",
+      "questionNumber": null, "choices": null, "vertical": false,
+      "continuesFromPreviousPage": true, "continuesOnNextPage": false
+    },
+    { "kind": "note", "partNumber": 12, "label": "(注1)", "text": "（注1）誤植：ここでは、ずれ",
+      "questionNumber": null, "choices": null, "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false },
+    { "kind": "note", "partNumber": 12, "label": "(注2)", "text": "（注2）ランダムに：偶然に",
+      "questionNumber": null, "choices": null, "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false },
+    { "kind": "note", "partNumber": 12, "label": "(注3)", "text": "（注3）｜淘汰《とうた》される：ここでは、滅びる",
+      "questionNumber": null, "choices": null, "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false },
+    { "kind": "note", "partNumber": 12, "label": "(注4)", "text": "（注4）専心する：集中する",
+      "questionNumber": null, "choices": null, "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false },
+    { "kind": "note", "partNumber": 12, "label": "(注5)", "text": "（注5）｜排卵《はいらん》する：ここでは、体の中で卵を作る",
+      "questionNumber": null, "choices": null, "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false },
+    { "kind": "note", "partNumber": 12, "label": "(注6)", "text": "（注6）カイコ：絹糸を作り出す虫",
+      "questionNumber": null, "choices": null, "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false },
+    { "kind": "note", "partNumber": 12, "label": "(注7)", "text": "（注7）｜繭《まゆ》：虫が自身を包むための球状の覆い",
+      "questionNumber": null, "choices": null, "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false },
+    {
+      "kind": "question",
+      "partNumber": 12,
+      "label": null,
+      "text": "筆者によると、自然界で子孫を残した生物はなぜ子孫を残せたか。",
+      "questionNumber": 63,
+      "choices": [
+        "自然環境に合わせて自身を変化させたから",
+        "自身に適した自然環境を選んで移動したから",
+        "DNAが複製されるときに、ずれが生じなかったから",
+        "DNAに生じた変化が、たまたま自然環境に合ったから"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 12,
+      "label": null,
+      "text": "①<u>ホワイトレグホン</u>について、筆者はどのように述べているか。",
+      "questionNumber": 64,
+      "choices": [
+        "卵を産んでも暖めない。",
+        "一度に多くの卵を産む。",
+        "産んだ卵をほかの鳥に託す。",
+        "ほかの鳥より卵を暖める時間が短い。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 12,
+      "label": null,
+      "text": "②<u>カイコ</u>について、筆者はどのように述べているか。",
+      "questionNumber": 65,
+      "choices": [
+        "身動きが取れないため、絹糸が多く作り出せなくなった。",
+        "人間が餌を与えることで、絹糸を作ることに専念するようになった。",
+        "生きるエネルギーの大部分を、餌を食べることに費やすようになった。",
+        "人工的な環境を与えた結果、絹糸を作るという新しい能力を獲得した。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 12,
+      "label": null,
+      "text": "筆者が言いたいことは何か。",
+      "questionNumber": 66,
+      "choices": [
+        "人間が作りかえた生物は、本来の姿に戻さなければならない。",
+        "人間はあらゆる生物と新たな共生関係を築くべきだ。",
+        "人間は生物の進化のプロセスに介入するべきではない。",
+        "人間は作り出した生命との共生関係を維持しなければならない。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "Note labels: the scan prints (注T) and (注K) for notes 1 and 5; transcribed as (注1) and (注5) to match the passage's own references.",
+    "The first block continues the 問題12 passage begun on PDF page 21 and must be joined to it.",
+    "Q63 choice 3 ends with a half-width full stop in the scan; normalised to 。"
+  ]
+}

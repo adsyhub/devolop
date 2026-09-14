@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-09-08T00:32:09.581019Z",
+  "archive": "library/backups/eju_backup_2026-09-08T00-32-03-522877Z.zip",
+  "sha256": "031f9908e4c1614cd5ede26167342c0d78293c7e7ad82e42936bebd5c14f4d57",
+  "sizeBytes": 105494532,
+  "mode": "FULL",
+  "valid": true,
+  "restoredSources": 6,
+  "restoredSessions": 6,
+  "restoredDraftRevision": "pr_75f7ec8e22de48b0966089a68258b17f",
+  "draftKind": "ignored",
+  "historyResultReadable": true,
+  "scoringVersion": 3,
+  "schemaVersion": 8,
+  "integrity": "ok",
+  "originalWorkspaceReplaced": false
+}

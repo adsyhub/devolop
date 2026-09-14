@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "status": "needs_review",
+  "summary": {
+    "sentences": 368,
+    "errors": 0,
+    "warnings": 6,
+    "issueCounts": {
+      "sentence.rate_implausible": 1,
+      "sentence.very_long": 2,
+      "sentence.very_short": 3
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 104
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 114
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_long",
+      "message": "Segment is longer than 30 seconds; consider splitting it.",
+      "sentenceIndex": 126
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 171
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 324
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "10 characters in 0.36s (28/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 116
+    }
+  ]
+}

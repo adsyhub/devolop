@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4f5a66">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <title>复核编辑器 · EJU 题库制作台</title>
+  <link rel="stylesheet" href="/tokens.css">
+  <link rel="stylesheet" href="/vendor/katex/katex.min.css">
+  <link rel="stylesheet" href="/studio.css">
+  <script defer src="/vendor/katex/katex.min.js"></script>
+</head>
+<body class="studio-body" data-module="editor">
+  <a class="skip-link" href="#studio-main">跳到内容</a>
+
+  <header class="topbar studio-topbar">
+    <div class="topbar-lead">
+      <a class="brand" href="./" aria-label="返回学习入口">
+        <span class="brand-mark studio-brand-mark" aria-hidden="true">製</span>
+        <span><strong>题库制作台</strong><small>逐页对照原图核对、签署</small></span>
+      </a>
+    </div>
+    <div class="topbar-status-group">
+      <a class="mode-switch-link" href="./">切换工作区</a>
+    </div>
+  </header>
+
+  <nav class="studio-modules" id="studio-modules" aria-label="制作台模块"></nav>
+
+  <main id="studio-main">
+    <section class="view view-wide" id="view-review" aria-labelledby="review-heading">
+      <a class="quiet-button back-link" id="review-back" href="/studio/library">← 返回课程库的流水线</a>
+      <div class="board-hero editor-hero">
+        <p class="eyebrow">PAGE REVIEW</p>
+        <h1>复核编辑器</h1>
+        <p class="board-hero-copy">
+          逐页对照原图核对题干、选项、图表与答案，然后签署。机器校验过的页在这里仍然
+          可以改：人的签名会顶替机器证明，整卷的把关等级随之提升。
+        </p>
+      </div>
+
+      <p class="status-line" id="module-status" role="status"></p>
+
+      <div class="review-controls">
+        <label class="field"><span>来源</span><select id="review-source"></select></label>
+        <label class="field"><span>文件</span>
+          <select id="review-role">
+            <option value="QUESTION_BOOKLET">题册</option>
+            <option value="ANSWER_KEY">答案册</option>
+          </select></label>
+        <label class="field"><span>PDF 页码</span><input id="review-page" type="number" min="1" value="1"></label>
+        <button id="review-open" class="primary-button" type="button">打开原页</button>
+        <button id="review-prev" class="btn btn-outline" type="button">上一页</button>
+        <button id="review-next" class="btn btn-outline" type="button">下一页</button>
+        <span id="review-page-status" role="status"></span>
+      </div>
+
+      <div id="review-workbench" class="review-workbench" hidden>
+        <div class="source-sheet">
+          <img id="review-source-image" alt="原始来源页">
+          <div id="review-bbox-layer"></div>
+          <!-- 区域几何未验证时如实说明，不让占位框看起来像识别结果。 -->
+          <p class="geometry-notice" id="review-geometry-notice" role="status" hidden></p>
+        </div>
+
+        <div class="review-editor">
+          <h2 id="review-heading" class="sr-only">页面内容编辑</h2>
+          <p class="review-signature" id="review-signature"></p>
+          <div id="review-fields"></div>
+
+          <div class="review-preview">
+            <h3>题目内容预览</h3>
+            <div id="review-preview-content"></div>
+          </div>
+
+          <!-- 专家逃生舱：日常复核用不到，默认收起。 -->
+          <details class="review-advanced">
+            <summary>进阶：裁图、完整 JSON 与前后差异</summary>
+            <label class="field"><span>裁图区域（x0,y0,x1,y1，0–1）</span>
+              <input id="review-crop-bbox" value="0.1,0.1,0.9,0.8"></label>
+            <button id="review-clip" class="btn btn-outline" type="button">裁图并加入当前内容块</button>
+            <label class="field"><span>完整页面 JSON</span>
+              <textarea id="review-json" spellcheck="false"></textarea></label>
+            <button id="review-apply-json" class="btn btn-outline" type="button">应用 JSON 编辑</button>
+            <pre id="review-diff"></pre>
+          </details>
+
+          <!-- 每一页的收尾动作固定在底部：签署，或登记为非题目页。 -->
+          <div class="review-signoff">
+            <label class="field"><span>复核人</span>
+              <input id="review-signoff-reviewer" maxlength="100" autocomplete="name"></label>
+            <label class="check-row"><input id="review-confirmed" type="checkbox">
+              我已逐项对照原页核对正文、顺序、图表和答案</label>
+            <div class="review-signoff-actions">
+              <button id="review-save" class="secondary-button" type="button">保存草稿</button>
+              <button id="review-sign" class="primary-button" type="button">签署当前草稿</button>
+              <button id="review-withdraw" class="quiet-button danger-text" type="button">撤回签署</button>
+            </div>
+            <div class="review-ignore-row">
+              <label class="field"><span>非题目页说明</span>
+                <input id="review-ignore-reason" placeholder="例如：空白页，仅页眉页脚"></label>
+              <button id="review-ignore" class="btn btn-outline" type="button">登记为空白 / 非题目页</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="/core.js" defer></script>
+  <script src="/studio_shell.js" defer></script>
+  <script src="/studio_editor.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "description": "2015-07-N1：LLM 逐句校对发现的 ASR 误识别修正 14 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "3c5bb2758675aee2c1cd4cbb29a89e2efd6b350cab9333b2df9c62f3aa7033a2",
+  "evidence": {
+    "file": "proofread-work/2015-07-N1/proofread.json",
+    "proposedFixes": "proofread-work/2015-07-N1/proposed-fixes.json",
+    "notes": "proofread-work/2015-07-N1/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 65,
+      "endIndex": 65,
+      "expectedStartTime": 361.84,
+      "expectedEndTime": 366.06,
+      "items": [
+        {
+          "startTime": 361.84,
+          "endTime": 366.06,
+          "sourceText": "そうそれじゃあ仕様書や契約書の類を揃えておいて",
+          "jaText": "そうそれじゃあ仕様書や契約書の類を揃えておいて"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 170,
+      "endIndex": 170,
+      "expectedStartTime": 1045.04,
+      "expectedEndTime": 1053.0,
+      "items": [
+        {
+          "startTime": 1045.04,
+          "endTime": 1053.0,
+          "sourceText": "未来の科学技術を予言するものから人間の心理を描いたものまで幅広くかつ深い作品が多いですからね",
+          "jaText": "未来の科学技術を予言するものから人間の心理を描いたものまで幅広くかつ深い作品が多いですからね"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 185,
+      "endIndex": 185,
+      "expectedStartTime": 1172.89,
+      "expectedEndTime": 1177.61,
+      "items": [
+        {
+          "startTime": 1172.89,
+          "endTime": 1177.61,
+          "sourceText": "はい、私も来年度から他の部署に異動することになって",
+          "jaText": "はい、私も来年度から他の部署に異動することになって"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 234,
+      "endIndex": 234,
+      "expectedStartTime": 1581.46,
+      "expectedEndTime": 1587.3,
+      "items": [
+        {
+          "startTime": 1581.46,
+          "endTime": 1587.3,
+          "sourceText": "このクリップと止めるは創立以来我が社でずっと販売してきた商品ですが",
+          "jaText": "このクリップと止めるは創立以来我が社でずっと販売してきた商品ですが"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 279,
+      "endIndex": 279,
+      "expectedStartTime": 1926.46,
+      "expectedEndTime": 1940.45,
+      "items": [
+        {
+          "startTime": 1926.46,
+          "endTime": 1940.45,
+          "sourceText": "こういった問題は長時間労働が常態化している企業があることや有給休暇を積極的に取得しない人がいるという現状を何とかしなければ解決は難しいと考えます",
+          "jaText": "こういった問題は長時間労働が常態化している企業があることや有給休暇を積極的に取得しない人がいるという現状を何とかしなければ解決は難しいと考えます"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 348,
+      "endIndex": 348,
+      "expectedStartTime": 2471.14,
+      "expectedEndTime": 2478.08,
+      "items": [
+        {
+          "startTime": 2471.14,
+          "endTime": 2478.08,
+          "sourceText": "11番。新商品のプレゼン、新人の佐藤君に任せたんだけど、荷が重いかな。",
+          "jaText": "11番。新商品のプレゼン、新人の佐藤君に任せたんだけど、荷が重いかな。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 399,
+      "endIndex": 399,
+      "expectedStartTime": 2789.53,
+      "expectedEndTime": 2792.29,
+      "items": [
+        {
+          "startTime": 2789.53,
+          "endTime": 2792.29,
+          "sourceText": "先週4冊候補をお伝えしましたね",
+          "jaText": "先週4冊候補をお伝えしましたね"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 400,
+      "endIndex": 400,
+      "expectedStartTime": 2792.29,
+      "expectedEndTime": 2796.48,
+      "items": [
+        {
+          "startTime": 2792.29,
+          "endTime": 2796.48,
+          "sourceText": "歴史小説、伝記、冒険小説",
+          "jaText": "歴史小説、伝記、冒険小説"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 403,
+      "endIndex": 403,
+      "expectedStartTime": 2802.52,
+      "expectedEndTime": 2805.38,
+      "items": [
+        {
+          "startTime": 2802.52,
+          "endTime": 2805.38,
+          "sourceText": "はい、私は伝記がいいと思いました",
+          "jaText": "はい、私は伝記がいいと思いました"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 408,
+      "endIndex": 408,
+      "expectedStartTime": 2821.48,
+      "expectedEndTime": 2825.4,
+      "items": [
+        {
+          "startTime": 2821.48,
+          "endTime": 2825.4,
+          "sourceText": "でも伝記はちょっと押し付けがましい面があるような気がして",
+          "jaText": "でも伝記はちょっと押し付けがましい面があるような気がして"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 409,
+      "endIndex": 409,
+      "expectedStartTime": 2826.2,
+      "expectedEndTime": 2827.64,
+      "items": [
+        {
+          "startTime": 2826.2,
+          "endTime": 2827.64,
+          "sourceText": "詩集はどうでしょうか",
+          "jaText": "詩集はどうでしょうか"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 420,
+      "endIndex": 420,
+      "expectedStartTime": 2861.91,
+      "expectedEndTime": 2874.93,
+      "items": [
+        {
+          "startTime": 2861.91,
+          "endTime": 2874.93,
+          "sourceText": "そうですね。ただ、内容にちょっと暴力的な描写があるので、その部分をどう考えるか。中には繊細な子もいるし、親の反応も気になりますね。その点、伝記なら…",
+          "jaText": "そうですね。ただ、内容にちょっと暴力的な描写があるので、その部分をどう考えるか。中には繊細な子もいるし、親の反応も気になりますね。その点、伝記なら…"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 426,
+      "endIndex": 426,
+      "expectedStartTime": 2916.64,
+      "expectedEndTime": 2920.32,
+      "items": [
+        {
+          "startTime": 2916.64,
+          "endTime": 2920.32,
+          "sourceText": "歴史小説と伝記歴",
+          "jaText": "歴史小説と伝記歴"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 428,
+      "endIndex": 428,
+      "expectedStartTime": 2926.33,
+      "expectedEndTime": 2938.9,
+      "items": [
+        {
+          "startTime": 2926.33,
+          "endTime": 2938.9,
+          "sourceText": "詩集と伝記詩集と冒険小説 3",
+          "jaText": "詩集と伝記詩集と冒険小説 3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "page": 42,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "もんだい"
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 2,
+      "text": "問題2では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "text": "",
+      "label": "例",
+      "choices": [
+        "友達とけんかしたから",
+        "かみがたが気に入らないから",
+        "試験があるから",
+        "頭が痛いから"
+      ]
+    }
+  ],
+  "pageLabel": "5",
+  "issues": []
+}

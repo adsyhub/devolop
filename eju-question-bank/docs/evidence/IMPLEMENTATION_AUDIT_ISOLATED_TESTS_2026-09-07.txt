@@ -1,0 +1,27 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.10, pytest-9.1.1, pluggy-1.5.0
+rootdir: /workspace/Develop/eju-question-bank
+configfile: pyproject.toml
+plugins: hypothesis-6.115.5, asyncio-1.4.0, anyio-4.14.2
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 17 items
+
+tests/test_answers.py ..                                                 [ 11%]
+tests/test_page_contract.py ...                                          [ 29%]
+tests/test_selection_grading.py ..                                       [ 41%]
+tests/test_assets_audio.py ....F                                         [ 70%]
+tests/test_security.py ....                                              [ 94%]
+tests/test_real_2023_science_pdf.py .                                    [100%]
+
+=================================== FAILURES ===================================
+_______________ test_probe_audio_rejects_corrupted_or_fake_file ________________
+tests/test_assets_audio.py:53: in test_probe_audio_rejects_corrupted_or_fake_file
+    with pytest.raises(MediaError):
+E   Failed: DID NOT RAISE MediaError
+----------------------------- Captured stderr call -----------------------------
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 39.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+=========================== short test summary info ============================
+FAILED tests/test_assets_audio.py::test_probe_audio_rejects_corrupted_or_fake_file
+========================= 1 failed, 16 passed in 1.23s =========================

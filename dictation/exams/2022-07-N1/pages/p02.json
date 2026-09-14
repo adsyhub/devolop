@@ -1,0 +1,121 @@
+{
+  "page": 2,
+  "pageLabel": "第1页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "label": null,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "label": null,
+      "text": "<u>勇敢</u>に戦う主人公に子どもたちは夢中だ。",
+      "questionNumber": 1,
+      "choices": [
+        "ゆうかん",
+        "ゆうがん",
+        "ゆうけん",
+        "ゆうげん"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "label": null,
+      "text": "その件について、<u>忠告</u>すべきかどうか考えている。",
+      "questionNumber": 2,
+      "choices": [
+        "しんこく",
+        "じゅうこく",
+        "ちゅうこく",
+        "じんこく"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "label": null,
+      "text": "チームの多くの選手が監督を<u>慕って</u>いるようだ。",
+      "questionNumber": 3,
+      "choices": [
+        "いたわって",
+        "うやまって",
+        "したって",
+        "かばって"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "label": null,
+      "text": "建物の入り口は、夜間は<u>施錠</u>されている。",
+      "questionNumber": 4,
+      "choices": [
+        "せいてい",
+        "せてい",
+        "せいじょう",
+        "せじょう"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "label": null,
+      "text": "対策の結果、地盤の<u>沈下</u>は食い止められている。",
+      "questionNumber": 5,
+      "choices": [
+        "ちんげ",
+        "ちんか",
+        "しんか",
+        "しんげ"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "label": null,
+      "text": "激しい雪に<u>阻まれて</u>前に進めない。",
+      "questionNumber": 6,
+      "choices": [
+        "かこまれて",
+        "からまれて",
+        "こばまれて",
+        "はばまれて"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "Q3 stem: the long vowel mark in チーム is printed as a short hyphen-like glyph (チ-ム) in this scan; transcribed as the standard katakana chōonpu チーム.",
+    "Q4 stem: 入り口 is rendered in the scan with glyphs that could read as katakana リ and ロ (入リロ); transcribed as the standard 入り口.",
+    "Instruction line: the blank after 問題1 is printed as a solid underline rule; transcribed as ＿＿＿＿. The digits in 1・2・3・4 are printed half-width with irregular spacing.",
+    "Question numbers are printed as '1、' … '6、' with an ideographic comma rather than a boxed numeral; numbers recorded in questionNumber only.",
+    "The lower half of the page is blank apart from the page label 第1页."
+  ]
+}

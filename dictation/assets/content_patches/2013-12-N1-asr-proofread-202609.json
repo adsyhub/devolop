@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "description": "2013-12-N1：LLM 逐句校对发现的 ASR 误识别修正 11 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "9812482deab90f58abbce2c2db9db634ca9e2f5b39bf9df6af1c2a5645e572f8",
+  "evidence": {
+    "file": "proofread-work/2013-12-N1/proofread.json",
+    "proposedFixes": "proofread-work/2013-12-N1/proposed-fixes.json",
+    "notes": "proofread-work/2013-12-N1/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 63,
+      "endIndex": 63,
+      "expectedStartTime": 450.88,
+      "expectedEndTime": 453.78,
+      "items": [
+        {
+          "startTime": 450.88,
+          "endTime": 453.78,
+          "sourceText": "人事課に事前に受診日を連絡するんでしょうか",
+          "jaText": "人事課に事前に受診日を連絡するんでしょうか"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 64,
+      "endIndex": 64,
+      "expectedStartTime": 453.78,
+      "expectedEndTime": 457.92,
+      "items": [
+        {
+          "startTime": 453.78,
+          "endTime": 457.92,
+          "sourceText": "受診日も新しいシステムで一括管理していますから",
+          "jaText": "受診日も新しいシステムで一括管理していますから"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 73,
+      "endIndex": 73,
+      "expectedStartTime": 522.06,
+      "expectedEndTime": 528.74,
+      "items": [
+        {
+          "startTime": 522.06,
+          "endTime": 528.74,
+          "sourceText": "多少値が張ってもそれから作りたてのような温かいものが欲しいって声が高いですね",
+          "jaText": "多少値が張ってもそれから作りたてのような温かいものが欲しいって声が高いですね"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 186,
+      "endIndex": 186,
+      "expectedStartTime": 1387.53,
+      "expectedEndTime": 1400.48,
+      "items": [
+        {
+          "startTime": 1387.53,
+          "endTime": 1400.48,
+          "sourceText": "りかつ農薬を使わないのでその安全性にも今後注目が高まりそうです システム導入にあたっては高額な設備投資や維持費をどう捻出するかが大きな課題",
+          "jaText": "りかつ農薬を使わないのでその安全性にも今後注目が高まりそうです システム導入にあたっては高額な設備投資や維持費をどう捻出するかが大きな課題"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 241,
+      "endIndex": 241,
+      "expectedStartTime": 1880.77,
+      "expectedEndTime": 1884.5,
+      "items": [
+        {
+          "startTime": 1880.77,
+          "endTime": 1884.5,
+          "sourceText": "1. 希少金属のリサイクル",
+          "jaText": "1. 希少金属のリサイクル"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 242,
+      "endIndex": 242,
+      "expectedStartTime": 1884.5,
+      "expectedEndTime": 1891.1,
+      "items": [
+        {
+          "startTime": 1884.5,
+          "endTime": 1891.1,
+          "sourceText": "2. 希少金属の鉱山開発",
+          "jaText": "2. 希少金属の鉱山開発"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 243,
+      "endIndex": 243,
+      "expectedStartTime": 1891.1,
+      "expectedEndTime": 1898.19,
+      "items": [
+        {
+          "startTime": 1891.1,
+          "endTime": 1898.19,
+          "sourceText": "3. 世界の希少金属の埋蔵量",
+          "jaText": "3. 世界の希少金属の埋蔵量"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 244,
+      "endIndex": 244,
+      "expectedStartTime": 1898.19,
+      "expectedEndTime": 1904.81,
+      "items": [
+        {
+          "startTime": 1898.19,
+          "endTime": 1904.81,
+          "sourceText": "4. 希少金属の廃棄処理",
+          "jaText": "4. 希少金属の廃棄処理"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 276,
+      "endIndex": 276,
+      "expectedStartTime": 2188.46,
+      "expectedEndTime": 2199.8,
+      "items": [
+        {
+          "startTime": 2188.46,
+          "endTime": 2199.8,
+          "sourceText": "ねえ1若いのになかなか感心だね ほんとすぐバテちゃうんだから体",
+          "jaText": "ねえ1若いのになかなか感心だね ほんとすぐバテちゃうんだから体"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 326,
+      "endIndex": 326,
+      "expectedStartTime": 2615.29,
+      "expectedEndTime": 2630.13,
+      "items": [
+        {
+          "startTime": 2615.29,
+          "endTime": 2630.13,
+          "sourceText": "スタッフの減給は考えられないしとなると今回はさっきの前向きなんで行こう レストランでは何をすることになりましたか",
+          "jaText": "スタッフの減給は考えられないしとなると今回はさっきの前向きなんで行こう レストランでは何をすることになりましたか"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 340,
+      "endIndex": 340,
+      "expectedStartTime": 2757.14,
+      "expectedEndTime": 2760.66,
+      "items": [
+        {
+          "startTime": 2757.14,
+          "endTime": 2760.66,
+          "sourceText": "じゃあ、口語表現のがいいんじゃない?英語は得意でしょ?",
+          "jaText": "じゃあ、口語表現のがいいんじゃない?英語は得意でしょ?"
+        }
+      ]
+    }
+  ]
+}

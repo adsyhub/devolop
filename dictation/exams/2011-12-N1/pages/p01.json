@@ -1,0 +1,226 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "時間がたつにつれて、選手の動きが<u>鈍って</u>きた。",
+      "choices": [
+        "にぶって",
+        "とどこおって",
+        "おとって",
+        "ちぢまって"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "高校生のころ、「将来は海外で働きたい」と<u>漠然と</u>考えていた。",
+      "choices": [
+        "まくぜん",
+        "ばくぜん",
+        "もうぜん",
+        "ぼうぜん"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "<u>閲覧</u>した資料は、カウンターに戻してください。",
+      "choices": [
+        "はいらん",
+        "はいけん",
+        "えつらん",
+        "えつけん"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "首相は自身の発言についての<u>釈明</u>に追われた。",
+      "choices": [
+        "しゅくめい",
+        "やくめい",
+        "たくめい",
+        "しゃくめい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "弊社は今回の<u>合併</u>を機に社名を変更します。",
+      "choices": [
+        "ごうべい",
+        "ごうべん",
+        "がっぺい",
+        "がっぺん"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "ようやく景気回復の<u>兆し</u>が見えてきた。",
+      "choices": [
+        "しるし",
+        "あかし",
+        "きざし",
+        "ひざし"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "大学をやめると言ったら、母に（　　）反対された。",
+      "choices": [
+        "猛",
+        "強",
+        "頑",
+        "厳"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "そんな軽装で冬の山に登るなんて、（　　）だ。",
+      "choices": [
+        "無残",
+        "無謀",
+        "無実",
+        "無念"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "今回の作品は、彼にとって（　　）の出来と言えるだろう。",
+      "choices": [
+        "核心",
+        "真心",
+        "会心",
+        "気心"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "この言葉には、やや批判的な（　　）が含まれている。",
+      "choices": [
+        "センス",
+        "キャラクター",
+        "ニュアンス",
+        "インスピレーション"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "この辺りは、高速道路と鉄道が（　　）して走っている。",
+      "choices": [
+        "同調",
+        "並列",
+        "同伴",
+        "並行"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "この文章は新聞記事からの（　　）です。",
+      "choices": [
+        "抽選",
+        "摘出",
+        "採取",
+        "抜粋"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "コピー用紙の（　　）が減ったら、注文しておいてください。",
+      "choices": [
+        "キープ",
+        "チャージ",
+        "ストック",
+        "シェア"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "今日の会議で出た意見は、<u>ありきたりの</u>ものが多かった。",
+      "choices": [
+        "的確な",
+        "平凡な",
+        "積極的な",
+        "否定的な"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "両チームの実力の差は<u>歴然として</u>いる。",
+      "choices": [
+        "以前と変わらない",
+        "ほとんどない",
+        "以前より大きくなっている",
+        "はっきりしている"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "無駄な経費は<u>極力</u>減らそう。",
+      "choices": [
+        "少しずつ",
+        "大幅に",
+        "できる限り",
+        "真っ先に"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "その結果を聞いて<u>落胆した</u>。",
+      "choices": [
+        "びっくりした",
+        "がっかりした",
+        "動揺した",
+        "疑問を持った"
+      ]
+    }
+  ]
+}

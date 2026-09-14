@@ -1,0 +1,740 @@
+{
+  "schemaVersion": 1,
+  "title": "熊本地震 偽の救助要請や生成AIで作った偽動画に注意｜NHK｜#nhk_news",
+  "sourceLanguage": "ja",
+  "media": {
+    "kind": "remote",
+    "provider": "youtube",
+    "control": "full",
+    "videoId": "TWdjzjHLJAA",
+    "pageUrl": "https://www.youtube.com/watch?v=TWdjzjHLJAA",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/TWdjzjHLJAA",
+    "durationSec": 14.0,
+    "uploader": "NHK",
+    "attribution": {
+      "sourceName": "YouTube",
+      "rightsHolder": "NHK",
+      "retrievedAt": "2026-09-01",
+      "redistributable": false,
+      "notes": "Timings, translations and explanations are ours; the transcript text derives from the site's captions or from local transcription. The media itself is never stored and this course is not redistributable."
+    }
+  },
+  "sentences": [
+    {
+      "startTime": 0.16,
+      "endTime": 0.67,
+      "sourceText": "イオンモール熊本について。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "イオンモール熊本について。",
+      "id": "s_92f611326c433a8b21206ff8"
+    },
+    {
+      "startTime": 2.84,
+      "endTime": 5.561,
+      "sourceText": "YouTube",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "YouTube",
+      "id": "s_901c20319d8d6bb5c85ad725"
+    },
+    {
+      "startTime": 13.759,
+      "endTime": 14.109,
+      "sourceText": "y",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "y",
+      "id": "s_89b202fc7fab3adb13cc1ded"
+    }
+  ],
+  "buildMetadata": {
+    "transcriptSource": "site-subtitles",
+    "retrievedAt": "2026-09-01",
+    "mediaProbe": {
+      "title": "熊本地震 偽の救助要請や生成AIで作った偽動画に注意｜NHK｜#nhk_news",
+      "uploader": "NHK",
+      "durationSec": 14.0,
+      "extractor": "Youtube",
+      "subtitles": [
+        {
+          "language": "aa",
+          "kind": "auto"
+        },
+        {
+          "language": "ab",
+          "kind": "auto"
+        },
+        {
+          "language": "af",
+          "kind": "auto"
+        },
+        {
+          "language": "ak",
+          "kind": "auto"
+        },
+        {
+          "language": "am",
+          "kind": "auto"
+        },
+        {
+          "language": "ar",
+          "kind": "auto"
+        },
+        {
+          "language": "as",
+          "kind": "auto"
+        },
+        {
+          "language": "ay",
+          "kind": "auto"
+        },
+        {
+          "language": "az",
+          "kind": "auto"
+        },
+        {
+          "language": "ba",
+          "kind": "auto"
+        },
+        {
+          "language": "be",
+          "kind": "auto"
+        },
+        {
+          "language": "bg",
+          "kind": "auto"
+        },
+        {
+          "language": "bho",
+          "kind": "auto"
+        },
+        {
+          "language": "bn",
+          "kind": "auto"
+        },
+        {
+          "language": "bo",
+          "kind": "auto"
+        },
+        {
+          "language": "br",
+          "kind": "auto"
+        },
+        {
+          "language": "bs",
+          "kind": "auto"
+        },
+        {
+          "language": "ca",
+          "kind": "auto"
+        },
+        {
+          "language": "ceb",
+          "kind": "auto"
+        },
+        {
+          "language": "co",
+          "kind": "auto"
+        },
+        {
+          "language": "crs",
+          "kind": "auto"
+        },
+        {
+          "language": "cs",
+          "kind": "auto"
+        },
+        {
+          "language": "cy",
+          "kind": "auto"
+        },
+        {
+          "language": "da",
+          "kind": "auto"
+        },
+        {
+          "language": "de",
+          "kind": "auto"
+        },
+        {
+          "language": "dv",
+          "kind": "auto"
+        },
+        {
+          "language": "dz",
+          "kind": "auto"
+        },
+        {
+          "language": "ee",
+          "kind": "auto"
+        },
+        {
+          "language": "el",
+          "kind": "auto"
+        },
+        {
+          "language": "en",
+          "kind": "auto"
+        },
+        {
+          "language": "eo",
+          "kind": "auto"
+        },
+        {
+          "language": "es",
+          "kind": "auto"
+        },
+        {
+          "language": "et",
+          "kind": "auto"
+        },
+        {
+          "language": "eu",
+          "kind": "auto"
+        },
+        {
+          "language": "fa",
+          "kind": "auto"
+        },
+        {
+          "language": "fi",
+          "kind": "auto"
+        },
+        {
+          "language": "fil",
+          "kind": "auto"
+        },
+        {
+          "language": "fj",
+          "kind": "auto"
+        },
+        {
+          "language": "fo",
+          "kind": "auto"
+        },
+        {
+          "language": "fr",
+          "kind": "auto"
+        },
+        {
+          "language": "fy",
+          "kind": "auto"
+        },
+        {
+          "language": "ga",
+          "kind": "auto"
+        },
+        {
+          "language": "gaa",
+          "kind": "auto"
+        },
+        {
+          "language": "gd",
+          "kind": "auto"
+        },
+        {
+          "language": "gl",
+          "kind": "auto"
+        },
+        {
+          "language": "gn",
+          "kind": "auto"
+        },
+        {
+          "language": "gu",
+          "kind": "auto"
+        },
+        {
+          "language": "gv",
+          "kind": "auto"
+        },
+        {
+          "language": "ha",
+          "kind": "auto"
+        },
+        {
+          "language": "haw",
+          "kind": "auto"
+        },
+        {
+          "language": "hi",
+          "kind": "auto"
+        },
+        {
+          "language": "hmn",
+          "kind": "auto"
+        },
+        {
+          "language": "hr",
+          "kind": "auto"
+        },
+        {
+          "language": "ht",
+          "kind": "auto"
+        },
+        {
+          "language": "hu",
+          "kind": "auto"
+        },
+        {
+          "language": "hy",
+          "kind": "auto"
+        },
+        {
+          "language": "id",
+          "kind": "auto"
+        },
+        {
+          "language": "ig",
+          "kind": "auto"
+        },
+        {
+          "language": "is",
+          "kind": "auto"
+        },
+        {
+          "language": "it",
+          "kind": "auto"
+        },
+        {
+          "language": "iu",
+          "kind": "auto"
+        },
+        {
+          "language": "iw",
+          "kind": "auto"
+        },
+        {
+          "language": "ja",
+          "kind": "auto"
+        },
+        {
+          "language": "ja-orig",
+          "kind": "auto"
+        },
+        {
+          "language": "jv",
+          "kind": "auto"
+        },
+        {
+          "language": "ka",
+          "kind": "auto"
+        },
+        {
+          "language": "kha",
+          "kind": "auto"
+        },
+        {
+          "language": "kk",
+          "kind": "auto"
+        },
+        {
+          "language": "kl",
+          "kind": "auto"
+        },
+        {
+          "language": "km",
+          "kind": "auto"
+        },
+        {
+          "language": "kn",
+          "kind": "auto"
+        },
+        {
+          "language": "ko",
+          "kind": "auto"
+        },
+        {
+          "language": "kri",
+          "kind": "auto"
+        },
+        {
+          "language": "ku",
+          "kind": "auto"
+        },
+        {
+          "language": "ky",
+          "kind": "auto"
+        },
+        {
+          "language": "la",
+          "kind": "auto"
+        },
+        {
+          "language": "lb",
+          "kind": "auto"
+        },
+        {
+          "language": "lg",
+          "kind": "auto"
+        },
+        {
+          "language": "ln",
+          "kind": "auto"
+        },
+        {
+          "language": "lo",
+          "kind": "auto"
+        },
+        {
+          "language": "lt",
+          "kind": "auto"
+        },
+        {
+          "language": "lua",
+          "kind": "auto"
+        },
+        {
+          "language": "luo",
+          "kind": "auto"
+        },
+        {
+          "language": "lv",
+          "kind": "auto"
+        },
+        {
+          "language": "mfe",
+          "kind": "auto"
+        },
+        {
+          "language": "mg",
+          "kind": "auto"
+        },
+        {
+          "language": "mi",
+          "kind": "auto"
+        },
+        {
+          "language": "mk",
+          "kind": "auto"
+        },
+        {
+          "language": "ml",
+          "kind": "auto"
+        },
+        {
+          "language": "mn",
+          "kind": "auto"
+        },
+        {
+          "language": "mr",
+          "kind": "auto"
+        },
+        {
+          "language": "ms",
+          "kind": "auto"
+        },
+        {
+          "language": "mt",
+          "kind": "auto"
+        },
+        {
+          "language": "my",
+          "kind": "auto"
+        },
+        {
+          "language": "ne",
+          "kind": "auto"
+        },
+        {
+          "language": "new",
+          "kind": "auto"
+        },
+        {
+          "language": "nl",
+          "kind": "auto"
+        },
+        {
+          "language": "no",
+          "kind": "auto"
+        },
+        {
+          "language": "nso",
+          "kind": "auto"
+        },
+        {
+          "language": "ny",
+          "kind": "auto"
+        },
+        {
+          "language": "oc",
+          "kind": "auto"
+        },
+        {
+          "language": "om",
+          "kind": "auto"
+        },
+        {
+          "language": "or",
+          "kind": "auto"
+        },
+        {
+          "language": "os",
+          "kind": "auto"
+        },
+        {
+          "language": "pa",
+          "kind": "auto"
+        },
+        {
+          "language": "pam",
+          "kind": "auto"
+        },
+        {
+          "language": "pl",
+          "kind": "auto"
+        },
+        {
+          "language": "ps",
+          "kind": "auto"
+        },
+        {
+          "language": "pt",
+          "kind": "auto"
+        },
+        {
+          "language": "pt-PT",
+          "kind": "auto"
+        },
+        {
+          "language": "qu",
+          "kind": "auto"
+        },
+        {
+          "language": "rn",
+          "kind": "auto"
+        },
+        {
+          "language": "ro",
+          "kind": "auto"
+        },
+        {
+          "language": "ru",
+          "kind": "auto"
+        },
+        {
+          "language": "rw",
+          "kind": "auto"
+        },
+        {
+          "language": "sa",
+          "kind": "auto"
+        },
+        {
+          "language": "sd",
+          "kind": "auto"
+        },
+        {
+          "language": "sg",
+          "kind": "auto"
+        },
+        {
+          "language": "si",
+          "kind": "auto"
+        },
+        {
+          "language": "sk",
+          "kind": "auto"
+        },
+        {
+          "language": "sl",
+          "kind": "auto"
+        },
+        {
+          "language": "sm",
+          "kind": "auto"
+        },
+        {
+          "language": "sn",
+          "kind": "auto"
+        },
+        {
+          "language": "so",
+          "kind": "auto"
+        },
+        {
+          "language": "sq",
+          "kind": "auto"
+        },
+        {
+          "language": "sr",
+          "kind": "auto"
+        },
+        {
+          "language": "ss",
+          "kind": "auto"
+        },
+        {
+          "language": "st",
+          "kind": "auto"
+        },
+        {
+          "language": "su",
+          "kind": "auto"
+        },
+        {
+          "language": "sv",
+          "kind": "auto"
+        },
+        {
+          "language": "sw",
+          "kind": "auto"
+        },
+        {
+          "language": "ta",
+          "kind": "auto"
+        },
+        {
+          "language": "te",
+          "kind": "auto"
+        },
+        {
+          "language": "tg",
+          "kind": "auto"
+        },
+        {
+          "language": "th",
+          "kind": "auto"
+        },
+        {
+          "language": "ti",
+          "kind": "auto"
+        },
+        {
+          "language": "tk",
+          "kind": "auto"
+        },
+        {
+          "language": "tn",
+          "kind": "auto"
+        },
+        {
+          "language": "to",
+          "kind": "auto"
+        },
+        {
+          "language": "tr",
+          "kind": "auto"
+        },
+        {
+          "language": "ts",
+          "kind": "auto"
+        },
+        {
+          "language": "tt",
+          "kind": "auto"
+        },
+        {
+          "language": "tum",
+          "kind": "auto"
+        },
+        {
+          "language": "ug",
+          "kind": "auto"
+        },
+        {
+          "language": "uk",
+          "kind": "auto"
+        },
+        {
+          "language": "ur",
+          "kind": "auto"
+        },
+        {
+          "language": "uz",
+          "kind": "auto"
+        },
+        {
+          "language": "ve",
+          "kind": "auto"
+        },
+        {
+          "language": "vi",
+          "kind": "auto"
+        },
+        {
+          "language": "war",
+          "kind": "auto"
+        },
+        {
+          "language": "wo",
+          "kind": "auto"
+        },
+        {
+          "language": "xh",
+          "kind": "auto"
+        },
+        {
+          "language": "yi",
+          "kind": "auto"
+        },
+        {
+          "language": "yo",
+          "kind": "auto"
+        },
+        {
+          "language": "zh-Hans",
+          "kind": "auto"
+        },
+        {
+          "language": "zh-Hant",
+          "kind": "auto"
+        },
+        {
+          "language": "zu",
+          "kind": "auto"
+        }
+      ]
+    },
+    "subtitle": {
+      "language": "ja",
+      "kind": "auto",
+      "format": "json3"
+    },
+    "segmentation": {
+      "strategy": "sentence-boundary/v1",
+      "timeResolution": "token",
+      "sourceCues": 3,
+      "sentences": 3,
+      "forcedCuts": 0,
+      "params": {
+        "maxChars": 45,
+        "targetChars": 24,
+        "minChars": 8,
+        "pauseHard": 0.6,
+        "pauseSoft": 0.35,
+        "tailPad": 0.15,
+        "minDuration": 0.35
+      }
+    }
+  },
+  "language": {
+    "code": "ja",
+    "locale": "ja-JP",
+    "name": "Japanese",
+    "displayName": "日语",
+    "nativeName": "日本語"
+  },
+  "locales": {
+    "source": "ja-JP",
+    "translation": "zh-Hans-CN",
+    "interface": "zh-Hans-CN"
+  },
+  "transcriptText": "イオンモール熊本について。YouTubey",
+  "courseId": "c_386483c2bcc5425f520b3a6b",
+  "contentModelVersion": 1,
+  "practiceSentenceCount": 1,
+  "contentRevision": "d6ce77eb323c00e212ba5bcfab007096a497cbba9d902e7b6400b4d2b0f31b26",
+  "review": {
+    "humanListening": "pending",
+    "commercialRights": "unverified",
+    "browserAcceptance": "pending"
+  }
+}

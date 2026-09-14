@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "description": "2019-12-N2：LLM 逐句校对发现的 ASR 误识别修正 1 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "fc7af81eec5c583d3d922f654df734a9383ba596cd52974c4b4f80e6527b8381",
+  "evidence": {
+    "file": "proofread-work/2019-12-N2/proofread.json",
+    "proposedFixes": "proofread-work/2019-12-N2/proposed-fixes.json",
+    "notes": "proofread-work/2019-12-N2/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 252,
+      "endIndex": 252,
+      "expectedStartTime": 2081.9,
+      "expectedEndTime": 2091.18,
+      "items": [
+        {
+          "startTime": 2081.9,
+          "endTime": 2091.18,
+          "sourceText": "今日は今日3時から1時間ほど課長とリンさんと私とで北海道職員店の打ち合わせをすることになっていますが",
+          "jaText": "今日は今日3時から1時間ほど課長とリンさんと私とで北海道職員店の打ち合わせをすることになっていますが"
+        }
+      ]
+    }
+  ]
+}

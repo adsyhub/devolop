@@ -1,0 +1,1593 @@
+{
+  "schemaVersion": 1,
+  "title": "「地震が怖くて家に入れない…」夏休みを奪われた子どもたちが見せた成長　宿題が取り出せない中、唯一仕上げた“絵日記”に込めた思い【熊本地震から1か月】｜TBS NEWS DIG",
+  "sourceLanguage": "ja",
+  "media": {
+    "kind": "remote",
+    "provider": "youtube",
+    "control": "full",
+    "videoId": "tksJfcT0CK0",
+    "pageUrl": "https://www.youtube.com/watch?v=tksJfcT0CK0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/tksJfcT0CK0",
+    "durationSec": 574.0,
+    "uploader": "TBS NEWS DIG Powered by JNN",
+    "attribution": {
+      "sourceName": "YouTube",
+      "rightsHolder": "TBS NEWS DIG Powered by JNN",
+      "retrievedAt": "2026-09-01",
+      "redistributable": false,
+      "notes": "Timings, translations and explanations are ours; the transcript text derives from the site's captions or from local transcription. The media itself is never stored and this course is not redistributable."
+    }
+  },
+  "sentences": [
+    {
+      "startTime": 0.28,
+      "endTime": 3.341,
+      "sourceText": "ハッピーバースデーみりちゃん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "ハッピーバースデーみりちゃん。",
+      "id": "s_0aaac25bb0ed7b8c57f19022"
+    },
+    {
+      "startTime": 3.399,
+      "endTime": 6.44,
+      "sourceText": "[歌声]ハッピーバースデーみりちゃん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "[歌声]ハッピーバースデーみりちゃん。",
+      "id": "s_49700b5060d5d76d72127274"
+    },
+    {
+      "startTime": 6.44,
+      "endTime": 10.159,
+      "sourceText": "はいみちゃん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "はいみちゃん。",
+      "id": "s_0d104f0c4b1a28263a11fbad"
+    },
+    {
+      "startTime": 10.159,
+      "endTime": 11.36,
+      "sourceText": "ハッピーバースデー。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "ハッピーバースデー。",
+      "id": "s_35aa89dda1566fc9dff64369"
+    },
+    {
+      "startTime": 11.36,
+      "endTime": 11.979,
+      "sourceText": "おお。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "おお。",
+      "id": "s_13d57b9e6f51f989fe6bd8d4"
+    },
+    {
+      "startTime": 12.063,
+      "endTime": 12.766,
+      "sourceText": "アンチ。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "アンチ。",
+      "id": "s_13fb06bf85221a694395cf5f"
+    },
+    {
+      "startTime": 12.766,
+      "endTime": 13.116,
+      "sourceText": "おめでとう。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "おめでとう。",
+      "id": "s_df6e042f9db8b41db9853563"
+    },
+    {
+      "startTime": 15.32,
+      "endTime": 15.519,
+      "sourceText": "みやちゃん何歳になりましたか?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "みやちゃん何歳になりましたか?",
+      "id": "s_46404271610e79ae10aea197"
+    },
+    {
+      "startTime": 15.519,
+      "endTime": 18.72,
+      "sourceText": "4歳です。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "4歳です。",
+      "id": "s_4c22dd7a5725fbc7aa92c07c"
+    },
+    {
+      "startTime": 19.68,
+      "endTime": 33.078,
+      "sourceText": "地震から15実はこの前日みやりちゃんは私たちにこう話していました。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "地震から15実はこの前日みやりちゃんは私たちにこう話していました。",
+      "id": "s_e8aa7efaf2737cf898fa2a31"
+    },
+    {
+      "startTime": 37.6,
+      "endTime": 42.249,
+      "sourceText": "この子明日誕生日カードじゃない?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "この子明日誕生日カードじゃない?",
+      "id": "s_af0f92fcc6bedfe8582de1c2"
+    },
+    {
+      "startTime": 42.399,
+      "endTime": 42.883,
+      "sourceText": "明日誕生日か?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "明日誕生日か?",
+      "id": "s_7d8b4c764960aeb30c82ef67"
+    },
+    {
+      "startTime": 42.883,
+      "endTime": 43.16,
+      "sourceText": "そっか。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "そっか。",
+      "id": "s_71f590a367676831d0dc0fe1"
+    },
+    {
+      "startTime": 43.16,
+      "endTime": 47.37,
+      "sourceText": "みちゃん明日で何歳になるの?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "みちゃん明日で何歳になるの?",
+      "id": "s_746497f6979a46bfababe7f8"
+    },
+    {
+      "startTime": 47.52,
+      "endTime": 51.29,
+      "sourceText": "あ、白かケーキ食べないとね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "あ、白かケーキ食べないとね。",
+      "id": "s_d72172db381b62ca551a686a"
+    },
+    {
+      "startTime": 51.44,
+      "endTime": 54.161,
+      "sourceText": "ケーキ食べる。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "ケーキ食べる。",
+      "id": "s_a3c14b1df8cd5ee0bd445fd9"
+    },
+    {
+      "startTime": 59.879,
+      "endTime": 76.479,
+      "sourceText": "震度7を観測した川町家族4すごい7時からですよね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "震度7を観測した川町家族4すごい7時からですよね。",
+      "id": "s_acc9633f4fbdbde0edb6299f"
+    },
+    {
+      "startTime": 76.479,
+      "endTime": 76.829,
+      "sourceText": "お風呂が。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "お風呂が。",
+      "id": "s_e76b5cf43fbd8adf5f49d0fd"
+    },
+    {
+      "startTime": 79.08,
+      "endTime": 83.759,
+      "sourceText": "それでも娘の喜ぶ顔が見たいかいい。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "それでも娘の喜ぶ顔が見たいかいい。",
+      "id": "s_c6e4d1d895450d384af60984"
+    },
+    {
+      "startTime": 83.759,
+      "endTime": 95.09,
+      "sourceText": "お父さんが隣町で1何?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "お父さんが隣町で1何?",
+      "id": "s_a0c1e31f8441201e22e50d4e"
+    },
+    {
+      "startTime": 103.6,
+      "endTime": 108.39,
+      "sourceText": "そんなみやりちゃんに変化が見え始めたのが町のお寺5年時に通い始めてからでした。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "そんなみやりちゃんに変化が見え始めたのが町のお寺5年時に通い始めてからでした。",
+      "id": "s_6556b9101108584cc354fa2e"
+    },
+    {
+      "startTime": 114.719,
+      "endTime": 117.174,
+      "sourceText": "地震の影響で保育園や学童に通えない子供たちを受け入れて",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "地震の影響で保育園や学童に通えない子供たちを受け入れて",
+      "id": "s_97b31b5ac343da044f52f5f7"
+    },
+    {
+      "startTime": 117.174,
+      "endTime": 144.319,
+      "sourceText": "いるこのお寺そこで過ごした1ヶ月で驚くことがかて書いてくれたんですよね。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "いるこのお寺そこで過ごした1ヶ月で驚くことがかて書いてくれたんですよね。",
+      "id": "s_b4c9c49f7b9820ffea4525b7"
+    },
+    {
+      "startTime": 144.92,
+      "endTime": 161.627,
+      "sourceText": "3不安ばかりの被災生活で見せた成長の証みり",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "3不安ばかりの被災生活で見せた成長の証みり",
+      "id": "s_f8f6c8b34187c01b8b17661e"
+    },
+    {
+      "startTime": 161.635,
+      "endTime": 171.194,
+      "sourceText": "ちゃんの小さな心を開いてくれたのはこのお寺で初めて出会ったあ、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "ちゃんの小さな心を開いてくれたのはこのお寺で初めて出会ったあ、",
+      "id": "s_f147bb315b013f6283ed35a8"
+    },
+    {
+      "startTime": 171.368,
+      "endTime": 173.785,
+      "sourceText": "すごい、すごい。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "すごい、すごい。",
+      "id": "s_50050eca8b14a28da25b6fdc"
+    },
+    {
+      "startTime": 173.959,
+      "endTime": 176.859,
+      "sourceText": "そう、そう、そう、そう。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "そう、そう、そう、そう。",
+      "id": "s_8b1d1300317b0f384b74bcd5"
+    },
+    {
+      "startTime": 180.04,
+      "endTime": 183.099,
+      "sourceText": "みやりちゃんを見かけるとお姉ちゃんがすぐに駆け寄ってきてくれます。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "みやりちゃんを見かけるとお姉ちゃんがすぐに駆け寄ってきてくれます。",
+      "id": "s_14cce12028ab283ecfb7d96a"
+    },
+    {
+      "startTime": 186.04,
+      "endTime": 191.51,
+      "sourceText": "みちゃん、み合いちゃん、みちゃんいる?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "みちゃん、み合いちゃん、みちゃんいる?",
+      "id": "s_0551462983552570d43c40a3"
+    },
+    {
+      "startTime": 191.66,
+      "endTime": 192.41,
+      "sourceText": "いる。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "いる。",
+      "id": "s_784d204a5e6ea264342afe14"
+    },
+    {
+      "startTime": 203.239,
+      "endTime": 206.556,
+      "sourceText": "楽しかった。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "楽しかった。",
+      "id": "s_f4f776d46762d54d26db3fcc"
+    },
+    {
+      "startTime": 207.64,
+      "endTime": 210.623,
+      "sourceText": "そんな中で紡いだ子供たちの新しい絆。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "そんな中で紡いだ子供たちの新しい絆。",
+      "id": "s_09c904128b8ef8ff9f3c24ec"
+    },
+    {
+      "startTime": 214.12,
+      "endTime": 214.51,
+      "sourceText": "5年夏祭り始まるよ。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "5年夏祭り始まるよ。",
+      "id": "s_27a7e9a55c5b3e99ec0d1635"
+    },
+    {
+      "startTime": 220.84,
+      "endTime": 223.875,
+      "sourceText": "過酷な被災生活だからこそ楽しい思い出を作ってほしい。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "過酷な被災生活だからこそ楽しい思い出を作ってほしい。",
+      "id": "s_1d95c82988ac619223cf3cc8"
+    },
+    {
+      "startTime": 226.799,
+      "endTime": 235.429,
+      "sourceText": "5願くば地震のことを忘れるぐらいの時間を過ごしてもらえればなと思っています。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "5願くば地震のことを忘れるぐらいの時間を過ごしてもらえればなと思っています。",
+      "id": "s_3af6b69df2284d3627d9f553"
+    },
+    {
+      "startTime": 240.0,
+      "endTime": 249.184,
+      "sourceText": "ゲームをしたり、お寺にはいつも多くの子供たちの笑顔がありました。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "ゲームをしたり、お寺にはいつも多くの子供たちの笑顔がありました。",
+      "id": "s_1586c66c01c83b937d49a393"
+    },
+    {
+      "startTime": 252.48,
+      "endTime": 263.323,
+      "sourceText": "しかし彼らが抱えている現実は危険みたいなやつも貼られたからもう住めない。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "しかし彼らが抱えている現実は危険みたいなやつも貼られたからもう住めない。",
+      "id": "s_d889afc7ca0f08c2b4fd6624"
+    },
+    {
+      "startTime": 263.323,
+      "endTime": 263.673,
+      "sourceText": "どっちのやつ?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "どっちのやつ?",
+      "id": "s_c5f6f94ed6879c58e1b86532"
+    },
+    {
+      "startTime": 278.479,
+      "endTime": 280.115,
+      "sourceText": "地震があって、ま、で、電気とか水も止まって、ま、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "地震があって、ま、で、電気とか水も止まって、ま、",
+      "id": "s_2b2f3b2114ab9bfa19ccc5ba"
+    },
+    {
+      "startTime": 280.115,
+      "endTime": 281.561,
+      "sourceText": "その電気とか水のありがたさも分かったし、",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "その電気とか水のありがたさも分かったし、",
+      "id": "s_cc3dbceda1393c4306ce4a8d"
+    },
+    {
+      "startTime": 290.88,
+      "endTime": 298.223,
+      "sourceText": "大人もみんな大変なことしてるの分かってるから、自分にできることやらなきゃいけない。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "大人もみんな大変なことしてるの分かってるから、自分にできることやらなきゃいけない。",
+      "id": "s_937cfe23a1dafe219e66d998"
+    },
+    {
+      "startTime": 298.96,
+      "endTime": 302.31,
+      "sourceText": "話してるの?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "話してるの?",
+      "id": "s_e4151257e9ff2ae23f79ae18"
+    },
+    {
+      "startTime": 302.8,
+      "endTime": 303.284,
+      "sourceText": "幼いながらも現実と向き合おうとする子供たち。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "幼いながらも現実と向き合おうとする子供たち。",
+      "id": "s_1fc114fd0295ef27feed6be4"
+    },
+    {
+      "startTime": 304.24,
+      "endTime": 316.89,
+      "sourceText": "や、小学5年生の森田ヒーロ君もその入れて。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "や、小学5年生の森田ヒーロ君もその入れて。",
+      "id": "s_7139e8a15a387b60b946b368"
+    },
+    {
+      "startTime": 321.6,
+      "endTime": 324.614,
+      "sourceText": "いつも年下の子たちの面倒を見ているヒーロ君。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "いつも年下の子たちの面倒を見ているヒーロ君。",
+      "id": "s_268d457612e1f5daef50f082"
+    },
+    {
+      "startTime": 326.919,
+      "endTime": 329.944,
+      "sourceText": "天真爛漫でみんなの中心にいるムードメーカーです。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "天真爛漫でみんなの中心にいるムードメーカーです。",
+      "id": "s_b900c99b0b5b7cee1f3b2923"
+    },
+    {
+      "startTime": 334.28,
+      "endTime": 334.63,
+      "sourceText": "5年上一言で言うとどんな場所ですか?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "5年上一言で言うとどんな場所ですか?",
+      "id": "s_55308c2578c61f42706944ec"
+    },
+    {
+      "startTime": 339.6,
+      "endTime": 341.073,
+      "sourceText": "え、夢の国なかったら",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "え、夢の国なかったら",
+      "id": "s_45a95188c2218f4f22e1c58a"
+    },
+    {
+      "startTime": 341.154,
+      "endTime": 351.629,
+      "sourceText": "最悪の最悪の最悪みんなの前ではいつも元気いっぱいのヒーロ君おでも",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "最悪の最悪の最悪みんなの前ではいつも元気いっぱいのヒーロ君おでも",
+      "id": "s_ec14897dd877d864d229b8ca"
+    },
+    {
+      "startTime": 353.199,
+      "endTime": 364.367,
+      "sourceText": "降りてきたいや最初怖すぎて動けんだでうん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "降りてきたいや最初怖すぎて動けんだでうん。",
+      "id": "s_b9ed66c44d7ff531f980dfb2"
+    },
+    {
+      "startTime": 364.646,
+      "endTime": 366.081,
+      "sourceText": "泣いた。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "泣いた。",
+      "id": "s_3b76e2fc7759e09f4fdbf953"
+    },
+    {
+      "startTime": 369.56,
+      "endTime": 374.478,
+      "sourceText": "怖かった。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "怖かった。",
+      "id": "s_7ffa1097017f5c4d6f59d874"
+    },
+    {
+      "startTime": 375.919,
+      "endTime": 381.256,
+      "sourceText": "こっちは震自宅は中規模半壊。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "こっちは震自宅は中規模半壊。",
+      "id": "s_7682e8b99411dbdf9b70157f"
+    },
+    {
+      "startTime": 381.36,
+      "endTime": 384.429,
+      "sourceText": "お風呂場に亀裂が入るなど住むことはできず現在家族と避難所で暮らしています。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "お風呂場に亀裂が入るなど住むことはできず現在家族と避難所で暮らしています。",
+      "id": "s_156ff64c230cc2b91f2601e4"
+    },
+    {
+      "startTime": 391.72,
+      "endTime": 393.426,
+      "sourceText": "それでももうすぐ死を迎えるヒーロ君には心残りがありました。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "それでももうすぐ死を迎えるヒーロ君には心残りがありました。",
+      "id": "s_62bb12c36b8d906f64abb9c7"
+    },
+    {
+      "startTime": 393.426,
+      "endTime": 394.811,
+      "sourceText": "やもう家に入るのが怖くてからできてない状態。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "やもう家に入るのが怖くてからできてない状態。",
+      "id": "s_499ae3305f8d010c2443316c"
+    },
+    {
+      "startTime": 405.72,
+      "endTime": 408.77,
+      "sourceText": "夏休みの宿題の絵日記にどうしても描きたいものがあったのです。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "夏休みの宿題の絵日記にどうしても描きたいものがあったのです。",
+      "id": "s_431e89e74b76bcb0c48faf05"
+    },
+    {
+      "startTime": 412.8,
+      "endTime": 415.762,
+      "sourceText": "え、日記もし書くとしたら何書く?",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "え、日記もし書くとしたら何書く?",
+      "id": "s_b38980095c9ec1ae5eed15bb"
+    },
+    {
+      "startTime": 416.639,
+      "endTime": 419.51,
+      "sourceText": "うん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "うん。",
+      "id": "s_5785b736471cd773ff363fbe"
+    },
+    {
+      "startTime": 426.36,
+      "endTime": 442.958,
+      "sourceText": "年時で過ごした夏をこの日住が勢いよく描き始めたヒロ君。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "年時で過ごした夏をこの日住が勢いよく描き始めたヒロ君。",
+      "id": "s_945e1d0bd28c7de5203c705a"
+    },
+    {
+      "startTime": 444.12,
+      "endTime": 444.699,
+      "sourceText": "うま。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "うま。",
+      "id": "s_949ae2d25155d1457e2d0dd5"
+    },
+    {
+      "startTime": 444.763,
+      "endTime": 447.056,
+      "sourceText": "目隠ししてるってこと。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "目隠ししてるってこと。",
+      "id": "s_696000f57fce1a45f6481e32"
+    },
+    {
+      "startTime": 448.56,
+      "endTime": 459.887,
+      "sourceText": "緑やの色鉛筆を使って描く絵って感じ書いてこの夏過ごし",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "緑やの色鉛筆を使って描く絵って感じ書いてこの夏過ごし",
+      "id": "s_8e2c3f64e337cbb786f91aba"
+    },
+    {
+      "startTime": 460.045,
+      "endTime": 485.584,
+      "sourceText": "た大事な居場所福オこれはスカまだまだまだまだまだ怖い。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "た大事な居場所福オこれはスカまだまだまだまだまだ怖い。",
+      "id": "s_753da182b4e2b2a10d2a6b07"
+    },
+    {
+      "startTime": 485.72,
+      "endTime": 486.015,
+      "sourceText": "行け。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "行け。",
+      "id": "s_4bed6d54e7d6e4567efde182"
+    },
+    {
+      "startTime": 486.015,
+      "endTime": 500.91,
+      "sourceText": "[叫び声][大歓声]惜しいな。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "[叫び声][大歓声]惜しいな。",
+      "id": "s_f006224dff0a93d0ce8dee6d"
+    },
+    {
+      "startTime": 502.56,
+      "endTime": 506.977,
+      "sourceText": "こってっていいよ。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "こってっていいよ。",
+      "id": "s_f9739eba782e1fdad7f650bf"
+    },
+    {
+      "startTime": 507.56,
+      "endTime": 508.21,
+      "sourceText": "うん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "うん。",
+      "id": "s_bd8d4499fa1590d88ad59361"
+    },
+    {
+      "startTime": 508.31,
+      "endTime": 510.46,
+      "sourceText": "地震のことだった。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "地震のことだった。",
+      "id": "s_b9882e66ad5dc329bdc4ff3e"
+    },
+    {
+      "startTime": 513.479,
+      "endTime": 516.514,
+      "sourceText": "辛い地震の記憶をちょっとだけ忘れさせてくれたご念時。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "辛い地震の記憶をちょっとだけ忘れさせてくれたご念時。",
+      "id": "s_ae9223304a56ac46df46b6e0"
+    },
+    {
+      "startTime": 520.24,
+      "endTime": 539.363,
+      "sourceText": "え、日記に描いたのはゆ作っていう人が5うん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "え、日記に描いたのはゆ作っていう人が5うん。",
+      "id": "s_f26079537d24a5fbb2cb1179"
+    },
+    {
+      "startTime": 540.44,
+      "endTime": 540.928,
+      "sourceText": "綺麗と思って地震のことを忘れてずっとこのままたいなと思った。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "綺麗と思って地震のことを忘れてずっとこのままたいなと思った。",
+      "id": "s_b4835fb83ceb44ea2369aced"
+    },
+    {
+      "startTime": 542.24,
+      "endTime": 544.977,
+      "sourceText": "うん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "うん。",
+      "id": "s_968d4ba2028f6fc385114018"
+    },
+    {
+      "startTime": 551.519,
+      "endTime": 554.87,
+      "sourceText": "東川町の小学校の校長先生によればこの2学期は元々の開始から",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "東川町の小学校の校長先生によればこの2学期は元々の開始から",
+      "id": "s_c634beef798a1f6de5be233f"
+    },
+    {
+      "startTime": 556.88,
+      "endTime": 557.23,
+      "sourceText": "1週間遅れてスタートするそうです。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "1週間遅れてスタートするそうです。",
+      "id": "s_747601fdcbb051a29eca7741"
+    },
+    {
+      "startTime": 563.64,
+      "endTime": 568.552,
+      "sourceText": "できる範囲でいいよと伝えてくれたそうです。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "できる範囲でいいよと伝えてくれたそうです。",
+      "id": "s_35011dca5935e11f72236cc3"
+    },
+    {
+      "startTime": 568.64,
+      "endTime": 570.79,
+      "sourceText": "うん。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "marker",
+      "practiceEligible": false,
+      "jaText": "うん。",
+      "id": "s_0ce36cf546bf1e4fa538d0d8"
+    },
+    {
+      "startTime": 571.72,
+      "endTime": 572.07,
+      "sourceText": "2月が始まります。",
+      "translationText": "",
+      "zhTranslation": "",
+      "contentType": "dialogue",
+      "practiceEligible": true,
+      "jaText": "2月が始まります。",
+      "id": "s_afdaacf5f00693530f431a56"
+    }
+  ],
+  "buildMetadata": {
+    "transcriptSource": "site-subtitles",
+    "retrievedAt": "2026-09-01",
+    "mediaProbe": {
+      "title": "「地震が怖くて家に入れない…」夏休みを奪われた子どもたちが見せた成長　宿題が取り出せない中、唯一仕上げた“絵日記”に込めた思い【熊本地震から1か月】｜TBS NEWS DIG",
+      "uploader": "TBS NEWS DIG Powered by JNN",
+      "durationSec": 574.0,
+      "extractor": "Youtube",
+      "subtitles": [
+        {
+          "language": "aa",
+          "kind": "auto"
+        },
+        {
+          "language": "ab",
+          "kind": "auto"
+        },
+        {
+          "language": "af",
+          "kind": "auto"
+        },
+        {
+          "language": "ak",
+          "kind": "auto"
+        },
+        {
+          "language": "am",
+          "kind": "auto"
+        },
+        {
+          "language": "ar",
+          "kind": "auto"
+        },
+        {
+          "language": "as",
+          "kind": "auto"
+        },
+        {
+          "language": "ay",
+          "kind": "auto"
+        },
+        {
+          "language": "az",
+          "kind": "auto"
+        },
+        {
+          "language": "ba",
+          "kind": "auto"
+        },
+        {
+          "language": "be",
+          "kind": "auto"
+        },
+        {
+          "language": "bg",
+          "kind": "auto"
+        },
+        {
+          "language": "bho",
+          "kind": "auto"
+        },
+        {
+          "language": "bn",
+          "kind": "auto"
+        },
+        {
+          "language": "bo",
+          "kind": "auto"
+        },
+        {
+          "language": "br",
+          "kind": "auto"
+        },
+        {
+          "language": "bs",
+          "kind": "auto"
+        },
+        {
+          "language": "ca",
+          "kind": "auto"
+        },
+        {
+          "language": "ceb",
+          "kind": "auto"
+        },
+        {
+          "language": "co",
+          "kind": "auto"
+        },
+        {
+          "language": "crs",
+          "kind": "auto"
+        },
+        {
+          "language": "cs",
+          "kind": "auto"
+        },
+        {
+          "language": "cy",
+          "kind": "auto"
+        },
+        {
+          "language": "da",
+          "kind": "auto"
+        },
+        {
+          "language": "de",
+          "kind": "auto"
+        },
+        {
+          "language": "dv",
+          "kind": "auto"
+        },
+        {
+          "language": "dz",
+          "kind": "auto"
+        },
+        {
+          "language": "ee",
+          "kind": "auto"
+        },
+        {
+          "language": "el",
+          "kind": "auto"
+        },
+        {
+          "language": "en",
+          "kind": "auto"
+        },
+        {
+          "language": "eo",
+          "kind": "auto"
+        },
+        {
+          "language": "es",
+          "kind": "auto"
+        },
+        {
+          "language": "et",
+          "kind": "auto"
+        },
+        {
+          "language": "eu",
+          "kind": "auto"
+        },
+        {
+          "language": "fa",
+          "kind": "auto"
+        },
+        {
+          "language": "fi",
+          "kind": "auto"
+        },
+        {
+          "language": "fil",
+          "kind": "auto"
+        },
+        {
+          "language": "fj",
+          "kind": "auto"
+        },
+        {
+          "language": "fo",
+          "kind": "auto"
+        },
+        {
+          "language": "fr",
+          "kind": "auto"
+        },
+        {
+          "language": "fy",
+          "kind": "auto"
+        },
+        {
+          "language": "ga",
+          "kind": "auto"
+        },
+        {
+          "language": "gaa",
+          "kind": "auto"
+        },
+        {
+          "language": "gd",
+          "kind": "auto"
+        },
+        {
+          "language": "gl",
+          "kind": "auto"
+        },
+        {
+          "language": "gn",
+          "kind": "auto"
+        },
+        {
+          "language": "gu",
+          "kind": "auto"
+        },
+        {
+          "language": "gv",
+          "kind": "auto"
+        },
+        {
+          "language": "ha",
+          "kind": "auto"
+        },
+        {
+          "language": "haw",
+          "kind": "auto"
+        },
+        {
+          "language": "hi",
+          "kind": "auto"
+        },
+        {
+          "language": "hmn",
+          "kind": "auto"
+        },
+        {
+          "language": "hr",
+          "kind": "auto"
+        },
+        {
+          "language": "ht",
+          "kind": "auto"
+        },
+        {
+          "language": "hu",
+          "kind": "auto"
+        },
+        {
+          "language": "hy",
+          "kind": "auto"
+        },
+        {
+          "language": "id",
+          "kind": "auto"
+        },
+        {
+          "language": "ig",
+          "kind": "auto"
+        },
+        {
+          "language": "is",
+          "kind": "auto"
+        },
+        {
+          "language": "it",
+          "kind": "auto"
+        },
+        {
+          "language": "iu",
+          "kind": "auto"
+        },
+        {
+          "language": "iw",
+          "kind": "auto"
+        },
+        {
+          "language": "ja",
+          "kind": "auto"
+        },
+        {
+          "language": "ja-orig",
+          "kind": "auto"
+        },
+        {
+          "language": "jv",
+          "kind": "auto"
+        },
+        {
+          "language": "ka",
+          "kind": "auto"
+        },
+        {
+          "language": "kha",
+          "kind": "auto"
+        },
+        {
+          "language": "kk",
+          "kind": "auto"
+        },
+        {
+          "language": "kl",
+          "kind": "auto"
+        },
+        {
+          "language": "km",
+          "kind": "auto"
+        },
+        {
+          "language": "kn",
+          "kind": "auto"
+        },
+        {
+          "language": "ko",
+          "kind": "auto"
+        },
+        {
+          "language": "kri",
+          "kind": "auto"
+        },
+        {
+          "language": "ku",
+          "kind": "auto"
+        },
+        {
+          "language": "ky",
+          "kind": "auto"
+        },
+        {
+          "language": "la",
+          "kind": "auto"
+        },
+        {
+          "language": "lb",
+          "kind": "auto"
+        },
+        {
+          "language": "lg",
+          "kind": "auto"
+        },
+        {
+          "language": "ln",
+          "kind": "auto"
+        },
+        {
+          "language": "lo",
+          "kind": "auto"
+        },
+        {
+          "language": "lt",
+          "kind": "auto"
+        },
+        {
+          "language": "lua",
+          "kind": "auto"
+        },
+        {
+          "language": "luo",
+          "kind": "auto"
+        },
+        {
+          "language": "lv",
+          "kind": "auto"
+        },
+        {
+          "language": "mfe",
+          "kind": "auto"
+        },
+        {
+          "language": "mg",
+          "kind": "auto"
+        },
+        {
+          "language": "mi",
+          "kind": "auto"
+        },
+        {
+          "language": "mk",
+          "kind": "auto"
+        },
+        {
+          "language": "ml",
+          "kind": "auto"
+        },
+        {
+          "language": "mn",
+          "kind": "auto"
+        },
+        {
+          "language": "mr",
+          "kind": "auto"
+        },
+        {
+          "language": "ms",
+          "kind": "auto"
+        },
+        {
+          "language": "mt",
+          "kind": "auto"
+        },
+        {
+          "language": "my",
+          "kind": "auto"
+        },
+        {
+          "language": "ne",
+          "kind": "auto"
+        },
+        {
+          "language": "new",
+          "kind": "auto"
+        },
+        {
+          "language": "nl",
+          "kind": "auto"
+        },
+        {
+          "language": "no",
+          "kind": "auto"
+        },
+        {
+          "language": "nso",
+          "kind": "auto"
+        },
+        {
+          "language": "ny",
+          "kind": "auto"
+        },
+        {
+          "language": "oc",
+          "kind": "auto"
+        },
+        {
+          "language": "om",
+          "kind": "auto"
+        },
+        {
+          "language": "or",
+          "kind": "auto"
+        },
+        {
+          "language": "os",
+          "kind": "auto"
+        },
+        {
+          "language": "pa",
+          "kind": "auto"
+        },
+        {
+          "language": "pam",
+          "kind": "auto"
+        },
+        {
+          "language": "pl",
+          "kind": "auto"
+        },
+        {
+          "language": "ps",
+          "kind": "auto"
+        },
+        {
+          "language": "pt",
+          "kind": "auto"
+        },
+        {
+          "language": "pt-PT",
+          "kind": "auto"
+        },
+        {
+          "language": "qu",
+          "kind": "auto"
+        },
+        {
+          "language": "rn",
+          "kind": "auto"
+        },
+        {
+          "language": "ro",
+          "kind": "auto"
+        },
+        {
+          "language": "ru",
+          "kind": "auto"
+        },
+        {
+          "language": "rw",
+          "kind": "auto"
+        },
+        {
+          "language": "sa",
+          "kind": "auto"
+        },
+        {
+          "language": "sd",
+          "kind": "auto"
+        },
+        {
+          "language": "sg",
+          "kind": "auto"
+        },
+        {
+          "language": "si",
+          "kind": "auto"
+        },
+        {
+          "language": "sk",
+          "kind": "auto"
+        },
+        {
+          "language": "sl",
+          "kind": "auto"
+        },
+        {
+          "language": "sm",
+          "kind": "auto"
+        },
+        {
+          "language": "sn",
+          "kind": "auto"
+        },
+        {
+          "language": "so",
+          "kind": "auto"
+        },
+        {
+          "language": "sq",
+          "kind": "auto"
+        },
+        {
+          "language": "sr",
+          "kind": "auto"
+        },
+        {
+          "language": "ss",
+          "kind": "auto"
+        },
+        {
+          "language": "st",
+          "kind": "auto"
+        },
+        {
+          "language": "su",
+          "kind": "auto"
+        },
+        {
+          "language": "sv",
+          "kind": "auto"
+        },
+        {
+          "language": "sw",
+          "kind": "auto"
+        },
+        {
+          "language": "ta",
+          "kind": "auto"
+        },
+        {
+          "language": "te",
+          "kind": "auto"
+        },
+        {
+          "language": "tg",
+          "kind": "auto"
+        },
+        {
+          "language": "th",
+          "kind": "auto"
+        },
+        {
+          "language": "ti",
+          "kind": "auto"
+        },
+        {
+          "language": "tk",
+          "kind": "auto"
+        },
+        {
+          "language": "tn",
+          "kind": "auto"
+        },
+        {
+          "language": "to",
+          "kind": "auto"
+        },
+        {
+          "language": "tr",
+          "kind": "auto"
+        },
+        {
+          "language": "ts",
+          "kind": "auto"
+        },
+        {
+          "language": "tt",
+          "kind": "auto"
+        },
+        {
+          "language": "tum",
+          "kind": "auto"
+        },
+        {
+          "language": "ug",
+          "kind": "auto"
+        },
+        {
+          "language": "uk",
+          "kind": "auto"
+        },
+        {
+          "language": "ur",
+          "kind": "auto"
+        },
+        {
+          "language": "uz",
+          "kind": "auto"
+        },
+        {
+          "language": "ve",
+          "kind": "auto"
+        },
+        {
+          "language": "vi",
+          "kind": "auto"
+        },
+        {
+          "language": "war",
+          "kind": "auto"
+        },
+        {
+          "language": "wo",
+          "kind": "auto"
+        },
+        {
+          "language": "xh",
+          "kind": "auto"
+        },
+        {
+          "language": "yi",
+          "kind": "auto"
+        },
+        {
+          "language": "yo",
+          "kind": "auto"
+        },
+        {
+          "language": "zh-Hans",
+          "kind": "auto"
+        },
+        {
+          "language": "zh-Hant",
+          "kind": "auto"
+        },
+        {
+          "language": "zu",
+          "kind": "auto"
+        }
+      ]
+    },
+    "subtitle": {
+      "language": "ja",
+      "kind": "auto",
+      "format": "json3"
+    },
+    "segmentation": {
+      "strategy": "sentence-boundary/v1",
+      "timeResolution": "cue-interpolated",
+      "sourceCues": 108,
+      "sentences": 78,
+      "forcedCuts": 0,
+      "params": {
+        "maxChars": 45,
+        "targetChars": 24,
+        "minChars": 8,
+        "pauseHard": 0.6,
+        "pauseSoft": 0.35,
+        "tailPad": 0.15,
+        "minDuration": 0.35
+      }
+    },
+    "contentPatches": [
+      {
+        "name": "tbs-news-0007-tksJfcT0CK0-asr-proofread-202609.json",
+        "sourceSentencesDigest": "ff73cdbe110dfffce2e9ba5e5a081891fe161eb01240d5a36dae17b6e72f9804",
+        "resultSentencesDigest": "19584e6c948413ef3d8ee276378992bc229c4dbc1d3e433167e0268efcec7f01",
+        "description": "tbs-news-0007-tksJfcT0CK0：LLM 逐句校对发现的 ASR 误识别修正 7 处。只替换 sourceText，其余字段沿用既有内容。",
+        "evidence": {
+          "file": "proofread-work/tbs-news-0007-tksJfcT0CK0/proofread.json",
+          "proposedFixes": "proofread-work/tbs-news-0007-tksJfcT0CK0/proposed-fixes.json",
+          "notes": "proofread-work/tbs-news-0007-tksJfcT0CK0/notes.md",
+          "reviewer": "llm-agent",
+          "audioListened": false,
+          "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+        }
+      }
+    ]
+  },
+  "language": {
+    "code": "ja",
+    "locale": "ja-JP",
+    "name": "Japanese",
+    "displayName": "日语",
+    "nativeName": "日本語"
+  },
+  "locales": {
+    "source": "ja-JP",
+    "translation": "zh-Hans-CN",
+    "interface": "zh-Hans-CN"
+  },
+  "transcriptText": "ハッピーバースデーみりちゃん。[歌声]ハッピーバースデーみりちゃん。はいみちゃん。ハッピーバースデー。おお。アンチ。おめでとう。みやちゃん何歳になりましたか?4歳です。地震から15実はこの前日みやりちゃんは私たちにこう話していました。この子明日誕生日カードじゃない?明日誕生日か?そっか。みちゃん明日で何歳になるの?あ、白かケーキ食べないとね。ケーキ食べる。震度7を観測した川町家族4すごい7時からですよね。お風呂が。それでも娘の喜ぶ顔が見たいかいい。お父さんが隣町で1何?そんなみやりちゃんに変化が見え始めたのが町のお寺5年時に通い始めてからでした。地震の影響で保育園や学童に通えない子供たちを受け入れているこのお寺そこで過ごした1ヶ月で驚くことがかて書いてくれたんですよね。3不安ばかりの被災生活で見せた成長の証みりちゃんの小さな心を開いてくれたのはこのお寺で初めて出会ったあ、すごい、すごい。そう、そう、そう、そう。みやりちゃんを見かけるとお姉ちゃんがすぐに駆け寄ってきてくれます。みちゃん、み合いちゃん、みちゃんいる?いる。楽しかった。そんな中で紡いだ子供たちの新しい絆。5年夏祭り始まるよ。過酷な被災生活だからこそ楽しい思い出を作ってほしい。5願くば地震のことを忘れるぐらいの時間を過ごしてもらえればなと思っています。ゲームをしたり、お寺にはいつも多くの子供たちの笑顔がありました。しかし彼らが抱えている現実は危険みたいなやつも貼られたからもう住めない。どっちのやつ?地震があって、ま、で、電気とか水も止まって、ま、その電気とか水のありがたさも分かったし、大人もみんな大変なことしてるの分かってるから、自分にできることやらなきゃいけない。話してるの?幼いながらも現実と向き合おうとする子供たち。や、小学5年生の森田ヒーロ君もその入れて。いつも年下の子たちの面倒を見ているヒーロ君。天真爛漫でみんなの中心にいるムードメーカーです。5年上一言で言うとどんな場所ですか?え、夢の国なかったら最悪の最悪の最悪みんなの前ではいつも元気いっぱいのヒーロ君おでも降りてきたいや最初怖すぎて動けんだでうん。泣いた。怖かった。こっちは震自宅は中規模半壊。お風呂場に亀裂が入るなど住むことはできず現在家族と避難所で暮らしています。それでももうすぐ死を迎えるヒーロ君には心残りがありました。やもう家に入るのが怖くてからできてない状態。夏休みの宿題の絵日記にどうしても描きたいものがあったのです。え、日記もし書くとしたら何書く?うん。年時で過ごした夏をこの日住が勢いよく描き始めたヒロ君。うま。目隠ししてるってこと。緑やの色鉛筆を使って描く絵って感じ書いてこの夏過ごした大事な居場所福オこれはスカまだまだまだまだまだ怖い。行け。[叫び声][大歓声]惜しいな。こってっていいよ。うん。地震のことだった。辛い地震の記憶をちょっとだけ忘れさせてくれたご念時。え、日記に描いたのはゆ作っていう人が5うん。綺麗と思って地震のことを忘れてずっとこのままたいなと思った。うん。東川町の小学校の校長先生によればこの2学期は元々の開始から1週間遅れてスタートするそうです。できる範囲でいいよと伝えてくれたそうです。うん。2月が始まります。",
+  "courseId": "c_5d831efd754db7b52c30ea00",
+  "contentModelVersion": 1,
+  "practiceSentenceCount": 57,
+  "contentRevision": "dd93accad4ebdd462db3d6efcdb8c11d23c3296b75f61fa36bc38a3a78ab095c",
+  "review": {
+    "humanListening": "pending",
+    "commercialRights": "unverified",
+    "browserAcceptance": "pending"
+  },
+  "quality": {
+    "status": "needs_review",
+    "sentences": 78,
+    "errors": 0,
+    "warnings": 168,
+    "issueCounts": {
+      "sentence.explanation_missing": 78,
+      "sentence.rate_implausible": 7,
+      "sentence.translation_missing": 78,
+      "sentence.very_short": 5
+    }
+  }
+}

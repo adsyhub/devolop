@@ -1,0 +1,42 @@
+{
+  "benchmarkVersion": 1,
+  "environment": {
+    "platform": "Linux-6.8.0-78-generic-x86_64-with-glibc2.35",
+    "python": "3.11.10",
+    "storage": "temporary local filesystem",
+    "cache": "warm",
+    "transport": "in-process database calls"
+  },
+  "dataset": {
+    "questions": 10000,
+    "paperVersions": 100,
+    "sessions": 1001,
+    "activePracticeQuestions": 200
+  },
+  "search": {
+    "p50Ms": 39.831,
+    "p95Ms": 40.005,
+    "payloadBytes": 80083,
+    "samples": 30
+  },
+  "history": {
+    "p50Ms": 7.005,
+    "p95Ms": 7.042,
+    "payloadBytes": 19915,
+    "samples": 30
+  },
+  "batchSave": {
+    "p50Ms": 5.202,
+    "p95Ms": 5.476,
+    "payloadBytes": 130,
+    "samples": 30
+  },
+  "sessionPaper": {
+    "p50Ms": 6.325,
+    "p95Ms": 6.424,
+    "payloadBytes": 138555,
+    "samples": 10
+  },
+  "peakRssKiB": 132952,
+  "limits": "These are database timings. They do not establish browser interaction or HTTP p95 budgets."
+}

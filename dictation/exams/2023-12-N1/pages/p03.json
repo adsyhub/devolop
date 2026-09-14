@@ -1,0 +1,42 @@
+{
+  "page": 3,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　____の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 1,
+      "text": "<u>1</u> ある画家の人生の軌跡を描いた映画を見た。\n1 きぜき\n2 きせき\n3 きゅうせき\n4 きゅうぜき\n<u>2</u> ここに書いてある情報には偏りがある。\n1 へだたり\n2 かたより\n3 あやまり\n4 こだわり\n<u>3</u> 村上氏の主張にはさまざまな矛盾が含まれている。\n1 むじゅん\n2 むじゅう\n3 みじゅん\n4 みじゅう\n<u>4</u> 事実が誇張されて伝わる。\n1 こうちょう\n2 ごちょう\n3 こちょう\n4 ごちょう\n<u>5</u> この食堂で社員全員の昼食を賄っている。\n1 ふるまって\n2 になって\n3 あつかって\n4 まかなって\n<u>6</u> 軽率な行動が批判を招いた。\n1 けいそつ\n2 けいりつ\n3 かいそつ\n4 かいりつ"
+    }
+  ],
+  "pageLabel": "1",
+  "issues": [
+    "Choice-looking line with no question open: '1 きぜき'",
+    "Choice-looking line with no question open: '2 きせき'",
+    "Choice-looking line with no question open: '3 きゅうせき'",
+    "Choice-looking line with no question open: '4 きゅうぜき'",
+    "Choice-looking line with no question open: '1 へだたり'",
+    "Choice-looking line with no question open: '2 かたより'",
+    "Choice-looking line with no question open: '3 あやまり'",
+    "Choice-looking line with no question open: '4 こだわり'",
+    "Choice-looking line with no question open: '1 むじゅん'",
+    "Choice-looking line with no question open: '2 むじゅう'",
+    "Choice-looking line with no question open: '3 みじゅん'",
+    "Choice-looking line with no question open: '4 みじゅう'",
+    "Choice-looking line with no question open: '1 こうちょう'",
+    "Choice-looking line with no question open: '2 ごちょう'",
+    "Choice-looking line with no question open: '3 こちょう'",
+    "Choice-looking line with no question open: '4 ごちょう'",
+    "Choice-looking line with no question open: '1 ふるまって'",
+    "Choice-looking line with no question open: '2 になって'",
+    "Choice-looking line with no question open: '3 あつかって'",
+    "Choice-looking line with no question open: '4 まかなって'",
+    "Choice-looking line with no question open: '1 けいそつ'",
+    "Choice-looking line with no question open: '2 けいりつ'",
+    "Choice-looking line with no question open: '3 かいそつ'",
+    "Choice-looking line with no question open: '4 かいりつ'"
+  ]
+}

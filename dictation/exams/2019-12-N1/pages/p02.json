@@ -1,0 +1,143 @@
+{
+  "page": 2,
+  "pageLabel": "2",
+  "blocks": [
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "友人に預けてきたペットのことが（　　）で、旅行はあまり楽しめなかった。",
+      "choices": [
+        "手つかず",
+        "臆病",
+        "気がかり",
+        "迷惑"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "この1年間の市の人口の（　　）を示したものです。",
+      "choices": [
+        "推移",
+        "過程",
+        "転換",
+        "変容"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "予算が減らされたことにより、その事業は継続が（　　）いる。",
+      "choices": [
+        "損なわれて",
+        "恐れられて",
+        "崩されて",
+        "危ぶまれて"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "この箱の中には本が詰まっていて、（　　）重い。",
+      "choices": [
+        "ぐらぐらと",
+        "どんよりと",
+        "ずっしりと",
+        "じめじめと"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "二つの商品を並べると、それらの違いは（　　）としていて、片方は偽物だとすぐに分かる。",
+      "choices": [
+        "歴然",
+        "整然",
+        "続々",
+        "堂々"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "新人でいきなり主役に選ばれるのは<u>異例</u>のことだよ。",
+      "choices": [
+        "珍しい",
+        "めでたい",
+        "立派な",
+        "幸運な"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "木村さんは新しい薬を開発するための実験に<u>打ち込んだ</u>。",
+      "choices": [
+        "失敗した",
+        "苦労した",
+        "協力した",
+        "熱中した"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "池田さんはお金に関して<u>ルーズ</u>な人だ。",
+      "choices": [
+        "けちな",
+        "だらしない",
+        "無関心な",
+        "厳しい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "祖父は学生時代に体験した不思議な出来事を<u>つぶさに</u>語って聞かせてくれた。",
+      "choices": [
+        "のんびりと",
+        "繰り返し",
+        "詳細に",
+        "懐かしそうに"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 18,
+      "text": "高橋さんの話は<u>脈絡</u>がない。",
+      "choices": [
+        "うそ",
+        "終わり",
+        "面白み",
+        "つながり"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 19,
+      "text": "次の会議で新しいプロジェクトについて<u>吟味</u>することになっている。",
+      "choices": [
+        "決定",
+        "提案",
+        "検討",
+        "報告"
+      ]
+    }
+  ]
+}

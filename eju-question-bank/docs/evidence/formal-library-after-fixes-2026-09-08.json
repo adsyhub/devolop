@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-09-08T00:28:38.013900Z",
+  "databaseSchema": 8,
+  "integrity": "ok",
+  "foreignKeyViolations": 0,
+  "counts": {
+    "paper_versions": 1,
+    "practice_sessions": 6,
+    "page_revisions": 1,
+    "attempt_facts": 195,
+    "paper_reviews": 0,
+    "source_structure_revisions": 0
+  },
+  "delivery": [
+    "REVIEW_REQUIRED"
+  ]
+}

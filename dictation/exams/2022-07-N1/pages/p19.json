@@ -1,0 +1,104 @@
+{
+  "page": 19,
+  "pageLabel": "第18页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "note",
+      "partNumber": 10,
+      "label": "(注1)",
+      "text": "（注1）2回生：2年生",
+      "questionNumber": null, "choices": null, "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    },
+    {
+      "kind": "note",
+      "partNumber": 10,
+      "label": "(注2)",
+      "text": "（注2）｜偏狭《へんきょう》な：偏っていて狭い",
+      "questionNumber": null, "choices": null, "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    },
+    {
+      "kind": "note",
+      "partNumber": 10,
+      "label": "(注3)",
+      "text": "（注3）理にかなった：合理的な",
+      "questionNumber": null, "choices": null, "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    },
+    {
+      "kind": "note",
+      "partNumber": 10,
+      "label": "(注4)",
+      "text": "（注4）｜諸々《もろもろ》の：ここでは、あらゆる",
+      "questionNumber": null, "choices": null, "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    },
+    {
+      "kind": "note",
+      "partNumber": 10,
+      "label": "(注5)",
+      "text": "（注5）忘却する：忘れ去る",
+      "questionNumber": null, "choices": null, "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    },
+    {
+      "kind": "note",
+      "partNumber": 10,
+      "label": "(注6)",
+      "text": "（注6）至高：最高",
+      "questionNumber": null, "choices": null, "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 10,
+      "label": null,
+      "text": "筆者は先生の言葉を聞いて、なんのために読書をするようになったか。",
+      "questionNumber": 58,
+      "choices": [
+        "難解な物の見方や考え方を理解するため",
+        "自身の物の見方や考え方を再考するため",
+        "自身の知識を増やすため",
+        "自身の知識が正しいかどうかを確認するため"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 10,
+      "label": null,
+      "text": "<u>理解する</u>とはどういうことか。",
+      "questionNumber": 59,
+      "choices": [
+        "概念や観念に頼らず、人や物を中立的に捉えること",
+        "概念や観念にとらわれず、人や物の本質を捉えること",
+        "概念や観念を利用して、人や物を単独な在り方で捉えること",
+        "概念や観念をとおして、様々な人や物を共通の枠組みで捉えること"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 10,
+      "label": null,
+      "text": "理解することの問題点について、筆者はどのように考えているか。",
+      "questionNumber": 60,
+      "choices": [
+        "学問としての正しい在り方に、疑問を持たなくなる。",
+        "｜諸々《もろもろ》の存在を個別性や独自性でしか捉えられなくなる。",
+        "人や物の個別性や独自性が見えなくなるおそれがある。",
+        "人や物の本質に力を加えて、ゆがめてしまう可能性がある。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "Q60 stem: the scan prints 間題点; transcribed as the intended 問題点.",
+    "Q59 stem repeats the underlined 理解する from the passage on page 18; kept as <u>理解する</u>."
+  ]
+}

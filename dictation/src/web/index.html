@@ -1,0 +1,1194 @@
+<!doctype html>
+<html lang="zh-Hans-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d332c">
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self' https://www.youtube.com https://s.ytimg.com; style-src 'self'; img-src 'self' data: https://i.ytimg.com https://img.youtube.com; media-src 'self' blob:; connect-src 'self' https://www.youtube.com; frame-src https://www.youtube-nocookie.com https://www.youtube.com https://player.vimeo.com https://player.bilibili.com; object-src 'none'; base-uri 'none'; form-action 'self'"
+  >
+  <title>精听模式 · 日语学习中心</title>
+  <link rel="stylesheet" href="./app.css">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icon-192.png">
+</head>
+<body>
+  <a class="skip-link" href="#answer-input">跳到作答区</a>
+
+  <header class="topbar">
+    <div class="topbar-lead">
+      <a class="brand" href="./" aria-label="返回学习模式选择">
+        <span class="brand-mark" id="workspace-brand-mark" aria-hidden="true">听</span>
+        <span>
+          <strong id="workspace-brand-title">精听模式</strong>
+          <small id="workspace-brand-subtitle">听辨、理解与跟读</small>
+        </span>
+      </a>
+      <!-- 练习中切换课程。展开一列课程压在按钮下面，不把人踢回上一级——
+           正在练的这一句还在原处。整份课程库仍然一键可达（菜单底部）。 -->
+      <div class="library-wrap">
+        <button class="icon-button panel-toggle library-toggle-btn" id="library-home-button" type="button" hidden
+          aria-expanded="false" aria-controls="library-menu" title="切换课程">
+          <span class="library-btn-icon" aria-hidden="true">☰</span><span class="button-label">课程库</span>
+        </button>
+        <div class="library-menu" id="library-menu" hidden>
+          <div class="library-menu-head">
+            <div class="library-menu-title-wrap">
+              <span class="library-menu-caption">📚 课程库</span>
+              <span class="library-count-pill" id="library-menu-total-count" hidden>0</span>
+            </div>
+            <button class="icon-button library-menu-close" id="library-menu-close" type="button"
+              aria-label="收起课程列表" title="收起 (Esc)">✕</button>
+          </div>
+
+          <div class="library-menu-toolbar">
+            <div class="library-menu-search">
+              <span class="library-search-icon" aria-hidden="true">🔍</span>
+              <input type="search" class="library-search-input" id="library-menu-search-input"
+                placeholder="搜索课程名称 / 语言..." autocomplete="off" spellcheck="false"
+                aria-label="搜索课程">
+              <button class="library-search-clear" id="library-menu-search-clear" type="button"
+                aria-label="清空搜索" title="清空" hidden>✕</button>
+            </div>
+            <div class="library-menu-filters" role="tablist" aria-label="课程分类筛选">
+              <button class="library-filter-tab is-active" type="button" role="tab"
+                data-menu-category="all" aria-selected="true">全部 <span class="filter-count" id="library-menu-count-all">0</span></button>
+              <button class="library-filter-tab" type="button" role="tab"
+                data-menu-category="video" aria-selected="false">🎬 视频 <span class="filter-count" id="library-menu-count-video">0</span></button>
+              <button class="library-filter-tab" type="button" role="tab"
+                data-menu-category="audio" aria-selected="false">🎧 音频 <span class="filter-count" id="library-menu-count-audio">0</span></button>
+            </div>
+          </div>
+
+          <p class="library-menu-status" id="library-menu-status" role="status" hidden></p>
+          <div class="library-menu-list" id="library-menu-list" role="region" aria-label="课程列表"></div>
+          <div class="library-menu-empty" id="library-menu-empty" hidden>
+            <span class="empty-icon" aria-hidden="true">📂</span>
+            <p class="empty-title">没有找到匹配的课程</p>
+            <p class="empty-desc">尝试更换关键词或分类筛选</p>
+          </div>
+
+          <div class="library-menu-foot">
+            <a class="library-menu-more" id="library-menu-more" href="#/listening">
+              <span>进入精听课程大厅</span>
+              <span class="more-arrow" aria-hidden="true">→</span>
+            </a>
+            <span class="library-menu-hint">按 <kbd>Esc</kbd> 关闭</span>
+          </div>
+        </div>
+      </div>
+      <button class="icon-button panel-toggle" id="sidebar-toggle-button" type="button" aria-pressed="true" aria-label="展开/收起课程面板" title="展开/收起课程面板">
+        <span aria-hidden="true">📑</span><span class="button-label" id="sidebar-toggle-label">课程面板</span>
+      </button>
+    </div>
+
+    <!-- 精听和真题是独立工作区，不再作为同一顶栏里的相邻 Tab。
+         跨模式切换先返回入口页，避免练习状态和统计口径被误认为共享。 -->
+    <nav class="mode-context" aria-label="当前学习模式">
+      <span class="mode-context-current listening" id="mode-context-current" aria-current="page">
+        <span aria-hidden="true">🎧</span><span id="mode-context-label">精听工作区</span>
+      </span>
+      <a class="mode-switch-link" href="./">切换学习模式</a>
+    </nav>
+
+    <div class="topbar-actions">
+      <a class="personal-entry-button" id="personal-nav-button" href="./me#/mistakes">
+        <span aria-hidden="true">🗂</span><span class="button-label">我的</span>
+        <span class="personal-entry-badge" id="personal-nav-badge" hidden aria-hidden="true">0</span>
+      </a>
+      <button class="streak-chip" id="streak-chip" type="button" title="打开我的学习分析" hidden>
+        <span aria-hidden="true">🔥</span> 连续 <strong id="streak-count">0</strong> 天
+        <span class="punch-today-dot" id="punch-today-dot" title="今日已打卡"></span>
+      </button>
+      <div class="more-wrap">
+        <button class="icon-button more-button" id="more-button" type="button" aria-expanded="false" aria-controls="more-menu" title="更多">
+          <span aria-hidden="true">⋯</span><span class="sr-only">更多</span>
+        </button>
+        <div class="more-menu" id="more-menu" hidden>
+          <button class="more-menu-item" id="backend-status-button" type="button" aria-haspopup="dialog" aria-controls="backend-dialog">
+            <span class="status-dot" id="backend-status-dot"></span>
+            <span id="backend-status-text">资料本地存储位置</span>
+          </button>
+          <button class="more-menu-item" id="shortcut-button" type="button" aria-haspopup="dialog" aria-controls="shortcut-dialog">
+            <span aria-hidden="true">⌨</span><span>键盘快捷键</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ================================================================= -->
+    <!-- 视图：课程库。精听板块的第二层——先选视频/音频，再选课程。       -->
+    <!-- ================================================================= -->
+    <section class="board-view" id="view-library" hidden aria-labelledby="library-heading">
+      <div class="board-hero">
+        <p class="eyebrow">精听板块</p>
+        <h1 id="library-heading">选一门课程</h1>
+        <p class="board-hero-copy">
+          视频课在原站播放，可盲听遮画面；音频课完全离线，进度与笔记都存在本机。
+        </p>
+      </div>
+
+      <nav class="category-switch" role="tablist" aria-label="课程分类">
+        <button class="category-tab is-active" id="category-video" type="button" role="tab"
+          aria-selected="true" data-category="video">
+          <span class="category-icon" aria-hidden="true">🎬</span>
+          <span class="category-label">视频精听</span>
+          <span class="tab-badge" id="category-count-video">0</span>
+        </button>
+        <button class="category-tab" id="category-audio" type="button" role="tab"
+          aria-selected="false" data-category="audio">
+          <span class="category-icon" aria-hidden="true">🎧</span>
+          <span class="category-label">音频精听</span>
+          <span class="tab-badge" id="category-count-audio">0</span>
+        </button>
+      </nav>
+
+      <div class="course-library-toolbar" role="search" aria-label="筛选精听课程">
+        <label class="course-search-field" for="library-search-input">
+          <span aria-hidden="true">🔍</span>
+          <input id="library-search-input" type="search" placeholder="搜索课程名称、年份或语言" autocomplete="off">
+        </label>
+        <label>
+          <span class="sr-only">JLPT 等级</span>
+          <select id="library-level-filter" aria-label="按 JLPT 等级筛选">
+            <option value="all">全部等级</option>
+            <option value="N1">N1</option>
+            <option value="N2">N2</option>
+            <option value="N3">N3</option>
+            <option value="N4">N4</option>
+            <option value="N5">N5</option>
+            <option value="other">其他</option>
+          </select>
+        </label>
+        <label>
+          <span class="sr-only">课程状态</span>
+          <select id="library-status-filter" aria-label="按课程状态筛选">
+            <option value="all">全部状态</option>
+            <option value="ready">质量通过</option>
+            <option value="review">待复核</option>
+            <option value="started">学习中</option>
+            <option value="unstarted">未开始</option>
+          </select>
+        </label>
+        <label>
+          <span class="sr-only">课程排序</span>
+          <select id="library-sort" aria-label="课程排序">
+            <option value="title">按名称</option>
+            <option value="recent">最近更新</option>
+            <option value="progress">按学习进度</option>
+          </select>
+        </label>
+      </div>
+
+      <p class="library-status" id="library-status" role="status"></p>
+      <div class="course-grid" id="course-grid"></div>
+      <p class="empty-hint" id="library-empty" hidden>这个分类下还没有课程。</p>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- 视图：练习。精听板块的叶子节点——当前课程的逐句/全文精听。     -->
+    <!-- ================================================================= -->
+    <div class="layout" id="view-practice" hidden>
+      <aside class="course-panel" id="course-panel" aria-labelledby="course-title">
+        <div class="course-panel-header">
+          <div class="eyebrow">目前课程</div>
+          <button class="icon-button close-sidebar-btn" id="close-sidebar-button" type="button" aria-label="收起课程面板" title="收起课程面板">✕</button>
+        </div>
+        <h1 id="course-title">加载课程中…</h1>
+        <p class="language-badge" id="language-badge">辨识课程语言中…</p>
+        <p class="course-meta" id="course-meta">正在检查逐句稿与音频</p>
+
+        <div class="progress-block">
+          <div class="progress-label">
+            <span>掌握进度</span>
+            <strong id="progress-percent">0%</strong>
+          </div>
+          <div class="progress-track" role="progressbar" aria-label="掌握进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress-track">
+            <span id="progress-fill"></span>
+          </div>
+        </div>
+
+        <dl class="stats-grid">
+          <div>
+            <dt>已完成</dt>
+            <dd id="completed-count">0</dd>
+          </div>
+          <div>
+            <dt>已掌握</dt>
+            <dd id="mastered-count">0</dd>
+          </div>
+          <div>
+            <dt>待复习</dt>
+            <dd id="review-count">0</dd>
+          </div>
+        </dl>
+
+        <div class="sidebar-actions">
+          <button class="secondary-button full-width" id="next-review-button" type="button">练习下一个错题</button>
+          <div class="jump-row">
+            <label id="jump-label" for="jump-input">跳至句子</label>
+            <div>
+              <input id="jump-input" type="number" min="1" value="1" inputmode="numeric">
+              <button class="quiet-button" id="jump-button" type="button">前往</button>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <section class="practice-shell" aria-labelledby="practice-heading">
+        <div class="practice-card" id="practice-card">
+          <div class="learning-mode-switch" role="group" aria-label="学习模式">
+            <button class="learning-mode-button active" id="dictation-mode-button" type="button" aria-pressed="true">
+              <span aria-hidden="true">✎</span>
+              <span><strong>逐句精听</strong><small>逐句听辨并作答</small></span>
+            </button>
+            <button class="learning-mode-button" id="playback-mode-button" type="button" aria-pressed="false">
+              <span aria-hidden="true">▶</span>
+              <span><strong>全文精听</strong><small>连续播放并同步显示字幕</small></span>
+            </button>
+          </div>
+
+          <div class="practice-body">
+            <div class="dictation-header-pane" id="dictation-header-pane">
+              <div class="practice-header">
+                <div>
+                  <div class="eyebrow-row">
+                    <div class="eyebrow" id="sentence-position">第 1 句</div>
+                    <button class="star-button" id="star-button" type="button" aria-pressed="false" aria-haspopup="dialog" aria-controls="note-popover" title="标记重点句 / 写笔记">☆</button>
+                  </div>
+                  <h2 id="practice-heading">听音频，输入你听到的内容</h2>
+                </div>
+                <div class="practice-header-controls">
+                  <div class="sentence-mode-toggle" id="sentence-mode-toggle" role="group" aria-label="逐句精听模式">
+                    <button class="sentence-mode-pill active" id="sentence-mode-dictation" type="button" aria-pressed="true" title="听写模式：听音频并输入你听到的内容">
+                      <span aria-hidden="true">✍️</span>
+                      <span>听写模式</span>
+                    </button>
+                    <button class="sentence-mode-pill" id="sentence-mode-listen" type="button" aria-pressed="false" title="只听模式：只听音频，查看答案与解析">
+                      <span aria-hidden="true">🎧</span>
+                      <span>只听模式</span>
+                    </button>
+                  </div>
+                  <label class="mode-control" id="grading-control" for="grading-mode">
+                    <span>评分方式</span>
+                    <select id="grading-mode">
+                      <option value="forgiving">忽略空格与标点</option>
+                      <option value="accent-flexible" id="accent-mode-option">另忽略变音符号</option>
+                      <option value="strict">完全一致</option>
+                    </select>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <section class="subtitle-panel" id="subtitle-panel" aria-labelledby="subtitle-panel-heading" hidden>
+              <div class="subtitle-panel-header">
+                <div class="subtitle-header-info">
+                  <span class="eyebrow" id="subtitle-panel-heading">全文精听字幕</span>
+                  <span class="subtitle-count" id="subtitle-position">共 0 句</span>
+                </div>
+                <div class="subtitle-header-tools">
+                  <label class="subtitle-toggle-label" for="subtitle-show-translation">
+                    <input type="checkbox" id="subtitle-show-translation" checked>
+                    <span>显示翻译</span>
+                  </label>
+                  <button class="quiet-button active" id="subtitle-autoscroll-button" type="button" title="点击切换是否随播放自动滚动">
+                    <span aria-hidden="true">📍</span>
+                    <span id="subtitle-autoscroll-text">自动跟随</span>
+                  </button>
+                  <button class="quiet-button" id="subtitle-locate-button" type="button" title="立即定位到当前播放句子">
+                    定位当前句
+                  </button>
+                </div>
+              </div>
+
+              <div class="lyrics-container" id="lyrics-container" tabindex="0" aria-label="全文歌词滚动列表">
+                <div class="lyrics-list" id="lyrics-list"></div>
+              </div>
+            </section>
+
+            <div class="dictation-content-grid" id="dictation-content-grid">
+              <div class="dictation-media-pane" id="dictation-media-pane">
+                <section class="video-panel" id="video-panel" aria-label="在线视频" hidden>
+                  <div class="video-panel-head">
+                    <span class="video-tier-chip" id="video-tier-chip"></span>
+                    <div class="video-panel-actions">
+                      <button class="quiet-button" id="blind-toggle" type="button" aria-pressed="false"
+                        title="遮住画面，只听声音">盲听（遮住画面）</button>
+                      <button class="quiet-button" id="video-replay-button" type="button" hidden
+                        title="把播放器重新定位到本句开头">重播本句</button>
+                      <a class="quiet-button" id="video-open-link" href="#" target="_blank" rel="noopener noreferrer">在原站打开</a>
+                    </div>
+                  </div>
+                  <div class="video-frame" id="video-frame"></div>
+                  <p class="video-hint" id="video-hint"></p>
+                  <p class="video-notice" id="video-notice" role="status" hidden></p>
+                </section>
+
+                <section class="player" id="player" aria-label="音频播放器">
+                  <audio id="audio" preload="metadata"></audio>
+
+                  <div class="player-main">
+                    <div class="waveform" id="waveform" aria-hidden="true"></div>
+                    <input id="seek-range" class="seek-range" type="range" min="0" max="1000" value="0" aria-label="目前播放位置">
+                    <div class="time-row">
+                      <span id="current-time">0:00</span>
+                      <span id="sentence-duration" class="sentence-duration">—</span>
+                      <span id="segment-time">0:00</span>
+                    </div>
+                  </div>
+
+                  <div class="player-controls">
+                    <div class="player-center-controls">
+                      <button class="tool-button" id="loop-button" type="button" aria-pressed="false" title="循环播放当前句 (快捷键 L)">
+                        <span aria-hidden="true">🔁</span>
+                        <span>循环</span>
+                      </button>
+                      <label class="mode-control repeat-control" for="repeat-select" title="本句连续听几遍后停下">
+                        <span>听</span>
+                        <select id="repeat-select">
+                          <option value="1" selected>1 遍</option>
+                          <option value="2">2 遍</option>
+                          <option value="3">3 遍</option>
+                          <option value="5">5 遍</option>
+                        </select>
+                      </label>
+                      <button class="player-nav-button" id="previous-button" type="button" title="上一句 (快捷键 ←)">
+                        <span class="nav-icon" aria-hidden="true">⏮</span>
+                        <span>上一句</span>
+                      </button>
+                      <button class="play-button" id="play-button" type="button" aria-label="播放目前句子" title="播放 / 暂停 (快捷键 空格)">
+                        <span id="play-icon" aria-hidden="true">▶</span>
+                      </button>
+                      <button class="player-nav-button" id="next-button" type="button" title="下一句 (快捷键 →)">
+                        <span>下一句</span>
+                        <span class="nav-icon" aria-hidden="true">⏭</span>
+                      </button>
+                      <label class="speed-control" for="speed-select" title="播放速度">
+                        <span class="sr-only">播放速度</span>
+                        <select id="speed-select" aria-label="播放速度">
+                          <option value="0.5">0.5×</option>
+                          <option value="0.75">0.75×</option>
+                          <option value="0.8">0.8×</option>
+                          <option value="0.9">0.9×</option>
+                          <option value="1" selected>1.0×</option>
+                          <option value="1.1">1.1×</option>
+                          <option value="1.25">1.25×</option>
+                          <option value="1.5">1.5×</option>
+                          <option value="1.75">1.75×</option>
+                          <option value="2">2.0×</option>
+                        </select>
+                      </label>
+                    </div>
+                  </div>
+                </section>
+              </div>
+
+              <div class="dictation-form-pane" id="dictation-form-pane">
+                <form id="answer-form" novalidate>
+                  <label class="answer-label" for="answer-input">
+                    <span>你的答案</span>
+                    <span class="answer-help" id="answer-help">输入完成后按 Ctrl + Enter 检查</span>
+                  </label>
+                  <textarea
+                    id="answer-input"
+                    rows="3"
+                    lang="und"
+                    autocomplete="off"
+                    autocapitalize="off"
+                    spellcheck="false"
+                    placeholder="请输入你听到的内容…"
+                  ></textarea>
+                  <div class="form-actions">
+                    <div>
+                      <button class="quiet-button" id="hint-button" type="button">提示 <span id="hint-level">0/3</span></button>
+                      <button class="quiet-button danger-text" id="reveal-button" type="button">看答案</button>
+                    </div>
+                    <button class="primary-button" id="check-button" type="submit">检查答案</button>
+                  </div>
+                </form>
+
+                <div class="hint-box" id="hint-box" role="status" hidden></div>
+
+                <section class="feedback" id="feedback" aria-live="polite" hidden>
+                  <div class="feedback-heading">
+                    <div>
+                      <span class="result-badge" id="result-badge">再听一次</span>
+                      <h3 id="feedback-title">差一点，再试一次</h3>
+                    </div>
+                    <strong class="score" id="score">0%</strong>
+                  </div>
+
+                  <p class="hint-usage" id="hint-usage" hidden></p>
+
+                  <div class="comparison" id="comparison" aria-label="答案差异">
+                    <div>
+                      <span class="comparison-label">正确答案</span>
+                      <p id="expected-diff" lang="und"></p>
+                    </div>
+                    <div>
+                      <span class="comparison-label">你的答案</span>
+                      <p id="actual-diff" lang="und"></p>
+                    </div>
+                  </div>
+
+                  <div class="learning-notes">
+                    <div>
+                      <span class="comparison-label">中文翻译</span>
+                      <p id="translation">—</p>
+                    </div>
+                    <div>
+                      <span class="comparison-label">听力与文法解析</span>
+                      <p id="explanation">—</p>
+                    </div>
+                  </div>
+
+                  <div class="feedback-extra-actions">
+                    <button class="quiet-button" id="add-vocab-button" type="button">+ 加入生词本</button>
+                  </div>
+
+                  <div class="feedback-actions">
+                    <button class="secondary-button" id="retry-button" type="button">清空再试</button>
+                    <button class="primary-button" id="continue-button" type="button">继续下一句</button>
+                  </div>
+                </section>
+
+                <section class="listen-panel" id="listen-panel" aria-label="只听模式" hidden>
+                  <div class="listen-unrevealed-card" id="listen-unrevealed-card">
+                    <div class="listen-prompt-header">
+                      <div class="listen-status-badge">
+                        <span class="listen-pulse-dot" aria-hidden="true"></span>
+                        <span id="listen-status-text">正在听音中</span>
+                      </div>
+                      <label class="listen-auto-toggle-label" for="listen-auto-reveal">
+                        <input type="checkbox" id="listen-auto-reveal">
+                        <span>听完自动显案</span>
+                      </label>
+                    </div>
+                    <p class="listen-prompt-desc">专注听辨音频发音与句意，准备好后查看原文与解析</p>
+                    <div class="listen-unrevealed-actions">
+                      <button class="primary-button full-width" id="listen-reveal-button" type="button">
+                        👀 显示答案与解析
+                      </button>
+                    </div>
+                    <p class="listen-shortcut-hint">快捷键：<kbd>Space</kbd> 播放/暂停 · <kbd>R</kbd> 重听 · <kbd>Enter</kbd> 显示答案</p>
+                  </div>
+
+                  <div class="listen-revealed-card" id="listen-revealed-card" hidden>
+                    <div class="listen-original-box">
+                      <div class="listen-original-head">
+                        <span class="comparison-label">原文内容</span>
+                        <button class="icon-text-button" id="listen-speak-button" type="button" title="朗读此句">
+                          <span aria-hidden="true">🔊</span> 朗读
+                        </button>
+                      </div>
+                      <p class="listen-original-text" id="listen-original-text" lang="und"></p>
+                    </div>
+
+                    <div class="learning-notes">
+                      <div>
+                        <span class="comparison-label">中文翻译</span>
+                        <p id="listen-translation">—</p>
+                      </div>
+                      <div>
+                        <span class="comparison-label">听力与文法解析</span>
+                        <p id="listen-explanation">—</p>
+                      </div>
+                    </div>
+
+                    <div class="feedback-extra-actions">
+                      <button class="quiet-button" id="listen-add-vocab-button" type="button">+ 加入生词本</button>
+                    </div>
+
+                    <div class="feedback-actions">
+                      <button class="secondary-button" id="listen-replay-button" type="button">🔁 再听一遍</button>
+                      <button class="primary-button" id="listen-continue-button" type="button">继续下一句</button>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="completion-banner" id="completion-banner" aria-live="polite" hidden>
+                  <strong>🎉 整门课程都已掌握！</strong>
+                  <p id="completion-copy"></p>
+                  <button class="secondary-button" id="completion-restart-button" type="button">回到第一题再复习一遍</button>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="session-bar" id="session-bar" aria-label="本次学习统计">
+          <span><strong id="session-attempts">0</strong> 次作答</span>
+          <span><strong id="session-correct">0</strong> 句一次答对</span>
+          <button class="quiet-button" id="exit-special-practice-button" type="button" hidden>退出错题专项</button>
+          <span class="shortcut-tip">空白键播放 · ← → 换句 · H 提示 · Ctrl+Enter 检查/继续</span>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div class="selection-bubble" id="selection-bubble" hidden>
+    <button class="selection-bubble-btn" id="selection-add-vocab-button" type="button" aria-label="收录为生词">
+      <span aria-hidden="true">📖</span> + 生词
+    </button>
+    <button class="selection-bubble-btn" id="selection-add-note-button" type="button" aria-label="加入该句笔记">
+      <span aria-hidden="true">☆</span> + 笔记
+    </button>
+    <button class="selection-add-button sr-only" id="selection-add-button" type="button" tabindex="-1">+ 生词</button>
+  </div>
+
+  <div class="popover" id="note-popover" role="dialog" aria-label="重点句与笔记" hidden>
+    <label class="note-star-check"><input type="checkbox" id="note-star-checkbox"> 标为重点句</label>
+    <label for="note-textarea">笔记内容</label>
+    <textarea id="note-textarea" rows="3" placeholder="记下语法点、易错点…"></textarea>
+    <div class="popover-actions">
+      <button class="quiet-button" id="note-cancel-button" type="button">取消</button>
+      <button class="primary-button" id="note-save-button" type="button">保存</button>
+    </div>
+  </div>
+
+  <div class="popover" id="vocab-quickadd" role="dialog" aria-label="加入生词本" hidden>
+    <label for="vocab-term-input">词条</label>
+    <input id="vocab-term-input" type="text" autocomplete="off">
+    <label for="vocab-meaning-input">释义</label>
+    <input id="vocab-meaning-input" type="text" autocomplete="off" placeholder="意思、翻译…">
+    <label for="vocab-note-input">备注（可选）</label>
+    <textarea id="vocab-note-input" rows="2"></textarea>
+    <div class="popover-actions">
+      <button class="quiet-button" id="vocab-quickadd-cancel" type="button">取消</button>
+      <button class="primary-button" id="vocab-quickadd-save" type="button">加入生词本</button>
+    </div>
+  </div>
+
+  <section class="fatal-error" id="fatal-error" role="alert" hidden>
+    <strong>课程无法加载</strong>
+    <p id="fatal-error-copy"></p>
+    <p>请确认 `manifest.json`、音档与播放器位于同一个课程包，并透过本地伺服器开启。</p>
+  </section>
+
+  <dialog id="shortcut-dialog">
+    <div class="dialog-header">
+      <div>
+        <div class="eyebrow">操作提示</div>
+        <h2>键盘快捷键</h2>
+      </div>
+      <button class="icon-button" id="close-shortcut-button" type="button" aria-label="关闭快捷键说明">✕</button>
+    </div>
+    <dl class="shortcut-list">
+      <div><dt><kbd>Space</kbd></dt><dd>播放／暂停音频</dd></div>
+      <div><dt><kbd>R</kbd></dt><dd>逐句精听时重播本句；全文精听时重播当前句子</dd></div>
+      <div><dt><kbd>L</kbd></dt><dd>逐句精听时开启／关闭单句循环</dd></div>
+      <div><dt><kbd>←</kbd> <kbd>→</kbd></dt><dd>逐句精听时换句；全文精听时切换句子</dd></div>
+      <div><dt><kbd>H</kbd></dt><dd>听写模式下显示下一级提示</dd></div>
+      <div><dt><kbd>Enter</kbd></dt><dd>只听模式下查看答案／继续下一句</dd></div>
+      <div><dt><kbd>Ctrl</kbd> + <kbd>Enter</kbd></dt><dd>听写模式下检查答案／继续下一句</dd></div>
+      <div><dt><kbd>Esc</kbd></dt><dd>反馈出现时清空重试；只听模式下隐藏答案重新听</dd></div>
+    </dl>
+  </dialog>
+
+
+
+  <!-- 「我的」板块。四个个人模块以前是四个平级弹窗，现在合并为一个带左侧导航的中心；
+       错题集内部再按数据来源（精听 / JLPT）分标签，数据分开取，界面统一看。 -->
+  <dialog id="personal-dialog" class="personal-modal" aria-labelledby="personal-dialog-heading">
+    <div class="dialog-header personal-header">
+      <div>
+        <div class="eyebrow">我的学习资产</div>
+        <h2 id="personal-dialog-heading">我的</h2>
+      </div>
+      <button class="icon-button" id="close-personal-button" type="button" aria-label="关闭我的">✕</button>
+    </div>
+
+    <div class="personal-body">
+      <nav class="personal-tabs" role="tablist" aria-label="个人模块">
+        <button class="personal-tab" id="personal-tab-mistakes" type="button" role="tab" aria-selected="false" aria-controls="personal-panel-mistakes" data-personal-tab="mistakes">
+          <span class="personal-tab-icon" aria-hidden="true">🎯</span>
+          <span class="personal-tab-label">错题集</span>
+          <span class="personal-tab-badge" id="mistakes-total-badge" hidden></span>
+        </button>
+        <button class="personal-tab" id="personal-tab-vocab" type="button" role="tab" aria-selected="false" aria-controls="personal-panel-vocab" data-personal-tab="vocab">
+          <span class="personal-tab-icon" aria-hidden="true">📖</span>
+          <span class="personal-tab-label">生词本</span>
+          <span class="personal-tab-badge" id="vocab-total-badge" hidden></span>
+        </button>
+        <button class="personal-tab" id="personal-tab-notes" type="button" role="tab" aria-selected="false" aria-controls="personal-panel-notes" data-personal-tab="notes">
+          <span class="personal-tab-icon" aria-hidden="true">☆</span>
+          <span class="personal-tab-label">收藏笔记</span>
+          <span class="personal-tab-badge" id="notes-total-badge" hidden></span>
+        </button>
+        <button class="personal-tab" id="personal-tab-analytics" type="button" role="tab" aria-selected="false" aria-controls="personal-panel-analytics" data-personal-tab="analytics">
+          <span class="personal-tab-icon" aria-hidden="true">📊</span>
+          <span class="personal-tab-label">学习分析</span>
+        </button>
+      </nav>
+
+      <div class="personal-panels">
+        <div class="personal-status" id="personal-status" role="status" aria-live="polite" hidden>
+          <span id="personal-status-text"></span>
+          <button class="quiet-button" id="personal-retry-button" type="button" hidden>重试</button>
+        </div>
+        <section class="personal-panel" id="personal-panel-mistakes" role="tabpanel" aria-labelledby="personal-tab-mistakes" data-personal-panel="mistakes" hidden>
+          <header class="personal-panel-head">
+            <div class="eyebrow">专项攻克</div>
+            <h3>错题集</h3>
+            <p class="personal-panel-sub">听写与真题的错题分开取数，在同一处看。</p>
+          </header>
+          <div class="scope-switch" role="group" aria-label="错题类型">
+            <button class="scope-button active" id="mistakes-tab-dictation" type="button">
+              听写错句本 <span class="tab-badge" id="mistakes-dictation-badge">0</span>
+            </button>
+            <button class="scope-button" id="mistakes-tab-exam" type="button">
+              真题错题本 <span class="tab-badge" id="mistakes-exam-badge">0</span>
+            </button>
+          </div>
+          <div class="vocab-toolbar">
+            <button class="primary-button" id="mistakes-practice-all-button" type="button">🎯 开启听写错题专项攻克</button>
+            <span class="mistakes-summary-text" id="mistakes-summary-text">正在分析错题…</span>
+          </div>
+          <div class="entry-list" id="mistakes-list"></div>
+          <p class="empty-hint" id="mistakes-empty-hint" hidden>太棒了！当前没有任何错题记录。</p>
+        </section>
+
+        <section class="personal-panel" id="personal-panel-vocab" role="tabpanel" aria-labelledby="personal-tab-vocab" data-personal-panel="vocab" hidden>
+          <header class="personal-panel-head">
+            <div class="eyebrow">个人生词本 · SRS 记忆系统</div>
+            <h3>生词本 <span class="panel-count" id="vocab-count">0</span></h3>
+            <p class="personal-panel-sub">收录、分阶段复习，可导出到 Anki。</p>
+          </header>
+          <div class="srs-status-tabs" role="tablist" aria-label="生词记忆阶段筛选">
+            <button class="srs-tab active" id="vocab-tab-all" type="button" role="tab" aria-selected="true">
+              全部 <span class="tab-badge" id="vocab-badge-all">0</span>
+            </button>
+            <button class="srs-tab" id="vocab-tab-due" type="button" role="tab" aria-selected="false">
+              🔥 今日待复习 <span class="tab-badge due-badge" id="vocab-badge-due">0</span>
+            </button>
+            <button class="srs-tab" id="vocab-tab-new" type="button" role="tab" aria-selected="false">
+              🌱 新收录 <span class="tab-badge" id="vocab-badge-new">0</span>
+            </button>
+            <button class="srs-tab" id="vocab-tab-learning" type="button" role="tab" aria-selected="false">
+              🔄 学习中 <span class="tab-badge" id="vocab-badge-learning">0</span>
+            </button>
+            <button class="srs-tab" id="vocab-tab-mastered" type="button" role="tab" aria-selected="false">
+              ⭐ 已掌握 <span class="tab-badge" id="vocab-badge-mastered">0</span>
+            </button>
+          </div>
+          <div class="vocab-toolbar">
+            <input id="vocab-search-input" type="search" placeholder="搜索生词、读音、释义、例句、标签…" aria-label="搜索生词本">
+            <select id="vocab-level-filter" aria-label="按等级过滤">
+              <option value="">全部等级</option>
+              <option value="N1">JLPT N1</option>
+              <option value="N2">JLPT N2</option>
+              <option value="N3">JLPT N3</option>
+              <option value="N4">JLPT N4</option>
+              <option value="N5">JLPT N5</option>
+            </select>
+            <select id="vocab-tag-filter" aria-label="按标签过滤">
+              <option value="">全部标签</option>
+            </select>
+            <button class="primary-button" id="vocab-add-button" type="button" aria-expanded="false" aria-controls="vocab-add-form">+ 新增生词</button>
+            <button class="secondary-button" id="flashcard-start-button" type="button">⚡ 闪卡复习</button>
+            <button class="quiet-button" id="vocab-export-button" type="button">导出 CSV</button>
+            <button class="quiet-button" id="vocab-export-anki-button" type="button" title="导出为 Anki 牌组格式文本">导出 Anki</button>
+            <button class="quiet-button" id="vocab-import-button" type="button">📥 导入词表</button>
+          </div>
+          <div class="batch-bar" id="vocab-batch-bar" hidden>
+            <label class="batch-select-all-label">
+              <input type="checkbox" id="vocab-select-all">
+              <span>全选</span>
+            </label>
+            <span class="batch-count" id="vocab-selected-count">已选 0 项</span>
+            <div class="batch-actions">
+              <button class="quiet-button" id="vocab-batch-master-btn" type="button">标为已掌握</button>
+              <button class="quiet-button" id="vocab-batch-tag-btn" type="button">+ 批量打标签</button>
+              <button class="quiet-button" id="vocab-batch-reset-btn" type="button">重置复习</button>
+              <button class="quiet-button danger-text" id="vocab-batch-delete-btn" type="button">批量删除</button>
+            </div>
+          </div>
+          <form class="inline-add-form" id="vocab-add-form" novalidate hidden>
+            <div class="inline-add-grid">
+              <div class="inline-add-field">
+                <label for="vocab-add-term">词条</label>
+                <input id="vocab-add-term" type="text" lang="und" autocomplete="off" autocapitalize="off" spellcheck="false">
+              </div>
+              <div class="inline-add-field">
+                <label for="vocab-add-reading">读音（假名/拼音）</label>
+                <input id="vocab-add-reading" type="text" lang="und" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="假名、拼音…">
+              </div>
+            </div>
+            <div class="inline-add-grid">
+              <div class="inline-add-field">
+                <label for="vocab-add-level">JLPT 等级</label>
+                <select id="vocab-add-level">
+                  <option value="">未指定</option>
+                  <option value="N1">N1</option>
+                  <option value="N2">N2</option>
+                  <option value="N3">N3</option>
+                  <option value="N4">N4</option>
+                  <option value="N5">N5</option>
+                </select>
+              </div>
+              <div class="inline-add-field">
+                <label for="vocab-add-tags">标签（多个用逗号隔开）</label>
+                <input id="vocab-add-tags" type="text" placeholder="如：动词, 高频, 听力易混">
+              </div>
+            </div>
+            <div class="inline-add-field">
+              <label for="vocab-add-meaning">释义</label>
+              <input id="vocab-add-meaning" type="text" autocomplete="off" placeholder="中文释义、词性…">
+            </div>
+            <div class="inline-add-field">
+              <label for="vocab-add-note">用法与备注（可选）</label>
+              <textarea id="vocab-add-note" rows="2" placeholder="固定搭配、近义辨析、易混音…"></textarea>
+            </div>
+            <label class="note-star-check">
+              <input type="checkbox" id="vocab-add-link-sentence">
+              <span id="vocab-add-link-label">关联当前句子作为例句</span>
+            </label>
+            <p class="inline-add-message" id="vocab-add-message" role="status" hidden></p>
+            <div class="popover-actions">
+              <button class="quiet-button" id="vocab-add-cancel" type="button">取消</button>
+              <button class="primary-button" id="vocab-add-save" type="submit">加入生词本</button>
+            </div>
+          </form>
+          <div class="entry-list" id="vocab-list"></div>
+          <p class="empty-hint" id="vocab-empty-hint" hidden>还没有生词。点上方「+ 新增生词」，或在练习时选中参考文字快速收词。</p>
+        </section>
+
+        <section class="personal-panel" id="personal-panel-notes" role="tabpanel" aria-labelledby="personal-tab-notes" data-personal-panel="notes" hidden>
+          <header class="personal-panel-head">
+            <div class="eyebrow">重点句与笔记</div>
+            <h3>收藏笔记 <span class="panel-count" id="notes-count">0</span></h3>
+            <p class="personal-panel-sub">☆ 标记过的句子与你写下的笔记。</p>
+          </header>
+          <div class="scope-switch" role="group" aria-label="笔记查看范围">
+            <button class="scope-button active" id="notes-scope-current" type="button">当前课程笔记</button>
+            <button class="scope-button" id="notes-scope-all" type="button">全库笔记（跨课程）</button>
+          </div>
+          <div class="vocab-toolbar">
+            <input id="notes-search-input" type="search" placeholder="搜索笔记内容、原句…" aria-label="搜索笔记">
+            <select id="notes-tag-filter" aria-label="按标签过滤笔记">
+              <option value="">全部标签</option>
+              <option value="语法">语法</option>
+              <option value="词汇">词汇</option>
+              <option value="听力">听力连音</option>
+              <option value="易错">易错反思</option>
+              <option value="考点">考点</option>
+            </select>
+            <label class="note-star-check">
+              <input type="checkbox" id="notes-filter-starred">
+              <span>仅看 ★ 重点</span>
+            </label>
+            <button class="primary-button" id="note-add-button" type="button" aria-expanded="false" aria-controls="note-add-form">+ 新增笔记</button>
+            <button class="quiet-button" id="notes-export-button" type="button">导出 CSV</button>
+            <button class="quiet-button" id="notes-export-md-button" type="button">导出 Markdown</button>
+          </div>
+          <form class="inline-add-form" id="note-add-form" novalidate hidden>
+            <div class="inline-add-grid">
+              <div class="inline-add-field">
+                <label for="note-add-position">句子编号</label>
+                <input id="note-add-position" type="number" min="1" value="1" inputmode="numeric">
+              </div>
+              <div class="inline-add-field">
+                <label for="note-add-tag">分类标签</label>
+                <input id="note-add-tag" type="text" list="note-tags-datalist" placeholder="如：语法 / 词汇 / 听力连音">
+                <datalist id="note-tags-datalist">
+                  <option value="语法"></option>
+                  <option value="词汇"></option>
+                  <option value="听力"></option>
+                  <option value="易错"></option>
+                  <option value="考点"></option>
+                </datalist>
+              </div>
+            </div>
+            <div class="inline-add-field">
+              <span class="inline-add-caption">该句原文</span>
+              <p class="inline-add-preview" id="note-add-preview" lang="und">—</p>
+            </div>
+            <div class="inline-add-field">
+              <label for="note-add-text">笔记内容</label>
+              <textarea id="note-add-text" rows="3" placeholder="记下语法点、搭配、连音规律…"></textarea>
+            </div>
+            <label class="note-star-check"><input type="checkbox" id="note-add-star"> 标为重点句</label>
+            <p class="inline-add-message" id="note-add-message" role="status" hidden></p>
+            <div class="popover-actions">
+              <button class="quiet-button" id="note-add-cancel" type="button">取消</button>
+              <button class="primary-button" id="note-add-save" type="submit">保存笔记</button>
+            </div>
+          </form>
+          <div class="entry-list" id="notes-list"></div>
+          <p class="empty-hint" id="notes-empty-hint" hidden>还没有笔记。点上方「+ 新增笔记」，或在练习时点句子标题旁的 ☆。</p>
+        </section>
+
+        <section class="personal-panel" id="personal-panel-analytics" role="tabpanel" aria-labelledby="personal-tab-analytics" data-personal-panel="analytics" hidden>
+          <header class="personal-panel-head">
+            <div class="eyebrow">学习中心</div>
+            <h3>学习分析</h3>
+            <p class="personal-panel-sub">打卡、足迹与练习记录。</p>
+          </header>
+          <!-- 顶层 Tab 切换 -->
+          <div class="scope-switch analytics-tab-switch" role="tablist" aria-label="学习中心分类">
+            <button class="scope-button active" id="tab-btn-punch" role="tab" aria-selected="true" aria-controls="panel-punch" type="button">
+              🎯 每日打卡
+            </button>
+            <button class="scope-button" id="tab-btn-analytics" role="tab" aria-selected="false" aria-controls="panel-analytics" type="button">
+              📊 学习分析
+            </button>
+            <button class="scope-button" id="tab-btn-logs" role="tab" aria-selected="false" aria-controls="panel-logs" type="button">
+              📜 练习记录
+            </button>
+          </div>
+
+          <!-- Tab 1: 🎯 每日打卡面板 -->
+          <div class="analytics-tab-panel" id="panel-punch" role="tabpanel" aria-labelledby="tab-btn-punch">
+            <!-- 今日打卡英雄卡片 -->
+            <div class="punch-hero-card">
+              <div class="punch-hero-main">
+                <div class="punch-date-badge" id="punch-today-date">2026年8月31日</div>
+                <div class="punch-status-badge" id="punch-today-status">
+                  <span class="punch-icon" id="punch-status-icon">⚡</span>
+                  <span id="punch-status-text">今日尚未打卡</span>
+                </div>
+                <div class="punch-stats-row">
+                  <div class="punch-stat-item">
+                    <span class="stat-num" id="punch-current-streak">0</span>
+                    <span class="stat-lbl">连续打卡 (天)</span>
+                  </div>
+                  <div class="punch-stat-item">
+                    <span class="stat-num" id="punch-max-streak">0</span>
+                    <span class="stat-lbl">最长连续 (天)</span>
+                  </div>
+                  <div class="punch-stat-item">
+                    <span class="stat-num" id="punch-total-days">0</span>
+                    <span class="stat-lbl">累计打卡 (天)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="punch-action-pane">
+                <button class="primary-button punch-large-btn" id="punch-action-button" type="button">
+                  🔥 立即完成今日打卡
+                </button>
+                <div class="punch-note-input-row" id="punch-note-input-row">
+                  <input type="text" id="punch-note-input" placeholder="写一句今日心得或学习寄语…" maxlength="100">
+                  <div class="punch-mood-selector" id="punch-mood-selector" role="group" aria-label="学习心情">
+                    <button class="mood-btn active" data-mood="🔥" type="button" title="干劲满满">🔥</button>
+                    <button class="mood-btn" data-mood="📚" type="button" title="沉浸学习">📚</button>
+                    <button class="mood-btn" data-mood="✨" type="button" title="收获满满">✨</button>
+                    <button class="mood-btn" data-mood="🎯" type="button" title="精准突破">🎯</button>
+                    <button class="mood-btn" data-mood="💪" type="button" title="坚持不懈">💪</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 打卡里程碑成就 -->
+            <div class="milestone-badges-card">
+              <div class="sub-heading">🏆 打卡里程碑成就</div>
+              <div class="badges-row">
+                <div class="badge-item" id="badge-3days">
+                  <span class="badge-icon">🌱</span>
+                  <span class="badge-name">3天起步</span>
+                  <small class="badge-status">未达成</small>
+                </div>
+                <div class="badge-item" id="badge-7days">
+                  <span class="badge-icon">🔥</span>
+                  <span class="badge-name">7天进阶</span>
+                  <small class="badge-status">未达成</small>
+                </div>
+                <div class="badge-item" id="badge-14days">
+                  <span class="badge-icon">⚡</span>
+                  <span class="badge-name">14天习惯</span>
+                  <small class="badge-status">未达成</small>
+                </div>
+                <div class="badge-item" id="badge-30days">
+                  <span class="badge-icon">⭐</span>
+                  <span class="badge-name">30天突破</span>
+                  <small class="badge-status">未达成</small>
+                </div>
+                <div class="badge-item" id="badge-100days">
+                  <span class="badge-icon">👑</span>
+                  <span class="badge-name">百天达人</span>
+                  <small class="badge-status">未达成</small>
+                </div>
+              </div>
+            </div>
+
+            <!-- 月度打卡日历 & 学习热力图 -->
+            <div class="calendar-card">
+              <div class="calendar-header">
+                <button class="quiet-button" id="calendar-prev-month" type="button">◀ 上一月</button>
+                <strong class="calendar-title" id="calendar-month-title">2026年 8月</strong>
+                <button class="quiet-button" id="calendar-next-month" type="button">下一月 ▶</button>
+              </div>
+              <div class="calendar-weekdays">
+                <span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span>
+              </div>
+              <div class="calendar-grid" id="calendar-grid"></div>
+              <div class="calendar-legend">
+                <span class="legend-lbl">练习热度：</span>
+                <span class="legend-box lvl-0" title="未练习"></span>
+                <span class="legend-box lvl-1" title="1-5 句"></span>
+                <span class="legend-box lvl-2" title="6-15 句"></span>
+                <span class="legend-box lvl-3" title="16-30 句"></span>
+                <span class="legend-box lvl-4" title="30+ 句"></span>
+                <span class="legend-hint">点选日期可查看当天明细</span>
+              </div>
+              <div class="calendar-day-detail" id="calendar-day-detail" hidden>
+                <div class="day-detail-header">
+                  <strong id="day-detail-date">2026-08-31</strong>
+                  <span class="day-punch-pill" id="day-detail-punch-tag">已打卡</span>
+                </div>
+                <div class="day-detail-stats" id="day-detail-stats"></div>
+                <p class="day-detail-note" id="day-detail-note"></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 2: 📊 学习分析面板 -->
+          <div class="analytics-tab-panel" id="panel-analytics" role="tabpanel" aria-labelledby="tab-btn-analytics" hidden>
+            <div class="analytics-scope-row">
+              <label for="analytics-scope">统计范围</label>
+              <select id="analytics-scope">
+                <option value="current">当前听写课程</option>
+                <option value="all">全部听写课程</option>
+              </select>
+              <span id="analytics-scope-note">正确率、作答和时长按当前课程统计；生词为全库数据。</span>
+            </div>
+            <!-- 数据大盘 6 宫格 -->
+            <div class="stats-grid-dialog">
+              <div class="stat-box">
+                <span class="stat-num" id="ana-overall-accuracy">0%</span>
+                <span class="stat-label">综合听写正确率</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-num" id="ana-mastered-rate">0%</span>
+                <span class="stat-label">句子掌握率</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-num" id="ana-total-practiced">0</span>
+                <span class="stat-label">已练句子 / 总题</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-num" id="ana-total-attempts">0</span>
+                <span class="stat-label">听写作答总次数</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-num" id="ana-total-duration">0 分钟</span>
+                <span class="stat-label">累计听写时长</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-num" id="ana-vocab-mastered">0</span>
+                <span class="stat-label">全库已记生词 / 总词数</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-num" id="ana-exam-answered">0</span>
+                <span class="stat-label">JLPT 已答题数</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-num" id="ana-exam-accuracy">0%</span>
+                <span class="stat-label">JLPT 累计正确率</span>
+              </div>
+            </div>
+
+            <!-- 隐藏兼容节点，供旧脚本选择器使用 -->
+            <div class="sr-only" aria-hidden="true">
+              <span id="stat-completed-sentences">0</span>
+              <span id="stat-mastered-sentences">0</span>
+              <span id="stat-total-attempts">0</span>
+              <span id="stat-total-vocab">0</span>
+              <span id="stat-total-notes">0</span>
+              <span id="stat-streak-days">0</span>
+              <span id="stat-srs-new">0</span>
+              <span id="stat-srs-learning">0</span>
+              <span id="stat-srs-reviewing">0</span>
+              <span id="stat-srs-mastered">0</span>
+            </div>
+
+            <!-- 趋势走势图表 -->
+            <div class="chart-card">
+              <div class="chart-card-header">
+                <div class="sub-heading">📈 学习量与正确率走势</div>
+                <div class="chart-period-switch" role="group" aria-label="图表周期">
+                  <button class="quiet-button active" id="chart-period-7" type="button">近7天</button>
+                  <button class="quiet-button" id="chart-period-14" type="button">近14天</button>
+                  <button class="quiet-button" id="chart-period-30" type="button">近30天</button>
+                </div>
+              </div>
+              <div class="chart-container" id="analytics-trend-chart">
+                <!-- SVG Trend Chart -->
+              </div>
+            </div>
+
+            <!-- 课程掌握对比 -->
+            <div class="course-matrix-card">
+              <div class="sub-heading">📚 各课程掌握进度对比</div>
+              <div class="course-matrix-list" id="course-matrix-list"></div>
+            </div>
+
+            <!-- 易错弱项排行榜 -->
+            <div class="weak-points-card">
+              <div class="sub-heading">⚠️ 高频易错句子 Top 10（重点攻坚）</div>
+              <div class="weak-points-list" id="weak-points-list"></div>
+              <p class="empty-hint" id="weak-points-empty" hidden>太棒了！当前暂无高频易错句。</p>
+            </div>
+
+            <!-- 智能诊断建议 -->
+            <div class="diagnostics-card">
+              <div class="sub-heading">💡 智能学习诊断与提分建议</div>
+              <div class="diagnostics-list" id="diagnostics-list"></div>
+            </div>
+          </div>
+
+          <!-- Tab 3: 📜 学习记录面板 -->
+          <div class="analytics-tab-panel" id="panel-logs" role="tabpanel" aria-labelledby="tab-btn-logs" hidden>
+            <div class="logs-toolbar">
+              <div class="logs-filters">
+                <select id="logs-filter-status" aria-label="按作答结果筛选">
+                  <option value="all">全部作答记录</option>
+                  <option value="wrong">仅看错题记录 (得分 &lt; 100%)</option>
+                  <option value="correct">仅看答对记录 (100% 满分)</option>
+                </select>
+                <select id="logs-filter-days" aria-label="按时间范围筛选">
+                  <option value="all">所有时间</option>
+                  <option value="today">今天</option>
+                  <option value="7days">近 7 天</option>
+                  <option value="30days">近 30 天</option>
+                </select>
+              </div>
+              <div class="logs-actions">
+                <button class="quiet-button" id="logs-export-csv-button" type="button">导出记录 CSV</button>
+                <button class="quiet-button danger-text" id="logs-clear-button" type="button">清空记录</button>
+              </div>
+            </div>
+            <div class="logs-summary-bar">
+              <span id="logs-count-info">正在加载作答记录…</span>
+            </div>
+            <div class="entry-list logs-timeline-list" id="logs-list"></div>
+            <p class="empty-hint" id="logs-empty-hint" hidden>还没有作答记录。去开始练习几道题目吧！</p>
+            <div class="pagination-row" id="logs-pagination" hidden>
+              <button class="quiet-button" id="logs-prev-page" type="button">上一页</button>
+              <span id="logs-page-indicator">第 1 页</span>
+              <button class="quiet-button" id="logs-next-page" type="button">下一页</button>
+            </div>
+          </div>
+
+          <!-- 底部数据库路径信息 -->
+          <div class="dialog-footer-meta">
+            <span id="analytics-db-path"></span>
+            <span id="stats-db-path" class="sr-only"></span>
+          </div>
+        </section>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="flashcard-dialog" aria-labelledby="flashcard-dialog-heading">
+    <div class="dialog-header">
+      <div>
+        <div class="eyebrow" id="flashcard-progress">第 1／共 1 张</div>
+        <h2 id="flashcard-dialog-heading" class="sr-only">生词闪卡复习</h2>
+      </div>
+      <button class="icon-button" id="close-flashcard-button" type="button" aria-label="关闭闪卡复习">✕</button>
+    </div>
+    <div class="flashcard" id="flashcard">
+      <div class="flashcard-head-row">
+        <span class="flashcard-level-chip" id="flashcard-level-chip" hidden></span>
+        <button class="icon-button tts-speaker-btn" id="flashcard-speak-button" type="button" aria-label="播放发音" title="发音朗读 (快捷键 P)">
+          <span aria-hidden="true">🔊</span>
+        </button>
+      </div>
+      <div class="flashcard-term" id="flashcard-term"></div>
+      <div class="flashcard-back" id="flashcard-back" hidden>
+        <p class="flashcard-reading" id="flashcard-reading"></p>
+        <p class="flashcard-meaning" id="flashcard-meaning"></p>
+        <p class="flashcard-note" id="flashcard-note"></p>
+        <div class="flashcard-source-box" id="flashcard-source-box" hidden>
+          <span class="flashcard-source-caption">例句语境：</span>
+          <p class="flashcard-source" id="flashcard-source"></p>
+          <button class="quiet-button" id="flashcard-source-play-button" type="button" hidden>▶ 播放原句音频</button>
+        </div>
+      </div>
+    </div>
+    <div class="feedback-actions" id="flashcard-flip-row">
+      <button class="secondary-button full-width" id="flashcard-flip-button" type="button">显示答案（空格）</button>
+    </div>
+    <div class="srs-grade-actions" id="flashcard-grade-actions" hidden>
+      <button class="srs-grade-btn srs-again" id="flashcard-grade-again" type="button">
+        <strong>重来</strong>
+        <small>1 天后 (键 1)</small>
+      </button>
+      <button class="srs-grade-btn srs-hard" id="flashcard-grade-hard" type="button">
+        <strong>困难</strong>
+        <small>微调 (键 2)</small>
+      </button>
+      <button class="srs-grade-btn srs-good" id="flashcard-grade-good" type="button">
+        <strong>良好</strong>
+        <small id="srs-good-interval-preview">正常 (键 3)</small>
+      </button>
+      <button class="srs-grade-btn srs-easy" id="flashcard-grade-easy" type="button">
+        <strong>简单</strong>
+        <small id="srs-easy-interval-preview">跳进 (键 4)</small>
+      </button>
+    </div>
+    <p class="empty-hint" id="flashcard-empty-hint" hidden>没有待复习的生词。先加几个词或等待到期再来复习吧。</p>
+    <div class="flashcard-done" id="flashcard-done" hidden>
+      <strong>🎉 本轮复习完成！</strong>
+      <p id="flashcard-done-stats"></p>
+      <button class="secondary-button" id="flashcard-restart-button" type="button">再来一轮</button>
+    </div>
+  </dialog>
+
+  <dialog id="vocab-import-dialog" aria-labelledby="vocab-import-heading">
+    <div class="dialog-header">
+      <h2 id="vocab-import-heading">批量导入生词</h2>
+      <button class="icon-button" id="close-vocab-import-button" type="button" aria-label="关闭导入">✕</button>
+    </div>
+    <div class="vocab-import-body">
+      <p class="import-help">支持粘贴文本（每行一个词，或以制表符/逗号分隔：<code>词条 读音 释义 备注 标签</code>），或上传 <code>.csv / .txt</code> 文件。</p>
+      <textarea id="vocab-import-textarea" rows="6" placeholder="例如：
+面接	めんせつ	面试	N2高频	动词
+留学	りゅうがく	留学		常用"></textarea>
+      <div class="import-file-row">
+        <label class="quiet-button" for="vocab-import-file">选择 CSV / TXT 文件</label>
+        <input type="file" id="vocab-import-file" accept=".csv,.txt" hidden>
+        <span id="vocab-import-file-name" class="file-name-label"></span>
+      </div>
+      <p class="inline-add-message" id="vocab-import-message" role="status" hidden></p>
+      <div class="popover-actions">
+        <button class="quiet-button" id="vocab-import-cancel" type="button">取消</button>
+        <button class="primary-button" id="vocab-import-submit" type="button">确认导入</button>
+      </div>
+    </div>
+  </dialog>
+
+
+  <dialog id="backend-dialog" aria-labelledby="backend-dialog-heading">
+    <div class="dialog-header">
+      <h2 id="backend-dialog-heading">资料本地存储位置</h2>
+      <button class="icon-button" id="close-backend-button" type="button" aria-label="关闭">✕</button>
+    </div>
+    <div style="font-size: 14px; line-height: 1.6; color: var(--muted);">
+      <p><strong style="color: var(--ink);">架构模式：</strong> 本地轻量后端（Python + SQLite）+ 交互式前端（Web Player）。</p>
+      <p><strong style="color: var(--ink);">数据持久化：</strong> 学习进度、生词本、句子笔记与做题历史均持久化保存在本地 SQLite 数据库中，不受浏览器清除缓存或关闭网页影响。</p>
+      <p><strong style="color: var(--ink);">当前数据库路径：</strong></p>
+      <p id="backend-dialog-db-path" style="background: var(--canvas); padding: 8px 12px; border-radius: 8px; font-family: monospace; font-size: 12px; word-break: break-all; color: var(--forest);"></p>
+      <p id="sync-pending-status" role="status">离线同步队列为空，所有更改均已保存。</p>
+    </div>
+  </dialog>
+
+  <script src="./progress_model.js" defer></script>
+  <script src="./dictation_scoring.js" defer></script>
+  <script src="./course_library_model.js" defer></script>
+  <script src="./media_adapters.js" defer></script>
+  <script src="./learning_data.js" defer></script>
+  <script src="./learning_store.js" defer></script>
+  <script src="./learning_cards.js" defer></script>
+  <script src="./personal_data_tools.js" defer></script>
+  <script src="./app.js" defer></script>
+  <script src="./lookup_panel.js" defer></script>
+</body>
+</html>

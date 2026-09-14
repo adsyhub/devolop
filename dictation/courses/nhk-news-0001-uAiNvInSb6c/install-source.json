@@ -1,0 +1,42 @@
+{
+  "kind": "online-video",
+  "provider": "youtube",
+  "control": "full",
+  "videoId": "uAiNvInSb6c",
+  "pageUrl": "https://www.youtube.com/watch?v=uAiNvInSb6c",
+  "transcriptSource": "asr",
+  "retrievedAt": "2026-09-11",
+  "enrichment": null,
+  "asr": {
+    "kind": "faster-whisper",
+    "config": {
+      "kind": "faster-whisper",
+      "model": "large-v3",
+      "device": "cuda",
+      "computeType": "float16",
+      "language": "ja",
+      "beamSize": 10,
+      "vadFilter": true,
+      "wordTimestamps": true,
+      "minDuration": 0.2,
+      "conditionOnPreviousText": false,
+      "noSpeechThreshold": 0.6,
+      "logProbThreshold": -1.0,
+      "compressionRatioThreshold": 2.4,
+      "hallucinationSilenceThreshold": 2.0,
+      "repetitionPenalty": 1.0,
+      "noRepeatNgramSize": 0,
+      "maxSegmentSeconds": 15.0,
+      "vadOptions": {
+        "min_speech_duration_ms": 350,
+        "max_speech_duration_s": 20.0,
+        "min_silence_duration_ms": 500,
+        "speech_pad_ms": 200
+      }
+    }
+  },
+  "verification": null,
+  "contentPatches": [],
+  "redistributable": false,
+  "note": "媒体从未下载或存储；本课程不可再分发。 / The media was never downloaded or stored; this course is not redistributable."
+}

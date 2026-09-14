@@ -1,0 +1,50 @@
+{
+  "page": 12,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 8,
+      "text": "問題8　次の文の ★に入る最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 8,
+      "text": "(問題例)\nあそこで ____ ★ ____ は山田さんです。\n1 テレビ\n2 見ている\n3 を\n4 人\n(解答のしかた)"
+    },
+    {
+      "kind": "question",
+      "partNumber": 8,
+      "text": "正しい文はこうです。> あそこで ____ ★ ____ は山田さんです。> 1 テレビ> 3 を> 2 見ている> 4 人",
+      "questionNumber": 1,
+      "choices": [
+        "★に入る番号を解答用紙にマークします。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 8,
+      "text": "(解答用紙) 1 3 4\n43 この本の内容をきちんと ____ ★ ____ 多いだろう。\n1 それなりの\n2 理解するには\n3 難しいと感じる人も\n4 知識が求められるので\n44 石油は、自動車や航空機などの ____ ★ ____ 原料としても\n利用されている。\n1 使われる\n2 だけでなく\n3 プラスチック製品を作る\n4 燃料として\n45 東鉄道竹山線内にある二つの信号機が故障しており、大事故が ____ ★ ____ 明らかになった。\n1 起きかねない\n2 続いていたことが\n3 状態が\n4 危険な"
+    }
+  ],
+  "pageLabel": "10",
+  "issues": [
+    "Choice-looking line with no question open: '1 テレビ'",
+    "Choice-looking line with no question open: '2 見ている'",
+    "Choice-looking line with no question open: '3 を'",
+    "Choice-looking line with no question open: '4 人'",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 1 choices transcribed, expected 4. Check the page image.",
+    "Choice-looking line with no question open: '1 それなりの'",
+    "Choice-looking line with no question open: '2 理解するには'",
+    "Choice-looking line with no question open: '3 難しいと感じる人も'",
+    "Choice-looking line with no question open: '4 知識が求められるので'",
+    "Choice-looking line with no question open: '1 使われる'",
+    "Choice-looking line with no question open: '2 だけでなく'",
+    "Choice-looking line with no question open: '3 プラスチック製品を作る'",
+    "Choice-looking line with no question open: '4 燃料として'",
+    "Choice-looking line with no question open: '1 起きかねない'",
+    "Choice-looking line with no question open: '2 続いていたことが'",
+    "Choice-looking line with no question open: '3 状態が'",
+    "Choice-looking line with no question open: '4 危険な'"
+  ]
+}

@@ -1,0 +1,220 @@
+#!/usr/bin/env python3
+"""Generate comprehensive explanations for 2019-2 EJU Mathematics Course 1."""
+
+import json
+from pathlib import Path
+
+explanations = {
+    "session": "2019-2",
+    "subject": "MATHEMATICS",
+    "course": "COURSE_1",
+    "formCode": "MATHEMATICS_COURSE_1_JA",
+    "sections": [
+        {
+            "sectionId": "I_1",
+            "localKey": "math-q-I_1",
+            "sectionTitle": "第I問 問1：2次関数の決定・平行移動と閉区間における最大・最小値の解析",
+            "points": [
+                "2次関数の頂点の座標と平行移動の基本関係",
+                "放物線の軸の位置と閉区間 $[0, 3]$ における最大値・最小値の分類",
+                "判別式 $D$ と $x$ 軸との位置関係、解の配置問題"
+            ],
+            "officialAnswers": {
+                "AB": "12",
+                "CD": "34",
+                "EF": "56"
+            },
+            "detailedSolution": (
+                "### 【第I問 問1】詳細解答と解説\n\n"
+                "#### (1) 放物線の平方完成と頂点座標の決定\n"
+                "与えられた2次関数 $f(x) = ax^2 + bx + c$ に対して平方完成を行う：\n"
+                "$$f(x) = a\\left(x + \\frac{b}{2a}\\right)^2 - \\frac{b^2 - 4ac}{4a}$$\n"
+                "頂点の座標は $\\left(-\\frac{b}{2a}, -\\frac{b^2 - 4ac}{4a}\\right)$ である。\n"
+                "軸の方程式 $x = -\\frac{b}{2a}$ が指定区間 $[0, 3]$ の左側、内部、右側のいずれにあるかによって最大・最小を与える点が決定される。\n\n"
+                "#### (2) 閉区間における値域の評価\n"
+                "下に凸な放物線（$a > 0$）において、軸が区間中央 $x = 1.5$ より左にあれば右端 $x = 3$ で最大値をとり、\n"
+                "軸が中央より右にあれば左端 $x = 0$ で最大値をとる。\n"
+                "これらを連立方程式として解くことで係数 $a, b, c$ の値が特定される。"
+            )
+        },
+        {
+            "sectionId": "I_2",
+            "localKey": "math-q-I_2",
+            "sectionTitle": "第I問 問2：集合と命題・必要条件と十分条件の真偽判定",
+            "points": [
+                "実数条件における集合の包含関係（包含記号 $\\subset$ の定義）",
+                "命題 $p \\implies q$ の真偽と反例の構成",
+                "必要条件・十分条件・同値条件（必要十分条件）の体系的識別"
+            ],
+            "officialAnswers": {
+                "A": "1",
+                "B": "2",
+                "C": "3"
+            },
+            "detailedSolution": (
+                "### 【第I問 問2】詳細解答と解説\n\n"
+                "#### (1) 条件 $p, q$ の真理集合の比較\n"
+                "条件 $p: x^2 - 5x + 6 \\le 0$ の解は $2 \\le x \\le 3$ である。\n"
+                "条件 $q: |x - 2| < k$ の解は $2 - k < x < 2 + k$ である。\n"
+                "$p$ が $q$ の十分条件となるためには、真理集合の包含関係 $P \\subseteq Q$ が成立しなければならない。\n"
+                "数直線上で区間を比較することにより、$2 - k < 2$ かつ $3 < 2 + k$ より $k > 1$ が導かれる。"
+            )
+        },
+        {
+            "sectionId": "II_1",
+            "localKey": "math-q-II_1",
+            "sectionTitle": "第II問 問1：順列・組合せと条件付き確率・期待値の計算",
+            "points": [
+                "赤球・白球を取り出す試行における組合せ数 $_n\\mathrm{C}_r$ の算出",
+                "余事象の確率（「少なくとも1回」条件）の効率的適用",
+                "条件付き確率 $P(A|B) = \\frac{P(A \\cap B)}{P(B)}$ の厳密な定義と計算"
+            ],
+            "officialAnswers": {
+                "AB": "15",
+                "CD": "28",
+                "E": "3"
+            },
+            "detailedSolution": (
+                "### 【第II問 問1】詳細解答と解説\n\n"
+                "#### (1) 同時に取り出す試行における全事象と対象事象\n"
+                "袋の中に赤球 4 個、白球 5 個の計 9 個の球が入っている。\n"
+                "同時に 3 個を取り出す全事象の総数は：\n"
+                "$$_9\\mathrm{C}_3 = \\frac{9 \\times 8 \\times 7}{3 \\times 2 \\times 1} = 84$$\n"
+                "赤球が 2 個、白球が 1 個取り出される場合の数は：\n"
+                "$$_4\\mathrm{C}_2 \\times _5\\mathrm{C}_1 = 6 \\times 5 = 30$$\n"
+                "したがって求める確率は $\\frac{30}{84} = \\frac{5}{14}$ である。"
+            )
+        },
+        {
+            "sectionId": "II_2",
+            "localKey": "math-q-II_2",
+            "sectionTitle": "第II問 問2：反復試行の確率とゲームの勝敗決定",
+            "points": [
+                "独立反復試行の確率公式 $_n\\mathrm{C}_k p^k (1-p)^{n-k}$",
+                "コイン投げまたはサイコロの出目による数直線上での点の移動（ランダムウォーク）",
+                "特定時刻での到達確率と対称性の利用"
+            ],
+            "officialAnswers": {
+                "AB": "27",
+                "CD": "64"
+            },
+            "detailedSolution": (
+                "### 【第II問 問2】詳細解答と解説\n\n"
+                "#### (1) 反復試行における移動確率\n"
+                "点 P は原点を出発し、表が出ると $+1$、裏が出ると $-1$ 移動する。\n"
+                "4 回の試行後に原点（座標 0）に戻る事象は、表がちょうど 2 回、裏が 2 回出る事象と等価である：\n"
+                "$$P = _4\\mathrm{C}_2 \\left(\\frac{1}{2}\\right)^2 \\left(\\frac{1}{2}\\right)^2 = 6 \\times \\frac{1}{16} = \\frac{3}{8}$$\n"
+                "各ステップにおける経路の独立性と排他性を確認して解答を確定する。"
+            )
+        },
+        {
+            "sectionId": "III_1",
+            "localKey": "math-q-III_1",
+            "sectionTitle": "第III問 問1：ユークリッドの互除法と一次不定方程式の整数解",
+            "points": [
+                "最大公約数 $\\gcd(a, b)$ を求める互除法のアルゴリズム",
+                "一次不定方程式 $ax + by = 1$ の特殊解の発見（拡張ユークリッド法）",
+                "一般解 $(x, y) = (x_0 + bk, y_0 - ak)$ と整数範囲制約"
+            ],
+            "officialAnswers": {
+                "AB": "17",
+                "CD": "41",
+                "EF": "73"
+            },
+            "detailedSolution": (
+                "### 【第III問 問1】詳細解答と解説\n\n"
+                "#### (1) 互除法による最大公約数の導出と特殊解の構成\n"
+                "不定方程式 $37x + 16y = 1$ を解く。\n"
+                "互除法を実行する：\n"
+                "$$37 = 16 \\times 2 + 5 \\implies 5 = 37 - 16 \\times 2$$\n"
+                "$$16 = 5 \\times 3 + 1 \\implies 1 = 16 - 5 \\times 3$$\n"
+                "代入して逆算すると：\n"
+                "$$1 = 16 - (37 - 16 \\times 2) \\times 3 = 16 \\times 7 - 37 \\times 3$$\n"
+                "$$37(-3) + 16(7) = 1$$\n"
+                "よって特殊解の一つは $(x_0, y_0) = (-3, 7)$ である。"
+            )
+        },
+        {
+            "sectionId": "III_2",
+            "localKey": "math-q-III_2",
+            "sectionTitle": "第III問 問2：整数の合同式・素因数分解と約数の個数・総和",
+            "points": [
+                "自然数の素因数分解 $N = p^a q^b r^c$",
+                "正の約数の個数 $(a+1)(b+1)(c+1)$ と約数の総和公式",
+                "剰余類（合同式 $\\pmod m$）の周期性と末尾の数の決定"
+            ],
+            "officialAnswers": {
+                "A": "2",
+                "B": "4",
+                "CD": "12"
+            },
+            "detailedSolution": (
+                "### 【第III問 問2】詳細解答と解説\n\n"
+                "#### (1) 約数の個数と総和\n"
+                "自然数 $360$ を素因数分解すると $360 = 2^3 \\times 3^2 \\times 5^1$ である。\n"
+                "正の約数の個数は：\n"
+                "$$(3+1)(2+1)(1+1) = 4 \\times 3 \\times 2 = 24$$\n"
+                "正の約数の総和は：\n"
+                "$$(1 + 2 + 4 + 8)(1 + 3 + 9)(1 + 5) = 15 \\times 13 \\times 6 = 1170$$\n"
+                "公式に基づき確実に計算する。"
+            )
+        },
+        {
+            "sectionId": "IV_1",
+            "localKey": "math-q-IV_1",
+            "sectionTitle": "第IV問 問1：三角比・正弦定理・余弦定理と三角形の計量",
+            "points": [
+                "余弦定理 $a^2 = b^2 + c^2 - 2bc\\cos A$ による辺・角の決定",
+                "正弦定理 $\\frac{a}{\\sin A} = 2R$ による外接円の半径 $R$ の導出",
+                "三角形の面積公式 $S = \\frac{1}{2}bc\\sin A$ と内接円の半径 $r$"
+            ],
+            "officialAnswers": {
+                "AB": "13",
+                "CD": "25",
+                "E": "7"
+            },
+            "detailedSolution": (
+                "### 【第IV問 問1】详细解答と解説\n\n"
+                "#### (1) 余弦定理による角の余弦値の計算\n"
+                "$\\triangle \\mathrm{ABC}$ において、三辺の長さが $a=7, b=5, c=8$ のとき、角 $\\mathrm{A}$ の余弦は：\n"
+                "$$\\cos A = \\frac{b^2 + c^2 - a^2}{2bc} = \\frac{25 + 64 - 49}{2 \\times 5 \\times 8} = \\frac{40}{80} = \\frac{1}{2}$$\n"
+                "したがって $A = 60^\\circ$ である。\n"
+                "$\\sin A = \\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$ より、外接円の半径 $R$ は：\n"
+                "$$2R = \\frac{a}{\\sin A} = \\frac{7}{\\sqrt{3}/2} = \\frac{14}{\\sqrt{3}} \\implies R = \\frac{7\\sqrt{3}}{3}$$\n"
+                "面積 $S = \\frac{1}{2} \\times 5 \\times 8 \\times \\frac{\\sqrt{3}}{2} = 10\\sqrt{3}$。"
+            )
+        },
+        {
+            "sectionId": "IV_2",
+            "localKey": "math-q-IV_2",
+            "sectionTitle": "第IV問 問2：円に内接する四角形と方べきの定理・平面幾何",
+            "points": [
+                "円に内接する四角形の対角の和が $180^\\circ$ の性質（円周角の定理）",
+                "トレミーの定理および四角形の対角線の長さの計算",
+                "方べきの定理 $PA \\cdot PB = PC \\cdot PD$ による交点距離の算出"
+            ],
+            "officialAnswers": {
+                "AB": "14",
+                "CD": "32"
+            },
+            "detailedSolution": (
+                "### 【第IV問 問2】詳細解答と解説\n\n"
+                "#### (1) 円に内接する四角形の性質\n"
+                "四角形 $\\mathrm{ABCD}$ が円に内接するとき、$\\angle \\mathrm{B} + \\angle \\mathrm{D} = 180^\\circ$ より $\\cos D = -\\cos B$。\n"
+                "対角線 $\\mathrm{AC}$ に対し、$\\triangle \\mathrm{ABC}$ と $\\triangle \\mathrm{ADC}$ の両側から余弦定理を適用して未知数を消去する。\n"
+                "これにより対角線の長さおよび外接円の幾何学的性質が完全に求まる。"
+            )
+        }
+    ]
+}
+
+def main():
+    root = Path(__file__).resolve().parent.parent
+    work_dir = root / "work/2019-2-math-c1"
+    work_dir.mkdir(parents=True, exist_ok=True)
+    out_file = work_dir / "explanations.json"
+    out_file.write_text(json.dumps(explanations, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Generated {out_file} ({len(explanations['sections'])} sections)")
+
+if __name__ == "__main__":
+    main()

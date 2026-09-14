@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "level": "N2",
+  "slug": "2014-07-N2",
+  "title": "2014年7月 日本語能力試験 N2",
+  "sessionLabel": "2014年7月",
+  "durationSec": 10800,
+  "source": {
+    "fileName": "N2 2014年7月真题+答案+详解+听力原文.pdf",
+    "sha256": "4299f44be2990c6918ab013240b4b439ef9deacc09ce5b06329879144426624d",
+    "bytes": 2080755,
+    "pageCount": 31
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "page": 21,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "51 筆者によると、羽毛を持つことにはどのような利点があるか。\n1 低温の環境でも、卵を一定の温かさで保つことができる。\n2 低温の環境でも、卵の成長を促し早く孵すことができる。\n3 環境にかかわらず体温が維持でき、卵が多く産める。\n4 環境に合わせて卵の温度を調整でき、早く孵すことができる。\n52 お腹のあたりの羽毛が抜けていたと思われますとあるが、筆者はなぜそう考えるのか。\n1 体の熱を逃がすことで、卵を温めすぎることを防げるから\n2 皮膚から卵に直接体温が伝わることで、効率的に卵を温められるから\n3 卵に皮膚を直接当てることで、卵の温度を知ることができるから\n4 卵と接する部分の皮膚がむき出しになることで、卵が抱きやすくなるから"
+    }
+  ],
+  "pageLabel": "19",
+  "issues": [
+    "Choice-looking line with no question open: '1 低温の環境でも、卵を一定の温かさで保つことができる。'",
+    "Choice-looking line with no question open: '2 低温の環境でも、卵の成長を促し早く孵すことができる。'",
+    "Choice-looking line with no question open: '3 環境にかかわらず体温が維持でき、卵が多く産める。'",
+    "Choice-looking line with no question open: '4 環境に合わせて卵の温度を調整でき、早く孵すことができる。'",
+    "Choice-looking line with no question open: '1 体の熱を逃がすことで、卵を温めすぎることを防げるから'",
+    "Choice-looking line with no question open: '2 皮膚から卵に直接体温が伝わることで、効率的に卵を温められるから'",
+    "Choice-looking line with no question open: '3 卵に皮膚を直接当てることで、卵の温度を知ることができるから'",
+    "Choice-looking line with no question open: '4 卵と接する部分の皮膚がむき出しになることで、卵が抱きやすくなるから'"
+  ]
+}

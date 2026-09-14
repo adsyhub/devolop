@@ -1,0 +1,38 @@
+{
+  "page": 4,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　____の言葉を漢字で書くとき、最もよいものを1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 2,
+      "text": "> 文字・語彙\n6 お金のかんりは、きちんとしてください。\n1 管利\n2 官理\n3 管理\n4 官利\n7 今日から2週間のけんしゅうを行います。\n1 演習\n2 研習\n3 研修\n4 演修\n8 社会はたえず変化している。\n1 完えず\n2 絶えず\n3 停えず\n4 滞えず\n9 選挙で誰にとうひょうするかまだ決めていない。\n1 投票\n2 当票\n3 投標\n4 当標\n10 中島さんは何かをかかえて部屋に入ってきた。\n1 押えて\n2 捕えて\n3 握えて\n4 抱えて"
+    }
+  ],
+  "pageLabel": "2",
+  "issues": [
+    "Choice-looking line with no question open: '1 管利'",
+    "Choice-looking line with no question open: '2 官理'",
+    "Choice-looking line with no question open: '3 管理'",
+    "Choice-looking line with no question open: '4 官利'",
+    "Choice-looking line with no question open: '1 演習'",
+    "Choice-looking line with no question open: '2 研習'",
+    "Choice-looking line with no question open: '3 研修'",
+    "Choice-looking line with no question open: '4 演修'",
+    "Choice-looking line with no question open: '1 完えず'",
+    "Choice-looking line with no question open: '2 絶えず'",
+    "Choice-looking line with no question open: '3 停えず'",
+    "Choice-looking line with no question open: '4 滞えず'",
+    "Choice-looking line with no question open: '1 投票'",
+    "Choice-looking line with no question open: '2 当票'",
+    "Choice-looking line with no question open: '3 投標'",
+    "Choice-looking line with no question open: '4 当標'",
+    "Choice-looking line with no question open: '1 押えて'",
+    "Choice-looking line with no question open: '2 捕えて'",
+    "Choice-looking line with no question open: '3 握えて'",
+    "Choice-looking line with no question open: '4 抱えて'"
+  ]
+}

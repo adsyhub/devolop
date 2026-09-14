@@ -1,0 +1,32 @@
+{
+  "page": 33,
+  "pageLabel": "第32页",
+  "sectionHeader": "問題5",
+  "blocks": [
+    {
+      "kind": "part-instruction", "partNumber": 5, "label": null,
+      "text": "問題5　では長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。",
+      "questionNumber": null, "choices": null, "vertical": false,
+      "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    },
+    {
+      "kind": "question", "partNumber": 5, "label": "1番", "text": "", "questionNumber": 1, "choices": [],
+      "vertical": false, "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    },
+    {
+      "kind": "question", "partNumber": 5, "label": "2番 質問1", "text": "質問1", "questionNumber": 2,
+      "choices": ["1番の部屋", "2番の部屋", "3番の部屋", "4番の部屋"],
+      "vertical": false, "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    },
+    {
+      "kind": "question", "partNumber": 5, "label": "2番 質問2", "text": "質問2", "questionNumber": 3,
+      "choices": ["1番の部屋", "2番の部屋", "3番の部屋", "4番の部屋"],
+      "vertical": false, "continuesFromPreviousPage": false, "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "問題5 (統合理解) has two spoken items but THREE answers: 1番 is a single question with spoken choices, and 2番 splits into 質問1 and 質問2, each with its own four printed choices. That is why the answer key lists three answers (421) for 問題5.",
+    "1番 prints nothing at all — question and choices are both spoken.",
+    "質問1 and 質問2 print identical choice text (1番の部屋 … 4番の部屋); this is correct, not a duplication error."
+  ]
+}

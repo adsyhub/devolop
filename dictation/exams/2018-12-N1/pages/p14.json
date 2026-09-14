@@ -1,0 +1,74 @@
+{
+  "page": 14,
+  "pageLabel": "14",
+  "sectionHeader": "聴解",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　問題1では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "label": "1番",
+      "image": "assets/q_listening_1_1.png",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "label": "2番",
+      "choices": [
+        "林の雑草をかる",
+        "歩道の土砂を袋に入れる",
+        "池のさくを補強する",
+        "石段のくずれた部分を直す"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "label": "3番",
+      "choices": [
+        "打ち合わせの資料を完成させる",
+        "研修会のデータをまとめる",
+        "こうはいに分析の作業を指導する",
+        "研修会の会場を手配する"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "label": "4番",
+      "choices": [
+        "応募者を研究室に呼ぶ",
+        "面談の日時を調整する",
+        "調査協力の同意書を送る",
+        "応募書類を取りまとめる"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "label": "5番",
+      "choices": [
+        "福利厚生の詳細な説明",
+        "社員から学生へのメッセージ",
+        "社員の一日のスケジュール",
+        "社内でのキャリア構築の例"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "label": "6番",
+      "choices": [
+        "定員に空きがあるか調べる",
+        "先生にちょうこうの許可を得る",
+        "ほかの科目の登録を取り消す",
+        "授業がいようを読み直す"
+      ]
+    }
+  ]
+}

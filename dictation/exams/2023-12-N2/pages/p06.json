@@ -1,0 +1,46 @@
+{
+  "page": 6,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 4,
+      "text": "問題4　( )に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 4,
+      "text": "14 このアニメは、登場人物がとてもかわいいと、若者の間で( )になっている。\n1 課題\n2 題名\n3 題材\n4 話題\n15 あのとき、友達に謝らなかったことをずっと( )している。\n1 同情\n2 後悔\n3 我慢\n4 恐縮\n16 楽器の音量を確認するために、コンサートの前日に会場で( )をした。\n1 チャージ\n2 アポイントメント\n3 オリエンテーション\n4 リハーサル\n17 この魚は、いつでもこの辺りの海にいるわけではなく、( )の時期にしかいない。\n1 特定\n2 指定\n3 固定\n4 限定\n18 この季節は乾燥していて、肌が( )になる。\n1 どろどろ\n2 ふさふさ\n3 かさかさ\n4 べたべた\n19 先生の発音をよく聞いて、同じになるように発音を( )みましょう。\n1 まねて\n2 かなえて\n3 映して\n4 保って\n20 金子さんとは初めて会ったが、お互いサッカーが大好きだと分かって、話が( )。\n1 飛び出した\n2 行き過ぎた\n3 盛り上がった\n4 駆け抜けた"
+    }
+  ],
+  "pageLabel": "4",
+  "issues": [
+    "Choice-looking line with no question open: '1 課題'",
+    "Choice-looking line with no question open: '2 題名'",
+    "Choice-looking line with no question open: '3 題材'",
+    "Choice-looking line with no question open: '4 話題'",
+    "Choice-looking line with no question open: '1 同情'",
+    "Choice-looking line with no question open: '2 後悔'",
+    "Choice-looking line with no question open: '3 我慢'",
+    "Choice-looking line with no question open: '4 恐縮'",
+    "Choice-looking line with no question open: '1 チャージ'",
+    "Choice-looking line with no question open: '2 アポイントメント'",
+    "Choice-looking line with no question open: '3 オリエンテーション'",
+    "Choice-looking line with no question open: '4 リハーサル'",
+    "Choice-looking line with no question open: '1 特定'",
+    "Choice-looking line with no question open: '2 指定'",
+    "Choice-looking line with no question open: '3 固定'",
+    "Choice-looking line with no question open: '4 限定'",
+    "Choice-looking line with no question open: '1 どろどろ'",
+    "Choice-looking line with no question open: '2 ふさふさ'",
+    "Choice-looking line with no question open: '3 かさかさ'",
+    "Choice-looking line with no question open: '4 べたべた'",
+    "Choice-looking line with no question open: '1 まねて'",
+    "Choice-looking line with no question open: '2 かなえて'",
+    "Choice-looking line with no question open: '3 映して'",
+    "Choice-looking line with no question open: '4 保って'",
+    "Choice-looking line with no question open: '1 飛び出した'",
+    "Choice-looking line with no question open: '2 行き過ぎた'",
+    "Choice-looking line with no question open: '3 盛り上がった'",
+    "Choice-looking line with no question open: '4 駆け抜けた'"
+  ]
+}

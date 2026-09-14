@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "description": "2017-07-N1：LLM 逐句校对发现的 ASR 误识别修正 8 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "0ee1a543f59d5d3eccd65f80d678551d30113d48171721b6f13a29e68c5f8076",
+  "evidence": {
+    "file": "proofread-work/2017-07-N1/proofread.json",
+    "proposedFixes": "proofread-work/2017-07-N1/proposed-fixes.json",
+    "notes": "proofread-work/2017-07-N1/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 17,
+      "endIndex": 17,
+      "expectedStartTime": 144.56,
+      "expectedEndTime": 149.7,
+      "items": [
+        {
+          "startTime": 144.56,
+          "endTime": 149.7,
+          "sourceText": "それで、これが研究計画書ですね。今これで何字ぐらいですか?",
+          "jaText": "それで、これが研究計画書ですね。今これで何字ぐらいですか?"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 18,
+      "endIndex": 18,
+      "expectedStartTime": 150.34,
+      "expectedEndTime": 154.84,
+      "items": [
+        {
+          "startTime": 150.34,
+          "endTime": 154.84,
+          "sourceText": "えっと、1100字ちょっとです。もう少し書き足した方がいいですか?",
+          "jaText": "えっと、1100字ちょっとです。もう少し書き足した方がいいですか?"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 19,
+      "endIndex": 19,
+      "expectedStartTime": 156.53,
+      "expectedEndTime": 159.97,
+      "items": [
+        {
+          "startTime": 156.53,
+          "endTime": 159.97,
+          "sourceText": "1200字以内となっているので、それぐらいで十分ですよ。",
+          "jaText": "1200字以内となっているので、それぐらいで十分ですよ。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 77,
+      "endIndex": 77,
+      "expectedStartTime": 453.4,
+      "expectedEndTime": 458.76,
+      "items": [
+        {
+          "startTime": 453.4,
+          "endTime": 458.76,
+          "sourceText": "リハーサルから本番まではあまり日がないし、また大至急お願いってなっちゃうけどよろしくね。",
+          "jaText": "リハーサルから本番まではあまり日がないし、また大至急お願いってなっちゃうけどよろしくね。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 178,
+      "endIndex": 178,
+      "expectedStartTime": 1159.31,
+      "expectedEndTime": 1169.68,
+      "items": [
+        {
+          "startTime": 1159.31,
+          "endTime": 1169.68,
+          "sourceText": "戦えたことがこの結果につながったと思います うちはいわゆるスター選手と言われる逸材は不在でしたがそれでかえって個々の選手たちが役割を",
+          "jaText": "戦えたことがこの結果につながったと思います うちはいわゆるスター選手と言われる逸材は不在でしたがそれでかえって個々の選手たちが役割を"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 270,
+      "endIndex": 270,
+      "expectedStartTime": 1945.04,
+      "expectedEndTime": 1952.5,
+      "items": [
+        {
+          "startTime": 1945.04,
+          "endTime": 1952.5,
+          "sourceText": "獣医がペットを飼う高齢者世帯を定期的に訪問し ペットの診察を行ったりしているそうです",
+          "jaText": "獣医がペットを飼う高齢者世帯を定期的に訪問し ペットの診察を行ったりしているそうです"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 274,
+      "endIndex": 274,
+      "expectedStartTime": 1973.38,
+      "expectedEndTime": 1988.28,
+      "items": [
+        {
+          "startTime": 1973.38,
+          "endTime": 1988.28,
+          "sourceText": "獣医が不足している地域の状況4ペットを飼う高齢者への支援体制 6",
+          "jaText": "獣医が不足している地域の状況4ペットを飼う高齢者への支援体制 6"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 330,
+      "endIndex": 330,
+      "expectedStartTime": 2504.58,
+      "expectedEndTime": 2510.77,
+      "items": [
+        {
+          "startTime": 2504.58,
+          "endTime": 2510.77,
+          "sourceText": "三田さん、新商品の開発、話流れたの君に非はないよ",
+          "jaText": "三田さん、新商品の開発、話流れたの君に非はないよ"
+        }
+      ]
+    }
+  ]
+}

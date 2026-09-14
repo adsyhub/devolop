@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "description": "2016-07-N2：LLM 逐句校对发现的 ASR 误识别修正 6 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "a0f3c8f819ee553710a06e79193653d0dab3213e39cbcf9dbef21dbdf8c44cc3",
+  "evidence": {
+    "file": "proofread-work/2016-07-N2/proofread.json",
+    "proposedFixes": "proofread-work/2016-07-N2/proposed-fixes.json",
+    "notes": "proofread-work/2016-07-N2/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 89,
+      "endIndex": 89,
+      "expectedStartTime": 608.93,
+      "expectedEndTime": 615.61,
+      "items": [
+        {
+          "startTime": 608.93,
+          "endTime": 615.61,
+          "sourceText": "問題2問題2ではまず質問を聞いてください",
+          "jaText": "問題2問題2ではまず質問を聞いてください"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 131,
+      "endIndex": 131,
+      "expectedStartTime": 1030.26,
+      "expectedEndTime": 1036.86,
+      "items": [
+        {
+          "startTime": 1030.26,
+          "endTime": 1036.86,
+          "sourceText": "山本さん、今回のうちの課の新商品のお弁当の企画、山本さんが担当することになったんだって?",
+          "jaText": "山本さん、今回のうちの課の新商品のお弁当の企画、山本さんが担当することになったんだって?"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 134,
+      "endIndex": 134,
+      "expectedStartTime": 1040.85,
+      "expectedEndTime": 1046.41,
+      "items": [
+        {
+          "startTime": 1040.85,
+          "endTime": 1046.41,
+          "sourceText": "確か前回うちの課が企画したのは、お年寄りをターゲットにした和風弁当だったよね。",
+          "jaText": "確か前回うちの課が企画したのは、お年寄りをターゲットにした和風弁当だったよね。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 292,
+      "endIndex": 292,
+      "expectedStartTime": 2230.89,
+      "expectedEndTime": 2243.62,
+      "items": [
+        {
+          "startTime": 2230.89,
+          "endTime": 2243.62,
+          "sourceText": "よく考えられてたと思わない文句があるなら言ってみたら すごく説得力があったね",
+          "jaText": "よく考えられてたと思わない文句があるなら言ってみたら すごく説得力があったね"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 382,
+      "endIndex": 382,
+      "expectedStartTime": 2891.3,
+      "expectedEndTime": 2894.87,
+      "items": [
+        {
+          "startTime": 2891.3,
+          "endTime": 2894.87,
+          "sourceText": "行ったりできるところここにする質",
+          "jaText": "行ったりできるところここにする質"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 384,
+      "endIndex": 384,
+      "expectedStartTime": 2907.47,
+      "expectedEndTime": 2918.24,
+      "items": [
+        {
+          "startTime": 2907.47,
+          "endTime": 2918.24,
+          "sourceText": "質問2女",
+          "jaText": "質問2女"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "page": 9,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "33 (会社で)\n林「部長、ABC銀行の山下さんが____。応接室でお待ちです。」\n部長「わかりました。」\n1 参りました\n2 見えました\n3 うかがいました\n4 お目にかかりました\n34 今日から12月だ。早いもので、今年ももうすぐ____。\n1 終わろうとする\n2 終わるようにする\n3 終わろうとしている\n4 終わるようにしている\n35 仕事において、ミスは____。しかし、人間である以上、ミスは避けられないものだ。\n1 してはいけないわけがない\n2 してはいけないはずだった\n3 しないほうがいいとは限らない\n4 しないほうがいいに決まっている"
+    }
+  ],
+  "pageLabel": "7",
+  "issues": [
+    "Choice-looking line with no question open: '1 参りました'",
+    "Choice-looking line with no question open: '2 見えました'",
+    "Choice-looking line with no question open: '3 うかがいました'",
+    "Choice-looking line with no question open: '4 お目にかかりました'",
+    "Choice-looking line with no question open: '1 終わろうとする'",
+    "Choice-looking line with no question open: '2 終わるようにする'",
+    "Choice-looking line with no question open: '3 終わろうとしている'",
+    "Choice-looking line with no question open: '4 終わるようにしている'",
+    "Choice-looking line with no question open: '1 してはいけないわけがない'",
+    "Choice-looking line with no question open: '2 してはいけないはずだった'",
+    "Choice-looking line with no question open: '3 しないほうがいいとは限らない'",
+    "Choice-looking line with no question open: '4 しないほうがいいに決まっている'"
+  ]
+}

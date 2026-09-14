@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-Hans-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>课程人工审听工作台</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="review.css">
+  <script src="review.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">商用内容验收</p>
+      <h1 id="course-title">加载课程中…</h1>
+      <p id="review-meta" class="muted"></p>
+    </div>
+    <div class="progress-panel" aria-live="polite">
+      <span><strong id="approved-count">0</strong> 已通过</span>
+      <span><strong id="pending-count">0</strong> 待审</span>
+      <span><strong id="issue-count">0</strong> 待修</span>
+    </div>
+  </header>
+
+  <main id="app" hidden>
+    <nav class="navigator" aria-label="句子导览">
+      <button id="previous-button" type="button">← 上一句</button>
+      <button id="next-pending-button" type="button">下一个待处理</button>
+      <button id="next-button" type="button">下一句 →</button>
+    </nav>
+
+    <section class="review-card" aria-labelledby="sentence-position">
+      <div class="sentence-heading">
+        <div>
+          <p id="sentence-position" class="eyebrow"></p>
+          <p id="sentence-meta" class="muted"></p>
+        </div>
+        <span id="status-badge" class="status-badge"></span>
+      </div>
+
+      <div class="audio-panel">
+        <audio id="audio" preload="metadata"></audio>
+        <button id="play-button" class="primary" type="button">▶ 播放本句</button>
+        <label class="inline-check"><input id="loop-toggle" type="checkbox" checked> 循环本句</label>
+        <label>速度
+          <select id="speed-select">
+            <option value="0.75">0.75×</option>
+            <option value="1" selected>1×</option>
+            <option value="1.25">1.25×</option>
+          </select>
+        </label>
+        <span id="time-display" class="mono"></span>
+      </div>
+
+      <dl class="content-grid">
+        <div class="source-block">
+          <dt id="source-label">来源文字</dt>
+          <dd id="source-text" lang="und"></dd>
+        </div>
+        <div>
+          <dt>简体中文翻译</dt>
+          <dd id="translation-text"></dd>
+        </div>
+        <div>
+          <dt>学习解析</dt>
+          <dd id="explanation-text"></dd>
+        </div>
+      </dl>
+
+      <form id="review-form">
+        <fieldset>
+          <legend>逐项确认</legend>
+          <label><input data-check="transcriptMatchesAudio" type="checkbox"> <span id="transcript-check-label">来源语言转写稿与音频一致</span></label>
+          <label><input data-check="timingAligned" type="checkbox"> 起讫时间完整且对齐</label>
+          <label><input data-check="translationAccurate" type="checkbox"> 繁中翻译准确自然</label>
+          <label><input data-check="explanationAccurate" type="checkbox"> 学习解析正确且无误导</label>
+        </fieldset>
+        <label class="notes-label" for="notes">审核备注（标记待修时必填）</label>
+        <textarea id="notes" rows="4" maxlength="4000" placeholder="记录错字、时间点、翻译或解析问题…"></textarea>
+        <div class="actions">
+          <button id="save-pending-button" type="button">保存为待审</button>
+          <button id="changes-button" class="danger" type="button">标记待修</button>
+          <button id="approve-button" class="success" type="button">通过并到下一句</button>
+        </div>
+      </form>
+      <p id="message" class="message" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="finalize-card" aria-labelledby="finalize-title">
+      <h2 id="finalize-title">完成整份审听</h2>
+      <p>只有全部句子都通过后才能定稿。定稿会写入具名审核者、完成时间与来源版本绑定。</p>
+      <label><input id="independent-attestation" type="checkbox"> 我确认这是由真人逐句独立听审，而非批次或自动核准。</label>
+      <label><input id="release-attestation" type="checkbox"> 我确认目前内容质量适合提交商用发布审批。</label>
+      <button id="finalize-button" class="primary" type="button">定稿人工审听证据</button>
+      <p id="finalize-message" class="message" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <section id="fatal-error" class="fatal" hidden role="alert">
+    <h1>无法开启审听工作台</h1>
+    <p id="fatal-message"></p>
+  </section>
+</body>
+</html>

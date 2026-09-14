@@ -1,0 +1,250 @@
+{
+  "page": 1,
+  "pageLabel": "1",
+  "sectionHeader": "言語知識（文字・語彙）",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 1,
+      "text": "問題1　＿＿＿＿の言葉の読み方として最も良いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 1,
+      "text": "決勝の素晴らしい試合に観客は<u>興奮</u>した。",
+      "choices": [
+        "こうふん",
+        "きょうふん",
+        "きょうぶん",
+        "こうぶん"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 2,
+      "text": "この説は、鈴木氏が30年前に初めて<u>唱えた</u>。",
+      "choices": [
+        "たたえた",
+        "となえた",
+        "かなえた",
+        "うったえた"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 3,
+      "text": "この地域における主要な産業の<u>変遷</u>について調べた。",
+      "choices": [
+        "へんさん",
+        "へんさい",
+        "へんせん",
+        "へんせい"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 4,
+      "text": "佐藤さんの日々の努力は尊敬に<u>値する</u>。",
+      "choices": [
+        "ちする",
+        "ねする",
+        "ちょくする",
+        "あたいする"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 5,
+      "text": "応募は<u>随時</u>受け付けています。",
+      "choices": [
+        "じゅうじ",
+        "ずいじ",
+        "すいじ",
+        "しゅうじ"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "questionNumber": 6,
+      "text": "優勝を目指してこれからも練習に<u>励んで</u>いきます。",
+      "choices": [
+        "はげんで",
+        "およんで",
+        "いどんで",
+        "しのんで"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　（　　）に入れるのにも最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 7,
+      "text": "何度も交渉した末に、ようやく両社は（　　）して、契約が成立した。",
+      "choices": [
+        "合意",
+        "締結",
+        "適用",
+        "順応"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 8,
+      "text": "鈴木選手の活躍は、テレビや新聞など、様々な（　　）で紹介された。",
+      "choices": [
+        "データベース",
+        "コミュニケーション",
+        "メディア",
+        "スクリーン"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 9,
+      "text": "来週の研修会への参加は、（　　）はしませんので、希望者のみ申し込んでください。",
+      "choices": [
+        "強制",
+        "圧迫",
+        "束縛",
+        "固執"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 10,
+      "text": "高橋さんは明るくて（　　）だから、そんな細かいことは気にしないと思うよ。",
+      "choices": [
+        "あざやか",
+        "おおらか",
+        "すみやか",
+        "ささやか"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 11,
+      "text": "この歌は、子どもからお年寄りまで（　　）年齢層に親しまれている。",
+      "choices": [
+        "分厚い",
+        "幅広い",
+        "広大な",
+        "重厚な"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 12,
+      "text": "この小説の主人公は、非常に感情の（　　）が激しい人物だと思う。",
+      "choices": [
+        "高低",
+        "出没",
+        "明暗",
+        "起伏"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "questionNumber": 13,
+      "text": "森さんは、その話を聞いた時は動揺していたが、次第にいつもの冷静さを（　　）。",
+      "choices": [
+        "引き寄せた",
+        "呼び込んだ",
+        "取り戻した",
+        "受け入れた"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　＿＿＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 14,
+      "text": "林さんは必死に<u>弁解して</u>いた。",
+      "choices": [
+        "考えて",
+        "反論して",
+        "謝って",
+        "言い訳して"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 15,
+      "text": "今日の会議で提案された企画は<u>ありふれた</u>ものが多かった。",
+      "choices": [
+        "平凡な",
+        "特殊な",
+        "幼稚な",
+        "複雑な"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 16,
+      "text": "高橋さんはどんな事態にも、<u>うろたえずに</u>対処した。",
+      "choices": [
+        "嫌がらずに",
+        "慌てずに",
+        "怒らずに",
+        "あきらめずに"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 17,
+      "text": "鈴木さんの一言が問題解決の<u>糸口</u>になった。",
+      "choices": [
+        "ストップ",
+        "マイナス",
+        "ヒント",
+        "アドバイス"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 18,
+      "text": "昨夜、佐藤さんが<u>ふいに</u>訪ねてきた。",
+      "choices": [
+        "わざわざ",
+        "久しぶりに",
+        "再び",
+        "突然"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "questionNumber": 19,
+      "text": "あの人は<u>誇張して</u>話すことが多い。",
+      "choices": [
+        "積極的に",
+        "自慢して",
+        "大げさに",
+        "大ざっぱに"
+      ]
+    }
+  ]
+}

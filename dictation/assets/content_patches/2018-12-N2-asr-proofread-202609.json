@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "description": "2018-12-N2：LLM 逐句校对发现的 ASR 误识别修正 4 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "3f692bc71adfcb0f6e8af34c7675b552be539eb5831e4c4aed1ce90d6e808607",
+  "evidence": {
+    "file": "proofread-work/2018-12-N2/proofread.json",
+    "proposedFixes": "proofread-work/2018-12-N2/proposed-fixes.json",
+    "notes": "proofread-work/2018-12-N2/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 73,
+      "endIndex": 73,
+      "expectedStartTime": 586.21,
+      "expectedEndTime": 606.74,
+      "items": [
+        {
+          "startTime": 586.21,
+          "endTime": 606.74,
+          "sourceText": "問題2問題",
+          "jaText": "問題2問題"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 74,
+      "endIndex": 74,
+      "expectedStartTime": 607.4,
+      "expectedEndTime": 611.94,
+      "items": [
+        {
+          "startTime": 607.4,
+          "endTime": 611.94,
+          "sourceText": "2ではまず質問を聞いてください そ",
+          "jaText": "2ではまず質問を聞いてください そ"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 117,
+      "endIndex": 117,
+      "expectedStartTime": 921.2,
+      "expectedEndTime": 928.96,
+      "items": [
+        {
+          "startTime": 921.2,
+          "endTime": 928.96,
+          "sourceText": "えこの現代文学の授業は今日が初回ですが2回目の来週の授業から1階のこの教室",
+          "jaText": "えこの現代文学の授業は今日が初回ですが2回目の来週の授業から1階のこの教室"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 253,
+      "endIndex": 253,
+      "expectedStartTime": 2147.24,
+      "expectedEndTime": 2160.11,
+      "items": [
+        {
+          "startTime": 2147.24,
+          "endTime": 2160.11,
+          "sourceText": "ね1えこのデザインって流行してるんですか 今流行しているものを着たいですからね流",
+          "jaText": "ね1えこのデザインって流行してるんですか 今流行しているものを着たいですからね流"
+        }
+      ]
+    }
+  ]
+}

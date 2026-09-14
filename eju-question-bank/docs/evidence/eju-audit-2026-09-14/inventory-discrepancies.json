@@ -1,0 +1,866 @@
+[
+  {
+    "inventory": "eju-2023-2-science-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 2,
+    "actualVersion": 4
+  },
+  {
+    "inventory": "eju-2002-1-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_c05c8f0ae6c24b809f761bd5e22785b3"
+  },
+  {
+    "inventory": "eju-2002-1-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_caf145411a9541dc9623bb6e1ce8bd7c"
+  },
+  {
+    "inventory": "eju-2002-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_1ea6ee799a754f029b785f337992b98f"
+  },
+  {
+    "inventory": "eju-2002-2-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_b6f6495c87904511862ed0169513a123"
+  },
+  {
+    "inventory": "eju-2002-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_c624ff40ae0941ef9ec4bd213fd91690"
+  },
+  {
+    "inventory": "eju-2002-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_86850667349c4d8ca632de39fe67e85c"
+  },
+  {
+    "inventory": "eju-2003-1-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_75341707f71a45ffa4884f5b4590f101"
+  },
+  {
+    "inventory": "eju-2003-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_0f9fc07eb08e4756b9e48d9eda0d514d"
+  },
+  {
+    "inventory": "eju-2003-2-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_d0d9fb5e83514cc089b2b59bbc66d607"
+  },
+  {
+    "inventory": "eju-2003-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_2a049d9267484058973cb31c806a7d7f"
+  },
+  {
+    "inventory": "eju-2003-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_f72922dd309049a58c41d1a59ae0c851"
+  },
+  {
+    "inventory": "eju-2004-1-japan-world-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 1,
+    "actualVersion": 2
+  },
+  {
+    "inventory": "eju-2004-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_8869cf4fd91d4f63bc5109bad4d0251e"
+  },
+  {
+    "inventory": "eju-2004-2-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_1618ee2af83b4d7cb8b26b5b7d1dd909"
+  },
+  {
+    "inventory": "eju-2004-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_ae26d782c80d4d6c94022497f3950278"
+  },
+  {
+    "inventory": "eju-2004-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_9cb38800becf4650a9660f74ec53bbbc"
+  },
+  {
+    "inventory": "eju-2005-1-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_93a7119d195c44c089c299f24240fbfc"
+  },
+  {
+    "inventory": "eju-2005-1-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_d11c93a78d0349518e033b1485ffba54"
+  },
+  {
+    "inventory": "eju-2005-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_50abf38024d94fa1a0f795dbf34a25af"
+  },
+  {
+    "inventory": "eju-2005-2-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_d6ce699320d649c789715b9071d673b5"
+  },
+  {
+    "inventory": "eju-2005-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_8ead74b58f544e11b56c2fc1c2cdbe5a"
+  },
+  {
+    "inventory": "eju-2005-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_5d578f9311d2475d8b52e06f94c666ab"
+  },
+  {
+    "inventory": "eju-2006-1-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_6b87cf7561e74b55bba0651997b189aa"
+  },
+  {
+    "inventory": "eju-2006-1-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_1f4bdd14b01f48269494eefbd2b68922"
+  },
+  {
+    "inventory": "eju-2006-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_f3c93f34ec584e0f93cb57483f4857f9"
+  },
+  {
+    "inventory": "eju-2006-2-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_3e8c4e78f6c1458ab8b6d418ef3d4d20"
+  },
+  {
+    "inventory": "eju-2006-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_39d300eeb97d49d0a4f9c60693e3a3d1"
+  },
+  {
+    "inventory": "eju-2006-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_abaebbc43cc841649f464986b5a6773a"
+  },
+  {
+    "inventory": "eju-2007-1-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_9f0243c9e6e04bd48a9b79b04e04e337"
+  },
+  {
+    "inventory": "eju-2007-1-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_bbce5ba596e9483d9611d12985017e38"
+  },
+  {
+    "inventory": "eju-2007-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_59d470e2983d4d058a5c13bd72971924"
+  },
+  {
+    "inventory": "eju-2007-2-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_365f625a82f647eb90d897d5011ea892"
+  },
+  {
+    "inventory": "eju-2007-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_f04b707eeb3d43fdb1ab522d746ce4a5"
+  },
+  {
+    "inventory": "eju-2007-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_3f4d51cab4c1445ea32cd57d6a6af78a"
+  },
+  {
+    "inventory": "eju-2008-1-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_6b29c7ddd60c426ea8ff8dd594b81238"
+  },
+  {
+    "inventory": "eju-2008-1-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_5c0d812ee7604c8cbd03fed70d2aa0a8"
+  },
+  {
+    "inventory": "eju-2008-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_2fce8b3504904702be00aa0269af5970"
+  },
+  {
+    "inventory": "eju-2008-2-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_9045daad16b740edaed9483d379415d1"
+  },
+  {
+    "inventory": "eju-2008-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_cde62a47747b49b4932a4f02d8aeddf2"
+  },
+  {
+    "inventory": "eju-2008-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_9d00017daf754569bd743419f7611ddd"
+  },
+  {
+    "inventory": "eju-2009-1-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_288d6a3100fe4e838b8f4bcf5fa75431"
+  },
+  {
+    "inventory": "eju-2009-1-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_3c7cd1e0a7f6448cb41540ed7a94466e"
+  },
+  {
+    "inventory": "eju-2009-1-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_d20ffda383a54629a51f7d288402e097"
+  },
+  {
+    "inventory": "eju-2009-1-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_802cd65bf7a44b5ea40936ea2f72ddd6"
+  },
+  {
+    "inventory": "eju-2009-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_58952ebe173349e8b0cdc763f0fd133f"
+  },
+  {
+    "inventory": "eju-2009-2-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_8e00e751f72143caaa55bcd70d6d87dc"
+  },
+  {
+    "inventory": "eju-2009-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_39e9745720df44c48c6c1a03d330275e"
+  },
+  {
+    "inventory": "eju-2009-2-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_9c45a5cd981247ddb736070232ca813a"
+  },
+  {
+    "inventory": "eju-2009-2-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_cdc0e1f60b764773a2edc8b043ba8913"
+  },
+  {
+    "inventory": "eju-2009-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_78bac593755544ecb4ab6530474cb031"
+  },
+  {
+    "inventory": "eju-2010-1-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_83646b4640ef44b49165dbe9c2b8e86e"
+  },
+  {
+    "inventory": "eju-2010-1-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_cad19225a7d74a2ab3c8b001daf78561"
+  },
+  {
+    "inventory": "eju-2010-1-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_e45c40a7bbd640898ea433b0179a7cf9"
+  },
+  {
+    "inventory": "eju-2010-1-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_3e3efaee2fb34a26bdf21ad29e122491"
+  },
+  {
+    "inventory": "eju-2010-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_44adbe5672384ea59227769ab34f3d71"
+  },
+  {
+    "inventory": "eju-2010-2-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_87973b2fe5aa4476b0db8ce6c26cd88d"
+  },
+  {
+    "inventory": "eju-2010-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_eecd501ca9754db9a02a0d0296398818"
+  },
+  {
+    "inventory": "eju-2010-2-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_9f7f1aa0fb3c470286f3e957f9cffcfe"
+  },
+  {
+    "inventory": "eju-2010-2-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_32bb28a1512c4482badc6aeb9ebb29d5"
+  },
+  {
+    "inventory": "eju-2010-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_b7f067b21ee84813a69f94316eb5032c"
+  },
+  {
+    "inventory": "eju-2011-1-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_eb7cf676d5704392bd6019892ecb5b49"
+  },
+  {
+    "inventory": "eju-2011-1-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_b2ad9cf998f54e44903b8a4c91add35e"
+  },
+  {
+    "inventory": "eju-2011-1-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_7ef4bc0d10d44ee9973b449091e0da21"
+  },
+  {
+    "inventory": "eju-2011-1-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_416f153cc1ad40298c6fcf7773fb3d95"
+  },
+  {
+    "inventory": "eju-2011-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_942f6beef1214129b9b3cafeb0fc175b"
+  },
+  {
+    "inventory": "eju-2011-2-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_288f842b834e46648cfe8c97e064301c"
+  },
+  {
+    "inventory": "eju-2011-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_706ea84df45d4a2d9812cbe2aefc7636"
+  },
+  {
+    "inventory": "eju-2011-2-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_73b0caeef39242579b5e156a45da862f"
+  },
+  {
+    "inventory": "eju-2011-2-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_37381e47b1194099ae8db555f223075a"
+  },
+  {
+    "inventory": "eju-2011-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_ff0734da8c604a93bde69d5d15c2c53f"
+  },
+  {
+    "inventory": "eju-2012-1-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_bb1f7cb11ffb4ddc9ba537aee740a6a7"
+  },
+  {
+    "inventory": "eju-2012-1-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_5cf900554f354a1797a45ffee0a19808"
+  },
+  {
+    "inventory": "eju-2012-1-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_69fa0dc191884eb0907c5edb6982f70b"
+  },
+  {
+    "inventory": "eju-2012-1-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_f8667fa644c84758a2521bca7cdff7e6"
+  },
+  {
+    "inventory": "eju-2012-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_5375a71af275490e8fc7185049a37955"
+  },
+  {
+    "inventory": "eju-2012-2-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_f164f4d5fca54a0296431709440ffb27"
+  },
+  {
+    "inventory": "eju-2012-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_fade95c1ba1e4bd4859a061d46e19837"
+  },
+  {
+    "inventory": "eju-2012-2-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_a73ec6f0733541e79290e48f199dfa85"
+  },
+  {
+    "inventory": "eju-2012-2-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_b39b975662e84f8897d579687838282c"
+  },
+  {
+    "inventory": "eju-2012-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_f726cc00316b4b98ac214edace946c8e"
+  },
+  {
+    "inventory": "eju-2013-1-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_a2d59828c5b149b6b1553606f2edd643"
+  },
+  {
+    "inventory": "eju-2013-1-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_e6f2b03277d0425d8fffe486195a79bf"
+  },
+  {
+    "inventory": "eju-2013-1-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_576a9348d53044d7a1b76ff25bc2e0af"
+  },
+  {
+    "inventory": "eju-2013-1-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_702812b3450f4ec08bcfadd3d1ca9290"
+  },
+  {
+    "inventory": "eju-2013-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_1a9eb4f18f5140c69b05db804cca1ab1"
+  },
+  {
+    "inventory": "eju-2013-2-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_f82b0f068a034af297e642ccf0427c8f"
+  },
+  {
+    "inventory": "eju-2013-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_c676fc7399fe4734acb557113120ef12"
+  },
+  {
+    "inventory": "eju-2013-2-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_ee7f2181e12a41f5b9543293ead7c451"
+  },
+  {
+    "inventory": "eju-2013-2-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_b655c5bb935442e1bca3459f2ebbcede"
+  },
+  {
+    "inventory": "eju-2013-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_adae912b388e4f6d891f5af7a87256ad"
+  },
+  {
+    "inventory": "eju-2014-1-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_77b3329a20e0458fa9baf9a83dc2a745"
+  },
+  {
+    "inventory": "eju-2014-1-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_9444e73cd24242b9989c14f8c33424c6"
+  },
+  {
+    "inventory": "eju-2014-1-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_e7251be0659b4e2cb694466d614bd767"
+  },
+  {
+    "inventory": "eju-2014-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_e0b54f1b6d724d8d99d29f5ffdfb574f"
+  },
+  {
+    "inventory": "eju-2014-2-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_ca83d22ed8af49d8a65ecf48e4a1148c"
+  },
+  {
+    "inventory": "eju-2014-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_8df498e70ec94d9497563d8ad6469c92"
+  },
+  {
+    "inventory": "eju-2014-2-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_ad461c7b62544ba99b6ecd913b4e0efe"
+  },
+  {
+    "inventory": "eju-2014-2-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_877b018c73db4d53bb45eb3d97b5a772"
+  },
+  {
+    "inventory": "eju-2014-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_8bd20a0b60424b7d9f342ad1925878f1"
+  },
+  {
+    "inventory": "eju-2015-1-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_c61584f7cd6945408e56fa644a375f01"
+  },
+  {
+    "inventory": "eju-2015-1-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_8cd4cbd9f4b94bad82ef8ae6cd06a82e"
+  },
+  {
+    "inventory": "eju-2015-1-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_c6a260201c5643feb9ffb649adf45731"
+  },
+  {
+    "inventory": "eju-2015-1-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_05e11ae5b3e141629149dcb9acbbe926"
+  },
+  {
+    "inventory": "eju-2015-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_16a2569d5e934fa0a4e833c74bd0f3a3"
+  },
+  {
+    "inventory": "eju-2015-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_6fb7b6c8a9154a88b2b87b50edfc8fdb"
+  },
+  {
+    "inventory": "eju-2015-2-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_e3eabc40d4314d779f911315a0ee2e91"
+  },
+  {
+    "inventory": "eju-2015-2-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_086d50630d4745b5bfd540220ad05854"
+  },
+  {
+    "inventory": "eju-2015-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_b5b72569739e4664931d7d7ea3ab536d"
+  },
+  {
+    "inventory": "eju-2016-1-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_22fca050a3874e1cad8e04340a30cf06"
+  },
+  {
+    "inventory": "eju-2016-1-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_17a154c927fc4a568dd5c29be4eba013"
+  },
+  {
+    "inventory": "eju-2016-1-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_4059b5546a2743a7aa7eeb8370f1c437"
+  },
+  {
+    "inventory": "eju-2016-1-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_b9a5aea942374aebaa1788d446b17e2b"
+  },
+  {
+    "inventory": "eju-2016-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_07d95ac352ee49c299d87a440a57581f"
+  },
+  {
+    "inventory": "eju-2016-2-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_67cb030bcc5546989d4140ed73c0e2ca"
+  },
+  {
+    "inventory": "eju-2016-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_16c5805b86604fb0a99bd647650ed813"
+  },
+  {
+    "inventory": "eju-2016-2-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_c2ddea5e847f40868d7211ae30a4c3fb"
+  },
+  {
+    "inventory": "eju-2016-2-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_4cb7e5c201fd4f459f73d5ed4b4d6420"
+  },
+  {
+    "inventory": "eju-2016-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_a3630664cd294b70b1bc1103ca7d4036"
+  },
+  {
+    "inventory": "eju-2017-1-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_51d79a3b22374ac4a4806fcd3fb41691"
+  },
+  {
+    "inventory": "eju-2017-1-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_d54a891dde0c4534b9c5d6b4ebc53cce"
+  },
+  {
+    "inventory": "eju-2017-1-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_15f8d61f3dd543cd978ca81a2af1871d"
+  },
+  {
+    "inventory": "eju-2017-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_287a568fece34aa797317498e52dbfac"
+  },
+  {
+    "inventory": "eju-2017-2-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_03342d24bbfe4a4d8f1703acf7e532aa"
+  },
+  {
+    "inventory": "eju-2017-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_f6171f2803f64cbd8f2a51ee25650ed1"
+  },
+  {
+    "inventory": "eju-2017-2-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_533572a3da0549a1ab302b2d264a7c06"
+  },
+  {
+    "inventory": "eju-2017-2-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_3b5410affc4643b2bccacc36e396f6c3"
+  },
+  {
+    "inventory": "eju-2017-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_4db39c3cf47b43adbbab5c43e3ef2024"
+  },
+  {
+    "inventory": "eju-2018-1-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_3c78748266e543759e7f760c0695122a"
+  },
+  {
+    "inventory": "eju-2018-1-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_e7cf0f9f1b00466ea25b70f22177a171"
+  },
+  {
+    "inventory": "eju-2018-1-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_5bbadf57d59a4b83a8a4f4b6935329d5"
+  },
+  {
+    "inventory": "eju-2018-1-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_b0250392a60e42ef9299fb7970441117"
+  },
+  {
+    "inventory": "eju-2018-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_c3ea6d19f38e434aa94ddcfb56c6af03"
+  },
+  {
+    "inventory": "eju-2018-2-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_0c2fb56f9d2449e6a6bca57dcadfa287"
+  },
+  {
+    "inventory": "eju-2018-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_8e81c1d357a846579b912c5da17c2bff"
+  },
+  {
+    "inventory": "eju-2018-2-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_8f3480a91c844fe5929dd2a1fa3b858c"
+  },
+  {
+    "inventory": "eju-2018-2-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_1c57687230d54e4da8f9abb81e96539c"
+  },
+  {
+    "inventory": "eju-2018-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_e5c4d801ff7d4db0bc844cde03f6b2ad"
+  },
+  {
+    "inventory": "eju-2019-1-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_33fa362e1ecb4cc28e8854f7cfc233c8"
+  },
+  {
+    "inventory": "eju-2019-1-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_6ae09bbf249642d2a78ebdb64f1aee21"
+  },
+  {
+    "inventory": "eju-2019-1-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_375b59f3ba3c4722a1e8fe5948f636d3"
+  },
+  {
+    "inventory": "eju-2019-1-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_636be34edec5450e9abfb2ed6103f426"
+  },
+  {
+    "inventory": "eju-2019-1-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_46a72d5f00484dc5bc357f514c9479b9"
+  },
+  {
+    "inventory": "eju-2020-2-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_fbcbf038dd9c4befb576c7092f08cbae"
+  },
+  {
+    "inventory": "eju-2020-2-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_2e89546688bf4ca6a41b2af7fd7c58fd"
+  },
+  {
+    "inventory": "eju-2020-2-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_d49231f83def4de8b3df79bd94389d4f"
+  },
+  {
+    "inventory": "eju-2020-2-math-c2-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_0f0156a1296b4072be3626e69c78926e"
+  },
+  {
+    "inventory": "eju-2020-2-science-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_ec9b1976adf44d6e8865ee66c8fe2055"
+  },
+  {
+    "inventory": "eju-2021-1-japanese-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_26ae0cee560949be95a0bacc6b52c70a"
+  },
+  {
+    "inventory": "eju-2021-1-japan-world-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_2e471244aa7948f58bf28bb208692e93"
+  },
+  {
+    "inventory": "eju-2021-1-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_ca991a49e5104f0bbbb639e3f579601a"
+  },
+  {
+    "inventory": "eju-2021-1-math-c2-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 2,
+    "actualVersion": 3
+  },
+  {
+    "inventory": "eju-2021-1-science-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 2,
+    "actualVersion": 3
+  },
+  {
+    "inventory": "eju-2021-2-japan-world-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 1,
+    "actualVersion": 2
+  },
+  {
+    "inventory": "eju-2021-2-math-c1-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 2,
+    "actualVersion": 3
+  },
+  {
+    "inventory": "eju-2021-2-math-c2-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 2,
+    "actualVersion": 4
+  },
+  {
+    "inventory": "eju-2021-2-science-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 2,
+    "actualVersion": 3
+  },
+  {
+    "inventory": "eju-2022-1-math-c1-ja",
+    "issue": "version_id_not_in_db",
+    "versionId": "pv_675ea66236344e85b15827ae4bc458d7"
+  },
+  {
+    "inventory": "eju-2022-1-math-c2-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 2,
+    "actualVersion": 3
+  },
+  {
+    "inventory": "eju-2022-1-science-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 2,
+    "actualVersion": 3
+  },
+  {
+    "inventory": "eju-2022-2-japan-world-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 1,
+    "actualVersion": 2
+  },
+  {
+    "inventory": "eju-2022-2-math-c1-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 2,
+    "actualVersion": 3
+  },
+  {
+    "inventory": "eju-2022-2-math-c2-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 2,
+    "actualVersion": 3
+  },
+  {
+    "inventory": "eju-2022-2-science-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 2,
+    "actualVersion": 3
+  },
+  {
+    "inventory": "eju-2023-1-math-c1-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 3,
+    "actualVersion": 5
+  },
+  {
+    "inventory": "eju-2023-1-science-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 2,
+    "actualVersion": 3
+  },
+  {
+    "inventory": "eju-2023-2-japan-world-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 1,
+    "actualVersion": 2
+  },
+  {
+    "inventory": "eju-2023-2-math-c1-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 2,
+    "actualVersion": 4
+  },
+  {
+    "inventory": "eju-2023-2-math-c2-ja",
+    "issue": "version_number_stale",
+    "inventoryVersion": 2,
+    "actualVersion": 4
+  }
+]

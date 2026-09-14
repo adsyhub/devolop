@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "description": "Repair duplicated fragments, inaccurate option text, a break encoded as a 35-second utterance, and other warning clusters using independent-context retranscription.",
+  "sourceSentencesDigest": "bb48cd017bf6e6519c56d7255e7a360a5079bd9cfa07e7f9e5d5ca72402b560c",
+  "evidence": {
+    "file": "warning-retranscription.json",
+    "model": "faster-whisper large-v3",
+    "run": "baseline-independent",
+    "conditionOnPreviousText": false,
+    "temperature": 0.0,
+    "crossCheck": "conservative"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 27,
+      "endIndex": 29,
+      "expectedStartTime": 140.99,
+      "expectedEndTime": 148.05,
+      "items": [
+        {
+          "startTime": 140.66,
+          "endTime": 143.38,
+          "jaText": "インターネットでちょっと調べてみたんだけど",
+          "zhTranslation": "我在网络上稍微查了一下，不过……",
+          "explanationText": "「インターネットで调べる」是「在网络上查找」；「～てみた」表示试着做某事。句尾「けど」保留后续语意。",
+          "confidence": 0.872,
+          "contentType": "dialogue"
+        },
+        {
+          "startTime": 143.38,
+          "endTime": 147.94,
+          "jaText": "僕は先生の言ってた『経済学入門』って本、買ったよ。",
+          "zhTranslation": "我买了老师提过的那本《经济学入门》。",
+          "explanationText": "「言ってた」是口语的「言っていた」；「～って本」表示「叫做～的书」。",
+          "confidence": 0.872,
+          "contentType": "dialogue"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 191,
+      "endIndex": 195,
+      "expectedStartTime": 978.92,
+      "expectedEndTime": 988.92,
+      "items": [
+        {
+          "startTime": 978.46,
+          "endTime": 979.2,
+          "jaText": "5番",
+          "zhTranslation": "第5题",
+          "explanationText": "这是题号提示。",
+          "confidence": 0.803,
+          "contentType": "marker"
+        },
+        {
+          "startTime": 979.94,
+          "endTime": 983.8,
+          "jaText": "会社で女の人と男の人が話しています。",
+          "zhTranslation": "一名女子和一名男子正在公司里交谈。",
+          "explanationText": "这句交代场景与人物；「会社で」表示事情发生在公司。",
+          "confidence": 0.904,
+          "contentType": "prompt"
+        },
+        {
+          "startTime": 984.68,
+          "endTime": 988.82,
+          "jaText": "男の人はどうして残業をしていると言っていますか。",
+          "zhTranslation": "男子说他为什么要加班？",
+          "explanationText": "「どうして」询问原因；题目要求找出男子自己所说的加班理由。",
+          "confidence": 0.904,
+          "contentType": "prompt"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 233,
+      "endIndex": 235,
+      "expectedStartTime": 1185.81,
+      "expectedEndTime": 1230.5,
+      "items": [
+        {
+          "startTime": 1185.08,
+          "endTime": 1187.64,
+          "jaText": "ここでちょっと休みましょう。",
+          "zhTranslation": "我们在这里稍微休息一下。",
+          "explanationText": "「～ましょう」表示提议一起做某事；这是考试录音中的休息提示。",
+          "confidence": 0.846,
+          "contentType": "instruction"
+        },
+        {
+          "startTime": 1220.12,
+          "endTime": 1223.0,
+          "jaText": "では、また続けます。",
+          "zhTranslation": "那么，我们继续。",
+          "explanationText": "「では」用来转换话题或重新开始流程；中间的静音不属于这句音频。",
+          "confidence": 0.603,
+          "contentType": "instruction"
+        },
+        {
+          "startTime": 1228.4,
+          "endTime": 1230.24,
+          "jaText": "問題3",
+          "zhTranslation": "问题3",
+          "explanationText": "这是大题题号提示。",
+          "confidence": 0.603,
+          "contentType": "marker"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 337,
+      "endIndex": 340,
+      "expectedStartTime": 1701.83,
+      "expectedEndTime": 1728.14,
+      "items": [
+        {
+          "startTime": 1704.4,
+          "endTime": 1707.42,
+          "jaText": "1．学校への否定的な意見が増えた。",
+          "zhTranslation": "1．对学校的负面意见增加了。",
+          "explanationText": "注意对象是「学校」，评价是「否定的」。",
+          "confidence": 0.883,
+          "contentType": "option"
+        },
+        {
+          "startTime": 1711.24,
+          "endTime": 1714.36,
+          "jaText": "2．学校への肯定的な意見が増えた。",
+          "zhTranslation": "2．对学校的正面意见增加了。",
+          "explanationText": "「肯定的」与选项1的「否定的」相对，听辨时要注意这组反义词。",
+          "confidence": 0.883,
+          "contentType": "option"
+        },
+        {
+          "startTime": 1717.2,
+          "endTime": 1721.1,
+          "jaText": "3．塾への否定的な意見が増えた。",
+          "zhTranslation": "3．对补习班的负面意见增加了。",
+          "explanationText": "「塾」指课外补习班；注意它与「学校」的对比。",
+          "confidence": 0.9,
+          "contentType": "option"
+        },
+        {
+          "startTime": 1723.92,
+          "endTime": 1728.04,
+          "jaText": "4．塾への肯定的な意見が増えた。",
+          "zhTranslation": "4．对补习班的正面意见增加了。",
+          "explanationText": "同时辨认对象「塾」与评价「肯定的」，才能和其他三个选项区分。",
+          "confidence": 0.9,
+          "contentType": "option"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 354,
+      "endIndex": 357,
+      "expectedStartTime": 1803.72,
+      "expectedEndTime": 1809.16,
+      "items": [
+        {
+          "startTime": 1805.4,
+          "endTime": 1805.76,
+          "jaText": "3",
+          "zhTranslation": "选项3",
+          "explanationText": "这是选项编号。",
+          "confidence": 0.769,
+          "contentType": "marker"
+        },
+        {
+          "startTime": 1806.76,
+          "endTime": 1809.04,
+          "jaText": "火曜の午後なら時間が取れますけど。",
+          "zhTranslation": "如果是星期二下午，我可以抽出时间。",
+          "explanationText": "「～なら」限定条件；「时间が取れる」表示能安排出时间。原稿中的「今日」是误辨，两次独立转录都确认为「火曜」。",
+          "confidence": 0.769,
+          "contentType": "option"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 386,
+      "endIndex": 391,
+      "expectedStartTime": 1921.02,
+      "expectedEndTime": 1930.7,
+      "items": [
+        {
+          "startTime": 1922.54,
+          "endTime": 1923.02,
+          "jaText": "2",
+          "zhTranslation": "选项2",
+          "explanationText": "这是选项编号。",
+          "confidence": 0.707,
+          "contentType": "marker"
+        },
+        {
+          "startTime": 1924.0,
+          "endTime": 1925.82,
+          "jaText": "あ、ちょっと多すぎちゃった？",
+          "zhTranslation": "啊，是不是稍微太多了？",
+          "explanationText": "「多すぎる」表示太多；「～ちゃった」是「～てしまった」的口语缩约，带有失误或超出预期的语感。",
+          "confidence": 0.707,
+          "contentType": "option"
+        },
+        {
+          "startTime": 1927.78,
+          "endTime": 1928.26,
+          "jaText": "3",
+          "zhTranslation": "选项3",
+          "explanationText": "这是选项编号。",
+          "confidence": 0.707,
+          "contentType": "marker"
+        },
+        {
+          "startTime": 1929.16,
+          "endTime": 1930.48,
+          "jaText": "もう捨ててきたよ。",
+          "zhTranslation": "我已经拿去丢掉了。",
+          "explanationText": "「舍ててきた」表示去丢掉某物后回来；「もう」强调已经完成。",
+          "confidence": 0.707,
+          "contentType": "option"
+        }
+      ]
+    }
+  ]
+}

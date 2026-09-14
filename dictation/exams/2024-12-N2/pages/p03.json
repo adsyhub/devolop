@@ -1,0 +1,76 @@
+{
+  "page": 3,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　の言葉を漢字で書くとき、最もよいものを1・2・3・4から一つ"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 2,
+      "text": "選びなさい。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "text": "けいびをもっと厳しくしたほうがいい。",
+      "questionNumber": 6,
+      "choices": [
+        "警護",
+        "係備",
+        "警備",
+        "係護"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "text": "安全な場所にひなんをしてください。",
+      "questionNumber": 7,
+      "choices": [
+        "被離",
+        "避離",
+        "被難",
+        "避難"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "text": "先祖をうやまう心を大切にしたい。",
+      "questionNumber": 8,
+      "choices": [
+        "拝う",
+        "敬う",
+        "礼う",
+        "尊う"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "text": "パソコン教室のじゅこうの申し込みをした。",
+      "questionNumber": 9,
+      "choices": [
+        "受講",
+        "授講",
+        "受校",
+        "授校"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "text": "あの人は本当にあつかましい人だ。",
+      "questionNumber": 10,
+      "choices": [
+        "圧かましい",
+        "厚かましい",
+        "熱かましい",
+        "暑かましい"
+      ]
+    }
+  ],
+  "issues": []
+}

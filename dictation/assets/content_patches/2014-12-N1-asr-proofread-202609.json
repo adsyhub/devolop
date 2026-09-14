@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "description": "2014-12-N1：LLM 逐句校对发现的 ASR 误识别修正 10 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "fd8492be2d97e1d0a6acb71518758477a6701ac2f75a7b2b8fdb78fdbb150b6d",
+  "evidence": {
+    "file": "proofread-work/2014-12-N1/proofread.json",
+    "proposedFixes": "proofread-work/2014-12-N1/proposed-fixes.json",
+    "notes": "proofread-work/2014-12-N1/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 148,
+      "endIndex": 148,
+      "expectedStartTime": 869.99,
+      "expectedEndTime": 872.61,
+      "items": [
+        {
+          "startTime": 869.99,
+          "endTime": 872.61,
+          "sourceText": "さようでございますか申し訳ございません",
+          "jaText": "さようでございますか申し訳ございません"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 209,
+      "endIndex": 209,
+      "expectedStartTime": 1224.62,
+      "expectedEndTime": 1250.95,
+      "items": [
+        {
+          "startTime": 1224.62,
+          "endTime": 1250.95,
+          "sourceText": "来週の全国の週間天気予報です",
+          "jaText": "来週の全国の週間天気予報です"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 236,
+      "endIndex": 236,
+      "expectedStartTime": 1446.46,
+      "expectedEndTime": 1453.34,
+      "items": [
+        {
+          "startTime": 1446.46,
+          "endTime": 1453.34,
+          "sourceText": "んですそれだと観賞するには不向きですよねもともと寿命も短く",
+          "jaText": "んですそれだと観賞するには不向きですよねもともと寿命も短く"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 247,
+      "endIndex": 247,
+      "expectedStartTime": 1513.8,
+      "expectedEndTime": 1521.17,
+      "items": [
+        {
+          "startTime": 1513.8,
+          "endTime": 1521.17,
+          "sourceText": "ます就職課の佐藤です就職課では 皆さんのように日本での就職を",
+          "jaText": "ます就職課の佐藤です就職課では 皆さんのように日本での就職を"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 256,
+      "endIndex": 256,
+      "expectedStartTime": 1584.12,
+      "expectedEndTime": 1593.34,
+      "items": [
+        {
+          "startTime": 1584.12,
+          "endTime": 1593.34,
+          "sourceText": "日本企業が留学生に望むこと4留学生が就職しやすい企業",
+          "jaText": "日本企業が留学生に望むこと4留学生が就職しやすい企業"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 384,
+      "endIndex": 384,
+      "expectedStartTime": 2546.72,
+      "expectedEndTime": 2553.92,
+      "items": [
+        {
+          "startTime": 2546.72,
+          "endTime": 2553.92,
+          "sourceText": "ですそうですかうーん懐いてくれる 方がいいですねでも飼いにくい",
+          "jaText": "ですそうですかうーん懐いてくれる 方がいいですねでも飼いにくい"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 407,
+      "endIndex": 407,
+      "expectedStartTime": 2710.16,
+      "expectedEndTime": 2714.34,
+      "items": [
+        {
+          "startTime": 2710.16,
+          "endTime": 2714.34,
+          "sourceText": "総菜の形と販売の担当者数",
+          "jaText": "総菜の形と販売の担当者数"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 408,
+      "endIndex": 408,
+      "expectedStartTime": 2714.34,
+      "expectedEndTime": 2721.41,
+      "items": [
+        {
+          "startTime": 2714.34,
+          "endTime": 2721.41,
+          "sourceText": "総菜の形と売り場の装飾",
+          "jaText": "総菜の形と売り場の装飾"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 409,
+      "endIndex": 409,
+      "expectedStartTime": 2721.41,
+      "expectedEndTime": 2728.98,
+      "items": [
+        {
+          "startTime": 2721.41,
+          "endTime": 2728.98,
+          "sourceText": "総菜の味付けと販売の担当者数",
+          "jaText": "総菜の味付けと販売の担当者数"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 411,
+      "endIndex": 411,
+      "expectedStartTime": 2732.21,
+      "expectedEndTime": 2736.15,
+      "items": [
+        {
+          "startTime": 2732.21,
+          "endTime": 2736.15,
+          "sourceText": "総菜の味付けと売り場の装飾",
+          "jaText": "総菜の味付けと売り場の装飾"
+        }
+      ]
+    }
+  ]
+}

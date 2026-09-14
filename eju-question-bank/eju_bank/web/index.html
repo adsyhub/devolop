@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <title>EJU 题库</title>
+  <link rel="stylesheet" href="tokens.css">
+  <!-- 旧地址的兼容壳。界面已拆成 /practice、/me、/studio 三个工作区，
+       入口在 /。任何已有的书签仍然可达，不会打不开。 -->
+  <meta http-equiv="refresh" content="0; url=./practice">
+</head>
+<body>
+  <main class="view">
+    <div class="board-hero">
+      <p class="eyebrow">页面已迁移</p>
+      <h1>正在前往練習工作区…</h1>
+      <p class="board-hero-copy">
+        界面已拆成三个独立工作区。如果没有自动跳转，请选择要去的地方：
+      </p>
+    </div>
+    <p class="filters">
+      <a class="primary-button" href="./practice">開始練習</a>
+      <a class="secondary-button" href="./me">我的学习中心</a>
+      <a class="btn btn-outline" href="./studio">题库制作台</a>
+      <a class="quiet-button" href="./">学习入口</a>
+    </p>
+  </main>
+  <script>location.replace("./practice" + location.hash);</script>
+</body>
+</html>

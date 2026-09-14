@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "level": "N1",
+  "slug": "2023-12-N1",
+  "title": "2023年12月 日本語能力試験 N1",
+  "sessionLabel": "2023年12月",
+  "uiLanguage": "zh-Hans",
+  "durationSec": 10200,
+  "source": {
+    "kind": "pdf-scan",
+    "fileName": "2023年12月N1真题.pdf",
+    "sha256": "1eaf543f9ae394d545ff7b479c7993bf2642c6e65ebe6fafa2f0bebf5a4c4629",
+    "bytes": 10150666,
+    "pageCount": 33,
+    "answerKeyFile": "23年12月N1解析.pdf",
+    "answerKeySha256": "14612f8ff75786a3975bfb37588cf23b4bae982869c0e23e319836bd1110d085",
+    "answerKeyPageCount": 31,
+    "importedOn": "2026-09-02",
+    "importer": "src/exam_import.py",
+    "rights": "Personal study copy supplied by the user. The JLPT paper is copyright JEES/Japan Foundation; this exam.json is not cleared for redistribution or sale."
+  }
+}

@@ -1,0 +1,1541 @@
+{
+  "schemaVersion": 1,
+  "status": "needs_review",
+  "summary": {
+    "sentences": 111,
+    "errors": 0,
+    "warnings": 254,
+    "issueCounts": {
+      "sentence.explanation_missing": 111,
+      "sentence.rate_implausible": 23,
+      "sentence.translation_missing": 111,
+      "sentence.very_short": 9
+    }
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 0
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 0
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 1
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 1
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 2
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 2
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 3
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 3
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 4
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 4
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 5
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 5
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 6
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 6
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 6
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 7
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 7
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 8
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 8
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 9
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 9
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 10
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 10
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 11
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 11
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 12
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 12
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 13
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 13
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 14
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 14
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 15
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 15
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 16
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 16
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 17
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 17
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 18
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 18
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 19
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 19
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 20
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 20
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 21
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 21
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 22
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 22
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 23
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 23
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 23
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 24
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 24
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 25
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 25
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 26
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 26
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 27
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 27
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 28
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 28
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 29
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 29
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 30
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 30
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 31
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 31
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 32
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 32
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 33
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 33
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 34
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 34
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 35
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 35
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 36
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 36
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 37
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 37
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 38
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 38
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 39
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 39
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 40
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 40
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 41
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 41
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 42
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 42
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 43
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 43
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 44
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 44
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 44
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 45
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 45
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 46
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 46
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 47
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 47
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 48
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 48
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 49
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 49
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 50
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 50
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 51
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 51
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 51
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 52
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 52
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 53
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 53
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 54
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 54
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 54
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 55
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 55
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 56
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 56
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 57
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 57
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 58
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 58
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 59
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 59
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 60
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 60
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 61
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 61
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 62
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 62
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 63
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 63
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 64
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 64
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 65
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 65
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 65
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 66
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 66
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 67
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 67
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 68
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 68
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 69
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 69
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 70
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 70
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 71
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 71
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 72
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 72
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 73
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 73
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 74
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 74
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 75
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 75
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 76
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 76
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 77
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 77
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 78
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 78
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 79
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 79
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 80
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 80
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 81
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 81
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 82
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 82
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 83
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 83
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 84
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 84
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 85
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 85
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 86
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 86
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 87
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 87
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 88
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 88
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 89
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 89
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 90
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 90
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 91
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 91
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 91
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 92
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 92
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 92
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 93
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 93
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 94
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 94
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 95
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 95
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 96
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 96
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.very_short",
+      "message": "Segment is shorter than 350 ms; verify alignment.",
+      "sentenceIndex": 97
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 97
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 97
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 98
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 98
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 99
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 99
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 100
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 100
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 101
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 101
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 102
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 102
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 103
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 103
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 104
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 104
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 105
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 105
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 106
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 106
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 107
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 107
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 108
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 108
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 109
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 109
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.translation_missing",
+      "message": "Translation is empty.",
+      "sentenceIndex": 110
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.explanation_missing",
+      "message": "Learning explanation is empty.",
+      "sentenceIndex": 110
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "28 characters in 0.23s (123/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 6
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "22 characters in 0.89s (25/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 12
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "36 characters in 1.42s (25/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 13
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "17 characters in 0.80s (21/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 14
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "13 characters in 0.20s (65/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 23
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "35 characters in 1.18s (30/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 26
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "23 characters in 0.89s (26/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 27
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "36 characters in 0.98s (37/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 28
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "24 characters in 0.65s (37/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 29
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "23 characters in 0.63s (37/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 30
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "25 characters in 0.68s (37/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 31
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "21 characters in 0.36s (58/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 37
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "9 characters in 0.20s (46/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 51
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "37 characters in 0.81s (46/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 52
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "28 characters in 0.61s (46/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 53
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "14 characters in 0.31s (46/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 54
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "21 characters in 0.46s (46/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 55
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "28 characters in 0.74s (38/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 56
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "31 characters in 1.27s (24/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 58
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "37 characters in 1.63s (23/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 59
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "13 characters in 0.32s (40/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 65
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "5 characters in 0.09s (57/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 91
+    },
+    {
+      "severity": "warning",
+      "code": "sentence.rate_implausible",
+      "message": "11 characters in 0.19s (57/s) is faster than speech; the text and the timeline disagree.",
+      "sentenceIndex": 92
+    }
+  ]
+}

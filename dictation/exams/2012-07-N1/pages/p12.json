@@ -1,0 +1,237 @@
+{
+  "page": 12,
+  "pageLabel": "12",
+  "sectionHeader": "聴解",
+  "blocks": [
+    {
+      "kind": "question",
+      "partNumber": 1,
+      "label": "6番",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "text": "問題2　では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、問題用紙の（1）から（4）の中から、最もよいものを一つ選んでください。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "1番",
+      "choices": [
+        "他にしたい仕事があるから",
+        "働く時間が長いから",
+        "休日出勤が多いから",
+        "上司との関係がよくないから"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "2番",
+      "choices": [
+        "院内学級",
+        "保育園",
+        "農家",
+        "高齢者福祉施設"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "3番",
+      "choices": [
+        "改装工事を行ったから",
+        "掃除のサービスを導入したから",
+        "大幅に販売価格を下げたから",
+        "大々的に広告を打ったから"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "4番",
+      "choices": [
+        "商品の名前を何度も言っているから",
+        "有名な芸能人が出ているから",
+        "お金をかけて作っているから",
+        "内容がおもしろいから"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "5番",
+      "choices": [
+        "木材やガラスなどが落ちていたため",
+        "下り坂で前が見えにくかったため",
+        "信号を無視したため",
+        "運転を誤ったため"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "6番",
+      "choices": [
+        "色のコントラストを生かす",
+        "フラッシュではなく自然の光を使う",
+        "カメラの角度や対象との距離を変える",
+        "対象全体をフレームに入れる"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": "7番",
+      "choices": [
+        "円勝が設計した庭",
+        "建物にほどこされたちょうこく",
+        "円勝がほった仏像",
+        "円勝がかいたびょうぶ絵"
+      ]
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、（1）から（4）の中から、最もよいものを一つ選んでください。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "1番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "2番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "3番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "4番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "5番",
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 3,
+      "label": "6番",
+      "choices": []
+    },
+    {
+      "kind": "part-instruction",
+      "partNumber": 4,
+      "text": "問題4　では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、（1）から（3）の中から、最もよいものを一つ選んでください。"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "1番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "2番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "3番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "4番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "5番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "6番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "7番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "8番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "9番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "10番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "11番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "12番",
+      "choiceCount": 3,
+      "choices": []
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "label": "13番",
+      "choiceCount": 3,
+      "choices": []
+    }
+  ]
+}

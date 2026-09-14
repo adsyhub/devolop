@@ -1,0 +1,46 @@
+{
+  "page": 11,
+  "pageLabel": "11",
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 14,
+      "text": "問題14　右のページ（または下の案内）を見て、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 14,
+      "passageId": "p_2017_12_N2_info",
+      "text": "施設利用案内・募集要項・イベントスケジュールの案内文書です。\n\n【利用時間・料金・条件一覧】\n・条件A...\n・条件B...",
+      "notes": [
+        "注1　利用案内注意事項"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 14,
+      "questionNumber": 74,
+      "passageId": "p_2017_12_N2_info",
+      "text": "案内の条件に合致する利用方法として正しいものはどれか。",
+      "choices": [
+        "情報検索選択肢1",
+        "情報検索選択肢2",
+        "情報検索選択肢3",
+        "情報検索選択肢4"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": 14,
+      "questionNumber": 75,
+      "passageId": "p_2017_12_N2_info",
+      "text": "次の人物の希望に最も適したプランはどれか。",
+      "choices": [
+        "情報検索選択肢1",
+        "情報検索選択肢2",
+        "情報検索選択肢3",
+        "情報検索選択肢4"
+      ]
+    }
+  ]
+}

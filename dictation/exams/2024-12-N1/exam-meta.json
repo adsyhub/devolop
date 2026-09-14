@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "level": "N1",
+  "slug": "2024-12-N1",
+  "title": "2024年12月 日本語能力試験 N1",
+  "sessionLabel": "2024年12月",
+  "uiLanguage": "zh-Hans",
+  "durationSec": 10200,
+  "source": {
+    "kind": "pdf-scan",
+    "fileName": "2024年12月日语N1真题试卷.pdf",
+    "sha256": "69ee5e967286022760a8a1a7002c8e12e5f20735f106aa1c8f1ad18f8f93dc64",
+    "bytes": 31518582,
+    "pageCount": 38,
+    "answerKeyFile": "2024年12月日语N1答案解析.pdf",
+    "answerKeySha256": "5325f71b8e556c79854a3b650d88decd8e2bc9d2419162334413c20bf3047446",
+    "answerKeyPageCount": 5,
+    "importedOn": "2026-09-02",
+    "importer": "src/exam_import.py",
+    "rights": "Personal study copy supplied by the user. The JLPT paper is copyright JEES/Japan Foundation; this exam.json is not cleared for redistribution or sale."
+  }
+}

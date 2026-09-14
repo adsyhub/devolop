@@ -1,0 +1,31 @@
+{
+  "page": 40,
+  "blocks": [
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "",
+      "label": "3番",
+      "choices": [
+        "市の国際係にメールを送る",
+        "市の国際係に履歴書を送る",
+        "説明会に参加する",
+        "活動中の人に関話を聞く"
+      ]
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "",
+      "label": "4番",
+      "choices": [
+        "発表するテーマを決める",
+        "資料を探す",
+        "発表の担当を決める",
+        "インタビューの内容を決める"
+      ]
+    }
+  ],
+  "pageLabel": "3",
+  "issues": []
+}

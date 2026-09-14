@@ -1,0 +1,81 @@
+{
+  "page": 14,
+  "pageLabel": "第13页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 9,
+      "label": null,
+      "text": "問題9　次の（1）から（3）の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "passage",
+      "partNumber": 9,
+      "label": "(1)",
+      "text": "　巷によくある料理本について、私がかねがね不満に思っていたことがある。\n　それは、たとえば炒飯ならば、一、フライパンを熱する。二、大さじ二杯のサラダ油を入れる。三、溶き卵を入れる。……といった感じに書かれていることが多くて、なぜそうするのかが書かれていないのだ。なぜフライパンを熱してから油を入れるのか。なぜ溶き卵をこのタイミングで入れるのか。私は、そういうことが知りたい。型というかマニュアルが欲しいのではなく、その型が生み出された基本原理が知りたいのである。\n　基本原理さえつかめれば、これは他にも広く応用が利くので、後々役立つ度合いが大きい。個別の型だけを学んでも、それは他のことに応用できるのかできないのか判断がつかないし、応用したとしても、その範囲はかなり限定されてしまう。そして何より、ただ誰かの作った型に理由もわからず無自覚なまま従っていること自体が、私にはとても気持ちが悪いのだ。\n　（中略）\n　型というものは、それを考案した人自身に最も必要だったものであって、必ずしもすべての人に有益とは限らない。真に学ぶとは、誰かの型をコピーすることではなく、そこからエッセンスを抽出して、自分に合ったやり方を生み出すことではないだろうか。\n　マニュアルを使うことに慣らされた現代だからこそ、白紙の状態から必要なやり方をその都度見つけ出せるような人間を育てていく必要があるのではないかと、私はいろんな場面で思うのである。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 9,
+      "label": "(1)",
+      "text": "料理本について、筆者が不満に思っていたことは何か。",
+      "questionNumber": 49,
+      "choices": [
+        "なぜ自分とは違う手順なのかがわからないこと",
+        "作り方が丁寧に書かれていないこと",
+        "手順が決められた理由が書かれていないこと",
+        "手順が一つしか書かれていないこと"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 9,
+      "label": "(1)",
+      "text": "型について、筆者はどのように述べているか。",
+      "questionNumber": 50,
+      "choices": [
+        "個人が自由に作ったもので、基本原理をもとに作られたものではない。",
+        "学ぶことはできないので、自分で見つけるしかない。",
+        "作った人には必要なものだが、誰にでも役に立つとは言えない。",
+        "作った人から学べば、誰にでも応用できるものだ。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 9,
+      "label": "(1)",
+      "text": "学ぶことについて、筆者の考えに合うのはどれか。",
+      "questionNumber": 51,
+      "choices": [
+        "基本原理を理解したうえで、自分なりのやり方を発見することが大切だ。",
+        "より多くの型を学び、その中から自分に合ったやり方を探し出すべきだ。",
+        "まず型を身につけ、それを自分に合うように修正していくことが大切だ。",
+        "マニュアルを使うことをやめて、基本原理を自分で考えるべきだ。"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "Passage: the scan prints サラグ油 and フラィパン; transcribed as the intended サラダ油 and フライパン.",
+    "（中略) is printed on its own line inside the passage and is kept as part of the passage text."
+  ]
+}

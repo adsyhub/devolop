@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "description": "2017-12-N2：LLM 逐句校对发现的 ASR 误识别修正 5 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "5e210bf8e05c1ece8cc4326923964962f60a6c89ee07bfef9adeb4cfee1f2c35",
+  "evidence": {
+    "file": "proofread-work/2017-12-N2/proofread.json",
+    "proposedFixes": "proofread-work/2017-12-N2/proposed-fixes.json",
+    "notes": "proofread-work/2017-12-N2/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 84,
+      "endIndex": 84,
+      "expectedStartTime": 552.55,
+      "expectedEndTime": 555.9,
+      "items": [
+        {
+          "startTime": 552.55,
+          "endTime": 555.9,
+          "sourceText": "はい易しい言葉を使うようにしました",
+          "jaText": "はい易しい言葉を使うようにしました"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 90,
+      "endIndex": 90,
+      "expectedStartTime": 616.31,
+      "expectedEndTime": 623.15,
+      "items": [
+        {
+          "startTime": 616.31,
+          "endTime": 623.15,
+          "sourceText": "問題2問題2ではまず質問を聞いてください",
+          "jaText": "問題2問題2ではまず質問を聞いてください"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 141,
+      "endIndex": 141,
+      "expectedStartTime": 1066.55,
+      "expectedEndTime": 1074.58,
+      "items": [
+        {
+          "startTime": 1066.55,
+          "endTime": 1074.58,
+          "sourceText": "リサイクルショップって今の流行じゃないけど、今着てもおしゃれなのいろいろあるでしょ。そういうの見ると買わずにはいられなくて。",
+          "jaText": "リサイクルショップって今の流行じゃないけど、今着てもおしゃれなのいろいろあるでしょ。そういうの見ると買わずにはいられなくて。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 350,
+      "endIndex": 350,
+      "expectedStartTime": 2778.22,
+      "expectedEndTime": 2783.76,
+      "items": [
+        {
+          "startTime": 2778.22,
+          "endTime": 2783.76,
+          "sourceText": "最後の講座4は、海外旅行のための英会話教室",
+          "jaText": "最後の講座4は、海外旅行のための英会話教室"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 366,
+      "endIndex": 366,
+      "expectedStartTime": 2875.75,
+      "expectedEndTime": 2881.3,
+      "items": [
+        {
+          "startTime": 2875.75,
+          "endTime": 2881.3,
+          "sourceText": "問2女の人はどの講座に申し込むと言っていますか",
+          "jaText": "問2女の人はどの講座に申し込むと言っていますか"
+        }
+      ]
+    }
+  ]
+}

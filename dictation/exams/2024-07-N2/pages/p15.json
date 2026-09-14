@@ -1,0 +1,61 @@
+{
+  "page": 15,
+  "blocks": [
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "48"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "そこの紅葉",
+      "questionNumber": 1,
+      "choices": [
+        "そんな紅葉",
+        "そちら",
+        "紅葉"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "49"
+    },
+    {
+      "kind": "question",
+      "partNumber": null,
+      "text": "結局",
+      "questionNumber": 1,
+      "choices": [
+        "確かに",
+        "しかし",
+        "つまり"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": null,
+      "text": "50\n1 始まらないのです\n2 始まらないためです\n3 始まらないのでしょうか\n4 始まらないためでしょうか\n51\n1 感じているからだと思います\n2 感じられるところだと思います\n3 感じさせることができました\n4 感じるようになりました"
+    }
+  ],
+  "pageLabel": "13",
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Choice-looking line with no question open: '1 始まらないのです'",
+    "Choice-looking line with no question open: '2 始まらないためです'",
+    "Choice-looking line with no question open: '3 始まらないのでしょうか'",
+    "Choice-looking line with no question open: '4 始まらないためでしょうか'",
+    "Choice-looking line with no question open: '1 感じているからだと思います'",
+    "Choice-looking line with no question open: '2 感じられるところだと思います'",
+    "Choice-looking line with no question open: '3 感じさせることができました'",
+    "Choice-looking line with no question open: '4 感じるようになりました'"
+  ]
+}

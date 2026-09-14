@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "description": "nhk-news-0010-vBP2WyHad7o：LLM 逐句校对发现的 ASR 误识别修正 3 处。只替换 sourceText，其余字段沿用既有内容。",
+  "sourceSentencesDigest": "e80cf25a41fc29ac0a6d48137ebaac9d62466c5c4aaf8b506cb36b77154931f1",
+  "evidence": {
+    "file": "proofread-work/nhk-news-0010-vBP2WyHad7o/proofread.json",
+    "proposedFixes": "proofread-work/nhk-news-0010-vBP2WyHad7o/proposed-fixes.json",
+    "notes": "proofread-work/nhk-news-0010-vBP2WyHad7o/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 0,
+      "endIndex": 0,
+      "expectedStartTime": 0.16,
+      "expectedEndTime": 1.06,
+      "items": [
+        {
+          "startTime": 0.16,
+          "endTime": 1.06,
+          "sourceText": "元が日本に攻めった際に使っていた矢の一部で",
+          "jaText": "元が日本に攻めった際に使っていた矢の一部で"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 2,
+      "endIndex": 2,
+      "expectedStartTime": 2.26,
+      "expectedEndTime": 3.267,
+      "items": [
+        {
+          "startTime": 2.26,
+          "endTime": 3.267,
+          "sourceText": "元寇で使用したのではないかと指摘しています。",
+          "jaText": "元寇で使用したのではないかと指摘しています。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 3,
+      "endIndex": 3,
+      "expectedStartTime": 11.48,
+      "expectedEndTime": 13.176,
+      "items": [
+        {
+          "startTime": 11.48,
+          "endTime": 13.176,
+          "sourceText": "重要文化財の大発見ですね。",
+          "jaText": "重要文化財の大発見ですね。"
+        }
+      ]
+    }
+  ]
+}

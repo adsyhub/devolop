@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "description": "2020-12-N1：LLM 逐句校对发现的 ASR 误识别修正 7 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "b303776352ef5237dec7ff40b737a39a9a5d78ea3d373f654893c3662365ee0a",
+  "evidence": {
+    "file": "proofread-work/2020-12-N1/proofread.json",
+    "proposedFixes": "proofread-work/2020-12-N1/proposed-fixes.json",
+    "notes": "proofread-work/2020-12-N1/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 0,
+      "endIndex": 0,
+      "expectedStartTime": 18.78,
+      "expectedEndTime": 23.82,
+      "items": [
+        {
+          "startTime": 18.78,
+          "endTime": 23.82,
+          "sourceText": "問題用紙の1から4の中から最も良いものを",
+          "jaText": "問題用紙の1から4の中から最も良いものを"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 97,
+      "endIndex": 97,
+      "expectedStartTime": 1402.62,
+      "expectedEndTime": 1410.53,
+      "items": [
+        {
+          "startTime": 1402.62,
+          "endTime": 1410.53,
+          "sourceText": "家電や携帯の部品から金や希少金属を取り出して再利用してるんだって",
+          "jaText": "家電や携帯の部品から金や希少金属を取り出して再利用してるんだって"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 100,
+      "endIndex": 100,
+      "expectedStartTime": 1414.93,
+      "expectedEndTime": 1418.55,
+      "items": [
+        {
+          "startTime": 1414.93,
+          "endTime": 1418.55,
+          "sourceText": "廃家電全体では莫大な量の金属になるらしいね",
+          "jaText": "廃家電全体では莫大な量の金属になるらしいね"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 179,
+      "endIndex": 179,
+      "expectedStartTime": 2051.33,
+      "expectedEndTime": 2063.28,
+      "items": [
+        {
+          "startTime": 2051.33,
+          "endTime": 2063.28,
+          "sourceText": "異議を唱える人たちがただ反論するばっかりで、じゃあ実際にどうしたらいいかっていうところで言わないから、話が集約されていかない感じかな。",
+          "jaText": "異議を唱える人たちがただ反論するばっかりで、じゃあ実際にどうしたらいいかっていうところで言わないから、話が集約されていかない感じかな。"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 207,
+      "endIndex": 207,
+      "expectedStartTime": 2230.0,
+      "expectedEndTime": 2231.77,
+      "items": [
+        {
+          "startTime": 2230.0,
+          "endTime": 2231.77,
+          "sourceText": "3つの種類がありますが",
+          "jaText": "3つの種類がありますが"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 232,
+      "endIndex": 232,
+      "expectedStartTime": 2365.77,
+      "expectedEndTime": 2372.56,
+      "items": [
+        {
+          "startTime": 2365.77,
+          "endTime": 2372.56,
+          "sourceText": "病院で芸術に触れる機会を作る心に",
+          "jaText": "病院で芸術に触れる機会を作る心に"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 239,
+      "endIndex": 239,
+      "expectedStartTime": 2429.22,
+      "expectedEndTime": 2432.52,
+      "items": [
+        {
+          "startTime": 2429.22,
+          "endTime": 2432.52,
+          "sourceText": "その真偽が定かではないものがたくさんあります",
+          "jaText": "その真偽が定かではないものがたくさんあります"
+        }
+      ]
+    }
+  ]
+}

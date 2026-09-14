@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "level": "N2",
+  "slug": "2011-12-N2",
+  "title": "2011年12月 日本語能力試験 N2",
+  "sessionLabel": "2011年12月",
+  "durationSec": 10800,
+  "source": {
+    "fileName": "N2 2011年12月真题+答案+详解+听力原文.pdf",
+    "sha256": "fd40208460def29b444d301d3df8b60ed57fd8b236efb692af675437a7ea4585",
+    "bytes": 3541508,
+    "pageCount": 32
+  },
+  "listeningMedia": {
+    "kind": "course-audio",
+    "courseSlug": "2011-12-N2",
+    "expectedSha256": "769d97284da5b211d8e40b72352ac19801fac9e2a9442673b1c2f8b20cc5a0cf",
+    "expectedBytes": 22053289
+  }
+}

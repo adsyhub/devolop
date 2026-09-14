@@ -1,0 +1,41 @@
+{
+  "page": 4,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 3,
+      "text": "問題3　の言葉に意味が最も近いものを 1・2・3・4 から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 3,
+      "text": "14 社長は小林部長の手腕を高く評価しているようだ。\n1 経験\n2 能力\n3 考え\n4 人柄\n15 時間をロスしてしまった。\n1 間違えて\n2 無駄にして\n3 かいて\n4 延長して\n16 確認がおろそかになっていた。\n1 めんどうくさ\n2 困難に\n3 遅く\n4 いいかげん\n17 私たちのチームの目下の目標は、市の大会で優勝することだ。\n1 最大\n2 将来\n3 今\n4 最低限\n18 経費を考慮したうえで、古いアパートの改修工事を請け負うことになった。\n1 引き受ける\n2 申し込む\n3 断る\n4 諦める\n19 先生に本を進呈しました。\n1 差し上げました\n2 いただきました\n3 お貸ししました\n4 お借りしました"
+    }
+  ],
+  "issues": [
+    "Choice-looking line with no question open: '1 経験'",
+    "Choice-looking line with no question open: '2 能力'",
+    "Choice-looking line with no question open: '3 考え'",
+    "Choice-looking line with no question open: '4 人柄'",
+    "Choice-looking line with no question open: '1 間違えて'",
+    "Choice-looking line with no question open: '2 無駄にして'",
+    "Choice-looking line with no question open: '3 かいて'",
+    "Choice-looking line with no question open: '4 延長して'",
+    "Choice-looking line with no question open: '1 めんどうくさ'",
+    "Choice-looking line with no question open: '2 困難に'",
+    "Choice-looking line with no question open: '3 遅く'",
+    "Choice-looking line with no question open: '4 いいかげん'",
+    "Choice-looking line with no question open: '1 最大'",
+    "Choice-looking line with no question open: '2 将来'",
+    "Choice-looking line with no question open: '3 今'",
+    "Choice-looking line with no question open: '4 最低限'",
+    "Choice-looking line with no question open: '1 引き受ける'",
+    "Choice-looking line with no question open: '2 申し込む'",
+    "Choice-looking line with no question open: '3 断る'",
+    "Choice-looking line with no question open: '4 諦める'",
+    "Choice-looking line with no question open: '1 差し上げました'",
+    "Choice-looking line with no question open: '2 いただきました'",
+    "Choice-looking line with no question open: '3 お貸ししました'",
+    "Choice-looking line with no question open: '4 お借りしました'"
+  ]
+}

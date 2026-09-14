@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "description": "2012-12-N2：LLM 逐句校对发现的 ASR 误识别修正 2 处。只替换 sourceText，翻译与讲解沿用既有人工内容。",
+  "sourceSentencesDigest": "2d8f3be0014958ab7b88834a5438b34c70750d67f95ce3e7b18fa02ae374e1d0",
+  "evidence": {
+    "file": "proofread-work/2012-12-N2/proofread.json",
+    "proposedFixes": "proofread-work/2012-12-N2/proposed-fixes.json",
+    "notes": "proofread-work/2012-12-N2/notes.md",
+    "reviewer": "llm-agent",
+    "audioListened": false,
+    "criteria": "confidence=high 且类别为 homophone/proper_noun/number_unit，上下文唯一确定"
+  },
+  "operations": [
+    {
+      "type": "replace_range",
+      "startIndex": 191,
+      "endIndex": 191,
+      "expectedStartTime": 1425.04,
+      "expectedEndTime": 1426.16,
+      "items": [
+        {
+          "startTime": 1425.04,
+          "endTime": 1426.16,
+          "sourceText": "世魚の種類",
+          "jaText": "世魚の種類"
+        }
+      ]
+    },
+    {
+      "type": "replace_range",
+      "startIndex": 211,
+      "endIndex": 211,
+      "expectedStartTime": 1558.01,
+      "expectedEndTime": 1563.31,
+      "items": [
+        {
+          "startTime": 1558.01,
+          "endTime": 1563.31,
+          "sourceText": "そこで今回所属する課や仕事内容を問わず",
+          "jaText": "そこで今回所属する課や仕事内容を問わず"
+        }
+      ]
+    }
+  ]
+}

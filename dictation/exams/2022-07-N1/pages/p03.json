@@ -1,0 +1,138 @@
+{
+  "page": 3,
+  "pageLabel": "第2页",
+  "sectionHeader": null,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 2,
+      "label": null,
+      "text": "問題２（　　）に入れるのに最もよいあのを、1・2・3・4から一つ選びなさい。",
+      "questionNumber": null,
+      "choices": null,
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": null,
+      "text": "子どもたちは（　　）リズムに合わせ、手をたたいたり、踊ったりした。",
+      "questionNumber": 7,
+      "choices": [
+        "手軽な",
+        "軽率な",
+        "気軽な",
+        "軽快な"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": null,
+      "text": "予習、授業、復習という（　　）を繰り返すことで、知識の定着を図る。",
+      "questionNumber": 8,
+      "choices": [
+        "ピッチ",
+        "サイクル",
+        "シフト",
+        "ベース"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": null,
+      "text": "当事者間では紛争が解決できず、第三者が（　　）に入った。",
+      "questionNumber": 9,
+      "choices": [
+        "代行",
+        "仲裁",
+        "干渉",
+        "媒介"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": null,
+      "text": "そのいたずらは息子の（　　）に違いない。",
+      "questionNumber": 10,
+      "choices": [
+        "しわざ",
+        "そぶり",
+        "腕まえ",
+        "扱い"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": null,
+      "text": "完成間際のマンションに欠陥があることが（　　）して、工事が中止された。",
+      "questionNumber": 11,
+      "choices": [
+        "発覚",
+        "派生",
+        "波及",
+        "露出"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": null,
+      "text": "この温泉には肌にいい成分が含まれているので、入浴後は肌が（　　）になります。",
+      "questionNumber": 12,
+      "choices": [
+        "ざらざら",
+        "ねばねば",
+        "すべすべ",
+        "ごつごつ"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    },
+    {
+      "kind": "question",
+      "partNumber": 2,
+      "label": null,
+      "text": "議論が（　　）、話し合いは平行線をたどった。",
+      "questionNumber": 13,
+      "choices": [
+        "掛け合わなくて",
+        "張り合わなくて",
+        "かみ合わなくて",
+        "釣り合わなくて"
+      ],
+      "vertical": false,
+      "continuesFromPreviousPage": false,
+      "continuesOnNextPage": false
+    }
+  ],
+  "issues": [
+    "問題2 の指示文は、印刷されたまま「最もよいあのを」と転記した。通常の JLPT では「最もよいものを」だが、拡大確認したところ確かに「あ」が印刷されている（原本の誤植と思われる）。",
+    "問題2 指示文の選択肢番号の区切り: 「1」の直後の点だけがベースライン寄りの小さな点（ピリオド状）に見え、以降は中点。スキャン/フォントの影響と判断し、すべて中点「・」で統一して転記した。",
+    "本文中の（　　）の空白幅は行ごとに異なるが、すべて全角スペース2個の（　　）に正規化した。",
+    "問13の設問番号は原本では「7、」「8、」のように読点で区切られている（「7．」ではない）。番号自体は questionNumber に入れ、text には含めていない。",
+    "問12は組版上「ので、」の後に余分な空きがあり、また「なります。」で折り返しているが、いずれも段落の途中とみなして1文につないだ。",
+    "このページに透かし（帝京日语等）は見当たらなかった。ページ下部のラベルは「第2页」。"
+  ]
+}

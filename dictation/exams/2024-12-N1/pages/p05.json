@@ -1,0 +1,113 @@
+{
+  "page": 5,
+  "blocks": [
+    {
+      "kind": "part-instruction",
+      "partNumber": 4,
+      "text": "問題4　次の言葉の使い方として、最もよいものを 1・2・3・4 から一つ選びなさい。"
+    },
+    {
+      "kind": "passage",
+      "partNumber": 4,
+      "text": "<u>加工</u>"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "text": "食事や運動などを生活習慣に加工するような医師からアドバイスを受けた。",
+      "questionNumber": 1,
+      "choices": [
+        "このお店では、余った木材を加工した商品を販売している。",
+        "両親は古い民家をう安く購入して加工して、民宿に加工した。",
+        "就職規則の一部を加工することにした。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 4,
+      "text": "<u>養う</u>"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "text": "息子が近くの公園で虫を捕まえてきたので、家で養うことにした。",
+      "questionNumber": 1,
+      "choices": [
+        "部屋のベテランで植物を養うためにお店で鉢と土を買った。",
+        "売り上げを伸ばし、自分の会社を養ってきた。",
+        "会社を経営しながら3人の子どもを養っている。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 4,
+      "text": "<u>資質</u>"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "text": "携帯電話のカメラの資質は日に日に向上している。",
+      "questionNumber": 1,
+      "choices": [
+        "この動物は、見た目は可愛らしいが、資質は荒いので注意が必要だ。",
+        "会社で製品の資質を管理する仕事をしている。",
+        "森さんは身体能力が高く、陸上選手としての資質に恵まれている。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 4,
+      "text": "<u>正当</u>"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "text": "説明書を見て正当な組み立てたのに、部品が一つ余った。",
+      "questionNumber": 1,
+      "choices": [
+        "「まる」はニックネームで、私の正当な名前は「丸山」です。",
+        "その画家は、若いころには正当な評価を受けていなかった。",
+        "トンネルの建設工事は大きな遅れもなく、正当に進んでいる。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "partNumber": 4,
+      "text": "<u>ありきたり</u>"
+    },
+    {
+      "kind": "question",
+      "partNumber": 4,
+      "text": "あの町はにコンビニがありきたりで、とても便利だ。",
+      "questionNumber": 1,
+      "choices": [
+        "その小説のストーリーはありきたりで、つまらなかった。",
+        "困っている人がいたら助けるのは、ありきたりのことだ。",
+        "ありきたりの方は入場料1000円となっています。"
+      ]
+    }
+  ],
+  "pageLabel": "4",
+  "issues": [
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image.",
+    "Q1: choice numbered 2 arrived at position 1; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 3 arrived at position 2; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: choice numbered 4 arrived at position 3; the printed numbering may be wrong or a choice was dropped.",
+    "Q1: 3 choices transcribed, expected 4. Check the page image."
+  ]
+}
